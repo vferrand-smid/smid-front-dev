@@ -1,0 +1,35 @@
+{
+  "NavBar": {
+
+  },
+  "Bloc1" : {
+    "girl" : "/images/girl.png",
+    "background" : "/images/background 1.png"
+  },
+  "Bloc4" : {
+    "nos_medias" : "Nuestros medios",
+    "nos_partenaires" : "Nuestros socios"
+  },
+  "Bloc7": {
+    "titre_bloc7_1" : "La solución",
+    "titre_bloc7_2" : "para solicitudes de documentos oficiales"
+  },
+  "Bloc8": {
+    "titre_bloc8_1" : "Cómo",
+    "titre_bloc8_2" : "su foto de identidad"
+  },
+  "Footer": {
+    "partie2-button": "Tomar la foto",
+    "partie2-p": "Descubra la información más reciente sobre documentos de identidad y visas.",
+    "SiteMapList-blog" : "Blog",
+    "SiteMapList-propos" : "Sobre nosotros",
+    "SiteMapList-faq" : "FAQ",
+    "SiteMapList-contact" : "Contacto",
+    "applis-h3": "Descargar la aplicación",
+    "applis-p":  "Siga sus pedidos y disfrute de aún más funcionalidades con la aplicación Smartphone iD.",
+    "mentions-confidentialité": "Política de privacidad",
+    "mentions-cgu": "Términos y condiciones de uso",
+    "mentions-légales": "Aviso legal"
+  }
+}
+

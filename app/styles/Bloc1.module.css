@@ -1,0 +1,110 @@
+.kalHero {
+    @apply object-cover bg-cover max-h-[537px] bg-center bg-no-repeat w-full flex items-center
+    justify-between relative py-32 px-24;
+}
+
+.kalHeroContent {
+    @apply max-w-[1140px] relative flex flex-col justify-center;
+}
+
+.kalHeroContentH1 {
+    @apply font-semibold uppercase text-black text-3xl leading-normal mb-8;
+}
+
+.bloc1Partie1 {
+
+}
+
+.repeteurCheckGreenBloc1 {
+    @apply flex gap-2.5 text-black mb-2.5 text-3xl not-italic font-semibold leading-10 items-baseline;
+}
+
+.repeteurCheckGreenBloc1Img {
+    @apply w-6 h-6 flex-shrink-0;
+}
+
+.bloc1Partie1H4 {
+    @apply text-2xl mb-3 text-black;
+}
+
+.kalHeroAside {
+    @apply flex gap-10 mt-5 mb-10;
+}
+
+.bloc1RepeteurWhite {
+    @apply flex gap-2.5 mt-8;
+}
+
+.repeteurCheckWhiteBloc1 {
+    @apply flex items-center bg-gray-200 px-4 py-2 text-black text-sm font-normal leading-normal shadow-md rounded-[20px];
+}
+
+.repeteurCheckWhiteBloc1Div1 {
+    @apply flex-shrink-0;
+}
+
+.repeteurCheckWhiteBloc1Img {
+    @apply w-8 h-8;
+}
+
+.repeteurCheckWhiteBloc1Div2 {
+    @apply ml-2 whitespace-nowrap;
+}
+
+.repeteurCheckWhiteBloc1H4 {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kalSearch {
+    @apply m-5;
+}
+
+.girl {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    z-index: 0;
+}
+
+@media (max-width: 1600px) {
+    .girl {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .girl {
+        width: 30%;
+    }
+}
+
+@media (max-width: 900px) {
+    .girl {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .girl {
+        width: 70%;
+    }
+}
+
+.girlDiv {
+    @apply relative w-full h-auto overflow-hidden;
+}
+
+.girlImg {
+
+    padding-bottom: 0;
+}
+

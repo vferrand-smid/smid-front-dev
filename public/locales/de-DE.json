@@ -1,0 +1,35 @@
+{
+  "NavBar": {
+
+  },
+  "Bloc1" : {
+    "girl" : "/images/girl.png",
+    "background" : "/images/background 1.png"
+  },
+  "Bloc4" : {
+    "nos_medias" : "Unsere Medien",
+    "nos_partenaires" : "Unsere Partner"
+  },
+  "Bloc7": {
+    "titre_bloc7_1" : "Die Lösung",
+    "titre_bloc7_2" : "für Anfragen nach offiziellen Dokumenten"
+  },
+  "Bloc8": {
+    "titre_bloc8_1" : "Wie",
+    "titre_bloc8_2" : "sein Passfoto"
+  },
+  "Footer": {
+    "partie2-button": "Das Foto machen",
+    "partie2-p": "Erfahren Sie die neuesten Informationen zu Ausweisdokumenten und Visa.",
+    "SiteMapList-blog" : "Blog",
+    "SiteMapList-propos" : "Über uns",
+    "SiteMapList-faq" : "FAQ",
+    "SiteMapList-contact" : "Kontakt",
+    "applis-h3": "Laden Sie die App herunter",
+    "applis-p":  "Verfolgen Sie Ihre Bestellungen und genießen Sie noch mehr Funktionen mit der Smartphone iD-App.",
+    "mentions-confidentialité": "Datenschutzrichtlinie",
+    "mentions-cgu": "Allgemeine Nutzungsbedingungen",
+    "mentions-légales": "Impressum"
+  }
+}
+

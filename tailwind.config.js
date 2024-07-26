@@ -7,8 +7,16 @@ module.exports = {
     ],
     theme: {
         extend: {
+            zIndex: {
+                '12': '12',
+            },
             colors: {
-                primary: "#2FC977",
+                'gris': "#1e1e1e",
+                'primary': "#2FC977",
+            },
+
+            fontFamily: {
+                sans: ['Georama', 'sans-serif'],
             },
         },
 

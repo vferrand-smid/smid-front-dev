@@ -1,10 +1,6 @@
 import "./globals.css";
-import {Rubik} from "next/font/google";
-
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
-const rubik = Rubik({subsets: ["latin"]});
 
 export const metadata = {
     title: "Headless WordPress Example",
@@ -14,20 +10,25 @@ export const metadata = {
 export default function RootLayout({children}) {
 
     return (
+
         <html>
-        <body className={rubik.className}>
+        <body>
 
-        {children}
+            <main>
 
-        <header>
-            <Navbar/>
-        </header>
+                <header>
+                <Navbar/>
+            </header>
 
-        <footer>
-           {/* <Footer/>*/}
-        </footer>
+                {children}
+
+
+                <footer>
+                    <Footer/>
+                </footer>
+            </main>
+
         </body>
-
         </html>
     );
 };

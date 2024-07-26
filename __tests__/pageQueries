@@ -1,0 +1,28 @@
+// pageQueries.test.js
+import getPages from '../app/lib/pageQueries';
+
+describe('getPages', () => {
+    it('should fetch pages for locale fr-FR', async () => {
+        process.env.WORDPRESS_API_URL = 'https://smidbackdev.34-78-133-45.plesk.page/graphql';
+        const pages = await getPages('fr-FR');
+        console.log('Pages for fr-FR:', pages);
+        expect(pages).toBeDefined();
+        expect(pages.length).toBeGreaterThan(0);
+    });
+
+    it('should fetch pages for locale en-GB', async () => {
+        process.env.WORDPRESS_API_URL = 'https://smidbackdev.34-78-133-45.plesk.page/graphql';
+        const pages = await getPages('en-GB');
+        console.log('Pages for en-GB:', pages);
+        expect(pages).toBeDefined();
+        expect(pages.length).toBeGreaterThan(0);
+    });
+
+    it('should fetch pages for locale es-ES', async () => {
+        process.env.WORDPRESS_API_URL = 'https://smidbackdev.34-78-133-45.plesk.page/graphql';
+        const pages = await getPages('es-ES');
+        console.log('Pages for es-ES:', pages);
+        expect(pages).toBeDefined();
+        expect(pages.length).toBeGreaterThan(0);
+    });
+});

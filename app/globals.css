@@ -1,28 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* base styles */
+
+@layer components {
+    .button-photo {
+        @apply bg-black text-white text-center font-semibold text-lg rounded-full px-6 py-4 cursor-pointer;
+    }
+
+    .disabled {
+        @apply opacity-50 pointer-events-none cursor-not-allowed;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: #ebf0fa;
-    @apply text-gray-500 mt-48;
+    @apply w-full;
+}
+
+body > main {
+    @apply pt-16 bg-gray-100;
 }
 
 /* Barre de navigation*/
 header {
-    @apply bg-white
-        /* En cas de chevauchement détermine la position de l'élément par rapport à l'ensemble: ici la navbar sera toujours au dessus du reste */
-    z-50 fixed top-0 w-full
-    shadow;
-}
-
-nav {
-    @apply
-    bg-white m-4;
+    @apply bg-white z-50 fixed top-0 w-full shadow;
 }
 
 .mobile-menu {
     @apply md:hidden flex items-center;
+}
+
+.navLogo {
+    width: 143px;
+    height: 23px;
 }
 
 .btn-menu {
@@ -35,133 +53,956 @@ nav {
     @apply p-2 grid;
 }
 
-/* card styles */
-.card {
-    @apply bg-white
-    shadow-sm
-    rounded-md
-    py-3 px-4 mx-8 my-4
-    relative
-    overflow-hidden;
-}
+/* BLOC1 */
 
-.card h3 {
-    @apply font-bold text-gray-700 text-sm
-    mb-0;
-}
-
-.card p {
-    @apply my-4 text-sm leading-6;
-}
-
-/* pageDaccueil */
-
-.pageDaccueil {
-    @apply m-28;
+.bloc1 {
+    @apply bg-white object-cover bg-cover bg-center bg-no-repeat min-h-[500px];
 }
 
 
+/* BLOC2 */
 
-/* FOOTER */
+.bloc2 {
+    background-color: #FFF; /* Fond blanc */
+    padding: 20px 0; /* Espacement vertical */
+    border-top: 1px solid #d1d5db; /* Bordure supérieure */
+    border-bottom: 1px solid #d1d5db; /* Bordure inférieure */
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    /*height: 107px;*/
+}
+
+.bloc2 > .container {
+    display: flex;
+    flex-direction: row; /* Empile les éléments verticalement */
+    justify-content: center; /* Espace entre les éléments */
+    align-items: center;
+    width: 100%; /* Utilise toute la largeur disponible */
+padding: 0 20px;
+    gap: 10px;
+}
+
+.repeteur_bloc2 {
+    display: flex;
+    align-items: center; /* Aligne les éléments horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    flex: 1; /* Les éléments prennent la même largeur */
+    margin: 0 10px; /* Espacement vertical */
+    position: relative; /* Nécessaire pour positionner le séparateur */
+    text-align: center; /* Texte aligné au centre */
+
+}
+
+.repeteur_bloc2_img {
+    max-width: 100%; /* Limite la largeur de l'image à celle du conteneur */
+    max-height: 100%; /* Limite la hauteur de l'image à celle du conteneur */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Assure que l'image est contenue dans le conteneur sans être déformée */
+}
+
+
+.repeteur_bloc2_img_container {
+    display: flex;
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center; /* Centre l'image verticalement */
+    max-width: 100%; /* Le conteneur ne doit pas dépasser de la section */
+    max-height: 100%; /* Le conteneur ne doit pas dépasser de la section */
+
+}
+
+.repeteur_bloc2_text {
+    font-size: 15px; /* Taille de la police du texte */
+    color: #000; /* Couleur du texte */
+    margin-left: 20px; /* Espacement entre le texte et l'image */
+    text-align: center; /* Texte aligné au centre */
+}
+
+.repeteur_bloc2_text > h4 {
+    width: 280px;
+}
+
+.separator {
+    width: 2px;
+    height: 50px;
+    background-color: #d1d5db; /* Couleur du séparateur */
+    position: absolute;
+    right: -20px; /* Position à droite du conteneur */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.repeteur_bloc2:not(:last-child) .separator {
+    display: block; /* Affiche le séparateur sauf pour le dernier élément */
+}
+
+
+/* BLOC3 */
+
+.bloc3{
+    background: url("https://www.smartphone-id.com/wp-content/uploads/2023/06/BG-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 50px;
+}
+
+.container {
+    @apply mx-auto p-10 bg-cover bg-no-repeat;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.content{
+    @apply  max-w-screen-lg mx-auto;
+}
+
+.title {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+}
+
+.highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.grid-containt {
+    @apply grid grid-cols-2 gap-8;
+}
+
+
+.carousel-wrapper {
+    @apply relative;
+}
+
+.photo-carousel {
+@apply  flex overflow-hidden rounded-lg;
+}
+
+.carousel-indicator{
+   @apply flex justify-center items-center gap-5 mt-5;
+}
+
+.carousel-btn {
+    @apply  w-8 h-8 rounded-md flex items-center justify-center bg-white shadow-md;
+}
+
+.selected {
+    background-color: rgba(47, 201, 119, 1) !important;
+}
+
+.right{
+    @apply flex;
+}
+.benefits {
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    background: #efefef;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.benefit-image {
+    width: 143px;
+    height: 90px;
+    margin: 15px;
+}
+
+.benefit-details{
+    @apply flex;
+}
+
+/* BLOC4 */
+
+.bloc4 {
+    @apply bg-pink-300 relative m-0 p-0;
+}
+
+.kal-testimonials {
+    background: white;
+    padding: 80px 50px;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.kal-testimonials > h2 {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.kal-testimonials > div {
+    margin-bottom: 40px;
+}
+
+.kal-testimonials-carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kal-testimonials-carousel-btn nav{
+    z-index: 3;
+    position: relative;
+}
+
+.kal-testimonials-carousel {
+    flex: 1;
+    max-width: 1140px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3));
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    z-index: 2;
+    position: relative;
+}
+
+.kal-testimonials-card{
+    padding: 20px;
+}
+
+.kal-testimonials-card > div {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 24px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.kal-testimonials-card > div > h4 {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 173.333% */
+    margin-top: 8px;
+    min-height: 26px;
+}
+
+.kal-testimonials-card > div > p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+}
+
+.kal-testimonials-background {
+    position: absolute;
+    height: 200px;
+    background-color: rgba(234, 250, 241, 1);
+    width: 100vw;
+    left: 0;
+    top: 25%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.kal-testimonials-media-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    margin: auto;
+    gap: 30px;
+}
+
+.kal-testimonials-media-wrapper > h3 {
+color: #000;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-left: 16px;
+border-left: 4px solid rgba(47, 201, 119, 1);
+height: 52px;
+display: flex;
+align-items: center;
+width: 180px;
+}
+
+.kal-testimonials-carousel-wrapper nav {
+    z-index: 3;
+    position: relative;
+}
+
+.kal-testimonials-media, .kal-testimonials-partner {
+        flex: 1;
+        max-width: 1140px;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 5));
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        z-index: 2;
+        position: relative;
+    }
+
+.kal-testimonials-media > *, .kal-testimonials-partner > * {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #4c4c4c;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.kal-testimonials-media img, .kal-testimonials-partner img {
+    object-fit: contain;
+    width: 80%;
+    aspect-ratio: 1;
+}
+
+.kal-testimonials-partner-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    margin: auto;
+    gap: 30px;
+}
+
+.kal-testimonials-partner-wrapper > h3 {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 16px;
+    border-left: 4px solid rgba(47, 201, 119, 1);
+    height: 52px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+.kal-testimonials-partner-wrapper nav{
+    z-index: 3;
+    position: relative;
+}
+
+
+/* BLOC7 */
+
+.kal-solution {
+    background: white;
+    padding: 80px 50px;
+    padding-top: 0;
+}
+
+.kal-solution > div {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.kal-solution > div > h2 {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+}
+
+.kal-solution-container {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.kal-solution-container > div {
+    flex: 1;
+    min-height: 100px;
+}
+
+.kal-solution-container > div > section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px auto;
+    margin-top: 26px;
+}
+
+.kal-solution-container > div > aside {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    max-width: 350px;
+    margin: auto;
+}
+
+.kal-solution-container > div > div {
+    aspect-ratio:16/9;
+    border-radius:20px;
+    overflow: hidden;
+    background-color: #efefef;
+    padding: 10px;
+}
+
+.kal-solution-container > div > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+}
+
+.kal-tuto-content-item img {
+    width: 20px;
+    height: 20px;
+}
+
+/* BLOC8 */
+
+.kal-tuto {
+    background: #eafaf1;
+    padding: 80px 50px;
+}
+
+.kal-tuto > div {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.kal-tuto h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+}
+
+.kal-tuto-container {
+    display: flex;
+    gap: 40px;
+}
+
+.kal-tuto-iframe {
+    min-height: 300px;
+    background-color: black;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.iframe {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    border: none;
+}
+
+.kal-tuto-content {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.15);
+    padding: 35px 40px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.kal-tuto-content h4 {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.kal-tuto-content-item {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.kal-tuto-content-item > div {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    width: fit-content;
+}
+
+.kal-tuto-content-item > div > img {
+    flex-shrink: 0;
+    flex-grow: 0;
+    position: relative;
+    top: 2px;
+}
+
+.number {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.kal-tuto-content-item > div > p > strong {
+    display: block;
+}
+
+.tuto-link {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kal-tuto-button {
+    display: block;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #4c4c4c;
+    padding: 10px 30px;
+    margin: 32px auto 16px auto;
+    color: #4c4c4c;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: fit-content;
+}
+
+.kal-tuto > div {
+    max-width: 1140px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .kal-tuto-container {
+        flex-direction: column;
+    }
+    .kal-tuto-iframe {
+        min-height: auto;
+        aspect-ratio: 16/9;
+    }
+    .kal-tuto-content-item {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .kal-tuto-content-item > div strong {
+        display: inline;
+    }
+}
+@media screen and (max-width: 600px) {
+    .kal-tuto {
+        padding: 80px 20px;
+    }
+    .kal-tuto-content {
+        padding: 35px 20px;
+        border-radius: 10px;
+    }
+    .kal-tuto-iframe {
+        aspect-ratio: 16/11;
+    }
+}
+
+/* BLOC9 */
+
+/*.kal-accordion {
+    background: url("https://www.smartphone-id.com/wp-content/uploads/2023/06/BG-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 50px;
+}
+
+.kal-accordion > div {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.kal-accordion > div > h3 {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; !* 156.25% *!
+    margin-bottom: 30px;
+}
+
+.kal-accordion > div > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.kal-accordion-select {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kal-accordion-select > div {
+    border-radius: 10px;
+    border: 2px solid #efefef;
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 24px 30px 24px 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kal-accordion-select > div > svg {
+    color: #a6a6a6;
+}
+
+.kal-accordion-select > section {
+    display: none;
+}
+
+.kal-accordion-select-active {
+    border: 2px solid #2fc977 !important;
+}
+
+.kal-accordion-select-active > svg {
+    color: #2fc977 !important;
+}
+
+.kal-accordion-render {
+    border-radius: 10px;
+    border: 3px solid #efefef;
+    background: #fff;
+    padding: 24px 30px;
+}
+
+.kal-accordion-render-hide {
+    display: none;
+}
+
+.kal-accordion-hide-desktop {
+    display: none;
+    overflow: hidden;
+}
+
+.kal-accordion-render-mobile {
+    padding: 0 30px;
+    margin: 0;
+    border: 0;
+    max-height: 0;
+    transition: all 0.2s;
+}
+
+.kal-accordion-render-mobile-active {
+    border-radius: 10px;
+    border: 3px solid #efefef;
+    background: #fff;
+    padding: 24px 30px;
+    max-height: fit-content;
+}
+
+.kal-accordion-render-mobile > main,
+.kal-accordion-render > div > main {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.kal-accordion-item-active svg > :nth-child(2) {
+    display: none;
+}
+
+.kal-accordion-item-active svg {
+    color: #2fc977 !important;
+}
+
+.kal-accordion-render-mobile svg,
+.kal-accordion-render svg {
+    color: #a6a6a6;
+    transition: all 0.2s;
+}
+
+.kal-accordion-render-mobile > aside > *,
+.kal-accordion-render > div > aside > * {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; !* 173.333% *!
+}
+
+.accordion:after {
+    content: "\02795"; !* Unicode character for "plus" sign (+) *!
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.kal-accordion-item-active {
+    font-weight: 600 !important;
+}
+.kal-accordion-item-active-aside {
+    padding: 18px 0;
+    border-bottom: 2px solid #efefef;
+    margin-bottom: 20px;
+    max-height: fit-content !important;
+}
+
+!* Style the accordion panel. Note: hidden by default *!
+.kal-accordion-render-mobile > aside,
+.kal-accordion-render > div > aside {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+}
+
+
+!*   ==========================================================   *!
+
+
+
+@media screen and (max-width: 900px) {
+    .kal-accordion-render {
+        display: none;
+    }
+    .kal-accordion-select > section {
+        display: block;
+    }
+    .kal-accordion > div > div {
+        grid-template-columns: 1fr;
+    }
+    .kal-accordion-hide-desktop {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .kal-accordion {
+        padding: 80px 20px;
+    }
+}*/
+
+    /* FOOTER */
+
 
 footer {
-    @apply fixed z-0 bottom-0 w-full;
+    @apply w-full text-white bg-gris;
 }
 
-.footerLogo img{
-    @apply justify-self-center ;
+.before-footer-wrap {
+    @apply bg-gris py-12 h-[165px];
 }
 
-.footerLogo a{
-    @apply md:justify-center ;
+.columns-3 {
+    @apply flex justify-center;
+}
+
+.column {
+    @apply flex-1;
+}
+
+.footerLogo {
+    @apply text-center flex items-center justify-between py-4;
 }
 
 .menuLangue {
-    @apply grid;
+    @apply flex w-[380px] h-8 self-center relative rounded-md;
 }
 
-.menuLangue button {
-    @apply m-4 bg-primary text-white justify-self-center rounded-3xl p-2;
+.menuLangue-button {
+    @apply bg-white static rounded-md text-black items-center cursor-pointer
+    flex justify-start px-3 py-2 w-[380px];
 }
+
+.menuLangue ul {
+    @apply bg-white absolute border border-gray-300 z-10 grid grid-cols-2 top-full;
+}
+
+.menuLangue li {
+    @apply  text-black m-2;
+}
+
+.menuLangue > button > img {
+    @apply w-5 h-5 mr-4;
+}
+
+.menuLangue > ul > li > img {
+    @apply w-5 h-5 mb-2;
+}
+
+
+/* PARTIE2 - Kal-footer*/
 
 .partie2 {
-    @apply md:grid md:grid-cols-3;
+    @apply bg-gris px-[50px] py-[24px] overflow-hidden w-full;
 }
 
-.partie2 p2c1 {
-@apply md:h-full md:justify-center md:grid md:grid-rows-3 md:grid-cols-1;
+.partie2-div {
+    @apply m-auto max-w-screen-lg;
 }
 
-.bouttonPhoto {
-    @apply grid;
+.partie2-main {
+    @apply grid grid-cols-3 gap-[30px];
 }
 
-.bouttonPhoto button {
-    @apply cursor-pointer m-4 bg-primary text-white
-    justify-self-center rounded-3xl p-2 md:col-span-2;
+.partie2-1 {
+    @apply flex flex-col justify-between gap-[20px];
 }
 
-.reseauSociaux {
-    @apply text-white grid justify-center
-    md:row-span-2 md:col-span-2;
+.partie2-button {
+    @apply font-semibold leading-normal rounded-[26px] text-[16px]
+    bg-primary text-white text-center px-[50px] py-[16px] w-fit border-none;
 }
 
-.logoReseaux {
-    @apply grid grid-cols-4 m-4 justify-items-center
-    md:m-0;
+.kal-footer-social {
+    @apply flex gap-4;
 }
 
-.ellipse {
-    @apply bg-white h-12 w-12 rounded-3xl flex items-center justify-center ;
+.kal-footer-social > * {
+    @apply bg-white rounded-full w-12 h-12 flex justify-center items-center;
+}
+
+.partie2-p {
+    @apply not-italic font-normal text-base text-white text-left leading-6;
 }
 
 .SiteMapList {
-    @apply flex justify-center
-    text-white ;
+    @apply flex flex-col gap-[40px] w-[200px] m-auto h-full justify-start;
 }
 
-.SiteMapList li {
-   @apply m-4 text-center;
+.SiteMapList-a {
+   @apply text-xl not-italic font-semibold leading-normal;
 }
 
 .applis {
-    @apply p-4 justify-center text-center text-white;
+    @apply flex flex-col justify-between gap-[20px];
 }
 
+.applis-h3 {
+    @apply text-white text-xl not-italic font-semibold leading-normal;
+}
+
+.applis-p {
+    @apply max-w-[330px] not-italic font-normal text-base text-white text-left leading-6;
+}
 
 .logoStore {
-    @apply m-4 ;
+    @apply flex gap-[20px];
 }
 
-.logoStore a {
-    @apply m-4 grid justify-center;
+.logoStore1 {
+    @apply flex flex-col gap-[20px];
+}
+
+.logoStore2 {
+    @apply flex flex-row gap-[20px];
 }
 
 .adresses {
-    @apply flex text-white justify-center
-    ;
+   @apply mt-10 md:flex md:justify-between md:gap-[50px] md:flex-wrap;
 }
 
-.adresses ul {
-  @apply md:grid md:grid-cols-4 md:w-full;
+.adresses-h3 {
+    @apply text-base not-italic font-semibold leading-6 mb-1.5;
 }
 
-.adresses li {
-    @apply m-2 p-2 md:justify-self-center ;
+.adresses-p {
+    @apply text-base not-italic font-normal leading-6;
 }
 
-.adresses li h1 {
-    @apply font-medium;
-}
-
-.adresses li p {
-    @apply font-light;
+.aside {
+    @apply my-4 mx-[-50px] mt-[40px] h-0.5 bg-white;
 }
 
 .mentions {
-    @apply justify-center;
-}
-
-.mentions li {
-    @apply m-2 text-center;
+    @apply flex justify-between gap-[30px] max-w-[1140px] m-auto;
 }

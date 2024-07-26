@@ -1,0 +1,37 @@
+{
+  "NavBar": {
+
+  },
+  "Bloc1" : {
+    "girl" : "/images/girl.png",
+    "background" : "/images/background 1.png"
+  },
+  "Bloc4" : {
+    "nos_medias" : "Our Media",
+    "nos_partenaires" : "Our Partners"
+  },
+  "Bloc7": {
+    "titre_bloc7_1" : "The Solution",
+    "titre_bloc7_2" : "for Official Document Requests"
+  },
+  "Bloc8": {
+    "titre_bloc8_1" : "How",
+    "titre_bloc8_2" : "to take your ID photo"
+  },
+  "Bloc9": {
+    "tabListP": "ID photo"
+  },
+  "Footer": {
+    "partie2-button": "Take the Photo",
+    "partie2-p": "Discover the latest information on identity documents and visas.",
+    "SiteMapList-blog" : "Blog",
+    "SiteMapList-propos" : "About Us",
+    "SiteMapList-faq" : "FAQ",
+    "SiteMapList-contact" : "Contact",
+    "applis-h3": "Download the App",
+    "applis-p":  "Track your orders and enjoy even more features with the Smartphone iD app.",
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-cgu": "Terms and Conditions",
+    "mentions-légales": "Legal Notice"
+  }
+}

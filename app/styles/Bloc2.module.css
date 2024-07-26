@@ -1,0 +1,35 @@
+.bloc2 {
+    @apply bg-white py-5 border-t border-b border-gray-300 flex justify-center items-center;
+}
+
+.bloc2 > .container {
+    @apply flex flex-row justify-center items-center w-full px-5 gap-2.5;
+}
+
+.repeteur_bloc2 {
+    @apply flex items-center justify-center flex-1 mx-2.5 relative text-center;
+}
+
+.repeteur_bloc2_img {
+    @apply max-w-full max-h-full w-auto h-auto object-contain;
+}
+
+.repeteur_bloc2_img_container {
+    @apply flex justify-center items-center max-w-full max-h-full;
+}
+
+.repeteur_bloc2_text {
+    @apply text-sm text-black ml-5 text-center;
+}
+
+.repeteur_bloc2_text > h4 {
+    @apply w-[280px];
+}
+
+.separator {
+    @apply w-0.5 h-12 bg-gray-300 absolute right-[-20px] top-1/2 transform translate-y-[-50%];
+}
+
+.repeteur_bloc2:not(:last-child) .separator {
+    @apply block;
+}

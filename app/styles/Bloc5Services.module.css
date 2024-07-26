@@ -1,0 +1,85 @@
+/* BLOC5 */
+
+.kalService {
+    background: #eafaf1;
+    padding: 60px 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imageContainer {
+    position: relative;
+    width: 550px;
+    height: auto;
+}
+
+.serviceImage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-left: 4px solid #2fc977;
+}
+
+.kalService > div {
+    max-width: 1140px;
+    margin: auto;
+    flex: 1;
+}
+
+.kalService h2 {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.kalServiceList {
+    height: 400px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.kalServiceList > section {
+    width: 300px;
+    max-width: 100%;
+}
+
+.kalServiceList > section > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.kalServiceList h4 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.kalServiceList p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}

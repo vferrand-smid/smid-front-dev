@@ -2,9 +2,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "./logo-smartphone-id.jpg";
-import Hamburger from "./Hamburger.svg";
-import Croix from "./xmark-solid.svg";
+import Logo from "../../public/images/logo-smartphone-id.jpg";
+import Hamburger from "../../public/images/hamburger.svg";
+import Croix from "../../public/images/xmark-solid.svg";
 import {useState} from "react";
 import { useRouter } from "next/navigation";
 
@@ -30,9 +30,10 @@ export default function Navbar() {
                                     <Image
                                         src={Logo}
                                         alt=""
-                                        width={200}
                                         href="/"
+                                        //layout="intrinsic"
                                         aria-hidden="true"
+                                        priority
                                     />
                                 </Link>
                             </div>
@@ -71,12 +72,14 @@ export default function Navbar() {
                                         className="h-6 w-6"
                                         width={32}
                                         height={32}
+                                        //layout="responsive"
                                     />
                                 ) : (
                                     <Image
                                         src={Hamburger}
                                         alt=""
                                         className="h-6 w-6"
+                                       // layout="responsive"
                                     />
                                 )}
                             </button>

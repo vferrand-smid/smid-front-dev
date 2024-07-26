@@ -1,0 +1,149 @@
+
+.kalDocument {
+    background: white;
+    padding: 80px 50px;
+}
+
+.kalDocument > div {
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.kalDocument > h2 {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+}
+
+.highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.selectDocument {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selectDocument > section {
+    width: 210px;
+    height: 240px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #efefef;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.selectDocument > section > div {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.selectDocument > section > div > img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    object-fit: contain;
+}
+.selectDocument > section > p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+}
+
+.kalDocument2 > :last-child > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.kalDocument2 > :last-child > div > div {
+    width: 80px;
+    height: 80px;
+}
+.kalDocument2 > :last-child > div > div > img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.kalDocument2 > :last-child > div > p {
+    color: #4c4c4c;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 169.231% */
+}
+.kalDocument2 > :last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 20px;
+    margin: auto;
+    align-self: center;
+    height: fit-content;
+}
+.kalDocument2 {
+    min-height: 100px;
+    border-radius: 10px;
+    background: #efefef;
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.kalDocument2 > :first-child {
+    position: relative;
+    margin-left: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    max-width: 100%;
+}
+.kalDocument2 > :first-child > div > div {
+    position: absolute;
+    width: 4px;
+    height: 52px;
+    background: #2fc977;
+    left: -20px;
+    top: -10px;
+}
+.kalDocument2 > :first-child > div {
+    position: relative;
+}
+.kalDocument2 > :first-child > div > p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+}
+.kalDocument2 > :first-child > h3 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
