@@ -15,6 +15,7 @@ import React, {useState, useRef, useEffect} from 'react';
 import {useRouter, useSearchParams} from 'next/navigation';
 import useTranslations from "@/utils/useTranslations";
 import { Suspense } from 'react';
+import ErrorBoundary from "@/app/components/ErrorBoundary";
 
 const flags = {
     'fr-FR': '/images/flags/fr-FR.png',
@@ -90,7 +91,8 @@ export default function Footer() {
 
 
     return (
-        <Suspense>
+        <ErrorBoundary>
+        <React.Suspense fallback={<div>Loading...</div>}>
         <div key={currentLocale}>
             <div className="before-footer-wrap">
 
@@ -275,6 +277,7 @@ export default function Footer() {
                 </section>
             </div>
         </div>
-        </Suspense>
+        </React.Suspense>
+        </ErrorBoundary>
     )
 };

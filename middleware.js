@@ -55,6 +55,10 @@ export default function middleware(request) {
         return response;
     }
 
+    if (url.pathname === '/404' || url.pathname === '/_not-found') {
+        return NextResponse.rewrite(new URL('/loading', request.url));
+    }
+
     console.log(`URL with locale param: ${url.toString()}`);
     logs.forEach(log => console.log(log));
 

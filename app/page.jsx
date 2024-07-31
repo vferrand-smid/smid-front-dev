@@ -29,6 +29,7 @@ const PageList = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
+        console.log('PageList useEffect called with locale:', locale);
         if (!locale) return;
 
         const fetchPages = async () => {
@@ -57,9 +58,9 @@ const PageList = () => {
         fetchPages();
     }, [locale]);
 
-  /*  if (loading) {
+    if (loading) {
         return <Loading />;
-    }*/
+    }
 
     if (error) {
         return <div>{error}</div>;
@@ -120,11 +121,12 @@ const PageList = () => {
 };
 
 export default function Page() {
+    console.log('Rendering Page component with Suspense and ErrorBoundary');
     return (
         <ErrorBoundary>
-        <Suspense fallback={<Loading />}>
+            <React.Suspense fallback={<div>Loading...</div>}>
             <PageList />
-        </Suspense>
+            </React.Suspense>
         </ErrorBoundary>
     );
 }

@@ -6,7 +6,7 @@ export function createMockRouter(router) {
     return {
         push: jest.fn(),
         replace: jest.fn(),
-        prefetch: jest.fn().mockResolvedValue(undefined),
+        prefetch: jest.fn().mockResolvedValue(null),
         back: jest.fn(),
         forward: jest.fn(),
         reload: jest.fn(),

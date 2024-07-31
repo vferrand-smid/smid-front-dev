@@ -23,6 +23,25 @@ const nextConfig = {
             },
         ],
     },
+
+    experimental: {
+        missingSuspenseWithCSRBailout: false,
+    },
+
+    async redirects() {
+        return [
+            {
+                source: '/_not-found',
+                destination: '/page',
+                permanent: true,
+            },
+            {
+                source: '/404',
+                destination: '/page',
+                permanent: true,
+            },
+        ];
+    },
 };
 
 export default nextConfig;
