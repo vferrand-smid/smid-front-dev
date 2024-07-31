@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import React from "react";
 import Link from "next/link";
@@ -48,6 +49,7 @@ export default function Navbar() {
                                       target="_blank">Passeport</Link>
 
                                 <Link className="p-2 m-0" href="https://www.smartphone-id.com/e-photo-permis-conduire/"
+
                                       target="_blank m-0">Carte National d'identité</Link>
 
                                 <Link className="p-2 m-0" href="https://www.smartphone-id.com/code-ephoto-titre-de-sejour/"

@@ -14,6 +14,7 @@ import Image from "next/image";
 import React, {useState, useRef, useEffect} from 'react';
 import {useRouter, useSearchParams} from 'next/navigation';
 import useTranslations from "@/utils/useTranslations";
+import { Suspense } from 'react';
 
 const flags = {
     'fr-FR': '/images/flags/fr-FR.png',
@@ -43,7 +44,7 @@ const localeToCountry = {
     // Ajoutez d'autres pays ici
 };
 
-export default function footer() {
+export default function Footer() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const currentLocale = searchParams.get('locale') || 'fr-FR';
@@ -89,6 +90,7 @@ export default function footer() {
 
 
     return (
+        <Suspense>
         <div key={currentLocale}>
             <div className="before-footer-wrap">
 
@@ -114,14 +116,18 @@ export default function footer() {
 
                     <div className="menuLangue column">
                         <button className="menuLangue-button" onClick={() => setIsOpen(!isOpen)}>
-                            <img src={flags[currentLocale]} alt={currentLocale}/>
+                            <Image width={100}
+                                   height={1000} src={flags[currentLocale]} alt={currentLocale}/>
                             {localeToCountry[currentLocale]}
                         </button>
                         {isOpen && (
                             <ul className="" ref={dropdownRef}>
                                 {Object.entries(flags).map(([locale, flagSrc]) => (
                                     <li key={locale} onClick={() => changeLanguage(locale)}>
-                                        <img src={flagSrc} alt={localeToCountry[locale]}/>
+                                        <Image
+                                            height={100}
+                                            width={100}
+                                            src={flagSrc} alt={localeToCountry[locale]}/>
                                         {localeToCountry[locale]}
                                     </li>
                                 ))}
@@ -269,5 +275,6 @@ export default function footer() {
                 </section>
             </div>
         </div>
+        </Suspense>
     )
 };
