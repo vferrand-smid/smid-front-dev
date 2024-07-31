@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Suspense } from 'react';
+import ErrorBoundary from './ErrorBoundary';
 import { useSearchParams } from 'next/navigation';
 
 const NotFoundPage = () => {
@@ -18,8 +19,10 @@ const NotFoundPage = () => {
 
 export default function Custom404() {
     return (
+        <ErrorBoundary>
         <Suspense fallback={<div>Loading...</div>}>
             <NotFoundPage />
         </Suspense>
+        </ErrorBoundary>
     );
 }

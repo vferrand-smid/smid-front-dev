@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
+import ErrorBoundary from './ErrorBoundary';
 import Loading from '../app/loading';
 import getPages from '../app/lib/pageQueries';
 import Bloc1 from '../app/components/Bloc1';
@@ -120,8 +121,10 @@ const PageList = () => {
 
 export default function Page() {
     return (
+        <ErrorBoundary>
         <Suspense fallback={<Loading />}>
             <PageList />
         </Suspense>
+        </ErrorBoundary>
     );
 }
