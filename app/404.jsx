@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Suspense } from 'react';
-import ErrorBoundary from './ErrorBoundary';
+import ErrorBoundary from './components/ErrorBoundary';
 import { useSearchParams } from 'next/navigation';
 
 const NotFoundPage = () => {
