@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/KalSearch.module.css';
 import Image from "next/image";
+import useTranslations from '../../utils/useTranslations';
 
-const KalSearch = () => {
+const KalSearch = ({ page, locale  }) => {
     const [selectedCountry, setSelectedCountry] = useState(null);
     const [selectedDocument, setSelectedDocument] = useState(null);
     const [countries, setCountries] = useState([]);
     const [documents, setDocuments] = useState([]);
     const [isCountryPopupVisible, setIsCountryPopupVisible] = useState(false);
     const [isDocumentPopupVisible, setIsDocumentPopupVisible] = useState(false);
+    const { translations, loading } = useTranslations(locale);
 
     useEffect(() => {
         const fetchCountries = async () => {
@@ -92,12 +94,16 @@ const KalSearch = () => {
         setIsDocumentPopupVisible(false);
     };
 
+    if (loading) {
+        return <div>Loading...</div>; // or any loading indicator you prefer
+    }
+
     return (
         <div className={styles['kal-search']}>
             <div className="flex flex-col md:flex-row w-full">
                 <div className={`${styles['kal-search-country']}`}>
                     <div>
-                        <h4>J’ai besoin d’une photo d’identité pour
+                        <h4>{translations.kalSearch["titre_1"]}
                             <svg
                                 width="13"
                                 height="8"

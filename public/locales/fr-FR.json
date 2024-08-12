@@ -6,6 +6,9 @@
     "girl" : "/images/girl.png",
     "background" : "/images/background 1.png"
   },
+  "kalSearch" : {
+    "titre_1" : "J’ai besoin d’une photo d’identité pour"
+  },
   "Bloc4" : {
     "nos_medias" : "Présents dans les médias",
     "nos_partenaires" : "Nos partenaires"

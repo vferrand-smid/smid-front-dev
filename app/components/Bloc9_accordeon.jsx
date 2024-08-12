@@ -72,8 +72,8 @@ const Bloc9Accordeon = ({ page, locale }) => {
         return <div>Loading...</div>;
     }
 
-    if (!translations.Bloc1) {
-        return <div>Translations for Bloc1 not found</div>;
+    if (!translations.Bloc9) {
+        return <div>Translations for Bloc9 not found</div>;
     }
 
     const tabs = [
