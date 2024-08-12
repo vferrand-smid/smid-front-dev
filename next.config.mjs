@@ -17,16 +17,16 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'smidbackdev.34-78-133-45.plesk.page',
+                hostname: process.env.WORDPRESS_IMAGE_HOST,
                 port: '',
                 pathname: '/wp-content/uploads/**',
             },
         ],
     },
 
-    experimental: {
+  /*  experimental: {
         missingSuspenseWithCSRBailout: false,
-    },
+    },*/
 
     async redirects() {
         return [
