@@ -2,21 +2,26 @@ import React from "react";
 import useTranslations from '../../utils/useTranslations';
 import Image from "next/image";
 
-const Bloc7Solution = ({ page, locale  }) => {
-    const bloc7 = page?.pageDAccueilBloc7 || {};
-    const { titre_bloc7_1, titre_bloc7_span, titre_bloc7_2, bloc } = bloc7;
+const Bloc7Solution = ({ locale }) => {
     const { translations, loading } = useTranslations(locale);
 
     if (loading) {
-        return <div>Loading...</div>; // or any loading indicator you prefer
+        return <div>Loading...</div>;
     }
+
+    if (!translations.Bloc7) {
+        return <div>Data not available</div>;
+    }
+
+    const { titre_bloc7_1, titre_bloc7_span, titre_bloc7_2, bloc } = translations.Bloc7;
+
     return (
         <div className="kal-solution">
             <div>
                 <h2>
-                    {translations.Bloc7["titre_bloc7_1"]}
+                    {titre_bloc7_1}
                     <span className="highlight">{titre_bloc7_span || 'Default Titre Bloc 7 Span'}</span>
-                    {translations.Bloc7["titre_bloc7_2"]}
+                    {titre_bloc7_2}
                 </h2>
                 <div className="kal-solution-container">
                     {bloc?.map((item, index) => (
@@ -25,13 +30,13 @@ const Bloc7Solution = ({ page, locale  }) => {
                                 <Image
                                     width={500}
                                     height={500}
-                                    src={item?.img_principal?.node?.mediaItemUrl || 'default.jpg'}
+                                    src={item?.img_principal || 'default.jpg'}
                                     alt=""
                                 />
                             </div>
                             <section>
                                 <Image
-                                    src={item?.img_check?.node?.mediaItemUrl || 'default.jpg'}
+                                    src={item?.img_check || 'default.jpg'}
                                     alt=""
                                     width={20}
                                     height={20}
@@ -50,3 +55,4 @@ const Bloc7Solution = ({ page, locale  }) => {
 }
 
 export default Bloc7Solution;
+

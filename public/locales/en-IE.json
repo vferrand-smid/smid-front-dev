@@ -1,0 +1,518 @@
+{
+  "NavBar": {
+    "link_1": "Driving Licence",
+    "url_1": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_2": "Passport",
+    "url_2": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_3": "National ID Card",
+    "url_3": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_4": "Residence Permit",
+    "url_4": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_5": "Visa",
+    "url_5": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_6": "Health Insurance Card",
+    "url_6": "https://www.smartphone-id.com/photos-identite-en-ligne/"
+  },
+
+  "Bloc1": {
+    "girl": "/images/girl.png",
+    "background": "/images/background 1.png",
+    "titre_bloc1": "Fast and Easy",
+    "titre_h4_bloc1": "to renew your official Irish documents online!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "Immediate Result Guaranteed"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "Expert Verified"
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Immediate Result Guaranteed"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Expert Verified"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Free Trial"
+      }
+    ]
+  },
+
+  "kalSearch": {
+    "titre_1": "I need an ID photo for",
+    "titre_2": "For the document",
+    "bouton": "Take the photo"
+  },
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Over 1 Million Valid Photos Delivered"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "First ePhoto Code Provider Online"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "Top Rated in Apple and Google Store"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "The Complete",
+    "titre_bloc3": "passport photo solution without leaving your home.",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automatic ID photo formatting.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatic-formatting-IE-passport-photo.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Sign with your finger according to official document.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Expert Check, Compliance Guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Photos printed and sent the same day.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Scan the QR code to take your ID photo with your smartphone.",
+        "titre_check": "Step 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Verify your photo request details.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Order printed photo template delivery if necessary.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/commender-impression-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receive your individual photo and printable template in your email inbox.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-reussi.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Since 2017, ",
+    "titre_bloc4_2": "valid ID photos delivered",
+    "titre_bloc4_span": "over a million",
+    "partenaires": [
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "CER",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
+      },
+      {
+        "text": "Planete Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "E-Residency Marketplace",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Le Progrès",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Chassany2603, 04/04/2022",
+        "texte": "I urgently needed ID photos and didn't have time to go out. I took a photo, paid the amount for an ID photo (in compliance with the standards), and within an hour I had it in my inbox. I got my card right away. Honestly, I recommend it.",
+        "titre": "Intuitive and Fast"
+      },
+      {
+        "nom": "ninie1208, 29/06/2021",
+        "texte": "Convenient for people who, like me, have little free time after work. I took a photo in the evening with my phone and a few days later I had it in my mailbox. I had an appointment at the town hall the following week to renew my ID card, a huge mental burden lifted.",
+        "titre": "Really Great"
+      },
+      {
+        "nom": "betiolina, 15/08/2022",
+        "texte": "Very good application. If the result is not convincing, you can retake the photo as many times as necessary without paying extra.",
+        "titre": "ID Photo"
+      },
+      {
+        "nom": "Anaïs M, 21/02/2022",
+        "texte": "After several months of battling with the ANTS who refused my photos taken in a photo booth (twice) or 'lost' the photos sent by mail (three times), I tried this app out of desperation. To my surprise, the photos, far from having the quality of a photo booth or professional photographer, were accepted, and my driver's license is being processed. If possible, I try not to do everything from my smartphone, but this was the only option that worked.",
+        "titre": null
+      },
+      {
+        "nom": "cosmiccbyul, 04/07/2022",
+        "texte": "I downloaded this app for a residence permit ePhoto since I wasn't in France and couldn't access a photo booth. To my surprise, it was ultra-fast: I took a photo in a few minutes and received the ePhoto code 30 minutes later! Plus, it only costs 6 euros? I highly recommend it!!",
+        "titre": "Very Fast and Efficient!"
+      },
+      {
+        "nom": "Starsissi, 02/12/2022",
+        "texte": "I needed digital ID photos for a driving license. Thanks to this app, I was able to take them from home without having to go out and without being limited by the number of tries. Moreover, there are 'tips' to show what is accepted or not, which is very practical. My photos were accepted the first time by the government, and I just received my new license?",
+        "titre": "Very Satisfied"
+      }
+    ],
+    "nos_partenaires": "Our Partners",
+    "nos_medias": "Featured in the Media"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "Why Choose",
+    "titre_bloc5_span": "Our Service?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-identite-facile-en-ligne.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "24/7 Service",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "All Document Types",
+        "texteService": "All types of documents are available."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "100% Compliance",
+        "texteService": "For all official documents, worldwide."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Choose the Best Photo",
+        "texteService": "And take unlimited shots."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Real Customer Service",
+        "texteService": "Humans, not robots."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Ideal Solution",
+        "texteService": "For babies, disabled people, expatriates, people in rural areas, etc."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Ecological",
+        "texteService": "No more paper, no more travel."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "The Right",
+    "titre_bloc6_2": "Photo Format for All Your Official Documents",
+    "titre_bloc6_span": "Format",
+    "documents": [
+      {
+        "titre_doc": "Driving Licence",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
+      },
+      {
+        "titre_doc": "Passport",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+      },
+      {
+        "titre_doc": "National ID Card",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
+      },
+      {
+        "titre_doc": "Residence Permit",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
+      },
+      {
+        "titre_doc": "Health Insurance Card",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Photo Printing",
+        "paragraphe": "Receive a printed format in 2 days or use this format to print your photos at our partner stores.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "E. Leclerc",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
+          },
+          {
+            "nom_partenaire": "Auchan",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+          },
+          {
+            "nom_partenaire": "Intermarché",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
+          },
+          {
+            "nom_partenaire": "Carrefour",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
+          },
+          {
+            "nom_partenaire": "fnac",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
+          },
+          {
+            "nom_partenaire": "Cewe",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1": "The Perfect",
+    "titre_bloc7_2": "Solution for Official Document Requests",
+    "titre_bloc7_span": "Solution",
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/irish-Digital-signature-document-photo.png",
+        "paragraphe": "Your signature will be linked to the photo for official document applications online, when needed.",
+        "titre": "Digital Signature"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Recent-irish-printed-passport-photo-template.png",
+        "paragraphe": "Real-time photo taking proves the recency of the photo, obligatory for official documents.",
+        "titre": "Prove Photo Recency"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1": "How to Take a",
+    "titre_bloc8_2": "Successful ID Photo",
+    "titre_bloc8_span": "Successful",
+    "titre_encart": "Some Tips",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 1,
+        "texte": "Remove",
+        "texte_span": "your glasses"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 2,
+        "texte": "Even lighting on",
+        "texte_span": "your face"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 3,
+        "texte": "Hair behind",
+        "texte_span": "your shoulders"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 4,
+        "texte": "Mouth closed,",
+        "texte_span": "no smile"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/en_IE/ireland-passport-photo-size/",
+      "title": "See More"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/en_IE/baby-passport-photo-ireland/",
+      "title": "How to take a passport photo of a baby?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "ID Photo",
+    "ePhoto": "ePhoto Code",
+    "codeEphoto": [
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>If you apply with a paper application, an official passport photo for Ireland should be</p>\n<ul>\n<li>at least 45 mm high and 35 mm wide,</li>\n<li>face size should be between 29mm and 34mm high (from the crown of your head to your chin).</li>\n</ul>\n<p>If you apply for an official document online, the digital photo should be</p>\n<ul>\n<li>at least 715 pixels in width, and 951 pixels in height,</li>\n<li>cannot be larger than 9 MB,</li>\n<li>and must be in jpeg format.</li>\n</ul>\n<p>Make your life easier, use Smartphone iD tool that takes care of checking all requirements, including size, and be sure to submit a valid photo.</p>\n",
+        "titre_accordeon": "What is Irish passport photo size?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</main></p>\n",
+        "titre_accordeon": "Can you take a passport photograph on your phone?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> To print a passport photo with your PC, you must first download software that allows you to obtain 35mm x 45mm photos. Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">If you don&#8217;t want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</p>\n</aside>\n",
+        "titre_accordeon": "How to print a passport size photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Various places in Ireland offer both hardcopy and digital passport photos.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>For efficient photo booth service, you can search for a Photo Me photo booth nearby.</li>\n<li>Multiple pharmacies offer passport photo service in Ireland : Healy&#8217;s Pharmacy, Cunninham&#8217;s Pharmacy, Molloys Pharmacy. These labs can be accessed in biggest city centers.</li>\n<li>Irish passport photo tools online. With Smartphone iD, taking a passport photo is very easy. No need to move, take your photo with your smartphone whenever it suits you. We will make sure that your photo meets the necessary requirements and you will receive it directly in your email/mailbox.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "Where to get passport photos?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Smartphone iD provides digital passport photos within minutes after the photo is taken using your phone. You will receive a copy in your email and the option to have the photo printed and shipped to your home.</main></p>\n",
+        "titre_accordeon": "Where to get digital passport photos near me?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>In Ireland if you opt for a photo booth, the price of five printed passport photos is about 6 &#8211; 8 euros. Unfortunately, you cannot use the passport booth if you want a passport photo for your baby, as it can only serve one person at a time.</li>\n<li>Professional photographers will help you have the right pose, plus they have high-quality cameras. The average cost of 4 passport photos in a professional studio in the UK is around 10 &#8211; 15 euros.</li>\n<li>Passport photo price when done online. Smartphone iD offers checked Irish passport photos for half the price in comparison to competitors. Plus, it includes real human photo checks and government acceptance assurance.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "How much are passport photos in Ireland?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow fringe because it makes it harder to read the biometrical data from the scan. Then fringe must be sided to either side and pinned down with unnoticeable bobby pins.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">However, more casual identity documents like a student card, or transportation card can have a passport photo with a fringe.<br />\nIf you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n</aside>\n",
+        "titre_accordeon": "Can you have a fringe in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n</aside>\n",
+        "titre_accordeon": "Can you smile in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.</li>\n<li>Also, make sure your shirt doesn&#8217;t show too much skin, as shirtless passport photos are prohibited.</li>\n<li>Finally, uniforms of any kind are also prohibited on a biometric passport photo.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "What to wear for a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</main></p>\n",
+        "titre_accordeon": "Can you wear glasses in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Yes, you can wear makeup in your passport photo.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>But note that make-up should be light. Don&#8217;t put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "Can you wear makeup in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.</li>\n<li>Also, make sure your shirt doesn&#8217;t show too much skin, as shirtless passport photos are prohibited.</li>\n<li>Finally, uniforms of any kind are also prohibited on a biometric passport photo.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "What to wear for a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">In most cases, a new photo is required for passport renewals. The only exception is if your passport has been damaged, lost, or destroyed. For Irish official documents, photos cannot be older than 6 months.</p>\n</aside>\n<p></main></p>\n",
+        "titre_accordeon": "Do you need a new photo to renew your passport?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">If your passport photo is rejected, you will need to re-submit a new photo. Application processing can vary from a few weeks to months. Use Smartphone iD to take your passport photo and be sure it will be accepted the first time as an immediate AI check and an additional human expert check is applied.</p>\n</aside>\n<p></main></p>\n",
+        "titre_accordeon": "What happens if a passport photo is rejected?"
+      }
+    ],
+    "titre_bloc9": "to your questions",
+    "titre_bloc9_span": "Answers "
+  },
+
+  "Footer": {
+    "partie2-button": "Take the Photo",
+    "partie2-p": "Find the latest information on ID documents and visas.",
+    "SiteMapList-blog": "Blog",
+    "SiteMapList-propos": "About Us",
+    "SiteMapList-faq": "FAQ",
+    "SiteMapList-contact": "Contact",
+    "applis-h3": "Download the App",
+    "applis-p": "Track your orders and enjoy even more features with the Smartphone iD app.",
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-cgu": "Terms and Conditions",
+    "mentions-légales": "Legal Notice"
+  }
+}

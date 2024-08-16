@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/KalSearch.module.css';
 import Image from "next/image";
-import useTranslations from '../../utils/useTranslations';
+import useTranslations from '@/utils/useTranslations';
 
 const KalSearch = ({ page, locale  }) => {
     const [selectedCountry, setSelectedCountry] = useState(null);
@@ -158,7 +158,7 @@ const KalSearch = ({ page, locale  }) => {
                 </div>
                 <div className={`${styles['kal-search-document']}`}>
                     <div>
-                        <h4>Pour le document <span className="text-red-500">*</span>
+                        <h4>{translations.kalSearch["titre_2"]} <span className="text-red-500">*</span>
                             <svg
                                 width="13"
                                 height="8"
@@ -211,7 +211,7 @@ const KalSearch = ({ page, locale  }) => {
                     : `https://smartphone-id-app.com/${platform}`;
                 window.open(url, "_blank");
             }}>
-                Faire la photo
+                {translations.kalSearch["bouton"]}
             </button>
         </div>
     );

@@ -76,9 +76,9 @@ const Bloc4Temoignages = ({ page, locale }) => {
     return (
         <div className="kal-testimonials">
             <h2>
-                {page.pageDAccueilBloc4.titre_bloc4_1}
-                <span className="highlight">{page.pageDAccueilBloc4.titre_bloc4_span}</span>
-                {page.pageDAccueilBloc4.titre_bloc4_2}
+                {translations.Bloc4.titre_bloc4_1}
+                <span className="highlight">{translations.Bloc4.titre_bloc4_span}</span>
+                {translations.Bloc4.titre_bloc4_2}
             </h2>
 
             <div className="kal-testimonials-carousel-wrapper">
@@ -106,7 +106,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                 </nav>
 
                 <div className="kal-testimonials-carousel">
-                    {temoignages?.map((temoignage, index) => (
+                    {translations.Bloc4.temoignages?.map((temoignage, index) => (
                         <div key={index} className="kal-testimonials-card">
                             <div>
                                 <svg
@@ -173,7 +173,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
 
 
             <div className="kal-testimonials-media-wrapper">
-                <h3>{translations.Bloc4["nos_medias"]}</h3>
+                <h3>{translations.Bloc4.nos_medias}</h3>
                 <nav className="kal-testimonials-media-btn" id="left">
                     <svg
                         width="32"
@@ -196,12 +196,12 @@ const Bloc4Temoignages = ({ page, locale }) => {
                     </svg>
                 </nav>
                 <div className="kal-testimonials-media">
-                    {media?.map((mediaItem, index) => (
+                    {translations.Bloc4.media?.map((mediaItem, index) => (
                         <div key={index}>
                             <Image
                                 width={500}
                                 height={500}
-                                src={mediaItem.img.node.mediaItemUrl}
+                                src={mediaItem.img}
                                 alt={mediaItem.text}
                             />
                             <p>
@@ -234,7 +234,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
             </div>
 
             <div className="kal-testimonials-partner-wrapper">
-                <h3> {translations.Bloc4["nos_partenaires"]}</h3>
+                <h3> {translations.Bloc4.nos_partenaires}</h3>
                 <nav className="kal-testimonials-partner-btn" id="left">
                     <svg
                         width="32"
@@ -257,18 +257,18 @@ const Bloc4Temoignages = ({ page, locale }) => {
                     </svg>
                 </nav>
                 <div className="kal-testimonials-partner ">
-                    {partenaires?.map((partenaire, index) => (
-                        partenaire.img?.node && (
+                    {translations.Bloc4.partenaires?.map((partenaire, index) => (
+
                             <div key={index} className="flex justify-center items-center">
                                 <Image
                                     width={500}
                                     height={500}
-                                    src={partenaire.img.node.mediaItemUrl}
+                                    src={partenaire.img}
                                     alt={partenaire.text}
                                     className="object-contain"
                                 />
                             </div>
-                        )
+
                     ))}
                 </div>
                 <nav className="kal-testimonials-partner-btn" id="right">

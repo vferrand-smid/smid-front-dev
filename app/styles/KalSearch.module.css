@@ -1,6 +1,6 @@
 /* KalSearch.module.css */
 .kal-search {
-    @apply rounded-lg border-2 border-gray-300 bg-white w-full max-w-[725px] p-4 gap-4 flex flex-col md:flex-row items-center mb-10;
+    @apply rounded-lg border-2 border-gray-300 bg-white w-full max-w-[850px] p-4 gap-4 flex flex-col md:flex-row items-center mb-10;
 }
 
 .kal-search-country,
@@ -65,7 +65,7 @@
 }
 
 .kal-search button {
-    @apply max-w-[148px] max-h-[52px] bg-black text-white text-center font-semibold text-base rounded-full px-6 py-4 cursor-pointer;
+    @apply max-w-[200px] max-h-[52px] bg-black text-white text-center font-semibold text-base rounded-full px-6 py-4 cursor-pointer;
 }
 
 .disabled {

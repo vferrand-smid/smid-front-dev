@@ -1,19 +1,25 @@
 import Image from "next/image";
 import styles from "../styles/Bloc5Services.module.css";
+import useTranslations from "@/utils/useTranslations";
 
-const Bloc5Services = ({ page }) => {
-    // Vérifiez si les données nécessaires sont disponibles
-    if (!page?.pageDAccueilBloc5) {
+const Bloc5Services = ({ locale }) => {
+    const { translations, loading } = useTranslations(locale);
+
+    if (loading) {
+        return <div>Loading...</div>;
+    }
+
+    if (!translations.Bloc5) {
         return <div>Data not available</div>;
     }
 
-    const { listeService } = page.pageDAccueilBloc5;
+    const { imgService, listeService, titre_bloc5_1, titre_bloc5_span } = translations.Bloc5;
 
     return (
         <div className={styles.kalService}>
             <aside className={styles.imageContainer}>
                 <Image
-                    src={page.pageDAccueilBloc5.imgService?.node?.mediaItemUrl}
+                    src={imgService}
                     alt="Service"
                     layout="fill"
                     objectFit="cover"
@@ -22,14 +28,13 @@ const Bloc5Services = ({ page }) => {
                 />
             </aside>
             <div>
-                <h2> {page.pageDAccueilBloc5.titre_bloc5_1} <span
-                    className={styles.highlight}>{page.pageDAccueilBloc5.titre_bloc5_span}</span></h2>
+                <h2> {titre_bloc5_1} <span className={styles.highlight}>{titre_bloc5_span}</span></h2>
                 <div className={styles.kalServiceList}>
                     {listeService?.map((service, index) => (
                         <section key={index}>
                             <div>
                                 <Image
-                                    src={service?.check?.node?.mediaItemUrl}
+                                    src={service?.check}
                                     alt="Check"
                                     priority
                                     width={24}

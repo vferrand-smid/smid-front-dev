@@ -1,0 +1,25 @@
+/* Bloc11.module.css */
+
+.container {
+    @apply bg-white py-8;
+}
+
+.heading {
+    @apply text-center text-lg font-bold mb-6;
+}
+
+.gridContainer {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto;
+}
+
+.card {
+    @apply flex flex-col items-center p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow;
+}
+
+.iconContainer {
+    @apply flex items-center justify-center w-16 h-16 bg-[#2FC977] rounded-full mb-4;
+}
+
+.label {
+    @apply text-center text-gray-900 font-medium;
+}

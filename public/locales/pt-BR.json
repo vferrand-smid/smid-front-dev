@@ -1,35 +1,506 @@
 {
   "NavBar": {
+    "link_1": "Carteira de Motorista",
+    "url_1": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_2": "Passaporte",
+    "url_2": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_3": "Carteira de Identidade",
+    "url_3": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_4": "Título de Residência",
+    "url_4": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_5": "Visto",
+    "url_5": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_6": "Carteira de Saúde",
+    "url_6": "https://www.smartphone-id.com/photos-identite-en-ligne/"
+  },
 
+  "Bloc1": {
+    "girl": "/images/girl.png",
+    "background": "/images/background 1.png",
+    "titre_bloc1": "Obtenha Rapidamente",
+    "titre_h4_bloc1": "para renovar seus documentos oficiais franceses online!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "Resultado imediato garantido"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "Verificado por especialistas"
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Resultado imediato garantido"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Verificado por especialistas"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Teste gratuito"
+      }
+    ]
   },
-  "Bloc1" : {
-    "girl" : "/images/girl.png",
-    "background" : "/images/background 1.png"
+
+  "kalSearch": {
+    "titre_1": "Eu preciso de uma foto de identidade para",
+    "titre_2": "Para o documento",
+    "bouton": "Tirar a foto"
   },
-  "Bloc4" : {
-    "nos_medias" : "Nossos meios de comunicação",
-    "nos_partenaires" : "Nossos parceiros"
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Mais de 1 milhão de fotos conformes entregues"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "1º fornecedor de código ePhoto online na França"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "Classificação média na Apple e Google Store"
+      }
+    ]
   },
+
+  "Bloc3": {
+    "titre_bloc3_span": "A solução",
+    "titre_bloc3": "para sua foto de identidade conforme, sem sair de casa.",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Formatação automática de fotos de identidade.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Assine com seu dedo conforme o documento oficial.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Verificação por especialistas, conformidade garantida.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Suas fotos impressas e enviadas no mesmo dia.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Escaneie o código QR para tirar uma foto de identidade com seu smartphone.",
+        "titre_check": "Etapa 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Verifique as características do seu pedido.",
+        "titre_check": "Etapa 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Solicite uma foto impressa pelo nosso serviço, se necessário.",
+        "titre_check": "Etapa 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/commender-impression-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receba sua foto individual e sua foto impressa diretamente em sua caixa de e-mail.",
+        "titre_check": "Etapa 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-reussi.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Desde 2017, ",
+    "titre_bloc4_2": "fotos de identidade conformes realizadas",
+    "titre_bloc4_span": "mais de 1 milhão",
+    "partenaires": [
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "CER",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
+      },
+      {
+        "text": "Planéte Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "E-Residency Marketplace",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Le Progrès",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Chassany2603, 04/04/2022",
+        "texte": "Eu precisava de uma foto de identidade com urgência e não tive tempo de ir a um local. Tirei uma foto, paguei o valor para obter uma foto de identidade (nos padrões) e em uma hora estava na minha caixa de entrada. Recebi meu cartão logo em seguida. Recomendo fortemente.",
+        "titre": "Intuitivo e rápido"
+      },
+      {
+        "nom": "ninie1208, 29/06/2021",
+        "texte": "Prático para quem, como eu, tem pouco tempo livre após o trabalho. Tirei uma foto à noite com meu celular e alguns dias depois a recebi pelo correio. Tinha um compromisso na prefeitura na semana seguinte para renovar minha identidade, menos uma preocupação.",
+        "titre": "Muito bom"
+      },
+      {
+        "nom": "betiolina, 15/08/2022",
+        "texte": "Aplicativo muito bom. Se o resultado não for satisfatório, você pode tirar a foto quantas vezes forem necessárias sem pagar a mais por isso.",
+        "titre": "Foto de identidade"
+      },
+      {
+        "nom": "Anaïs M, 21/02/2022",
+        "texte": "Após vários meses lutando com o ANTS que rejeitou minhas fotos tiradas em cabines (2 vezes) ou “perdeu” as fotos enviadas por correio (3 vezes), eu tentei a sorte, um pouco desesperada. E, para minha grande surpresa, as fotos, que nem tinham a qualidade de uma cabine fotográfica ou de um fotógrafo profissional, foram aceitas, e minha carteira de motorista está em processo de criação. Tento, se possível, não fazer tudo pelo meu smartphone, mas tenho que admitir que foi a única opção que funcionou.",
+        "titre": null
+      },
+      {
+        "nom": "cosmiccbyul, 04/07/2022",
+        "texte": "Baixei este aplicativo para obter uma ephoto para título de residência, pois eu não estava na França e não tinha acesso a uma cabine fotográfica. Para minha grande surpresa, foi super rápido: tirei uma foto em alguns minutos e recebi o código ephoto 30 minutos depois! Além disso, custou apenas 6 euros. Recomendo muito!",
+        "titre": "Muito rápido e eficiente!"
+      },
+      {
+        "nom": "Starsissi, 02/12/2022",
+        "texte": "Eu precisei de fotos de identidade digital para uma carteira de motorista. Graças a este aplicativo, consegui fazer isso em casa, sem ter que me deslocar e sem ser limitada no número de tentativas. Além disso, há “conselhos” para mostrar o que é aceito ou não, o que é muito prático. Minhas fotos foram aceitas na primeira tentativa pelo governo e acabei de receber minha nova carteira de motorista!",
+        "titre": "Muito satisfeita"
+      }
+    ],
+    "nos_partenaires": "Nossos parceiros",
+    "nos_medias": "Presentes na mídia"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "Por que escolher ",
+    "titre_bloc5_span": "nosso serviço?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-identite-facile-en-ligne.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Serviço 24h/24 e 7 dias por semana",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Todos os documentos",
+        "texteService": "Todos os tipos de documentos estão disponíveis."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "100% de conformidade",
+        "texteService": "Para todos os documentos oficiais, em todo o mundo."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Escolha a melhor foto",
+        "texteService": "E faça tentativas ilimitadas."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Um verdadeiro serviço ao cliente",
+        "texteService": "Humanos e não robôs."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Solução ideal",
+        "texteService": "Para bebês, pessoas com deficiência, expatriados, pessoas de áreas rurais, etc."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Ecológico",
+        "texteService": "Sem papel, sem deslocamento."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "O",
+    "titre_bloc6_2": "formato correto de foto, para todos os seus documentos oficiais",
+    "titre_bloc6_span": "",
+    "documents": [
+      {
+        "titre_doc": "Carteira de Motorista",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
+      },
+      {
+        "titre_doc": "Passaporte",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+      },
+      {
+        "titre_doc": "Carteira de Identidade",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
+      },
+      {
+        "titre_doc": "Título de Residência",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
+      },
+      {
+        "titre_doc": "Carteira de Saúde",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Impressão de fotos",
+        "paragraphe": "Receba uma versão impressa em 2 dias ou use este formato para imprimir suas fotos em nossos parceiros.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "E. Leclerc",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
+          },
+          {
+            "nom_partenaire": "Auchan",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+          },
+          {
+            "nom_partenaire": "Intermarché",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
+          },
+          {
+            "nom_partenaire": "Carrefour",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
+          },
+          {
+            "nom_partenaire": "fnac",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
+          },
+          {
+            "nom_partenaire": "Cewe",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+          }
+        ]
+      }
+    ]
+  },
+
   "Bloc7": {
-    "titre_bloc7_1" : "A solução",
-    "titre_bloc7_2" : "para solicitações de documentos oficiais"
+    "titre_bloc7_1": "A solução",
+    "titre_bloc7_2": "para solicitações de documentos oficiais",
+    "titre_bloc7_span": "perfeita",
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
+        "paragraphe": "Para documentos franceses, necessário para inscrição no site do ANTS.",
+        "titre": "Código ePhoto oficial"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
+        "paragraphe": "Obrigatoriedade de uma foto de identidade com menos de 6 meses. O governo pode ver a data da foto tirada.",
+        "titre": "Foto de menos de 6 meses"
+      }
+    ]
   },
+
   "Bloc8": {
-    "titre_bloc8_1" : "Como",
-    "titre_bloc8_2" : "sua foto de identidade"
+    "titre_bloc8_1": "Como",
+    "titre_bloc8_2": "sua foto de identidade",
+    "titre_bloc8_span": "tirar corretamente",
+    "titre_encart": "Algumas dicas",
+    "video": "<iframe title=\"Como tirar uma foto de passaporte em casa\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 1,
+        "texte": "Os óculos",
+        "texte_span": "removidos"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 2,
+        "texte": "O rosto",
+        "texte_span": "iluminado uniformemente"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 3,
+        "texte": "Os cabelos",
+        "texte_span": "atrás dos ombros"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 4,
+        "texte": "A boca",
+        "texte_span": "fechada, sem sorriso"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/photo-identite-conforme/",
+      "title": "Saiba mais"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/photo-identite-bebe/",
+      "title": "Como tirar uma foto de identidade do seu bebê?"
+    }
   },
+
+  "Bloc9": {
+    "ID": "Foto de identidade",
+    "ePhoto": "Código ePhoto",
+    "codeEphoto": [
+      {
+        "texte_accordeon": "<p>Você precisa fornecer um <a href=\"https://www.smartphone-id.com/ephoto-ants/\">código ePhoto assinatura digital</a> (ou código ePhoto) para uma solicitação online no site da ANTS?</p>\n<p>É muito simples, vá ao site Smartphone-iD: Aplicativo Foto de Identidade e ePhoto. Baixe o aplicativo, escolha o documento que você precisa (Carteira de Motorista, Título de Residência, DCEM, ...). Em seguida, tire sua foto e sua assinatura no seu smartphone e pronto. Após a validação da sua foto pela nossa equipe de especialistas, você receberá seu código ePhoto na sua caixa de e-mails em poucos minutos.</p>\n",
+        "titre_accordeon": "Como obter um código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>O código ePhoto está escrito na folha de fotos que está disponível:</p>\n<ul>\n<li>no aplicativo \"Foto de identidade oficial\" do Smartphone iD, menu \"Acompanhamento de pedidos\"</li>\n<li>diretamente no e-mail que você recebeu. Neste e-mail, o código ePhoto também está indicado.</li>\n</ul>\n",
+        "titre_accordeon": "Onde encontrar o código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>Você tem 2 opções:</p>\n<ul>\n<li>Ou você copia o código ePhoto de 22 caracteres (letras e números) que aparece na sua folha de fotos. Certifique-se de escrever as letras em maiúsculas e não colocar espaço 🙂</li>\n<li>Ou você copia e cola o código ePhoto indicado no e-mail que você recebeu.</li>\n</ul>\n",
+        "titre_accordeon": "Como inserir o código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>O código ePhoto é para uso único. Uma vez que você o tenha inserido no site da ANTS, você não poderá mais usá-lo.</p>\n<p>A ANTS protege seus dados impedindo o uso múltiplo de códigos ePhoto.</p>\n",
+        "titre_accordeon": "Quantas vezes posso usar o código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>O código ePhoto é válido por 6 meses. Isso corresponde ao prazo de validade da sua foto de identidade.</p>\n<p>Você tem 6 meses para usá-lo, depois disso ele não funcionará mais.</p>\n",
+        "titre_accordeon": "Por quanto tempo o código ePhoto é válido?"
+      },
+      {
+        "texte_accordeon": "<p>Em uma folha de fotos, você tem UM código ePhoto.</p>\n<p>Se você precisar de outro código ePhoto, você pode obtê-lo sem tirar novas fotos e assinatura e isso por 6 meses. Para isso, vá ao menu \"Acompanhamento de pedidos\" do aplicativo \"Foto de identidade oficial\" do Smartphone iD, selecione seu pedido e solicite um novo código ePhoto. Você o receberá em poucos minutos.</p>\n",
+        "titre_accordeon": "Quantos códigos ePhoto há em uma folha de fotos?"
+      },
+      {
+        "texte_accordeon": "<p>Várias razões são possíveis:</p>\n<ul>\n<li>Você cometeu um erro ao inserir seu código ePhoto. As letras devem estar em maiúsculas, você deve inserir os 22 caracteres sem espaço, você confundiu as letras O com os números 0.</li>\n<li>Você já usou este código ePhoto. Como o código ePhoto é para uso único, solicite um novo código ePhoto diretamente no aplicativo \"Foto de identidade oficial\" do Smartphone iD.</li>\n</ul>\n<p>Seu pedido tem menos de 6 meses, é simples, não há necessidade de tirar novas fotos e assinatura. Vá ao menu \"Acompanhamento de pedidos\", selecione seu pedido e solicite um novo código ePhoto.</p>\n<p>Seu pedido tem mais de 6 meses, neste caso, faça um novo pedido e receba o código ePhoto em poucos minutos.</p>\n",
+        "titre_accordeon": "Por que meu código ePhoto não funciona?"
+      },
+      {
+        "texte_accordeon": "<p>É muito simples, vá ao site da ANTS <a href=\"https://permisdeconduire.ants.gouv.fr/\">Carteira de Motorista - Página Inicial (ants.gouv.fr)</a>, escolha o motivo da sua solicitação (solicitação de inscrição no exame de carteira de motorista, solicitação de emissão da sua carteira de motorista, ...) e preencha o formulário exibido. No campo \"código de foto assinatura digital\", insira seu código ePhoto, e pronto!</p>\n",
+        "titre_accordeon": "Como inserir o código ePhoto para a carteira de motorista?"
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>As fotos de identidade francesa devem seguir a norma ISO/IEC 19794-5:2005.</p>\n<p>O tamanho da foto de identidade deve ser de 35&#215;45 mm.</p>\n<p>Lista dos principais pontos a serem observados:</p>\n<ul>\n<li>Não usar acessórios na cabeça (chapéus, presilhas visíveis).</li>\n<li>Manter uma expressão neutra, boca fechada. Sem sorriso.</li>\n<li>Todo o rosto deve estar visível (olhos, sobrancelhas, orelhas, pescoço).</li>\n<li>Para cabelos longos, colocá-los atrás dos ombros.</li>\n<li>Não usar óculos, exceto com uma atestado médico específico.</li>\n</ul>\n<p>Facilite sua vida, o Smartphone iD se encarrega de verificar todos esses pontos para você e garante que você apresente uma foto de identidade válida. Sem risco de ver sua solicitação ser rejeitada pela administração.</p>\n<p>Mais informações em <a href=\"https://www.smartphone-id.com/photo-identite-conforme/\" target=\"_blank\" rel=\"noopener\">https://www.smartphone-id.com/photo-identite-conforme/</a></p>\n",
+        "titre_accordeon": "Quais são as normas para as fotos de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>O preço de uma foto de identidade varia de simples a quatro vezes, dependendo do suporte que você escolher:</p>\n<ul>\n<li>Cabines de fotos: entre 8 e 10€</li>\n<li>Fotógrafos: entre 15 e 20€</li>\n<li>Smartphone iD: menos de 5€</li>\n</ul>\n<p>O Smartphone iD aplica o preço mais baixo do mercado com a garantia mais alta. Por menos de 5€, obtenha fotos de identidade certificadas conforme.</p>\n",
+        "titre_accordeon": "Quanto custa uma foto de identidade na França?"
+      },
+      {
+        "texteAccordeon": "<p>Uma foto de identidade deve ser feita por um profissional autorizado, caso contrário, não será aceita pela administração.</p>\n<p>Várias soluções estão disponíveis para você:</p>\n<ul>\n<li>Fique em casa e use o aplicativo Smartphone iD, fornecedor certificado de fotos de identidade.</li>\n<li>Vá a um fotógrafo autorizado ou a uma cabine de fotos certificada.</li>\n</ul>\n<p>Com o Smartphone iD, fazer uma foto de identidade se torna brincadeira de criança. Não há necessidade de se deslocar, tire sua foto no seu smartphone quando for conveniente. Nós nos encarregamos de ajustar sua foto aos padrões e você a recebe diretamente na sua caixa de e-mails.</p>\n",
+        "titre_accordeon": "Como tirar uma foto de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>A foto deve ser feita, ou:</p>\n<ul>\n<li>Em um aplicativo móvel que utilize um sistema autorizado pelo Ministério do Interior.</li>\n<li>Por um profissional autorizado, como um fotógrafo.</li>\n<li>Em uma cabine de fotos que utilize um sistema autorizado pelo Ministério do Interior.</li>\n</ul>\n<p>Dependendo do suporte escolhido, os serviços não são idênticos e o preço pode variar de simples a quatro vezes.</p>\n<p>O Smartphone iD é o único a garantir que sua foto de identidade atenda aos padrões exigidos pela administração e isso pelo preço mais baixo do mercado.</p>\n",
+        "titre_accordeon": "Onde tirar fotos de identidade perto de mim?"
+      },
+      {
+        "texteAccordeon": "<p>Usando o Smartphone iD, você recebe sua folha de fotos diretamente na sua caixa de e-mails.</p>\n<p>Você precisa de uma versão impressa da sua folha? Você tem 3 opções:</p>\n<ul>\n<li>Solicitar a impressão e envio da sua folha de fotos no momento do seu pedido com o Smartphone iD. Sua folha de fotos é impressa por especialistas em impressão fotográfica e enviada em menos de 24 horas.</li>\n<li>Você já fez seu pedido, sem problemas. Conecte-se com seu e-mail no aplicativo \"Foto de identidade oficial\" do Smartphone iD. Clique no menu \"Acompanhamento de pedidos\" e solicite a impressão e envio da sua folha de fotos.</li>\n<li>Imprima você mesmo sua folha de fotos, seja na sua impressora fotográfica pessoal, seja em um quiosque de fotos. Escolha não recomendada por 2 razões:\n<ul>\n<li>O formato de impressão é diferente para cada tipo de impressora e pode ser difícil encontrar aquele que atenda ao tamanho exigido de 35&#215;45 mm.</li>\n<li>A administração exige alta qualidade de impressão, bem como papel fotográfico profissional.</li>\n</ul>\n</li>\n</ul>\n",
+        "titre_accordeon": "Como imprimir uma foto no formato de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>Tirar uma foto de identidade em que você se sinta bonito(a) não é sempre fácil.</p>\n<p>Com o Smartphone iD, você pode tirar quantas fotos quiser, as tentativas são ilimitadas. Assim, você garante que terá A foto de identidade que deseja.</p>\n<p>Em um fotógrafo, você só tem direito a uma tentativa.</p>\n<p>Nas cabines de fotos, você tem 3 tentativas e depois deve escolher.</p>\n",
+        "titre_accordeon": "Como tirar uma boa foto de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>Mantenha a simplicidade. A foto de identidade deve ser a mais natural possível.</p>\n<p>O melhor é deixar o cabelo solto. Se for longo, coloque-o atrás dos ombros para que seu rosto fique bem visível. Você pode escolher prender o cabelo, mas nesse caso, nenhum acessório deve ser visível e o penteado não deve ser muito sofisticado.</p>\n<p>Se você tiver franja, cuidado para que ela não cubra suas sobrancelhas, caso contrário, você corre o risco de ter sua foto rejeitada pela administração.</p>\n",
+        "titre_accordeon": "Como pentear o cabelo para uma foto de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>Sim, você pode estar maquiado(a) na sua foto de identidade. No entanto, a maquiagem deve ser leve. Não exagere na cor dos olhos ou dos lábios. A foto de identidade deve ser o mais natural possível.</p>\n",
+        "titre_accordeon": "Posso me maquiar para uma foto de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>Sim, você pode usar brincos na sua foto de identidade, desde que sejam discretos. Brincos muito chamativos ou volumosos serão rejeitados pela administração.</p>\n",
+        "titre_accordeon": "Posso usar brincos na foto de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>Não, não recomendamos que você use óculos na sua foto de identidade. A administração aceita muito poucas fotos com óculos, pois os critérios exigidos são muito rigorosos.</p>\n<p>Apenas pessoas com um atestado médico que as obrigue a usar óculos na foto de identidade são autorizadas. E, nesse caso, devem respeitar as seguintes regras:</p>\n<ul>\n<li>não ter armações espessas.</li>\n<li>os olhos e sobrancelhas não devem ser cobertos pela armação.</li>\n<li>Não deve haver reflexos nas lentes.</li>\n<li>Lentes coloridas ou escuras são proibidas.</li>\n</ul>\n",
+        "titre_accordeon": "Posso manter os óculos na foto de identidade?"
+      },
+      {
+        "texteAccordeon": "<p>Para tirar uma foto de identidade no iPhone, vá ao site do Smartphone-iD: Aplicativo Foto de Identidade e ePhoto, e siga as instruções!</p>\n<p>Escolha o documento de que você precisa, em seguida, tire sua foto no seu smartphone e pronto. Após a validação da sua foto pela nossa equipe de especialistas, você receberá suas fotos na sua caixa de e-mails em poucos minutos.</p>\n",
+        "titre_accordeon": "Como tirar uma foto de identidade com um iPhone?"
+      },
+      {
+        "texteAccordeon": "<p>Para tirar uma foto de identidade no Android, vá ao site do Smartphone-iD: Aplicativo Foto de Identidade e ePhoto, e siga as instruções! Escolha o documento de que você precisa, em seguida, tire sua foto no seu smartphone e pronto. Após a validação da sua foto pela nossa equipe de especialistas, você receberá suas fotos na sua caixa de e-mails em poucos minutos.</p>\n",
+        "titre_accordeon": "Como tirar uma foto de identidade com um Android?"
+      }
+    ],
+    "titre_bloc9": "frequentemente feitas",
+    "titre_bloc9_span": "Perguntas"
+  },
+
   "Footer": {
     "partie2-button": "Tirar a foto",
     "partie2-p": "Descubra as últimas informações sobre documentos de identidade e vistos.",
-    "SiteMapList-blog" : "Blog",
-    "SiteMapList-propos" : "Sobre nós",
-    "SiteMapList-faq" : "FAQ",
-    "SiteMapList-contact" : "Contato",
+    "SiteMapList-blog": "Blog",
+    "SiteMapList-propos": "Sobre nós",
+    "SiteMapList-faq": "FAQ",
+    "SiteMapList-contact": "Contato",
     "applis-h3": "Baixe o aplicativo",
-    "applis-p":  "Acompanhe seus pedidos e aproveite ainda mais funcionalidades com o aplicativo Smartphone iD.",
-    "mentions-confidentialité": "Política de Privacidade",
-    "mentions-cgu": "Termos e Condições de Uso",
-    "mentions-légales": "Aviso Legal"
+    "applis-p": "Acompanhe seus pedidos e aproveite ainda mais recursos com o aplicativo Smartphone iD.",
+    "mentions-confidentialité": "Política de privacidade",
+    "mentions-cgu": "Termos e Condições",
+    "mentions-légales": "Aviso legal"
   }
 }
-

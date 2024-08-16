@@ -147,8 +147,8 @@ export default function Footer() {
                         <div className="partie2-1">
                             <button className="partie2-button">{translations.Footer["partie2-button"]}</button>
                             <div className="kal-footer-social">
-                                <Link className="" href="/"
-                                      aria-label="Page de téléchargement Apple Store">
+                                <Link className="" href={translations.Footer["Youtube-link"]}
+                                      aria-label="Page Youtube" target="_blank">
                                     <Image
                                         src={Youtube}
                                         alt=""
@@ -156,8 +156,8 @@ export default function Footer() {
                                         aria-hidden="true"
                                     />
                                 </Link>
-                                <Link className="" href="/"
-                                      aria-label="Page de téléchargement Apple Store">
+                                <Link className="" href={translations.Footer["Facebook-link"]}
+                                      aria-label="Page Facebook" target="_blank">
                                     <Image
                                         src={Facebook}
                                         alt=""
@@ -165,8 +165,8 @@ export default function Footer() {
                                         aria-hidden="true"
                                     />
                                 </Link>
-                                <Link className="" href="/"
-                                      aria-label="Page de téléchargement Apple Store">
+                                <Link className="" href={translations.Footer["Instagram-link"]}
+                                      aria-label="Page Instagram" target="_blank">
                                     <Image
                                         src={Instagram}
                                         alt=""
@@ -174,8 +174,8 @@ export default function Footer() {
                                         aria-hidden="true"
                                     />
                                 </Link>
-                                <Link className="" href="/"
-                                      aria-label="Page de téléchargement Apple Store">
+                                <Link className="" href={translations.Footer["LinkedIn-link"]}
+                                      aria-label="Page LinkedIn" target="_blank">
                                     <Image
                                         src={LinkedIn}
                                         alt=""
@@ -188,15 +188,15 @@ export default function Footer() {
                         </div>
                         <div className="SiteMapList">
                             <Link className="SiteMapList-a"
-                                  href="https://www.smartphone-id.com/photos-identite-en-ligne/"
+                                  href={translations.Footer["blog-link"]}
                                   target="_blank">{translations.Footer["SiteMapList-blog"]}</Link>
-                            <Link className="SiteMapList-a" href="https://www.smartphone-id.com/photo-identite-bebe/"
+                            <Link className="SiteMapList-a" href={translations.Footer["propos-link"]}
                                   target="_blank">{translations.Footer["SiteMapList-propos"]}</Link>
                             <Link className="SiteMapList-a"
-                                  href="https://www.smartphone-id.com/e-photo-permis-conduire/"
+                                  href={translations.Footer["faq-link"]}
                                   target="_blank m-0">{translations.Footer["SiteMapList-faq"]}</Link>
                             <Link className="SiteMapList-a"
-                                  href="https://www.smartphone-id.com/code-ephoto-titre-de-sejour/"
+                                  href={translations.Footer["contact-link"]}
                                   target="_blank">{translations.Footer["SiteMapList-contact"]}</Link>
                         </div>
                         <div className="applis">
@@ -204,7 +204,7 @@ export default function Footer() {
                             <p className="applis-p"> {translations.Footer["applis-p"]}</p>
                             <div className="logoStore">
                                 <div className="logoStore1">
-                                    <Link href="/" aria-label="Page de téléchargement Apple Store">
+                                    <Link href={translations.Footer["AppStore-link"]} target="_blank" aria-label="Page de téléchargement Apple Store">
                                         <Image
                                             src={AppStore}
                                             alt=""
@@ -213,7 +213,7 @@ export default function Footer() {
                                             aria-hidden="true"
                                         />
                                     </Link>
-                                    <Link href="/" aria-label="Page de téléchargement Google Store">
+                                    <Link href={translations.Footer["PlayStore-link"]} target="_blank" aria-label="Page de téléchargement Google Store">
                                         <Image
                                             src={PlayStore}
                                             alt=""
@@ -224,6 +224,7 @@ export default function Footer() {
                                     </Link>
                                 </div>
                                 <div className="logoStore2">
+                                    <Link href={translations.Footer["AppStore-link"]} target="_blank" aria-label="Page de téléchargement Apple Store">
                                     <Image
                                         className="logoStore2.img"
                                         src={QRcodeApple}
@@ -232,7 +233,8 @@ export default function Footer() {
                                         href="/"
                                         aria-hidden="true"
                                     />
-
+                                    </Link>
+                                    <Link href={translations.Footer["PlayStore-link"]} target="_blank" aria-label="Page de téléchargement Google Store">
                                     <Image
                                         className="logoStore2.img"
                                         src={QRcodeGoogle}
@@ -241,6 +243,7 @@ export default function Footer() {
                                         href="/"
                                         aria-hidden="true"
                                     />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -266,13 +269,13 @@ export default function Footer() {
                 <aside className="aside"></aside>
                 <section className="mentions">
                     <p>© 2023 Smartphone iD</p>
-                    <Link href="https://www.smartphone-id.com/politique-confidentialite/"
+                    <Link href={translations.Footer["partie2-p-link"]} aria-label="Informations sur les documents d'identité et les visas"
                           target="_blank">{translations.Footer["partie2-p"]}</Link>
-                    <Link href="https://www.smartphone-id.com/cgu/"
+                    <Link href={translations.Footer["mentions-confidentialité-link"]} aria-label="Politique de confidentialité"
                           target="_blank">{translations.Footer["mentions-confidentialité"]}</Link>
-                    <Link href="https://www.smartphone-id.com/mentions-legales/"
+                    <Link href={translations.Footer["mentions-cgu-link"]} aria-label="Conditions générales d'utilisation"
                           target="_blank m-0">{translations.Footer["mentions-cgu"]}</Link>
-                    <Link href="https://www.smartphone-id.com/cookies/"
+                    <Link href={translations.Footer["mentions-légales-link"]} aria-label="Mentions légales"
                           target="_blank">{translations.Footer["mentions-légales"]}</Link>
                 </section>
             </div>

@@ -2,42 +2,43 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import useTranslations from "@/utils/useTranslations";
 
-const Carousel = ({ page }) => {
-
+const Carousel = ({ page, locale }) => {
+    const { translations, loading } = useTranslations(locale);
     const [current, setCurrent] = useState(0);
 
     useEffect(() => {
-        if (page?.pageDAccueilBloc3?.repeteur_etape?.length) {
+        if (translations?.Bloc3?.repeteur_etape?.length) {
             const interval = setInterval(() => {
-                setCurrent((prevCurrent) => (prevCurrent + 1) % page.pageDAccueilBloc3.repeteur_etape.length);
+                setCurrent((prevCurrent) => (prevCurrent + 1) % translations.Bloc3.repeteur_etape.length);
             }, 1500);
             return () => clearInterval(interval);
         }
-    }, [page]);
+    }, [translations]);
 
     const handleArrowClick = (direction) => {
         setCurrent((prevCurrent) =>
             direction === "left"
-                ? (prevCurrent - 1 + page.pageDAccueilBloc3.repeteur_etape.length) % page.pageDAccueilBloc3.repeteur_etape.length
-                : (prevCurrent + 1) % page.pageDAccueilBloc3.repeteur_etape.length
+                ? (prevCurrent - 1 + translations.Bloc3.repeteur_etape.length) % translations.Bloc3.repeteur_etape.length
+                : (prevCurrent + 1) % translations.Bloc3.repeteur_etape.length
         );
     };
 
-    if (!page) return null;
+    if (loading) return null;
 
     return (
         <div className="container">
             <div className="content">
                 <h2 className="title">
-                    <span className="highlight">{page.pageDAccueilBloc3.titre_bloc3_span}</span>
-                    {page.pageDAccueilBloc3.titre_bloc3}
+                    <span className="highlight">{translations.Bloc3.titre_bloc3_span}</span>
+                    {translations.Bloc3.titre_bloc3}
                 </h2>
                 <div className="grid-containt">
                     <div className="left">
                         <div className="carousel-wrapper">
                             <div className="photo-carousel">
-                                {page?.pageDAccueilBloc3?.repeteur_etape?.map((item, index) => (
+                                {translations?.Bloc3?.repeteur_etape?.map((item, index) => (
                                     <div key={index}
                                          className={`flex-shrink-0 w-full ${index === current ? 'block' : 'hidden'}`}>
                                         <Image
@@ -45,7 +46,7 @@ const Carousel = ({ page }) => {
                                             height={500}
                                             priority
                                             className="w-full h-auto object-contain"
-                                            src={item.image_repeteur_etape.node.mediaItemUrl}
+                                            src={item.image_repeteur_etape}
                                             alt="Step Image"
                                         />
                                     </div>
@@ -65,7 +66,7 @@ const Carousel = ({ page }) => {
                                               fill="black"/>
                                     </svg>
                                 </button>
-                                {page?.pageDAccueilBloc3?.repeteur_etape?.map((_, index) => (
+                                {translations?.Bloc3?.repeteur_etape?.map((_, index) => (
                                     <section key={index}
                                              className={`h-1.5 w-12 bg-gray-300 ${index === current ? 'bg-green-400' : ''}`}></section>
                                 ))}
@@ -85,11 +86,11 @@ const Carousel = ({ page }) => {
                             </div>
                         </div>
                         <div className="carousel-content text-black">
-                            {page?.pageDAccueilBloc3?.repeteur_etape?.map((item, index) => (
+                            {translations?.Bloc3?.repeteur_etape?.map((item, index) => (
                                 <div key={index}
                                      className={`flex flex-col items-center text-center gap-3 ${index === current ? 'block' : 'hidden'}`}>
                                     <div className="flex items-center gap-3">
-                                        <Image className="icon w-5 h-5" src={item.check_green.node.mediaItemUrl}
+                                        <Image className="icon w-5 h-5" src={item.check_green}
                                              alt="Check Icon"
                                         width={100}
                                         height={1000}/>
@@ -103,18 +104,18 @@ const Carousel = ({ page }) => {
                     {/* PARTIE GAUCHE */}
                     <div className="right ml-14">
                         <div className="benefits">
-                            {page?.pageDAccueilBloc3?.repeteurCkeckBlack?.map((item, index) => (
+                            {translations?.Bloc3?.repeteurCkeckBlack?.map((item, index) => (
                                 <div className="benefit flex items-center gap-3 mb-6" key={index}>
                                     <Image
                                         className="benefit-image"
-                                         src={item.imageCkeckBlack.node.mediaItemUrl} alt="Benefit Image"
+                                         src={item.imageCkeckBlack} alt="Benefit Image"
                                     width={100}
                                     height={100}/>
                                     <div className="benefit-details flex items-center gap-3">
                                         <Image
                                             width={500}
                                             height={500}
-                                            className="icon" src={item.checkBlack?.node.mediaItemUrl}
+                                            className="icon" src={item.checkBlack}
                                              alt="Check Black"/>
                                         <p className="benefit-text">{item.texteCheckBlack}</p>
                                     </div>

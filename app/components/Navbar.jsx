@@ -8,8 +8,12 @@ import Hamburger from "../../public/images/hamburger.svg";
 import Croix from "../../public/images/xmark-solid.svg";
 import {useState} from "react";
 import { useRouter } from "next/navigation";
+import useTranslations from '@/utils/useTranslations';
 
-export default function Navbar() {
+
+export default function Navbar({locale}) {
+    const { translations, loading } = useTranslations(locale);
+    console.log(translations);
     const [isClick, setisClick] = useState(false);
     const toggleNavbar = () => {
         setisClick(!isClick);
@@ -42,24 +46,16 @@ export default function Navbar() {
 
                         <div className="hidden md:block">
                             <div className="flex items-center">
-                                <Link className="p-2 m-0" href="https://www.smartphone-id.com/photos-identite-en-ligne/"
-                                      target="_blank">Permis de conduire</Link>
-
-                                <Link className="p-2 m-0" href="https://www.smartphone-id.com/photo-identite-bebe/"
-                                      target="_blank">Passeport</Link>
-
-                                <Link className="p-2 m-0" href="https://www.smartphone-id.com/e-photo-permis-conduire/"
-
-                                      target="_blank m-0">Carte National d'identité</Link>
-
-                                <Link className="p-2 m-0" href="https://www.smartphone-id.com/code-ephoto-titre-de-sejour/"
-                                      target="_blank">Titre de séjour</Link>
-
-                                <Link className="p-2 m-0" href="https://www.smartphone-id.com/code-ephoto-titre-de-sejour/"
-                                      target="_blank">Visa</Link>
-
-                                <Link className="p-2 m-0" href="https://www.smartphone-id.com/code-ephoto-titre-de-sejour/"
-                                      target="_blank">Carte vitale</Link>
+                                {translations.NavBar && (
+                                    <>
+                                        <Link className="p-2 m-0" href={translations.NavBar["url_1"]} target="_blank">{translations.NavBar["link_1"]}</Link>
+                                        <Link className="p-2 m-0" href={translations.NavBar["url_2"]} target="_blank">{translations.NavBar["link_2"]}</Link>
+                                        <Link className="p-2 m-0" href={translations.NavBar["url_3"]} target="_blank">{translations.NavBar["link_3"]}</Link>
+                                        <Link className="p-2 m-0" href={translations.NavBar["url_4"]} target="_blank">{translations.NavBar["link_4"]}</Link>
+                                        <Link className="p-2 m-0" href={translations.NavBar["url_5"]} target="_blank">{translations.NavBar["link_5"]}</Link>
+                                        <Link className="p-2 m-0" href={translations.NavBar["url_6"]} target="_blank">{translations.NavBar["link_6"]}</Link>
+                                    </>
+                                )}
                             </div>
                         </div>
 
@@ -94,24 +90,16 @@ export default function Navbar() {
                     {isClick && (
                         <div className="md:hidden">
                             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
-                                <Link className="lien-mobile "
-                                      href="https://www.smartphone-id.com/photos-identite-en-ligne/"
-                                      target="_blank">Photo d'identité en
-                                    ligne</Link>
-
-                                <Link className="lien-mobile" href="https://www.smartphone-id.com/photo-identite-bebe/"
-                                      target="_blank">Photo d'identité de
-                                    bébé</Link>
-
-                                <Link className="lien-mobile"
-                                      href="https://www.smartphone-id.com/e-photo-permis-conduire/"
-                                      target="_blank">ePhoto permis de
-                                    conduire</Link>
-
-                                <Link className="lien-mobile"
-                                      href="https://www.smartphone-id.com/code-ephoto-titre-de-sejour/" target="_blank">ePhoto
-                                    titre de
-                                    séjour</Link>
+                                {translations.NavBar && (
+                                    <>
+                                        <Link className="lien-mobile" href={translations.NavBar["url_1"]} target="_blank">{translations.NavBar["link_1"]}</Link>
+                                        <Link className="lien-mobile" href={translations.NavBar["url_2"]} target="_blank">{translations.NavBar["link_2"]}</Link>
+                                        <Link className="lien-mobile" href={translations.NavBar["url_3"]} target="_blank">{translations.NavBar["link_3"]}</Link>
+                                        <Link className="lien-mobile" href={translations.NavBar["url_4"]} target="_blank">{translations.NavBar["link_4"]}</Link>
+                                        <Link className="lien-mobile" href={translations.NavBar["url_5"]} target="_blank">{translations.NavBar["link_5"]}</Link>
+                                        <Link className="lien-mobile" href={translations.NavBar["url_6"]} target="_blank">{translations.NavBar["link_6"]}</Link>
+                                    </>
+                                )}
                             </div>
                         </div>
                     )}

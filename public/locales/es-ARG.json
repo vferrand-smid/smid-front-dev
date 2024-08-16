@@ -1,0 +1,506 @@
+{
+  "NavBar": {
+    "link_1": "Licencia de Conducir",
+    "url_1": "https://www.smartphone-id.com/es/fotos-de-identidad-en-linea/",
+    "link_2": "Pasaporte",
+    "url_2": "https://www.smartphone-id.com/es/fotos-de-identidad-en-linea/",
+    "link_3": "DNI",
+    "url_3": "https://www.smartphone-id.com/es/fotos-de-identidad-en-linea/",
+    "link_4": "Permiso de Residencia",
+    "url_4": "https://www.smartphone-id.com/es/fotos-de-identidad-en-linea/",
+    "link_5": "Visa",
+    "url_5": "https://www.smartphone-id.com/es/fotos-de-identidad-en-linea/",
+    "link_6": "Credencial de Salud",
+    "url_6": "https://www.smartphone-id.com/es/fotos-de-identidad-en-linea/"
+  },
+
+  "Bloc1": {
+    "girl": "/images/girl.png",
+    "background": "/images/background 1.png",
+    "titre_bloc1": "Obtené Rápidamente",
+    "titre_h4_bloc1": "para renovar tus documentos oficiales argentinos en línea!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "Resultado inmediato garantizado"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "Revisado por expertos"
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Resultado inmediato garantizado"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Revisado por expertos"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Prueba gratis"
+      }
+    ]
+  },
+
+  "kalSearch": {
+    "titre_1": "Necesito una foto carnet para",
+    "titre_2": "Para el documento",
+    "bouton": "Tomar la foto"
+  },
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Más de 1 millón de fotos conformes entregadas"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Proveedor N.º 1 de códigos ePhoto en línea en Argentina"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "Calificación promedio en Apple y Google Store"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "La solución",
+    "titre_bloc3": "para tu foto carnet conforme, sin salir de casa.",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Formateo automático de fotos carnet.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Firmá con tu dedo según el documento oficial.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Revisado por expertos, conformidad garantizada.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Tus fotos impresas y enviadas el mismo día.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Escaneá el código QR para tomar una foto carnet con tu celular.",
+        "titre_check": "Paso 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Verificá los detalles de tu solicitud.",
+        "titre_check": "Paso 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Ordená una hoja de fotos impresa por nuestro servicio, si es necesario.",
+        "titre_check": "Paso 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/commender-impression-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Recibí tu foto individual y tu hoja de fotos imprimible en tu casilla de mail.",
+        "titre_check": "Paso 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-reussi.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Desde 2017, ",
+    "titre_bloc4_2": "fotos carnet conformes realizadas",
+    "titre_bloc4_span": "más de 1 millón",
+    "partenaires": [
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+      },
+      {
+        "text": "Ma Gestión Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestión-Zen.png"
+      },
+      {
+        "text": "CER",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
+      },
+      {
+        "text": "Planète Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Inri's Formaciones",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formaciones.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "E-Residency Marketplace",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Le Progrès",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Chassany2603, 04/04/2022",
+        "texte": "Necesitaba fotos carnet con urgencia y no tenía tiempo de ir a ningún lado. Tomé una foto, pagué por una foto carnet (que cumple con los estándares) y en una hora la tenía en mi casilla de mail. Recibí mi tarjeta poco después. Honestamente, lo recomiendo.",
+        "titre": "Intuitivo y rápido"
+      },
+      {
+        "nom": "ninie1208, 29/06/2021",
+        "texte": "Conveniente para personas como yo que tienen poco tiempo libre después del trabajo. Tomé una foto por la noche con mi celular y unos días después la tenía en mi buzón. Tenía una cita en el registro civil la semana siguiente para renovar mi DNI, así que fue un gran alivio.",
+        "titre": "Realmente genial"
+      },
+      {
+        "nom": "betiolina, 15/08/2022",
+        "texte": "Muy buena aplicación. Si el resultado no es satisfactorio, puedes retomar la foto tantas veces como sea necesario sin costo adicional.",
+        "titre": "Foto carnet"
+      },
+      {
+        "nom": "Anaïs M, 21/02/2022",
+        "texte": "Después de varios meses de luchar con la ANSES, que rechazaba mis fotos tomadas en una cabina (dos veces) o 'perdía' las fotos enviadas por correo (tres veces), intenté una última vez, sintiéndome un poco desesperada. Para mi sorpresa, las fotos, aunque no de la misma calidad que las de una cabina o fotógrafo profesional, fueron aceptadas, y mi licencia de conducir está en proceso. Intento, si es posible, no hacerlo todo desde mi celular, pero fue la única opción que funcionó.",
+        "titre": null
+      },
+      {
+        "nom": "cosmiccbyul, 04/07/2022",
+        "texte": "Descargué esta app para un ePhoto de permiso de residencia ya que no estaba en Argentina y no podía acceder a una cabina de fotos. Para mi sorpresa, fue súper rápido: tomé una foto en unos minutos y recibí el código ePhoto 30 minutos después. Además, solo cuesta 6 euros. ¡Lo recomiendo mucho!",
+        "titre": "¡Muy rápido y eficiente!"
+      },
+      {
+        "nom": "Starsissi, 02/12/2022",
+        "texte": "Necesitaba fotos carnet digitales para una licencia de conducir. Gracias a esta app, pude hacerlo desde casa sin tener que viajar y sin estar limitada en el número de intentos. También hay 'consejos' para mostrar lo que se acepta o no, lo cual es muy útil. Mis fotos fueron aceptadas a la primera por el gobierno y acabo de recibir mi nueva licencia.",
+        "titre": "Muy satisfecha"
+      }
+    ],
+    "nos_partenaires": "Nuestros socios",
+    "nos_medias": "Presentes en los medios"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "¿Por qué elegir ",
+    "titre_bloc5_span": "nuestro servicio?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-identite-facile-en-ligne.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Servicio 24/7",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Todos los documentos",
+        "texteService": "Todos los tipos de documentos están disponibles."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "100% de conformidad",
+        "texteService": "Para todos los documentos oficiales, en todo el mundo."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Elegí la mejor foto",
+        "texteService": "Y tomá tomas ilimitadas."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Un verdadero servicio al cliente",
+        "texteService": "Humanos, no robots."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Solución ideal",
+        "texteService": "Para bebés, personas con discapacidades, expatriados, residentes rurales, etc."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Ecológico",
+        "texteService": "Sin papel, sin desplazamientos."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "El",
+    "titre_bloc6_2": "formato de foto, para todos tus documentos oficiales",
+    "titre_bloc6_span": "formato correcto",
+    "documents": [
+      {
+        "titre_doc": "Licencia de Conducir",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
+      },
+      {
+        "titre_doc": "Pasaporte",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+      },
+      {
+        "titre_doc": "DNI",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
+      },
+      {
+        "titre_doc": "Permiso de Residencia",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
+      },
+      {
+        "titre_doc": "Credencial de Salud",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Impresión de fotos",
+        "paragraphe": "Recibí un formato impreso en 2 días o usá este formato para imprimir tus fotos en nuestras tiendas asociadas.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "E. Leclerc",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
+          },
+          {
+            "nom_partenaire": "Auchan",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+          },
+          {
+            "nom_partenaire": "Intermarché",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
+          },
+          {
+            "nom_partenaire": "Carrefour",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
+          },
+          {
+            "nom_partenaire": "fnac",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
+          },
+          {
+            "nom_partenaire": "Cewe",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1": "La solución",
+    "titre_bloc7_2": "para las solicitudes de documentos oficiales",
+    "titre_bloc7_span": "perfecta",
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
+        "paragraphe": "Para documentos argentinos, necesario para el registro en el sitio de la ANSES.",
+        "titre": "Código ePhoto oficial"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
+        "paragraphe": "Obligación de una foto carnet de menos de 6 meses. El gobierno puede ver la fecha en que se tomó la foto.",
+        "titre": "Foto de menos de 6 meses"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1": "Cómo",
+    "titre_bloc8_2": "tu foto carnet",
+    "titre_bloc8_span": "lograr",
+    "titre_encart": "Algunos consejos",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 1,
+        "texte": "Gafas",
+        "texte_span": "quitadas"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 2,
+        "texte": "Cara",
+        "texte_span": "iluminada uniformemente"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 3,
+        "texte": "Cabello",
+        "texte_span": "detrás de los hombros"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 4,
+        "texte": "Boca",
+        "texte_span": "cerrada, sin sonreír"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/es/foto-de-identidad-conforme/",
+      "title": "Más información"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/es/foto-de-identidad-bebe/",
+      "title": "¿Cómo hacer una foto carnet de tu bebé?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "Foto carnet",
+    "ePhoto": "Código ePhoto",
+    "codeEphoto": [
+      {
+        "texte_accordeon": "<p>¿Necesitás proporcionar un <a href=\"https://www.smartphone-id.com/es/ephoto-ants/\">código ePhoto de firma digital</a> (o código ePhoto) para una solicitud en línea en el sitio de la ANSES?</p>\n<p>Es muy sencillo, visitá el sitio web de Smartphone-iD: Aplicación de Foto de Identidad y ePhoto. Descargá la aplicación, elegí el documento que necesitás (Licencia de Conducir, Permiso de Residencia, DCEM, etc.). Luego tomá tu foto y tu firma en tu celular, ¡y listo! Después de que nuestro equipo de expertos valide tu foto, recibirás tu código ePhoto en tu casilla de mail en unos minutos.</p>\n",
+        "titre_accordeon": "¿Cómo obtener un código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>El código ePhoto está escrito en la hoja de fotos que está disponible:</p>\n<ul>\n<li>en la aplicación 'Foto de Identidad Oficial' de Smartphone iD, en el menú 'Seguimiento de Pedidos'</li>\n<li>directamente en el mail que recibiste. En ese mail, también se indica el código ePhoto.</li>\n</ul>\n",
+        "titre_accordeon": "¿Dónde encontrar el código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>Tenés 2 opciones:</p>\n<ul>\n<li>Puedes copiar el código ePhoto de 22 caracteres (letras y números) que aparece en tu hoja de fotos. Asegurate de escribir las letras en mayúsculas y no incluir espacios 🙂</li>\n<li>O podés copiar y pegar el código ePhoto que se indica en el mail que recibiste.</li>\n</ul>\n",
+        "titre_accordeon": "¿Cómo ingresar el código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>El código ePhoto es de un solo uso. Una vez que lo hayas ingresado en el sitio de la ANSES, no podrás volver a usarlo.</p>\n<p>La ANSES asegura tus datos evitando la reutilización de códigos ePhoto.</p>\n",
+        "titre_accordeon": "¿Cuántas veces se puede utilizar el código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>El código ePhoto es válido por 6 meses. Esto corresponde al período de validez de tu foto carnet.</p>\n<p>Tenés 6 meses para usarlo; después de eso, ya no funcionará.</p>\n",
+        "titre_accordeon": "¿Cuánto tiempo es válido el código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>En una hoja de fotos, hay UN código ePhoto.</p>\n<p>Si necesitás otro código ePhoto, podés obtener uno sin volver a tomar tu foto y firma, siempre y cuando esté dentro de los 6 meses. Para hacerlo, andá al menú 'Seguimiento de Pedidos' de la aplicación 'Foto de Identidad Oficial' de Smartphone iD, seleccioná tu pedido y solicitá un nuevo código ePhoto. Lo recibirás en unos minutos.</p>\n",
+        "titre_accordeon": "¿Cuántos códigos ePhoto hay en una hoja de fotos?"
+      },
+      {
+        "texte_accordeon": "<p>Varias razones son posibles:</p>\n<ul>\n<li>Cometiste un error al ingresar tu código ePhoto. Las letras deben estar en mayúsculas, debes ingresar los 22 caracteres sin espacios, y podrías haber confundido las letras O con los números 0.</li>\n<li>Ya utilizaste este código ePhoto. Como el código ePhoto es de un solo uso, solicitá un nuevo código ePhoto directamente en la aplicación 'Foto de Identidad Oficial' de Smartphone iD.</li>\n</ul>\n<p>Si tu pedido es de menos de 6 meses, es simple, no necesitas volver a tomar tu foto y firma. Andá al menú 'Seguimiento de Pedidos', seleccioná tu pedido y solicitá un nuevo código ePhoto.</p>\n<p>Si tu pedido es de más de 6 meses, en ese caso, realizá un nuevo pedido y recibí el código ePhoto en unos minutos.</p>\n",
+        "titre_accordeon": "¿Por qué no funciona mi código ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>Es muy sencillo, visitá el sitio de la ANSES <a href=\"https://permisdeconduire.ants.gouv.fr/\">Licencia de Conducir - Inicio (anses.gob.ar)</a>, elegí el motivo de tu solicitud (solicitud de inscripción en el examen de la licencia de conducir, solicitud de fabricación de tu licencia de conducir, etc.), y luego completá el formulario que aparece. En el campo 'código de foto de firma digital', ingresá tu código ePhoto, ¡y listo!</p>\n",
+        "titre_accordeon": "¿Cómo ingresar el código ePhoto para la licencia de conducir?"
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>Las fotos carnet argentinas deben cumplir con la norma ISO/IEC 19794-5:2005.</p>\n<p>El tamaño de la foto carnet debe ser de 35×45 mm.</p>\n<p>Puntos principales a seguir:</p>\n<ul>\n<li>No usar ningún accesorio en el cabello (sombreros, lazos visibles).</li>\n<li>Adoptar una expresión neutral, boca cerrada. Sin sonreír.</li>\n<li>El rostro completo debe ser visible (ojos, cejas, orejas, cuello).</li>\n<li>Para el cabello largo, colócalo detrás de los hombros.</li>\n<li>No usar gafas, excepto con un certificado médico específico.</li>\n</ul>\n<p>Facilitá tu vida, Smartphone iD se encarga de verificar todos estos puntos por vos y garantiza que presentes una foto carnet válida. No más riesgo de que tu solicitud sea rechazada por la administración.</p>\n<p>Más información en <a href=\"https://www.smartphone-id.com/es/foto-de-identidad-conforme/\" target=\"_blank\" rel=\"noopener\">https://www.smartphone-id.com/es/foto-de-identidad-conforme/</a></p>\n",
+        "titre_accordeon": "¿Cuáles son las normas para las fotos carnet?"
+      },
+      {
+        "texteAccordeon": "<p>El precio de una foto carnet varía considerablemente según el medio que elijas:</p>\n<ul>\n<li>Cabinas de fotos: entre $1500 y $2000</li>\n<li>Fotógrafos: entre $3000 y $4000</li>\n<li>Smartphone iD: menos de $1000</li>\n</ul>\n<p>Smartphone iD ofrece el precio más bajo del mercado con la garantía más alta. Por menos de $1000, obtené fotos carnet certificadas conformes.</p>\n",
+        "titre_accordeon": "¿Cuánto cuesta una foto carnet en Argentina?"
+      },
+      {
+        "texteAccordeon": "<p>Una foto carnet debe ser tomada por un profesional autorizado; de lo contrario, no será aceptada por la administración.</p>\n<p>Existen varias soluciones:</p>\n<ul>\n<li>Quedarte en casa y utilizar la aplicación Smartphone iD, proveedor certificado de fotos carnet.</li>\n<li>Ir a un fotógrafo autorizado o a una cabina de fotos certificada.</li>\n</ul>\n<p>Con Smartphone iD, tomar una foto carnet es un juego de niños. No necesitas ir a ningún lado, tomá tu foto en tu celular cuando te convenga. Nos encargamos de que tu foto cumpla con los estándares y la recibirás directamente en tu casilla de mail.</p>\n",
+        "titre_accordeon": "¿Cómo tomar una foto carnet?"
+      },
+      {
+        "texteAccordeon": "<p>La foto debe tomarse de una de las siguientes maneras:</p>\n<ul>\n<li>En una aplicación móvil que utilice un sistema aprobado por el Ministerio del Interior.</li>\n<li>Por un profesional autorizado, como un fotógrafo.</li>\n<li>En una cabina de fotos que utilice un sistema aprobado por el Ministerio del Interior.</li>\n</ul>\n<p>Dependiendo del medio elegido, los servicios no son idénticos y el precio puede variar considerablemente.</p>\n<p>Smartphone iD es el único servicio que garantiza que tu foto carnet cumpla con los estándares exigidos por la administración al precio más bajo del mercado.</p>\n",
+        "titre_accordeon": "¿Dónde tomar fotos carnet cerca de mí?"
+      },
+      {
+        "texteAccordeon": "<p>Con Smartphone iD, recibirás tu hoja de fotos directamente en tu casilla de mail.</p>\n<p>¿Necesitás una versión impresa de tu hoja de fotos? Tenés 3 opciones:</p>\n<ul>\n<li>Solicitá la impresión y envío de tu hoja de fotos al hacer tu pedido con Smartphone iD. Tu hoja de fotos será impresa por especialistas en impresión de fotos y enviada por correo en menos de 24 horas.</li>\n<li>Si ya realizaste tu pedido, no te preocupes. Iniciá sesión con tu mail en la aplicación 'Foto de Identidad Oficial' de Smartphone iD. Hacé clic en el menú 'Seguimiento de Pedidos' y solicitá la impresión y el envío de tu hoja de fotos.</li>\n<li>Imprimí vos mismo tu hoja de fotos, ya sea en tu impresora de fotos personal o en una cabina de fotos. Esta opción no es recomendable por dos razones:\n<ul>\n<li>El formato de impresión es diferente para cada tipo de impresora y puede ser tedioso encontrar el que se ajuste para obtener las fotos en el tamaño requerido de 35×45 mm.</li>\n<li>La administración exige una alta calidad de impresión y un papel fotográfico profesional.</li>\n</ul>\n</li>\n</ul>\n",
+        "titre_accordeon": "¿Cómo imprimir una foto en formato carnet?"
+      },
+      {
+        "texteAccordeon": "<p>Tomar una foto carnet en la que te veas bien no siempre es fácil.</p>\n<p>Con Smartphone iD, tomá tantas fotos como quieras, las sesiones de fotos son ilimitadas. De esta manera, te asegurás de tener LA foto carnet que querés.</p>\n<p>En un fotógrafo, solo tenés un intento.</p>\n<p>En las cabinas de fotos, tenés 3 intentos y luego debés elegir.</p>\n",
+        "titre_accordeon": "¿Cómo tomar una buena foto carnet?"
+      },
+      {
+        "texteAccordeon": "<p>Mantené la simplicidad. La foto carnet debe ser lo más natural posible.</p>\n<p>Lo mejor es dejar el cabello suelto. Si es largo, colocalo detrás de los hombros para que tu rostro esté bien visible. Podés optar por recogerte el cabello, pero en ese caso, no debe ser visible ninguna sujeción y el peinado no debe ser demasiado elaborado.</p>\n<p>Si tenés flequillo, asegurate de que no cubra tus cejas; de lo contrario, corrés el riesgo de que la administración rechace tu solicitud.</p>\n",
+        "titre_accordeon": "¿Cómo peinarse para una foto carnet?"
+      },
+      {
+        "texteAccordeon": "<p>Sí, podés maquillarte en tu foto carnet. Sin embargo, el maquillaje debe ser ligero. No utilices colores demasiado llamativos en los ojos o los labios. La foto carnet debe ser lo más natural posible.</p>\n",
+        "titre_accordeon": "¿Se puede maquillar para una foto carnet?"
+      },
+      {
+        "texteAccordeon": "<p>Sí, podés llevar pendientes en tu foto carnet si son discretos. Los pendientes demasiado llamativos o voluminosos serán rechazados por la administración.</p>\n",
+        "titre_accordeon": "¿Se pueden llevar pendientes para una foto carnet?"
+      },
+      {
+        "texteAccordeon": "<p>No, te recomendamos que no lleves gafas en tu foto carnet. La administración acepta muy pocas fotos con gafas porque los criterios son muy estrictos.</p>\n<p>Solo se permite a las personas con un certificado médico que les obligue a llevar gafas en su foto carnet. En ese caso, deben cumplir con las siguientes reglas:</p>\n<ul>\n<li>No llevar monturas gruesas.</li>\n<li>Los ojos y las cejas no deben estar cubiertos por la montura.</li>\n<li>No debe haber reflejos en los cristales.</li>\n<li>Los cristales teñidos o de colores están prohibidos.</li>\n</ul>\n",
+        "titre_accordeon": "¿Se pueden mantener las gafas para una foto carnet?"
+      },
+      {
+        "texteAccordeon": "<p>Para tomar una foto carnet en un iPhone, visitá el sitio web de Smartphone-iD: Aplicación de Foto de Identidad y ePhoto, ¡y seguí las instrucciones!</p>\n<p>Elegí el documento que necesitás, luego tomá tu foto en tu celular, ¡y listo! Después de que nuestro equipo de expertos valide tu foto, recibirás tus fotos en tu casilla de mail en unos minutos.</p>\n",
+        "titre_accordeon": "¿Cómo tomar una foto carnet con un iPhone?"
+      },
+      {
+        "texteAccordeon": "<p>Para tomar una foto carnet en Android, visitá el sitio web de Smartphone-iD: Aplicación de Foto de Identidad y ePhoto, ¡y seguí las instrucciones! Elegí el documento que necesitás, luego tomá tu foto en tu celular, ¡y listo! Después de que nuestro equipo de expertos valide tu foto, recibirás tus fotos en tu casilla de mail en unos minutos.</p>\n",
+        "titre_accordeon": "¿Cómo tomar una foto carnet con Android?"
+      }
+    ],
+    "titre_bloc9": "preguntas frecuentes",
+    "titre_bloc9_span": "Preguntas"
+  },
+
+  "Footer": {
+    "partie2-button": "Tomar la foto",
+    "partie2-p": "Descubrí la información más reciente sobre documentos de identificación y visas.",
+    "SiteMapList-blog": "Blog",
+    "SiteMapList-propos": "Sobre nosotros",
+    "SiteMapList-faq": "FAQ",
+    "SiteMapList-contact": "Contacto",
+    "applis-h3": "Descargá la app",
+    "applis-p": "Seguimiento de pedidos y más funciones con la app Smartphone iD.",
+    "mentions-confidentialité": "Política de Privacidad",
+    "mentions-cgu": "Condiciones de Uso",
+    "mentions-légales": "Aviso Legal"
+  }
+}

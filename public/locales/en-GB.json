@@ -1,40 +1,469 @@
 {
   "NavBar": {
+    "link_1": "Driving Licence",
+    "url_1": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_2": "Passport",
+    "url_2": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_3": "National Identity Card",
+    "url_3": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_4": "Residence Permit",
+    "url_4": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_5": "Visa",
+    "url_5": "https://www.smartphone-id.com/photos-identite-en-ligne/",
+    "link_6": "Health Insurance Card",
+    "url_6": "https://www.smartphone-id.com/photos-identite-en-ligne/"
+  },
 
+  "Bloc1": {
+    "girl": "/images/girl.png",
+    "background": "/images/background 1.png",
+    "titre_bloc1": "Fast and easy tool for",
+    "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "Your secure passport photo"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_white": "your signature with the ePhoto code"
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Immediate AI editing"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Expert verification"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Government acceptance"
+      }
+    ]
   },
-  "Bloc1" : {
-    "girl" : "/images/girl.png",
-    "background" : "/images/background 1.png"
+
+  "kalSearch": {
+    "titre_1": "I need a passport photo for",
+    "titre_2": "For the document",
+    "bouton": "Take the photo"
   },
-  "kalSearch" : {
-    "titre_1" : "I need a passport photo for"
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "More than a million valid passport photos delivered"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "First ePhoto + signature provider online"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "stars in Apple and Google Play Store"
+      }
+    ]
   },
-  "Bloc4" : {
-    "nos_medias" : "Our Media",
-    "nos_partenaires" : "Our Partners"
+
+  "Bloc3": {
+    "titre_bloc3_span": "The complete",
+    "titre_bloc3": "passport photo solution without leaving your home",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automated sizing and background removal.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-automatic-background-removal.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-checker.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/order-printed-passport-photos.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Scan the QR code with your smartphone and take your photo.",
+        "titre_check": "Step 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-tool-online-computer.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/digital-passport-photo-expert-check-computer.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/order-printed-passport-photo-online-computer.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receive your digital passport photo, digital photo code, and a ready-to-print template in your email.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/succesful-passport-photo-computer.png"
+      }
+    ]
   },
+
+  "Bloc4": {
+    "titre_bloc4_1": "More than",
+    "titre_bloc4_2": "valid passport photos created",
+    "titre_bloc4_span": "a million",
+    "partenaires": [
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+      },
+      {
+        "text": "Planète Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "E-Residency Estonia",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      },
+      {
+        "text": "Canal +",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "Le Progres",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Amazing! My dad struggled to get to an official photo booth for his ePhoto in France. We got his photo done at home using the app. It was a little dark, but they Photoshopped it so it was clear and precise, exactly like a passport photo. We received the ePhotos within 24 hours and a few days later received the actual ones in the post. I didn't need them, but just in case. This is the first time I've used an app that does exactly what it says with no problems! Well done, Smart photo!!!",
+        "titre": "Efficient"
+      },
+      {
+        "nom": "Stephanie Moffatt, 11/06/2022",
+        "texte": "It took a few attempts to get the photo approved, but it has tips on what to do differently. Both myself and my husband used this app to get new passports, and our photos were accepted first time by the passport office. Much cheaper than using a photo booth.",
+        "titre": "Photos accepted first time"
+      },
+      {
+        "nom": "Pixie and Tess, 06/22/2022",
+        "texte": "Living in the USA getting the required photo \"code\" to renew my British Passport was a problem. This App came to my rescue and was so easy to use and within hours I received the photo approval and \"code\" needed for Gov.com. I highly recommend this App",
+        "titre": "Awesome"
+      },
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "I was a bit dubious at first about using this app for my driver's license photo, but after following the tips and guidelines on how to create a successful photo, it was all done within minutes. The staff verifies the photo is usable, and you can either have it posted or emailed to you. I didn't even have to leave the comfort of my own home, which is an added bonus. Definitely recommend!!",
+        "titre": "Definitely recommend!!"
+      },
+      {
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "This is great. I was able to take my titre de séjour photos from the US without having to return to France to find a photomaton. I had to retake my photo, but the instructions were easy to follow. Great experience and great communication.",
+        "titre": "Very useful"
+      },
+      {
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "Really impressed with this app - process was easy - approved and added to online application with no problems- would deffo recommend.",
+        "titre": "New passport"
+      }
+    ],
+    "nos_partenaires": "Our partners",
+    "nos_medias": "Present in the media"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "Why the Smartphone iD",
+    "titre_bloc5_span": "passport photo tool?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/easy-passport-photo-smartphone.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "24/7 service",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "For all document types",
+        "texteService": "The right size in digital and printed format, photo depth, background color, lighting ..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "100% conformity",
+        "texteService": "Get 100% conformity for any official document worldwide."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Get the best photo",
+        "texteService": "Take an unlimited number of photos, and choose your best shot."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Real customer service",
+        "texteService": "No robots, no hidden contact info; your positive experience is important to us."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Handy for many",
+        "texteService": "Especially for babies, disabled people, expats, people in rural areas..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Ecological",
+        "texteService": "No more paper to waste if you need to renew your document online."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "Matching passport photos",
+    "titre_bloc6_2": "UK document",
+    "titre_bloc6_span": "for each",
+    "documents": [
+      {
+        "titre_doc": "Passport",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-for-uk-passport.png"
+      },
+      {
+        "titre_doc": "Visa",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-for-Visa-UK.png"
+      },
+      {
+        "titre_doc": "Driving Licence",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-for-Driving-Licence-UK.png"
+      },
+      {
+        "titre_doc": "Residence Permit",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-for-Residence-Permit-UK.png"
+      },
+      {
+        "titre_doc": "Citizen Card",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-for-Citizen-Card-UK.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Where to print a UK passport photo?",
+        "paragraphe": "Order professionally printed photos with Smartphone iD or use the ready-to-print template sent to your email.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/print-UK-passport-photo-online.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id-logo.png"
+          },
+          {
+            "nom_partenaire": "Max Spielmann",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Max.png"
+          },
+          {
+            "nom_partenaire": "Photo-Me",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Photo-Me.png"
+          },
+          {
+            "nom_partenaire": "Timpson",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Timpson.png"
+          },
+          {
+            "nom_partenaire": "Tesco",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Tesco.png"
+          },
+          {
+            "nom_partenaire": "Cewe",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cewe.png"
+          },
+          {
+            "nom_partenaire": "Asda",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/ASDA.png"
+          },
+          {
+            "nom_partenaire": "Snappy Snaps",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Snappy-Snaps.png"
+          }
+        ]
+      }
+    ]
+  },
+
   "Bloc7": {
-    "titre_bloc7_1" : "The Solution",
-    "titre_bloc7_2" : "for Official Document Requests"
+    "titre_bloc7_1": "The Solution",
+    "titre_bloc7_2": "for Official Document Requests",
+    "titre_bloc7_span": "official document",
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/uk-passport-photo-with-digital-signature.png",
+        "paragraphe": "When needed, your signature will be linked to your photo for official online document applications.",
+        "titre": "Digital signature"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/uk-passport-photo-with-time-stamp.png",
+        "paragraphe": "Taking real-time photos prove a photo's recency, which is obligatory for official documents.",
+        "titre": "Prove photo recency"
+      }
+    ]
   },
+
   "Bloc8": {
-    "titre_bloc8_1" : "How",
-    "titre_bloc8_2" : "to take your ID photo"
+    "titre_bloc8_1": "How",
+    "titre_bloc8_2": "to take your ID photo",
+    "titre_bloc8_span": "successful",
+    "titre_encart": "Some tips",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 1,
+        "texte": "Remove",
+        "texte_span": "your glasses"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 2,
+        "texte": "Let the light fall",
+        "texte_span": "evenly on your face"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 3,
+        "texte": "Your hair should be",
+        "texte_span": "behind your shoulders"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 4,
+        "texte": "Mouth closed,",
+        "texte_span": "neutral expression"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/en_GB/passport-photo-requirements/",
+      "title": "See more"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/en_GB/baby-passport-photo-uk/",
+      "title": "How to take a passport photo of a baby?"
+    }
   },
+
   "Bloc9": {
-    "tabListP": "ID photo"
+    "ID": "Passport Photo",
+    "ePhoto": "ePhoto Code",
+    "codeEphoto": [
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>Official passport photos must meet specific requirements.</p>",
+        "titre_accordeon": "What are the standards for passport photos?"
+      },
+      {
+        "texteAccordeon": "<p>Smartphone iD provides official photos for less than £5.</p>",
+        "titre_accordeon": "How much does a passport photo cost in the UK?"
+      },
+      {
+        "texteAccordeon": "<p>Using Smartphone iD, you can take your passport photo at home.</p>",
+        "titre_accordeon": "How to take a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p>Follow the specific guidelines for taking your passport photo with your smartphone.</p>",
+        "titre_accordeon": "How to take a passport photo with an iPhone?"
+      }
+    ],
+    "titre_bloc9": "Frequently Asked",
+    "titre_bloc9_span": "Questions"
   },
+
   "Footer": {
-    "partie2-button": "Take the Photo",
-    "partie2-p": "Discover the latest information on identity documents and visas.",
-    "SiteMapList-blog" : "Blog",
-    "SiteMapList-propos" : "About Us",
-    "SiteMapList-faq" : "FAQ",
-    "SiteMapList-contact" : "Contact",
-    "applis-h3": "Download the App",
-    "applis-p":  "Track your orders and enjoy even more features with the Smartphone iD app.",
+    "partie2-button": "Take the photo",
+    "partie2-p": "Get the latest information on identity documents and visas.",
+    "SiteMapList-blog": "Blog",
+    "SiteMapList-propos": "About us",
+    "SiteMapList-faq": "FAQ",
+    "SiteMapList-contact": "Contact",
+    "applis-h3": "Download the app",
+    "applis-p": "Track your orders and get even more features with the Smartphone iD app.",
     "mentions-confidentialité": "Privacy Policy",
-    "mentions-cgu": "Terms and Conditions",
+    "mentions-cgu": "Terms of Use",
     "mentions-légales": "Legal Notice"
   }
 }

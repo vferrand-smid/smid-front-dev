@@ -15,6 +15,9 @@ import Bloc6Documents from '../app/components/Bloc6_documents';
 import Bloc7Solution from '../app/components/Bloc7_solution';
 import Bloc8Tuto from '../app/components/Bloc8_tuto';
 import Bloc9Accordeon from '../app/components/Bloc9_accordeon';
+import Bloc10 from '../app/components/Bloc10';
+import Bloc11 from '../app/components/Bloc11';
+
 import nextToGraphQLLocales from '../app/lib/locales';
 
 
@@ -85,34 +88,37 @@ const PageList = () => {
                                 backgroundImage: `url(${backgroundImageUrl})`,
                             }}
                         >
-                            <Bloc1 page={page} />
+                            <Bloc1 page={page}/>
                         </section>
                         <section className="bloc2">
-                            <Bloc2 page={page} />
+                            <Bloc2 page={page}/>
                         </section>
                         <section className="bloc3">
-                            <Bloc3_carousel page={page} />
+                            <Bloc3_carousel page={page}/>
                         </section>
                         <section className="bloc4">
-                            <Temoignages page={page} />
+                            <Temoignages page={page}/>
                         </section>
                         <section className="bloc5">
-                            <Bloc5Services page={page} />
+                            <Bloc5Services page={page}/>
                         </section>
                         <section className="bloc6">
-                            <Bloc6Documents page={page} />
+                            <Bloc6Documents page={page}/>
                         </section>
                         <section className="bloc7">
-                            <Bloc7Solution page={page} />
+                            <Bloc7Solution page={page}/>
                         </section>
                         <section className="bloc8">
-                            <Bloc8Tuto page={page} />
+                            <Bloc8Tuto page={page}/>
                         </section>
                         <section className="bloc9">
-                            <Bloc9Accordeon page={page} />
+                            <Bloc9Accordeon page={page}/>
                         </section>
-                        <section className="bloc10 bg-amber-200">
-                            <p>bloc10</p>
+                        <section className="bloc10 m-10 flex justify-center">
+                            <Bloc10 page={page}/>
+                        </section>
+                        <section className="bloc11">
+                            <Bloc11 page={page}/>
                         </section>
                     </div>
                 ))}

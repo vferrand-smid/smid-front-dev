@@ -8,36 +8,35 @@ const Bloc1 = ({ page, locale  }) => {
     const { translations, loading } = useTranslations(locale);
 
     if (loading) {
-        return <div>Loading...</div>;
+        return <div className="hidden">Loading...</div>;
     }
 
     if (!translations.Bloc1) {
-        return <div>Translations for Bloc1 not found</div>;
+        return <div className="hidden">Translations for Bloc1 not found</div>;
     }
 
-
     if (!page?.pageDAccueilBloc1) {
-        return <div>No data available for Bloc1</div>;
+        return <div className="hidden">No data available for Bloc1</div>;
     }
 
     return (
         <div className={styles.kalHero}>
             <div className={styles.kalHeroContent}>
                 <h1 className={styles.kalHeroContentH1}>
-                    {page.pageDAccueilBloc1.titre_bloc1}
+                    {translations.Bloc1["titre_bloc1"]}
                 </h1>
                 <section className={styles.bloc1Partie1}>
-                    {page?.pageDAccueilBloc1?.repeteur_check_green_bloc1?.map((item, index) => (
+                    {translations.Bloc1.repeteurCheckGreenBloc1?.map((item, index) => (
                         <div className={styles.repeteurCheckGreenBloc1} key={index}>
                             <Image
-                                src={item.check_green.node.mediaItemUrl}
+                                src={item.mediaItemUrl}
                                 alt=""
                                 width={20}
                                 height={20}
                                 priority
                                 className={styles.repeteurCheckGreenBloc1Img}
                             />
-                            <h4>{item.texte_repeteur_check_green_bloc1}</h4>
+                            <h4>{item.texte_check_white}</h4>
                         </div>
                     ))}
                     {page?.pageDAccueilBloc1?.titre_h4_bloc1 && (
@@ -48,12 +47,12 @@ const Bloc1 = ({ page, locale  }) => {
                 </section>
 
                 <aside className={styles.kalHeroAside}>
-                    {page?.pageDAccueilBloc1?.repeteur_check_white_bloc1?.map((item, index) => (
+                    {translations.Bloc1.repeteurCheckWhiteBloc1?.map((item, index) => (
                         <div className={styles.repeteurCheckWhiteBloc1} key={index}>
                             <div className={styles.repeteurCheckWhiteBloc1Div1}>
                                 <Image
                                     className={styles.repeteurCheckWhiteBloc1Img}
-                                    src={item.check_white.node.mediaItemUrl}
+                                    src={item.mediaItemUrl}
                                     alt=""
                                     width={20}
                                     height={20}
