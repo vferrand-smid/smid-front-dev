@@ -3,9 +3,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../public/images/logo-smartphone-id.jpg";
-import Hamburger from "../../public/images/hamburger.svg";
-import Croix from "../../public/images/xmark-solid.svg";
+import Logo from "../../public/images/Header/logo-smartphone-id.jpg";
+import Hamburger from "../../public/images/Header/hamburger.svg";
+import Croix from "../../public/images/Header/xmark-solid.svg";
 import {useState} from "react";
 import { useRouter } from "next/navigation";
 import useTranslations from '@/utils/useTranslations';

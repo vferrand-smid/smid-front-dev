@@ -1,81 +1,43 @@
 .accordion {
-    background: #eafaf1;
+    @apply bg-cover bg-no-repeat;
+    background-image: url('/images/Bloc9/BG-1 (1).png');
     padding: 80px 50px;
 }
 
 .accordion h3 {
-    margin-top: 0;
-    margin-bottom: 30px;
-    color: #000;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 50px;
+    @apply mt-0 mb-8 text-black text-2xl font-semibold leading-[50px];
 }
 
 .accordionContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    @apply grid grid-cols-2 gap-5;
 }
 
 .tabList {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    @apply flex flex-col gap-2.5;
 }
 
 .tab {
-    border: 2px solid #efefef;
-    background: #fff;
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding: 24px 30px 24px 40px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @apply border-2 border-gray-200 bg-white text-black text-xl font-semibold py-6 px-10 rounded-lg cursor-pointer transition-all duration-200 flex justify-between items-center;
 }
 
 .activeTab {
-    border: 2px solid #2fc977;
+    @apply border-2 border-[#2fc977];
 }
 
 .tabContent {
-    border-radius: 10px;
-    border: 3px solid #efefef;
-    background: #fff;
-    padding: 24px 30px;
+    @apply rounded-lg border-2 border-gray-200 bg-white p-6;
 }
 
-
 .question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    padding: 10px 0;
-    color: #000;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
+    @apply flex justify-between items-center cursor-pointer py-2.5 text-black text-base font-normal leading-tight;
 }
 
 .question svg {
-    color: #a6a6a6;
-    transition: all 0.2s;
+    @apply text-gray-400 transition-all duration-200;
 }
 
-
 .answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+    @apply max-h-0 overflow-hidden transition-[max-height] duration-300 ease-in-out;
 }
 
 .active {
@@ -83,16 +45,14 @@
 }
 
 .icon {
-    transition: transform 0.3s ease;
+    @apply transition-transform duration-300 ease-in-out;
 }
 
 .iconOpen {
-    transform: rotate(180deg);
+    @apply rotate-180;
 }
 
 .highlight {
     background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
-    background-size: 100% 10px;
-    background-position: left bottom;
-    background-repeat: no-repeat;
+    @apply bg-[length:100%_10px] bg-left-bottom bg-no-repeat;
 }

@@ -1,14 +1,14 @@
 'use client';
 
-import FooterLogo from "../../public/images/Logo.svg";
-import AppStore from "../../public/images/AppStore-vector.svg";
-import PlayStore from "../../public/images/Gstore-vector.svg";
-import QRcodeApple from "../../public/images/Layer_1.svg";
-import QRcodeGoogle from "../../public/images/Layer_1 (1).svg";
-import Youtube from "../../public/images/Icon_awesome-youtube.svg";
-import Facebook from "../../public/images/Icon_awesome-facebook-f.svg";
-import Instagram from "../../public/images/Icon_awesome-instagram.svg";
-import LinkedIn from "../../public/images/Icon_awesome-linkedin-in.svg"
+import FooterLogo from "../../public/images/Footer/Logo.svg";
+import AppStore from "../../public/images/Footer/AppStore-vector.svg";
+import PlayStore from "../../public/images/Footer/Gstore-vector.svg";
+import QRcodeApple from "../../public/images/Footer/Layer_1.svg";
+import QRcodeGoogle from "../../public/images/Footer/Layer_1 (1).svg";
+import Youtube from "../../public/images/Footer/Icon_awesome-youtube.svg";
+import Facebook from "../../public/images/Footer/Icon_awesome-facebook-f.svg";
+import Instagram from "../../public/images/Footer/Icon_awesome-instagram.svg";
+import LinkedIn from "../../public/images/Footer/Icon_awesome-linkedin-in.svg"
 import Link from "next/link";
 import Image from "next/image";
 import React, {useState, useRef, useEffect} from 'react';

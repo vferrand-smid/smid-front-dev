@@ -500,11 +500,17 @@
 
   "Bloc11" : {
     "permis" : "Permis de conduire",
+    "Link1" : "",
     "passeport" : "Passeport",
+    "Link2" : "",
     "cni" : "Carte Nationale d'identité",
+    "Link3" : "",
     "séjour" : "Tire de Séjour",
+    "Link4" : "",
     "visa" : "Visa",
-    "vitale" : "Carte Vitale"
+    "Link5" : "",
+    "vitale" : "Carte Vitale",
+    "Link6" : ""
   },
 
   "Footer": {

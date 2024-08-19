@@ -114,7 +114,7 @@ const PageList = () => {
                         <section className="bloc9">
                             <Bloc9Accordeon page={page}/>
                         </section>
-                        <section className="bloc10 m-10 flex justify-center">
+                        <section className="bloc10">
                             <Bloc10 page={page}/>
                         </section>
                         <section className="bloc11">

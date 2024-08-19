@@ -28,7 +28,7 @@
 }
 
 .kalHeroAside {
-    @apply flex gap-10 mt-5 mb-10;
+    @apply flex gap-4 mt-5 mb-10;
 }
 
 .bloc1RepeteurWhite {
@@ -36,7 +36,7 @@
 }
 
 .repeteurCheckWhiteBloc1 {
-    @apply flex items-center bg-gray-200 px-4 py-2 text-black text-sm font-normal leading-normal shadow-md rounded-[20px];
+    @apply flex items-center bg-gray-200 px-4 py-2 text-black text-sm font-normal leading-normal shadow-md rounded-[20px] h-9;
 }
 
 .repeteurCheckWhiteBloc1Div1 {
@@ -44,7 +44,7 @@
 }
 
 .repeteurCheckWhiteBloc1Img {
-    @apply w-8 h-8;
+    @apply w-5 h-5;
 }
 
 .repeteurCheckWhiteBloc1Div2 {
