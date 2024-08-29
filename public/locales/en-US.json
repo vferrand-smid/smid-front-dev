@@ -15,31 +15,31 @@
   },
 
   "Bloc1": {
-    "girl": "/images/girl.png",
-    "background": "/images/background 1.png",
+    "girl": "/images/Bloc1/girl.png",
+    "background": "/images/background.png",
     "titre_bloc1": "Get It Quickly",
     "titre_h4_bloc1": "to renew your French official documents online!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Immediate result guaranteed"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Checked by experts"
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Immediate result guaranteed"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Checked by experts"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Free trial"
       }
     ]
@@ -73,50 +73,50 @@
     "titre_bloc3": "for your compliant ID photo, without leaving your home.",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Automatic formatting of ID photos.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Sign with your finger depending on the official document.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Expert control, compliance guaranteed.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+        "imageCkeckBlack": "/images/Bloc3/photo-identite-conforme-validee.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Your printed photos mailed the same day.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/imprimer-photo-identite.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Scan the QR code to take an ID photo with your smartphone.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/faire-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Check the details of your request.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/outil-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Order a printed photo sheet from our service, if needed.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/commender-impression-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/commender-impression-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your individual photo and printable photo sheet in your email inbox.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-reussi.png"
+        "image_repeteur_etape": "/images/Bloc3/photo-identite-reussi.png"
       }
     ]
   },
@@ -232,40 +232,40 @@
   "Bloc5": {
     "titre_bloc5_1": "Why choose ",
     "titre_bloc5_span": "our service?",
-    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-identite-facile-en-ligne.jpg",
+    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "24/7 service",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "All documents",
         "texteService": "All types of documents are available."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% compliance",
         "texteService": "For all official documents, worldwide."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Choose the best photo",
         "texteService": "And take unlimited shots."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Real customer service",
         "texteService": "Humans, not robots."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ideal solution",
         "texteService": "For babies, people with disabilities, expats, rural residents, etc."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Eco-friendly",
         "texteService": "No more paper, no more travel."
       }
@@ -343,13 +343,13 @@
     "titre_bloc7_span": "perfect",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
         "paragraphe": "For French documents, required for registration on the ANTS website.",
         "titre": "Official ePhoto Code"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
         "paragraphe": "Requirement for an ID photo less than 6 months old. The government can see the date the photo was taken.",
         "titre": "Photo less than 6 months old"
@@ -365,25 +365,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Glasses",
         "texte_span": "removed"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "Face",
         "texte_span": "evenly lit"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "Hair",
         "texte_span": "behind shoulders"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "Mouth",
         "texte_span": "closed, no smile"

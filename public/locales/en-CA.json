@@ -1,53 +1,51 @@
 {
   "NavBar": {
-    "link_1" : "Driver's License",
-    "url_1" : "https://www.smartphone-id.com/en_CA/online-photo/",
-    "link_2" : "Passport",
-    "url_2" : "https://www.smartphone-id.com/en_CA/online-photo/",
-    "link_3" : "National Identity Card",
-    "url_3" : "https://www.smartphone-id.com/en_CA/online-photo/",
-    "link_4" : "Residence Permit",
-    "url_4" : "https://www.smartphone-id.com/en_CA/online-photo/",
-    "link_5" : "Visa",
-    "url_5" : "https://www.smartphone-id.com/en_CA/online-photo/",
-    "link_6" : "Health Card",
-    "url_6" : "https://www.smartphone-id.com/en_CA/online-photo/"
+    "link_1" : "Canadian Passport",
+    "url_1" : "https://www.smartphone-id.com/en_CA/canada-passport-photo-online/",
+    "link_2" : "Canadian Visa",
+    "url_2" : "https://www.smartphone-id.com/en_CA/visa-photo-near-me-in-canada/",
+    "link_3" : "Permanent Resident Card",
+    "url_3" : "https://www.smartphone-id.com/en_CA/permanent-resident-card-photo/",
+    "link_4" : "ID Card",
+    "url_4" : "https://www.smartphone-id.com/en_CA/id-card-photo-in-canada/",
+    "link_5" : "Ontario Photo Card",
+    "url_5" : "https://www.smartphone-id.com/en_CA/ontario-photo-card/"
   },
 
   "Bloc1" : {
-    "girl" : "/images/girl.png",
-    "background" : "/images/background 1.png",
-    "titre_bloc1" : "Fast and easy tool for",
-    "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
+    "girl" : "/images/Bloc1/girl.png",
+    "background" : "/images/background.png",
+    "titre_bloc1" : "quality passport photos",
+    "titre_h4_bloc1": "and digital signatures.",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Your secure identity photo"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Expert verified"
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Immediate AI editing"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Government acceptance"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Free trial"
       }
     ]
   },
 
   "kalSearch" : {
-    "titre_1" : "I need an ID photo for",
-    "titre_2" : "For the document",
+    "titre_1" : "I need a photo for this country",
+    "titre_2" : "and this document",
     "bouton" : "Take the photo"
   },
 
@@ -73,47 +71,47 @@
     "titre_bloc3": "passport photo solution without leaving your home",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Automated sizing and background removal.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatic-formatting-CA-passport-photo.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expert-control-CA-passport-photo.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Printing-delivery-CA-passport-photo.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-safely-stored.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-1-in-computer.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-2-in-computer.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-3-in-computer.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-4-in-computer.png"
@@ -221,7 +219,7 @@
         "titre": "Awesome"
       }
     ],
-    "nos_partenaires": "Our partners",
+    "nos_partenaires": "Featured by",
     "nos_medias": "Featured in the media"
   },
 
@@ -231,37 +229,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-online-1.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "24/7 service",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "For all document types",
         "texteService": "The right size in digital and printed format, photo depth, background color, lighting ..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% conformity",
         "texteService": "Get 100% conformity for any official document worldwide."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Get the best photo",
         "texteService": "Do unlimited number of takes, and choose your best shot."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Real customer service",
         "texteService": "No robots, no hidden contact info, your positive experience is important for us."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Handy for many",
         "texteService": "Especially for babies, disabled people, expats, people in rural areas..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ecological",
         "texteService": "No more paper to waste if you need to renew your document online."
       }
@@ -334,18 +332,18 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1" : "The perfect",
-    "titre_bloc7_2" : "solution for official documents",
-    "titre_bloc7_span": "official document ",
+    "titre_bloc7_1" : "Your online",
+    "titre_bloc7_2" : "for official document applications",
+    "titre_bloc7_span": "solution",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canadian-Digital-signature-document-photo.png",
         "paragraphe": "Your signature will be linked to photo for official document applications online, when needed.",
         "titre": "Digital signature"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Recent-Canadian-printed-passport-photo-template.png",
         "paragraphe": "Real time photo taking proves the recency of photo which is obligatory for official documents.",
         "titre": "Prove photo recency"
@@ -361,25 +359,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Remove",
         "texte_span": " your glasses"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "Your hair should be ",
         "texte_span": "behind your shoulders"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "On your face ",
         "texte_span": "light falls evenly"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "Mouth closed,",
         "texte_span": "neutral expression"
@@ -396,8 +394,9 @@
   },
 
   "Bloc9": {
-    "titre_bloc9": "Answers ",
-    "titre_bloc9_span": "to your questions",
+    "ID": "Canadian Passport Photos",
+    "titre_bloc9": "to your questions ",
+    "titre_bloc9_span": "Answers",
     "codeEphoto": [
       {
         "texte_accordeon": null,
@@ -429,80 +428,63 @@
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">A Canadian passport photo must be 50 mm wide and 70 mm high, with the height of your face measuring between 31 mm and 36 mm.</aside>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "What is the Canadian passport photo size?"
+        "texteAccordeon": "<p>All Walmart locations have an onsite photographer and photography lab for taking and printing passport photos.</p>\n",
+        "titre_accordeon": "Does Walmart do passport photos?"
       },
       {
-        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</aside>\n",
-        "titre_accordeon": "Can you take a passport photo on your phone?"
+        "texteAccordeon": "<p>Costco stopped taking passport photos in 2021. They continue to offer photo printing services to members of the store.</p>\n",
+        "titre_accordeon": "Does Costco do passport photos?"
       },
       {
-        "texteAccordeon": "<p>To print passport photos with your PC, you must first download software that allows you to obtain 35mm x 45mm photos (or 50mm x 70mm for Canadian passport). Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted.</p>\n<p>If you don't want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</p>\n",
-        "titre_accordeon": "How to print a passport size photo?"
+        "texteAccordeon": "<p>Staples offers passport photos at most of their store locations. Staples is typically a more expensive option when it comes to having your picture taken.</p>\n",
+        "titre_accordeon": "Does Staples do passport photos?"
       },
       {
-        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">Get your passport photo taken at several Canadian stores like Walmart, London Drugs,passport photographers, Staples, and Shopper’s Drug Mart. Alternatively, or can obtain your passport photo online through the 'Smartphone iD app,' which offers an affordable and convenient option to take the photo from home.</aside>\n",
-        "titre_accordeon": "Where to get passport photos?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\"> To take a good passport photo at home you must do the following:</main></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Stand against the source of light to get even lighting on your face, and neck. It's best to do it in daylight facing window.</li>\n<li>Make sure that your background is in light color and no shadow appears behind you.</li>\n<li>Look into the camera objective and not the phone screen. Eyes should be open.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>If you are not sure whether all guidelines have been respected, you can use the Smartphone iD tool. The photo will be automatically sized and approved by trained experts to ensure 100% compliance with official standards.</p>\n</aside>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "Where to get a digital passport photo?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Passport photo costs typically range from $10 to $20. Here are a few popular stores and their approximate cost ,</main></p>\n<ul>\n<li>Walmart ($12.97 CAD),</li>\n<li>Shoppers ($19.99 CAD)</li>\n<li>Staples ($21.99 CAD),</li>\n<li>Smartphone iD that includes also government acceptance guarantee ($10.22 CAD).</li>\n</ul>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "How much are passport photos in Canada?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don't allow fringe because it makes it harder to read the biometrical data from the scan. Then fringe must be sided to either side and pinned down with unnoticeable bobby pins.</main>However, more casual identity documents like a student card, or transportation card can have a passport photo with a fringe.<br />\nIf you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "Can you have a fringe in a passport photo?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don't allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person.</main>If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n",
-        "titre_accordeon": "Can you smile in a passport photo?"
-      },
-      {
-        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">Not all governments allow glasses because it's very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don't forbid wearing glasses, highly suggest taking them off for the photo.</aside>\n",
-        "titre_accordeon": "Can you wear glasses in a passport photo?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\"> Yes, you can wear makeup in your passport photo. But note that make-up should be light.</main></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Don't put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It's useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "Can you wear makeup in a passport photo?"
-      },
-      {
-        "texteAccordeon": "<p>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.</li>\n<li>Also, make sure your shirt doesn't show too much skin, as shirtless passport photos are prohibited.</li>\n<li>Finally, uniforms of any kind are also prohibited on a biometric passport photo.</li>\n</ul>\n</aside>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "What to wear for a passport photo?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">In most cases, you will need to take a new photo when it comes to renewing your passport. The only exception is if your passport has been damaged, lost, or destroyed. For Canadian official documents, photos cannot be older than 6 months.</main></p>\n",
-        "titre_accordeon": "Do you need a new photo to renew your passport?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">If your passport photo is rejected, you will need to re-submit a new photo. Application processing can vary from a few weeks to months. Use Smartphone iD passport photo maker to take your photo and be sure it will be accepted the first time as an immediate AI check and an additional human expert check is applied.</aside>\n",
-        "titre_accordeon": "What happens if a passport photo is rejected?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\"> </main></main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Shoppers Drug Mart offers passport photos at a select number of their store locations. It is important to call ahead and ensure the store in your area offers the service.</aside>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "Does Shoppers do passport photos?"
+        "texteAccordeon": "<p>All London Drugs locations have an onsite photographer and lab for taking passport photos for a good price.</p>\n",
+        "titre_accordeon": "Does London Drugs do passport photos?"
       }
     ]
   },
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "Was this useful for you?",
+    "sousTitre" : "Click on stars to leave a rate.",
+    "personne" : "Average rating:",
+    "etoiles" : "stars out of 5"
+  },
 
   "Footer": {
-    "partie2-button": "Take the photo",
-    "partie2-p": "Discover the latest information on identity documents and visas.",
+    "partie2-button": "Try now for free!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
     "SiteMapList-propos" : "About us",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
     "SiteMapList-contact" : "Contact",
-    "applis-h3": "Download the app",
-    "applis-p":  "Track your orders and enjoy even more features with the Smartphone iD app.",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
+    "applis-h3": "Download the app!",
+    "applis-p":  "Download Smartphone iD app to track your orders and enjoy even more passport photo features.",
+    "AppStore-link" : "https://apps.apple.com/ca/app/photo-identit%C3%A9-officielle/id1527550865?platform=iphone",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=en_ca&gl=ca",
+    "partie2-p": "Follow us and find out about the newest information regarding visas and other official documents.",
+    "partie2-p-link": "",
     "mentions-confidentialité": "Privacy Policy",
-    "mentions-cgu": "Terms of Use",
-    "mentions-légales": "Legal Notice"
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/"
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

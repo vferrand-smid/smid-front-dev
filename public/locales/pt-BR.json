@@ -15,31 +15,31 @@
   },
 
   "Bloc1": {
-    "girl": "/images/girl.png",
-    "background": "/images/background 1.png",
+    "girl": "/images/Bloc1/girl.png",
+    "background": "/images/background.png",
     "titre_bloc1": "Obtenha Rapidamente",
     "titre_h4_bloc1": "para renovar seus documentos oficiais franceses online!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Resultado imediato garantido"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Verificado por especialistas"
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Resultado imediato garantido"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Verificado por especialistas"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Teste gratuito"
       }
     ]
@@ -73,50 +73,50 @@
     "titre_bloc3": "para sua foto de identidade conforme, sem sair de casa.",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Formatação automática de fotos de identidade.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Assine com seu dedo conforme o documento oficial.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Verificação por especialistas, conformidade garantida.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+        "imageCkeckBlack": "/images/Bloc3/photo-identite-conforme-validee.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Suas fotos impressas e enviadas no mesmo dia.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/imprimer-photo-identite.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Escaneie o código QR para tirar uma foto de identidade com seu smartphone.",
         "titre_check": "Etapa 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/faire-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Verifique as características do seu pedido.",
         "titre_check": "Etapa 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/outil-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Solicite uma foto impressa pelo nosso serviço, se necessário.",
         "titre_check": "Etapa 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/commender-impression-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/commender-impression-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receba sua foto individual e sua foto impressa diretamente em sua caixa de e-mail.",
         "titre_check": "Etapa 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-reussi.png"
+        "image_repeteur_etape": "/images/Bloc3/photo-identite-reussi.png"
       }
     ]
   },
@@ -232,40 +232,40 @@
   "Bloc5": {
     "titre_bloc5_1": "Por que escolher ",
     "titre_bloc5_span": "nosso serviço?",
-    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-identite-facile-en-ligne.jpg",
+    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Serviço 24h/24 e 7 dias por semana",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Todos os documentos",
         "texteService": "Todos os tipos de documentos estão disponíveis."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% de conformidade",
         "texteService": "Para todos os documentos oficiais, em todo o mundo."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Escolha a melhor foto",
         "texteService": "E faça tentativas ilimitadas."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Um verdadeiro serviço ao cliente",
         "texteService": "Humanos e não robôs."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Solução ideal",
         "texteService": "Para bebês, pessoas com deficiência, expatriados, pessoas de áreas rurais, etc."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ecológico",
         "texteService": "Sem papel, sem deslocamento."
       }
@@ -343,13 +343,13 @@
     "titre_bloc7_span": "perfeita",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
         "paragraphe": "Para documentos franceses, necessário para inscrição no site do ANTS.",
         "titre": "Código ePhoto oficial"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
         "paragraphe": "Obrigatoriedade de uma foto de identidade com menos de 6 meses. O governo pode ver a data da foto tirada.",
         "titre": "Foto de menos de 6 meses"
@@ -365,25 +365,25 @@
     "video": "<iframe title=\"Como tirar uma foto de passaporte em casa\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Os óculos",
         "texte_span": "removidos"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "O rosto",
         "texte_span": "iluminado uniformemente"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "Os cabelos",
         "texte_span": "atrás dos ombros"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "A boca",
         "texte_span": "fechada, sem sorriso"
@@ -491,16 +491,32 @@
   },
 
   "Footer": {
-    "partie2-button": "Tirar a foto",
-    "partie2-p": "Descubra as últimas informações sobre documentos de identidade e vistos.",
-    "SiteMapList-blog": "Blog",
-    "SiteMapList-propos": "Sobre nós",
-    "SiteMapList-faq": "FAQ",
-    "SiteMapList-contact": "Contato",
-    "applis-h3": "Baixe o aplicativo",
-    "applis-p": "Acompanhe seus pedidos e aproveite ainda mais recursos com o aplicativo Smartphone iD.",
-    "mentions-confidentialité": "Política de privacidade",
-    "mentions-cgu": "Termos e Condições",
-    "mentions-légales": "Aviso legal"
+    "partie2-button": "Tentativas ilimitadas gratuitas!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "Sobre nós",
+    "propos-link" : "https://www.smartphone-id.com/pt/sobre-nos/",
+    "SiteMapList-faq" : "Perguntas frequentes",
+    "faq-link" : "https://www.smartphone-id.com/pt/preguntas-frecuentes/",
+    "SiteMapList-contact" : "Contacto",
+    "contact-link" : "https://www.smartphone-id.com/pt/contacto/",
+    "applis-h3": "Baixe o aplicativo!",
+    "applis-p":  "Baixe o aplicativo Smartphone iD para rastrear seus pedidos e aproveitar ainda mais recursos de foto para passaporte.",
+    "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
+    "partie2-p": "Siga-nos e conheça as últimas informações sobre vistos e outros documentos oficiais.",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Política de Privacidade",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/pt/política-de-privacidade/",
+    "mentions-cgu": "Termos de serviço",
+    "mentions-cgu-link": "https://www.smartphone-id.com/pt/termos-de-serviço/",
+    "mentions-légales": "Aviso legal",
+    "mentions-légales-link": "https://www.smartphone-id.com/pt/aviso-legal/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/pt/cookies/"
   }
 }

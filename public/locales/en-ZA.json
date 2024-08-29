@@ -21,25 +21,25 @@
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Your secure ID photo"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "Expert verification"
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Expert verification"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Government acceptance"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Immediate AI editing"
       }
     ]
@@ -75,17 +75,17 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-remove-passport-photo-south-africa.png",
         "texteCheckBlack": "Automated sizing and background removal.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png"
+        "imageCkeckBlack": "/images/Bloc3/check-black.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-checker-south-africa.png",
         "texteCheckBlack": "Because of our expert check, photo conformity guaranteed.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png"
+        "imageCkeckBlack": "/images/Bloc3/check-black.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/print-deliver-passport-photos-south-africa.png",
         "texteCheckBlack": "Order home delivery of professionally printed photos, sent out the same day when ordered.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png"
+        "imageCkeckBlack": "/images/Bloc3/check-black.png"
       }
     ],
     "repeteur_etape": [
@@ -93,25 +93,25 @@
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step1.png",
         "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/General/check-green.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step2.png",
         "texte_etape": "Review features of your photo request.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/General/check-green.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step3.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/General/check-green.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step4.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/General/check-green.png"
       }
     ]
   },
@@ -215,37 +215,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "24/7 service",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "For all document types",
         "texteService": "The right size in digital and printed format, photo depth, background color, lighting ..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% conformity",
         "texteService": "Get 100% conformity for any official document worldwide."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Get the best photo",
         "texteService": "Take an unlimited number of photos, and choose your best shot."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Real customer service",
         "texteService": "No robots, no hidden contact info; your positive experience is important to us."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Handy for many",
         "texteService": "Especially for babies, disabled people, expats, people in rural areas..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ecological",
         "texteService": "No more paper to waste if you need to renew your document online."
       }
@@ -312,13 +312,13 @@
     "bloc": [
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/add-digital-signature-passport-photo-south-africa.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "/images/General/check-green.png",
         "paragraphe": "When needed, your signature will be linked to your photo for official online document applications",
         "titre": "Digital signature"
       },
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/recent-passport-photo-south-africa.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "/images/General/check-green.png",
         "paragraphe": "Taking real-time photos prove a photo's recency, which is obligatory for official documents.",
         "titre": "Prove photo recency"
       }
@@ -333,25 +333,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Remove",
         "texte_span": "your glasses"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "Let the light fall",
         "texte_span": "evenly on your face"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "Your hair should be",
         "texte_span": "behind your shoulders"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "Mouth closed,",
         "texte_span": "neutral expression"

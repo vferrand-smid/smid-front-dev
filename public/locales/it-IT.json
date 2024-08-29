@@ -21,25 +21,25 @@
     "titre_h4_bloc1": "Basta scattare una foto e riceverla pronta! Prova ora!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "La tua foto d’identità sicura"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_white": "La tua foto d’identità sicura"
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Elaborazione AI immediata"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Verifica da parte di esperti"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Accettazione dell’Amministrazione"
       }
     ]
@@ -73,47 +73,47 @@
     "titre_bloc3": "per la fototessera senza uscire di casa",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Raddrizzamento e rimozione dello sfondo automatizzati.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Rimozione-dello-sfondo-della-foto-del-passaporto.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Grazie al nostro controllo esperto, la conformità delle foto è garantita.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/controllo-esperto-delle-foto-del-passaporto.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Ordina la consegna di foto stampate professionalmente, inviate il giorno stesso dell'ordine.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ordinare-foto-tessera-stampate.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Non è necessario fornire informazioni personali, la foto viene memorizzata in modo sicuro.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/secure-passport-photo-south-africa.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Scannerizza il codice QR con il tuo smartphone e scatta una foto.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-con-il-computer.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Controlla le caratteristiche della tua richiesta di foto.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/strumento-per-fototessera-pre-approvato.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Se necessario, aggiungi la consegna del modello stampato a casa tua.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/stampa-e-consegna-fototessera.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Ricevi la tua foto digitale per il passaporto e un modello pronto da stampare nella tua e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-valida-online.png"
@@ -226,37 +226,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Servizio 24/7",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Per tutti i tipi di documenti",
         "texteService": "Le misure corrette in formato digitale e stampato, la profondità della foto, il colore dello sfondo e l'illuminazione..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Conformità al 100%",
         "texteService": "Conformità al 100% per qualsiasi documento ufficiale in tutto il mondo"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ottieni la foto migliore",
         "texteService": "Scatti illimitati e scelta della foto migliore."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Servizio clienti autentico",
         "texteService": "Nessun robot, nessuna informazione di contatto nascosta: la vostra esperienza positiva è importante per noi."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Pratico per molti",
         "texteService": "Particolarmente utile per i neonati, i disabili, gli espatriati, le persone nelle zone rurali..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ecologico",
         "texteService": "Ecologico, niente più carta da sprecare se dovete rinnovare il vostro documento online"
       }
@@ -355,13 +355,13 @@
     "bloc": [
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/aggiungere-la-firma-digitale-alla-foto-del-passaporto.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "/images/General/check-green.png",
         "paragraphe": "La tua firma sarà collegata alla foto per le richieste di documenti ufficiali online, quando necessario.",
         "titre": "Firma digitale"
       },
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/mostrare-data-e-ora-della-fototessera.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "/images/General/check-green.png",
         "paragraphe": "Lo scatto di foto in tempo reale dimostra che la foto è recente, il che è obbligatorio per i documenti ufficiali.",
         "titre": "La prova che la foto è recente"
       }
@@ -376,25 +376,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Senza",
         "texte_span": "occhiali"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "Luce uniforme",
         "texte_span": "sul viso"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "I capelli dovranno rimanere",
         "texte_span": "dietro le spalle"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "Bocca chiusa,",
         "texte_span": "espressione neutra"
