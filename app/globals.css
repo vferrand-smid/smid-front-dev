@@ -22,224 +22,30 @@
 }
 
 body {
-    @apply w-full;
+    @apply w-[100w];
 }
-
-body > main {
-    @apply pt-16;
-}
-
-/* Barre de navigation*/
-header {
-    @apply bg-white z-50 fixed top-0 w-full shadow;
-}
-
-.mobile-menu {
-    @apply md:hidden flex items-center;
-}
-
-.navLogo {
-    width: 143px;
-    height: 23px;
-}
-
-.btn-menu {
-    @apply
-    cursor-pointer inline-flex items-center justify-center p-2 rounded-md
-    focus:outline-none;
-}
-
-.lien-mobile {
-    @apply p-2 grid;
-}
-
-/* BLOC1 */
-
-.bloc1 {
-    @apply bg-white object-cover bg-cover bg-center bg-no-repeat min-h-[500px];
-}
-
 
 /* BLOC2 */
 
 .bloc2 {
-    background-color: #FFF; /* Fond blanc */
-    padding: 20px 0; /* Espacement vertical */
-    border-top: 1px solid #d1d5db; /* Bordure supérieure */
-    border-bottom: 1px solid #d1d5db; /* Bordure inférieure */
-    display: flex;
-    justify-content: center; /* Centre le contenu horizontalement */
-    align-items: center;
-    /*height: 107px;*/
+    @apply bg-white py-5 border-t border-b border-gray-300 flex justify-center items-center;
 }
-
-.bloc2 > .container {
-    display: flex;
-    flex-direction: row; /* Empile les éléments verticalement */
-    justify-content: center; /* Espace entre les éléments */
-    align-items: center;
-    width: 100%; /* Utilise toute la largeur disponible */
-padding: 0 20px;
-    gap: 10px;
-}
-
-.repeteur_bloc2 {
-    display: flex;
-    align-items: center; /* Aligne les éléments horizontalement */
-    justify-content: center; /* Centre les éléments horizontalement */
-    flex: 1; /* Les éléments prennent la même largeur */
-    margin: 0 10px; /* Espacement vertical */
-    position: relative; /* Nécessaire pour positionner le séparateur */
-    text-align: center; /* Texte aligné au centre */
-
-}
-
-.repeteur_bloc2_img {
-    max-width: 100%; /* Limite la largeur de l'image à celle du conteneur */
-    max-height: 100%; /* Limite la hauteur de l'image à celle du conteneur */
-    width: auto;
-    height: auto;
-    object-fit: contain; /* Assure que l'image est contenue dans le conteneur sans être déformée */
-}
-
-
-.repeteur_bloc2_img_container {
-    display: flex;
-    justify-content: center; /* Centre l'image horizontalement */
-    align-items: center; /* Centre l'image verticalement */
-    max-width: 100%; /* Le conteneur ne doit pas dépasser de la section */
-    max-height: 100%; /* Le conteneur ne doit pas dépasser de la section */
-
-}
-
-.repeteur_bloc2_text {
-    font-size: 15px; /* Taille de la police du texte */
-    color: #000; /* Couleur du texte */
-    margin-left: 20px; /* Espacement entre le texte et l'image */
-    text-align: center; /* Texte aligné au centre */
-}
-
-.repeteur_bloc2_text > h4 {
-    width: 280px;
-}
-
-.separator {
-    width: 2px;
-    height: 50px;
-    background-color: #d1d5db; /* Couleur du séparateur */
-    position: absolute;
-    right: -20px; /* Position à droite du conteneur */
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.repeteur_bloc2:not(:last-child) .separator {
-    display: block; /* Affiche le séparateur sauf pour le dernier élément */
-}
-
 
 /* BLOC3 */
 
 .bloc3{
-    background: url("https://www.smartphone-id.com/wp-content/uploads/2023/06/BG-1.png");
-    background-repeat: no-repeat;
+    @apply w-full;
+    background: url("https://www.smartphone-id.com/wp-content/uploads/2023/06/BG-1.png") no-repeat;
     background-size: cover;
     padding: 80px 50px;
-}
-
-.container {
-    @apply mx-auto p-10 bg-cover bg-no-repeat;
-    max-width: 1140px;
-    margin: auto;
-}
-
-.content{
-    @apply  max-w-screen-lg mx-auto;
-}
-
-.title {
-    color: #000;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px; /* 156.25% */
-    margin-bottom: 30px;
-}
-
-.highlight {
-    background-size: 100% 10px !important;
-    background-position: left 28px;
-    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding: 0 5px;
-}
-
-.grid-containt {
-    @apply grid grid-cols-2 gap-8;
-}
-
-
-.carousel-wrapper {
-    @apply relative;
-}
-
-.photo-carousel {
-@apply  flex overflow-hidden rounded-lg;
-}
-
-.carousel-indicator{
-   @apply flex justify-center items-center gap-5 mt-5;
-}
-
-.carousel-btn {
-    @apply  w-8 h-8 rounded-md flex items-center justify-center bg-white shadow-md;
-}
-
-.selected {
-    background-color: rgba(47, 201, 119, 1) !important;
-}
-
-.right{
-    @apply flex;
-}
-.benefits {
-    justify-content: center;
-    align-content: center;
-    border-radius: 20px;
-    background: #efefef;
-    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.15);
-    padding: 30px;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.benefit-image {
-    width: 143px;
-    height: 90px;
-    margin: 15px;
-}
-
-.benefit-details{
-    @apply flex;
 }
 
 /* BLOC4 */
 
 .bloc4 {
-    @apply bg-pink-300 relative m-0 p-0;
+    @apply relative m-0 p-0;
 }
 
-.kal-testimonials {
-    background: white;
-    padding: 80px 50px;
-    overflow: hidden;
-    isolation: isolate;
-}
 
 .kal-testimonials > h2 {
     color: #000;
@@ -282,6 +88,22 @@ padding: 0 20px;
     position: relative;
 }
 
+@media (max-width: 768px) {
+    .kal-testimonials-carousel {
+        flex: 1;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 1));
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        z-index: 2;
+        position: relative;
+    }
+}
+
 .kal-testimonials-card{
     padding: 20px;
 }
@@ -295,8 +117,8 @@ padding: 0 20px;
     gap: 8px;
     padding: 32px 24px;
     box-sizing: border-box;
-    height: 100%;
-}
+    height: auto;
+    }
 
 .kal-testimonials-card > div > h4 {
     color: #000;
@@ -348,18 +170,28 @@ padding: 0 20px;
     gap: 30px;
 }
 
+@media (max-width: 768px) {
+    .kal-testimonials-media-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
 .kal-testimonials-media-wrapper > h3 {
-color: #000;
-font-size: 26px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-padding-left: 16px;
-border-left: 4px solid rgba(47, 201, 119, 1);
-height: 52px;
-display: flex;
-align-items: center;
-width: 180px;
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 16px;
+    border-left: 4px solid rgba(47, 201, 119, 1);
+    height: 52px;
+    display: flex;
+    align-items: center;
+    width: 180px;
 }
 
 .kal-testimonials-carousel-wrapper nav {
@@ -368,11 +200,26 @@ width: 180px;
 }
 
 .kal-testimonials-media, .kal-testimonials-partner {
+    flex: 1;
+    max-width: 1140px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 5));
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    z-index: 2;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .kal-testimonials-media, .kal-testimonials-partner {
         flex: 1;
-        max-width: 1140px;
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: calc((100% / 5));
+        grid-auto-columns: calc((100% / 3));
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         border-radius: 8px;
@@ -381,6 +228,7 @@ width: 180px;
         z-index: 2;
         position: relative;
     }
+}
 
 .kal-testimonials-media > *, .kal-testimonials-partner > * {
     display: flex;
@@ -416,7 +264,7 @@ width: 180px;
 
 .kal-testimonials-partner-wrapper > h3 {
     color: #000;
-    font-size: 26px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -432,7 +280,6 @@ width: 180px;
     z-index: 3;
     position: relative;
 }
-
 
 /* BLOC7 */
 

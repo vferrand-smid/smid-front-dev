@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Suspense } from 'react';
-import ErrorBoundary from './components/ErrorBoundary';
+// import { Suspense } from 'react';
+// import ErrorBoundary from './components/ErrorBoundary';
 import Loading from '../app/loading';
 import getPages from '../app/lib/pageQueries';
 import Bloc1 from '../app/components/Bloc1';
@@ -77,17 +77,12 @@ const PageList = () => {
     const backgroundImageUrl = page?.pageDAccueilBloc1?.background?.node?.mediaItemUrl;
 
     return (
-            <div>
+            <div className="">
                 <p className="hidden">Router locale: {locale}</p>
                 <p className="hidden">GraphQL Locale: {nextToGraphQLLocales[locale]}</p>
                 {pages.map((page) => (
-                    <div className="pageDaccueil w-full" key={page.uri}>
-                        <section
-                            className="bloc1"
-                            style={{
-                                backgroundImage: `url(${backgroundImageUrl})`,
-                            }}
-                        >
+                    <div className="pageDaccueil" key={page.uri}>
+                        <section className="bloc1">
                             <Bloc1 page={page}/>
                         </section>
                         <section className="bloc2">
@@ -99,7 +94,7 @@ const PageList = () => {
                         <section className="bloc4">
                             <Temoignages page={page}/>
                         </section>
-                        <section className="bloc5">
+                        <section className="bloc5s">
                             <Bloc5Services page={page}/>
                         </section>
                         <section className="bloc6">
@@ -129,10 +124,10 @@ const PageList = () => {
 export default function Page() {
     console.log('Rendering Page component with Suspense and ErrorBoundary');
     return (
-        <ErrorBoundary>
-            <React.Suspense fallback={<div>Loading...</div>}>
+        // <ErrorBoundary>
+        //    <React.Suspense fallback={<div>Loading...</div>}>
             <PageList />
-            </React.Suspense>
-        </ErrorBoundary>
+         //   </React.Suspense>
+       // </ErrorBoundary>
     );
 }

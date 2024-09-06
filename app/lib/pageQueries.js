@@ -241,9 +241,9 @@ export default async function getPages(locale) {
         }
     }`;
 
-   console.log("WordPress API URL:", process.env.WORDPRESS_API_URL);
-    console.log("Locale utilisée pour la requête:", locale);
-    console.log("GraphQL Locale utilisée pour la requête:", languageCode);
+   console.log("pageQueries.js - WordPress API URL:", process.env.WORDPRESS_API_URL);
+    console.log("pageQueries.js - Locale utilisée pour la requête:", locale);
+    console.log("pageQueries.js - GraphQL Locale utilisée pour la requête:", languageCode);
 
     const response = await fetch(process.env.WORDPRESS_API_URL, {
         method: "POST",
@@ -259,19 +259,19 @@ export default async function getPages(locale) {
     });
 
     if (!response.ok) {
-        console.error("API Error:", response.status, response.statusText);
+        console.error("pageQueries.js - API Error:", response.status, response.statusText);
         throw new Error(`Failed to fetch API: ${response.status} ${response.statusText}`);
     }
 
     const jsonResponse = await response.json();
-    console.log("Réponse de l'API JSON:", jsonResponse);
+    console.log("pageQueries.js - Réponse de l'API JSON:", jsonResponse);
 
     if (!jsonResponse || !jsonResponse.data || !jsonResponse.data.pages) {
-        console.error("Réponse invalide de l'API", jsonResponse);
+        console.error("pageQueries.js - Réponse invalide de l'API", jsonResponse);
         return [];
     }
 
     const pages = jsonResponse.data.pages.edges.map(edge => edge.node).filter(page => page.slug !== 'sample-page' && page.uri);
-    console.log("Données chargées:", pages);
+    console.log("pageQueries.js - Données chargées:", pages);
     return pages;
 }

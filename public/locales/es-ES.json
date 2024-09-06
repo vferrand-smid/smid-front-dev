@@ -15,18 +15,18 @@
   },
 
   "Bloc1": {
-    "girl": "/images/Bloc1/girl.png",
+    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/herramienta-de-fotografia-de-pasaporte-para-Espana-en-linea.png",
     "background": "/images/background.png",
     "titre_bloc1": "Obtén Rápidamente",
     "titre_h4_bloc1": "para renovar tus documentos oficiales franceses en línea!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Resultado inmediato garantizado"
+        "texte_check_green": "Resultado inmediato garantizado"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Revisado por expertos"
+        "texte_check_green": "Revisado por expertos"
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -69,54 +69,54 @@
   },
 
   "Bloc3": {
-    "titre_bloc3_span": "La solución",
-    "titre_bloc3": "para tu foto de identificación conforme, sin salir de casa.",
+    "titre_bloc3_span": "La solución completa",
+    "titre_bloc3": "para la foto de pasaporte sin salir de casa.",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Formateo automático de fotos de identificación.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+        "texteCheckBlack": "Eliminación automática del fondo.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eliminar-fondo-foto-carnet-espana.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Firma con tu dedo según el documento oficial.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+        "texteCheckBlack": "Gracias a la supervisión de nuestros expertos, la conformidad de la foto está garantizada.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/supervision_expertos_conformidad_foto_carnet.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Revisado por expertos, conformidad garantizada.",
-        "imageCkeckBlack": "/images/Bloc3/photo-identite-conforme-validee.png"
+        "texteCheckBlack": "Entrega a domicilio de fotos impresas profesionalmente. Se envían el mismo día en que se encargan.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/entrega-foto-carnet-impresa-espana.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Tus fotos impresas y enviadas el mismo día.",
-        "imageCkeckBlack": "/images/Bloc3/imprimer-photo-identite.png"
+        "texteCheckBlack": "No es necesario proporcionar información personal, la foto se almacena de forma segura.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-segura-espana.png"
       }
     ],
     "repeteur_etape": [
       {
         "check_green": "/images/General/check-green.png",
-        "texte_etape": "Escanea el código QR para tomar una foto de identificación con tu smartphone.",
+        "texte_etape": "Escanea el código QR con tu smartphone y hazte una foto.",
         "titre_check": "Paso 1",
-        "image_repeteur_etape": "/images/Bloc3/faire-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/herramienta-fotografia-carnet-en-linea.png"
       },
       {
         "check_green": "/images/General/check-green.png",
-        "texte_etape": "Verifica los detalles de tu solicitud.",
+        "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
-        "image_repeteur_etape": "/images/Bloc3/outil-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/verificacion-experto-fotografia-carnet-digital.png"
       },
       {
         "check_green": "/images/General/check-green.png",
-        "texte_etape": "Ordena una hoja de fotos impresa por nuestro servicio, si es necesario.",
+        "texte_etape": "Si es necesario, añade la entrega de la plantilla impresa en tu domicilio.",
         "titre_check": "Paso 3",
-        "image_repeteur_etape": "/images/Bloc3/commender-impression-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/pedir-foto-carnet-impresa-en-linea.png"
       },
       {
         "check_green": "/images/General/check-green.png",
-        "texte_etape": "Recibe tu foto individual y tu hoja de fotos imprimible en tu bandeja de entrada de correo electrónico.",
+        "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
-        "image_repeteur_etape": "/images/Bloc3/photo-identite-reussi.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-exitosa.png"
       }
     ]
   },
@@ -491,16 +491,32 @@
   },
 
   "Footer": {
-    "partie2-button": "Tomar la foto",
-    "partie2-p": "Descubre la información más reciente sobre documentos de identificación y visados.",
-    "SiteMapList-blog": "Blog",
-    "SiteMapList-propos": "Sobre nosotros",
-    "SiteMapList-faq": "FAQ",
-    "SiteMapList-contact": "Contacto",
-    "applis-h3": "Descarga la aplicación",
-    "applis-p": "Sigue tus pedidos y disfruta de más funciones con la aplicación Smartphone iD.",
+    "partie2-button": "Pruébalo ya!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "Sobre nosotros",
+    "propos-link" : "https://www.smartphone-id.com/es_ES/sobre-nosotros/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/es_ES/preguntas-frecuentes/",
+    "SiteMapList-contact" : "Contacto",
+    "contact-link" : "https://www.smartphone-id.com/es_ES/contact/",
+    "applis-h3": "Descarga la app!",
+    "applis-p":  "Descarga la app Smartphone iD para hacer un seguimiento de los pedidos y disfrutar de más funciones de la foto para pasaporte.",
+    "AppStore-link" : "https://apps.apple.com/es/app/foto-de-pasaporte-oficial/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=es&gl=es",
+    "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
+    "partie2-p-link": "",
     "mentions-confidentialité": "Política de Privacidad",
-    "mentions-cgu": "Condiciones de Uso",
-    "mentions-légales": "Aviso Legal"
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/es_ES/politica-de-privacidad/",
+    "mentions-cgu": "Términos de Servicio",
+    "mentions-cgu-link": "https://www.smartphone-id.com/es_ES/terminos-de-servicio/",
+    "mentions-légales": "Aviso Legal",
+    "mentions-légales-link": "https://www.smartphone-id.com/es_ES/aviso-legal/",
+    "cookies": "Cookies",
+    "cookies-link": "https://www.smartphone-id.com/es_ES/cookies/"
   }
 }

@@ -6,7 +6,7 @@ if (process.env.NODE_ENV === 'production') {
     dotenv.config({ path: '.env.local' });
 }
 
-console.log("Loading next.config.js");
+console.log("next.config.mjs - Loading next.config.mjs");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -20,6 +20,11 @@ const nextConfig = {
                 hostname: process.env.WORDPRESS_IMAGE_HOST,
                 port: '',
                 pathname: '/wp-content/uploads/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'storage.googleapis.com',
+                pathname: '**',
             },
         ],
     },

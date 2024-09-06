@@ -14,35 +14,76 @@ import Image from "next/image";
 import React, {useState, useRef, useEffect} from 'react';
 import {useRouter, useSearchParams} from 'next/navigation';
 import useTranslations from "@/utils/useTranslations";
-import { Suspense } from 'react';
-import ErrorBoundary from "@/app/components/ErrorBoundary";
+// import { Suspense } from 'react';
+// import ErrorBoundary from "@/app/components/ErrorBoundary";
 
 const flags = {
-    'fr-FR': '/images/flags/fr-FR.png',
+    'ar-SA': '/images/flags/ar-SA.png',
+    'ar-UAE': '/images/flags/ar-UAE.png',
+    'de-CH': '/images/flags/de-CH.png',
+    'de-DE': '/images/flags/de-DE.png',
+    'en-AU': '/images/flags/en-AU.jpg',
+    'en-CA': '/images/flags/en-CA.png',
     'en-GB': '/images/flags/en-GB.png',
-    'es-ES': '/images/flags/es-ES.png',
+    'en-IE': '/images/flags/en-IE.png',
+    'en-IN': '/images/flags/en-IN.png',
+    'en-NG': '/images/flags/en-NG.png',
+    'en-NZ': '/images/flags/en-NZ.png',
+    'en-SG': '/images/flags/en-SG.png',
     'en-US': '/images/flags/en-US.png',
+    'en-ZA': '/images/flags/en-ZA.png',
+    'es-AR': '/images/flags/es-AR.png',
     'es-CO': '/images/flags/es-CO.png',
+    'es-ES': '/images/flags/es-ES.png',
+    'es-MX': '/images/flags/es-MX.png',
+    'et-EE': '/images/flags/et-EE.png',
+    'fr-BE': '/images/flags/fr-BE.png',
+    'fr-CA': '/images/flags/fr-CA.png',
+    'fr-CH': '/images/flags/fr-CH.png',
+    'fr-FR': '/images/flags/fr-FR.png',
+    'it-IT': '/images/flags/it-IT.png',
+    'nl-BE': '/images/flags/nl-BE.png',
+    'nl-NL': '/images/flags/nl-NL.png',
+    'pl-PL': '/images/flags/pl-PL.png',
     'pt-BR': '/images/flags/pt-BR.png',
-    'nl-ZLD': '/images/flags/nl-ZLD.png',
-    'is-IS': '/images/flags/islande.png',
-    'da-DK': '/images/flags/danemark.png',
-    'fi-FI': '/images/flags/finlande.png',
+    'ru-RU': '/images/flags/ru-RU.png',
+    'sv-SE': '/images/flags/sv-SE.png',
+    'zh-CN': '/images/flags/zh-CN.png',
     // Ajoutez d'autres drapeaux ici
 };
 
 const localeToCountry = {
-    'fr-FR': 'France',
+    'ar-SA': 'العربية',
+    'ar-UAE': 'العربية',
+    'de-CH': 'switzerland',
+    'de-DE': 'Deutchland',
+    'en-AU': 'Australia',
+    'en-CA': 'Canadian',
     'en-GB': 'United Kingdom',
-    'es-ES': 'Spain',
+    'en-IE': 'Ireland',
+    'en-IN': 'India',
+    'en-NG': 'Nigeria',
+    'en-NZ': 'New Zealand',
+    'en-SG': 'Senegal',
     'en-US': 'United States',
+    'en-ZA': 'South Africa',
+    'es-AR': 'Argentina',
     'es-CO': 'Colombia',
+    'es-ES': 'España',
+    'es-MX': 'Mexico',
+    'et-EE': 'Estonie',
+    'fr-BE': 'Belgique',
+    'fr-CA': 'Canada',
+    'fr-CH': 'Suisse',
+    'fr-FR': 'France',
+    'it-IT': 'Italia',
+    'nl-BE': 'vlaams',
+    'nl-NL': 'Nederlands',
+    'pl-PL': 'Polands',
     'pt-BR': 'Brazil',
-    'nl-ZLD': 'New Zealand',
-    'is-IS': 'Iceland',
-    'da-DK': 'Denmark',
-    'fi-FI': 'Finland',
-    // Ajoutez d'autres pays ici
+    'ru-RU': 'Russia',
+    'sv-SE': 'Sweden',
+    'zh-CN': '中文 (中国)',
 };
 
 export default function Footer() {
@@ -91,8 +132,8 @@ export default function Footer() {
 
 
     return (
-        <ErrorBoundary>
-        <React.Suspense fallback={<div>Loading...</div>}>
+        // <ErrorBoundary>
+        // <React.Suspense fallback={<div>Loading...</div>}>
         <div key={currentLocale}>
             <div className="before-footer-wrap">
 
@@ -101,15 +142,13 @@ export default function Footer() {
                     <div className="column"></div>
 
                     <div className="footerLogo column">
-                        <Link className="p-2 flex justify-center" href="/"
+                        <Link className="p-2 flex justify-center" href="#"
                               aria-label="Page d'accueil du site">
                             <Image
-
                                 src={FooterLogo}
                                 alt=""
                                 width={280}
                                 height={45}
-                                href="/"
                                 //layout="responsive"
                                 aria-hidden="true"
                             />
@@ -147,102 +186,85 @@ export default function Footer() {
                         <div className="partie2-1">
                             <button className="partie2-button">{translations.Footer["partie2-button"]}</button>
                             <div className="kal-footer-social">
-                                <Link className="" href={translations.Footer["Youtube-link"]}
-                                      aria-label="Page Youtube" target="_blank">
-                                    <Image
-                                        src={Youtube}
-                                        alt=""
-                                        href="/"
-                                        aria-hidden="true"
-                                    />
+                                <Link href={translations.Footer?.["Youtube-link"] || "#"} target="_blank">
+                                    <Image src={Youtube} alt="YouTube" aria-hidden="true"/>
                                 </Link>
-                                <Link className="" href={translations.Footer["Facebook-link"]}
-                                      aria-label="Page Facebook" target="_blank">
-                                    <Image
-                                        src={Facebook}
-                                        alt=""
-                                        href="/"
-                                        aria-hidden="true"
-                                    />
+                                <Link href={translations.Footer?.["Facebook-link"] || "#"} target="_blank">
+                                    <Image src={Facebook} alt="Facebook" aria-hidden="true"/>
                                 </Link>
-                                <Link className="" href={translations.Footer["Instagram-link"]}
-                                      aria-label="Page Instagram" target="_blank">
-                                    <Image
-                                        src={Instagram}
-                                        alt=""
-                                        href="/"
-                                        aria-hidden="true"
-                                    />
+                                <Link href={translations.Footer?.["Instagram-link"] || "#"} target="_blank">
+                                    <Image src={Instagram} alt="Instagram" aria-hidden="true"/>
                                 </Link>
-                                <Link className="" href={translations.Footer["LinkedIn-link"]}
-                                      aria-label="Page LinkedIn" target="_blank">
-                                    <Image
-                                        src={LinkedIn}
-                                        alt=""
-                                        href="/"
-                                        aria-hidden="true"
-                                    />
+                                <Link href={translations.Footer?.["LinkedIn-link"] || "#"} target="_blank">
+                                    <Image src={LinkedIn} alt="LinkedIn" aria-hidden="true"/>
                                 </Link>
                             </div>
+
                             <p className="partie2-p">{translations.Footer["partie2-p"]}</p>
                         </div>
                         <div className="SiteMapList">
-                            <Link className="SiteMapList-a"
-                                  href={translations.Footer["blog-link"]}
-                                  target="_blank">{translations.Footer["SiteMapList-blog"]}</Link>
-                            <Link className="SiteMapList-a" href={translations.Footer["propos-link"]}
-                                  target="_blank">{translations.Footer["SiteMapList-propos"]}</Link>
-                            <Link className="SiteMapList-a"
-                                  href={translations.Footer["faq-link"]}
-                                  target="_blank m-0">{translations.Footer["SiteMapList-faq"]}</Link>
-                            <Link className="SiteMapList-a"
-                                  href={translations.Footer["contact-link"]}
-                                  target="_blank">{translations.Footer["SiteMapList-contact"]}</Link>
+                            <Link className="SiteMapList-a" href={translations.Footer?.["blog-link"] || "#"}
+                                  target="_blank">
+                                {translations.Footer["SiteMapList-blog"]}
+                            </Link>
+                            <Link className="SiteMapList-a" href={translations.Footer?.["propos-link"] || "#"}
+                                  target="_blank">
+                                {translations.Footer["SiteMapList-propos"]}
+                            </Link>
+                            <Link className="SiteMapList-a" href={translations.Footer?.["faq-link"] || "#"}
+                                  target="_blank">
+                                {translations.Footer["SiteMapList-faq"]}
+                            </Link>
+                            <Link className="SiteMapList-a" href={translations.Footer?.["contact-link"] || "#"}
+                                  target="_blank">
+                                {translations.Footer["SiteMapList-contact"]}
+                            </Link>
                         </div>
+
                         <div className="applis">
                             <h3 className="applis-h3">{translations.Footer["applis-h3"]}</h3>
                             <p className="applis-p"> {translations.Footer["applis-p"]}</p>
                             <div className="logoStore">
                                 <div className="logoStore1">
-                                    <Link href={translations.Footer["AppStore-link"]} target="_blank" aria-label="Page de téléchargement Apple Store">
+                                    <Link href={translations.Footer["AppStore-link"] || "#"} target="_blank"
+                                          aria-label="Page de téléchargement Apple Store">
                                         <Image
                                             src={AppStore}
                                             alt=""
                                             width={200}
-                                            href="/"
                                             aria-hidden="true"
                                         />
                                     </Link>
-                                    <Link href={translations.Footer["PlayStore-link"]} target="_blank" aria-label="Page de téléchargement Google Store">
+                                    <Link href={translations.Footer["PlayStore-link"] || "#"} target="_blank"
+                                          aria-label="Page de téléchargement Google Store">
                                         <Image
                                             src={PlayStore}
                                             alt=""
                                             width={200}
-                                            href="/"
                                             aria-hidden="true"
                                         />
                                     </Link>
                                 </div>
                                 <div className="logoStore2">
-                                    <Link href={translations.Footer["AppStore-link"]} target="_blank" aria-label="Page de téléchargement Apple Store">
-                                    <Image
-                                        className="logoStore2.img"
-                                        src={QRcodeApple}
-                                        alt=""
-                                        width={100}
-                                        href="/"
-                                        aria-hidden="true"
-                                    />
+                                    <Link href={translations.Footer["AppStore-link"] || "#"} target="_blank"
+                                          aria-label="Page de téléchargement Apple Store">
+                                        <Image
+                                            className="logoStore2.img"
+                                            src={QRcodeApple}
+                                            alt=""
+                                            width={100}
+                                            aria-hidden="true"
+                                        />
                                     </Link>
-                                    <Link href={translations.Footer["PlayStore-link"]} target="_blank" aria-label="Page de téléchargement Google Store">
-                                    <Image
-                                        className="logoStore2.img"
-                                        src={QRcodeGoogle}
-                                        alt=""
-                                        width={100}
-                                        href="/"
-                                        aria-hidden="true"
-                                    />
+                                    <Link href={translations.Footer["PlayStore-link"] || "#"} target="_blank"
+                                          aria-label="Page de téléchargement Google Store">
+                                        <Image
+                                            className="logoStore2.img"
+                                            src={QRcodeGoogle}
+                                            alt=""
+                                            width={100}
+                                            aria-hidden="true"
+                                        />
                                     </Link>
                                 </div>
                             </div>
@@ -258,7 +280,7 @@ export default function Footer() {
                             <p className="adresses-p"> Calle radas 29 bj, <br/> 08004 Barcelona, Spain </p>
                         </div>
                         <div className="adresses-div">
-                            <h3 className="adresses-h3">Smartphone iD IRELAND</h3>
+                        <h3 className="adresses-h3">Smartphone iD IRELAND</h3>
                         </div>
                         <div className="adresses-div">
                             <h3 className="adresses-h3">Smartphone iD AFRICA</h3>
@@ -269,18 +291,18 @@ export default function Footer() {
                 <aside className="aside"></aside>
                 <section className="mentions">
                     <p>© 2023 Smartphone iD</p>
-                    <Link href={translations.Footer["partie2-p-link"]} aria-label="Informations sur les documents d'identité et les visas"
-                          target="_blank">{translations.Footer["partie2-p"]}</Link>
-                    <Link href={translations.Footer["mentions-confidentialité-link"]} aria-label="Politique de confidentialité"
+                    <Link href={translations.Footer["mentions-confidentialité-link"] || "#"} aria-label="Politique de confidentialité"
                           target="_blank">{translations.Footer["mentions-confidentialité"]}</Link>
-                    <Link href={translations.Footer["mentions-cgu-link"]} aria-label="Conditions générales d'utilisation"
+                    <Link href={translations.Footer["mentions-cgu-link"] || "#"} aria-label="Conditions générales d'utilisation"
                           target="_blank m-0">{translations.Footer["mentions-cgu"]}</Link>
-                    <Link href={translations.Footer["mentions-légales-link"]} aria-label="Mentions légales"
+                    <Link href={translations.Footer["mentions-légales-link"] || "#"} aria-label="Mentions légales"
                           target="_blank">{translations.Footer["mentions-légales"]}</Link>
+                    <Link href={translations.Footer["cookies-link"] || "#"} aria-label="Cookies"
+                          target="_blank">{translations.Footer["cookies"]}</Link>
                 </section>
             </div>
         </div>
-        </React.Suspense>
-        </ErrorBoundary>
+        // </React.Suspense>
+        // </ErrorBoundary>
     )
 };

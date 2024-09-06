@@ -1,110 +1,97 @@
 .kalHero {
-    @apply object-cover bg-cover max-h-[537px] bg-center bg-no-repeat w-full flex items-center
-    justify-between relative py-32 px-24;
+    @apply md:bg-cover bg-center bg-no-repeat md:w-screen flex flex-col md:flex-row items-center justify-center  p-0;
+    background-image: url('/images/Bloc1/background.png');
 }
 
 .kalHeroContent {
-    @apply max-w-[1140px] relative flex flex-col justify-center;
+    @apply  flex flex-col justify-center text-center md:text-left;
 }
 
 .kalHeroContentH1 {
-    @apply font-semibold uppercase text-black text-3xl leading-normal mb-8;
+    @apply md:mt-12 font-semibold uppercase text-black text-2xl md:text-3xl leading-normal;
 }
 
 .bloc1Partie1 {
-
+    @apply text-base md:text-lg mb-6; /* Réduction de l'espace */
 }
 
 .repeteurCheckGreenBloc1 {
-    @apply flex gap-2.5 text-black mb-2.5 text-3xl not-italic font-semibold leading-10 items-baseline;
+    @apply flex gap-2.5 text-black mb-2.5 text-xl md:text-2xl font-semibold leading-10 items-baseline;
 }
 
 .repeteurCheckGreenBloc1Img {
-    @apply w-6 h-6 flex-shrink-0;
+    @apply w-6 h-6;
 }
 
 .bloc1Partie1H4 {
-    @apply text-2xl mb-3 text-black;
+    @apply text-lg md:text-2xl mb-2 md:mb-3 text-black;
 }
 
 .kalHeroAside {
-    @apply flex gap-4 mt-5 mb-10;
-}
-
-.bloc1RepeteurWhite {
-    @apply flex gap-2.5 mt-8;
+    @apply flex flex-wrap gap-4 mt-5 mb-8; /* Réduction de l'espace */
 }
 
 .repeteurCheckWhiteBloc1 {
-    @apply flex items-center bg-gray-200 px-4 py-2 text-black text-sm font-normal leading-normal shadow-md rounded-[20px] h-9;
-}
-
-.repeteurCheckWhiteBloc1Div1 {
-    @apply flex-shrink-0;
-}
-
-.repeteurCheckWhiteBloc1Img {
-    @apply w-5 h-5;
-}
-
-.repeteurCheckWhiteBloc1Div2 {
-    @apply ml-2 whitespace-nowrap;
-}
-
-.repeteurCheckWhiteBloc1H4 {
-    color: #000;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    @apply flex items-center bg-gray-200 px-3 py-2 text-black text-sm font-normal leading-normal shadow-md rounded-[20px] h-9;
 }
 
 .kalSearch {
-    @apply m-5;
+    @apply mt-6 md:mb-6; /* Ajustement de la marge */
 }
 
 .girl {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 40%;
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    align-items: flex-end;
-    z-index: 0;
+     @apply flex justify-end w-full h-auto ; /* Suppression de la position absolue */
 }
 
-@media (max-width: 1600px) {
-    .girl {
-        width: 35%;
+
+@media (max-width: 768px) {
+    .kalHero {
+        @apply h-auto bg-cover;
+        background-image: url('/images/Bloc1/background_mobile.png');
     }
-}
 
-@media (max-width: 1200px) {
-    .girl {
-        width: 30%;
+    .kalHeroContent{
+        @apply grid grid-flow-row auto-rows-max; /* Ajustement de l'espace entre les lignes */
     }
-}
 
-@media (max-width: 900px) {
-    .girl {
-        width: 50%;
+    .kalHeroContentH1 {
+        @apply text-5xl mt-10 mx-10;
     }
-}
 
-@media (max-width: 600px) {
-    .girl {
-        width: 70%;
+    .bloc1Partie1 {
+        @apply mx-10 mt-10;
     }
+
+    .repeteurCheckGreenBloc1 {
+        @apply text-lg ml-5;
+    }
+
+    .bloc1Partie1 h4 {
+        @apply ml-2 text-2xl;
+    }
+
+    .bloc1Partie1H4 {
+        @apply text-xl text-left mt-2;
+    }
+
+    .kalHeroAside {
+        @apply grid grid-rows-3 w-1/3 justify-items-center mx-10;
+    }
+
+    .repeteurCheckWhiteBloc1 {
+        @apply mx-5 justify-self-start w-[120%];
+    }
+
+    .repeteurCheckWhiteBloc1H4 {
+        @apply ml-2;
+    }
+
+    .kalSearch {
+        @apply mt-4 mx-16;
+    }
+
+    .girl {
+        @apply flex justify-center w-full mt-4 shrink-0;
+    }
+
 }
-
-.girlDiv {
-    @apply relative w-full h-auto overflow-hidden;
-}
-
-.girlImg {
-
-    padding-bottom: 0;
-}
-

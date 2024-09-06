@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Head from 'next/head';
 
 export const metadata = {
     title: "Headless WordPress Example",
@@ -12,13 +13,16 @@ export default function RootLayout({children}) {
     return (
 
         <html>
+        <Head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
         <body>
 
             <main>
 
                 <header>
                 <Navbar/>
-            </header>
+                </header>
 
                 {children}
 

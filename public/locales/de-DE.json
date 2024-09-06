@@ -1,31 +1,42 @@
 {
   "NavBar": {
-    "link_1" : "Pass",
-
-    "url_1" : "https://www.smartphone-id.com/de_DE/passfoto-in-deutschland/",
-    "link_2" : "Personalausweis",
-    "url_2" : "https://www.smartphone-id.com/de_DE/passfoto-personalausweis/",
-    "link_3" : "Aufenthaltsgenehmigung",
-    "url_3" : "https://www.smartphone-id.com/de_DE/aufenthaltsgenehmigung-passfoto",
-    "link_4" : "Visum",
-    "url_4" : "https://www.smartphone-id.com/de_DE/passfoto-visum",
-    "link_5" : "Führerschein",
-    "url_5" : "https://www.smartphone-id.com/de_DE/fuehrerschein-foto/"
+    "liens": [
+      {
+        "link" : "Pass",
+        "url" : "https://www.smartphone-id.com/de_DE/passfoto-in-deutschland/"
+      },
+      {
+        "link" : "Personalausweis",
+        "url" : "https://www.smartphone-id.com/de_DE/passfoto-personalausweis/"
+      },
+      {
+        "link" : "Aufenthaltsgenehmigung",
+        "url" : "https://www.smartphone-id.com/de_DE/aufenthaltsgenehmigung-passfoto"
+      },
+      {
+        "link" : "Visum",
+        "url" : "https://www.smartphone-id.com/de_DE/passfoto-visum"
+      },
+      {
+        "link" : "Führerschein",
+        "url" : "https://www.smartphone-id.com/de_DE/fuehrerschein-foto/"
+      }
+    ]
   },
 
   "Bloc1": {
-    "girl": "/images/Bloc1/girl.png",
+    "girl": "/images/Bloc1/de-DE/girl.png",
     "background": "/images/background.png",
     "titre_bloc1": "hochwertige Passfotos",
     "titre_h4_bloc1": "und digitale Signaturen.",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Ihr sicheres Passfoto"
+        "texte_check_green": "Ihr sicheres Passfoto"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Expertenüberprüfung"
+        "texte_check_green": "Expertenüberprüfung"
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -117,7 +128,57 @@
         "titre_check": "Schritt 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-4-im-Computer.png"
       }
+    ],
+
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automatisierte Begradigung und Hintergrundentfernung",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatisches-Formatieren-des-Passfotos.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Unser Experten-Check garantiert die Fotokonformität.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expertenprufung-des-Passfotos.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Bestelle dein professionell gedruckte Fotos nach Hause. Versand noch am gleichen Tag ",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck-Zustellung-des-Passfotos.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Keine persönlichen Daten erforderlich. Dein Foto ist sicher gespeichert.",
+        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Passfoto-sicher-gespeichert.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Machen Sie ein Passfoto mit Ihrem Smartphone.",
+        "titre_check": "Schritt  1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-1-auf-dem-Handy.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
+        "titre_check": "Schritt 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-2-auf-dem-Handy.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
+        "titre_check": "Schritt 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-3-auf-dem-Handy.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
+        "titre_check": "Schritt 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-4-auf-dem-Handy.png"
+      }
     ]
+
   },
 
   "Bloc4": {
@@ -164,32 +225,32 @@
     ],
     "media": [
       {
-        "text": "France Digitale",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+        "text": null,
+        "img": null
       },
       {
-        "text": "E-Residency Marketplace",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+        "text": null,
+        "img": null
       },
       {
-        "text": "France Info",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+        "text": null,
+        "img": null
       },
       {
-        "text": "Canal+",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+        "text": null,
+        "img": null
       },
       {
-        "text": "JEI",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+        "text": null,
+        "img": null
       },
       {
-        "text": "Le Progrès",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+        "text": null,
+        "img": null
       },
       {
-        "text": "La French Tech",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+        "text": null,
+        "img": null
       }
     ],
     "temoignages": [
@@ -460,8 +521,9 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "partie2-p": "Folgen Sie uns und erfahren Sie die neuesten Informationen zu Visa und anderen offiziellen Dokumenten.",
     "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
+    "blog-link" : "https://www.smartphone-id.com/de_DE/faq/",
     "SiteMapList-propos" : "Über uns",
     "propos-link" : "https://www.smartphone-id.com/de_DE/uber-uns/",
     "SiteMapList-faq" : "Häufig gestellte Fragen",
@@ -472,14 +534,12 @@
     "applis-p":  "Laden Sie die Smartphone iD-App herunter, um Ihre Bestellungen zu verfolgen und noch mehr Funktionen zu genießen.",
     "AppStore-link" : "https://apps.apple.com/de/app/offizielles-passfoto/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=de&gl=de",
-    "partie2-p": "Folgen Sie uns und erfahren Sie die neuesten Informationen zu Visa und anderen offiziellen Dokumenten.",
-    "partie2-p-link": "",
     "mentions-confidentialité": "Datenschutzrichtlinie",
     "mentions-confidentialité-link": "https://www.smartphone-id.com/de_DE/datenschutzrichtlinie",
     "mentions-cgu": "Nutzungsbedingungen",
     "mentions-cgu-link": "https://www.smartphone-id.com/de_DE/nutzungsbedingungen",
     "mentions-légales": "Impressum",
-    "mentions-légales-link": "https://www.smartphone-id.com/de_DE/impressum"
+    "mentions-légales-link": "https://www.smartphone-id.com/de_DE/impressum",
     "Cookies": "Kekse",
     "Cookies-link": "https://www.smartphone-id.com/de_DE/Kekse"
   }

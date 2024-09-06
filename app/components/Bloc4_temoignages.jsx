@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Image from 'next/image';
 import useTranslations from '../../utils/useTranslations';
+import styles from '../styles/Bloc4.module.css';
 
 const Bloc4Temoignages = ({ page, locale }) => {
     const { temoignages, media, partenaires } = page.pageDAccueilBloc4;
@@ -74,10 +75,10 @@ const Bloc4Temoignages = ({ page, locale }) => {
     }
 
     return (
-        <div className="kal-testimonials">
+        <div className={`${styles.kalTestimonials}`}>
             <h2>
                 {translations.Bloc4.titre_bloc4_1}
-                <span className="highlight">{translations.Bloc4.titre_bloc4_span}</span>
+                <span className="highlight" >{translations.Bloc4.titre_bloc4_span}</span>
                 {translations.Bloc4.titre_bloc4_2}
             </h2>
 
@@ -172,9 +173,10 @@ const Bloc4Temoignages = ({ page, locale }) => {
             <div className="kal-testimonials-background"></div>
 
 
-            <div className="kal-testimonials-media-wrapper">
-                <h3>{translations.Bloc4.nos_medias}</h3>
-                <nav className="kal-testimonials-media-btn" id="left">
+            {translations.Bloc4.media?.some(mediaItem => mediaItem.img && mediaItem.text) && (
+                <div className="kal-testimonials-media-wrapper">
+                    <h3>{translations?.Bloc4?.nos_medias}</h3>
+                    <nav className="kal-testimonials-media-btn" id="left">
                     <svg
                         width="32"
                         height="32"
@@ -194,23 +196,24 @@ const Bloc4Temoignages = ({ page, locale }) => {
                             fill="black"
                         />
                     </svg>
-                </nav>
-                <div className="kal-testimonials-media">
-                    {translations.Bloc4.media?.map((mediaItem, index) => (
-                        <div key={index}>
-                            <Image
-                                width={500}
-                                height={500}
-                                src={mediaItem.img}
-                                alt={mediaItem.text}
-                            />
-                            <p>
-                                {mediaItem.text}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-                <nav className="kal-testimonials-media-btn" id="right">
+                    </nav>
+                    <div className="kal-testimonials-media">
+                        {translations.Bloc4.media.map((mediaItem, index) => (
+                            mediaItem.img && mediaItem.text && ( // Affiche uniquement si les deux champs sont remplis
+                                <div key={index}>
+                                    <Image
+                                        width={500}
+                                        height={500}
+                                        src={mediaItem.img}
+                                        alt={mediaItem.text}
+                                    />
+                                    <p>{mediaItem.text}</p>
+                                </div>
+                            )
+                        ))}
+                    </div>
+                    <nav className="kal-testimonials-media-btn" id="right">
+
                     <svg
                         width="32"
                         height="32"
@@ -231,7 +234,10 @@ const Bloc4Temoignages = ({ page, locale }) => {
                         />
                     </svg>
                 </nav>
-            </div>
+                </div>
+            )}
+
+
 
             <div className="kal-testimonials-partner-wrapper">
                 <h3> {translations.Bloc4.nos_partenaires}</h3>
@@ -259,15 +265,15 @@ const Bloc4Temoignages = ({ page, locale }) => {
                 <div className="kal-testimonials-partner ">
                     {translations.Bloc4.partenaires?.map((partenaire, index) => (
 
-                            <div key={index} className="flex justify-center items-center">
-                                <Image
-                                    width={500}
-                                    height={500}
-                                    src={partenaire.img}
-                                    alt={partenaire.text}
-                                    className="object-contain"
-                                />
-                            </div>
+                        <div key={index} className="flex justify-center items-center">
+                            <Image
+                                width={500}
+                                height={500}
+                                src={partenaire.img}
+                                alt={partenaire.text}
+                                className="object-contain"
+                            />
+                        </div>
 
                     ))}
                 </div>

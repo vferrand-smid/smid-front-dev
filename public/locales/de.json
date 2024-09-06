@@ -1,0 +1,485 @@
+{
+  "NavBar": {
+    "link_1" : "Pass",
+    "url_1" : "https://www.smartphone-id.com/de_DE/passfoto-in-deutschland/",
+    "link_2" : "Personalausweis",
+    "url_2" : "https://www.smartphone-id.com/de_DE/passfoto-personalausweis/",
+    "link_3" : "Aufenthaltsgenehmigung",
+    "url_3" : "https://www.smartphone-id.com/de_DE/aufenthaltsgenehmigung-passfoto",
+    "link_4" : "Visum",
+    "url_4" : "https://www.smartphone-id.com/de_DE/passfoto-visum",
+    "link_5" : "Führerschein",
+    "url_5" : "https://www.smartphone-id.com/de_DE/fuehrerschein-foto/"
+  },
+
+  "Bloc1": {
+    "girl": "/images/Bloc1/de-DE/girl.png",
+    "background": "/images/background.png",
+    "titre_bloc1": "hochwertige Passfotos",
+    "titre_h4_bloc1": "und digitale Signaturen.",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_white": "Ihr sicheres Passfoto"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_white": "Expertenüberprüfung"
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Schnelle KI-Bearbeitung"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Expertenüberprüfung"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Anerkannt für Dokumente"
+      }
+    ]
+  },
+
+  "kalSearch": {
+    "titre_1": "Ich brauche ein Passfoto in",
+    "titre_2": "Und für welches Dokument",
+    "bouton": "Hol dir dein Foto"
+  },
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Mehr als eine Million biometrische Passfotos geliefert"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Erster Online-Anbieter für digitale eFotos + Signaturen"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "Sterne im Apple und Google Play Store"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "Die komplette",
+    "titre_bloc3": "Passfotolösung, ohne das Haus zu verlassen.",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Automatisierte Begradigung und Hintergrundentfernung.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatisches-Formatieren-des-Passfotos.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Unser Experten-Check garantiert die Fotokonformität.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expertenprufung-des-Passfotos.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Bestelle dein professionell gedrucktes Foto. Versand noch am gleichen Tag.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck-Zustellung-des-Passfotos.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Keine persönlichen Daten erforderlich. Ihr Foto ist sicher gespeichert.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Passfoto-sicher-gespeichert.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Scannen Sie den QR-Code, um ein Passfoto mit Ihrem Smartphone zu machen.",
+        "titre_check": "Schritt 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-1-im-Computer.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
+        "titre_check": "Schritt 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-2-im-Computer.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
+        "titre_check": "Schritt 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-3-im-Computer.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
+        "titre_check": "Schritt 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-4-im-Computer.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Seit 2017, ",
+    "titre_bloc4_2": "biometrische Passfotos erstellt",
+    "titre_bloc4_span": "mehr als eine Million",
+    "partenaires": [
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "CER",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
+      },
+      {
+        "text": "Planéte Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "E-Residency Marketplace",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Le Progrès",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "Das ist super. Ich konnte meine Fotos für die titre de séjour Aufenthaltsgenehmigung aus den USA mitnehmen, ohne nach Frankreich zurückkehren zu müssen, um einen Fotomaten zu finden. Ich musste zwar mein Foto noch einmal machen, aber die Instruktionen waren einfach zu befolgen. Tolle Erfahrung und tolle Kommunikation.",
+        "titre": "Sehr praktisch"
+      },
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Erstaunlich! Mein Vater hatte Schwierigkeiten, in Frankreich einen offiziellen Fotoautomaten für sein E-Foto zu finden. Wir haben sein Foto zu Hause mit der App gemacht. Es war ein wenig dunkel, aber sie haben es so bearbeitet, dass es klar und präzise war, genauso wie ein Passfoto. Wir haben die E-Fotos innerhalb von 24 Stunden erhalten und ein paar Tage später die echten Fotos mit der Post erhalten. Ich brauchte sie nicht, aber sicher ist sicher. Das war das erste Mal, dass ich eine App verwendet habe, die genau das tut, was sie sagt, ohne Probleme! Gut gemacht Smart Photo!!!",
+        "titre": "Effizient"
+      },
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Ich war zunächst etwas skeptisch, diese App für mein Führerscheinfoto zu nutzen, doch als ich die Tipps und Hinweise zur Erstellung eines gelungenen Fotos befolgt hatte, war alles innerhalb von Minuten erledigt. Die Mitarbeiter überprüfen das Foto auf seine Verwendbarkeit und man kann es entweder per Post oder per E-Mail zugeschickt bekommen. Ich musste nicht einmal mein Zuhause verlassen, was ein zusätzlicher Bonus ist. Definitiv empfehlenswert!!",
+        "titre": "Definitiv empfehlenswert!!"
+      },
+      {
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "Ich bin wirklich beeindruckt von dieser App - der Ablauf war einfach - es gab keine Probleme bei der Genehmigung und beim Hinzufügen zum Online-Antrag - ich würde sie auf jeden Fall weiterempfehlen.",
+        "titre": "Neuer Reisepass"
+      },
+      {
+        "nom": "Pixie and Tess, 06/22/2022",
+        "texte": "Da ich in den USA lebe, war es ein Problem, das erforderliche Foto-\"Code\" zu erhalten, um meinen britischen Pass zu erneuern. Diese App hat mir geholfen und war so einfach zu bedienen. Innerhalb weniger Stunden erhielt ich die Foto-Genehmigung und den benötigten \"Code\" für Gov.com. Ich kann diese App sehr empfehlen.",
+        "titre": "Fantastisch"
+      },
+      {
+        "nom": "Stephanie Moffatt, 11/06/2022",
+        "texte": "Es hat mehrere Versuche gebraucht, bis das Foto freigegeben wurde, aber es gibt Tipps, was man anders machen kann. Sowohl ich als auch mein Mann haben diese App benutzt, um neue Pässe zu bekommen und die Fotos wurden auf Anhieb vom Amt für Pässe akzeptiert. Viel günstiger als in einem Fotoautomaten. Es hat mehrere Versuche gebraucht, bis das Foto freigegeben wurde, aber es gibt Tipps, was man anders machen kann. Sowohl ich als auch mein Mann haben diese App benutzt, um neue Pässe zu bekommen und die Fotos wurden auf Anhieb vom Amt für Pässe akzeptiert. Viel günstiger als in einem Fotoautomaten.",
+        "titre": "Fotos beim ersten Mal akzeptiert"
+      }
+    ],
+    "nos_partenaires": "Vorgestellt von",
+    "nos_medias": null
+  },
+
+  "Bloc5": {
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Junge-Freunde-machen-ein-Foto-fur-den-deutschen-Pass-mit-der-Smartphone-iD-App.jpg",
+    "listeService": [
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "24/7 service",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Für jedes Dokument geeignet",
+        "texteService": "Die richtige Größe im digitalen und gedruckten Format, Bildtiefe, Hintergrundfarbe, Beleuchtung..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Konformität zu 100%",
+        "texteService": "Für alle offiziellen Dokumente, weltweit"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Praktisch für alle",
+        "texteService": "Besonders praktisch für Babys, Menschen mit Behinderungen, Expats, Menschen in ländlichen Gebieten..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Erhalten Sie ein besseres Foto",
+        "texteService": "Mach unbegrenzte Aufnahmen und wähle dein bestes Foto aus"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Echter Kundenservice",
+        "texteService": "Keine Automaten, keine versteckten Kontaktinformationen - Ihre positive Erfahrung ist uns wichtig."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Ökologisch",
+        "texteService": "Verschwende kein Papier mehr, wenn du dein Dokument erneuern musst."
+      }
+    ],
+    "titre_bloc5_1": "Warum entscheiden sich Menschen für den Service von",
+    "titre_bloc5_span": "Smartphone iD?"
+  },
+
+  "Bloc6": {
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Wo kann man Passfotos in Deutschland ausdrucken?",
+        "paragraphe": "Bestell dir professionell gedruckte Fotos mit Smartphone iD oder druck dir dein Foto in einer Einrichtung in Ihrer Nähe aus.",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "Cewe",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cewe-2.png"
+          },
+          {
+            "nom_partenaire": "Foto Paradies",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Foto-Paradies.png"
+          },
+          {
+            "nom_partenaire": "Rossmann",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Rossmann.png"
+          }
+        ],
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/deutsche-Passfoto-Vorlage-zum-Ausdrucken.png"
+      }
+    ],
+    "titre_bloc6_1": "Zu jedem Dokument ein",
+    "titre_bloc6_2": "Passfoto",
+    "titre_bloc6_span": "passendes",
+    "documents": [
+      {
+        "titre_doc": "Reisepass",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Reisepass.png"
+      },
+      {
+        "titre_doc": "Personalausweis.",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/germany-Personalausweis.png"
+      },
+      {
+        "titre_doc": "Führerschein",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Fuhrerschein.png"
+      },
+      {
+        "titre_doc": "Aufenthaltsgenehmigung",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Aufenthaltsgenehmigung.png"
+      },
+      {
+        "titre_doc": "Visum",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Germany-Visa.png"
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "bloc": [
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/aktuelle-deutsche-Passfoto-Vorlage-zum-Ausdrucken.png",
+        "paragraphe": "Echtzeit-Fotoaufnahmen beweisen die Aktualität eines Fotos, die für offizielle Dokumente obligatorisch ist.",
+        "titre": "Nachweis der Aktualität von Fotos"
+      },
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/digitale-Unterschrift-deutsches-Passfoto.png",
+        "paragraphe": "Deine Unterschrift wird bei Bedarf mit einem Foto für offizielle Dokumentenanträge online verknüpft.",
+        "titre": "Digitale Unterschrift"
+      }
+    ],
+    "titre_bloc7_1": "Deine Online",
+    "titre_bloc7_2": "für amtliche Dokumente Anträge",
+    "titre_bloc7_span": "Lösung"
+  },
+
+  "Bloc8": {
+    "bloc_conseils": [
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 1,
+        "texte": "Brille",
+        "texte_span": "ab."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 2,
+        "texte": "Licht fällt gleichmäßig",
+        "texte_span": "auf dein Gesicht."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 3,
+        "texte": "Die Haare sollten",
+        "texte_span": " hinter den Schultern liegen."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 4,
+        "texte": "Geschlossener Mund,",
+        "texte_span": " neutraler Ausdruck."
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/de/passfoto/",
+      "title": "Erfahre mehr"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/de/biometrische-passbild-fuer-dein-baby/",
+      "title": "Wie machst du ein Passfoto von einem Baby?"
+    },
+    "titre_bloc8_1" : "Wie machst du ein",
+    "titre_bloc8_2" : "Passfoto?",
+    "titre_bloc8_span": "korrektes",
+    "titre_encart": "Einige Vorschläge",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+  },
+
+  "Bloc9": {
+    "ID": "Passfoto für Deutschland",
+    "ePhoto": null,
+    "codeEphoto": [
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>Wie bei jedem anderen Antrag für einen Ausweis, benötigst du für deinen Reisepass in Deutschland ein aktuelles biometrisches Passbild. Achte darauf, dass es den Anforderungen und Maßen entspricht. Für jeden Antrag brauchst du ein eigenes Passbild.</p>\n",
+        "titre_accordeon": "Wie viele Passfotos benötige ich für einen Reisepass?"
+      },
+      {
+        "texteAccordeon": "<p>Wichtig ist, dass deine Haare auf deinem Passfoto nicht dein Gesicht oder deine Augen verdecken. Darüber hinaus solltest du keine hohe oder breite Frisur tragen, die aus den Maßen des Passfotos herausragen. Es dürfen sich auch keine sichtbaren Accessoires in den Haaren befinden. Die Farbe der Haare spielt keine Rolle.</p>\n",
+        "titre_accordeon": "Welche Frisur sollte ich auf einem Passfoto tragen?"
+      },
+      {
+        "texteAccordeon": "<p>Die aktuellen Smartphones und Tablets haben eine hochauflösende Kamera integriert und eigenen sich dementsprechend sehr gut für ein neues Passfoto. Mit Hilfe einer Passfoto App wie Smartphone iD, erstellst du innerhalb kürzester Zeit ein korrektes biometrisches Passfoto.</p>\n",
+        "titre_accordeon": "Kann ich Passfotos mit dem Handy machen?"
+      },
+      {
+        "texteAccordeon": "<p>Ein Set Passfotos aus einem Fotoautomaten kosten meisten zwischen 8€ und 10€. Du findest diese Automaten in jeder größeren Stadt an unterschiedlichen öffentlichen Orten. Der Service ist schnell und günstig, jedoch sind die Fotos aus Automaten oft weniger ansehnlich und entsprechen nicht immer den Anforderungen an ein korrektes Passfoto. 10% der Passfotos aus einem Automaten werden nicht angenommen beim Amt. Du solltest das Foto dementsprechend vorher von einem Experten überprüfen lassen.</p>\n",
+        "titre_accordeon": "Was kosten Passfoto am Automaten?"
+      }
+    ],
+    "titre_bloc9": "gestellte Fragen",
+    "titre_bloc9_span": "Häufig",
+    "fieldGroupName": "PageDAccueilBloc9"
+  },
+
+  "Bloc10": {
+    "thankYouMsg": "",
+    "heading": "Fanden Sie das hilfreich?",
+    "sousTitre" : "Klicken Sie auf einen Stern, um den Inhalt zu bewerten!",
+    "personne" : "Durchschnittliche Bewertung, :",
+    "etoiles" : "Sterne von 5"
+  },
+
+  "Footer": {
+    "partie2-button": "Jetzt kostenlos probieren! ",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "Über uns",
+    "propos-link" : "https://www.smartphone-id.com/de_DE/uber-uns/",
+    "SiteMapList-faq" : "Häufig gestellte Fragen",
+    "faq-link" : "https://www.smartphone-id.com/de_DE/faq/",
+    "SiteMapList-contact" : "Kontakt",
+    "contact-link" : "https://www.smartphone-id.com/de_DE/kontakt/",
+    "applis-h3": "Laden Sie die App herunter!!",
+    "applis-p":  "Laden Sie die Smartphone iD-App herunter, um Ihre Bestellungen zu verfolgen und noch mehr Funktionen zu genießen.",
+    "AppStore-link" : "https://apps.apple.com/de/app/offizielles-passfoto/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=de&gl=de",
+    "partie2-p": "Folgen Sie uns und erfahren Sie die neuesten Informationen zu Visa und anderen offiziellen Dokumenten.",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Datenschutzrichtlinie",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/de_DE/datenschutzrichtlinie",
+    "mentions-cgu": "Nutzungsbedingungen",
+    "mentions-cgu-link": "https://www.smartphone-id.com/de_DE/nutzungsbedingungen",
+    "mentions-légales": "Impressum",
+    "mentions-légales-link": "https://www.smartphone-id.com/de_DE/impressum"
+    "Cookies": "Kekse",
+    "Cookies-link": "https://www.smartphone-id.com/de_DE/Kekse"
+  }
+}

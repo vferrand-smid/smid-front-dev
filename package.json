@@ -1,6 +1,7 @@
 {
   "name": "ticketing-app",
   "version": "0.1.0",
+  "proxy": "https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app",
   "private": true,
   "scripts": {
     "test": "jest",
@@ -22,14 +23,14 @@
     "expect": "^29.7.0",
     "graphql": "^16.8.1",
     "graphql-request": "^6.1.0",
+    "http-proxy-middleware": "^3.0.0",
     "i18next": "^23.11.5",
     "i18next-browser-languagedetector": "^7.2.1",
     "i18next-resources-to-backend": "^1.2.1",
     "install": "^0.13.0",
     "ipapi.co": "^0.3.0",
-
     "negotiator": "^0.6.3",
-    "next": "^14.2.4",
+    "next": "^14.2.8",
     "next-i18next": "^15.3.0",
     "next-intl": "^3.11.3",
     "node-fetch": "^3.3.2",

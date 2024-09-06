@@ -12,10 +12,10 @@ export default function useTranslations(defaultLocale = 'fr-FR') {
             try {
                 const response = await fetch(`/locales/${locale}.json`);
                 const data = await response.json();
-                console.log(`Fetched translations for ${locale}:`, data);
+                console.log(`useTranslations.js - Fetched translations for ${locale}:`, data);
                 setTranslations(data);
             } catch (error) {
-                console.error('Failed to load translations:', error);
+                console.error('useTranslations.js - Failed to load translations:', error);
             } finally {
                 setLoading(false);
             }
