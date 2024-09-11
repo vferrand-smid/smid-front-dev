@@ -64,7 +64,7 @@ const localeToCountry = {
     'en-IN': 'India',
     'en-NG': 'Nigeria',
     'en-NZ': 'New Zealand',
-    'en-SG': 'Senegal',
+    'en-SG': 'Singapour',
     'en-US': 'United States',
     'en-ZA': 'South Africa',
     'es-AR': 'Argentina',

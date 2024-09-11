@@ -55,10 +55,10 @@
     ]
   },
 
-  "kalSearch": {
-    "titre_1": "J’ai besoin d’une photo d’identité pour",
-    "titre_2": "Pour le document",
-    "bouton": "Faire la photo"
+  "kalSearch" : {
+    "titre_1" : "I need a photo for this country ",
+    "titre_2" : "and this document",
+    "bouton" : "Take a photo"
   },
 
   "Bloc2": {
@@ -611,7 +611,7 @@
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/"
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

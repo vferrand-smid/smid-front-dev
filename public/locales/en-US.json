@@ -1,131 +1,185 @@
 {
   "NavBar": {
-    "link_1": "Driver's License",
-    "url_1": "https://www.smartphone-id.com/en/identity-photos-online/",
-    "link_2": "Passport",
-    "url_2": "https://www.smartphone-id.com/en/identity-photos-online/",
-    "link_3": "National ID Card",
-    "url_3": "https://www.smartphone-id.com/en/identity-photos-online/",
-    "link_4": "Residence Permit",
-    "url_4": "https://www.smartphone-id.com/en/identity-photos-online/",
-    "link_5": "Visa",
-    "url_5": "https://www.smartphone-id.com/en/identity-photos-online/",
-    "link_6": "Health Insurance Card",
-    "url_6": "https://www.smartphone-id.com/en/identity-photos-online/"
+    "liens": [
+      {
+        "link" : "Green Card",
+        "url" : "https://www.smartphone-id.com/en_US/green-card-photo/"
+      },
+      {
+        "link" : "US passport",
+        "url" : "https://www.smartphone-id.com/en_US/passport-photo/"
+      },
+      {
+        "link" : "US Visa",
+        "url" : "https://www.smartphone-id.com/en/us-visa-photo/"
+      }
+    ]
   },
 
   "Bloc1": {
-    "girl": "/images/Bloc1/girl.png",
-    "background": "/images/background.png",
-    "titre_bloc1": "Get It Quickly",
-    "titre_h4_bloc1": "to renew your French official documents online!",
+    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-for-USA-online.png",
+    "background": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-4.png",
+    "titre_bloc1": "Fast and easy tool for",
+    "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Immediate result guaranteed"
+        "texte_check_green": "quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Checked by experts"
+        "texte_check_green": "and digital signatures."
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Immediate result guaranteed"
+        "texte_check_white": "Immediate AI editing"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Checked by experts"
+        "texte_check_white": "Expert verification"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Free trial"
+        "texte_check_white": "Government acceptance"
       }
     ]
   },
 
   "kalSearch": {
-    "titre_1": "I need an ID photo for",
-    "titre_2": "For the document",
-    "bouton": "Take the photo"
+    "titre_1": "I need a photo for this country ",
+    "titre_2": "and this document",
+    "bouton": "Take a photo"
   },
 
   "Bloc2": {
     "repeteur1": [
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
-        "titre_repeteur1": "Over 1 million compliant photos delivered"
+        "titre_repeteur1": "More than a million valid passport photos delivered"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
-        "titre_repeteur1": "No. 1 ePhoto code provider online in France"
+        "titre_repeteur1": "First ePhoto + signature provider online"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
-        "titre_repeteur1": "Average rating on Apple and Google Store"
+        "titre_repeteur1": "stars in Apple and Google Play Store"
       }
     ]
   },
 
   "Bloc3": {
-    "titre_bloc3_span": "The solution",
-    "titre_bloc3": "for your compliant ID photo, without leaving your home.",
+    "titre_bloc3_span": "The complete",
+    "titre_bloc3": "passport photo solution without leaving your home",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Automatic formatting of ID photos.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+        "texteCheckBlack": "Automated sizing and background removal.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatic-formatting-US-passport-photo.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Sign with your finger depending on the official document.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expert-control-US-passport-photo.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Expert control, compliance guaranteed.",
-        "imageCkeckBlack": "/images/Bloc3/photo-identite-conforme-validee.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Printing-delivery-US-passport-photo.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Your printed photos mailed the same day.",
-        "imageCkeckBlack": "/images/Bloc3/imprimer-photo-identite.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure-passport-photo-tool.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Scan the QR code to take an ID photo with your smartphone.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "/images/Bloc3/faire-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-1-in-computer-.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Check the details of your request.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "/images/Bloc3/outil-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-2-in-computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Order a printed photo sheet from our service, if needed.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "/images/Bloc3/commender-impression-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-3-in-computer-2.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Receive your individual photo and printable photo sheet in your email inbox.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "/images/Bloc3/photo-identite-reussi.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-4-in-computer.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automated sizing and background removal.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatic-formatting-US-passport-photo.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expert-control-US-passport-photo.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Printing-delivery-US-passport-photo.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure-passport-photo-tool.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Take a photo with your smartphone.",
+        "titre_check": "Step 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-1-in-mobile-.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-2-in-mobile-.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-3-in-mobile.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-tool-step-4-in-mobile.png"
       }
     ]
   },
 
   "Bloc4": {
-    "titre_bloc4_1": "Since 2017, ",
-    "titre_bloc4_2": "compliant ID photos created",
-    "titre_bloc4_span": "over 1 million",
+    "titre_bloc4_1": "More than",
+    "titre_bloc4_2": "valid passport photos created",
+    "titre_bloc4_span": "a million",
     "partenaires": [
+      {
+        "text": "Planete Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
       {
         "text": "Zebra",
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
@@ -133,10 +187,6 @@
       {
         "text": "Enpc Ediser",
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
-      },
-      {
-        "text": "Mobilians",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
       },
       {
         "text": "Codes Rousseau",
@@ -149,10 +199,6 @@
       {
         "text": "CER",
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
-      },
-      {
-        "text": "Planète Permis",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
       },
       {
         "text": "Drivup",
@@ -195,44 +241,44 @@
     ],
     "temoignages": [
       {
-        "nom": "Chassany2603, 04/04/2022",
-        "texte": "I needed ID photos urgently and didn’t have time to go anywhere. I took a photo, paid for an ID photo (meeting standards), and within an hour I had it in my inbox. I received my card shortly after. Honestly, I recommend it.",
-        "titre": "Intuitive and fast"
+        "nom": "Bernard Mitchell, 05/14/2023",
+        "texte": "I had been having difficulty taking a decent photo myself, so I downloaded this app. I hadn't realized it would use the first photo I took, and I personally did not think my photo was any good. However, what I received back from them was super because the background was white, whereas mine had been yellow, and a light switch had been removed. The photo was accepted by the UK online passport renewal system, and the passport is on its way to us. Well worth the almost €6 I paid. Great app!",
+        "titre": "Better than a photo booth"
       },
       {
-        "nom": "ninie1208, 29/06/2021",
-        "texte": "Convenient for people like me who have little free time after work. I took a photo in the evening with my phone, and a few days later, it was in my mailbox. I had an appointment at the town hall the following week to renew my ID card, so it was a huge relief.",
-        "titre": "Really great"
+        "nom": "Stephanie Moffatt, 11/06/2022",
+        "texte": "I was a bit dubious at first about using this app for my driver's license photo, but after following the tips and guidelines on how to create a successful photo, it was all done within minutes. The staff verifies the photo is usable, and you can either have it posted or emailed to you. I didn't even have to leave the comfort of my own home, which is an added bonus. Definitely recommend!!",
+        "titre": "Definitely recommend!!"
       },
       {
-        "nom": "betiolina, 15/08/2022",
-        "texte": "Very good application. If the result isn’t satisfactory, you can retake the photo as many times as needed at no extra cost.",
-        "titre": "ID photo"
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "I recommend this app. It was a lot easier than visiting a photo booth, etc. Thank you, one happy customer",
+        "titre": "Thank you, one happy customer"
       },
       {
-        "nom": "Anaïs M, 21/02/2022",
-        "texte": "After several months of struggling with ANTS, which rejected my photos taken in a photo booth (twice) or 'lost' the photos sent by mail (three times), I tried one last time, feeling a bit desperate. To my surprise, the photos, although not of the same quality as those from a photo booth or professional photographer, were accepted, and my driver’s license is now being processed. I try, if possible, not to do everything from my smartphone, but it was the only option that worked.",
-        "titre": null
+        "nom": "Joanne Flack Thornton, 01/13/2023",
+        "texte": "Amazing! My dad struggled to get to an official photo booth for his ePhoto in France. We got his photo done at home using the app. It was a little dark, but they Photoshopped it so it was clear and precise, exactly like a passport photo. We received the ePhotos within 24 hours and a few days later received the actual ones in the post. I didn't need them, but just in case. This is the first time I've used an app that does exactly what it says with no problems! Well done, Smart photo!!!",
+        "titre": "Efficient"
       },
       {
-        "nom": "cosmiccbyul, 04/07/2022",
-        "texte": "I downloaded this app for a residence permit ePhoto since I wasn't in France and couldn't access a photo booth. To my surprise, it was super quick: I took a photo in a few minutes and received the ePhoto code 30 minutes later! Also, it only costs 6 euros? Highly recommend!!",
-        "titre": "Very fast and efficient!"
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "It took a few attempts to get the photo approved, but it has tips on what to do differently. Both myself and my husband used this app to get new passports, and our photos were accepted first time by the passport office. Much cheaper than using a photo booth.",
+        "titre": "Photos accepted first time"
       },
       {
-        "nom": "Starsissi, 02/12/2022",
-        "texte": "I needed digital ID photos for a driver’s license. Thanks to this app, I was able to do them from home without having to travel and without being limited on the number of attempts. There are also 'tips' to show what is accepted or not, which is very helpful. My photos were accepted the first time by the government, and I just received my new license.",
-        "titre": "Very satisfied"
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Living in the USA getting the required photo \"code\" to renew my British Passport was a problem. This App came to my rescue and was so easy to use and within hours I received the photo approval and \"code\" needed for Gov.com. I highly recommend this App!",
+        "titre": "Awesome"
       }
     ],
     "nos_partenaires": "Our partners",
-    "nos_medias": "Featured in the media"
+    "nos_medias": "Featured by"
   },
 
   "Bloc5": {
-    "titre_bloc5_1": "Why choose ",
-    "titre_bloc5_span": "our service?",
-    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
+    "titre_bloc5_1": "Why the Smartphone iD",
+    "titre_bloc5_span": "passport photo tool?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-online.jpg",
     "listeService": [
       {
         "check": "/images/General/check-green.png",
@@ -241,96 +287,116 @@
       },
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "All documents",
-        "texteService": "All types of documents are available."
+        "service24h24Et7j7": "For all document types",
+        "texteService": "The right size in digital and printed format, photo depth, background color, lighting ..."
       },
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "100% compliance",
-        "texteService": "For all official documents, worldwide."
+        "service24h24Et7j7": "100% conformity",
+        "texteService": "Get 100% conformity for any official document worldwide."
       },
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Choose the best photo",
-        "texteService": "And take unlimited shots."
+        "service24h24Et7j7": "Get the best photo",
+        "texteService": "Do unlimited number of takes, and choose your best shot."
       },
       {
         "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Real customer service",
-        "texteService": "Humans, not robots."
+        "texteService": "No robots, no hidden contact info, your positive experience is important for us."
       },
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Ideal solution",
-        "texteService": "For babies, people with disabilities, expats, rural residents, etc."
+        "service24h24Et7j7": "Handy for many",
+        "texteService": "Especially for babies, disabled people, expats, people in rural areas..."
       },
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Eco-friendly",
-        "texteService": "No more paper, no more travel."
+        "service24h24Et7j7": "Ecological",
+        "texteService": "No more paper to waste if you need to renew your document online."
       }
     ]
   },
 
   "Bloc6": {
-    "titre_bloc6_1": "The",
-    "titre_bloc6_2": "photo, for all your official documents",
-    "titre_bloc6_span": "right format",
+    "titre_bloc6_1": "Matching passport photos ",
+    "titre_bloc6_2": "US document",
+    "titre_bloc6_span": "for each ",
     "documents": [
       {
-        "titre_doc": "Driver's License",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
+        "titre_doc": "US Driver Licence",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-Driving-Licence.png"
       },
       {
-        "titre_doc": "Passport",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+        "titre_doc": "US Green Card",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-Green-Card.png"
       },
       {
-        "titre_doc": "National ID Card",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
+        "titre_doc": "US Identification Card",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-Identification-Card.png"
       },
       {
-        "titre_doc": "Residence Permit",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
+        "titre_doc": "US Passport",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport.png"
       },
       {
-        "titre_doc": "Health Insurance Card",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
+        "titre_doc": "US Visa",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-visa.png"
       }
     ],
     "bloc_photo": [
       {
-        "impressionPhoto": "Photo Printing",
-        "paragraphe": "Receive a printed format in 2 days or use this format to print your photos at our partner stores.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "impressionPhoto": "Where to print passport photo in the US?",
+        "paragraphe": "Order professionally printed photos with Smartphone iD or use ready-to-print template sent to your email.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photo-template.png",
         "partenaires": [
           {
-            "nom_partenaire": "Smartphone iD",
+            "nom_partenaire": "Smartphone-iD",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
           },
           {
-            "nom_partenaire": "E. Leclerc",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
+            "nom_partenaire": "Sams Club",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Sams-Club.png"
           },
           {
-            "nom_partenaire": "Auchan",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+            "nom_partenaire": "USPS",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/USPS.png"
           },
           {
-            "nom_partenaire": "Intermarché",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
+            "nom_partenaire": "Rite Aid",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Rite-Aid.png"
           },
           {
-            "nom_partenaire": "Carrefour",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
+            "nom_partenaire": "UPS",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/UPS.png"
           },
           {
-            "nom_partenaire": "fnac",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
+            "nom_partenaire": "FedEx",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/FedEx.png"
           },
           {
-            "nom_partenaire": "Cewe",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+            "nom_partenaire": "AAA",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/AAA.png"
+          },
+          {
+            "nom_partenaire": "Walmart",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Walmart.png"
+          },
+          {
+            "nom_partenaire": "Walgreens",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Walgreens.png"
+          },
+          {
+            "nom_partenaire": "Target",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Target.png"
+          },
+          {
+            "nom_partenaire": "CVS",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/CVS.png"
+          },
+          {
+            "nom_partenaire": "Staples",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Staples.png"
           }
         ]
       }
@@ -338,169 +404,236 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1": "The solution",
-    "titre_bloc7_2": "for official document requests",
-    "titre_bloc7_span": "perfect",
+    "titre_bloc7_1": "Your online ",
+    "titre_bloc7_2": "for official document applications",
+    "titre_bloc7_span": "solution",
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
-        "paragraphe": "For French documents, required for registration on the ANTS website.",
-        "titre": "Official ePhoto Code"
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Digital-signature-for-US-document-passport-photo.png",
+        "paragraphe": "Your signature will be linked to photo for official document applications online, when needed.",
+        "titre": "Digital signature"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
-        "paragraphe": "Requirement for an ID photo less than 6 months old. The government can see the date the photo was taken.",
-        "titre": "Photo less than 6 months old"
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/US-passport-photos-template.png",
+        "paragraphe": "Real time photo taking proves the recency of photo which is obligatory for official documents.",
+        "titre": "Prove photo recency"
       }
     ]
   },
 
   "Bloc8": {
-    "titre_bloc8_1": "How to",
-    "titre_bloc8_2": "your ID photo",
-    "titre_bloc8_span": "succeed",
+    "titre_bloc8_1": "How to take a ",
+    "titre_bloc8_2": "passport photo",
+    "titre_bloc8_span": "successful",
     "titre_encart": "Some tips",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/watch?v=158N_fC5ys4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",
         "chiffre": 1,
-        "texte": "Glasses",
-        "texte_span": "removed"
+        "texte": "Remove",
+        "texte_span": " your glasses"
       },
       {
         "check": "/images/General/check-green.png",
         "chiffre": 2,
-        "texte": "Face",
-        "texte_span": "evenly lit"
+        "texte": "Your hair should be ",
+        "texte_span": "behind your shoulders"
       },
       {
         "check": "/images/General/check-green.png",
         "chiffre": 3,
-        "texte": "Hair",
-        "texte_span": "behind shoulders"
+        "texte": "On your face ",
+        "texte_span": "light falls evenly"
       },
       {
         "check": "/images/General/check-green.png",
         "chiffre": 4,
-        "texte": "Mouth",
-        "texte_span": "closed, no smile"
+        "texte": "Mouth closed,",
+        "texte_span": "neutral expression"
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/en/identity-photo-compliant/",
-      "title": "Learn more"
+      "url": "https://www.smartphone-id.com/en_US/passport-photo/",
+      "title": "See more"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/en/baby-id-photo/",
-      "title": "How to take an ID photo of your baby?"
+      "url": "https://www.smartphone-id.com/en_US/baby-passport-photo-us/",
+      "title": "How to take a passport photo of a baby?"
     }
   },
 
   "Bloc9": {
-    "ID": "ID Photo",
-    "ePhoto": "ePhoto Code",
+    "ID": "US Passport Photos",
+    "ePhoto": null,
     "codeEphoto": [
       {
-        "texte_accordeon": "<p>Do you need to provide a <a href=\"https://www.smartphone-id.com/en/ephoto-ants/\">digital signature ePhoto code</a> (or ePhoto code) for an online request on the ANTS website?</p>\n<p>It's very simple, go to the Smartphone-iD website: ID Photo and ePhoto Application. Download the app, choose the document you need (Driver's License, Residence Permit, DCEM, etc.). Then take your photo and signature on your smartphone, and you're done. After your photo is validated by our team of experts, you'll receive your ePhoto code in your email inbox within minutes.</p>\n",
-        "titre_accordeon": "How to obtain an ePhoto code?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       },
       {
-        "texte_accordeon": "<p>The ePhoto code is written on the photo sheet, which is available:</p>\n<ul>\n<li>on the 'Official ID Photo' app by Smartphone iD, under the 'Order Tracking' menu</li>\n<li>directly in the email you received. In this email, the ePhoto code is also indicated.</li>\n</ul>\n",
-        "titre_accordeon": "Where can I find the ePhoto code?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       },
       {
-        "texte_accordeon": "<p>You have 2 options:</p>\n<ul>\n<li>You can either copy the 22-character ePhoto code (letters and numbers) from your photo sheet. Be careful to write the letters in uppercase and not to include any spaces 🙂</li>\n<li>Or you can copy and paste the ePhoto code provided in the email you received.</li>\n</ul>\n",
-        "titre_accordeon": "How to enter the ePhoto code?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       },
       {
-        "texte_accordeon": "<p>The ePhoto code is single-use. Once you’ve entered it on the ANTS website, you won’t be able to use it again.</p>\n<p>The ANTS secures your data by preventing the reuse of ePhoto codes.</p>\n",
-        "titre_accordeon": "How many times can the ePhoto code be used?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       },
       {
-        "texte_accordeon": "<p>The ePhoto code is valid for 6 months. This corresponds to the validity period of your ID photo.</p>\n<p>You have 6 months to use it; after that, it will no longer work.</p>\n",
-        "titre_accordeon": "How long is the ePhoto code valid?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       },
       {
-        "texte_accordeon": "<p>On a photo sheet, there is ONE ePhoto code.</p>\n<p>If you need another ePhoto code, you can get one without retaking your photo and signature, as long as it is within 6 months. To do this, go to the 'Order Tracking' menu of the 'Official ID Photo' app by Smartphone iD, select your order, then request a new ePhoto code. You will receive it within minutes.</p>\n",
-        "titre_accordeon": "How many ePhoto codes are there on a photo sheet?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       },
       {
-        "texte_accordeon": "<p>Several reasons are possible:</p>\n<ul>\n<li>You made a mistake when entering your ePhoto code. The letters must be uppercase, you must enter all 22 characters without spaces, and you might have confused the letters O with the numbers 0.</li>\n<li>You have already used this ePhoto code. Since the ePhoto code is single-use, request a new ePhoto code directly from the 'Official ID Photo' app by Smartphone iD.</li>\n</ul>\n<p>If your order is less than 6 months old, it’s simple, no need to retake your photo and signature. Go to the 'Order Tracking' menu, select your order, and request a new ePhoto code.</p>\n<p>If your order is more than 6 months old, in that case, place a new order and receive the ePhoto code within minutes.</p>\n",
-        "titre_accordeon": "Why isn't my ePhoto code working?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       },
       {
-        "texte_accordeon": "<p>It's very simple, go to the ANTS website <a href=\"https://permisdeconduire.ants.gouv.fr/\">Driver's License - Home (ants.gouv.fr)</a>, choose the reason for your request (request for registration for the driving license exam, request for the production of your driving license, etc.), then fill out the displayed form. In the 'digital signature photo code' field, enter your ePhoto code, and that’s it!</p>\n",
-        "titre_accordeon": "How to enter the ePhoto code for the driving license?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p>French ID photos must comply with the ISO/IEC 19794-5:2005 standard.</p>\n<p>The ID photo size must be 35×45 mm.</p>\n<p>Main points to follow:</p>\n<ul>\n<li>Do not wear any accessories on your hair (hats, visible hair ties).</li>\n<li>Adopt a neutral expression, mouth closed. No smile.</li>\n<li>Your entire face must be visible (eyes, eyebrows, ears, neck).</li>\n<li>For long hair, place it behind your shoulders.</li>\n<li>Do not wear glasses, except with a specific medical certificate.</li>\n</ul>\n<p>Make your life easier, Smartphone iD takes care of checking all these points for you and guarantees that you present a valid ID photo. No more risk of your request being rejected by the administration.</p>\n<p>More info at <a href=\"https://www.smartphone-id.com/en/compliant-id-photo/\" target=\"_blank\" rel=\"noopener\">https://www.smartphone-id.com/en/compliant-id-photo/</a></p>\n",
-        "titre_accordeon": "What are the standards for ID photos?"
+        "texteAccordeon": "<p>You should look for a passport photo maker that is fast, reliable, and most importantly provides a government acceptance guarantee, as well as a money-back guarantee like Smartphone iD passport photo tool.</p>\n",
+        "titre_accordeon": "How to find a good passport photo maker online?"
       },
       {
-        "texteAccordeon": "<p>The price of an ID photo varies greatly depending on the medium you choose:</p>\n<ul>\n<li>Photo booths: between €8 and €10</li>\n<li>Photographers: between €15 and €20</li>\n<li>Smartphone iD: less than €5</li>\n</ul>\n<p>Smartphone iD offers the lowest price on the market with the highest guarantee. For less than €5, get certified compliant ID photos.</p>\n",
-        "titre_accordeon": "How much does an ID photo cost in France?"
+        "texteAccordeon": "<p>Yes. CVS does do passport photos. However, you have to book an appointment and pay $16.99 USD for the service.</p>\n",
+        "titre_accordeon": "Does CVS do passport photos?"
       },
       {
-        "texteAccordeon": "<p>An ID photo must be taken by an authorized professional; otherwise, it will not be accepted by the administration.</p>\n<p>Several solutions are available to you:</p>\n<ul>\n<li>Stay at home and use the Smartphone iD app, a certified ID photo provider.</li>\n<li>Go to an authorized photographer or a certified photo booth.</li>\n</ul>\n<p>With Smartphone iD, taking an ID photo is child’s play. No need to go anywhere, take your photo on your smartphone at your convenience. We will ensure your photo meets the standards, and you will receive it directly in your email inbox.</p>\n",
-        "titre_accordeon": "How to take an ID photo?"
+        "texteAccordeon": "<p>Yes. You can get passport photos from Walgreens. However, you have to book an appointment and pay $16.99 USD for the service.</p>\n",
+        "titre_accordeon": "Does Walgreens do passport photos?"
       },
       {
-        "texteAccordeon": "<p>The photo must be taken either:</p>\n<ul>\n<li>On a mobile app using a system approved by the Ministry of the Interior.</li>\n<li>By an authorized professional, such as a photographer.</li>\n<li>In a photo booth using a system approved by the Ministry of the Interior.</li>\n</ul>\n<p>Depending on the medium chosen, the services are not identical, and the price can vary greatly.</p>\n<p>Smartphone iD is the only service that guarantees your ID photo meets the standards required by the administration at the lowest price on the market.</p>\n",
-        "titre_accordeon": "Where to take ID photos near me?"
+        "texteAccordeon": "<p>No. Costco no longer offers passport photos</p>\n",
+        "titre_accordeon": "Does Costco do passport photos?"
       },
       {
-        "texteAccordeon": "<p>With Smartphone iD, you receive your photo sheet directly in your email inbox.</p>\n<p>Do you need a printed version of your photo sheet? You have 3 options:</p>\n<ul>\n<li>Request the printing and mailing of your photo sheet when ordering with Smartphone iD. Your photo sheet is printed by photo printing specialists and mailed within 24 hours.</li>\n<li>If you’ve already placed your order, no worries. Log in with your email on the 'Official ID Photo' app by Smartphone iD. Click on the 'Order Tracking' menu and request the printing and mailing of your photo sheet.</li>\n<li>Print your photo sheet yourself, either on your personal photo printer or at a photo kiosk. This choice is not recommended for two reasons:\n<ul>\n<li>The print format is different for each type of printer, and it can be tedious to find the right one to obtain photos in the required size of 35×45 mm.</li>\n<li>The administration requires high-quality printing and professional photo paper.</li>\n</ul>\n</li>\n</ul>\n",
-        "titre_accordeon": "How to print a photo in ID format?"
+        "texteAccordeon": "<p>Yes. Walmart does passport photos. You can either print your own or use their photo appointment service.</p>\n",
+        "titre_accordeon": "Does Walmart do passport photos?"
       },
       {
-        "texteAccordeon": "<p>Taking an ID photo that looks good is not always easy.</p>\n<p>With Smartphone iD, take as many photos as you want, the photo sessions are unlimited. This way, you’re sure to have THE ID photo you want.</p>\n<p>At a photographer, you only get one shot.</p>\n<p>In photo booths, you get 3 shots, and then you have to choose.</p>\n",
-        "titre_accordeon": "How to take a good ID photo?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> US Passport Photo in printed format should be 2” x 2” (51 x 51 mm) with the head centered and sized between 1” and 1.4” (25 and 35 mm).US PASSPORT PHOTO IN DIGITAL FORMAT</main></p>\n<aside class=\"kal-accordion-item-active-aside\">For some identification documents, you can upload your passport photo in digital format! Here are the requirements that will be valid, for example, if you apply for a Diversity Visa.</p>\n<ul>\n<li>In JPEG (.jpg) file format,</li>\n<li>Equal to or less than 240 kB (kilobytes) in file size,</li>\n<li>In a square aspect ratio (height must equal width),</li>\n<li>600×600 pixels in dimension.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "What is the US passport photo size?"
       },
       {
-        "texteAccordeon": "<p>Keep it simple. The ID photo should be as natural as possible.</p>\n<p>The best is to leave your hair down. If it’s long, place it behind your shoulders so your face is clearly visible. You can choose to tie your hair, but in this case, no hair ties should be visible, and the hairstyle should not be too elaborate.</p>\n<p>If you have bangs, make sure they don’t cover your eyebrows; otherwise, you risk rejection by the administration.</p>\n",
-        "titre_accordeon": "How to style your hair for an ID photo?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> The cost of passport photos can vary in the US. However, you can expect to pay between $7-$20 USD.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>USPS – $15,</li>\n<li>AAA (for those that aren’t members) – $15,</li>\n<li>CVS – $16.99,</li>\n<li>Walgreens – $16.99,</li>\n<li>FedEx – $14.95</li>\n<li>Target – $12.99,</li>\n<li>Smartphone iD &#8211; 2 times less the price than competitors!</li>\n</ul>\n<p>If you have been searching for a place to take cheap passport photos for countries other than the US, including Canada, Mexica and the EU nations, Walgreens is the only place that officially offers such a service across all locations.</p>\n</aside>\n",
+        "titre_accordeon": "How much are passport photos in the US?"
       },
       {
-        "texteAccordeon": "<p>Yes, you can wear makeup in your ID photo. However, the makeup should be light. Do not use overly bold colors on your eyes or lips. The ID photo should be as natural as possible.</p>\n",
-        "titre_accordeon": "Can you wear makeup for an ID photo?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> There are many different places to get passport photos in the US. Here are most popular options.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Smartphone iD,</li>\n<li>UPS,</li>\n<li>Walgreens</li>\n<li>Walmart,</li>\n<li>FedEx,</li>\n<li>CVS</li>\n<li>&#8230;</li>\n</ul>\n<p>With Smartphone iD, taking a passport photo is very easy. No need to move, take your photo with your smartphone whenever it suits you. We will make sure that your photo meets the necessary requirements and you will receive it directly in your email/mailbox.</p>\n</aside>\n",
+        "titre_accordeon": "Where to get passport photos?"
       },
       {
-        "texteAccordeon": "<p>Yes, you can wear earrings in your ID photo if they are discreet. Earrings that are too flashy or bulky will be rejected by the administration.</p>\n",
-        "titre_accordeon": "Can you wear earrings in an ID photo?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo and receive it later in email? It’s that easy!</main></p>\n",
+        "titre_accordeon": "Can you take your own passport photo?"
       },
       {
-        "texteAccordeon": "<p>No, we advise against wearing glasses in your ID photo. The administration accepts very few photos with glasses because the criteria are very strict.</p>\n<p>Only those with a medical certificate requiring them to wear glasses in their ID photo are allowed. In that case, they must follow these rules:</p>\n<ul>\n<li>Do not wear thick frames.</li>\n<li>Your eyes and eyebrows must not be covered by the frame.</li>\n<li>There should be no reflection on the lenses.</li>\n<li>Colored or tinted lenses are prohibited.</li>\n</ul>\n",
-        "titre_accordeon": "Can you keep your glasses on for an ID photo?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> To take a good passport photo at home you must do the following:</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Stand against the source of light to get even lighting on your face, and neck. It&#8217;s best to do it in daylight facing window.</li>\n<li>Make sure that your background is in light color and no shadow appears behind you.</li>\n<li>Look into the camera objective and not the phone screen. Eyes should be open.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>If you are not sure whether all guidelines have been respected, you can use the Smartphone iD tool. The photo will be automatically sized and approved by trained experts to ensure 100% compliance with official standards.</p>\n</aside>\n",
+        "titre_accordeon": "How to take a passport photo at home?"
       },
       {
-        "texteAccordeon": "<p>To take an ID photo on an iPhone, go to the Smartphone-iD website: ID Photo and ePhoto Application, and follow the instructions!</p>\n<p>Choose the document you need, then take your photo on your smartphone, and you're done. After your photo is validated by our team of experts, you will receive your photos in your email inbox within minutes.</p>\n",
-        "titre_accordeon": "How to take an ID photo with an iPhone?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Place your baby on a white sheet on your bed, or put it in a baby high chair with a white towel covering the back of the chair.</li>\n<li>Take away the pacifier, capture the baby’s attention, and try to get a photo with your baby’s mouth closed. Some governments allow the mouth to be slightly open, however, no tongue or teeth can be seen.</li>\n<li>Make sure your baby’s head is not tilted, and don’t forget that you cannot support the baby by yourself while taking the photo because no other body part can be seen in the photo.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>You can also take a photo through our website www.smartphon-id.com where we will help you to get a valid photo with the help of our trained experts.</p>\n</aside>\n",
+        "titre_accordeon": "How to take a passport photo of your baby?"
       },
       {
-        "texteAccordeon": "<p>To take an ID photo on Android, go to the Smartphone-iD website: ID Photo and ePhoto Application, and follow the instructions! Choose the document you need, then take your photo on your smartphone, and you're done. After your photo is validated by our team of experts, you will receive your photos in your email inbox within minutes.</p>\n",
-        "titre_accordeon": "How to take an ID photo with Android?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person. If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</main></p>\n",
+        "titre_accordeon": "Can you smile in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.</li>\n<li>Also, make sure your shirt doesn&#8217;t show too much skin, as shirtless passport photos are prohibited.</li>\n<li>Finally, uniforms of any kind are also prohibited on a biometric passport photo.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "What to wear for a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</main></p>\n",
+        "titre_accordeon": "Can you wear glasses in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Yes, you can wear makeup in your passport photo.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>But note that make-up should be light. Don&#8217;t put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "Can you wear makeup in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> To print passport photos with your PC, you must first download software that allows you to obtain 2&#8243; x 2&#8243; photos. Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted. If you don&#8217;t want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</main></p>\n",
+        "titre_accordeon": "How to print a passport size photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> It’s forbidden to submit a scanned photo for an official identification document. If you need to submit a digital photo, you can use our easy automated tool online that comes with a trained expert check. This way you get a perfect digital passport photo in the needed format for your document. If you are scanning passport photos to create multiple prints, we have covered that too. With your digital single photo, you will also receive in email a ready-to-print 10&#215;15 print template that you can use unlimited times.</main></p>\n",
+        "titre_accordeon": "How to scan a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">To make a passport photo on your iPhone, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</aside>\n",
+        "titre_accordeon": "How to take a passport photo with an iPhone?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">To make a passport photo on your android, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your android and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</aside>\n",
+        "titre_accordeon": "How to take a passport photo with an android?"
       }
     ],
-    "titre_bloc9": "frequently asked",
-    "titre_bloc9_span": "Questions"
+    "titre_bloc9": "to your questions",
+    "titre_bloc9_span": "Answers "
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": null,
+    "heading": "Was this useful for you?",
+    "sousTitre" : "Click on stars to leave a rate.",
+    "personne" : "Average rating:",
+    "etoiles" : "stars out of 5"
+  },
+
+  "Bloc11" : {
+    "permis" : "Permis de conduire",
+    "Link1" : "",
+    "passeport" : "Passeport",
+    "Link2" : "",
+    "cni" : "Carte Nationale d'identité",
+    "Link3" : "",
+    "séjour" : "Tire de Séjour",
+    "Link4" : "",
+    "visa" : "Visa",
+    "Link5" : "",
+    "vitale" : "Carte Vitale",
+    "Link6" : ""
   },
 
   "Footer": {
-    "partie2-button": "Take the photo",
-    "partie2-p": "Find the latest information on ID documents and visas.",
-    "SiteMapList-blog": "Blog",
-    "SiteMapList-propos": "About us",
-    "SiteMapList-faq": "FAQ",
-    "SiteMapList-contact": "Contact",
-    "applis-h3": "Download the app",
-    "applis-p": "Track your orders and enjoy even more features with the Smartphone iD app.",
+    "partie2-button": "Try now for free!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "About us",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
+    "SiteMapList-contact" : "Contact",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
+    "applis-h3": "Download the app!",
+    "applis-p":  "Download Smartphone iD app to track your orders and enjoy even more passport photo features.",
+    "AppStore-link" : "https://apps.apple.com/us/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=en&gl=US",
+    "partie2-p": "Follow us and find out about the newest information regarding visas and other official documents.",
+    "partie2-p-link": "",
     "mentions-confidentialité": "Privacy Policy",
-    "mentions-cgu": "Terms of Use",
-    "mentions-légales": "Legal Notice"
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }
