@@ -15,14 +15,9 @@
     }
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    @apply w-[100w];
+    @apply w-screen;
 }
 
 /* BLOC2 */
@@ -34,7 +29,7 @@ body {
 /* BLOC3 */
 
 .bloc3{
-    @apply w-full;
+    @apply w-screen;
     background: url("https://www.smartphone-id.com/wp-content/uploads/2023/06/BG-1.png") no-repeat;
     background-size: cover;
     padding: 80px 50px;
@@ -182,7 +177,7 @@ body {
 
 .kal-testimonials-media-wrapper > h3 {
     color: #000;
-    font-size: 26px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -264,7 +259,7 @@ body {
 
 .kal-testimonials-partner-wrapper > h3 {
     color: #000;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

@@ -16,12 +16,13 @@ const Bloc5Services = ({ locale }) => {
     const { imgService, listeService, titre_bloc5_1, titre_bloc5_span } = translations.Bloc5;
 
     return (
-        <div className={styles.kalService}>
+        <div className={styles.kalService} >
             <aside className={styles.imageContainer}>
                 <Image
                     src={imgService}
                     alt="Service"
-                    layout="fill"
+                    width={500}
+                    height={500}
                     objectFit="cover"
                     priority
                     className={styles.serviceImage}

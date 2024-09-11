@@ -1,32 +1,46 @@
 {
   "NavBar": {
-    "link_1" : "Digital Photo",
-    "url_1" : "https://www.smartphone-id.com/en_GB/id-photo-online/",
-    "link_2" : "Guide",
-    "url_2" : "https://www.smartphone-id.com/en_GB/passport-photos-uk/",
-    "link_3" : "UK Passport",
-    "url_3" : "https://www.smartphone-id.com/en_GB/passport-photo-checker-uk/",
-    "link_4" : "Driving Licence",
-    "url_4" : "https://www.smartphone-id.com/en_GB/getting-a-photo-driving-license/",
-    "link_5" : "UK Visa",
-    "url_5" : "https://www.smartphone-id.com/en_GB/passport-photo-uk-visa/",
-    "link_6" : "UK Photo booth",
-    "url_6" : "https://www.smartphone-id.com/en_GB/nearest-passport-photo-booth/"
+    "liens": [
+      {
+        "link" : "Digital Photo",
+        "url" : "https://www.smartphone-id.com/en_GB/id-photo-online/"
+      },
+      {
+        "link" : "Guide",
+        "url" : "https://www.smartphone-id.com/en_GB/passport-photos-uk/"
+      },
+      {
+        "link" : "UK Passport",
+        "url" : "https://www.smartphone-id.com/en_GB/passport-photo-checker-uk/"
+      },
+      {
+        "link" : "Driving Licence",
+        "url" : "https://www.smartphone-id.com/en_GB/getting-a-photo-driving-license/"
+      },
+      {
+        "link" : "UK Visa",
+        "url" : "https://www.smartphone-id.com/en_GB/passport-photo-uk-visa/"
+      },
+      {
+        "link" : "UK Photo booth",
+        "url" : "https://www.smartphone-id.com/en_GB/nearest-passport-photo-booth/"
+      }
+    ]
   },
 
   "Bloc1": {
-    "girl": "/images/Bloc1/en-GB/girl.png",
+    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/UK-passport-photo-tool-online.png",
     "background": "/images/background.png",
     "titre_bloc1": "Fast and easy tool for",
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Your secure passport photo"
+        "texte_check_green": "Your secure passport photo"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "your signature with the ePhoto code"
+        "texte_check_green": "your signature with the ePhoto code"
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -75,22 +89,22 @@
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Automated sizing and background removal.",
-        "imageCkeckBlack": "/images/Bloc3/en-GB/Automatic formatting UK passport photo.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-automatic-background-removal.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
-        "imageCkeckBlack": "/images/Bloc3/en-GB/Expert control UK passport photo.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-checker.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
-        "imageCkeckBlack": "/images/Bloc3/en-GB/Printing & delivery UK passport photo.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/order-printed-passport-photos.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
-        "imageCkeckBlack": "/images/Bloc3/en-GB/secure-UK-passport-photo.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure-passport-photo-tool.png"
       }
     ],
     "repeteur_etape": [
@@ -98,25 +112,73 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "/images/Bloc3/en-GB/UK-passport-photo-tool-step-one-in-computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-tool-online-computer.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "/images/Bloc3/en-GB/UK-passport-photo-tool-step-two-in-computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/digital-passport-photo-expert-check-computer.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "/images/Bloc3/en-GB/UK-passport-photo-tool-step-three-in-computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/order-printed-passport-photo-online-computer.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your digital passport photo, digital photo code, and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "/images/Bloc3/en-GB/UK-passport-photo-tool-step-four-in-computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/succesful-passport-photo-computer.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Automated sizing and background removal.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-automatic-background-removal.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-checker.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/order-printed-passport-photos.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure-passport-photo-tool.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Take a photo with your smartphone.",
+        "titre_check": "Step 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-tool-online.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/order-printed-passport-photo-online.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/digital-passport-photo-expert-check.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Receive your digital passport photo, digital photo code, and a ready-to-print template in your email.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/succesful-passport-photo.png"
       }
     ]
   },
@@ -491,12 +553,12 @@
       }
 
     ],
-    "titre_bloc9": "Frequently Asked",
-    "titre_bloc9_span": "Questions"
+    "titre_bloc9": "to your questions",
+    "titre_bloc9_span": "Answers"
   },
 
   "Bloc10" : {
-    "thankYouMsg": "",
+    "thankYouMsg": null,
     "heading": "Was this useful for you?",
     "sousTitre" : "Click on stars to leave a rate.",
     "personne" : "Average rating:",

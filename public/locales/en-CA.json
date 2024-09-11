@@ -1,30 +1,42 @@
 {
   "NavBar": {
-    "link_1" : "Canadian Passport",
-    "url_1" : "https://www.smartphone-id.com/en_CA/canada-passport-photo-online/",
-    "link_2" : "Canadian Visa",
-    "url_2" : "https://www.smartphone-id.com/en_CA/visa-photo-near-me-in-canada/",
-    "link_3" : "Permanent Resident Card",
-    "url_3" : "https://www.smartphone-id.com/en_CA/permanent-resident-card-photo/",
-    "link_4" : "ID Card",
-    "url_4" : "https://www.smartphone-id.com/en_CA/id-card-photo-in-canada/",
-    "link_5" : "Ontario Photo Card",
-    "url_5" : "https://www.smartphone-id.com/en_CA/ontario-photo-card/"
+    "liens": [
+      {
+        "link" : "Canadian Passport",
+        "url" : "https://www.smartphone-id.com/en_CA/canada-passport-photo-online/"
+      },
+      {
+        "link" : "Canadian Visa",
+        "url" : "https://www.smartphone-id.com/en_CA/visa-photo-near-me-in-canada/"
+      },
+      {
+        "link" : "Permanent Resident Card",
+        "url" : "https://www.smartphone-id.com/en_CA/permanent-resident-card-photo/"
+      },
+      {
+        "link" : "ID Card",
+        "url" : "https://www.smartphone-id.com/en_CA/id-card-photo-in-canada/"
+      },
+      {
+        "link" : "Ontario Photo Card",
+        "url" : "https://www.smartphone-id.com/en_CA/ontario-photo-card/"
+      }
+    ]
   },
 
   "Bloc1" : {
-    "girl" : "/images/Bloc1/girl.png",
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-online-Canada.png",
     "background" : "/images/background.png",
     "titre_bloc1" : "quality passport photos",
     "titre_h4_bloc1": "and digital signatures.",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Your secure identity photo"
+        "texte_check_green": "Your secure identity photo"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Expert verified"
+        "texte_check_green": "Expert verified"
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -115,6 +127,54 @@
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-4-in-computer.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Automated sizing and background removal.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatic-formatting-CA-passport-photo.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expert-control-CA-passport-photo.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Printing-delivery-CA-passport-photo.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
+        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-safely-stored.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Take a photo with your smartphone.",
+        "titre_check": "Step  1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-1-in-mobile.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-2-in-mobile.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-3-in-mobile.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CA-passport-photo-tool-step-4-in-mobile.png"
       }
     ]
   },
@@ -400,31 +460,31 @@
     "codeEphoto": [
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
@@ -450,6 +510,7 @@
       }
     ]
   },
+
   "Bloc10" : {
     "thankYouMsg": "",
     "heading": "Was this useful for you?",
@@ -483,7 +544,7 @@
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/"
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

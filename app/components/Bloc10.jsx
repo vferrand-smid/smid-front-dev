@@ -43,7 +43,7 @@ const Bloc10 = ({ page, locale  }) => {
             setRating(value);
             setHasRated(true);
             // Soumettre la note et mettre à jour la moyenne et le nombre de votes
-            // À remplacer par un appel à votre API pour gérer les votes
+            // À remplacer par un appel à l'API pour gérer les votes
             setAverageRating(((averageRating * voteCount + value) / (voteCount + 1)).toFixed(1));
             setVoteCount(voteCount + 1);
         }

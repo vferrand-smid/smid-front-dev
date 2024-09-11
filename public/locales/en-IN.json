@@ -1,32 +1,42 @@
 {
   "NavBar": {
-    "link_1": "Driving Licence",
-    "url_1": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_2": "Passport",
-    "url_2": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_3": "National Identity Card",
-    "url_3": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_4": "Residence Permit",
-    "url_4": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_5": "Visa",
-    "url_5": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_6": "Health Card",
-    "url_6": "https://www.smartphone-id.com/photos-identite-en-ligne/"
+    "liens": [
+      {
+        "link" : "Passport",
+        "url" : "https://www.smartphone-id.com/en_IN/passport-photo"
+      },
+      {
+        "link" : "Abha Card",
+        "url" : "https://www.smartphone-id.com/en_IN/abha-card"
+      },
+      {
+        "link" : "Driving license",
+        "url" : "https://www.smartphone-id.com/en_SG/driving-license-passport-photo/"
+      },
+      {
+        "link" : "Visa",
+        "url" : "https://www.smartphone-id.com/en_IN/indian-visa-photo"
+      },
+      {
+        "link" : "Pan Card",
+        "url" : "https://www.smartphone-id.com/en_IN/pan-card"
+      }
+    ]
   },
 
   "Bloc1": {
-    "girl": "/images/Bloc1/girl.png",
+    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-for-india-online.png",
     "background": "/images/background.png",
-    "titre_bloc1": "Get it Quickly",
-    "titre_h4_bloc1": "to renew your official Indian documents online!",
+    "titre_bloc1": "Fast and easy tool for",
+    "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Instant result guaranteed"
+        "texte_check_green": "Instant result guaranteed"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Verified by experts"
+        "texte_check_green": "Verified by experts"
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -46,9 +56,9 @@
   },
 
   "kalSearch": {
-    "titre_1": "I need an ID photo for",
-    "titre_2": "For the document",
-    "bouton": "Take the photo"
+    "titre_1": "I need a photo for this country ",
+    "titre_2": "and this document",
+    "bouton": "Take a photo"
   },
 
   "Bloc2": {
@@ -59,11 +69,11 @@
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
-        "titre_repeteur1": "First ePhoto code provider online in India"
+        "titre_repeteur1": "First ePhoto + signature provider online"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
-        "titre_repeteur1": "Top ratings on Apple and Google Store"
+        "titre_repeteur1": "Stars in Apple and Google Play Store"
       }
     ]
   },
@@ -118,13 +128,61 @@
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-4-in-computer.png"
       }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automated sizing and background removal.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Automatic-formatting-India-passport-photo.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Expert-control-India-passport-photo.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Printing-delivery-india-passport-photo.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/IN-passport-photo-safely-stored.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Take a photo with your smartphone.",
+        "titre_check": "Step 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-1-in-mobile.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-2-in-mobile.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-3-in-mobile.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-4-in-mobile.png"
+      }
     ]
   },
 
   "Bloc4": {
-    "titre_bloc4_1": "Since 2017, ",
+    "titre_bloc4_1": "More than",
     "titre_bloc4_2": "valid passport photos created",
-    "titre_bloc4_span": "over 1 million",
+    "titre_bloc4_span": "a million",
     "partenaires": [
       {
         "text": "Zebra",
@@ -195,34 +253,34 @@
     ],
     "temoignages": [
       {
-        "nom": "Chassany2603, 04/04/2022",
-        "texte": "I needed ID photos urgently and didn't have time to go out. I took a photo, paid for the ID photo (according to the standards) and within an hour I had it in my inbox. I got my card right away. I highly recommend it.",
-        "titre": "Intuitive and fast"
+        "nom": "Joanne Flack Thornton, 01/13/2023",
+        "texte": "I had been having difficulty taking a decent photo myself, so I downloaded this app. I hadn't realized it would use the first photo I took, and I personally did not think my photo was any good. However, what I received back from them was super because the background was white, whereas mine had been yellow, and a light switch had been removed. The photo was accepted by the UK online passport renewal system, and the passport is on its way to us. Well worth the almost €6 I paid. Great app!",
+        "titre": "Better than a photo booth"
       },
       {
-        "nom": "ninie1208, 29/06/2021",
-        "texte": "Convenient for people like me who have little free time after work. I took a photo in the evening with my phone and a few days later I had it in my mailbox. I had an appointment at the town hall the following week to renew my ID card, a big mental load removed.",
-        "titre": "Really great"
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "I was a bit dubious at first about using this app for my driver's license photo, but after following the tips and guidelines on how to create a successful photo, it was all done within minutes. The staff verifies the photo is usable, and you can either have it posted or emailed to you. I didn't even have to leave the comfort of my own home, which is an added bonus. Definitely recommend!!",
+        "titre": "Definitely recommend!!"
       },
       {
-        "nom": "betiolina, 15/08/2022",
-        "texte": "Very good application. If the result is not satisfactory. You can redo the photo as many times as necessary without any additional charge.",
-        "titre": "ID photo"
+        "nom": "Bernard Mitchell, 05/14/2023",
+        "texte": "I recommend this app. It was a lot easier than visiting a photo booth, etc. Thank you, one happy customer",
+        "titre": "Thank you, one happy customer"
       },
       {
-        "nom": "Anaïs M, 21/02/2022",
-        "texte": "After months of struggling with ANTS, which rejected my photos taken in a photo booth (twice) or 'lost' the photos sent by mail (three times), I tried my luck, a little desperate. And to my surprise, the photos, far from having the quality of a photo booth or professional photographer, were accepted, and my driver's license is being processed. I try, if possible, not to do everything from my smartphone, but I have to admit it's the only option that worked.",
-        "titre": null
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Amazing! My dad struggled to get to an official photo booth for his ePhoto in France. We got his photo done at home using the app. It was a little dark, but they Photoshopped it so it was clear and precise, exactly like a passport photo. We received the ePhotos within 24 hours and a few days later received the actual ones in the post. I didn't need them, but just in case. This is the first time I've used an app that does exactly what it says with no problems! Well done, Smart photo!!!",
+        "titre": "Efficient"
       },
       {
-        "nom": "cosmiccbyul, 04/07/2022",
-        "texte": "I downloaded this application for an ePhoto residence permit since I was not in India and therefore could not access a photo booth. To my surprise, it was super fast: I took a photo in a few minutes and received the ePhoto code 30 minutes later! Moreover, it only costs 6 euros? I highly recommend it!!",
-        "titre": "Very fast and efficient!"
+        "nom": "Stephanie Moffatt, 11/06/2022 ",
+        "texte": "It took a few attempts to get the photo approved, but it has tips on what to do differently. Both myself and my husband used this app to get new passports, and our photos were accepted first time by the passport office. Much cheaper than using a photo booth.",
+        "titre": " Photos accepted first time"
       },
       {
-        "nom": "Starsissi, 02/12/2022",
-        "texte": "I needed digital ID photos for a driving license. Thanks to this application I was able to do them from home, without having to travel and without being limited by the number of tries. Moreover, there are 'tips' to show what is accepted or not, it's very practical. My photos were accepted the first time by the government and I just received my new license?",
-        "titre": "Very satisfied"
+        "nom": "Pixie and Tess, 06/22/2022",
+        "texte": "Living in the USA getting the required photo \"code\" to renew my British Passport was a problem. This App came to my rescue and was so easy to use and within hours I received the photo approval and \"code\" needed for Gov.com. I highly recommend this App!",
+        "titre": "Awesome"
       }
     ],
     "nos_partenaires": "Our partners",
@@ -230,9 +288,9 @@
   },
 
   "Bloc5": {
-    "titre_bloc5_1": "Why choose ",
-    "titre_bloc5_span": "our service?",
-    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/easy-id-photo-tool-online.jpg",
+    "titre_bloc5_1": "Why the Smartphone iD ",
+    "titre_bloc5_span": "passport photo tool?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Young-friends-taking-indian-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
         "check": "/images/General/check-green.png",
@@ -241,7 +299,7 @@
       },
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "All documents",
+        "service24h24Et7j7": "For all document types",
         "texteService": "The right size in digital and printed format, photo depth, background color, lighting ..."
       },
       {
@@ -334,19 +392,19 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1":  "The Solution",
-    "titre_bloc7_2": "for Official Document Requests",
-    "titre_bloc7_span": " for official ",
+    "titre_bloc7_1":  "Your online ",
+    "titre_bloc7_2": "for official document applications",
+    "titre_bloc7_span": "solution ",
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/AU-Digital-signature-document-photo.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Digital-signature-indian-document-photo.png",
         "paragraphe": "Your signature will be linked to photo for official document applications online, when needed.",
         "titre": "Digital signature"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Recent-australian-printed-passport-photo-template.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/recent-printed-indian-passport-photo-template.png",
         "paragraphe": "Real time photo taking proves the recency of photo which is obligatory for official documents.",
         "titre": "Prove photo recency"
       }
@@ -354,8 +412,8 @@
   },
 
   "Bloc8": {
-    "titre_bloc8_1": "How",
-    "titre_bloc8_2": "to take your ID photo",
+    "titre_bloc8_1": "How to take a ",
+    "titre_bloc8_2": "passport photo",
     "titre_bloc8_span": "successful",
     "titre_encart": "Some tips",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
@@ -386,133 +444,250 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/en_AU/australian-passport-photo-size/",
+      "url": "https://www.smartphone-id.com/en_IN/passport-photos/",
       "title": "See more"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/en_AU/baby-passport-photos-in-australia/",
+      "url": "https://www.smartphone-id.com/en_IN/baby-passport-photo/",
       "title": "How to take a passport photo of a baby?"
     }
   },
 
   "Bloc9": {
-    "ID": "Photo d'identité",
-    "ePhoto": "Code ePhoto",
+    "ID": "Indian Passport Photos",
+    "ePhoto": null,
     "codeEphoto": [
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       },
       {
         "texte_accordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "CodeEphoto"
+        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p>If you apply with a paper application, an official passport photo for India should be</p>\n<ul>\n<li>35mm-40mm wide and 45mm-50mm high,</li>\n<li>your head must be a maximum of 36mm and a minimum of 32mm from chin to crown.</li>\n</ul>\n<p>If you apply for an official document online, the digital photo should match the printed photo in size and all other requirements.</p>\n",
-        "titre_accordeon": "What size is a passport photo in India?"
+        "texteAccordeon": "<p>For a Indian passport, the photo size requirements are as follows:</p>/n<b>Printed Format:</b>/n<ul>\n<li>Size: 51 mm x 51 mm (width x height).</li>\n<li>Face size: 25 mm to 35 mm</li>\n<li>Eye height: Between 1-1/8 inches to 1-3 inches</li>\n<li>The digital size of file should not exceed 100 KB each andmust not be less than 20 KB.</li>\n<li> Minimum resolution of the file should be 350 pixels(Width) X 350 pixels (Height) and maximum 1000 pixels (Width) X 1000 pixels(Height). </li>\n<li>Resolution: At least 600 DPI.</li>\n",
+        "titre_accordeon": "what is the size of Indian Passport Photo"
       },
       {
-        "texteAccordeon": "<p>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</p>\n</aside>\n",
+        "texteAccordeon": "<p>Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</p>\n",
         "titre_accordeon": "Can you take a passport photo on your phone?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">To print passport photos with your PC, you must first download software that allows you to obtain 35mm x 45mm photos. Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted.</p>\n<p>If you don&#8217;t want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</p>\n</aside>\n",
+        "texteAccordeon": "<p>To print passport photos with your PC, you must first download software that allows you to obtain 51mm x 51mm photos. Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted.If you don't want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</p>\n",
         "titre_accordeon": "How to print a passport size photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Various places in India offer both hardcopy and digital passport photos.</p>\n<ul>\n<li>Smartphone iD,</li>\n<li>Kmart,</li>\n<li>Officeworks,</li>\n<li>India Post,</li>\n</ul>\n</aside>\n",
-        "titre_accordeon": "Where to get passport photos?"
+        "texteAccordeon": "<p>In most cases, a digital photo is sufficient, as you can apply for all major Indian documents online. However, if you need a physical print, you can use our online service or Indian online printing services like konicacolorlab.com or Printo.in.<b> Smartphone iD provides you with an image file formatted for a 4x6 print, containing four individual passport photos,</b> making it easy to print at your convenience.</p>\n",
+        "titre_accordeon": "Where to print passport photo in India"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Passport photos can vary in cost in India. You can expect to pay between ₹700-₹1000 INR. Places like India Post and Officeworks charge around ₹800-₹1000 respectively.<br />\nSmartphone iD offers checked Indian passport photos for half the price in comparison to competitors. Plus, it includes real human photo checks and government acceptance assurance.</p>\n</aside>\n",
+        "texteAccordeon": "<p>In India, you can get passport photos at various locations:</p>/n<ul>\n<li>Photo Studios: Many professional photo studios like<b> Konica Color Lab & Studio ,Photoland (in Tamil Nadu), Moonlight Studio (in Maharashtra) ROYAL COLOR,Visa Photo Studio & Max Digital Photo (in new dlhi) <b>  offer excellent passport photo services<li>\n<li>Government Offices: Some passport Seva Kendra (PSK) and other government offices might have services or recommendations for nearby locations to get passport photos.<li>\n<li>India’s Largest Online B2B Marketplace: Platforms like IndiaMART, India’s largest online B2B marketplace, allow you to search for passport photo services by Indian city. You can find local photography studios, photo printing services, and other related businesses by browsing categories or searching for specific services within your city.<li>\n<li>Online Services: Our website, Smartphone ID, allows you to take a photo yourself. The app automatically <b>adjusts it to meet passport requirements and undergoes a deep examination by experts and AI to ensure compliance. </b>After that, you receive the photo via email. You can then print the photos at home or at a local print shop.</li>\n</ul>\n",
+        "titre_accordeon": "Where to get passport photos in India?"
+      },
+      {
+        "texteAccordeon": "<p>Smartphone iD provides digital passport photos within minutes after the photo is taken using your phone. You will receive a copy in your email and the option to have the photo printed and shipped to your home.</p>\n",
+        "titre_accordeon": "Where to get a digital passport photo?"
+      },
+      {
+        "texteAccordeon": "<p>Passport photos in India typically <b>cost between ₹50 to ₹200 at photo studios</b> . However, online services like<b> Smartphone iD offer a more inexpensive option,</b> allowing you to take and receive your passport photo digitally & meeting all official requirements.</p>\n",
         "titre_accordeon": "How much are passport photos in India?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">There are many places. You could use a photo studio or post office. Alternatively, you can easily use Smartphone iD, without appointments or travel, for cheap and quick passport photos.</p>\n</aside>\n",
-        "titre_accordeon": "Where to get passport photos in Delhi?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Can you have a fringe in a passport photo?</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow fringe because it makes it harder to read the biometrical data from the scan. Then fringe must be sided to either side and pinned down with unnoticeable bobby pins.</p>\n<p>However, more casual identity documents like a student card, or transportation card can have a passport photo with a fringe.<br />\nIf you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n</aside>\n",
+        "texteAccordeon": "<p>It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow fringe because it makes it harder to read the biometrical data from the scan. Then fringe must be sided to either side and pinned down with unnoticeable bobby pins.\nHowever, more casual identity documents like a student card, or transportation card can have a passport photo with a fringe.If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n",
         "titre_accordeon": "Can you have a fringe in a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person.</p>\n<p>If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n</aside>\n",
+        "texteAccordeon": "<p>It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person./nIf you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n",
         "titre_accordeon": "Can you smile in a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</aside>\n",
+        "texteAccordeon": "<p>Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</p>\n",
         "titre_accordeon": "Can you wear glasses in a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Yes, you can wear makeup in your passport photo.</p>\n<ul>\n<li>But note that make-up should be light. Don&#8217;t put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n",
+        "texteAccordeon": "<p>Yes, you can wear makeup in your passport photo. But note that make-up should be light.</p>/n<ul>\n<li>Don't put too much eyeshadow on your eyelids.</li>/n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>/n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>/n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n",
         "titre_accordeon": "Can you wear makeup in a passport photo?"
       },
       {
-        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">In most cases, you will need to take a new photo when it comes to renewing your passport. The only exception is if your passport has been damaged, lost, or destroyed. For Indian official documents, photos cannot be older than 6 months.</p>\n</aside>\n",
+        "texteAccordeon": "<p>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.Also, make sure your shirt doesn't show too much skin, as shirtless passport photos are prohibited.Finally, uniforms of any kind are also prohibited on a biometric passport photo.</p>\n",
+        "titre_accordeon": "What to wear for a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p>In most cases, you will need to take a new photo when it comes to renewing your passport. The only exception is if your passport has been damaged, lost, or destroyed. For Canadian official documents, photos cannot be older than 6 months.</p>\n",
         "titre_accordeon": "Do you need a new photo to renew your passport?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">It’s forbidden to submit a scanned photo for an official identification document. If you need to submit a digital photo, you can use our easy automated tool online that comes with a trained expert check. This way you get a perfect digital passport photo in the needed format for your document. If you are scanning passport photos to create multiple prints, we have covered that too. With your digital single photo, you will also receive in email a ready-to-print 10&#215;15 print template that you can use unlimited times.</aside>\n",
-        "titre_accordeon": "How to scan a passport photo?"
+        "texteAccordeon": "<p>If your passport photo is rejected, you will need to re-submit a new photo. Application processing can vary from a few weeks to months. Use Smartphone iD passport photo maker to take your photo and be sure it will be accepted the first time as an immediate AI check and an additional human expert check is applied.</p>\n",
+        "titre_accordeon": "What happens if a passport photo is rejected?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">To make a passport photo on your iPhone, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</aside>\n",
+        "texteAccordeon": "<p>How to scan a passport photo?</p>\n",
+        "titre_accordeon": "It’s forbidden to submit a scanned photo for an official identification document. If you need to submit digital passport photos, you can use our easy automated tool online that comes with a trained expert check. This way you get a perfect digital passport photo in the needed format for your document. If you are scanning passport photos to create multiple prints, we have covered that too. With your digital single photo, you will also receive in email a ready-to-print 10x15 print template that you can use unlimited times.\n"
+      },
+      {
+        "texteAccordeon": "<p>To make a passport photo on your iPhone, click on the \"Take a photo\"\n button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that's it! After the photo validation by our team of experts, you will receive your photos in your email.</p>\n",
         "titre_accordeon": "How to take a passport photo with an iPhone?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main></p>\n<aside class=\"kal-accordion-item-active-aside\">To make a passport photo on your Android, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your Android and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</aside>\n",
-        "titre_accordeon": "How to take a passport photo with an Android?"
+        "texteAccordeon": "<p>To make a passport photo on your android, click on the \"Take a photo\"\n button on the Smartphone iD website, choose the needed country and document type, take your photo on your android and that's it! After the photo validation by our team of experts, you will receive your photos in your email.</p>\n",
+        "titre_accordeon": "How to take a passport photo with an android?"
+      },
+      {
+        "texteAccordeon": "<p>You should look for a passport photo maker that is fast, reliable, and most importantly provides a government acceptance guarantee, as well as a money-back guarantee like Smartphone iD passport photo tool.</p>\n",
+        "titre_accordeon": "How to find a good passport photo maker online?"
+      },
+      {
+        "texteAccordeon": "<p>If you apply with a paper application, an official passport photo for Australia should be</p>\n<ul>\n<li>35mm-40mm wide and 45mm-50mm high,</li>\n<li>your head must be a maximum of 36mm and a minimum of 32mm from chin to crown.</li>\n</ul>\n<p>If you apply for an official document online, the digital photo should match the printed photo in size and all other requirements.</p>\n",
+        "titre_accordeon": "What size is a passport photo in Australia?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</p>\n</aside>\n",
+        "titre_accordeon": "Can you take a passport photo on your phone?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">To print passport photos with your PC, you must first download software that allows you to obtain 35mm x 45mm photos. Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted.</p>\n<p>If you don&#8217;t want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</p>\n</aside>\n",
+        "titre_accordeon": "How to print a passport size photo?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Various places in Australia offer both hardcopy and digital passport photos.</p>\n<ul>\n<li>Smartphone iD,</li>\n<li>Kmart,</li>\n<li>Officeworks,</li>\n<li>Auspost,</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "Where to get passport photos?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Passport photos can vary in cost in Australia. You can expect to pay between $15-$20 AUD. Places like Auspost and Office works charge $19.95 and $16.95 respectively.<br />\nSmartphone iD offers checked Australian passport photos for half the price in comparison to competitors. Plus, it includes real human photo checks and government acceptance assurance.</p>\n</aside>\n",
+        "titre_accordeon": "How much are passport photos in Australia?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">There are many places. You could use a photo studio or post office. Alternatively, you can easily use Smartphone iD, without appointments or travel, for cheap and quick passport photos.</p>\n</aside>\n",
+        "titre_accordeon": "Where to get passport photos in Sydney?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Can you have a fringe in a passport photo?</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow fringe because it makes it harder to read the biometrical data from the scan. Then fringe must be sided to either side and pinned down with unnoticeable bobby pins.</p>\n<p>However, more casual identity documents like a student card, or transportation card can have a passport photo with a fringe.<br />\nIf you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n</aside>\n",
+        "titre_accordeon": "Can you have a fringe in a passport photo?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person.</p>\n<p>If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n</aside>\n",
+        "titre_accordeon": "Can you smile in a passport photo?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</aside>\n",
+        "titre_accordeon": "Can you wear glasses in a passport photo?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Yes, you can wear makeup in your passport photo.</p>\n<ul>\n<li>But note that make-up should be light. Don&#8217;t put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n",
+        "titre_accordeon": "Can you wear makeup in a passport photo?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">In most cases, you will need to take a new photo when it comes to renewing your passport. The only exception is if your passport has been damaged, lost, or destroyed. For Australian official documents, photos cannot be older than 6 months.</p>\n</aside>\n",
+        "titre_accordeon": "Do you need a new photo to renew your passport?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">It’s forbidden to submit a scanned photo for an official identification document. If you need to submit a digital photo, you can use our easy automated tool online that comes with a trained expert check. This way you get a perfect digital passport photo in the needed format for your document. If you are scanning passport photos to create multiple prints, we have covered that too. With your digital single photo, you will also receive in email a ready-to-print 10&#215;15 print template that you can use unlimited times.</aside>\n",
+        "titre_accordeon": "How to scan a passport photo?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">To make a passport photo on your iPhone, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</aside>\n",
+        "titre_accordeon": "How to take a passport photo with an iPhone?",
+        "fieldGroupName": "PhotoDidentite"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main></p>\n<aside class=\"kal-accordion-item-active-aside\">To make a passport photo on your android, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your android and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</aside>\n",
+        "titre_accordeon": "How to take a passport photo with an android?",
+        "fieldGroupName": "PhotoDidentite"
       }
     ],
     "titre_bloc9": "to your questions",
     "titre_bloc9_span": "Answers "
   },
 
+  "Bloc10" : {
+    "thankYouMsg": null,
+    "heading": "Was this useful for you?",
+    "sousTitre" : "Click on stars to leave a rate.",
+    "personne" : "Average rating:",
+    "etoiles" : "stars out of 5"
+  },
+
+  "Bloc11" : {
+    "passeport" : "Passport",
+    "Link1" : "https://www.smartphone-id.com/en_IN/passport",
+    "permis" : "Driving Licence",
+    "Link2" : "https://www.smartphone-id.com/en_IN/driving-licence",
+    "cni" : "Aadhaar Card",
+    "Link3" : "https://www.smartphone-id.com/en_IN/aadhaar-card",
+    "séjour" : "Abha card",
+    "Link4" : "https://www.smartphone-id.com/en_IN/abha-card",
+    "visa" : " visa",
+    "Link5" : "https://www.smartphone-id.com/en_IN/indian-visa",
+    "vitale" : "PAN Card",
+    "Link6" : "https://www.smartphone-id.com/en_IN/pan-card"
+  },
+
   "Footer": {
-    "partie2-button": "Take the photo",
-    "partie2-p": "Find the latest information on identity documents and visas.",
-    "SiteMapList-blog": "Blog",
-    "SiteMapList-propos": "About us",
-    "SiteMapList-faq": "FAQ",
-    "SiteMapList-contact": "Contact",
-    "applis-h3": "Download the app",
-    "applis-p": "Track your orders and enjoy even more features with the Smartphone iD app.",
+    "partie2-button": "Try now for free!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : null,
+    "SiteMapList-propos" : "About us",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
+    "SiteMapList-contact" : "Contact",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
+    "applis-h3": "Download the app!",
+    "applis-p":  "Download Smartphone iD app to track your orders and enjoy even more passport photo features.",
+    "AppStore-link" : "https://apps.apple.com/us/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=en&gl=US",
+    "partie2-p": "Follow us and find out about the newest information regarding visas and other official documents.",
+    "partie2-p-link": null,
     "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",
-    "mentions-légales": "Legal Notice"
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

@@ -1,32 +1,42 @@
 {
   "NavBar": {
-    "link_1" : "Driver's License",
-    "url_1" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_2" : "Passport",
-    "url_2" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_3" : "National Identity Card",
-    "url_3" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_4" : "Residence Permit",
-    "url_4" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_5" : "Visa",
-    "url_5" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_6" : "Health Insurance Card",
-    "url_6" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+    "liens": [
+      {
+        "link": "Passport",
+        "url": "https://www.smartphone-id.com/en_NG/passport-photo-for-passport/"
+      },
+      {
+        "link": "Resident permit",
+        "url": "https://www.smartphone-id.com/en_NG/nigeria-resident-permit-passport-photo/"
+      },
+      {
+        "link": "Driving Licence",
+        "url": "https://www.smartphone-id.com/en_NG/driving-licence-passport-photo/"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/en_NG/passport-photo-Nigerian-visa/"
+      },
+      {
+        "link": "Identity card",
+        "url": "https://www.smartphone-id.com/en_NG/passport-photo-identity-card/"
+      }
+    ]
   },
 
-  "Bloc1" : {
-    "girl" : "/images/Bloc1/girl.png",
-    "background" : "/images/background.png",
+"Bloc1" : {
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-nigeria.png",
+    "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-25.png",
     "titre_bloc1" : "Fast and easy tool for",
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Your secure ID photo"
+        "texte_check_green": "Quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Your secure ID photo"
+        "texte_check_green": "and digital signatures."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -46,8 +56,8 @@
   },
 
   "kalSearch" : {
-    "titre_1" : "I need an ID photo for",
-    "titre_2" : "For the document",
+    "titre_1" : "I need a photo for this country ",
+    "titre_2" : "and this document",
     "bouton" : "Take the photo"
   },
 
@@ -118,8 +128,56 @@
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-nigeria-to-email.png"
       }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automated sizing and background removal.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/remove-background-passport-photo-nigeria.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/expert-check-passport-photo-nigeria-smartphone.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/printed-passport-photo-nigeria-delivery.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure-passport-photo-tool.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Take a photo with your smartphone.",
+        "titre_check": "Step 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-nigeria-smartphone.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-nigeria-order-print.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/expert-check-passport-photo-nigeria.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/receive-passport-photo-nigeria-smartphone-email.png"
+      }
     ]
-  },
+},
 
   "Bloc4": {
     "titre_bloc4_1": "More than",
@@ -226,7 +284,7 @@
       }
     ],
     "nos_partenaires": "Our partners",
-    "nos_medias": "Featured in the media"
+    "nos_medias": "Featured by"
   },
 
   "Bloc5": {
@@ -265,7 +323,7 @@
         "texteService": "Especially for babies, disabled people, expats, people in rural areas..."
       },
       {
-        "check": null,
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ecological",
         "texteService": "No more paper to waste if you need to renew your document online."
       }
@@ -322,9 +380,9 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1" : "The Solution",
-    "titre_bloc7_2" : "for Official Document Requests",
-    "titre_bloc7_span": "official document",
+    "titre_bloc7_1" : "Your online ",
+    "titre_bloc7_2" : "for official document applications",
+    "titre_bloc7_span": "solution",
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
@@ -342,8 +400,8 @@
   },
 
   "Bloc8": {
-    "titre_bloc8_1" : "How",
-    "titre_bloc8_2" : "to take your ID photo",
+    "titre_bloc8_1" : "How to take a ",
+    "titre_bloc8_2" : "passport photo",
     "titre_bloc8_span": "successful",
     "titre_encart": "Some tips",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
@@ -384,8 +442,8 @@
   },
 
   "Bloc9": {
-    "ID": "ID photo",
-    "ePhoto": "ePhoto Code",
+    "ID": "Nigerian Passport Photos",
+    "ePhoto": null,
     "codeEphoto": [
       {
         "texte_accordeon": null,
@@ -482,17 +540,56 @@
     "titre_bloc9_span": "Answers"
   },
 
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "Was this useful for you?",
+    "sousTitre" : "Click on stars to leave a rate.",
+    "personne" : "Average rating:",
+    "etoiles" : "stars out of 5"
+  },
+
+  "Bloc11" : {
+    "passeport" : "Passport",
+    "Link1" : "https://www.smartphone-id.com/en_NG/passport",
+    "permis" : "Driving Licence",
+    "Link2" : "https://www.smartphone-id.com/en_NG/driving-licence",
+    "cni" : "Identity Card",
+    "Link3" : "https://www.smartphone-id.com/en_NG/identity-card",
+    "séjour" : "Residency Permit",
+    "Link4" : "https://www.smartphone-id.com/en_NG/residency-permit",
+    "visa" : "Nigeria visa",
+    "Link5" : "https://www.smartphone-id.com/en_NG/nigeria-visa",
+    "vitale" : null,
+    "Link6" : null
+  },
+
   "Footer": {
-    "partie2-button": "Take the photo",
-    "partie2-p": "Find the latest information on identity documents and visas.",
+    "partie2-button": "Try now for free!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
     "SiteMapList-propos" : "About us",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
     "SiteMapList-contact" : "Contact",
-    "applis-h3": "Download the app",
-    "applis-p":  "Track your orders and enjoy even more features with the Smartphone iD app.",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
+    "applis-h3": "Download the app!",
+    "applis-p":  "Download Smartphone iD app to track your orders and enjoy even more passport photo features.",
+    "AppStore-link" : "https://apps.apple.com/us/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=en&gl=US",
+    "partie2-p": "Follow us and find out about the newest information regarding visas and other official documents.",
+    "partie2-p-link": "",
     "mentions-confidentialité": "Privacy Policy",
-    "mentions-cgu": "Terms of Use",
-    "mentions-légales": "Legal Notice"
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/"
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

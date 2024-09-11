@@ -1,149 +1,89 @@
-
 .kalDocument {
-    background: white;
-    padding: 80px 50px;
+    @apply bg-white md:my-[80px] md:mx-[20px];
 }
 
 .kalDocument > div {
-    max-width: 1140px;
-    margin: auto;
-    margin-bottom: 40px;
+    @apply md:max-w-[1140px] md:mx-auto md:mb-[40px];
 }
 
 .kalDocument > h2 {
-    color: #000;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px; /* 156.25% */
-    margin-bottom: 30px;
+    @apply text-black text-[32px] not-italic font-semibold leading-[50px] mb-[30px];
 }
 
 .highlight {
+    @apply inline-block;
     background-size: 100% 10px !important;
     background-position: left 28px;
     background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
-    display: inline-block;
     padding: 0 5px;
 }
 
 .selectDocument {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    @apply grid grid-cols-2 gap-2 md:flex md:gap-[20px] md:justify-center md:items-center md:flex-wrap;
+
 }
 
 .selectDocument > section {
-    width: 210px;
-    height: 240px;
-    padding: 25px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 2px solid #efefef;
-    transition: all 0.2s ease-out;
-    cursor: pointer;
+    @apply md:w-[210px] md:h-[240px] p-4 md:p-[25px] box-border rounded-md border-2 border-[#efefef] md:transition-all md:ease-out md:duration-200 md:cursor-pointer;
 }
 
 .selectDocument > section > div {
-    width: 150px;
-    height: 150px;
-    box-sizing: border-box;
-    margin: auto;
-    margin-bottom: 10px;
+    @apply w-[150px] h-[150px] mx-auto mb-[10px] box-border;
 }
 
 .selectDocument > section > div > img {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    object-fit: contain;
-}
-.selectDocument > section > p {
-    color: #000;
-    text-align: center;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px; /* 146.667% */
+    @apply w-full h-full object-contain m-0 box-border;
 }
 
-.kalDocument2 > :last-child > div {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.selectDocument > section > p {
+    @apply text-black text-center text-[15px] not-italic font-semibold leading-[22px];
 }
-.kalDocument2 > :last-child > div > div {
-    width: 80px;
-    height: 80px;
+
+.partenairesCard {
+    @apply flex flex-col gap-[15px];
 }
-.kalDocument2 > :last-child > div > div > img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
+
+.partenairesCardImage {
+    @apply w-[80px] h-[80px];
 }
-.kalDocument2 > :last-child > div > p {
-    color: #4c4c4c;
-    text-align: center;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; /* 169.231% */
+
+.partenairesImage {
+    @apply w-[80px] h-[80px] object-contain;
 }
-.kalDocument2 > :last-child {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-left: 20px;
-    margin: auto;
-    align-self: center;
-    height: fit-content;
+
+.partenairesCardImage > p {
+    @apply text-[#4c4c4c] text-center text-[13px] not-italic font-light leading-[22px];
 }
+
+.partenaires {
+    @apply flex flex-wrap gap-5 self-center h-fit;
+}
+
 .kalDocument2 {
-    min-height: 100px;
-    border-radius: 10px;
-    background: #efefef;
-    margin-top: 40px;
-    padding: 40px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+    @apply rounded-lg bg-[#efefef] m-8 md:my-[40px] md:p-[40px] grid grid-rows-2 items-center justify-items-center md:flex md:flex-row gap-[20px];
 }
-.kalDocument2 > :first-child {
-    position: relative;
-    margin-left: 20px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    max-width: 100%;
+
+.planchePhoto {
+    @apply relative md:ml-[20px] items-center flex flex-col gap-[10px] md:justify-center w-screen;
 }
-.kalDocument2 > :first-child > div > div {
-    position: absolute;
-    width: 4px;
-    height: 52px;
-    background: #2fc977;
-    left: -20px;
-    top: -10px;
+
+.planchePhoto > Image {
+    @apply justify-self-center;
 }
-.kalDocument2 > :first-child > div {
-    position: relative;
+
+/*.paragrapheBordure {
+    @apply absolute w-[4px] h-[52px] bg-[#2fc977] left-[-20px] top-[-10px];
+}*/
+
+.paragraphe {
+    @apply relative mx-10;
 }
-.kalDocument2 > :first-child > div > p {
-    color: #000;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; /* 146.667% */
+
+.paragraphe > p {
+    @apply text-black text-[15px] not-italic font-light leading-[22px] border-l-2 border-primary px-5;
 }
-.kalDocument2 > :first-child > h3 {
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+
+.planchePhoto > h3 {
+    @apply text-black text-[22px] not-italic font-semibold justify-self-center;
 }

@@ -10,7 +10,13 @@ const Bloc9Accordeon = ({ locale }) => {
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleAccordion = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
+        if (activeIndex === index) {
+            setActiveIndex(null);
+        } else {
+            setActiveIndex(index);
+            const element = document.querySelectorAll(`.${styles.answer}`)[index];
+            element.style.maxHeight = `${element.scrollHeight}px`;  // Ajuste la hauteur
+        }
     };
 
     const renderQuestions = (questions) => {
@@ -56,7 +62,7 @@ const Bloc9Accordeon = ({ locale }) => {
                         </svg>
                     </div>
                     <div className={`${styles.answer} ${activeIndex === index ? styles.active : ''}`}>
-                        <p dangerouslySetInnerHTML={{ __html: texte }}></p>
+                        <div dangerouslySetInnerHTML={{ __html: texte }}></div>
                     </div>
                 </div>
             );
@@ -111,7 +117,11 @@ const Bloc9Accordeon = ({ locale }) => {
                                     <path
                                         fillRule="evenodd"
                                         clipRule="evenodd"
-                                        d="M0.449607 0.468629C-0.149869 1.09347 -0.149869 2.10653 0.449607 2.73137L5.50437 8L0.449607 13.2686C-0.149869 13.8935 -0.149869 14.9065 0.449607 15.5314C1.04908 16.1562 2.02102 16.1562 2.6205 15.5314L9.18195 8.69231C9.55315 8.30541 9.55315 7.6946 9.18195 7.30769L2.6205 0.468629C2.02102 -0.15621 1.04908 -0.15621 0.449607 0.468629Z"
+                                        d="M0.449607 0.468629C-0.149869 1.09347 -0.149869 2.10653 0.449607 2.73137L5.50437
+                                        8L0.449607 13.2686C-0.149869 13.8935 -0.149869 14.9065 0.449607 15.5314C1.04908
+                                        16.1562 2.02102 16.1562 2.6205 15.5314L9.18195 8.69231C9.55315 8.30541 9.55315
+                                        7.6946 9.18195 7.30769L2.6205 0.468629C2.02102 -0.15621 1.04908 -0.15621
+                                        0.449607 0.468629Z"
                                         fill="currentColor"
                                     />
                                 </svg>

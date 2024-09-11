@@ -18,10 +18,7 @@ const Bloc6Documents = ({ locale }) => {
 
     return (
         <div className={styles.kalDocument}>
-            <h2>
-                {titre_bloc6_1}{" "}
-                <span className={styles.highlight}>{titre_bloc6_span}</span>
-                {titre_bloc6_2}
+            <h2> {titre_bloc6_1}{" "} <span className={styles.highlight}>{titre_bloc6_span}</span> {titre_bloc6_2}
             </h2>
 
             <div className={styles.selectDocument}>
@@ -54,32 +51,34 @@ const Bloc6Documents = ({ locale }) => {
 
                     return (
                         <React.Fragment key={index}>
-                            <div>
+                            <div className={styles.planchePhoto}>
                                 <Image
                                     src={item.planche_photo}
                                     alt=""
                                     width={120}
                                     height={80}
                                 />
-                                {item.impressionPhoto && <h3>{item.impressionPhoto}</h3>}
+                                {item.impressionPhoto &&
+                                    <h3>{item.impressionPhoto}</h3>}
                                 {item.paragraphe && (
-                                    <div>
+                                    <div className={styles.paragraphe}>
                                         <p>{item.paragraphe}</p>
-                                        <div></div>
+                                        {/*<div className={styles.paragrapheBordure}></div>*/}
                                     </div>
                                 )}
                             </div>
                             {item.partenaires?.length > 0 && (
-                                <section>
+                                <section className={styles.partenaires}>
                                     {item.partenaires.map((partenaire, partenaireIndex) => {
                                         const imgUrl = partenaire.img_partenaire;
                                         if (!imgUrl) {
                                             return null;
                                         }
                                         return (
-                                            <div key={partenaireIndex}>
-                                                <div>
+                                            <div className={styles.partenairesCard} key={partenaireIndex}>
+                                                <div className={styles.partenairesCardImage}>
                                                     <Image
+                                                        className={styles.partenairesImage}
                                                         src={imgUrl}
                                                         alt=""
                                                         width={80}

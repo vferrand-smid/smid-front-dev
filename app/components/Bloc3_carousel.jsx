@@ -163,6 +163,7 @@ const Carousel = ({ page, locale }) => {
 
 
                     {/* PARTIE DROITE / BAS */}
+                    <div className="flex justify-center items-center h-full w-full">
                     <div className={`${styles.right} md:block `}>
                         <div className={styles.benefits}>
                             {translations?.Bloc3?.repeteurCkeckBlack?.map((item, index) => (
@@ -187,6 +188,7 @@ const Carousel = ({ page, locale }) => {
                                 </div>
                             ))}
                         </div>
+                    </div>
                     </div>
 
                 </div>
