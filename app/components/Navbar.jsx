@@ -21,6 +21,8 @@ export default function Navbar({locale}) {
     const router = useRouter();
 
     return (
+        <header className="sticky top-0 z-50 bg-white h-14 shadow flex justify-center max-lg:h-28 max-lg:flex max-lg:flex-col" >
+
             <nav className="w-full flex">
 
                 <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between">
@@ -58,7 +60,7 @@ export default function Navbar({locale}) {
                     </div>
 
                     {/* Desktop Links */}
-                   <div className="hidden md:flex space-x-6 items-center">
+                   <div className="flex max-lg:hidden space-x-6 items-center">
                         {translations.NavBar?.liens.map((item, index) => (
                                 <Link key={index} href={item.url}
                                       target="_blank" className=' p-2 hover:text-green-500 transition'>{item.link}</Link>
@@ -67,7 +69,7 @@ export default function Navbar({locale}) {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="mobile-menu md:hidden flex items-center">
+                    <div className="mobile-menu hidden max-lg:flex items-center">
                         <button aria-label="toggle button" aria-expanded="false" id="menu-btn"
                                 className="btn-menu cursor-pointer inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
                                 onClick={toggleNavbar}>
@@ -113,5 +115,15 @@ export default function Navbar({locale}) {
                     )}
                 </div>
             </nav>
+            <div className="hidden max-lg:flex h-14 justify-center gap-5 p-1">
+    <a href="https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865" target="_blank" rel="noopener">
+        <img className="w-fit h-fit max-h-[90%]" src="https://www.smartphone-id.com/wp-content/uploads/2023/08/iOS-button-en-1-e1692887572561.png"/>
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.smartphoneid&amp;hl=fr&amp;gl=FR" target="_blank" rel="noopener">
+        <img className="w-fit h-fit max-h-[90%]" src="https://www.smartphone-id.com/wp-content/uploads/2023/08/button-android-en-e1692887647417.png" />
+    </a>
+            </div>
+
+            </header>
     );
 }
