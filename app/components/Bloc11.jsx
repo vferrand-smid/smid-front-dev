@@ -49,19 +49,23 @@ const Bloc11 = ({ page, locale }) => {
     return (
         <div className={styles.container}>
             <h4 className={styles.heading}>Trouvez vos réponses dans les pages correspondantes</h4>
-            <section className={styles.gridContainer}>
+            <section style={{display: 'flex',
+    gap: '16px',
+    flexWrap: 'wrap',
+    justifyContent: 'center'}}>
                 {links.map((link, index) => (
                     <a
                         key={index}
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={styles.card}
-                    >
+                        className=' w-[160px] h-[180px] p-6 pb-2 flex items-center flex-col gap-5 text-center text-sm font-semibold rounded hover:!text-green-500'
+                        style={{border:'2px solid #efefef'}}
+                        >
                         <div className={styles.iconContainer}>
                             <Image src={link.icon} alt={link.label} width={64} height={64} />
                         </div>
-                        <p className={styles.label}>{link.label}</p>
+                        <p >{link.label}</p>
                     </a>
                 ))}
             </section>
