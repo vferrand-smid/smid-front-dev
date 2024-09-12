@@ -135,7 +135,7 @@ export default function Footer() {
         // <ErrorBoundary>
         // <React.Suspense fallback={<div>Loading...</div>}>
         <div key={currentLocale} className="">
-            <div className="before-footer-wrap !h-auto max-md:!py-8">
+            <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0">
 
                 <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
 
