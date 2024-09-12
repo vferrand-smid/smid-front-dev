@@ -25,7 +25,7 @@ export default function Navbar({locale}) {
 
             <nav className="w-full flex">
 
-                <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between">
+                <div className="container mx-4 w-full max-w-full px-4 lg:px-8 flex items-center justify-between">
 
                     {/* Logo section */}
                     <div className="flex items-center ">
