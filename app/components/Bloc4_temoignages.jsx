@@ -62,14 +62,13 @@ const Bloc4Temoignages = ({ page, locale }) => {
             carousel.addEventListener("scroll", infiniteScroll);
         };
 
-        initializeCarousel();
+        setTimeout(initializeCarousel,2000)
     }, [temoignages]);
 
     useEffect(()=>{
-            const Mcarousel = document.querySelector(".kal-testimonials-media");
-        if(!Mcarousel) return
         const initializeCarousel=()=>{        
             const Mcarousel = document.querySelector(".kal-testimonials-media");
+            if(!Mcarousel) return
             const MarrowBtns = document.querySelectorAll(".kal-testimonials-media-btn");
             const MfirstCardWidth = () => Mcarousel.querySelector("section").offsetWidth;
           
@@ -127,15 +126,14 @@ const Bloc4Temoignages = ({ page, locale }) => {
             };
             Mcarousel.addEventListener("scroll", MinfiniteScroll);
         }
-        initializeCarousel()
+        setTimeout(initializeCarousel,2000)
 
     },[media])
 
     useEffect(()=>{
-        const Pcarousel = document.querySelector(".kal-testimonials-partner");
-        if(!Pcarousel) return
         const initializeCarousel=()=>{
             const Pcarousel = document.querySelector(".kal-testimonials-partner");
+            if(!Pcarousel) return
             const ParrowBtns = document.querySelectorAll(".kal-testimonials-partner-btn");
             const PfirstCardWidth = () => Pcarousel.querySelector("section").offsetWidth;
           
@@ -193,7 +191,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
             };
             Pcarousel.addEventListener("scroll", PinfiniteScroll);
         }
-        initializeCarousel()
+        setTimeout(initializeCarousel,2000)
     },[partenaires])
 
     if (loading) {

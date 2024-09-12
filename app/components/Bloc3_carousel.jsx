@@ -29,9 +29,9 @@ const Carousel = ({ page, locale }) => {
     };
 
     useEffect(()=>{
-        const carousel = document.querySelector(".kal-photo-carousel");
-        if(!carousel) return
         const initialize=()=>{
+          const carousel = document.querySelector(".kal-photo-carousel");
+          if(!carousel) return
             const content = document.querySelector(".kal-photo-carousel-content");
             const arrowBtns = document.querySelectorAll(".kal-photo-carousel-btn");
             const currentSelected = document.querySelectorAll(
@@ -86,7 +86,8 @@ const Carousel = ({ page, locale }) => {
             });
           
         }
-        initialize()
+        setTimeout(initialize,2000)
+
     },[translations])
 
     if (loading) return null;
