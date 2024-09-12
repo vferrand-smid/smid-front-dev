@@ -2080,7 +2080,7 @@ overflow-x: hidden;
 }
 
 .kal-hero {
-    background: var(--wpr-bg-8dcb6324-1cbc-46c0-8c9c-0bdf9e6688cb);
+    background: url('/images/Bloc1/background.png');
     background-color: white;
     padding: 80px 50px;
     object-fit: cover;
@@ -2491,4 +2491,17 @@ cursor: not-allowed; /* Curseur non autorisé lors du survol */
 p,
 h4 {
   margin: 0;
+}
+@media screen and (max-width: 1200px) {
+  .kal-hero > div > article > img {
+    width: 415px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .kal-hero > div > article > img {
+    width: 374px;
+    height: 450px;
+  }
 }
