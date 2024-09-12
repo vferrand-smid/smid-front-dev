@@ -134,10 +134,10 @@ export default function Footer() {
     return (
         // <ErrorBoundary>
         // <React.Suspense fallback={<div>Loading...</div>}>
-        <div key={currentLocale}>
-            <div className="before-footer-wrap">
+        <div key={currentLocale} className="">
+            <div className="before-footer-wrap !h-auto">
 
-                <div className="columns-3 grid grid-cols-3">
+                <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
 
                     <div className="column"></div>
 
@@ -180,10 +180,10 @@ export default function Footer() {
 
             </div>
 
-            <div className="partie2">
+            <div className="partie2 max-lg:text-center">
                 <div className="partie2-div">
-                    <main className="partie2-main">
-                        <div className="partie2-1">
+                    <main className="partie2-main max-lg:grid-cols-2 max-md:flex max-md:flex-col max-md:gap-5">
+                        <div className="partie2-1 max-lg:items-center max-lg:text-center">
                             <button className="partie2-button">{translations.Footer["partie2-button"]}</button>
                             <div className="kal-footer-social">
                                 <Link href={translations.Footer?.["Youtube-link"] || "#"} target="_blank">
@@ -221,10 +221,10 @@ export default function Footer() {
                             </Link>
                         </div>
 
-                        <div className="applis">
+                        <div className="applis max-lg:col-start-[-3] max-lg:col-end-[-1] max-lg:justify-center max-lg:items-center max-lg:mb-5">
                             <h3 className="applis-h3">{translations.Footer["applis-h3"]}</h3>
                             <p className="applis-p"> {translations.Footer["applis-p"]}</p>
-                            <div className="logoStore">
+                            <div className="logoStore max-md:flex-col">
                                 <div className="logoStore1">
                                     <Link href={translations.Footer["AppStore-link"] || "#"} target="_blank"
                                           aria-label="Page de téléchargement Apple Store">
@@ -270,7 +270,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </main>
-                    <aside className="adresses">
+                    <aside className="adresses max-md:flex-col max-md:gap-5 max-md:flex max-md:items-center max-md:text-center">
                         <div className="adresses-div">
                             <h3 className="adresses-h3">Smartphone iD FRANCE</h3>
                             <p className="adresses-p"> 38 rue Servan, <br/> 75011 Paris, France </p>
@@ -289,7 +289,7 @@ export default function Footer() {
                     </aside>
                 </div>
                 <aside className="aside"></aside>
-                <section className="mentions">
+                <section className="mentions max-lg:flex-col max-lg:items-center">
                     <p>© 2023 Smartphone iD</p>
                     <Link href={translations.Footer["mentions-confidentialité-link"] || "#"} aria-label="Politique de confidentialité"
                           target="_blank">{translations.Footer["mentions-confidentialité"]}</Link>

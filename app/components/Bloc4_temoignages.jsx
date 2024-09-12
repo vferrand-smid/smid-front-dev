@@ -65,6 +65,137 @@ const Bloc4Temoignages = ({ page, locale }) => {
         initializeCarousel();
     }, [temoignages]);
 
+    useEffect(()=>{
+            const Mcarousel = document.querySelector(".kal-testimonials-media");
+        if(!Mcarousel) return
+        const initializeCarousel=()=>{        
+            const Mcarousel = document.querySelector(".kal-testimonials-media");
+            const MarrowBtns = document.querySelectorAll(".kal-testimonials-media-btn");
+            const MfirstCardWidth = () => Mcarousel.querySelector("section").offsetWidth;
+          
+            let McardPerView = Math.round(Mcarousel.offsetWidth / MfirstCardWidth());
+          
+            const McarouselChildrens = [...Mcarousel.children];
+            // Insert copies of the last few cards to beginning of carousel for infinite scrolling
+            McarouselChildrens.slice(-McardPerView)
+              .reverse()
+              .forEach((card) => {
+                Mcarousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+              });
+          
+            // Insert copies of the first few cards to end of carousel for infinite scrolling
+            McarouselChildrens.slice(0, McardPerView).forEach((card) => {
+              Mcarousel.insertAdjacentHTML("beforeend", card.outerHTML);
+            });
+            let MtimeoutId = setInterval(() => {
+              Mcarousel.scrollLeft += MfirstCardWidth();
+            }, 2500);
+          
+            MarrowBtns.forEach((btn) => {
+              btn.addEventListener("click", () => {
+                Mcarousel.scrollLeft +=
+                  btn.id == "left" ? -MfirstCardWidth() : MfirstCardWidth();
+          
+                clearInterval(MtimeoutId);
+                MtimeoutId = setInterval(() => {
+                  Mcarousel.scrollLeft += MfirstCardWidth();
+                }, 2500);
+              });
+            });
+            const MinfiniteScroll = () => {
+              // If the Mcarousel is at the beginning, scroll to the end
+              if (Mcarousel.scrollLeft === 0) {
+                Mcarousel.classList.add("no-transition");
+                Mcarousel.scrollLeft = Mcarousel.scrollWidth - 2 * Mcarousel.offsetWidth;
+                Mcarousel.classList.remove("no-transition");
+              }
+              // If the Mcarousel is at the end, scroll to the beginning
+              else if (
+                Math.ceil(Mcarousel.scrollLeft) ===
+                Mcarousel.scrollWidth - Mcarousel.offsetWidth
+              ) {
+                Mcarousel.classList.add("no-transition");
+                Mcarousel.scrollLeft = Mcarousel.offsetWidth;
+                Mcarousel.classList.remove("no-transition");
+              }
+          
+              // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+              clearInterval(MtimeoutId);
+              MtimeoutId = setInterval(() => {
+                Mcarousel.scrollLeft += MfirstCardWidth();
+              }, 2500);
+            };
+            Mcarousel.addEventListener("scroll", MinfiniteScroll);
+        }
+        initializeCarousel()
+
+    },[media])
+
+    useEffect(()=>{
+        const Pcarousel = document.querySelector(".kal-testimonials-partner");
+        if(!Pcarousel) return
+        const initializeCarousel=()=>{
+            const Pcarousel = document.querySelector(".kal-testimonials-partner");
+            const ParrowBtns = document.querySelectorAll(".kal-testimonials-partner-btn");
+            const PfirstCardWidth = () => Pcarousel.querySelector("section").offsetWidth;
+          
+            let PcardPerView = Math.round(Pcarousel.offsetWidth / PfirstCardWidth());
+          
+            const PcarouselChildrens = [...Pcarousel.children];
+            // Insert copies of the last few cards to beginning of carousel for infinite scrolling
+            PcarouselChildrens.slice(-PcardPerView)
+              .reverse()
+              .forEach((card) => {
+                Pcarousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+              });
+          
+            // Insert copies of the first few cards to end of carousel for infinite scrolling
+            PcarouselChildrens.slice(0, PcardPerView).forEach((card) => {
+              Pcarousel.insertAdjacentHTML("beforeend", card.outerHTML);
+            });
+            let PtimeoutId = setInterval(() => {
+              Pcarousel.scrollLeft += PfirstCardWidth();
+            }, 2500);
+          
+            ParrowBtns.forEach((btn) => {
+              btn.addEventListener("click", () => {
+                Pcarousel.scrollLeft +=
+                  btn.id == "left" ? -PfirstCardWidth() : PfirstCardWidth();
+          
+                clearInterval(PtimeoutId);
+                PtimeoutId = setInterval(() => {
+                  Pcarousel.scrollLeft += PfirstCardWidth();
+                }, 2500);
+              });
+            });
+            const PinfiniteScroll = () => {
+              // If the Pcarousel is at the beginning, scroll to the end
+              if (Pcarousel.scrollLeft === 0) {
+                Pcarousel.classList.add("no-transition");
+                Pcarousel.scrollLeft = Pcarousel.scrollWidth - 2 * Pcarousel.offsetWidth;
+                Pcarousel.classList.remove("no-transition");
+              }
+              // If the Pcarousel is at the end, scroll to the beginning
+              else if (
+                Math.ceil(Pcarousel.scrollLeft) ===
+                Pcarousel.scrollWidth - Pcarousel.offsetWidth
+              ) {
+                Pcarousel.classList.add("no-transition");
+                Pcarousel.scrollLeft = Pcarousel.offsetWidth;
+                Pcarousel.classList.remove("no-transition");
+              }
+          
+              // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+              clearInterval(PtimeoutId);
+              PtimeoutId = setInterval(() => {
+                Pcarousel.scrollLeft += PfirstCardWidth();
+              }, 2500);
+            };
+            Pcarousel.addEventListener("scroll", PinfiniteScroll);
+        }
+        initializeCarousel()
+    },[partenaires])
+
     if (loading) {
         return <div>Loading...</div>; // or any loading indicator you prefer
     }
@@ -200,7 +331,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                     <div className="kal-testimonials-media">
                         {translations.Bloc4.media.map((mediaItem, index) => (
                             mediaItem.img && mediaItem.text && ( // Affiche uniquement si les deux champs sont remplis
-                                <div key={index}>
+                                <section key={index}>
                                     <Image
                                         width={500}
                                         height={500}
@@ -208,7 +339,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                                         alt={mediaItem.text}
                                     />
                                     <p>{mediaItem.text}</p>
-                                </div>
+                                </section>
                             )
                         ))}
                     </div>
@@ -234,6 +365,22 @@ const Bloc4Temoignages = ({ page, locale }) => {
                         />
                     </svg>
                 </nav>
+                
+                <div style={{display:'none'}}>
+      <nav class="kal-testimonials-media-btn" id="left">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.8 31.5L11.2 31.5C5.30019 31.5 0.5 26.6983 0.500001 20.8L0.500002 11.2C0.500002 5.30169 5.30019 0.499998 11.2 0.499998L20.8 0.499999C26.6998 0.5 31.5 5.3017 31.5 11.2L31.5 20.8C31.5 26.6983 26.6998 31.5 20.8 31.5Z" fill="white" stroke="black"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M18.6347 21.6192C19.1218 21.1116 19.1218 20.2884 18.6347 19.7808L14.5277 15.5L18.6347 11.2192C19.1218 10.7116 19.1218 9.88844 18.6347 9.38076C18.1476 8.87308 17.3579 8.87308 16.8708 9.38076L11.6642 14.8077C11.293 15.1946 11.293 15.8054 11.6642 16.1923L16.8708 21.6192C17.3579 22.1269 18.1476 22.1269 18.6347 21.6192Z" fill="black"></path>
+        </svg>
+      </nav>
+      <nav class="kal-testimonials-media-btn" id="right">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.2 0.5H20.8C26.6998 0.5 31.5 5.3017 31.5 11.2V20.8C31.5 26.6983 26.6998 31.5 20.8 31.5H11.2C5.30019 31.5 0.5 26.6983 0.5 20.8V11.2C0.5 5.3017 5.30019 0.5 11.2 0.5Z" fill="white" stroke="black"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3653 10.3808C12.8782 10.8884 12.8782 11.7116 13.3653 12.2192L17.4723 16.5L13.3653 20.7808C12.8782 21.2884 12.8782 22.1116 13.3653 22.6192C13.8524 23.1269 14.6421 23.1269 15.1292 22.6192L20.3358 17.1923C20.707 16.8054 20.707 16.1946 20.3358 15.8077L15.1292 10.3808C14.6421 9.87308 13.8524 9.87308 13.3653 10.3808Z" fill="black"></path>
+        </svg>
+      </nav>
+    </div>
+
                 </div>
             )}
 
@@ -265,7 +412,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                 <div className="kal-testimonials-partner ">
                     {translations.Bloc4.partenaires?.map((partenaire, index) => (
 
-                        <div key={index} className="flex justify-center items-center">
+                        <section key={index} className="flex justify-center items-center">
                             <Image
                                 width={500}
                                 height={500}
@@ -273,7 +420,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                                 alt={partenaire.text}
                                 className="object-contain"
                             />
-                        </div>
+                        </section>
 
                     ))}
                 </div>
@@ -298,6 +445,21 @@ const Bloc4Temoignages = ({ page, locale }) => {
                         />
                     </svg>
                 </nav>
+
+                <div style={{display:'none'}}>
+      <nav class="kal-testimonials-partner-btn" id="left">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.8 31.5L11.2 31.5C5.30019 31.5 0.5 26.6983 0.500001 20.8L0.500002 11.2C0.500002 5.30169 5.30019 0.499998 11.2 0.499998L20.8 0.499999C26.6998 0.5 31.5 5.3017 31.5 11.2L31.5 20.8C31.5 26.6983 26.6998 31.5 20.8 31.5Z" fill="white" stroke="black"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M18.6347 21.6192C19.1218 21.1116 19.1218 20.2884 18.6347 19.7808L14.5277 15.5L18.6347 11.2192C19.1218 10.7116 19.1218 9.88844 18.6347 9.38076C18.1476 8.87308 17.3579 8.87308 16.8708 9.38076L11.6642 14.8077C11.293 15.1946 11.293 15.8054 11.6642 16.1923L16.8708 21.6192C17.3579 22.1269 18.1476 22.1269 18.6347 21.6192Z" fill="black"></path>
+        </svg>
+      </nav>
+      <nav class="kal-testimonials-partner-btn" id="right">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.2 0.5H20.8C26.6998 0.5 31.5 5.3017 31.5 11.2V20.8C31.5 26.6983 26.6998 31.5 20.8 31.5H11.2C5.30019 31.5 0.5 26.6983 0.5 20.8V11.2C0.5 5.3017 5.30019 0.5 11.2 0.5Z" fill="white" stroke="black"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3653 10.3808C12.8782 10.8884 12.8782 11.7116 13.3653 12.2192L17.4723 16.5L13.3653 20.7808C12.8782 21.2884 12.8782 22.1116 13.3653 22.6192C13.8524 23.1269 14.6421 23.1269 15.1292 22.6192L20.3358 17.1923C20.707 16.8054 20.707 16.1946 20.3358 15.8077L15.1292 10.3808C14.6421 9.87308 13.8524 9.87308 13.3653 10.3808Z" fill="black"></path>
+        </svg>
+      </nav>
+    </div>
 
             </div>
         </div>

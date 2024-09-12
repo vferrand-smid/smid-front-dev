@@ -21,7 +21,7 @@ export default function Navbar({locale}) {
     const router = useRouter();
 
     return (
-            <nav className="w-full bg-white z-50 top-0 shadow">
+            <nav className="w-full flex">
 
                 <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between">
 

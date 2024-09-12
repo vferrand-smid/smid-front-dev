@@ -20,7 +20,7 @@ export default function RootLayout({children}) {
 
             <main>
 
-                <header>
+                <header className="sticky top-0 z-50 bg-white h-14 shadow flex justify-center" >
                 <Navbar/>
                 </header>
 

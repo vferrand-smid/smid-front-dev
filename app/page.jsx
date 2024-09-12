@@ -109,9 +109,6 @@ const PageList = () => {
                         <section className="bloc9">
                             <Bloc9Accordeon page={page}/>
                         </section>
-                        <section className="bloc10">
-                            <Bloc10 page={page}/>
-                        </section>
                         <section className="bloc11">
                             <Bloc11 page={page}/>
                         </section>

@@ -14,8 +14,7 @@ const Bloc9Accordeon = ({ locale }) => {
             setActiveIndex(null);
         } else {
             setActiveIndex(index);
-            const element = document.querySelectorAll(`.${styles.answer}`)[index];
-            element.style.maxHeight = `${element.scrollHeight}px`;  // Ajuste la hauteur
+
         }
     };
 
@@ -32,8 +31,8 @@ const Bloc9Accordeon = ({ locale }) => {
                 return null;
             }
             return (
-                <div key={index} className={styles.questionContainer}>
-                    <div className={styles.question} onClick={() => toggleAccordion(index)}>
+                <div key={index}>
+                    <main className={activeIndex===index &&"kal-accordion-item-active"} onClick={() => toggleAccordion(index)}>
                         <p>{titre}</p>
                         <svg
                             width="16"
@@ -60,10 +59,9 @@ const Bloc9Accordeon = ({ locale }) => {
                                 strokeLinecap="round"
                             />
                         </svg>
-                    </div>
-                    <div className={`${styles.answer} ${activeIndex === index ? styles.active : ''}`}>
-                        <div dangerouslySetInnerHTML={{ __html: texte }}></div>
-                    </div>
+                    </main>
+                    <aside className={activeIndex===index &&"kal-accordion-item-active-aside"} dangerouslySetInnerHTML={{ __html: texte }}>
+                    </aside>
                 </div>
             );
         }).filter(question => question !== null);
@@ -91,7 +89,7 @@ const Bloc9Accordeon = ({ locale }) => {
     ].filter(tab => tab.content !== null && tab.content.length > 0);
 
     return (
-        <div className={styles.accordion}>
+        <div className='kal-accordion'>
             <div>
                 <h3>
                     <span className={styles.highlight}>{translations.Bloc9.titre_bloc9_span}</span>
@@ -128,7 +126,7 @@ const Bloc9Accordeon = ({ locale }) => {
                             </div>
                         ))}
                     </div>
-                    <div className={styles.tabContent}>
+                    <div className='kal-accordion-render'>
                         {tabs.length > 0 ? tabs[activeTab].content : <p>No content available</p>}
                     </div>
                 </div>
