@@ -135,14 +135,14 @@ export default function Footer() {
         // <ErrorBoundary>
         // <React.Suspense fallback={<div>Loading...</div>}>
         <div key={currentLocale} className="">
-            <div className="before-footer-wrap !h-auto">
+            <div className="before-footer-wrap !h-auto max-md:!py-8">
 
                 <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
 
                     <div className="column"></div>
 
                     <div className="footerLogo column">
-                        <Link className="p-2 flex justify-center" href="#"
+                        <Link className="p-2 flex justify-center m-auto" href="#"
                               aria-label="Page d'accueil du site">
                             <Image
                                 src={FooterLogo}
@@ -156,17 +156,17 @@ export default function Footer() {
                     </div>
 
                     <div className="menuLangue column">
-                        <button className="menuLangue-button" onClick={() => setIsOpen(!isOpen)}>
+                        <button className="menuLangue-button w-9/12 max-w-md max-lg:m-auto" onClick={() => setIsOpen(!isOpen)}>
                             <Image width={100}
                                    height={1000} src={flags[currentLocale]} alt={currentLocale}/>
                             {localeToCountry[currentLocale]}
                         </button>
                         {isOpen && (
-                            <ul className="" ref={dropdownRef}>
+                            <ul className="max-h-60 overflow-auto" ref={dropdownRef}>
                                 {Object.entries(flags).map(([locale, flagSrc]) => (
-                                    <li key={locale} onClick={() => changeLanguage(locale)}>
+                                    <li className="flex gap-4 hover:bg-slate-200 p-2 rounded cursor-pointer" key={locale} onClick={() => changeLanguage(locale)}>
                                         <Image
-                                            height={100}
+                                            height={60}
                                             width={100}
                                             src={flagSrc} alt={localeToCountry[locale]}/>
                                         {localeToCountry[locale]}
@@ -200,7 +200,7 @@ export default function Footer() {
                                 </Link>
                             </div>
 
-                            <p className="partie2-p">{translations.Footer["partie2-p"]}</p>
+                            <p className="partie2-p max-lg:text-center">{translations.Footer["partie2-p"]}</p>
                         </div>
                         <div className="SiteMapList">
                             <Link className="SiteMapList-a" href={translations.Footer?.["blog-link"] || "#"}
@@ -223,15 +223,16 @@ export default function Footer() {
 
                         <div className="applis max-lg:col-start-[-3] max-lg:col-end-[-1] max-lg:justify-center max-lg:items-center max-lg:mb-5">
                             <h3 className="applis-h3">{translations.Footer["applis-h3"]}</h3>
-                            <p className="applis-p"> {translations.Footer["applis-p"]}</p>
+                            <p className="applis-p max-lg:!text-center"> {translations.Footer["applis-p"]}</p>
                             <div className="logoStore max-md:flex-col">
-                                <div className="logoStore1">
+                                <div className="logoStore1 !gap-2">
                                     <Link href={translations.Footer["AppStore-link"] || "#"} target="_blank"
                                           aria-label="Page de téléchargement Apple Store">
                                         <Image
                                             src={AppStore}
                                             alt=""
-                                            width={200}
+                                            width={150}
+                                            height={150}
                                             aria-hidden="true"
                                         />
                                     </Link>
@@ -240,19 +241,21 @@ export default function Footer() {
                                         <Image
                                             src={PlayStore}
                                             alt=""
-                                            width={200}
+                                            width={150}
+                                            height={150}
                                             aria-hidden="true"
                                         />
                                     </Link>
                                 </div>
-                                <div className="logoStore2">
+                                <div className="logoStore2 max-lg:hidden">
                                     <Link href={translations.Footer["AppStore-link"] || "#"} target="_blank"
                                           aria-label="Page de téléchargement Apple Store">
                                         <Image
                                             className="logoStore2.img"
                                             src={QRcodeApple}
                                             alt=""
-                                            width={100}
+                                            width={110}
+                                            height={110}
                                             aria-hidden="true"
                                         />
                                     </Link>
@@ -262,7 +265,8 @@ export default function Footer() {
                                             className="logoStore2.img"
                                             src={QRcodeGoogle}
                                             alt=""
-                                            width={100}
+                                            width={110}
+                                            height={110}
                                             aria-hidden="true"
                                         />
                                     </Link>

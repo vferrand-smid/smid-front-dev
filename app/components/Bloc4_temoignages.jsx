@@ -205,7 +205,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
 
     return (
         <div className={`${styles.kalTestimonials}`}>
-            <h2>
+            <h2 className='mb-10'>
                 {translations.Bloc4.titre_bloc4_1}
                 <span className="highlight" >{translations.Bloc4.titre_bloc4_span}</span>
                 {translations.Bloc4.titre_bloc4_2}
@@ -304,7 +304,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
 
             {translations.Bloc4.media?.some(mediaItem => mediaItem.img && mediaItem.text) && (
                 <div className="kal-testimonials-media-wrapper">
-                    <h3>{translations?.Bloc4?.nos_medias}</h3>
+                    <h3 className='!self-baseline'>{translations?.Bloc4?.nos_medias}</h3>
                     <nav className="kal-testimonials-media-btn" id="left">
                     <svg
                         width="32"
@@ -385,7 +385,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
 
 
             <div className="kal-testimonials-partner-wrapper">
-                <h3> {translations.Bloc4.nos_partenaires}</h3>
+                <h3 className='!self-baseline'> {translations.Bloc4.nos_partenaires}</h3>
                 <nav className="kal-testimonials-partner-btn" id="left">
                     <svg
                         width="32"

@@ -36,13 +36,13 @@ const Bloc8Tuto = ({ locale }) => {
                                     />
                                     <p>
                                         <span className="number">0{item.chiffre}.</span> {item.texte}
-                                        <strong>{item.texte_span}</strong>
+                                        <strong className='!inline ml-1'>{item.texte_span}</strong>
                                     </p>
                                 </div>
                             ))}
                         </div>
-                        <a href={bouton_plus?.url} className="kal-tuto-button">{bouton_plus?.title}</a>
-                        <a className="tuto-link" href={lienBebe?.url}>
+                        <a href={bouton_plus?.url} className="kal-tuto-button hover:text-green-500 transition">{bouton_plus?.title}</a>
+                        <a className="tuto-link hover:text-green-500 transition" href={lienBebe?.url}>
                             <p style={{textAlign: 'center'}}>
                                 {lienBebe?.title}
                             </p>

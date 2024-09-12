@@ -557,7 +557,7 @@ footer {
 
 .menuLangue-button {
     @apply bg-white static rounded-md text-black items-center cursor-pointer
-    flex justify-start px-3 py-2 w-[380px];
+    flex justify-start px-3 py-2;
 }
 
 .menuLangue ul {
@@ -736,10 +736,10 @@ overflow-x: hidden;
     border: none;
   }
   .kal-service-list {
-    height: 400px;
+    /* height: 400px; */
     width: 60%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     gap: 30px;
   }
