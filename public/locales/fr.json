@@ -1,17 +1,27 @@
 {
   "NavBar": {
-    "link_1" : "Permis de conduire",
-    "url_1" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_2" : "Passeport",
-    "url_2" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_3" : "Carte National d'identité",
-    "url_3" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_4" : "Titre de séjour",
-    "url_4" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_5" : "Visa",
-    "url_5" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_6" : "Carte vitale",
-    "url_6" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+    "liens": [
+      {
+        "link" : "Permis de conduire",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Passeport",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Carte National d'identité",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Titre de séjour",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Carte vitale",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      }
+    ]
   },
 
   "Bloc1" : {
@@ -22,11 +32,11 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Résultat immédiat garanti"
+        "texte_check_green": "Votre photo d’identité sécurisée"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Contrôlé par des experts"
+        "texte_check_green": "Votre signature avec la code ephoto"
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -80,7 +90,7 @@
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Suivant le document officiel, signez avec votre doigt.",
-        "imageCkeckBlack": "/images/Bloc3/fr-FR/faire-signature-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/faire-signature-photo-identite.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
@@ -175,9 +185,9 @@
   },
 
   "Bloc4": {
-    "titre_bloc4_1": "Depuis 2017,",
+    "titre_bloc4_1": "Depuis 2017, ",
     "titre_bloc4_2": "de photos d’identité conformes réalisées",
-    "titre_bloc4_span": "plus d’1 million",
+    "titre_bloc4_span": "plus d’1 million ",
     "partenaires": [
       {
         "text": "Zebra",
@@ -568,29 +578,30 @@
 
   "Footer": {
     "partie2-button": "Faire la photo",
-    "Youtube-link": "",
-    "Facebook-link": "",
-    "Instagram-link": "",
-    "LinkedIn-link": "",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-blog" : "Blog",
     "blog-link" : "",
     "SiteMapList-propos" : "À propos de nous",
-    "propos-link" : "",
+    "propos-link" : "https://www.smartphone-id.com/a-propos-de-nous/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "",
+    "faq-link" : "https://www.smartphone-id.com/faq/",
     "SiteMapList-contact" : "Contact",
-    "contact-link" : "",
+    "contact-link" : "https://www.smartphone-id.com/contact/",
     "applis-h3": "Téléchargez l’application",
     "applis-p":  "Suivez vos commandes et profitez d’encore plus de fonctionnalités avec l’application Smartphone iD.",
-    "AppStore-link" : "",
-    "PlayStore-link" : "",
+    "AppStore-link" : "https://www.smartphone-id.com/",
+    "PlayStore-link" : "https://www.smartphone-id.com/",
     "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
-    "partie2-p-link": "",
     "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-confidentialité-link": "",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d’utilisation",
-    "mentions-cgu-link": "",
+    "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
     "mentions-légales": "Mentions légales",
-    "mentions-légales-link": ""
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/cookies/"
   }
 }

@@ -1,53 +1,66 @@
 {
   "NavBar": {
-    "link_1": "Permis de conduire",
-    "url_1": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_2": "Passeport",
-    "url_2": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_3": "Carte d'identité",
-    "url_3": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_4": "Titre de séjour",
-    "url_4": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_5": "Visa",
-    "url_5": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_6": "Kids-ID",
-    "url_6": "https://www.smartphone-id.com/photos-identite-en-ligne/"
+    "liens": [
+      {
+        "link" : "Permis de conduire",
+        "url" : "https://www.smartphone-id.com/fr_BE/photo-passeport/"
+      },
+      {
+        "link" : "Passeport",
+        "url" : "https://www.smartphone-id.com/fr_BE/photo-permis-de-conduire"
+      },
+      {
+        "link" : "Carte d'identité",
+        "url" : "https://www.smartphone-id.com/fr_BE/photo-carte-identite"
+      },
+      {
+        "link" : "Titre de séjour",
+        "url" : "https://www.smartphone-id.com/fr_BE/photo-titre-sejour"
+      },
+      {
+        "link" : "Visa",
+        "url" : "https://www.smartphone-id.com/fr_BE/photo-visa"
+      }
+    ]
   },
+
   "Bloc1": {
     "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-didentite-en-ligne-pour-Belgique.png",
     "background": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-15.png",
-    "titre_bloc1": "Outil rapide et facile pour ",
+    "titre_bloc1" : "Outil rapide et facile pour",
     "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez-le maintenant !",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Votre photo d’identité sécurisée"
+        "texte_check_green": "les photos d'identité de qualité"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Votre photo d’identité sécurisée"
+        "texte_check_green": "et les signatures numériques"
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Résultat immédiat garanti"
+        "texte_check_white": "Vérification par des experts"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Contrôlé par des experts"
+        "texte_check_white": "Édition immédiate par IA"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Essai gratuit"
+        "texte_check_white": "Acceptation gouvernementale"
       }
     ]
   },
+
   "kalSearch": {
     "titre_1": "J’ai besoin d’une photo d’identité pour",
     "titre_2": "Pour le document",
     "bouton": "Faire la photo"
   },
+
   "Bloc2": {
     "repeteur1": [
       {
@@ -114,8 +127,58 @@
         "titre_check": "Etape 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-4-sur-ordinateur.png"
       }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Formatage-automatique-photo-d-identite-belgique.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Controle-expert-de-la-photo-d-identite-belgique.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Impression-et-livraison-photo-d-identite-belgique.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Aucune information personnelle nécessaire, votre photo est stockée en toute sécurité.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Photo-d-identite-belgique-stockee-en-toute-securite.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
+        "titre_check": "Etape 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-1-sur-mobile.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
+        "titre_check": "Etape 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-2-sur-mobile.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Vérifiez les caractéristiques de votre demande.",
+        "titre_check": "Etape 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-3-sur-mobile.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
+        "titre_check": "Etape 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-4-sur-mobile.png"
+      }
     ]
+
   },
+
   "Bloc4": {
     "titre_bloc4_1": "Depuis 2017, ",
     "titre_bloc4_2": "de photos d’identité conformes réalisées",
@@ -221,8 +284,9 @@
       }
     ],
     "nos_partenaires": "Nos partenaires",
-    "nos_medias": null
+    "nos_medias": "Présents dans les médias"
   },
+
   "Bloc5": {
     "titre_bloc5_1": "Pourquoi choisir",
     "titre_bloc5_span": "notre service ?",
@@ -265,6 +329,7 @@
       }
     ]
   },
+
   "Bloc6": {
     "bloc_photo": [
       {
@@ -276,56 +341,32 @@
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
           },
           {
-            "nom_partenaire": null,
-            "img_partenaire": null
+            "nom_partenaire": "aps",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/aps-1.png"
           },
           {
-            "nom_partenaire": null,
-            "img_partenaire": null
+            "nom_partenaire": "grobet",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/grobet-1.png"
           },
           {
-            "nom_partenaire": null,
-            "img_partenaire": null
+            "nom_partenaire": "Laboriver",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Laboriver-1.png"
           },
           {
-            "nom_partenaire": null,
-            "img_partenaire": null
+            "nom_partenaire": "Les Annees Lumiere",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Les-Annees-Lumiere-1.png"
           },
           {
-            "nom_partenaire": null,
-            "img_partenaire": null
-          },
-          {
-            "nom_partenaire": null,
-            "img_partenaire": null
-          },
-          {
-            "nom_partenaire": null,
-            "img_partenaire": null
-          },
-          {
-            "nom_partenaire": null,
-            "img_partenaire": null
-          },
-          {
-            "nom_partenaire": null,
-            "img_partenaire": null
-          },
-          {
-            "nom_partenaire": null,
-            "img_partenaire": null
-          },
-          {
-            "nom_partenaire": null,
-            "img_partenaire": null
+            "nom_partenaire": "Studio Francine",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/StudioFrancine-2-1.png"
           }
         ],
         "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/planche-de-photo-d-identite-belgique-imprimee.png"
       }
     ],
-    "titre_bloc6_1": null,
-    "titre_bloc6_2": null,
-    "titre_bloc6_span": null,
+    "titre_bloc6_1": "Le",
+    "titre_bloc6_2": "photo, pour tous vos documents officiels",
+    "titre_bloc6_span": "bon format",
     "documents": [
       {
         "titre_doc": "Passeport",
@@ -346,13 +387,10 @@
       {
         "titre_doc": "Visa",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Visa-13.png"
-      },
-      {
-        "titre_doc": null,
-        "img_doc": null
       }
     ]
   },
+
   "Bloc7": {
     "titre_bloc7_1" : "La solution",
     "titre_bloc7_2" : "pour les demandes de documents officiels",
@@ -372,6 +410,7 @@
       }
     ]
   },
+
   "Bloc8": {
     "titre_bloc8_1" : "Comment",
     "titre_bloc8_2" : "sa photo d'identité",
@@ -413,7 +452,10 @@
       "title": "Comment faire une photo d'identité de votre bébé ?"
     }
   },
+
   "Bloc9": {
+    "ID": "Photos d'identité Belge",
+    "ePhoto": "",
     "codeEphoto": [
       {
         "texte_accordeon": null,
@@ -450,91 +492,102 @@
     ],
     "photo_didentite": [
       {
+        "texteAccordeon": "<p>Cela dépend du type de document. Les documents officiels utilisés pour la lecture biométrique automatique (passeports électroniques, visas, cartes d'identité) n'autorisent pas le sourire car il est plus difficile de lire les données biométriques à partir du scan. Les documents d'identité plus informels comme une carte d'étudiant ou un titre de transport peuvent en revanche accepter une photo souriante. Si vous n'êtes pas sûr des exigences, utilisez le service Smartphone ID qui vous fournira une photo contrôlée conforme aux exigences du document choisi</p>\n",
+        "titre_accordeon": "Peut-on sourire sur une photo d'identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Des couleurs vives qui contrastent avec l'arrière-plan sont adaptées pour une photo d'identité. Étant donné que l'arrière-plan doit être clair, les couleurs sombres sont avantageuses pour augmenter le contraste. Assurez-vous également que votre chemise ne laisse pas trop de peau apparente, car les photos sans chemise sont interdites. Enfin, les uniformes de toute nature sont également interdits sur une photo d'identité biométrique.</p>\n",
+        "titre_accordeon": "Que porter pour une photo d'identité ?"
+      },
+      {
         "texteAccordeon": "<p>Les photos d'identité doivent respecter la norme ISO/IEC 19794-5:2005.</p>\n<p>La taille de la photo d'identité doit être de 35×45 mm.</p>\n<p>Liste des points principaux à respecter :</p>\n<ul>\n<li>Ne porter aucun accessoire sur les cheveux (couvre-chefs, attaches visibles).</li>\n<li>Adopter une expression neutre, bouche fermée. Pas de sourire.</li>\n<li>L'ensemble du visage doit être visible (yeux, sourcils, oreilles, cou).</li>\n<li>Pour les cheveux longs, les placer derrière les épaules.</li>\n<li>Ne pas porter de lunettes, sauf avec une attestation médicale spécifique.</li>\n</ul>\n<p>Simplifiez-vous la vie, Smartphone iD se charge de vérifier l'ensemble de ces points pour vous et vous garantit de présenter une photo d'identité valide. Plus de risque de voir sa demande rejetée par l'administration.</p>\n<p>&nbsp;</p>\n",
-        "titre_accordeon": "Quelles sont les normes pour les photos d’identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Quelles sont les normes pour les photos d’identité ?"
       },
       {
         "texteAccordeon": "<p class=\"first-token\" data-sourcepos=\"1:1-1:84\">Le prix d'une photo d'identité en Belgique varie en fonction de la méthode choisie :</p>\n<ul data-sourcepos=\"3:1-3:47\">\n<li data-sourcepos=\"3:1-3:47\"><strong>Studio photo professionnel :</strong> Entre 15 et 20 € pour un jeu de photos d'identité.</li>\n<li data-sourcepos=\"4:1-4:57\"><strong>Photomaton :</strong> Entre 6 et 8 € pour un jeu de photos d'identité</li>\n</ul>\n<ul>\n<li>Smartphone iD : L'option la plus économique</li>\n</ul>\n<p>Smartphone iD applique le prix le plus bas du marché avec la garantie la plus haute. Pour moins de 7€, obtenez des photos d'identité certifiées conformes.</p>\n",
-        "titre_accordeon": "Combien coûte une photo d’identité en Belgique ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Combien coûte une photo d’identité en Belgique ?"
       },
       {
         "texteAccordeon": "<p>Une photo d'identité doit être faite auprès d'un professionnel agréé, sinon elle ne sera pas acceptée par l'administration.</p>\n<p>Plusieurs solutions s'offrent à vous :</p>\n<ul>\n<li>Rester chez vous et utiliser l'application Smartphone iD, fournisseur certifié de photos d'identité.</li>\n<li>Vous déplacer chez un photographe habilité ou dans une photo-cabine certifiée.</li>\n</ul>\n<p>Avec Smartphone iD, faire une photo d'identité devient un jeu d'enfant. Plus besoin de se déplacer, faites votre photo sur votre smartphone au moment que vous convient. Nous nous occupons de mettre votre photo aux normes et vous la recevez directement dans votre boîte mail.</p>\n",
-        "titre_accordeon": "Comment faire une photo d’identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Comment faire une photo d’identité ?"
       },
       {
         "texteAccordeon": "<p>La photo doit être faite, soit :</p>\n<ul>\n<li>Sur une application mobile utilisant un système agréé par le ministère de l'intérieur.</li>\n<li>Par un professionnel habilité, type photographe.</li>\n<li>Dans une photo-cabine utilisant un système agréé par le ministère de l'intérieur.</li>\n</ul>\n<p>Suivant le support choisi, les services ne sont pas identiques et le prix peut varier du simple au quadruple.</p>\n<p>Smartphone iD est le seul à garantir que votre photo d'identité réponde aux normes exigées par l'administration et ce pour le prix le plus bas du marché.</p>\n",
-        "titre_accordeon": "Où faire des photos d’identité autour de moi ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Où faire des photos d’identité autour de moi ?"
       },
       {
         "texteAccordeon": "<p>En utilisant Smartphone iD, vous recevez votre planche photos directement sur votre boîte mail.</p>\n<p>Vous avez besoin d'avoir une version imprimée de votre planche ? Vous avez 3 options :</p>\n<ul>\n<li>Demander l'impression et l'envoi de votre planche photos lors de votre commande avec Smartphone iD. Votre planche photos est imprimée par des spécialistes de l'impression photos et postée en moins de 24H.</li>\n<li>Vous avez déjà passé votre commande, pas de souci. Connectez-vous avec votre email sur l'application « Photo identité officielle » de Smartphone iD. Cliquez sur le menu « Suivi de commandes » et commandez l'impression et l'envoi de votre planche photos.</li>\n<li>Imprimez vous-même votre planche photos soit sur votre imprimante photo personnelle, soit sur une borne photo. Choix non préconisé pour 2 raisons :\n<ul>\n<li>Le format d'impression est différent pour chaque type d'imprimante et il peut être fastidieux de trouver celui qui convient pour obtenir les photos à la taille exigée de 35×45 mm.</li>\n<li>L'administration exige une haute qualité d'impression ainsi qu'un papier photo de professionnel.</li>\n</ul>\n</li>\n</ul>\n",
-        "titre_accordeon": "Comment imprimer une photo en format identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Comment imprimer une photo en format identité ?"
       },
       {
         "texteAccordeon": "<p>Faire une photo d'identité où l'on se trouve beau dessus n'est pas toujours simple.</p>\n<p>Avec Smartphone iD, faites autant de photos que vous voulez, les prises de photos sont illimitées. Ainsi vous êtes assurés d'avoir LA photo d'identité que vous désirez.</p>\n<p>Chez un photographe, vous n'avez droit qu'à un essai.</p>\n<p>Dans les photo-cabines, vous faites 3 essais et ensuite vous devez choisir.</p>\n",
-        "titre_accordeon": "Comment faire une belle photo d’identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Comment faire une belle photo d’identité ?"
       },
       {
         "texteAccordeon": "<p>Restez dans la simplicité. La photo d'identité doit être la plus naturelle possible.</p>\n<p>Le mieux est de laisser vos cheveux détachés. S'ils sont longs, placez-les derrière les épaules pour que votre visage soit bien visible. Vous pouvez choisir de vous attachez les cheveux mais dans ce cas, aucune attache ne doit être visible et la coiffure ne doit pas être trop sophistiquée.</p>\n<p>Si vous avez une frange, attention à ce qu'elle ne recouvre pas vos sourcils, sinon vous risquez un refus de l'administration.</p>\n",
-        "titre_accordeon": "Comment se coiffer pour une photo d’identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Comment se coiffer pour une photo d’identité ?"
       },
       {
         "texteAccordeon": "<p>Oui, vous pouvez être maquillé sur votre photo d'identité. Par contre, le maquillage doit être léger. Ne mettez pas de couleur trop prononcée sur vos yeux ou vos lèvres. La photo d'identité doit être la plus naturelle possible.</p>\n",
-        "titre_accordeon": "Peut-on se maquiller pour une photo d’identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Peut-on se maquiller pour une photo d’identité ?"
       },
       {
         "texteAccordeon": "<p>Oui, vous pouvez porter des boucles d'oreilles sur votre photo d'identité, si elles sont discrètes. Les boucles d'oreilles trop voyantes ou trop volumineuses seront refusées par l'administration.</p>\n",
-        "titre_accordeon": "Peut-on mettre des boucles d’oreilles pour photo d’identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Peut-on mettre des boucles d’oreilles pour photo d’identité ?"
       },
       {
         "texteAccordeon": "<p>Non, nous vous déconseillons de porter vos lunettes sur votre photo d'identité. L'administration accepte très peu de photos avec lunettes car les critères demandés sont très stricts.</p>\n<p>Seules les personnes disposant d'une attestation médicale les obligeant à porter leurs lunettes sur leur photo d'identité sont autorisées. Et dans ce cas, elles doivent respecter les règles suivantes :</p>\n<ul>\n<li>ne pas avoir de monture épaisse.</li>\n<li>les yeux et les sourcils ne doivent pas être cachés par la monture.</li>\n<li>Il ne doit pas y avoir le moindre reflet sur les verres.</li>\n<li>Les verres teintés ou colorés sont interdits.</li>\n</ul>\n",
-        "titre_accordeon": "Peut-on garder ses lunettes pour une photo d’identité ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Peut-on garder ses lunettes pour une photo d’identité ?"
       },
       {
         "texteAccordeon": "<p>Pour faire une photo d'identité sur iPhone, allez sur le site Smartphone-iD : Application Photo Identité et ephoto , et laissez-vous guider !</p>\n<p>Choisissez le document dont vous avez besoin, ensuite faites votre photo sur votre smartphone et c'est fini. Après validation de votre photo par notre équipe d'experts, vous recevrez vos photos dans votre boîte mails en quelques minutes.</p>\n",
-        "titre_accordeon": "Comment faire une photo d’identité avec un iPhone ?",
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Comment faire une photo d’identité avec un iPhone ?"
       },
       {
         "texteAccordeon": "<p>Pour faire une photo d'identité sur Android, allez sur le site Smartphone-iD : Application Photo Identité et ephoto , et laissez-vous guider ! Choisissez le document dont vous avez besoin, ensuite faites votre photo sur votre smartphone et c'est fini. Après validation de votre photo par notre équipe d'experts, vous recevrez vos photos dans votre boîte mails en quelques minutes.</p>\n",
-        "titre_accordeon": "Comment faire une photo d’identité avec un Android ?",
-        "fieldGroupName": "PhotoDidentite"
-      },
-      {
-        "texteAccordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "PhotoDidentite"
-      },
-      {
-        "texteAccordeon": null,
-        "titre_accordeon": null,
-        "fieldGroupName": "PhotoDidentite"
+        "titre_accordeon": "Comment faire une photo d’identité avec un Android ?"
       }
     ],
     "titre_bloc9": "fréquemment posées",
     "titre_bloc9_span": "Questions",
     "fieldGroupName": "PageDAccueilBloc9"
   },
+
+  "Bloc10" : {
+    "thankYouMsg": "Merci d'avoir noté !",
+    "heading": "Cette information était-elle utile ?",
+    "sousTitre" : "Cliquez sur les étoiles pour donner votre note.",
+    "personne" : "personnes ont donné",
+    "etoiles" : "étoiles sur 5"
+  },
+
   "Footer": {
     "partie2-button": "Faire la photo",
-    "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
-    "SiteMapList-blog": "Blog",
-    "SiteMapList-propos": "À propos de nous",
-    "SiteMapList-faq": "FAQ",
-    "SiteMapList-contact": "Contact",
-    "applis-h3": "Téléchargez l’application",
-    "applis-p": "Suivez vos commandes et profitez d’encore plus de fonctionnalités avec l’application Smartphone iD.",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "À propos de nous",
+    "propos-link" : "https://www.smartphone-id.com/fr_FR/a-propos-de-nous/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/fr_FR/faq/",
+    "SiteMapList-contact" : "Contact",
+    "contact-link" : "https://www.smartphone-id.com/fr_FR/contact/",
+    "applis-h3": "Téléchargez l'application",
+    "applis-p":  "Suivez vos commandes et profitez d'encore plus de fonctionnalités avec l'application Smartphone iD.",
+    "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
+    "partie2-p": "Découvrez les dernières informations sur les documents d'identité et les visas.",
+    "partie2-p-link": "",
     "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-cgu": "Conditions générales d’utilisation",
-    "mentions-légales": "Mentions légales"
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/fr_FR/politique-confidentialite/",
+    "mentions-cgu": "Conditions générales d'utilisation",
+    "mentions-cgu-link": "https://www.smartphone-id.com/fr_FR/cgu/",
+    "mentions-légales": "Mentions légales",
+    "mentions-légales-link": "https://www.smartphone-id.com/fr_FR/mentions-legales/",
+    "cookies": "Cookies",
+    "cookies-link": "https://www.smartphone-id.com/fr_FR/cookies/"
   }
 }

@@ -1,18 +1,25 @@
 {
   "NavBar": {
-    "link_1" : "Patente di guida",
-    "url_1" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_2" : "Passaporto",
-    "url_2" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_3" : "Carta d'identità",
-    "url_3" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_4" : "Permesso di soggiorno",
-    "url_4" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_5" : "Visto",
-    "url_5" : "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_6" : "Carta vitale",
-    "url_6" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+    "liens": [
+      {
+        "link" : "Passaporto",
+        "url" : "https://www.smartphone-id.com/it_IT/foto-passaporto-regole/"
+      },
+      {
+        "link" : "Carta d'identità",
+        "url" : "https://www.smartphone-id.com/it_IT/foto-della-carta-didentita/"
+      },
+      {
+        "link" : "Patente di guida",
+        "url" : "https://www.smartphone-id.com/it_IT/foto-patente-di-guida/"
+      },
+      {
+        "link" : "Permesso di soggiorno",
+        "url" : "https://www.smartphone-id.com/it_IT/foto-permesso-soggiorno-it/"
+      }
+    ]
   },
+
 
   "Bloc1" : {
     "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/strumento-per-fototessere-per-lItalia-online.png",
@@ -22,11 +29,11 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "La tua foto d’identità sicura"
+        "texte_check_green": "fototessere per passaporto di qualità"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "La tua foto d’identità sicura"
+        "texte_check_green": "e firma digitale."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -118,8 +125,56 @@
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-valida-online.png"
       }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Raddrizzamento e rimozione dello sfondo automatizzati.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Rimozione-dello-sfondo-della-foto-del-passaporto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Grazie al nostro controllo esperto, la conformità delle foto è garantita.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/controllo-esperto-delle-foto-del-passaporto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Ordina la consegna di foto stampate professionalmente, inviate il giorno stesso dell'ordine.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ordinare-foto-tessera-stampate.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Non è necessario fornire informazioni personali, la foto viene memorizzata in modo sicuro.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/au-passport-photo-safely-stored.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Scatta una foto con il tuo smartphone.",
+        "titre_check": "Passo 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-con-smartphone.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Se necessario, aggiungi la consegna del modello stampato a casa tua.",
+        "titre_check": "Passo 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ordinare-a-casa-le-foto-stampate-del-passaporto.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Controlla le caratteristiche della tua richiesta di foto.",
+        "titre_check": "Passo 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/controllo-della-foto-del-passaporto-sullo-smartphone.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Ricevi la tua foto digitale per il passaporto e un modello pronto da stampare nella tua e-mail.",
+        "titre_check": "Passo 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-valida-con-smartphone.png"
+      }
     ]
-  },
+},
 
   "Bloc4": {
     "titre_bloc4_1": "Oltre ",

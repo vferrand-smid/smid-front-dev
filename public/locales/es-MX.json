@@ -1,125 +1,188 @@
 {
   "NavBar": {
-    "link_1": "Licencia de Conducir",
-    "url_1": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_2": "Pasaporte",
-    "url_2": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_3": "DNI",
-    "url_3": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_4": "Permiso de residencia",
-    "url_4": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_5": "Visa",
-    "url_5": "https://www.smartphone-id.com/photos-identite-en-ligne/",
-    "link_6": "Seguro Social",
-    "url_6": "https://www.smartphone-id.com/photos-identite-en-ligne/"
-  },
-  "Bloc1": {
-    "girl": "/images/Bloc1/girl.png",
-    "background": "/images/background.png",
-    "titre_bloc1": "Obtenga Rápidamente",
-    "titre_h4_bloc1": "para renovar sus documentos oficiales mexicanos en línea!",
-    "repeteurCheckGreenBloc1": [
+    "liens": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Resultado inmediato garantizado"
+        "link": "Pasaporte",
+        "url": "https://www.smartphone-id.com/es_MX/foto-pasaporte-mexicano/"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Verificado por expertos"
+        "link": "Carnet de Conducir",
+        "url": "https://www.smartphone-id.com/es_MX/fotos-carne-de-conducir/"
+      },
+      {
+        "link": "DNI",
+        "url": "https://www.smartphone-id.com/es_MX/foto-dni/"
+      },
+      {
+        "link": "NIE",
+        "url": "https://www.smartphone-id.com/es_MX/foto-permiso-de-residencia-espanol/"
+      },
+      {
+        "link": "Visado",
+        "url": "https://www.smartphone-id.com/es_MX/foto-visa/"
+      }
+    ]
+  },
+
+  "Bloc1" : {
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/herramienta-de-fotografia-de-pasaporte-para-Mexico-en-linea.png",
+    "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-14.png",
+    "titre_bloc1" : "Herramienta rápida y sencilla para",
+    "titre_h4_bloc1": "Basta con hacer una foto y recibirla lista! Pruébalo ya!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_green": "fotos de pasaporte de calidad"
+      },
+      {
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_check_green": "y firma digital."
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
-        "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Resultado inmediato garantizado"
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Edición Rápida AI"
       },
       {
-        "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Verificado por expertos"
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Verificación avanzada"
       },
       {
-        "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Prueba gratuita"
+        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-white-1.png",
+        "texte_check_white": "Aceptación de la Administración"
       }
     ]
   },
+
   "kalSearch": {
-    "titre_1": "Necesito una foto de identidad para",
-    "titre_2": "Para el documento",
-    "bouton": "Tomar la foto"
+    "titre_1" : "Necesito una foto para este país ",
+    "titre_2" : "y este documento",
+    "bouton" : "Tomar una foto"
   },
+
   "Bloc2": {
     "repeteur1": [
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
-        "titre_repeteur1": "Más de 1 millón de fotos conformes entregadas"
+        "titre_repeteur1": "Más de 1 millón de fotos de pasaporte expedidas"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
-        "titre_repeteur1": "Primer proveedor de ePhoto en línea en México"
+        "titre_repeteur1": "Primer proveedor de ePhoto + firma en línea"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
-        "titre_repeteur1": "Calificación promedio en Apple y Google Store"
+        "titre_repeteur1": "Estrellas en Apple y Google Play Store"
       }
     ]
   },
+
   "Bloc3": {
-    "titre_bloc3_span": "La solución",
-    "titre_bloc3": "para su foto de identidad conforme, sin salir de casa.",
+    "titre_bloc3_span": "La solución completa",
+    "titre_bloc3": "para la foto de pasaporte sin salir de casa",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Formateo automático de fotos de identidad.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Eliminación automática del fondo.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Formato-automatico-de-foto-para-pasaporte-mexicano.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Dependiendo del documento oficial, firme con su dedo.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Gracias a la supervisión de nuestros expertos, la conformidad de la foto está garantizada.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Control-experto-de-foto-para-pasaporte-cmexicano.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Control de expertos, conformidad garantizada.",
-        "imageCkeckBlack": "/images/Bloc3/photo-identite-conforme-validee.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Entrega a domicilio de fotos impresas profesionalmente. Se envían el mismo día en que se encargan.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Impresion-y-entrega-de-foto-para-pasaporte-mexicano.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Sus fotos impresas y enviadas el mismo día.",
-        "imageCkeckBlack": "/images/Bloc3/imprimer-photo-identite.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "No es necesario proporcionar información personal, la foto se almacena de forma segura.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-de-pasaporte-mexicano-almacenada-de-manera-segura.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Escanee el código QR para tomar una foto de identidad con su smartphone.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Escanea el código QR con tu smartphone y hazte una foto.",
         "titre_check": "Paso 1",
-        "image_repeteur_etape": "/images/Bloc3/faire-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-en-computadora.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Verifique las características de su solicitud.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
-        "image_repeteur_etape": "/images/Bloc3/outil-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-2-en-computadora.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Solicite un impreso fotográfico de nuestro servicio, si es necesario.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Si es necesario, añade la entrega de la plantilla impresa en tu domicilio.",
         "titre_check": "Paso 3",
-        "image_repeteur_etape": "/images/Bloc3/commender-impression-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-3-en-computadora.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Reciba su foto individual y su impreso fotográfico en su bandeja de entrada.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
-        "image_repeteur_etape": "/images/Bloc3/photo-identite-reussi.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-4-en-computadora.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Formato-automatico-de-foto-para-pasaporte-mexicano.png",
+        "texteCheckBlack": "Eliminación automática del fondo."
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Control-experto-de-foto-para-pasaporte-cmexicano.png",
+        "texteCheckBlack": "Gracias a la supervisión de nuestros expertos, la conformidad de la foto está garantizada."
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Impresion-y-entrega-de-foto-para-pasaporte-mexicano.png",
+        "texteCheckBlack": "Entrega a domicilio de fotos impresas profesionalmente. Se envían el mismo día en que se encargan."
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-de-pasaporte-mexicano-almacenada-de-manera-segura.png",
+        "texteCheckBlack": "No es necesario proporcionar información personal, la foto se almacena de forma segura."
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Haz una foto con tu smartphone.",
+        "titre_check": "Paso 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-1-en-movil.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Revisa las características de tu solicitud de foto.",
+        "titre_check": "Paso 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-2-en-movil.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Revisa las características de tu solicitud de foto.",
+        "titre_check": "Paso 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-3-en-movil.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
+        "titre_check": "Paso 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-mexicano-paso-4-en-movil.png"
       }
     ]
   },
+
   "Bloc4": {
-    "titre_bloc4_1": "Desde 2017, ",
-    "titre_bloc4_2": "de fotos de identidad conformes realizadas",
-    "titre_bloc4_span": "más de 1 millón",
+    "titre_bloc4_1": "Más de",
+    "titre_bloc4_2": "de fotos conformes realizadas",
+    "titre_bloc4_span": "1 millón",
     "partenaires": [
       {
         "text": "Zebra",
@@ -142,16 +205,12 @@
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
       },
       {
-        "text": "CER",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
-      },
-      {
-        "text": "Planeta Permis",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
-      },
-      {
-        "text": "Drivup",
+        "text": "Driveup",
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Planéte Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
       },
       {
         "text": "Inri's Formations",
@@ -160,11 +219,19 @@
     ],
     "media": [
       {
-        "text": "France Digitale",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
       },
       {
-        "text": "E-Residency Marketplace",
+        "text": "Le Progres",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "E-residency Estonia",
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
       },
       {
@@ -172,134 +239,118 @@
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
       },
       {
-        "text": "Canal+",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+        "text": "App Advice",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/App-Advice.png"
       },
       {
         "text": "JEI",
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
-      },
-      {
-        "text": "Le Progrès",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
-      },
-      {
-        "text": "La French Tech",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
       }
     ],
     "temoignages": [
       {
-        "nom": "Chassany2603, 04/04/2022",
-        "texte": "Necesitaba fotos de identidad con urgencia y no tenía tiempo de desplazarme. Tomé una foto, pagué por las fotos de identidad (en formato) y en menos de una hora las tenía en mi correo. Poco después obtuve mi documento. Realmente lo recomiendo.",
-        "titre": "Intuitivo y rápido"
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Al principio tenía mis dudas sobre si utilizar esta aplicación para hacerme la foto del carné de conducir, pero después de seguir los consejos y las directrices sobre cómo crear una foto bien conseguida, todo se hizo en cuestión de minutos, el personal verifica que la foto sea utilizable y puedes pedir que te la envíen por correo postal o por correo electrónico. Ni siquiera tuve que salir de casa, lo cual es una ventaja añadida. ¡Definiti- vamente la recomiendo!!",
+        "titre": "Definitivamente la recomiendo!"
       },
       {
-        "nom": "ninie1208, 29/06/2021",
-        "texte": "Práctico para personas como yo que tienen poco tiempo después del trabajo. Tomé una foto por la noche con mi móvil y unos días después la tenía en mi buzón. Tenía una cita en el ayuntamiento la semana siguiente para renovar mi DNI, ¡qué alivio!",
-        "titre": "Realmente genial"
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "Esto es genial, he podido hacer mis fotos de titre de séjour desde EE.UU. sin tener que volver a Francia para encontrar un fotomatón. Tuve que volver a hacer mi foto, pero las instrucciones eran fáciles de seguir. Gran experiencia y gran comunicación",
+        "titre": "Muy útil"
       },
       {
-        "nom": "betiolina, 15/08/2022",
-        "texte": "Muy buena aplicación. Si el resultado no es satisfactorio, puedes repetir la foto tantas veces como sea necesario sin coste adicional.",
-        "titre": "Foto de identidad"
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "Realmente impresionado con esta app - el proceso fue fácil - aprobado y añadido a la solicitud online sin problemas - sin duda lo recomendaría",
+        "titre": "Nuevo pasaporte"
       },
       {
-        "nom": "Anaïs M, 21/02/2022",
-        "texte": "Después de meses de lidiar con la ANTS, que rechazaba mis fotos tomadas en un fotomatón (2 veces) o 'perdía' las fotos enviadas por correo (3 veces), decidí intentarlo, un poco desesperada. Y para mi sorpresa, las fotos, que no tenían la calidad de un fotomatón o fotógrafo profesional, fueron aceptadas, y mi licencia de conducir está en proceso. Intento, si es posible, no hacer todo desde mi smartphone, pero debo admitir que esta fue la única opción que funcionó.",
-        "titre": null
-      },
-      {
-        "nom": "cosmiccbyul, 04/07/2022",
-        "texte": "Descargué esta aplicación para obtener una ephoto para mi permiso de residencia ya que no estaba en México y no podía acceder a un fotomatón. Para mi gran sorpresa, fue ultra rápido: tomé una foto en unos minutos y recibí el código ephoto 30 minutos después. ¡Además, solo cuesta 6 euros! ¡Lo recomiendo mucho!",
-        "titre": "¡Muy rápido y eficaz!"
-      },
-      {
-        "nom": "Starsissi, 02/12/2022",
-        "texte": "Necesitaba fotos de identidad digital para una licencia de conducir. Gracias a esta aplicación, pude hacerlas desde casa, sin tener que desplazarme y sin estar limitado en el número de intentos. Además, hay consejos que muestran lo que está permitido y lo que no, es muy práctico. Mis fotos fueron aceptadas al primer intento por el gobierno y acabo de recibir mi nueva licencia.",
-        "titre": "Muy satisfecha"
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Increíble! A mi padre le costó mucho llegar a un fotomatón oficial para hacerse la foto en Francia. Le hicimos la foto en casa con la aplicación, era un poco oscura pero la re- tocaron para que quedara clara y precisa, exactamente igual que una foto de pasaporte. Recibimos las fotos electrónicas en 24 horas y unos días más tarde recibimos las fotos en papel por correo. No las necesitaba, pero por si acaso. Es la primera vez que utilizo una app y hace exactamente lo que dice sin ningún problema. ¡Bien hecho Smart photo!!",
+        "titre": "Eficaz"
       }
     ],
     "nos_partenaires": "Nuestros partners",
-    "nos_medias": "Presente en los medios"
+    "nos_medias": "Destacado por"
   },
+
   "Bloc5": {
-    "titre_bloc5_1": "¿Por qué elegir ",
-    "titre_bloc5_span": "nuestro servicio?",
-    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
+    "titre_bloc5_1": "¿Por qué la herramienta ",
+    "titre_bloc5_span": "Smartphone iD para fotos de pasaporte?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Amigos-jovenes-tomando-foto-para-pasaporte-mexicano-con-la-aplicacion-Smartphone-iD.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "service24h24Et7j7": "Servicio 24/7",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Todos los documentos",
-        "texteService": "Todos los tipos de documentos están disponibles."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Para todo tipo de documentos",
+        "texteService": "El tamaño correcto en formato digital e impreso, la profundidad de la foto, el color del fondo, la iluminación..."
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Cumplimiento al 100%",
-        "texteService": "Para todos los documentos oficiales, en todo el mundo."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "100% de conformidad",
+        "texteService": "Consigue el 100% de conformidad para cualquier documento oficial en todo el mundo ."
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Elige la mejor foto",
-        "texteService": "Y realiza tomas ilimitadas."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Consigue la mejor foto",
+        "texteService": "Haz fotos ilimitadas y elige la mejor."
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Un servicio al cliente real",
-        "texteService": "Humanos y no robots."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Atención al cliente real",
+        "texteService": "Sin robots, sin información de contacto oculta, su experiencia positiva es importante para nosotros."
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Solución ideal",
-        "texteService": "Para bebés, personas con discapacidad, expatriados, personas de zonas rurales, etc."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Práctico para muchos",
+        "texteService": "Especialmente práctico para bebés, discapacitados, expatriados, personas en zonas rurales..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "service24h24Et7j7": "Ecológico",
-        "texteService": "Sin papel, sin desplazamientos."
+        "texteService": "No more paper to waste if you need to renew your document online."
       }
     ]
   },
+
   "Bloc6": {
-    "titre_bloc6_1": "El",
-    "titre_bloc6_2": "formato fotográfico para todos sus documentos oficiales",
-    "titre_bloc6_span": "formato correcto",
+    "titre_bloc6_1": "Fotos",
+    "titre_bloc6_2": "para los documentos de identidad Colombiano",
+    "titre_bloc6_span": "conformes",
     "documents": [
       {
-        "titre_doc": "Licencia de Conducir",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
-      },
-      {
         "titre_doc": "Pasaporte",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Pasaporte-MX.png"
       },
       {
         "titre_doc": "DNI",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Credencial-para-votar-MX.png"
       },
       {
-        "titre_doc": "Permiso de residencia",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
+        "titre_doc": "Carnet de Conducir",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Licencia-de-conducir-MX.png"
       },
       {
-        "titre_doc": "Seguro Social",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
+        "titre_doc": "NIE",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Residente-Temporal-MX.png"
+      },
+      {
+        "titre_doc": "Visado",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Visa-MX.png"
       }
     ],
     "bloc_photo": [
       {
-        "impressionPhoto": "Impresión fotográfica",
-        "paragraphe": "Reciba un formato impreso en 2 días o utilice este formato para imprimir sus fotos en nuestras tiendas asociadas.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "impressionPhoto": "¿Dónde imprimir fotos de pasaporte en Mexico?",
+        "paragraphe": "Encarga fotos impresas profesionales con Smartphone iD o imprímelas en un centro cercano.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Plantilla-de-foto-impresa-para-pasaporte-mexicano.png",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id-logo.png"
           },
           {
             "nom_partenaire": "Kodak-Fotoestudio",
@@ -309,55 +360,57 @@
       }
     ]
   },
+
   "Bloc7": {
-    "titre_bloc7_1": "La solución",
-    "titre_bloc7_2": "para las solicitudes de documentos oficiales",
-    "titre_bloc7_span": "perfecta",
+    "titre_bloc7_1" :"",
+    "titre_bloc7_2" : "online para solicitar documentos oficiale",
+    "titre_bloc7_span": "Tu solución",
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
-        "paragraphe": "Para documentos mexicanos, necesario para la inscripción en la página de ANTS.",
-        "titre": "Código ePhoto oficial"
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-de-documento-de-firma-digital-mexica.png",
+        "paragraphe": "Tu firma se vinculará a la foto para las solicitudes de documentos oficiales online, cuando sea necesario.",
+        "titre": "Firma digital"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
-        "paragraphe": "Obligación de una foto de identidad de menos de 6 meses. El gobierno puede ver la fecha de la foto tomada.",
-        "titre": "Foto de menos de 6 meses"
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Plantilla-reciente-de-foto-impresa-para-pasaporte-mexicano.png",
+        "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
+        "titre": "La prueba de que la foto es reciente"
       }
     ]
   },
+
   "Bloc8": {
-    "titre_bloc8_1": "Cómo",
-    "titre_bloc8_2": "tomar su foto de identidad",
-    "titre_bloc8_span": "con éxito",
+    "titre_bloc8_1" : "¿Cómo hacer una foto de pasaporte ",
+    "titre_bloc8_2" : "",
+    "titre_bloc8_span": "exitosa?",
     "titre_encart": "Algunos consejos",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "chiffre": 1,
-        "texte": "Gafas",
-        "texte_span": "retiradas"
+        "texte": "Quítate",
+        "texte_span": "las gafas"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "chiffre": 2,
-        "texte": "La cara",
-        "texte_span": "iluminada uniformemente"
+        "texte": "La luz debe iluminar tu cara",
+        "texte_span": "de manera uniforme"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "chiffre": 3,
-        "texte": "El cabello",
-        "texte_span": "detrás de los hombros"
+        "texte": "El pelo deberá quedar",
+        "texte_span": "por detrás de los hombros"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "chiffre": 4,
-        "texte": "La boca",
-        "texte_span": "cerrada, sin sonreír"
+        "texte": "Boca cerrada,",
+        "texte_span": "expresión neutra."
       }
     ],
     "bouton_plus": {
@@ -369,9 +422,10 @@
       "title": "¿Cómo obtener la foto del pasaporte de tu bebé?"
     }
   },
+
   "Bloc9": {
-    "ID": "Foto de identidad",
-    "ePhoto": "Código ePhoto",
+    "ID": "Foto de pasaporte Mexicano",
+    "ePhoto": "",
     "codeEphoto": [
       {
         "texte_accordeon": null,
@@ -408,8 +462,28 @@
     ],
     "photo_didentite": [
       {
+        "texteAccordeon": "<p>Es mejor informarse antes en la oficina correspondiente. Algunos lugares ofrecen tomar una foto de pasaporte in situ. Si el empleado de la oficina puede ver claramente que la foto se parece a usted, puede ofrecerle utilizar una foto impresa por un profesional. Si desea tomar una foto de pasaporte de antemano, puede hacerlo desde casa a través del sitio web www.smartphone-id.com, donde su foto será formateada automáticamente y adaptada a los requisitos específicos del documento mexicano, así como, un experto capacitado comprobará que su foto cumple con todos los criterios necesarios</p>\n",
+        "titre_accordeon": "¿Para mi cita del pasaporte es necesario llevar conmigo las fotos?"
+      },
+      {
+        "texteAccordeon": "<p>Es mejor informarse antes en la oficina correspondiente. Algunos lugares ofrecen to-mar una foto de pasaporte in situ. Si el empleado de la oficina puede ver claramente que la foto se parece a usted, puede ofrecerle utilizar una foto impresa por un profe-sional. Si desea tomar una foto de pasaporte de antemano, puede hacerlo desde casa a través del sitio web www.smartphone-id.com, donde su foto será formateada automáticamente y adaptada a los requisitos específicos del documento mexicano, así como, un experto capacitado comprobará que su foto cumple con todos los criterios necesarios</p>\n",
+        "titre_accordeon": "¿Tengo que traer conmigo las fotos para realizar el tramite del pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>La foto de pasaporte debe mostrar un parecido completo con usted. Si sueles llevar barba, no es necesario que te afeites antes de hacerte la foto para el pasaporte. Si, por el contrario, lleva una barba larga y tiene previsto afeitarse pronto, por lo que pronto tendrá un aspecto diferente. Entonces es mejor hacerse una foto de pasaporte después de afeitarse.</p>\n",
+        "titre_accordeon": "¿Me tengo que afeitar la barba para la foto del pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Sí, puede llevar maquillaje en la foto del pasaporte. Pero ten en cuenta que el maquillaje debe ser ligero. No te pongas demasiada sombra de ojos en los párpados. A menudo, un pintalabios brillante puede crear un reflejo, por lo tanto, mejor opta por un pintalabios mate, si quieres acentuar tus labios. También es útil comprobar que tu piel no es grasa antes de hacerte la foto, ya que también puede crear un ligero reflejo. Por último, recuerde que la foto del pasaporte debe ser lo más natural posible y debe parecerse a usted en un día normal.</p>\n",
+        "titre_accordeon": "¿Se puede llevar maquillaje en una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Los colores fuertes que destacan claramente del fondo son adecuados para una foto de pasaporte. Dado que se requiere un fondo claro, los colores más oscuros son beneficiosos para aumentar el contraste. Además, asegúrese de que su camisa no muestre demasiada piel, ya que las fotos de pasaporte sin camisa están prohibidas. Por último, los uniformes de cualquier tipo también están prohibidos en una foto biométrica para pasaporte.</p>\n",
+        "titre_accordeon": "¿Qué ponerse para la foto del pasaporte?"
+      },
+      {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Para los documentos oficiales mexicanos debe presentar una fotografía tamaño pasaporte de 35mm x 45mm, excepto para la Visa Mexicana, que debe ser de al menos 32mm x 26mm).<br />\nNo está permitido presentar una fotografía escaneada o una captura de pantalla de un ordenador/móvil.<br />\nPuede tomar una foto a través de nuestro sitio web www.smartphone-id.com donde obtendrá una foto aprobada por expertos capacitados en el tamaño solicitado, formato de archivo, color de fondo, etc.<br />\nCon la foto, recibirá una plantilla imprimible de 10&#215;15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</p>\n</aside>\n",
-        "titre_accordeon": "¿Qué tamaño tiene una foto de pasaporte mexicano?"
+        "titre_accordeon": "¿ué tamaño tiene una foto de pasaporte mexicano?"
       },
       {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Puede tomar fotos para pasaporte en las cabinas fotográficas ubicadas en los principales centros de las ciudades, en centros comerciales y oficinas de correos o en uno de los muchos laboratorios fotográficos como Kodak Express Digital Solutions en la ciudad que ofrecen este servicio.<br />\nPara obtener más información sobre quién ofrece el servicio de fotografía para pasaporte en México, puede preguntar a los residentes locales o echar un vistazo a los sitios web dedicados.<br />\nSi, por el contrario, prefiere tomar las fotos para pasaporte cómodamente en casa, puede optar por el servicio Smartphone iD, que le permite tomar la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento mexicano y hacerla revisar por expertos capacitados.</p>\n</aside>\n",
@@ -420,48 +494,89 @@
         "titre_accordeon": "¿Dónde se puede imprimir una foto de pasaporte en México?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">El precio de las fotos para el pasaporte depende de dónde vaya a hacérselas. En un fotomatón, una copia con 8 fotos cuesta a partir de <b>70 pesos mexicanos</b> (el 10% de las fotos son rechazadas por los gobiernos).<br />\nUn fotógrafo profesional, en cambio, pide unos <b>110 pesos mexicanos por 8 copias</b> (tasa de rechazo del 2%). Sin embargo, suele ofrecer descuentos para niños y personas mayores.<br />\nSi no puede utilizar estos dos métodos, puede hacer la foto para el pasaporte con su teléfono móvil, utilizando el servicio Smartphone iD.<br />\nA través de nuestra página web, puede tomar la foto, el formato correcto se creará automáticamente para el documento que ha solicitado.<br />\nPara lograr una tasa de aceptación del 100%, nuestros expertos también comprobarán su foto.</p>\n</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">El precio de las fotos para el pasaporte depende de dónde vaya a hacérselas. En un fotomatón, una copia con 8 fotos cuesta a partir de <b>70 pesos mexicanos</b> (el 10% de las fotos son rechazadas por los gobiernos).<br />\nUn fotógrafo profesional, en cambio, pide unos <b>110 pesos mexicanos por 8 copias</b> (tasa de rechazo del 2%). Sin embargo, suele ofrecer descuentos para niños y personas mayores.br&gt; Si no puede utilizar estos dos métodos, puede hacer la foto para el pasaporte con su teléfono móvil, utilizando el servicio Smartphone iD.br&gt; A través de nuestra página web, puede tomar la foto, el formato correcto se creará automáticamente para el documento español que ha solicitado.br&gt; Para lograr una tasa de aceptación del 100%, nuestros expertos formados también comprobarán su foto.</p>\n</aside>\n",
         "titre_accordeon": "¿Cuánto cuesta hacerse una foto de pasaporte en México?"
       },
       {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">La foto biométrica del pasaporte mexicano debe ser nítida, de alto contraste y, sobre todo, corresponder a las dimensiones especificadas (35 mm x 45 mm, no tener más de 30 días, sin gafas, etc.). En consecuencia, debe grabarse con una cámara de alta resolución. Tu rostro debe constituir la parte principal de la foto y no debe haber sombras ni reflejos. El fondo tiene que ser blanco, de color sólido y que contraste con tu cara y tu pelo.</p>\n</aside>\n",
-        "titre_accordeon": "¿Qué características deben tener las fotos del pasaporte en México?"
+        "titre_accordeon": "¿Que características deben tener las fotos del pasaporte en Mexico?"
       },
       {
         "texteAccordeon": "<p>Sí que puedes. Asegúrate de que mantienes el brazo recto, de que tu cara no aparece distorsionada debido a la cámara frontal del teléfono y de que no se te ve el brazo.<br />\nTambién puedes hacerlo a través del sitio web Smartphone iD y añadir una revisión de un experto capacitado, para asegurarte de que se ajusta a los requisitos del gobierno.<br />\nLas cámaras de visión trasera tienen mayor resolución y ofrecen una mejor imagen.</p>\n",
-        "titre_accordeon": "¿Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
+        "titre_accordeon": "¿ Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
       },
       {
         "texteAccordeon": "<p>Colócate frente a una ventana o asegúrate de que la luz artificial no proyecta sombra sobre tu rostro.<br />\nQuítate el pelo de la cara, mira a la cámara y adopta una expresión facial neutra. Para asegurarte de que has hecho una buena foto, puedes combinar esto con la revisión de un experto en nuestro sitio web https://www.smartphone-id.com/es/.</p>\n",
-        "titre_accordeon": "¿Cómo hacer una foto de pasaporte?"
+        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte?"
       },
       {
-        "texteAccordeon": "<p>Coloca a tu bebé sobre una sábana blanca en tu cama, o ponlo en una trona con una toalla blanca cubriendo el respaldo de la silla.<br />\nQuítale el chupete, capta la atención del bebé e intenta conseguir una foto con la boca cerrada.<br />\nAlgunos gobiernos permiten que la boca esté ligeramente abierta, pero sin que se vean la lengua ni los dientes.<br />\nAsegúrate de que la cabeza de tu bebé no está inclinada, y no olvides que no puedes sostenerlo tú solo mientras haces la foto porque no se ve ninguna otra parte del cuerpo en la foto.<br />\nTambién puedes hacer una foto a través de nuestra página web www.smartphone-id.com, donde te ayudaremos a conseguir una foto válida con la ayuda de nuestros expertos formados.</p>\n",
-        "titre_accordeon": "¿Cómo hacer una foto de pasaporte a tu bebé?"
+        "texteAccordeon": "<p>Coloca a tu bebé sobre una sábana blanca en tu cama, o ponlo en una trona con una toalla blanca cubriendo el respaldo de la silla.<br />\nQuítale el chupete, capta la atención del bebé e intenta conseguir una foto con la boca cerrada.<br />\nAlgunos gobiernos permiten que la boca esté ligeramente abierta, pero sin que se vean la lengua ni los dientes.<br />\nAsegúrate de que la cabeza de tu bebé no está inclinada, y no olvides que no puedes sostenerlo tú solo mientras haces la foto porque no se ve ninguna otra parte del cuerpo en la foto.<br />\nTambién puedes hacer una foto a través de nuestra página web www.smartphon-id.com, donde te ayudaremos a conseguir una foto válida con la ayuda de nuestros expertos formados.</p>\n",
+        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte a tu bebé?"
       },
       {
         "texteAccordeon": "<p>Está prohibido presentar una foto escaneada para un documento de identificación oficial.<br />\nSi necesita presentar una foto digital, puede utilizar nuestra sencilla herramienta automatizada en línea que viene con una comprobación experta capacitada.<br />\nDe esta forma obtendrá una foto digital de pasaporte perfecta en el formato necesario para su documento.<br />\nSi está escaneando fotos de pasaporte para crear impresiones múltiples, también lo tenemos cubierto.<br />\nCon su foto digital única, también recibirá por correo electrónico una plantilla de impresión de 10&#215;15 lista para imprimir que podrá utilizar un número ilimitado de veces.</p>\n",
-        "titre_accordeon": "¿Cómo escanear una foto de pasaporte?"
+        "titre_accordeon": "¿ Cómo escanear una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Para imprimir fotos de pasaporte con su PC, primero debe descargar un software que le permita obtener fotos de 35 x 45 mm.<br />\nA continuación, deberá conectar a su PC una impresora compatible con papel fotográfico, ya que sólo se aceptan fotos de pasaporte impresas por profesionales.<br />\nSi no desea descargar ningún software o ahorrarse la molestia de buscar una herramienta sencilla en Internet, puede optar por el servicio Smartphone iD, en el que sólo tendrá que elegir el tipo de documento necesario y todo lo demás se hará por usted.<br />\nPuede recibir una impresión profesional de 10&#215;15 cm en la puerta de su casa o utilizar el archivo digital de 10&#215;15 cm para encontrar un centro de impresión cercano.</p>\n",
-        "titre_accordeon": "¿Cómo imprimir una foto tamaño carné?"
+        "titre_accordeon": "¿ Cómo imprimir una foto tamaño carné?"
+      },
+      {
+        "texteAccordeon": "<p>Existen varias opciones para obtener fotos de pasaporte en formato digital. Si necesita una foto de pasaporte de alta calidad, puede acudir a un fotógrafo profesional.<br />\nSi busca un método económico, puede utilizar aplicaciones y software como Smartphone iD, que le permiten crear fotos de pasaporte en formato digital directamente desde casa.<br />\nHoy en día, las cámaras de los smartphones pueden producir fotos de pasaporte satisfactorias.<br />\nNo obstante, lo mejor es que un experto compruebe que la foto tiene el formato correcto, porque las fotos de pasaporte no válidas son rechazadas por los gobiernos y ponen en pausa la solicitud del documento.</p>\n",
+        "titre_accordeon": "¿ Dónde conseguir fotos digitales para el pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no admiten flecos porque dificultan la lectura de los datos biométricos del escáner.<br />\nEntonces, el flequillo debe ir a ambos lados y sujeto con horquillas imperceptibles.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte con flequillo.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
+        "titre_accordeon": "¿ Se puede tener un flequillo en una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no permiten sonreír porque dificulta la lectura de los datos biométricos del escáner.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte de una persona sonriente.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
+        "titre_accordeon": "¿ Puede sonreír en una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>No todos los gobiernos permiten las gafas porque es muy difícil acertar. Las monturas gruesas están prohibidas, así como los cristales tintados, no pueden aparecer reflejos y deben sentarse correctamente. Por eso, los gobiernos que no prohíben llevar gafas, aconsejan encarecidamente quitárselas para la foto.</p>\n",
+        "titre_accordeon": "¿ Se pueden llevar gafas en una foto de pasaporte?"
       }
     ],
     "titre_bloc9": "Respuestas",
     "titre_bloc9_span": "a Tus Preguntas"
   },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "¿Encontraste esto útil?",
+    "sousTitre" : "Haz clic en las estrellas para dejar tu valoración.",
+    "personne" : "Valoración media :",
+    "etoiles" : "estrellas de 5"
+  },
+
   "Footer": {
-    "partie2-button": "Tomar la foto",
-    "partie2-p": "Descubre las últimas noticias sobre documentos de identidad y visas.",
-    "SiteMapList-blog": "Blog",
-    "SiteMapList-propos": "Acerca de nosotros",
-    "SiteMapList-faq": "FAQ",
-    "SiteMapList-contact": "Contacto",
-    "applis-h3": "Descarga la aplicación",
-    "applis-p": "Siga sus pedidos y disfrute de más funciones con la aplicación Smartphone iD.",
-    "mentions-confidentialité": "Política de privacidad",
-    "mentions-cgu": "Términos y condiciones de uso",
-    "mentions-légales": "Aviso legal"
+    "partie2-button": "Pruébalo ya!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "Sobre nosotros",
+    "propos-link" : "https://www.smartphone-id.com/es_ES/sobre-nosotros/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/es_ES/preguntas-frecuentes/",
+    "SiteMapList-contact" : "Contacto",
+    "contact-link" : "https://www.smartphone-id.com/es_ES/contact/",
+    "applis-h3": "Descarga la app!",
+    "applis-p":  "Descarga la app Smartphone iD para hacer un seguimiento de los pedidos y disfrutar de más funciones de la foto para pasaporte.",
+    "AppStore-link" : "https://apps.apple.com/es/app/foto-de-pasaporte-oficial/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=es&gl=es",
+    "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Política de Privacidad",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/es_ES/politica-de-privacidad/",
+    "mentions-cgu": "Términos de Servicio",
+    "mentions-cgu-link": "https://www.smartphone-id.com/es_ES/terminos-de-servicio/",
+    "mentions-légales": "Aviso Legal",
+    "mentions-légales-link": "https://www.smartphone-id.com/es_ES/aviso-legal/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/es_ES/cookies/"
   }
 }

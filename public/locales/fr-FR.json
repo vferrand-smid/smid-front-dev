@@ -29,30 +29,30 @@
     "background" : "/images/background.png",
     "titre_bloc1" : "Obtenez Rapidement",
     "titre_h4_bloc1": "pour renouveler vos documents officiels français en ligne !",
-      "repeteurCheckGreenBloc1": [
-        {
-          "mediaItemUrl": "/images/General/check-green.png",
-          "texte_check_green": "Votre photo d’identité sécurisée"
-        },
-        {
-          "mediaItemUrl": "/images/General/check-green.png",
-          "texte_check_green": "Votre signature avec la code ephoto"
-        }
-      ],
-      "repeteurCheckWhiteBloc1": [
-        {
-          "mediaItemUrl": "/images/Bloc1/check-white.png",
-          "texte_check_white": "Résultat immédiat garanti"
-        },
-        {
-          "mediaItemUrl": "/images/Bloc1/check-white.png",
-          "texte_check_white": "Contrôlé par des experts"
-        },
-        {
-          "mediaItemUrl": "/images/Bloc1/check-white.png",
-          "texte_check_white": "Essai gratuit"
-        }
-      ]
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "Votre photo d’identité sécurisée"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "Votre signature avec la code ephoto"
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Résultat immédiat garanti"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Contrôlé par des experts"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Essai gratuit"
+      }
+    ]
   },
 
   "kalSearch" : {
@@ -182,7 +182,7 @@
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-idenite-acceptee-comment.png"
       }
     ]
-},
+  },
 
   "Bloc4": {
     "titre_bloc4_1": "Depuis 2017, ",
@@ -467,7 +467,7 @@
     "ePhoto": "Code ePhoto",
     "codeEphoto": [
       {
-        "texte_accordeon": "<p>Vous devez fournir un <a href=\"https://www.smartphone-id.com/ephoto-ants/\">code ephoto signature numérique</a> (ou code ePhoto) pour une demande en ligne sur le site de l&#8217;ANTS ?</p>\n<p>C&#8217;est très simple, allez sur le site Smartphone-iD : Application Photo Identité et ephoto. Téléchargez l&#8217;application, choisissez le document dont vous avez besoin (Permis de conduire, Titre de séjour, DCEM, &#8230;). Ensuite faites votre photo et votre signature sur votre smartphone et c&#8217;est fini. Après validation de votre photo par notre équipe d&#8217;experts, vous recevrez votre code ePhoto dans votre boîte mails en quelques minutes.</p>\n",
+        "texte_accordeon": "<p>Vous devez fournir un <a href=\"https://www.smartphone-id.com/ephoto-ants/\">code ephoto signature numérique</a> (ou code ePhoto) pour une demande en ligne sur le site de l&#8217;ANTS ?</p>\n<p>C&#8217;est très simple, allez sur le site Smartphone-iD : Application Photo Identité et ephoto. Téléchargez l&#8217;application, choisissez le document dont vous avez besoin (Permis de conduire, Titre de séjour, DCEM, &#8230;). Ensuite faites votre photo et votre signature sur votre smartphone et c&#8217;est fini. Après validation de votre photo par notre équipe d&#8217;experts, vous recevrez votre code ePhoto dans votre boîte mails en quelques minutes.</p>\n",
         "titre_accordeon": "Comment obtenir un code ePhoto ?"
       },
       {
@@ -495,13 +495,13 @@
         "titre_accordeon": "Pourquoi mon code ePhoto ne fonctionne-t-il pas ?"
       },
       {
-        "texte_accordeon": "<p>C&#8217;est très simple, allez sur le site de l&#8217;ANTS <a href=\"https://permisdeconduire.ants.gouv.fr/\">Permis de conduire &#8211; Accueil (ants.gouv.fr)</a>, choisissez le motif de votre demande (demande d&#8217;inscription à l&#8217;examen du permis de conduire, demande de fabrication de votre permis de conduire, …) puis remplissez le formulaire affiché. Dans la case « code photo signature numérique », saisissez votre code ePhoto, et voilà !</p>\n",
+        "texte_accordeon": "<p>C&#8217;est très simple, allez sur le site de l&#8217;ANTS <a href=\"https://permisdeconduire.ants.gouv.fr/\">Permis de conduire &#8211; Accueil (ants.gouv.fr)</a>, choisissez le motif de votre demande (demande d&#8217;inscription à l&#8217;examen du permis de conduire, demande de fabrication de votre permis de conduire, …) puis remplissez le formulaire affiché. Dans la case « code photo signature numérique », saisissez votre code ePhoto, et voilà !</p>\n",
         "titre_accordeon": "Comment entrer le code ePhoto pour le permis ?"
       }
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p>Les photos d&#8217;identité française doivent respecter la norme ISO/IEC 19794-5:2005.</p>\n<p>La taille de la photo d&#8217;identité doit être de 35&#215;45 mm.</p>\n<p>Liste des points principaux à respecter :</p>\n<ul>\n<li>Ne porter aucun accessoire sur les cheveux (couvre-chefs, attaches visibles).</li>\n<li>Adopter une expression neutre, bouche fermée. Pas de sourire.</li>\n<li>L&#8217;ensemble du visage doit être visible (yeux, sourcils, oreilles, cou).</li>\n<li>Pour les cheveux longs, les placer derrière les épaules.</li>\n<li>Ne pas porter de lunettes, sauf avec une attestation médicale spécifique.</li>\n</ul>\n<p>Simplifiez-vous la vie, Smartphone iD se charge de vérifier l&#8217;ensemble de ces points pour vous et vous garantit de présenter une photo d&#8217;identité valide. Plus de risque de voir sa demande rejetée par l&#8217;administration.</p>\n<p>Plus d&#8217;infos sur <a href=\"https://www.smartphone-id.com/photo-identite-conforme/\" target=\"_blank\" rel=\"noopener\">https://www.smartphone-id.com/photo-identite-conforme/</a></p>\n",
+        "texteAccordeon": "<p>Les photos d&#8217;identité française doivent respecter la norme ISO/IEC 19794-5:2005.</p>\n<p>La taille de la photo d&#8217;identité doit être de 35&#215;45 mm.</p>\n<p>Liste des points principaux à respecter :</p>\n<ul>\n<li>Ne porter aucun accessoire sur les cheveux (couvre-chefs, attaches visibles).</li>\n<li>Adopter une expression neutre, bouche fermée. Pas de sourire.</li>\n<li>L&#8217;ensemble du visage doit être visible (yeux, sourcils, oreilles, cou).</li>\n<li>Pour les cheveux longs, les placer derrière les épaules.</li>\n<li>Ne pas porter de lunettes, sauf avec une attestation médicale spécifique.</li>\n</ul>\n<p>Simplifiez-vous la vie, Smartphone iD se charge de vérifier l&#8217;ensemble de ces points pour vous et vous garantit de présenter une photo d&#8217;identité valide. Plus de risque de voir sa demande rejetée par l&#8217;administration.</p>\n<p>Plus d&#8217;infos sur <a href=\"https://www.smartphone-id.com/photo-identite-conforme/\" target=\"_blank\" rel=\"noopener\">https://www.smartphone-id.com/photo-identite-conforme/</a></p>\n",
         "titre_accordeon": "Quelles sont les normes pour les photos d’identité ?"
       },
       {

@@ -1,46 +1,60 @@
 {
   "NavBar": {
-    "link_1": "Juhiluba",
-    "url_1": "https://www.smartphone-id.com/fotod-identiteedile/",
-    "link_2": "Pass",
-    "url_2": "https://www.smartphone-id.com/fotod-identiteedile/",
-    "link_3": "ID-kaart",
-    "url_3": "https://www.smartphone-id.com/fotod-identiteedile/",
-    "link_4": "Elamisloakaart",
-    "url_4": "https://www.smartphone-id.com/fotod-identiteedile/",
-    "link_5": "Viisa",
-    "url_5": "https://www.smartphone-id.com/fotod-identiteedile/",
-    "link_6": "Haigekassakaart",
-    "url_6": "https://www.smartphone-id.com/fotod-identiteedile/"
+    "liens": [
+      {
+        "link": "Juhiluba",
+        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+      },
+      {
+        "link": "Pass",
+        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+      },
+      {
+        "link": "ID-kaart",
+        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+      },
+      {
+        "link": "Elamisloakaart",
+        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+      },
+      {
+        "link": "Viisa",
+        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+      },
+      {
+        "link": "Haigekassakaart",
+        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+      }
+    ]
   },
 
   "Bloc1": {
     "girl": "/images/Bloc1/girl.png",
     "background": "/images/background.png",
-    "titre_bloc1": "Saage Kiiresti",
-    "titre_h4_bloc1": "et uuendage oma ametlikke Eesti dokumente veebis!",
+    "titre_bloc1": "Kiire ja lihtne vahend",
+    "titre_h4_bloc1": "Lihtsalt tehke foto, ja saage see valmiskujul kätte! Proovige kohe!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Tulemus on koheselt tagatud"
+        "texte_check_green": "Tulemus on koheselt tagatud"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_white": "Kontrollitud ekspertide poolt"
+        "texte_check_green": "Kontrollitud ekspertide poolt"
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Tulemus on koheselt tagatud"
+        "texte_check_white": "Kiire AI redigeerimine"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Kontrollitud ekspertide poolt"
+        "texte_check_white": "Ekspertkontroll"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Tasuta proovimine"
+        "texte_check_white": "Valitsuse poolt heakskiidetud"
       }
     ]
   },
@@ -55,76 +69,124 @@
     "repeteur1": [
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
-        "titre_repeteur1": "Üle 1 miljoni nõuetele vastava foto tarnitud"
+        "titre_repeteur1": "Enam kui 1 miljon kasutajat on kooskõlas dokumendifoto kätte saanud"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
-        "titre_repeteur1": "Esimene ePhoto koodi teenusepakkuja Eestis"
+        "titre_repeteur1": "Esimene ePhoto + allkirja pakkuja veebis"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
-        "titre_repeteur1": "Keskmine hinnang Apple'is ja Google Play Store'is"
+        "titre_repeteur1": "Tärni Apple’is ja Google Play Store’is"
       }
     ]
   },
 
   "Bloc3": {
-    "titre_bloc3_span": "Lahendus",
-    "titre_bloc3": "et saada oma isikut tõendava dokumendi foto kodust lahkumata.",
+    "titre_bloc3_span": "Täielik dokumendifoto lahendus",
+    "titre_bloc3": "kodust lahkumata",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Automaatne fotode vormindamine.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/kaalu-pildi-eemaldamine.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automatiseeritud foto sirgendamine ja tausta eemaldamine.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-automaatne-vormindamine.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Dokumendile sobiva allkirja tegemine sõrmega.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/tee-allkiri-dokumendile.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Meie ekspertkontrolli tõttu on fotode vastavus garanteeritud.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-eksperdikontroll.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Ekspertide kontroll, vastavus tagatud.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-vastavuse-kinnitus.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Tellige professionaalselt prinditud fotode koju, saadetakse välja tellimuse tegemisega samal päeval.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-printimine-ja-kohaletoimetamine.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Teie pildid trükitakse ja postitatakse samal päeval.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/trüki-foto-online.png"
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Isikuandmeid pole vaja, teie foto on turvaliselt salvestatud.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-turvaline-sailitamine.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Skaneerige QR-kood ja tehke oma isikut tõendava dokumendi foto oma nutitelefoniga.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Skaneerige QR-kood, et teha isikut tõendava dokumendi foto oma nutitelefoniga.",
         "titre_check": "1. samm",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/tee-dokumendifoto-online.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-1.-samm-arvutis.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Kontrollige oma taotluse omadusi.",
         "titre_check": "2. samm",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/online-dokumendifoto-loomine.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-2.-samm-arvutis.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Tellige vajadusel trükitud fotoleht.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Tellige vajadusel meie teenuse kaudu trükitud fotoleht.",
         "titre_check": "3. samm",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/trüki-ja-telli-dokumendifoto-online.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-3.-samm-arvutis.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
-        "texte_etape": "Saate oma isikut tõendava dokumendi foto ja prinditava fotolehe oma e-postkasti.",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Saate oma individuaalse foto ja prinditava fotolehe oma e-postkasti.",
         "titre_check": "4. samm",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/edu-olevik.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-4.-samm-arvutis.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automatiseeritud foto sirgendamine ja tausta eemaldamine.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-automaatne-vormindamine.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Meie ekspertkontrolli tõttu on fotode vastavus garanteeritud.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-eksperdikontroll.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Tellige professionaalselt prinditud fotode koju, saadetakse välja tellimuse tegemisega samal päeval.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-printimine-ja-kohaletoimetamine.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Isikuandmeid pole vaja, teie foto on turvaliselt salvestatud.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-turvaline-sailitamine.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Tehke isikut tõendava dokumendi foto oma nutitelefoniga.",
+        "titre_check": "1. samm",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-1.-samm-mobiilis.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Tellige vajadusel meie teenuse kaudu trükitud fotoleht.",
+        "titre_check": "2. samm",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-2.-samm-mobiilis.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Kontrollige oma taotluse omadusi.",
+        "titre_check": "3. samm",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-3.-samm-mobiilis.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Saate oma individuaalse foto ja prinditava fotolehe oma e-postkasti.",
+        "titre_check": "4. samm",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-4.-samm-mobiilis.png"
       }
     ]
   },
 
   "Bloc4": {
-    "titre_bloc4_1": "Alates 2017. aastast,",
-    "titre_bloc4_2": "vastavuses fotod",
-    "titre_bloc4_span": "üle 1 miljoni",
+    "titre_bloc4_1": "Enam kui ",
+    "titre_bloc4_2": "dokumendiga kooskõlas fotot",
+    "titre_bloc4_span": "1 miljon ",
     "partenaires": [
       {
         "text": "Zebra",
@@ -151,7 +213,7 @@
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
       },
       {
-        "text": "Planéte Permis",
+        "text": "Planète Permis",
         "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
       },
       {
@@ -195,34 +257,24 @@
     ],
     "temoignages": [
       {
-        "nom": "Chassany2603, 04/04/2022",
-        "texte": "Vajasin hädasti isikut tõendava dokumendi fotot ja mul ei olnud aega liikuda. Ma tegin foto, tasusin makse ja tunni aja jooksul oli foto minu postkastis. Sain oma kaardi kiirelt kätte. Soovitan soojalt.",
-        "titre": "Intuitiivne ja kiire"
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "See on suurepärane, ma sain teha oma titre de séjour fotod USA-st, ilma et oleksin pidanud naasma Prantsusmaale, et fotomatoni leida. Pidin oma foto uuesti tegema, kuid juhiseid oli lihtne järgida. Suurepärane kogemus ja suurepärane suhtlus.",
+        "titre": "Väga kasulik"
       },
       {
-        "nom": "ninie1208, 29/06/2021",
-        "texte": "Mugav neile, kellel on tööpäeva lõpus vähe aega. Tegin foto õhtul oma telefoniga ja mõne päeva pärast oli see minu postkastis. Mul oli järgmisel nädalal kohtumine vallavalitsuses, et uuendada oma ID-kaarti, suur vaimne koormus vähem.",
-        "titre": "Tõesti super"
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Hämmastav! Mu isal oli raskusi Prantsusmaal oma e-foto jaoks ametliku fotoboksi pääsemisega. Tegime tema foto kodus rakendusega valmis, see oli veidi tume, kuid nad redigeerisid seda Photoshopis, nii et see oli selge ja täpne nagu passipilt. E-fotod saime kätte 24 tunni jooksul ja paar päeva hiljem saime ka tegelikud eksemplarid posti teel kätte.",
+        "titre": "Tõhus"
       },
       {
-        "nom": "betiolina, 15/08/2022",
-        "texte": "Väga hea rakendus. Kui tulemus ei ole rahuldav, saab foto uuesti teha nii mitu korda kui vaja, ilma lisatasuta.",
-        "titre": "Isikut tõendav dokument"
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Olin alguses veidi kahtlev, kui kasutasin seda rakendust oma juhiloa foto tegemiseks, kuid pärast eduka foto loomise näpunäidete ja juhiste järgimist sai see kõik mõne minutiga tehtud. Ma ei pidanud isegi oma kodust lahkuma, mis on lisaboonus. Kindlasti soovitan!",
+        "titre": "Kindlasti soovitan!!"
       },
       {
-        "nom": "Anaïs M, 21/02/2022",
-        "texte": "Pärast mitu kuud võitlust ANTS-iga, kes keeldus minu fotodest (2 korda), proovisin viimast võimalust ja olin meeldivalt üllatunud. Fotod, kuigi need ei olnud kvaliteetsed nagu fotomaatide omad, võeti vastu ja minu juhiluba on loomisel.",
-        "titre": null
-      },
-      {
-        "nom": "cosmiccbyul, 04/07/2022",
-        "texte": "Laadisin alla selle rakenduse, et saada ePhoto kood, kuna ma ei olnud Prantsusmaal ja ei saanud fotomaati kasutada. Minu üllatuseks oli see ülimalt kiire: tegin foto mõne minutiga ja sain ePhoto koodi 30 minuti pärast! Lisaks maksis see ainult 6 eurot? Soovitan tungivalt!",
-        "titre": "Väga kiire ja tõhus!"
-      },
-      {
-        "nom": "Starsissi, 02/12/2022",
-        "texte": "Vajasin digitaalset juhilubade fotot. Tänu sellele rakendusele sain need teha kodus, ilma et peaksin liikuma ja piiramata katsete arvule. Lisaks on seal ka nõuanded, mis näitavad, mida tohib ja mida mitte, see on väga mugav. Minu fotod võeti vastu valitsuse poolt ja sain just oma uue juhiloa?",
-        "titre": "Väga rahul"
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "See rakendus avaldas mulle tõeliselt muljet – protsess oli lihtne – heaks kiidetud ja lisati probleemideta veebirakendusele – soovitan kindlasti.",
+        "titre": "Uus pass"
       }
     ],
     "nos_partenaires": "Meie partnerid",
@@ -230,107 +282,99 @@
   },
 
   "Bloc5": {
-    "titre_bloc5_1": "Miks valida ",
-    "titre_bloc5_span": "meie teenus?",
-    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/lihtne-isikut-tõendava-dokumendi-foto-loomise-tööriist-internetis.jpg",
+    "titre_bloc5_1": "Miks inimesed valivad ",
+    "titre_bloc5_span": "Smartphone iD teenuse?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Noored-sobrad-teevad-Eesti-passifoto-nutitelefoni-ID-rakendusega.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "service24h24Et7j7": "24/7 teenindus",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Kõikidele dokumentidele",
-        "texteService": "Kõik dokumenditüübid on saadaval."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Kõikidele dokumenditüüpidele",
+        "texteService": "Õige suurus digitaalses ja trükitud formaadis, foto sügavus, taustavärv, valgustus..."
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "100% vastavus",
-        "texteService": "Kõikidele ametlikele dokumentidele üle maailma."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "100% kooskõla",
+        "texteService": "100% kooskõla mis tahes ametliku dokumendiga kogu maailmas."
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Valige parim foto",
-        "texteService": "Ja tehke piiramatu arv pilte."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Hankige parim foto",
+        "texteService": "Tehke piiramatu arv pilte ja valige parim foto."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "service24h24Et7j7": "Tõeline klienditeenindus",
-        "texteService": "Inimesed, mitte robotid."
+        "texteService": "Ei mingeid roboteid ega varjatud kontaktteavet, teie positiivne kogemus on meie jaoks oluline."
       },
       {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Ideaalne lahendus",
-        "texteService": "Imikutele, puudega inimestele, välismaalastele, maapiirkondade elanikele jne."
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Mugav paljude jaoks",
+        "texteService": "Eriti mugav imikutele, invaliididele, välismaal ja maapiirkonnas elavatele inimestele..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "service24h24Et7j7": "Ökoloogiline",
-        "texteService": "Enam pole paberit ega liikumist."
+        "texteService": "Ökoloogiline, dokumendi foto uuendamine paberit raiskamata."
       }
     ]
   },
 
   "Bloc6": {
-    "titre_bloc6_1": "Dokumendifoto",
-    "titre_bloc6_2": "kõikidele ametlikele dokumentidele",
-    "titre_bloc6_span": "sobiv formaat",
+    "titre_bloc6_1": "Igale Eesti dokumendile ",
+    "titre_bloc6_2": "dokumendifoto",
+    "titre_bloc6_span": "sobiv ",
     "documents": [
       {
+        "titre_doc": "Eesti pass",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-pass.png"
+      },
+      {
+        "titre_doc": "ID kaart",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/ID-kaart.png"
+      },
+      {
         "titre_doc": "Juhiluba",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/juhiloa-dokumendifoto.png"
-      },
-      {
-        "titre_doc": "Pass",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passi-dokumendifoto.png"
-      },
-      {
-        "titre_doc": "ID-kaart",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/id-kaardi-foto.png"
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Juhiluba.png"
       },
       {
         "titre_doc": "Elamisloakaart",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/elamisloa-dokumendifoto.png"
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Elamisloakaart.png"
       },
       {
-        "titre_doc": "Haigekassakaart",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/haigekassa-dokumendifoto.png"
+        "titre_doc": "Viisa",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Viisa.png"
       }
     ],
     "bloc_photo": [
       {
-        "impressionPhoto": "Foto printimine",
-        "paragraphe": "Saage trükitud formaat 2 päeva jooksul või kasutage seda oma fotode printimiseks meie partnerettevõtetes.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/trüki-foto-online.png",
+        "impressionPhoto": "Kus Eestis dokumendifotosid printida?",
+        "paragraphe": "Tellige professionaalselt prinditud fotod nutitelefoni iD-ga või printige lähedal asuvas asutuses.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifotode-mall.png",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
           },
           {
-            "nom_partenaire": "E. Leclerc",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
+            "nom_partenaire": "Kiirfoto",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Kiirfoto.png"
           },
           {
-            "nom_partenaire": "Auchan",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+            "nom_partenaire": "Kodak Express",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Kodak-Express-1.png"
           },
           {
-            "nom_partenaire": "Intermarché",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
+            "nom_partenaire": "Photo Point",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Photo-Point.png"
           },
           {
-            "nom_partenaire": "Carrefour",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
-          },
-          {
-            "nom_partenaire": "fnac",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
-          },
-          {
-            "nom_partenaire": "Cewe",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+            "nom_partenaire": "Fotoluks",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Fotoluks.png"
           }
         ]
       }
@@ -340,19 +384,19 @@
   "Bloc7": {
     "titre_bloc7_1": "Ideaalne lahendus",
     "titre_bloc7_2": "ametlike dokumentide taotlustele",
-    "titre_bloc7_span": "dokumentidele",
+    "titre_bloc7_span": "dokumentide",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/ephoto-kood.png",
-        "paragraphe": "Eesti dokumentide jaoks on vajalik registreerimiseks ANTS veebisaidil.",
-        "titre": "Ametlik ePhoto kood"
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/lisada-passifotole-digitaalallkiri.png",
+        "paragraphe": "Vajadusel seotakse veebis teie allkiri ametliku dokumendi fotoga.",
+        "titre": "Digitaalne allkiri"
       },
       {
-        "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-kehtivus.png",
-        "paragraphe": "Isikut tõendava dokumendi foto peab olema tehtud vähem kui 6 kuud tagasi. Valitsus saab näha foto tegemise kuupäeva.",
-        "titre": "Alla 6 kuu vanune foto"
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/toendage-passifoto-kuupaeva-ja-kellaaega.png",
+        "paragraphe": "Reaalajas pildistamine tõestab foto uudsust, mis on ametlike dokumentide jaoks kohustuslik.",
+        "titre": "Tõesta foto kehtivust"
       }
     ]
   },
@@ -360,33 +404,33 @@
   "Bloc8": {
     "titre_bloc8_1": "Kuidas",
     "titre_bloc8_2": "isikut tõendava dokumendi foto",
-    "titre_bloc8_span": "õnnestuda",
-    "titre_encart": "Mõned nõuanded",
-    "video": "<iframe title=\"Kuidas kodus passipilti teha\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "titre_bloc8_span": "edukat",
+    "titre_encart": "Mõned näpunäited",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",
         "chiffre": 1,
-        "texte": "Prillid",
-        "texte_span": "eemaldatud"
+        "texte": "Võtke",
+        "texte_span": "prillid eest"
       },
       {
         "check": "/images/General/check-green.png",
         "chiffre": 2,
-        "texte": "Nägu",
-        "texte_span": "ühtlaselt valgustatud"
+        "texte": "Tagage ühtlane",
+        "texte_span": "valgus teie näol"
       },
       {
         "check": "/images/General/check-green.png",
         "chiffre": 3,
-        "texte": "Juuksed",
+        "texte": "Juuksed peaksid olema",
         "texte_span": "õlgade taga"
       },
       {
         "check": "/images/General/check-green.png",
         "chiffre": 4,
-        "texte": "Suu",
-        "texte_span": "suletud, ilma naeratuseta"
+        "texte": "Suu peab olema kinni,",
+        "texte_span": "neutraalne ilme"
       }
     ],
     "bouton_plus": {
@@ -395,99 +439,67 @@
     },
     "lienBebe": {
       "url": "https://www.smartphone-id.com/et/eesti-beebipassi-foto/",
-      "title": "Kuidas teha oma beebi dokumendifotot?"
+      "title": "Kuidas teha beebi dokumendifotot?"
     }
   },
 
   "Bloc9": {
     "ID": "Isikut tõendav foto",
-    "ePhoto": "ePhoto kood",
+    "ePhoto": "",
     "codeEphoto": [
       {
-        "texte_accordeon": "<p>Kas vajate <a href=\"https://www.smartphone-id.com/ephoto-ants/\">ePhoto allkirjakoodi</a> (või ePhoto koodi) veebipõhise taotluse jaoks ANTS veebisaidil?</p>\n<p>See on väga lihtne, minge veebilehele Smartphone-iD: isikut tõendava foto ja ePhoto taotluse rakendus. Laadige alla rakendus, valige vajalik dokument (juhiluba, elamisloakaart, DCEM jne). Seejärel tehke oma foto ja allkiri oma nutitelefoniga ning ongi valmis. Pärast meie ekspertide meeskonna kinnitust saate oma ePhoto koodi e-posti teel mõne minuti jooksul.</p>\n",
-        "titre_accordeon": "Kuidas saada ePhoto koodi?"
-      },
-      {
-        "texte_accordeon": "<p>ePhoto kood on kirjutatud fotolehele, mis on saadaval:</p>\n<ul>\n<li>„Isikut tõendava foto rakenduse“ Smartphone iD rakenduses, menüüs „Tellimuste jälgimine“</li>\n<li>otse saadud e-kirjas. Kood on märgitud ka sellele e-kirjale.</li>\n</ul>\n",
-        "titre_accordeon": "Kust leida ePhoto koodi?"
-      },
-      {
-        "texte_accordeon": "<p>Teil on kaks võimalust:</p>\n<ul>\n<li>Kas kopeerige ePhoto kood 22 tähemärgist (tähed ja numbrid), mis on teie fotolehel. Pange tähele, et tähed tuleb kirjutada suurtähtedega ja ärge lisage tühikuid 🙂</li>\n<li>Või tehke kopeerimine ja kleepimine ePhoto koodist, mis on märgitud teie saadud e-kirjas.</li>\n</ul>\n",
-        "titre_accordeon": "Kuidas sisestada ePhoto koodi?"
-      },
-      {
-        "texte_accordeon": "<p>ePhoto kood on ühekordseks kasutamiseks. Kui olete selle sisestanud ANTS veebisaidile, ei saa seda enam kasutada.</p>\n<p>ANTS kaitseb teie andmeid, takistades ePhoto koodide mitmekordset kasutamist.</p>\n",
-        "titre_accordeon": "Kui palju kordi saab ePhoto koodi kasutada?"
-      },
-      {
-        "texte_accordeon": "<p>ePhoto kood kehtib 6 kuud. See vastab teie isikut tõendava dokumendi foto kehtivusajale.</p>\n<p>Teil on 6 kuud aega selle kasutamiseks, pärast seda see ei tööta enam.</p>\n",
-        "titre_accordeon": "Kui kaua kehtib ePhoto kood?"
-      },
-      {
-        "texte_accordeon": "<p>Fotolehel on üks ePhoto kood.</p>\n<p>Kui vajate teist ePhoto koodi, saate selle ilma uut fotot ja allkirja tegemata 6 kuu jooksul. Selleks minge Smartphone iD rakenduse „Isikut tõendav foto rakendus“ menüüsse „Tellimuste jälgimine“, valige oma tellimus ja taotlege uut ePhoto koodi. Saate selle mõne minuti jooksul.</p>\n",
-        "titre_accordeon": "Kui palju ePhoto koode on fotolehel?"
-      },
-      {
-        "texte_accordeon": "<p>Võimalik on mitu põhjust:</p>\n<ul>\n<li>Tehtud on viga ePhoto koodi sisestamisel. Tähed peavad olema suurtähtedega, tuleb sisestada 22 tähemärki ilma tühikuteta, olete võib-olla segamini ajanud tähed O ja numbrid 0.</li>\n<li>Olete juba kasutanud seda ePhoto koodi. ePhoto kood on ühekordseks kasutamiseks, küsige uut ePhoto koodi otse Smartphone iD rakenduse „Isikut tõendava foto rakendus“ kaudu.</li>\n</ul>\n<p>Kui teie tellimus on alla 6 kuu vana, pole vaja uut fotot ja allkirja teha. Minge menüüsse „Tellimuste jälgimine“, valige oma tellimus ja küsige uut ePhoto koodi.</p>\n<p>Kui teie tellimus on üle 6 kuu vana, tehke uus tellimus ja saate ePhoto koodi mõne minuti jooksul.</p>\n",
-        "titre_accordeon": "Miks minu ePhoto kood ei tööta?"
-      },
-      {
-        "texte_accordeon": "<p>See on väga lihtne, minge ANTS veebisaidile <a href=\"https://permisdeconduire.ants.gouv.fr/\">Juhiluba - Avaleht (ants.gouv.fr)</a>, valige oma taotluse põhjus (registreerumistaotlus juhiloa eksamile, juhiloa väljastamise taotlus jne) ja täitke kuvatud vorm. „Foto ja digitaalse allkirja koodi“ lahtrisse sisestage oma ePhoto kood ja valmis!</p>\n",
-        "titre_accordeon": "Kuidas sisestada ePhoto koodi juhiloa jaoks?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p>Eesti isikut tõendavad fotod peavad vastama ISO/IEC 19794-5:2005 standardile.</p>\n<p>Isikut tõendava dokumendi foto suurus peab olema 35&#215;45 mm.</p>\n<p>Põhinõuded on järgmised:</p>\n<ul>\n<li>Ärge kandke peakatteid ega nähtavaid juukselõksu.</li>\n<li>Võtke neutraalne ilme, suu kinni. Naeratus pole lubatud.</li>\n<li>Nägu peab olema täielikult nähtav (silmad, kulmud, kõrvad, kael).</li>\n<li>Pikad juuksed tuleb asetada õlgade taha.</li>\n<li>Prille ei tohi kanda, välja arvatud spetsiaalse meditsiinilise tõendiga.</li>\n</ul>\n<p>Lihtsustage oma elu, Smartphone iD kontrollib kõiki neid punkte teie eest ja garanteerib, et teil on kehtiv isikut tõendav foto. Enam ei pea muretsema, et taotlus tagasi lükatakse.</p>\n<p>Rohkem infot: <a href=\"https://www.smartphone-id.com/photo-identite-conforme/\" target=\"_blank\" rel=\"noopener\">https://www.smartphone-id.com/photo-identite-conforme/</a></p>\n",
-        "titre_accordeon": "Millised on isikut tõendavate fotode nõuded?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Asetage beebi voodil olevale valgele linale või asetage beebi söögitooli, mille seljatuge katab valge rätik. Võtke lapselt lutt eest, püüdke ta tähelepanu ja proovige teha pilt sel hetkel, kui lapse suu on suletud.</main></p><aside class=\"kal-accordion-item-active-aside\">Mõned valitsused lubavad suul veidi lahti olla, kuid keelt ega hambaid ei tohi näha olla.<br />Veenduge, et teie lapse pea ei oleks viltu ja ärge unustage, et te ei saa pildistamise ajal last ise toetada, kuna fotol ei tohi näha olla ühtegi teist kehaosa.<br />Samuti saate teha pildi meie veebisaidi Smartphone iD kaudu, kus aitame teil meie koolitatud ekspertide abiga teha vastuvõetava foto.</aside>",
+        "titre_accordeon": "Kuidas teha oma beebi dokumendifotot?"
       },
       {
-        "texteAccordeon": "<p>Isikut tõendava dokumendi foto hind võib ulatuda neli korda kallimaks, sõltuvalt valitud toetusest:</p>\n<ul>\n<li>Fotokabiinid: 8 kuni 10 €</li>\n<li>Fotograafid: 15 kuni 20 €</li>\n<li>Smartphone iD: alla 5 €</li>\n</ul>\n<p>Smartphone iD pakub turu madalaimat hinda ja kõrgeimat garantiid. Alla 5 € eest saate nõuetele vastavad isikut tõendavad fotod.</p>\n",
-        "titre_accordeon": "Kui palju maksab isikut tõendava dokumendi foto Eestis?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Eesti dokumendi digifoto peaks olema pikslimõõtmetega 1300 x 1600 ning faili suurus võib varieeruda vahemikus 1MB kuni 5MB.</main></p><aside class=\"kal-accordion-item-active-aside\">Teil ei ole lubatud esitada skannitud fotot ega arvuti/mobiili ekraanipilti.<br />Saate teha pildi meie veebisaidi Smartphone iD kaudu, kust saate koolitatud ekspertide poolt kinnituse soovitud suuruses fotole.<br />Koos fotoga saate 10&#215;15 prinditava malli, mis näitab teie foto tegemise kuupäeva, mis tõendab, et pilt on tehtud kohustusliku 6-kuu perioodi vältel.</aside>",
+        "titre_accordeon": "Mis suurusega on Eesti dokumendifoto?"
       },
       {
-        "texteAccordeon": "<p>Isikut tõendav foto peab olema tehtud sertifitseeritud professionaali poolt, vastasel juhul ei aktsepteeri seda valitsus.</p>\n<p>Teil on mitu võimalust:</p>\n<ul>\n<li>Püsige kodus ja kasutage sertifitseeritud isikut tõendava foto rakendust Smartphone iD.</li>\n<li>Minge sertifitseeritud fotograafi juurde või kasutage sertifitseeritud fotokabiini.</li>\n</ul>\n<p>Smartphone iD teeb isikut tõendava foto tegemise lihtsaks. Ei ole vaja kuhugi liikuda, tehke oma foto nutitelefoniga teile sobival ajal. Me paneme teie foto vastavusse nõuetega ja saadame selle otse teie postkasti.</p>\n",
-        "titre_accordeon": "Kuidas teha isikut tõendava dokumendi fotot?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Dokumendipilte saate teha linnade peamistes sõlmpunktides asuvates fotokabiinides, kaubanduskeskustes ja postkontorites või ühes linna paljudest seda teenust pakkuvates fotolaborites.</main></p><aside class=\"kal-accordion-item-active-aside\">Täpsemat infot selle kohta, kes Eestis dokumendipilditeenust pakuvad, saab küsida kohalikelt elanikelt või tutvuda vastavate veebilehtedega.<br />Kui aga eelistad dokumendifotosid mugavalt kodus teha, võid valida Smartphone iD teenuse, mis võimaldab pildistada mobiiltelefoniga, vormindada selle mis tahes Eesti dokumendi jaoks vajalikus suuruses ja saada ka väljaõppinud ekspertidelt kinnituse.</aside>",
+        "titre_accordeon": "Kust saab Eestis dokumendifotot teha?"
       },
       {
-        "texteAccordeon": "<p>Foto peab olema tehtud kas:</p>\n<ul>\n<li>Kasutades siseministeeriumi heakskiidetud süsteemi mobiilirakenduses.</li>\n<li>Sertifitseeritud professionaali, näiteks fotograafi poolt.</li>\n<li>Sertifitseeritud fotokabiinis, mis kasutab siseministeeriumi heakskiidetud süsteemi.</li>\n</ul>\n<p>Sõltuvalt valitud toetusest ei ole teenused ühesugused ja hind võib varieeruda.</p>\n<p>Smartphone iD on ainus, kes garanteerib, et teie isikut tõendav foto vastab valitsuse nõuetele ja seda turu madalaima hinnaga.</p>\n",
-        "titre_accordeon": "Kust teha isikut tõendava dokumendi fotosid minu lähedal?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Dokumendipilte saate printida erinevates kohtades: professionaalsetes fotograafia poodides (Photo Point, Kodak, Fotoluks) või fotokabiinide kaudu (Kiirfoto), linna peaväljakutel, kaubanduskeskustes, supermarketites, postkontorites jne.</main></p><aside class=\"kal-accordion-item-active-aside\">Teil on ka võimalus lasta oma dokumendifotod otse oma kodus printida.<br />Tegelikult mitmeid selliseid teenuseid, nagu Smartphone iD, mis loovad teie jaoks prinditava 10&#215;15 cm malli või tarnivad professionaalselt prinditud foto teie ukse taha.</aside>",
+        "titre_accordeon": "Kust saab Eestis dokumendifotosid printida?"
       },
       {
-        "texteAccordeon": "<p>Kasutades Smartphone iD rakendust, saate oma fotolehe otse oma postkasti.</p>\n<p>Kas vajate oma fotolehe prinditud versiooni? Teil on kolm võimalust:</p>\n<ul>\n<li>Tellige fotolehe printimine ja saatmine oma tellimuse esitamise ajal Smartphone iD abil. Teie fotoleht trükitakse spetsialistide poolt ja postitatakse vähem kui 24 tunni jooksul.</li>\n<li>Kui olete juba tellimuse esitanud, pole probleemi. Logige sisse e-posti aadressiga Smartphone iD rakenduses „Isikut tõendav foto rakendus“. Klõpsake menüüs „Tellimuste jälgimine“ ja tellige oma fotolehe printimine ja saatmine.</li>\n<li>Printige ise oma fotoleht kas oma fotoprinteriga või fotokioskis. Seda valikut ei soovitata kahel põhjusel:\n<ul>\n<li>Trükiformaat on iga printeri jaoks erinev ja võib olla aeganõudev leida sobiv formaat, et saada fotosid soovitud suuruses 35&#215;45 mm.</li>\n<li>Valitsus nõuab kõrget trükikvaliteeti ja professionaalset fotopaberit.</li>\n</ul>\n</li>\n</ul>\n",
-        "titre_accordeon": "Kuidas printida isikut tõendava dokumendi fotot?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Skaneeritud foto esitamine ametliku isikut tõendava dokumendi tarbeks on keelatud. Kui teil on vaja esitada digifoto, saate kasutada meie lihtsat automaatset veebitööriista, millega kaasneb koolitatud ekspertide kontroll.</main></p><aside class=\"kal-accordion-item-active-aside\">Nii saate oma dokumendi jaoks vajalikus vormingus täiusliku digitaalse dokumendifoto.<br />Kui skannite dokumendifotosid mitme väljatrüki loomiseks, oleme ka seda käsitlenud.<br />Oma digitaalse üksikfotoga saate meili teel ka printimiseks valmis 10&#215;15 prindimalli, mida saate piiramatult kasutada.</aside>",
+        "titre_accordeon": "Kuidas skaneerida dokumendifotot?"
       },
       {
-        "texteAccordeon": "<p>Isikut tõendava dokumendi fotol hästi välja nägemine ei ole alati lihtne.</p>\n<p>Smartphone iD abil saate teha nii palju fotosid kui soovite, pildistamise katseid on piiramatu arv. Nii saate kindel olla, et teil on SEE isikut tõendav foto, mida soovite.</p>\n<p>Fotograafi juures on teil õigus ainult ühele katsele.</p>\n<p>Fotokabiinis saate teha 3 katset ja siis peate valima.</p>\n",
-        "titre_accordeon": "Kuidas teha hea isikut tõendava dokumendi fotot?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Passipiltide hind sõltub sellest, kuhu te neid pildistama lähete. Fotoboksis maksab 6 foto väljatrükk 4–7 eurot (valitsused keelduvad 10% sellel viisil tehtud fotodest).</main></p><aside class=\"kal-accordion-item-active-aside\">Professionaalne fotograaf aga küsib 6 koopia eest 15–20 eurot (keeldumismäär 2%).<br />Siiski pakuvad viimased sageli allahindlusi lastele ja pensionäridele.<br />Juhul, kui teil ei ole neid kahte meetodit võimalik kasutada, saate Smartphone iD teenuse abil oma mobiiltelefoniga passipildi teha.<br />Saate teha pildi meie veebilehe kaudu, kus teie poolt taotletud Eesti dokumendile luuakse automaatselt õige formaat. 100% aktsepteerimismäära saavutamiseks kontrollivad teie fotot ka meie koolitatud eksperdid.</aside>",
+        "titre_accordeon": "Kui palju maksab Eestis dokumendifoto tegemine?"
       },
       {
-        "texteAccordeon": "<p>Lihtsus on võtmetähtsusega. Isikut tõendava dokumendi foto peaks olema võimalikult loomulik.</p>\n<p>Parim on jätta juuksed lahti. Kui need on pikad, asetage need õlgade taha, et nägu oleks hästi nähtav. Võite juuksed kinni panna, kuid sel juhul ei tohi ükski kinnitus olla nähtav ja soeng ei tohiks olla liiga keeruline.</p>\n<p>Kui teil on tukk, veenduge, et see ei kataks teie kulme, vastasel juhul võite saada keeldumise valitsuselt.</p>\n",
-        "titre_accordeon": "Kuidas soengut teha isikut tõendava dokumendi fotol?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Dokumendifotode printimiseks peate esmalt arvutisse alla laadima tarkvara, mis võimaldab hankida 35 x 45 mm fotosid.</main></p><aside class=\"kal-accordion-item-active-aside\">Seejärel ühendage arvutiga fotopaberiga ühilduv printer, sest aktsepteeritakse ainult professionaalselt prinditud passifotosid.<br />Kui te ei soovi tarkvara alla laadida või Internetist otsida, võite valida Smartphone iD teenuse, kus peate valima ainult vajaliku dokumenditüübi ja kõik muu tehakse teie eest ära.<br />Professionaalselt 10&#215;15 cm mõõtmetes prinditud fotod saate tellida oma koduuksele või kasutage 10&#215;15 cm digifaili, et leida läheduses asuv printimisvõimalus.</aside>",
+        "titre_accordeon": "Kuidas printida dokumendile sobilikus suuruses fotot?"
       },
       {
-        "texteAccordeon": "<p>Jah, isikut tõendaval fotol võib kanda meiki. Kuid meik peaks olema kerge. Ärge kasutage liiga erksat värvi silmadele või huultele. Isikut tõendav foto peaks olema võimalikult loomulik.</p>\n",
-        "titre_accordeon": "Kas isikut tõendaval fotol võib kanda meiki?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Dokumendifotode digitaalsel kujul saamiseks on mitu võimalust. Kui vajate kvaliteetset dokumendifotot, võite pöörduda professionaalse fotograafi poole.<br />Kui otsite ökonoomset meetodit, võite kasutada rakendusi ja tarkvara nagu Smartphone iD, mis võimaldavad teil otse kodust digitaalses vormingus dokumendifotosid luua.<br />Tänapäeval suudavad nutitelefonide kaamerad teha edukaid dokumendifotosid.<br />Siiski on kõige parem lasta eksperdil oma fotot kontrollida, kas see on õiges vormingus, sest valitsused keelduvad nõuetele mittevastavatest dokumendifotodest ja tühistavad teie dokumenditaotluse.</aside>",
+        "titre_accordeon": "Kust saada digitaalseid dokumendifotosid?"
       },
       {
-        "texteAccordeon": "<p>Jah, isikut tõendaval fotol võib kanda kõrvarõngaid, kui need on diskreetsed. Liiga silmatorkavaid või suuri kõrvarõngaid valitsus ei aktsepteeri.</p>\n",
-        "titre_accordeon": "Kas isikut tõendaval fotol võib kanda kõrvarõngaid?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Kõik valitsused ei luba dokumendifotol prillide kandmist, kuna nendega on väga raske nõuetele vastavat pilti saada. Keelatud on paksud raamid, samuti toonitud klaasid, peegeldust ei tohi tekkida ja need peavad istuma vastavalt nõuetele.</main></p><aside class=\"kal-accordion-item-active-aside\">Seetõttu soovitavad ke need valitsused, kes prillide kandmist ei keela, need pildistamiseks ära võtta.</aside>",
+        "titre_accordeon": "Kas dokumendifotol võib prille kanda?"
       },
       {
-        "texteAccordeon": "<p>Ei, me ei soovita kanda prille isikut tõendaval fotol. Valitsus aktsepteerib väga vähe prillidega fotosid, kuna nõuded on väga rangad.</p>\n<p>Prille võivad kanda ainult inimesed, kellel on selleks spetsiaalne meditsiiniline tõend. Ja sel juhul peavad nad järgima järgmisi reegleid:</p>\n<ul>\n<li>raam ei tohi olla paks.</li>\n<li>silmad ja kulmud ei tohi olla raamiga kaetud.</li>\n<li>klaasid ei tohi peegeldada valgust.</li>\n<li>toonitud või värvilised klaasid on keelatud.</li>\n</ul>\n",
-        "titre_accordeon": "Kas isikut tõendaval fotol võib kanda prille?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Jah, dokumendifotol võib meiki kanda. Kuid pange tähele, et meik peaks olema naturaalne. Ärge kandke oma silmalaugudele liiga palju lauvärvi.<br />Sageli võib läikiv huulepulk tekitada peegeldust, seetõttu kasutage matti huulepulka, kui soovite oma huuli rõhutada.<br />Samuti on kasulik enne pildistamist kontrollida, et nahk ei oleks rasune, kuna see võib tekitada valguse peegeldust.<br />Lõpuks pidage meeles, et passipilt peab olema võimalikult loomulik ja teie igapäevase välimusega sarnanema.</aside>",
+        "titre_accordeon": "Kas dokumendifotol võib meiki kanda?"
       },
       {
-        "texteAccordeon": "<p>Isikut tõendava dokumendi foto tegemiseks iPhone'iga minge veebisaidile Smartphone-iD: isikut tõendava foto ja ePhoto rakendus ja järgige juhiseid! Valige vajalik dokument, seejärel tehke oma foto oma nutitelefoniga ja ongi valmis. Pärast meie ekspertide meeskonna kinnitust saate oma fotod e-posti teel mõne minuti jooksul.</p>\n",
-        "titre_accordeon": "Kuidas teha isikut tõendava dokumendi fotot iPhone'iga?"
-      },
-      {
-        "texteAccordeon": "<p>Isikut tõendava dokumendi foto tegemiseks Androidiga minge veebisaidile Smartphone-iD: isikut tõendava foto ja ePhoto rakendus ja järgige juhiseid! Valige vajalik dokument, seejärel tehke oma foto oma nutitelefoniga ja ongi valmis. Pärast meie ekspertide meeskonna kinnitust saate oma fotod e-posti teel mõne minuti jooksul.</p>\n",
-        "titre_accordeon": "Kuidas teha isikut tõendava dokumendi fotot Androidiga?"
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Dokumendifotol sobivad tugevates toonides riided, mis taustast selgelt eristuvad. Kuna taust on hele, siis tulevad tumedamad värvid kontrasti suurendamiseks kasuks.<br />Samuti veenduge, et teie särk ei oleks liiga paljastav, kuna särgita passipildid on keelatud.<br />Lõpuks on biomeetrilisel dokumendifotol keelatud ka igasugune vormiriietus.</aside>",
+        "titre_accordeon": "Mida dokumendifotol kanda?"
       }
     ],
-    "titre_bloc9": "Korduma kippuvad küsimused",
-    "titre_bloc9_span": "Korduma "
+    "titre_bloc9": "kippuvad küsimused",
+    "titre_bloc9_span": "Korduma"
   },
 
   "Footer": {
