@@ -561,19 +561,40 @@
     "etoiles" : "étoiles sur 5"
   },
 
-  "Bloc11" : {
-    "permis" : "Permis de conduire",
-    "Link1" : "",
-    "passeport" : "Passeport",
-    "Link2" : "",
-    "cni" : "Carte Nationale d'identité",
-    "Link3" : "",
-    "séjour" : "Tire de Séjour",
-    "Link4" : "",
-    "visa" : "Visa",
-    "Link5" : "",
-    "vitale" : "Carte Vitale",
-    "Link6" : ""
+  "Bloc11": {
+    "titre": "Trouvez vos réponses dans les pages correspondantes",
+    "liens": [
+      {
+        "link": "Permis de conduire",
+        "url": "https://www.smartphone-id.com/permis-conduire-photo/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Passeport",
+        "url": "https://www.smartphone-id.com/photo-identite-passeport/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Carte Nationale d'identité",
+        "url": "https://www.smartphone-id.com/photo-carte-identite/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Titre de Séjour",
+        "url": "https://www.smartphone-id.com/code-ephoto-titre-de-sejour/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/en_GB/france-visa-photo-online/",
+        "icon": "/images/Bloc11/visa.svg"
+      },
+      {
+        "link": "Carte Vitale",
+        "url": "https://www.smartphone-id.com/photo-identite-carte-vitale/",
+        "icon": "/images/Bloc11/carte-vitale.svg"
+      }
+    ]
   },
 
   "Footer": {

@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import useTranslations from "@/utils/useTranslations";
-import styles from '../styles/Bloc11.module.css';  // Importation du CSS module
+import styles from '../styles/Bloc11.module.css';
+import Link from "next/link";
 
-const Bloc11 = ({ page, locale }) => {
-    const { translations, loading } = useTranslations(locale);
+const Bloc11 = ({page, locale}) => {
+    const {translations, loading} = useTranslations(locale);
 
     if (loading) {
         return <div>Loading...</div>;
@@ -13,59 +14,28 @@ const Bloc11 = ({ page, locale }) => {
         return <div className="hidden">Translations for Bloc11 not found</div>;
     }
 
-    const links = [
-        {
-            href: "https://www.smartphone-id.com/code-ephoto-titre-de-sejour/",
-            label: "Titre de Séjour",
-            icon: "/images/Bloc11/titre-de-sejour.svg"
-        },
-        {
-            href: "https://www.smartphone-id.com/photo-identite-passeport/",
-            label: "Passeport",
-            icon: "/images/Bloc11/passeport.svg"
-        },
-        {
-            href: "https://www.smartphone-id.com/en_GB/france-visa-photo-online/",
-            label: "Visa",
-            icon: "/images/Bloc11/visa.svg"
-        },
-        {
-            href: "https://www.smartphone-id.com/permis-conduire-photo/",
-            label: "Permis de conduire",
-            icon: "/images/Bloc11/permis-conduire.svg"
-        },
-        {
-            href: "https://www.smartphone-id.com/photo-carte-identite/",
-            label: "Carte d'identité",
-            icon: "/images/Bloc11/carte-identite.svg"
-        },
-        {
-            href: "https://www.smartphone-id.com/photo-identite-carte-vitale/",
-            label: "Carte Vitale",
-            icon: "/images/Bloc11/carte-vitale.svg"
-        },
-    ];
-
     return (
+
         <div className={styles.container}>
-            <h4 className={styles.heading}>Trouvez vos réponses dans les pages correspondantes</h4>
+            <h4 className={styles.heading}>{translations.Bloc11["titre"]}</h4>
             <section className={styles.gridContainer}>
-                {links.map((link, index) => (
-                    <a
+                {translations.Bloc11.liens.map((item, index) => (
+                    <Link
                         key={index}
-                        href={link.href}
+                        href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.card}
                     >
                         <div className={styles.iconContainer}>
-                            <Image src={link.icon} alt={link.label} width={64} height={64} />
+                            <Image src={item.icon} alt={item.link} width={64} height={64}/>
                         </div>
-                        <p className={styles.label}>{link.label}</p>
-                    </a>
+                        <p className={styles.label}>{item.link}</p>
+                    </Link>
                 ))}
             </section>
         </div>
+
     );
 };
 
