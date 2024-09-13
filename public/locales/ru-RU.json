@@ -1,0 +1,621 @@
+{
+  "NavBar": {
+    "liens": [
+      {
+        "link": "паспорт",
+        "url": "https://www.smartphone-id.com/ru_RU/фото-на-паспорт/"
+      },
+      {
+        "link": "Водительское удостоверение",
+        "url": "https://www.smartphone-id.com/ru_RU/фото-для-удостоверение-на-право-управ/"
+      },
+      {
+        "link": "Вид на жительство",
+        "url": "https://www.smartphone-id.com/ru_RU/фото-на-вид-на-жительство/"
+      },
+      {
+        "link": "Личное дело",
+        "url": "https://www.smartphone-id.com/ru_RU/фото-в-личное-дело/"
+      },
+      {
+        "link": "виза",
+        "url": "https://www.smartphone-id.com/ru_RU/фото-на-визу/"
+      }
+    ]
+  },
+
+  "Bloc1" : {
+    "girl" : "",
+    "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-17.png",
+    "titre_bloc1" : "Быстрый и простой инструмент для создания",
+    "titre_h4_bloc1": "Просто сделайте фото и получите готовый результат!Попробуйте прямо сейчас!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "качественных фотографии на паспорт"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "и цифровых подписей."
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Немедленное редактирование с помощью ИИ"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Экспертная проверка"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Признается государством"
+      }
+    ]
+  },
+
+  "kalSearch": {
+    "titre_1": "Мне нужно фото для этой страны",
+    "titre_2": "и этого документа",
+    "bouton": "Сделать фото"
+
+  },
+
+  "Bloc2" : {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Более миллиона созданных действительных фотографий на паспорт"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Первый онлайн-провайдер электронных фотографий + подписей"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
+        "titre_repeteur1": "звезды в Apple Store и Google Play"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "Идеальное решение",
+    "titre_bloc3": "для создания фото на паспорт, не выходя из дома",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Автоматическое изменение размера и удаление фона.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/инструмент-для-удаления-фона-для-фотографии-на-паспорт.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Благодаря проверке наших экспертов действительность фотографий гарантирована.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/экспертная-проверка-по-фото-на-паспорт.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Благодаря проверке наших экспертов действительность фотографий гарантирована.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/распечатка-фотографий-на-паспорт-в-россию.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Предоставление личной информации не требуется. Ваше фото будет надежно храниться.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/secure-passport-photo-south-africa.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Отсканируйте QR-код своим смартфоном и сделайте фотографию.",
+        "titre_check": "Шаг 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фотография-на-паспорт-компьютерный-инструмент.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Ознакомьтесь с особенностями вашего фото-запроса.",
+        "titre_check": "Шаг 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/проверка-фотографий-на-паспорт-с-компьютером.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "При необходимости добавьте доставку распечатанного шаблона на дом.",
+        "titre_check": "Шаг 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/доставка-фото-на-паспорт-на-дом.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Получите цифровую фотографию паспорта и готовый к печати шаблон на свою электронную почту.",
+        "titre_check": "Шаг 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/сверить-фотографии-паспорта-с-помощью-компьютерного-инструмента.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Автоматическое изменение размера и удаление фона.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/инструмент-для-удаления-фона-для-фотографии-на-паспорт.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Благодаря проверке наших экспертов действительность фотографий гарантирована.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/экспертная-проверка-по-фото-на-паспорт.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Благодаря проверке наших экспертов действительность фотографий гарантирована.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/распечатка-фотографий-на-паспорт-в-россию.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Предоставление личной информации не требуется. Ваше фото будет надежно храниться.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/secure-passport-photo-south-africa.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Сделайте фото с помощью смартфона.",
+        "titre_check": "Шаг 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фото-на-паспорт-со-смартфона.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "При необходимости добавьте доставку распечатанного шаблона на дом.",
+        "titre_check": "Шаг 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/распечатать-фото-на-паспорт-с-доставкой.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Ознакомьтесь с особенностями вашего фото-запроса.",
+        "titre_check": "Шаг 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/проверка-фотографий-на-паспорт-на-смартфоне.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Получите цифровую фотографию паспорта и готовый к печати шаблон на свою электронную почту.",
+        "titre_check": "Шаг 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/проверенные-фотографии-на-паспорт-в-россии.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Создано более",
+    "titre_bloc4_2": "действительных фотографий на паспорта",
+    "titre_bloc4_span": "миллиона",
+    "partenaires": [
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Inri's",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      },
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Mobilians.png"
+      },
+      {
+        "text": "Planète Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "CER",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/CER.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+      },
+      {
+        "text": "App Advice",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/App-Advice.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Joanne Flack Thornton, 01/13/2023",
+        "texte": "Самой мне было сложно сделать приличную фотографию, поэтому я скачала это приложение. Я не предполагала, что будет использовано первое же фото, которое сделала, и, честно говоря, ни за что не подумала, что оно окажется хорошим. Но то, что я получила в результате, было супер, потому что фон был белый, тогда как у меня он был желтый, а выключатель был удален. Фотография была принята Британской онлайн-системой продления срока действия паспорта, и паспорт уже на пути к нам. Определенно стоит почти 6 евро, которые я заплатила. Отличное приложение!",
+        "titre": "Лучше, чем фотобудка"
+      },
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Сначала я немного сомневалась, использовать ли это приложение для создания фото на мои водительские права, но последовала советам и рекомендациям о том, как сделать подходящую фотографию, все было сделано за считанные минуты. Сотрудники проверяют, пригодно ли фото для использования, и вы можете распечатать его или отправить по электронной почте. Мне даже не пришлось выходить из дома, что является дополнительным бонусом. Однозначно рекомендую!!",
+        "titre": "Однозначно рекомендую!!"
+      },
+      {
+        "nom": "Bernard Mitchell, 05/14/2023",
+        "texte": "Я рекомендую это приложение. Все намного проще, чем ходить в фотобудку и т.д. Спасибо от еще одного счастливого клиента.",
+        "titre": "Спасибо от еще одного счастливого клиента"
+      },
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Потрясающе! Моему отцу все никак не удавалось попасть во Франции в официальную фотобудку, чтобы сделать электронное фото. И вот мы сфотографировали его дома с помощью этого приложения. Фото было несколько темноватым, но его отфотошопили так, чтобы оно стало четким и правильным, прямо как на паспорт. Мы получили электронные фотографии в течение 24 часов, а еще через несколько дней получили по почте настоящие. Они были не нужны, но мы заказали просто на всякий случай. Это мой первый опыт, когда приложение делает именно то, что обещает, и без каких-либо проблем! Классная работа, Smartphone iD!!!",
+        "titre": "Эффективно"
+      },
+      {
+        "nom": "Stephanie Moffatt, 11/06/2022",
+        "texte": "Фотографии одобряются далеко не с первого раза, но в приложении есть советы, как этого избежать. Мы с моим мужем оба пользовались этим приложением, чтобы получить новые паспорта, и наши фото приняли в паспортном столе с первого раза. Это гораздо дешевле, чем пользоваться фотобудкой.",
+        "titre": "Фотографии принимаются с первого раза"
+      },
+      {
+        "nom": "Pixie and Tess, 06/22/2022",
+        "texte": "Живя в США, получение правильного цифрового документа с фотографией для продления моего британского паспорта было проблемой. Но это приложение выручило меня. Оно было очень простым в использовании, и через несколько часов мое фото одобрили и выслали готовый документ, необходимый для Gov.com. Очень рекомендую это приложение!",
+        "titre": "Потрясающе"
+      }
+    ],
+    "nos_partenaires": "Наши партнеры",
+    "nos_medias": "Представлено"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "Почему стоит выбрать ",
+    "titre_bloc5_span": "Smartphone iD?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Круглосуточное обслуживание",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Для всех типов документов",
+        "texteService": "Правильный размер в цифровом и печатном формате, глубина фото, цвет фона, освещение..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "100% соответствие",
+        "texteService": "Получите 100% соответствие любого официального документа по всему миру."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Получите лучшее фото",
+        "texteService": "Делайте неограниченное количество фотографий и выбирайте лучший снимок."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Настоящее обслуживание клиентов",
+        "texteService": "Никаких роботов и скрытой контактной информации; нам важен ваш положительный опыт."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Удобно для многих",
+        "texteService": "Специально для младенцев, людей с ограниченными возможностями, эмигрантов, жителей сельской местности..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Экологический",
+        "texteService": "Больше не нужно тратить бумагу, если вам нужно продлить документ онлайн."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "Подгонка фотографий на паспорт",
+    "titre_bloc6_2": "российским документам",
+    "titre_bloc6_span": "ко всем",
+    "documents": [
+      {
+        "titre_doc": "Паспорт",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фото-на-паспорт-для-паспорта.png"
+      },
+      {
+        "titre_doc": "Passeport",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+      },
+      {
+        "titre_doc": "виза",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фото-на-паспорт-для-визы-в-россию.png"
+      },
+      {
+        "titre_doc": "Электронный паспорт гражданина",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/удостоверение-личности.png"
+      },
+      {
+        "titre_doc": "Водительское удостоверение",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фото-на-паспорт-для-водительских-прав.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Где распечатать фото на российский паспорт?",
+        "paragraphe": "Закажите профессионально распечатанные фотографии с помощью Smartphone iD или воспользуйтесь готовым к печати шаблоном, который вам отправят на электронную почту.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/создатель-шаблонов-фотографий-для-паспорта.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone-iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "ТриНаЧетыре",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ТриНаЧетыре.png.webp"
+          },
+          {
+            "nom_partenaire": "Auchan",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+          },
+          {
+            "nom_partenaire": "НаПаспорт",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/НаПаспорт.png"
+          },
+          {
+            "nom_partenaire": "Вау!Паспорт",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ВауПаспорт.png"
+          },
+          {
+            "nom_partenaire": "МФЦ с фотокабинкой",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/МФЦ-с-фотокабинкой.png.webpg"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1" :"Ваше онлайн-",
+    "titre_bloc7_2" : " для подачи заявлений на получение официальных документов",
+    "titre_bloc7_span": "решение",
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/add-digital-signature-passport-photo-south-africa.png",
+        "paragraphe": "При необходимости ваша подпись будет связана с вашей фотографией для подачи заявок на официальные документы онлайн.",
+        "titre": "Цифровая подпись"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/recent-passport-photo-south-africa.png",
+        "paragraphe": "Снимки, сделанные в режиме реального времени, подтверждают актуальность фотографии, что обязательно для официальных документов.",
+        "titre": "Подтверждение актуальности фото"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : "Как сделать",
+    "titre_bloc8_2" : "фото на паспорт?",
+    "titre_bloc8_span": "удачное",
+    "titre_encart": "Несколько советов",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 1,
+        "texte": "Снимите",
+        "texte_span": "очки"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 2,
+        "texte": "Свет должен падать",
+        "texte_span": "равномерно на лицо"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 3,
+        "texte": "Волосы должны быть",
+        "texte_span": "за плечами"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 4,
+        "texte": "Закрытый рот,",
+        "texte_span": "нейтральное выражение"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/ru_RU/требования-к-фото-на-паспорт/",
+      "title": "смотреть больше"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/ru_RU/фото-ребенка-на-загранпаспорт/",
+      "title": "Как сделать фотографию ребенка на паспорт?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "О фотографии для паспорта РФ",
+    "ePhoto": "ePhoto",
+    "codeEphoto": [
+      {
+        "texte_accordeon": "<p>Чтобы подать онлайн заявку на сайте ANTS, вам необходимо получить цифровой код ePhoto для паспорта или водительских прав.</p>\n<p>Загрузите приложение Smartphone iD, выберите нужный документ, сделайте фото и подпишите с помощью смартфона. После проверки фото нашей командой экспертов, вы получите свой код ePhoto на электронную почту в течение нескольких минут.</p>\n",
+        "titre_accordeon": "Как получить код ePhoto?"
+      },
+      {
+        "texte_accordeon": "<p>Код ePhoto отображается на вашем фотобланке, который можно найти:</p>\n<ul>\n<li>в приложении «Официальное фото паспорта» в меню «Отслеживание заказов»</li>\n<li>или в письме, полученном на вашу электронную почту. Код ePhoto также будет указан в этом письме.</li>\n</ul>\n",
+        "titre_accordeon": "Где найти код ePhoto?"
+      },
+      {
+        "texte_accordеon": "<p>Код ePhoto можно ввести двумя способами:</p>\n<ul>\n<li>Ручной ввод 22-значного кода (без пробелов, с учетом заглавных букв).</li>\n<li>Скопируйте и вставьте код ePhoto из письма, отправленного на вашу электронную почту.</li>\n</ul>\n",
+        "titre_accordеon": "Как ввести код ePhoto?"
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>Фотография на паспорт Российской Федерации в печатном формате должна быть размером 35 x 45 мм с головой анфас по центру. Для подачи заявления через ГосУслуги вы можете загрузить фотографию на паспорт в цифровом формате. Такой снимок должен соответствовать некоторым требованиям:</p>\n <ul>\n<li>формат файла - JPEG (.jpg);</li>\n<li>объем файла - не более 300 КБ (килобайт)</li>\n<li>разрешение не меньше 600 dpi.</li>\n</ul>\n<P>Также, при необходимости, вы всегда сможете ее распечатать дома или в копицентре.</P>\n",
+        "titre_accordeon": "Какой размер фото на паспорт РФ?"
+      },
+      {
+        "texteAccordeon": "<p>Стоимость фотографий на паспорт РФ может быть разной и зависеть от вашего места жительства. В крупных городах услуги фотостудий будут дороже, чем в городах поменьше. Однако вы можете рассчитывать на цену от 500 до 2500 рублей. Примеры цен в самых популярных сетях фотостудий для съемок на документы такие:</p><ul>\n<li>ТриНаЧетыре - от 800 до 2500 рублей;</li>\n<li>Вау!Паспорт - от 1000 до 2000 рублей;</li>\n<li>НаПаспорт - от 1000 до 2000 рублей;</li>\n<li>Красный паспорт - от 1700 до 2150 рублей.</li>\n</ul>\n<P>Если вы хотите сделать качественные недорогие фото не выходя из дома - смело пользуйтесь нашим мобильным приложением Smartphone iD. Это в разы дешевле популярных конкурентов.</P>\n",
+        "titre_accordeon": "Сколько стоит фото на паспорт РФ?"
+      },
+      {
+        "texteAccordeon": "<p>У вас есть три основных варианта для фотосессии на паспорт. Места, где можно сфотографироваться на паспорт делятся на:</p><ul>\n<li>Smartphone iD,</li>\n<li>фотокабины в МФЦ;</li>\n<li>розничные фотоателье (например ТриНаЧетыре, Вау!Паспорт, НаПаспорт);</li>\n<li>...</li>\n</ul>\n<P>С помощью Smartphone iD сделать фотографию на паспорт очень просто. Не нужно идти в фотоателье или искать фотокабинку - фотографируйтесь на свой смартфон в любое удобное для вас время. Мы проверим, чтобы ваша фотография соответствовала необходимым требованиям, и вы получите ее прямо на свой электронную почту.</P>\n",
+        "titre_accordeon": "Где можно сфотографироваться на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Да, вы можете сделать фотографию на паспорт самостоятельно. Сфотографироваться можно с помощью задней камеры телефона. Обязательно убедитесь, что вы соблюдаете все правила, необходимые для принятия фотографии (освещение, цвет фона, внешний вид). Вы также можете использовать приложение для фото на документы Smartphone iD, которое сделает все за вас. Просто выберите страну и документ, сделайте фотографию и получите ее после профессиональной проверки по электронной почте.</p>\n",
+        "titre_accordeon": "Можете ли вы сами сфотографироваться на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Сделать фотографию на паспорт дома несложно. Для этого необходимо действовать по следующим шагам:</p><ul>\n<li>Встаньте напротив источника света, чтобы равномерно осветить лицо и шею. Лучше всего это делать у окна. Дневной свет равномерно освещает лицо.</li>\n<li>Убедитесь, что ваш фон белого света и позади вас не появляется тень.</li>\n<li>Смотрите в объектив камеры, а не на экран телефона. Глаза должны быть открыты. Лицо должно быть нейтральным, без эмоций.</li>\n<li>Делая селфи, убедитесь, что ваша рука полностью вытянута и находится на уровне плеч. window.</li>\n</ul>\n<P>Если вы не уверены, что фото соответствует всем требованиям госслужб, вы можете использовать инструмент Smartphone iD. Фотография будет автоматически изменена по размеру и одобрена обученными экспертами, чтобы обеспечить 100% соответствие официальным стандартам.</P>\n",
+        "titre_accordeon": "Как сделать фото на паспорт в домашних условиях?"
+      },
+      {
+        "texteAccordeon": "<p>Для этого следуйте следующей инструкции:</p><ul>\n<li>Положите ребенка на белую простыню на кровати или посадите его в детский стульчик, накрыв спинку стула белым полотенцем.</li>\n<li>Уберите соску, привлеките внимание ребенка и попытайтесь сфотографироваться его с закрытым ртом. Важно, чтобы не было видно ни языка, ни зубов.</li>\n<li>Следите за тем, чтобы голова ребенка не была наклонена. Не забывайте, что вы не можете самостоятельно поддерживать ребенка во время фотосъемки. На фотографии запрещены посторонние предметы и чужие части тела.</li>\n<li>Сделайте снимок, учитывая, что голова должна занимать 70-80% фотографии.</li>\n</ul>\n<P>Вы также можете сделать фотографию через наше мобильное приложение Smartphone iD, где мы поможем вам сделать качественный фотоснимок с помощью специально обученной нейросети и экспертов в области биометрии.</P>\n",
+        "titre_accordeon": "Как сфотографировать ребенка на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Это зависит от типа документа. Официальные документы, которые используются для биометрического машинного считывания (паспорт нового образца, визы, удостоверения личности) не позволяют улыбаться, поскольку это затрудняет считывание биометрических данных во время сканирования. Однако на более повседневных документах, удостоверяющих личность, таких как студенческий билет, может быть паспортная фотография с небольшой улыбкой на лице. Если вы не уверены в требованиях, вы можете воспользоваться услугой Smartphone iD, которая предоставит вам соответствующую и проверенную фотографию для выбранного вами документа.</p>\n",
+        "titre_accordeon": "Можно ли улыбаться на фото на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Для фото на документы есть свои требование к одежде. При выборе наряда учтите следующие моменты:</p><ul>\n<li>приветствуется деловая одежда;</li>\n<li>верх должен контрастировать с фоном (выбирайте черный, темно синий, коричневый цвета);</li>\n<li>неоновые цвета и крупные принты нежелательны для фото на документы;</li>\n<li>у рубашки должны быть застегнуты все пуговицы;</li>\n<li>избегайте блузок с жабо и рюшами;</li>\n<li>запрещена униформа разных компаний, военная форма.</li>\n</ul>\n\n",
+        "titre_accordeon": "Что надеть для фото на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Сфотографироваться в очках на паспорт так, чтобы это соответствовало требованием паспортных служб, очень сложно. Глаза должно быть хорошо видно, поэтому запрещены солнцезащитные очки и толстые линзы в оправе. Также важно, чтобы очки были без бликов. Если ваши очки с тонкими прозрачными линзами без бликов, то в них фотографироваться можно.</p>\n",
+        "titre_accordeon": "Можно ли носить очки на фото на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Да, вы можете нанести макияж на фотографию в паспорте. Учтите следующие нюансы:</p><ul>\n<li>макияж должен быть легким, не наносите слишком много теней на веки;</li>\n<li>часто глянцевая помада может создавать блики, поэтому, если вы хотите подчеркнуть губы, лучше выберите матовую помаду;</li>\n<li>перед фотосъемкой также полезно убедиться, что ваша кожа не жирная, так как она также может создавать блики;</li>\n<li>фотография на паспорт должна быть максимально естественной и отражать вашу повседневную внешность.</li>\n</ul>\n\n",
+        "titre_accordeon": "Можно ли делать макияж на фото на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Чтобы распечатать фотографии паспорта на компьютере, вам необходимо сначала загрузить программное обеспечение, позволяющее получать фотографии размером 35 x 45 мм.Затем вам нужно будет подключить к компьютеру принтер, совместимый с качественной фотобумагой, поскольку принимаются только профессионально распечатанные фотографии на паспорт.Не каждый захочет загружать себе на компьютер какое-либо программное обеспечение и заморачиватся с принтером. Вы можете выбрать услугу фото на паспорт в мобильном приложении Smartphone iD. Все просто: вам нужно только выбрать необходимый тип документа и сделать фото. Все остальное будет сделано за вас. После проверки снимка файл для печати придет вам на электронную почту. Вы сможете распечатать его в ближайшем копицентре или заказать печать у нас в приложении.</p>\n",
+        "titre_accordeon": "Как распечатать фотографию на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Запрещается предоставлять отсканированную фотографию в качестве официального документа, удостоверяющего личность. Если вам нужно отправить фотографии на цифровой паспорт, вы можете использовать наш простой автоматизированный онлайн-инструмент, который проходит проверку обученным экспертом.Таким образом, вы получите идеальную цифровую фотографию на паспорт в нужном для вашего документа формате. Вместе с вашей отдельной цифровой фотографией вы также получите по электронной почте готовый к печати шаблон для печати размером 10x15, который можно использовать неограниченное количество раз.</p>\n",
+        "titre_accordeon": "Как отсканировать фотографию на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Чтобы сфотографировать паспорт на iPhone, нажмите кнопку «Сделать фото» в приложении Smartphone iD, выберите нужную страну и тип документа, сфотографируйтесь на iPhone и все! После проверки фотографий нашей командой экспертов вы получите фотографии на свою электронную почту.</p>\n",
+        "titre_accordeon": "Как сфотографироваться на паспорт с помощью iPhone?"
+      },
+      {
+        "texteAccordeon": "<p>Чтобы сфотографировать паспорт на Android, нажмите кнопку «Сделать фото» на приложении Smartphone iD, выберите нужную страну и тип документа, сфотографируйтесь на Android и все! После проверки фотографий нашей командой экспертов вы получите фотографии на свою электронную почту.</p>\n",
+        "titre_accordeon": "HКак сделать фото на паспорт на android?"
+      },
+      {
+        "texteAccordeon": "<p>Вам следует поискать средство для создания фотографий на паспорт, которое работает быстро, надежно и, что наиболее важно, предоставляет гарантию принятия правительством, а также гарантию возврата денег, например, инструмент для создания фотографий на паспорт Smartphone iD.</p>\n",
+        "titre_accordeon": "Как найти хорошего фотографа на паспорт в интернете?"
+      },
+      {
+        "texteAccordeon": "<p>Да, во многих МФЦ предоставляют услуги фотосъемки на документы, включая фотографии на паспорт. В таких центрах размещают фотокабинки, которыми может воспользоваться каждый желающий. Перед посещением МФЦ рекомендуется уточнить наличие данной услуги и ее стоимость.</p>\n",
+        "titre_accordeon": "Делают ли в МФЦ фото на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Да, фотостудия \"ТриНаЧетыре\" предоставляет услуги по фотосъемке на документы, включая фотографии на паспорт. Цена от 800 до 2500 рублей в зависимости от возможности записи и ретуши.</p>\n",
+        "titre_accordeon": "Делает ли фотостудия ТриНаЧетыре фото на паспорт?"
+      },
+      {
+        "texteAccordeon": "<p>Да, Вау!Паспорт делает фотографии на паспорт. Цена от 1000 до 2000 рублей в зависимости от количества фото и возможности ретуши.</p>\n",
+        "titre_accordeon": "Делает ли Вау!Паспорт фотографии на паспорт?"
+      }
+    ],
+    "titre_bloc9": "задаваемые вопросы",
+    "titre_bloc9_span": "Часто"
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "Насколько публикация полезна?",
+    "sousTitre" : "Нажмите на звезду, чтобы оценить!",
+    "personne" : "Средняя оценка ",
+    "etoiles" : "звезды из 5"
+  },
+
+  "Bloc11": {
+    "titre": "Нажмите на соответствующий раздел, чтобы найти ответы на вопросы о конкретных фотографиях для российских документов удостоверения личности!",
+    "liens": [
+      {
+        "link": "Паспорт",
+        "url": "https://www.smartphone-id.com/ru_RU/паспорт/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Водительское удостоверение",
+        "url": "https://www.smartphone-id.com/ru_RU/водительское-удостоверение/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Вид на жительство",
+        "url": "https://www.smartphone-id.com/ru_RU/вид-на-жительство/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Профсоюзный билет",
+        "url": "https://www.smartphone-id.com/ru_RU/профсоюзный-билет/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "",
+        "url": "",
+        "icon": "/images/Bloc11/visa.svg"
+      },
+      {
+        "link": "",
+        "url": "",
+        "icon": "/images/Bloc11/carte-vitale.svg"
+      }
+    ]
+  },
+
+  "Footer": {
+    "partie2-button": "Попробуйте сейчас бесплатно",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "",
+    "blog-link" : "",
+    "SiteMapList-propos" : "О нас",
+    "propos-link" : "https://www.smartphone-id.com/ru_RU/o-нас",
+    "SiteMapList-faq" : "Часто задаваемые вопросы",
+    "faq-link" : "https://www.smartphone-id.com/ru_RU/часто-задаваемые-вопросы",
+    "SiteMapList-contact" : "Свяжитесь с нами",
+    "contact-link" : "https://www.smartphone-id.com/ru_RU/свяжитесь-с-нами",
+    "applis-h3": "Загрузите приложение Smartphone iD",
+    "applis-p":  "Следуйте своим заказам и найдите еще больше функций в приложении.",
+    "AppStore-link" : "https://apps.apple.com/ru/app/официальное-фото-на-паспорт/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=ru&gl=ru",
+    "partie2-p": "Подпишитесь, чтобы узнать новую информацию об официальных документах!",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Политика конфиденциальности",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/ru_RU/политика-конфиденциальности",
+    "mentions-cgu": "Условия использования",
+    "mentions-cgu-link": "https://www.smartphone-id.com/ru_RU/условия-использования",
+    "mentions-légales": "Юридическая информация",
+    "mentions-légales-link": "https://www.smartphone-id.com/ru_RU/юридическая-информация",
+    "Cookies": "Печенье",
+    "Cookies-link": "https://www.smartphone-id.com/ru_RU/печенье"
+  }
+}
