@@ -1,0 +1,589 @@
+{
+  "NavBar": {
+    "liens": [
+      {
+        "link": "Passaporte",
+        "url": "https://www.smartphone-id.com/pt_PT/foto-para-passaporte/"
+      },
+      {
+        "link": "Carta de Condução",
+        "url": "https://www.smartphone-id.com/pt_PT/foto-carta-de-conducao"
+      },
+      {
+        "link": "Bilhete de identidade",
+        "url": "https://www.smartphone-id.com/pt_PT/foto-bilhete-de-identidade/"
+      },
+      {
+        "link": "Cartão de Residência Permanente",
+        "url": "https://www.smartphone-id.com/pt_PT/foto-cartao-de-residencia-permanente"
+      },
+      {
+        "link": "Visto",
+        "url": "https://www.smartphone-id.com/pt_PT/foto-para-visto-portugal/"
+      }
+    ]
+  },
+
+  "Bloc1" : {
+    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ferramenta-online-para-fotos-de-passaporte-de-Portugal.png",
+    "background": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-29.png",
+    "titre_bloc1" : "Ferramenta rápida e fácil para",
+    "titre_h4_bloc1": "Basta tirar uma foto e recebê-la pronta! Experimente agora!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "fotos de passaporte de qualidade"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "e assinaturas digitais."
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Edição imediata por IA"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Verificação especializada"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Aceitação pelo governo"
+      }
+    ]
+  },
+
+  "kalSearch" : {
+    "titre_1" : "Preciso de uma foto para este país ",
+    "titre_2" : "e este documento",
+    "bouton" : "Tirar uma foto"
+  },
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Mais de um milhão de fotos válidas para passaporte entregues"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Primeiro provedor de assinatura ePhoto + online"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "4,7 estrelas na Apple e Google Play Store"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "A solução completa",
+    "titre_bloc3": "de foto para passaporte sem sair de casa",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Redimensionamento automático e remoção de fundo.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Formatacao-automatica-de-fotos-para-passaporte-portugues.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Devido à nossa verificação especializada, a validade da sua foto é garantida.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Controle-especializado-de-fotos-para-passaporte-portugues.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Peça a entrega em casa destas fotos impressas profissionalmente, enviadas no mesmo dia do pedido.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Impressao-e-entrega-de-fotos-para-passaporte-portugues.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Não é necessária nenhuma informação pessoal. A sua foto é armazenada com segurança.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-do-passaporte-portugues-armazenada-com-seguranca.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Digitalize o código QR com o seu smartphone e tire a sua foto.",
+        "titre_check": "Passo 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-1-no-computador.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Revise as características da sua encomenda de foto.",
+        "titre_check": "Passo 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-2-no-computador.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Se necessário, adicione a entrega do modelo impresso na sua casa.",
+        "titre_check": "Passo 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-3-no-computador.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receba a sua foto digital de passaporte e um modelo pronto para impressão no seu e-mail.",
+        "titre_check": "Passo 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-4-no-computador.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Redimensionamento automático e remoção de fundo.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Formatacao-automatica-de-fotos-para-passaporte-portugues.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Devido à nossa verificação especializada, a validade da sua foto é garantida.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Controle-especializado-de-fotos-para-passaporte-portugues.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Peça a entrega em casa destas fotos impressas profissionalmente, enviadas no mesmo dia do pedido.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Impressao-e-entrega-de-fotos-para-passaporte-portugues.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Não é necessária nenhuma informação pessoal. A sua foto é armazenada com segurança.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-do-passaporte-portugues-armazenada-com-seguranca.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Tire uma foto com o seu smartphone.",
+        "titre_check": "Passo 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-1-no-celular.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Se necessário, adicione a entrega do modelo impresso na sua casa.",
+        "titre_check": "Passo 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-2-no-celular.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Revise as características da sua encomenda de foto.",
+        "titre_check": "Passo 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-3-no-celular.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receba a sua foto digital de passaporte e um modelo pronto para impressão no seu e-mail.",
+        "titre_check": "Passo 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-4-no-celular.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Mais de ",
+    "titre_bloc4_2": "de fotos de passaporte válidas criadas",
+    "titre_bloc4_span": "um milhão ",
+    "partenaires": [
+      {
+        "text": "Planete Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "Inris Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "E-Residency Estonia",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      },
+      {
+        "text": "Canal +",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "Le Progres",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Incrível! Meu pai teve dificuldades para chegar a uma cabine de fotos oficial para sua eFoto na França. Fizemos a foto em casa usando o aplicativo. Estava um pouco escuro, mas eles ajustaram para que ficasse nítida e precisa, exatamente como uma foto de passaporte. Recebemos as eFotos dentro de 24 horas e alguns dias depois recebemos as fotos reais pelo correio. Eu não precisava delas, mas apenas por precaução. Esta é a primeira vez que uso um aplicativo que faz exatamente o que diz sem problemas! Bem feito, Smart photo!!!",
+        "titre": "Eficiente"
+      },
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Eu estava um pouco cético no início sobre usar este aplicativo para a foto da minha carteira de motorista, mas depois de seguir as dicas e diretrizes sobre como criar uma foto bem-sucedida, tudo foi feito em questão de minutos. A equipe verifica se a foto é utilizável, e você pode tê-la enviada pelo correio ou por e-mail. Nem precisei sair do conforto da minha própria casa, o que é uma vantagem adicional. Definitivamente recomendo!!",
+        "titre": "Definitivamente recomendo!!"
+      },
+      {
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "Isso é ótimo. Consegui tirar minhas fotos do titre de séjour dos EUA sem ter que voltar à França para encontrar um fotomaton. Tive que tirar minha foto novamente, mas as instruções foram fáceis de seguir.",
+        "titre": "Muito útil"
+      },
+      {
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "Realmente impressionado com este aplicativo - o processo foi fácil - aprovado e adicionado à aplicação online sem problemas - definitivamente recomendaria.",
+        "titre": "Novo passaporte"
+      },
+      {
+        "nom": "Joanne Flack Thornton, 01/13/2023",
+        "texte": "Eu estava tendo dificuldade em tirar uma foto decente sozinho, então baixei este aplicativo. Eu não tinha percebido que ele usaria a primeira foto que eu tirei, e pessoalmente não achei que minha foto estava boa. No entanto, o que recebi deles foi ótimo porque o fundo era branco, enquanto o meu tinha sido amarelo, e um interruptor de luz foi removido. A foto foi aceita pelo sistema de renovação de passaporte online do Reino Unido, e o passaporte está a caminho de nós. Valeu a pena os quase €6 que paguei. Ótimo aplicativo!",
+        "titre": "Melhor do que uma cabine de fotos"
+      },
+      {
+        "nom": "Bernard Mitchell, 05/14/2023",
+        "texte": "Eu recomendo este aplicativo. Foi muito mais fácil do que visitar uma cabine de fotos, etc. Obrigado, um cliente satisfeito",
+        "titre": "Obrigado, um cliente satisfeito"
+      }
+    ],
+    "nos_partenaires": "Nossos parceiros",
+    "nos_medias": "Caracterizado por"
+  },
+
+  "Bloc5": {
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Amigos-jovens-tirando-foto-para-o-passaporte-portugues-com-o-aplicativo-de-smartphone-iD.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Serviço 24/7",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Para todos os tipos de documentos",
+        "texteService": "Tamanho certo em formato digital e impresso, profundidade da foto, cor de fundo, iluminação..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Conformidade de 100%",
+        "texteService": "Obtenha 100% de conformidade para qualquer documento oficial em todo o mundo."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Obtenha a melhor foto",
+        "texteService": "Tire um número ilimitado de fotos e escolha a sua melhor."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Atendimento ao cliente real",
+        "texteService": "Sem robôs, sem informações de contato ocultas; sua experiência positiva é importante para nós."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Útil para muitos",
+        "texteService": "Especialmente para bebês, pessoas com deficiência, expatriados, pessoas em áreas rurais..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "Ecológico",
+        "texteService": "Não há mais papel desperdiçado se você precisar renovar seu documento online."
+      }
+    ],
+    "titre_bloc5_1": "Por que a ferramenta de ",
+    "titre_bloc5_span": "foto de passaporte Smartphone iD?"
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "Fotos de passaporte ",
+    "titre_bloc6_2": "cada documento de Portugal",
+    "titre_bloc6_span": "correspondentes para ",
+    "documents": [
+      {
+        "titre_doc": "Bilhete de Identidade",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Bilhete-de-Identidade.png"
+      },
+      {
+        "titre_doc": "Carta de condução",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carta-de-conducao.png"
+      },
+      {
+        "titre_doc": "Cartão de Residencia Permanente",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cartao-de-Residencia-Permanente.png"
+      },
+      {
+        "titre_doc": "Visto",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Portugal-visto.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Onde imprimir uma foto de passaporte em portugal?",
+        "paragraphe": "Peça fotos impressas profissionalmente com o Smartphone iD ou use o modelo pronto para impressão enviado para o seu e-mail.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Modelo-de-foto-para-passaporte-portugues-impressa.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone-iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id-logo.png"
+          },
+          {
+            "nom_partenaire": "Kodak Express",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Kodak-Express-1.png"
+          },
+
+          {
+            "nom_partenaire": "Instant Fotografia",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/instanta_fotografia.png"
+          },
+          {
+            "nom_partenaire": "Fujifilm",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Fujifilm.png"
+          },
+          {
+            "nom_partenaire": "Fotosport",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/fotosport.png"
+          },
+
+          {
+            "nom_partenaire": "Codalite",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/codalite.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1" :"",
+    "titre_bloc7_2" : "online para pedidos de documentos oficiais",
+    "titre_bloc7_span": "A sua solução ",
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-digital-de-documento-portugues-com-assinatura-.png",
+        "paragraphe": "Quando necessário, sua assinatura será vinculada à sua foto para solicitações oficiais de documentos online.",
+        "titre": "Assinatura digital"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/modelo-recente-de-foto-para-passaporte-portugues-impressa.png",
+        "paragraphe": "Fotos em tempo real comprovam a atualidade de uma foto, o que é obrigatório para documentos oficiais.",
+        "titre": "Prova de atualidade da foto"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : "Como tirar uma foto para passaporte com",
+    "titre_bloc8_2" : "",
+    "titre_bloc8_span": "sucesso?",
+    "titre_encart": "Algumas dicas",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 1,
+        "texte": "Remova ",
+        "texte_span": "seus óculos"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 2,
+        "texte": "Deixe a  luz cair",
+        "texte_span": " uniformemente em seu rosto"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 3,
+        "texte": "Seu cabelo deve estar",
+        "texte_span": " atrás dos ombros"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 4,
+        "texte": "Boca fechada, ",
+        "texte_span": "expressão neutra"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/pt_PT/foto-passaporte",
+      "title": "Ver mais"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/pt_PT/foto-passaporte-bebê",
+      "title": "Como tirar foto de passaporte de bebê?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "Foto de identidade Portuguesa",
+    "ePhoto": "",
+    "codeEphoto": [
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">A Foto do Passaporte de Portugal em formato impresso deve ter 35mm x 45mm com a cabeça centrada e com tamanho entre 32mm e 36mm.</span></p>\n",
+        "titre_accordeon": "Qual é o tamanho da foto do passaporte de Portugal?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">O custo das fotos de passaporte em Portugal geralmente <strong>varia de €5 a €15 para um conjunto de várias (geralmente 6-8)</strong> fotos impressas que atendam aos requisitos oficiais. É uma boa ideia verificar com estúdios de fotografia locais, cabines de fotos ou farmácias para preços específicos em sua área.</span></p>\n<p><strong>Com o Smartphone ID, você pode obter sua foto de passaporte de forma barata, rápida, verificada e aprovada.</strong></p>\n",
+        "titre_accordeon": "Quanto custam as fotos de passaporte em Portugal?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Sim! Você pode tirar sua própria foto de passaporte. Você pode fazer isso com a câmera traseira do seu telefone, mas certifique-se de estar seguindo todas as diretrizes para que sua foto seja aceita (iluminação, sombra, cor de fundo). Você também pode usar a ferramenta Smartphone ID que faz tudo para você. Basta escolher seu país e documento, tirar uma foto e recebê-la posteriormente por e-mail? É tão fácil!</span></p>\n",
+        "titre_accordeon": "Você pode tirar sua própria foto de passaporte?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Para tirar uma boa foto de passaporte em casa, você deve fazer o seguinte:</span></p>\n<p><span style=\"font-weight: 400;\">Fique contra a fonte de luz para obter iluminação uniforme em seu rosto e pescoço. É melhor fazer isso à luz do dia voltado para a janela.</span></p>\n<p><span style=\"font-weight: 400;\">Certifique-se de que seu fundo seja de cor clara e que nenhuma sombra apareça atrás de você.</span></p>\n<p><span style=\"font-weight: 400;\">Olhe para a objetiva da câmera e não para a tela do telefone. Os olhos devem estar abertos.</span></p>\n<p><span style=\"font-weight: 400;\">No caso de uma selfie, certifique-se de que sua mão esteja esticada totalmente e fique no nível dos ombros.</span></p>\n<p><span style=\"font-weight: 400;\">Se você não tem certeza se todas as diretrizes foram respeitadas, você pode usar a ferramenta Smartphone ID. A foto será automaticamente dimensionada e aprovada por especialistas treinados para garantir 100% de conformidade com os padrões oficiais.</span></p>\n",
+        "titre_accordeon": "Como tirar uma foto de passaporte em casa?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Coloque seu bebê em um lençol branco na sua cama, ou coloque-o em uma cadeira alta de bebê com uma toalha branca cobrindo as costas da cadeira.</span></p>\n<p><span style=\"font-weight: 400;\">Tire a chupeta, chame a atenção do bebê e tente tirar uma foto com a boca do bebê fechada. Alguns governos permitem que a boca esteja ligeiramente aberta, no entanto, não pode-se ver a língua ou os dentes.</span></p>\n<p><span style=\"font-weight: 400;\">Certifique-se de que a cabeça do seu bebê não esteja inclinada, e não se esqueça de que você não pode apoiar o bebê sozinho ao tirar a foto porque nenhuma outra parte do corpo pode ser vista na foto.</span></p>\n<p><span style=\"font-weight: 400;\">No caso de uma selfie, certifique-se de que sua mão esteja esticada totalmente e fique no nível dos ombros.</span></p>\n<p><span style=\"font-weight: 400;\">Você também pode tirar uma foto através do nosso site www.smartphon-id.com onde iremos ajudá-lo a obter uma foto válida com a ajuda de nossos especialistas treinados.</span></p>\n",
+        "titre_accordeon": "Como tirar uma foto de passaporte do seu bebê?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Depende do tipo de documento. Documentos oficiais usados para leitura biométrica de máquinas (passaportes eletrônicos, vistos, cartões de identidade) não permitem sorrir porque torna mais difícil ler os dados biométricos da varredura. No entanto, documentos de identidade mais informais, como um cartão de estudante ou cartão de transporte, podem ter uma foto de passaporte de uma pessoa sorridente. Se você não tem certeza sobre os requisitos, você pode usar o serviço Smartphone ID que irá obter uma foto conforme e verificada para o documento de sua escolha.</span></p>\n",
+        "titre_accordeon": "Você pode sorrir em uma foto de passaporte?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Cores fortes que se destaquem claramente do fundo são adequadas para uma foto de passaporte. Como um fundo claro é necessário, cores mais escuras são benéficas para aumentar o contraste.</span></p>\n<p><span style=\"font-weight: 400;\">Além disso, certifique-se de que sua camisa não mostre muita pele, pois fotos de passap</span><span style=\"font-weight: 400;\">orte sem camisa são proibidas.</span></p>\n<p><span style=\"font-weight: 400;\">Por fim, uniformes de qualquer tipo também são proibidos em uma foto de passaporte biométrico.</span></p>\n",
+        "titre_accordeon": "O que vestir para uma foto de passaporte?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Nem todos os governos permitem óculos porque é muito difícil acertar. Armações grossas são proibidas, assim como vidros coloridos, nenhum reflexo pode aparecer, e eles devem ser colocados corretamente. Portanto, aqueles governos que não proíbem o uso de óculos, sugerem fortemente que os tirem para a foto.</span></p>\n",
+        "titre_accordeon": "É permitido usar óculos em uma foto de passaporte?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Sim, é permitido usar maquiagem em sua foto de passaporte.</span></p>\n<p><span style=\"font-weight: 400;\">Mas observe que a maquiagem deve ser leve. Não coloque muito brilho nas pálpebras.</span></p>\n<p><span style=\"font-weight: 400;\">Muitas vezes, o batom brilhante pode criar um reflexo, portanto, é melhor optar por um batom matte, se você quiser destacar seus lábios.</span></p>\n<p><span style=\"font-weight: 400;\">Também é útil verificar se sua pele não está oleosa antes de tirar uma foto, pois pode criar um reflexo de luz.</span></p>\n<p><span style=\"font-weight: 400;\">Por fim, lembre-se de que a foto do passaporte deve ser o mais natural possível e deve se assemelhar a você em um dia normal.</span></p>\n",
+        "titre_accordeon": "É permitido usar maquiagem em uma foto de passaporte?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Para imprimir fotos de passaporte com seu PC, você deve primeiro baixar um software que permita obter fotos de 1,38 × 1,77. Em seguida, você terá que conectar uma impressora compatível com papel fotográfico ao seu PC porque apenas fotos de passaporte impressas profissionalmente são aceitas. Se você não quiser baixar nenhum software ou pular a dificuldade de procurar uma ferramenta fácil online, você pode optar pelo serviço Smartphone ID, onde você só precisa escolher o tipo de documento necessário e tudo o mais é feito para você. Você pode receber uma impressão profissional de 10x15cm na sua porta ou usar o arquivo digital de 10x15cm que enviamos por e-mail e usar em uma instalação de impressão próxima.</span></p>\n",
+        "titre_accordeon": "Como imprimir uma foto no tamanho de passaporte?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">É proibido enviar uma foto digitalizada para um documento de identificação oficial. Se você precisa enviar uma foto digital, pode usar nossa ferramenta automatizada online que vem com uma verificação de especialista treinado. Desta forma, você obtém uma foto de passaporte digital perfeita no formato necessário para o seu documento. Se você estiver digitalizando fotos de passaporte para criar várias cópias, também cobrimos isso. Com sua única foto digital, você também receberá por e-mail um modelo de impressão de 10&#215;15 pronto para imprimir que você pode usar ilimitadamente.</span></p>\n",
+        "titre_accordeon": "Como digitalizar uma foto de passaporte?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Para fazer uma foto de passaporte no seu iPhone, clique no botão &#8220;Tirar foto&#8221; no site do Smartphone ID, escolha o país e o tipo de documento necessário, tire sua foto no seu iPhone e pronto! Após a validação da foto por nossa equipe de especialistas, você receberá suas fotos por e-mail.</span></p>\n",
+        "titre_accordeon": "Como tirar uma foto de passaporte com um iPhone?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Para fazer uma foto de passaporte no seu Android, clique no botão &#8220;Tirar foto&#8221; no site do Smartphone ID, escolha o país e o tipo de documento necessário, tire sua foto no seu Android e pronto! Após a validação da foto por nossa equipe de especialistas, você receberá suas fotos por e-mail.</span></p>\n",
+        "titre_accordeon": "Como tirar uma foto de passaporte com um android?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Você deve procurar um fabricante de fotos de passaporte que seja rápido, confiável e, o mais importante, forneça uma garantia de aceitação pelo governo, bem como uma garantia de devolução do dinheiro, como a ferramenta de fotos de passaporte do Smartphone ID.</span></p>\n<p><span style=\"font-weight: 400;\">Clique na subseção correspondente para encontrar respostas sobre fotos de passaporte específicas para documentos de Portugal!</span></p>\n<p><span style=\"font-weight: 400;\">Siga-nos e descubra as informações mais recentes sobre vistos e outros documentos oficiais.</span></p>\n<p><span style=\"font-weight: 400;\">Baixe o aplicativo Smartphone iD para acompanhar seus pedidos e aproveitar ainda mais recursos de fotos de passaporte.</span></p>\n",
+        "titre_accordeon": "Como encontrar um bom fabricante de fotos de passaporte online?"
+      }
+    ],
+    "titre_bloc9": "para suas perguntas",
+    "titre_bloc9_span": " Respostas"
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "¿Encontraste esto útil?",
+    "sousTitre" : "Haz clic en las estrellas para dejar tu valoración.",
+    "personne" : "Valoración media :",
+    "etoiles" : "estrellas de 5"
+  },
+
+  "Bloc11": {
+    "titre": "Encontra as tuas respostas nas páginas correspondentes",
+    "liens": [
+      {
+        "link": "Carta de condução",
+        "url": "https://www.smartphone-id.com/pt_PT/renovar-carta-de-conducao-online",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Passaporte",
+        "url": "https://www.smartphone-id.com/pt_PT/passaporte",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Bilhete de Identidade",
+        "url": "https://www.smartphone-id.com/pt_PT/foto-bilhete-de-identidade/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Cartão de Residencia Permanente",
+        "url": "https://www.smartphone-id.com/pt_PT/cartao-de-residencia-permanente",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visto",
+        "url": "https://www.smartphone-id.com/pt_PT/visto",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
+  "Footer": {
+    "partie2-button": "Tentativas ilimitadas gratuitas!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "",
+    "blog-link" : "",
+    "SiteMapList-propos" : "Sobre nós",
+    "propos-link" : "https://www.smartphone-id.com/pt_PT/sobre-nos/",
+    "SiteMapList-faq" : "Perguntas frequentes",
+    "faq-link" : "https://www.smartphone-id.com/pt_PT/preguntas-frecuentes/",
+    "SiteMapList-contact" : "Contacto",
+    "contact-link" : "https://www.smartphone-id.com/pt_PT/contacto/",
+    "applis-h3": "Baixe o aplicativo!",
+    "applis-p":  "Baixe o aplicativo Smartphone iD para rastrear seus pedidos e aproveitar ainda mais recursos de foto para passaporte.",
+    "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
+    "partie2-p": "Siga-nos e conheça as últimas informações sobre vistos e outros documentos oficiais.",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Política de Privacidade",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/pt_PT/política-de-privacidade/",
+    "mentions-cgu": "Termos de serviço",
+    "mentions-cgu-link": "https://www.smartphone-id.com/pt_PT/termos-de-serviço/",
+    "mentions-légales": "Aviso legal",
+    "mentions-légales-link": "https://www.smartphone-id.com/pt_PT/aviso-legal/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/pt_PT/cookies/"
+  }
+}
