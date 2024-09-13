@@ -328,3 +328,373 @@ Portugal
 "vitale" : "",
 "Link6" : ""
 },
+
+
+
+
+
+
+
+
+Rechercher dans smartphone-ID
+
+
+
+Accueil
+1
+
+Messages directs
+2
+
+1
+Activité
+3
+
+Plus tard
+4
+
+Plus
+0
+
+smartphone-ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amira Bouziane Errahmani
+
+
+
+
+Messages
+
+Ajouter un canevas
+
+Fichiers
+
+
+
+Amira Bouziane Errahmani
+12 h 53
+BLOK 11 missing.txt
+
+Saudi Arabia
+"Bloc11": {
+"titre": "ابحث عن إجاباتك على الصفحات المقابلة",
+"liens": [
+{
+"permis": "رخصة السياقة",
+"Link1": "https://www.smartphone-id.com/ar_SA/%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D9%82%D8%A9",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "جواز السفر",
+"Link2": "https://www.smartphone-id.com/ar_SA/%D8%AC%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B3%D9%81%D8%B1",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "بطاقة الهوية الوطنية السعودية",
+"Link3": "https://www.smartphone-id.com/ar_SA/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "رخصة الإقامة",
+"Link4": "https://www.smartphone-id.com/ar_SA/%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%A7%D9%85%D8%A9",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "التأشيرة",
+"Link5": "https://www.smartphone-id.com/ar_SA/%D8%A7%D9%84%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": ""
+}
+]
+},
+UAE
+"Bloc11": {
+"titre": "ابحث عن إجاباتك على الصفحات المقابلة",
+"liens": [
+{
+"permis": "رخصة السياقة",
+"Link1": "https://www.smartphone-id.com/ar_AE/%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D9%82%D8%A9",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "جواز السفر",
+"Link2": "https://www.smartphone-id.com/ar_AE/%D8%AC%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B3%D9%81%D8%B1",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "بطاقة الهوية",
+"Link3": "https://www.smartphone-id.com/ar_AE/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "بطاقة الإقامة",
+"Link4": "https://www.smartphone-id.com/ar_AE/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%A7%D9%85%D8%A9",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "التأشيرة",
+"Link5": "https://www.smartphone-id.com/ar_AE/%D8%A7%D9%84%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": ""
+}
+]
+},
+South africa
+"Bloc11" : {
+"titre": "Find your answers on the corresponding pages",
+"liens": [
+{
+"permis" : "Driving licence",
+"Link1" : "https://www.smartphone-id.com/en_ZA/south-africa-driving-licence",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport" : "Passport",
+"Link2" : "https://www.smartphone-id.com/en_ZA/south-africa-passport",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni" : "Identification Card",
+"Link3" : "https://www.smartphone-id.com/en_ZA/south-africa-national-identity-card",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour" : "Residence permit",
+"Link4" : "https://www.smartphone-id.com/en_ZA/south-africa-permanent-residence-permit",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa" : "Visa",
+"Link5" : "https://www.smartphone-id.com/en_ZA/south-africa-visa",
+"icon": "/images/Bloc11/visa.svg"
+},
+"vitale" : "",
+"Link6" : ""
+]
+}
+Australia
+"Bloc11": {
+"titre": "Finden Sie Antworten auf den entsprechenden Seiten",
+"liens": [
+{
+"permis": "Driving licence",
+"Link1": "https://www.smartphone-id.com/en_AU/driving-licence-photo-australia/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "passport",
+"Link2": "https://www.smartphone-id.com/en_AU/digital-passport-photos-au/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Identification Card",
+"Link3": "https://www.smartphone-id.com/en_AU/photo-identification-card-au/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Imicard",
+"Link4": "https://www.smartphone-id.com/en_AU/immicard-in-australia/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visa",
+"Link5": "https://www.smartphone-id.com/en_AU/australia-visa-photo/",
+"icon": "/images/Bloc11/visa.svg"
+},
+"vitale": "",
+"Link6": ""
+]
+}
+New zealand
+"Bloc11": {
+"titre": "Find your answers on the corresponding pages",
+"liens": [
+{
+"permis": "Driving licence",
+"Link1": "https://www.smartphone-id.com/en_NZ/nz-drivers-licence/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passport",
+"Link2": "https://www.smartphone-id.com/en_NZ/apply-nz-passport/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Certificate of Identity",
+"Link3": "https://www.smartphone-id.com/en_NZ/nz-certificate-of-identity/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Kiwi access card",
+"Link4": "https://www.smartphone-id.com/en_NZ/kiwi-access-card/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visa",
+"Link5": "https://www.smartphone-id.com/en_NZ/nz-visa/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+UK
+"Bloc11": {
+"titre": "Find your answers on the corresponding pages",
+"liens": [
+{
+"permis": "Driving licence",
+"Link1": "https://www.smartphone-id.com/en_GB/uk-full-driving-licence/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passport",
+"Link2": "https://www.smartphone-id.com/en_GB/renew-uk-passport-online/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Citizen Card",
+"Link3": "https://www.smartphone-id.com/en_GB/citizen-card-photo-uk",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Residence permit",
+"Link4": "https://www.smartphone-id.com/en_GB/uk-biometric-residency-permit/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visa",
+"Link5": "https://www.smartphone-id.com/en_GB/obtain-uk-visa/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+USA
+"Bloc11": {
+"titre": "Find your answers on the corresponding pages",
+"liens": [
+{
+"permis": "Driving licence",
+"Link1": "https://www.smartphone-id.com/en_US/us-drivers-licence-photo/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passport",
+"Link2": "https://www.smartphone-id.com/en_US/photo-us-passport-application-online/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Identification Card",
+"Link3": "https://www.smartphone-id.com/en_US/us-id-card-photo/#id-card",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Green card",
+"Link4": "https://www.smartphone-id.com/en_US/green-card-photo-tool/#green-card",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visa",
+"Link5": "https://www.smartphone-id.com/en_US/us-visa-photo-size-online/#us-visa",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+Ireland
+"Bloc11": {
+"titre": "Find your answers on the corresponding pages",
+"liens": [
+{
+"permis": "Driving licence",
+"Link1": "https://www.smartphone-id.com/en_IE/apply-for-full-driving-licence-in-ireland/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passport",
+"Link2": "https://www.smartphone-id.com/en_IE/passport-photo-ireland/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Public service card",
+"Link3": "https://www.smartphone-id.com/en_IE/public-service-card-renewal-ireland/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Passport card",
+"Link4": "https://www.smartphone-id.com/en_IE/passport-card-first-time/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visa",
+"Link5": "https://www.smartphone-id.com/en_IE/visa-photo-in-ireland/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+Canada
+"Bloc11": {
+"titre": "Find your answers on the corresponding pages",
+"liens": [
+{
+"permis": "Driving licence",
+"Link1": "https://www.smartphone-id.com/en_CA/renew-a-drivers-licence-ontario/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passport",
+"Link2": "https://www.smartphone-id.com/en_CA/canada-passport-photo-online/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Identification card",
+"Link3": "https://www.smartphone-id.com/en_CA/id-card-photo-in-canada/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Permanent Residence Card",
+"Link4": "https://www.smartphone-id.com/en_CA/pr-card-canada/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa"...
