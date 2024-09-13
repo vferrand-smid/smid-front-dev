@@ -161,7 +161,7 @@ export default function Footer() {
                                    height={1000} src={flags[currentLocale]} alt={currentLocale}/>
                             {localeToCountry[currentLocale]}
                             {isOpen && (
-                            <ul className="max-h-60 overflow-auto !grid-cols-1 !max-w-md -translate-x-3 " style={{width:'inherit'}}  ref={dropdownRef}>
+                            <ul className="max-h-60 overflow-auto !max-w-md -translate-x-3 " style={{width:'inherit'}}  ref={dropdownRef}>
                                 {Object.entries(flags).map(([locale, flagSrc]) => (
                                     <li className="flex gap-4 hover:bg-slate-200 p-2 rounded cursor-pointer" key={locale} onClick={() => changeLanguage(locale)}>
                                         <Image

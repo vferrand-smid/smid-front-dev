@@ -29,8 +29,8 @@ const Bloc5Services = ({ locale }) => {
                 />
             </aside>
             <div>
-                <h2 className="max-w-[60%] max-lg:max-w-full"> {titre_bloc5_1} <span className='highlight'>{titre_bloc5_span}</span></h2>
-                <div className="kal-service-list !h-auto">
+                <h2 className="max-w-[60%] max-lg:max-w-full max-md:!text-center"> {titre_bloc5_1} <span className='highlight'>{titre_bloc5_span}</span></h2>
+                <div className="kal-service-list !h-auto max-lg:!flex-wrap max-lg:!m-auto max-md:!grid max-md:grid-cols-1 max-md:!w-fit">
                     {listeService?.map((service, index) => (
                         <section key={index}>
                             <div>

@@ -95,7 +95,7 @@ const Carousel = ({ page, locale }) => {
     return (
         <div className="kal-photo">
             <div >
-                <h2 className="block !mb-10">
+                <h2 className="block !mb-10 max-md:!text-center">
                     <span className='highlight'>{translations?.Bloc3.titre_bloc3_span}</span>
                     {translations?.Bloc3.titre_bloc3}
                 </h2>

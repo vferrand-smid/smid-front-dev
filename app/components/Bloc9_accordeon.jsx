@@ -91,7 +91,7 @@ const Bloc9Accordeon = ({ locale }) => {
     return (
         <div className='kal-accordion'>
             <div>
-                <h3>
+                <h3 className='max-md:!text-center'>
                     <span className={styles.highlight}>{translations.Bloc9.titre_bloc9_span}</span>
                     {translations.Bloc9.titre_bloc9}
                 </h3>

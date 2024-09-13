@@ -18,7 +18,7 @@ const Bloc7Solution = ({ locale }) => {
     return (
         <div className="kal-solution">
             <div>
-                <h2>
+                <h2 className="max-md:!text-center">
                     {titre_bloc7_1}
                     <span className="highlight">{titre_bloc7_span || 'Default Titre Bloc 7 Span'}</span>
                     {titre_bloc7_2}

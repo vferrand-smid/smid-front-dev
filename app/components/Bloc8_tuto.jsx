@@ -18,7 +18,7 @@ const Bloc8Tuto = ({ locale }) => {
     return (
         <div className="kal-tuto">
             <div>
-                <h3>{translations.Bloc8["titre_bloc8_1"]} <span className="highlight">{titre_bloc8_span}</span>{translations.Bloc8["titre_bloc8_2"]}</h3>
+                <h3 className='max-md:!text-center'>{translations.Bloc8["titre_bloc8_1"]} <span className="highlight">{titre_bloc8_span}</span>{translations.Bloc8["titre_bloc8_2"]}</h3>
                 <div className="kal-tuto-container">
                     <div className="kal-tuto-iframe"  dangerouslySetInnerHTML={{__html: video}}>
                     </div>

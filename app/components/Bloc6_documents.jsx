@@ -19,7 +19,7 @@ const Bloc6Documents = ({ locale }) => {
     return (
         <div className='kal-document'>
             <div>
-            <h2> {titre_bloc6_1}{" "} <span className={styles.highlight}>{titre_bloc6_span}</span> {titre_bloc6_2}
+            <h2 className='max-md:!text-center'> {titre_bloc6_1}{" "} <span className={styles.highlight}>{titre_bloc6_span}</span> {titre_bloc6_2}
             </h2>
 
             <div className={styles.selectDocument}>
