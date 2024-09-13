@@ -1,0 +1,631 @@
+{
+  "NavBar": {
+    "liens": [
+      {
+        "link": "Pass",
+        "url": "https://www.smartphone-id.com/sv_SE/passfoto-for-pass"
+      },
+      {
+        "link": "Nationellt ID-kort",
+        "url": "https://www.smartphone-id.com/sv_SE/passfoto-for-nationellt-id-kort"
+      },
+      {
+        "link": "Körkort",
+        "url": "https://www.smartphone-id.com/sv_SE/passfoto-korkort"
+      },
+      {
+        "link": "Uppehållstillstånd",
+        "url": "https://www.smartphone-id.com/sv_SE/passfoto-for-svenskt-uppehallstillstand"
+      },
+      {
+        "link": "Visum",
+        "url": "https://www.smartphone-id.com/sv_SE/passfoto-for-svenskt-visum"
+      }
+    ]
+  },
+
+  "Bloc1" : {
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passfotoverktyg-for-sverige-online.png",
+    "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-6.png",
+    "titre_bloc1" : "Snabbt och enkelt verktyg för",
+    "titre_h4_bloc1": "Ta helt enkelt ett foto och få det redo! Prova nu!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "kvalitets passfoton"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "och digitala signaturer."
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Omedelbar AI-redigering"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Expertgranskning"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Godkänd av myndigheter"
+      }
+    ]
+  },
+
+  "kalSearch": {
+    "titre_1": "Jag behöver ett foto för detta land",
+    "titre_2": "och detta dokument",
+    "bouton": "Ta ett foto"
+
+  },
+
+  "Bloc2" : {
+    "repeteur1": [
+      {
+        "img_repeteur1": "/images/Bloc2/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Mer än en miljon giltiga passfoton levererade"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Första ePhoto + signaturleverantören online"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
+        "titre_repeteur1": "4,7 stjärnor i Apple och Google Play Store"
+      }
+    ]
+  },
+
+  "Bloc3" : {
+    "titre_bloc3_span": "Den kompletta lösningen ",
+    "titre_bloc3": "för passfoto utan att lämna ditt hem",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Automatiserad storleksanpassning och bakgrundsborttagning.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Automatisk-formatering-av-svenskt-passfoto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "På grund av vår expertkontroll är fotots giltighet garanterad.\"",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Expertkontroll-av-svenskt-passfoto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Beställ hemleverans av dessa professionellt tryckta foton, skickade samma dag som de beställs.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Utskrift-och-leverans-av-svenskt-passfoto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Ingen personlig information är nödvändig. Ditt foto lagras säkert.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/swedish-passfoto-savely-stored.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Skanna QR-koden med din smartphone och ta ditt foto.",
+        "titre_check": "Steg  1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-1-dator.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Granska funktionerna i din fotobeställning.",
+        "titre_check": "Steg 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-2-dator.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Lägg till leverans av tryckt mall till ditt hem om det behövs.",
+        "titre_check": "Steg 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-3-dator.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Ta emot ditt digitala passfoto och en utskriftsklar mall i din e-post.",
+        "titre_check": "Steg 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-4-dator.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automatiserad storleksanpassning och bakgrundsborttagning.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Automatisk-formatering-av-svenskt-passfoto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "På grund av vår expertkontroll är fotots giltighet garanterad.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Expertkontroll-av-svenskt-passfoto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Beställ hemleverans av dessa professionellt tryckta foton, skickade samma dag som de beställs.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Utskrift-och-leverans-av-svenskt-passfoto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Ingen personlig information är nödvändig. Ditt foto lagras säkert.",
+        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/swedish-passfoto-savely-stored.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Ta ett foto med din smartphone.",
+        "titre_check": "Steg 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-1-mobil.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Lägg till leverans av tryckt mall till ditt hem om det behövs.",
+        "titre_check": "Steg 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-2-mobil.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Granska funktionerna i din fotobeställning.",
+        "titre_check": "Steg 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-3-mobil.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Ta emot ditt digitala passfoto och en utskriftsklar mall i din e-post.",
+        "titre_check": "Steg 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-4-mobil.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Mer än ",
+    "titre_bloc4_2": "giltiga passfoton skapade",
+    "titre_bloc4_span": "en miljon ",
+    "partenaires": [
+      {
+        "text": "Planete Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Enpc-Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "Inris Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      },
+      {
+        "text": "Tecnotron",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Tecnotron.png"
+      },
+      {
+        "text": "Kodak Express",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Kodak-Express.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+      },
+      {
+        "text": "Le Progrès",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "Canal",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Joanne Flack Thornton, 01/13/2023",
+        "texte": "Jag hade haft svårt att ta ett bra foto själv, så jag laddade ner denna app. Jag hade inte insett att det skulle använda det första fotot jag tog, och jag personligen tyckte inte att mitt foto var bra. Men det jag fick tillbaka från dem var super eftersom bakgrunden var vit, medan min hade varit gul, och en ljusbrytare hade tagits bort. Fotot godkändes av det brittiska systemet för passförnyelse online, och passet är på väg till oss. Väl värt de nästan 6 € jag betalade. Bra app!",
+        "titre": "Bättre än en fotobås"
+      },
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Jag var lite tveksam först om att använda denna app för mitt körkortsfoto, men efter att ha följt tipsen och riktlinjerna om hur man skapar ett lyckat foto var allt klart inom några minuter. Personalen verifierar att fotot är användbart, och du kan få det skickat med posten eller mejlat till dig. Jag behövde inte ens lämna hemmets bekvämlighet, vilket är en extra bonus. Definitivt rekommenderat!!",
+        "titre": "Definitivt rekommenderat!!"
+      },
+      {
+        "nom": "Bernard Mitchell, 05/14/2023",
+        "texte": "Jag rekommenderar denna app. Det var mycket lättare än att besöka ett fotobås, etc. Tack, en nöjd kund",
+        "titre": "Tack, en nöjd kund"
+      },
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Fantastiskt! Min pappa hade svårt att komma till en officiell fotobås för sitt ePhoto i Frankrike. Vi gjorde hans foto hemma med hjälp av appen. Det var lite mörkt, men de Photoshoppade det så att det var klart och precist, precis som ett passfoto. Vi fick ePhotos inom 24 timmar och några dagar senare fick vi de faktiska bilderna med posten. Jag behövde dem inte, men för säkerhets skull. Detta är första gången jag har använt en app som gör exakt vad den säger utan problem! Bra gjort, Smart photo!!!",
+        "titre": "Effektiv"
+      },
+      {
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "Detta är fantastiskt. Jag kunde ta mina titre de séjour-foton från USA utan att behöva återvända till Frankrike för att hitta en fotomat. Jag var tvungen att ta om mitt foto, men instruktionerna var lätta att följa. Bra upplevelse och bra kommunikation.",
+        "titre": "Mycket användbar"
+      },
+      {
+        "nom": "Pixie and Tess, 06/22/2022",
+        "texte": "Att bo i USA och få den nödvändiga fotokoden för att förnya mitt brittiska pass var ett problem. Denna app räddade mig och var så lätt att använda, och inom några timmar fick jag foto godkännandet och koden som behövdes för Gov.com. Jag rekommenderar starkt denna app!",
+        "titre": "Fantastisk"
+      }
+    ],
+    "nos_partenaires": "Våra partners",
+    "nos_medias": "presenteras av"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "Varför verktyget ",
+    "titre_bloc5_span": "Smartphone iD för passfoton?",
+    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
+    "listeService": [
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Matching passport photos for each US document",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "För alla dokumenttyper.",
+        "texteService": "Rätt storlek i digitalt och tryckt format, fotodjup, bakgrundsfärg, belysning ..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "100% överensstämmelse.",
+        "texteService": "Få 100% överensstämmelse för alla officiella dokument över hela världen."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Få det bästa fotot.",
+        "texteService": "Ta ett obegränsat antal foton och välj din bästa bild."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Riktig kundservice.",
+        "texteService": "Inga robotar, ingen dold kontaktinformation; din positiva upplevelse är viktig för oss."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Praktisk för många.",
+        "texteService": "Speciellt för bebisar, funktionshindrade, utlandsboende, personer i landsbygdsområden..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Ekologisk.",
+        "texteService": "Inget mer papper att slösa om du behöver förnya ditt dokument online."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "",
+    "titre_bloc6_2": "fotostorlek, för alla dina officiella dokument",
+    "titre_bloc6_span": "Rätt",
+    "documents": [
+      {
+        "titre_doc": "Pass",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Pass.png"
+      },
+      {
+        "titre_doc": "Nationellt id-kort",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Nationellt-id-kort.png"
+      },
+      {
+        "titre_doc": "Körkort",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Korkort.png"
+      },
+      {
+        "titre_doc": "Uppehållstillstånd",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Uppehallstillstand.png"
+      },
+      {
+        "titre_doc": "Visum",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Visum.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Var kan man skriva ut ett svenskt passfoto?",
+        "paragraphe": "Beställ professionellt tryckta foton med Smartphone iD eller använd den utskriftsklara mallen som skickas till din e-post.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Tryckt-mall-for-svenskt-passfoto.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone-iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "Speed services",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/speedservices.png"
+          },
+          {
+            "nom_partenaire": "Rite Aid",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Rite-Aid.png"
+          },
+          {
+            "nom_partenaire": "Photo Fun",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Photofun.png"
+          },
+          {
+            "nom_partenaire": "Foto center",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/BGA-Fotocenter.png"
+          },
+          {
+            "nom_partenaire": "Andy Foster",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Andy-Foster.png"
+          },
+          {
+            "nom_partenaire": "UPS",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/UPS.png"
+          },
+          {
+            "nom_partenaire": "FedEx",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/FedEx.png"
+          },
+          {
+            "nom_partenaire": "AAA",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/AAA.png"
+          },
+          {
+            "nom_partenaire": "Staples",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Staples.png"
+          },
+          {
+            "nom_partenaire": "CVS",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CVS.png"
+          },
+          {
+            "nom_partenaire": "Target",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Target.png"
+          },
+          {
+            "nom_partenaire": "Walmart",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Walmart.png"
+          }
+        ]
+      }
+    ]
+  },
+
+
+  "Bloc7": {
+    "titre_bloc7_1" :"Din online-",
+    "titre_bloc7_2" : "för officiella dokument ansökningar",
+    "titre_bloc7_span": "lösning",
+    "bloc": [
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Digital-signatur-for-svenskt-dokumentfoto.png",
+        "paragraphe": "När det behövs kommer din signatur att länkas till ditt foto för officiella online-dokumentansökningar.",
+        "titre": "Digital signatur"
+      },
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Nyligen-tryckt-mall-for-svenskt-passfoto.png",
+        "paragraphe": "Att ta realtidsfoton bevisar ett fotos aktualitet, vilket är obligatoriskt för officiella dokument.",
+        "titre": "Bevisa fotots aktualitet"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : "Hur tar man ett  ",
+    "titre_bloc8_2" : "passfoto?",
+    "titre_bloc8_span": "lyckat ",
+    "titre_encart": "Några tips",
+    "bloc_conseils": [
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 1,
+        "texte": "Ta av",
+        "texte_span": "dina glasögon"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 2,
+        "texte": "Låt ljuset",
+        "texte_span": "falla jämnt på ditt ansikte"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 3,
+        "texte": "Ditt hår ska vara",
+        "texte_span": "bakom dina axlar"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 4,
+        "texte": "Munnen stängd,",
+        "texte_span": "neutral min"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/sv_SE/passfoto",
+      "title": "se mer"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/sv_SE/bebis-passfoto",
+      "title": "Hur tar man ett passfoto av en bebis?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "svensk passfoto",
+    "ePhoto": "",
+    "codeEphoto": [
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></p>\n<p class=\"first-token\" data-sourcepos=\"1:1-1:15\">Officiellt passfotoformat för Sverige är:</p>\n<ul data-sourcepos=\"3:1-4:30\">\n<li data-sourcepos=\"3:1-3:31\"><strong>45 millimeter (mm) i höjd</strong></li>\n<li data-sourcepos=\"4:1-4:30\"><strong>35 millimeter (mm) i bredd</strong></li>\n</ul>\n<p data-sourcepos=\"6:1-6:93\">Ansiktets storlek i fotot ska vara mellan 29 mm och 34 mm mätt från hjässan till hakan. Detta innebär att ansiktet ska uppta ungefär 70-80% av fotot vertikalt.</p>\n<p></main></p>\n",
+        "titre_accordeon": "Vilken är storleken på passfoto i Sverige?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Priset på passfoton i Sverige kan variera beroende på leverantör, men räkna med att betala runt 299 kronor. Smartphone-ID &#8211; <strong>Till hälften så dyrt som konkurrenterna!</strong></main></p>\n",
+        "titre_accordeon": "Hur mycket kostar passfoton i Sverige?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></p>\n<p class=\"first-token\" data-sourcepos=\"1:1-1:54\">Du har två alternativ:</p>\n<ul data-sourcepos=\"3:1-4:128\">\n<li data-sourcepos=\"3:1-3:88\"><strong>Traditioellt:</strong> Besök en fotoautomat eller fotostudio som erbjuder passfototjänster.</li>\n<li data-sourcepos=\"4:1-4:128\"><strong>Med Smartphone iD-appen:</strong> Den här appen låter dig ta ditt eget passfoto med din smartphone och garanterar att det uppfyller alla krav.</li>\n</ul>\n<p data-sourcepos=\"6:1-6:94\">Att använda Smartphone iD är generellt sett billigare och smidigare än traditionella metoder.</p>\n<p></main></p>\n",
+        "titre_accordeon": "Var får man passfoto i Sverige?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Ja! Du kan ta ditt eget passfoto. Du kan ta ditt foto med bakkameran på din telefon, men se till att du följer alla riktlinjer för att få ditt foto godkänt (belysning, skugga, bakgrundsfärg).<br />\nDu kan också använda Smartphone iD passfotoappen som gör allt åt dig. Välj helt enkelt ditt land och dokument, ta ett foto och få det senare via e-post. Så enkelt är det!</main></p>\n",
+        "titre_accordeon": "Kan man ta sitt eget passfoto?"
+      },
+      {
+        "texteAccordeon": "<p>Att ta sitt eget passfoto hemma är enkelt, du måste göra följande:<br />\nStå mot ljuskällan för att få jämn belysning på ditt ansikte och hals. Det är bäst att göra det i dagsljus mot ett fönster.<br />\nSe till att din bakgrund är ljusfärgad och att ingen skugga syns bakom dig.<br />\nTitta in i kamerans objektiv och inte på telefonskärmen. Ögonen ska vara öppna.<br />\nVid selfie, se till att din arm är helt utsträckt och är på axelhöjd.<br />\nOm du inte är säker på om alla riktlinjer har följts, kan du använda Smartphone iD-verktyget. Fotot kommer automatiskt att storleksanpassas och godkännas av utbildade experter för att säkerställa 100% överensstämmelse med officiella standarder.</p>\n",
+        "titre_accordeon": "Hur tar man ett passfoto hemma?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p>&nbsp;</p>\n<p>Placera din bebis på ett vitt lakan på din säng, eller sätt den i en barnstol med en vit handduk som täcker stolen.<br />\nTa bort nappen, fånga bebisens uppmärksamhet och försök få ett foto med din bebis mun stängd. Vissa regeringar tillåter att munnen är lite öppen, men ingen tunga eller tänder får synas.<br />\nSe till att din bebis huvud inte är lutat, och glöm inte att du inte kan stödja bebisen själv medan du tar fotot eftersom inga andra kroppsdelar får synas på fotot.<br />\nVid selfie, se till att din arm är helt utsträckt och är på axelhöjd.<br />\nDu kan också ta ett foto via vår webbplats www.smartphon-id.com där vi hjälper dig att få ett giltigt foto med hjälp av våra utbildade experter.</p>\n<p></main></p>\n",
+        "titre_accordeon": "Hur tar man ett passfoto av sin bebis?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Det beror på dokumenttypen. Officiella dokument som används för biometrisk maskinläsning (elektroniska pass, visum, identitetskort) tillåter inte leenden eftersom det gör det svårare att läsa biometriska data från skanningen. Däremot kan mer informella identitetsdokument som studentkort eller transportkort ha ett passfoto med en leende person. Om du är osäker på kraven kan du använda Smartphone iD-tjänsten som ger dig ett överensstämmande och kontrollerat foto för det dokument du väljer.</main></p>\n",
+        "titre_accordeon": "Kan man le på ett passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Starka färger som står ut tydligt från bakgrunden är lämpliga för ett passfoto. Eftersom en ljus bakgrund krävs är mörkare färger fördelaktiga för att öka kontrasten.<br />\nSe också till att din skjorta inte visar för mycket hud, eftersom barbröstade passfoton är förbjudna.<br />\nSlutligen är uniformer av alla slag också förbjudna på ett biometriskt passfoto.</main></p>\n",
+        "titre_accordeon": "Vad ska man ha på sig på ett passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Inte alla regeringar tillåter glasögon eftersom det är väldigt svårt att få det rätt. Tjocka bågar är förbjudna, likaså tonat glas, ingen reflektion får synas och de måste sitta korrekt. Därför rekommenderar de regeringar som inte förbjuder glasögon starkt att ta av dem för fotot.</main></p>\n",
+        "titre_accordeon": "Kan man ha glasögon på ett passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Ja, du kan ha smink på ditt passfoto.<br />\nMen notera att sminket bör vara lätt. Använd inte för mycket ögonskugga på dina ögonlock.<br />\nOfta kan glansigt läppstift skapa en reflektion, därför är det bättre att välja ett matt läppstift om du vill framhäva dina läppar.<br />\nDet är också bra att kontrollera att din hud inte är oljig innan du tar ett foto, eftersom det också kan skapa en ljusreflektion.<br />\nSlutligen, kom ihåg att passfotot måste vara så naturligt som möjligt och måste likna dig på en vanlig dag.</main></p>\n",
+        "titre_accordeon": "Kan man ha smink på ett passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">För att skriva ut passfoton med din dator måste du först ladda ner programvara som gör att du kan få foton i storleken 3,5 x 4,5 cm. Sedan måste du ansluta en skrivare som är kompatibel med fotopapper till din dator eftersom endast professionellt tryckta passfoton accepteras.<br />\nOm du inte vill ladda ner någon programvara eller slippa besväret med att leta efter ett enkelt verktyg online, kan du välja Smartphone iD-passfotoservicen, där du bara behöver välja den nödvändiga dokumenttypen och allt annat görs åt dig.<br />\nDu kan få en professionell 10x15cm-utskrift levererad till din dörr eller använda den 10x15cm digitala filen vi skickar till din e-post och använda den i en närliggande utskriftsanläggning.</main></p>\n",
+        "titre_accordeon": "Hur skriver man ut ett passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Det är förbjudet att lämna in ett skannat foto för ett officiellt identifikationsdokument. Om du behöver lämna in digitala passfoton kan du använda vårt enkla automatiserade verktyg online som inkluderar en expertkontroll. På detta sätt får du ett perfekt digitalt passfoto i det behövda formatet för ditt dokument. Om du skannar passfoton för att skapa flera utskrifter har vi täckt det också. Med ditt digitala enskilda foto får du även en utskriftsklar 10&#215;15-mall skickad till din e-post som du kan använda obegränsat antal gånger.</main></p>\n",
+        "titre_accordeon": "Hur skannar man ett passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">För att göra ett passfoto på din iPhone, klicka på &#8220;Ta ett foto&#8221;-knappen på Smartphone iD-webbplatsen, välj det nödvändiga landet och dokumenttypen, ta ditt foto på din iPhone och det är allt! Efter fotovalidering av vårt expertteam får du dina foton i din e-post.</main></p>\n",
+        "titre_accordeon": "Hur tar man ett passfoto med en iPhone?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><br />\nFör att göra ett passfoto på din Android, klicka på &#8220;Ta ett foto&#8221;-knappen på Smartphone iD-webbplatsen, välj det nödvändiga landet och dokumenttypen, ta ditt foto på din Android och det är allt! Efter fotovalidering av vårt expertteam får du dina foton i din e-post.</main></p>\n",
+        "titre_accordeon": "Hur tar man ett passfoto med en Android?"
+      }
+    ],
+    "titre_bloc9": "frågor",
+    "titre_bloc9_span": "Vanliga"
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "Var detta användbart för dig?",
+    "sousTitre" : "Klicka på stjärnorna för att lämna ett betyg.",
+    "personne" : "Genomsnittligt betyg",
+    "etoiles" : "stjärnor av 5"
+  },
+
+  "Bloc11": {
+    "titre": "Hitta dina svar på motsvarande sidor",
+    "liens": [
+      {
+        "link": "Körkort",
+        "url": "https://www.smartphone-id.com/sv_SE/korkort",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Pass",
+        "url": "https://www.smartphone-id.com/sv_SE/pass",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Nationellt ID-kort",
+        "url": "https://www.smartphone-id.com/sv_SE/nationellt-id-kort",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Uppehållstillstånd",
+        "url": "https://www.smartphone-id.com/sv_SE/uppehallstillstand",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visum",
+        "url": "https://www.smartphone-id.com/sv_SE/visum",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
+  "Footer": {
+    "partie2-button": "",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "Om oss",
+    "propos-link" : "https://www.smartphone-id.com/sv_SE/om-oss",
+    "SiteMapList-faq" : "Vanliga frågor",
+    "faq-link" : "https://www.smartphone-id.com/sv_SE/vanliga-frågor",
+    "SiteMapList-contact" : "Kontakt",
+    "contact-link" : "https://www.smartphone-id.com/sv_SE/kontakt",
+    "applis-h3": "Ladda ner appen!",
+    "applis-p":  " Ladda ner Smartphone iD-appen för att spåra dina beställningar och njuta av ännu fler funktioner för passfoton",
+    "AppStore-link" : "https://apps.apple.com/se/app/officiellt-passfoto/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=sv&gl=sv",
+    "partie2-p": "Upptäck den senaste informationen om identitetshandlingar och visum",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Integritetspolicy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/sv_SE/integritetspolicy",
+    "mentions-cgu": "Användarvillkor",
+    "mentions-cgu-link": "https://www.smartphone-id.com/sv_SE/användarvillkor",
+    "mentions-légales": "Rättsligt meddelande",
+    "mentions-légales-link": "https://www.smartphone-id.com/sv_SE/rättsligt-meddelande",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/sv_SE/cookies"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

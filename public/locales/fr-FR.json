@@ -149,11 +149,6 @@
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
         "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
-      },
-      {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
-        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
-        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
       }
     ],
     "repeteurEtapeMobile": [
