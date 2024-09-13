@@ -156,24 +156,25 @@ export default function Footer() {
                     </div>
 
                     <div className="menuLangue column">
-                        <button className="menuLangue-button w-9/12 max-w-md max-lg:m-auto" onClick={() => setIsOpen(!isOpen)}>
+                        <button className="menuLangue-button w-9/12 max-w-md max-lg:m-auto max-lg:mt-5 relative" onClick={() => setIsOpen(!isOpen)}>
                             <Image width={100}
                                    height={1000} src={flags[currentLocale]} alt={currentLocale}/>
                             {localeToCountry[currentLocale]}
-                        </button>
-                        {isOpen && (
-                            <ul className="max-h-60 overflow-auto" ref={dropdownRef}>
+                            {isOpen && (
+                            <ul className="max-h-60 overflow-auto !grid-cols-1 !max-w-md -translate-x-3 " style={{width:'inherit'}}  ref={dropdownRef}>
                                 {Object.entries(flags).map(([locale, flagSrc]) => (
                                     <li className="flex gap-4 hover:bg-slate-200 p-2 rounded cursor-pointer" key={locale} onClick={() => changeLanguage(locale)}>
                                         <Image
-                                            height={60}
-                                            width={100}
+                                            height={10}
+                                            width={20}
                                             src={flagSrc} alt={localeToCountry[locale]}/>
                                         {localeToCountry[locale]}
                                     </li>
                                 ))}
                             </ul>
                         )}
+                        </button>
+                        
                     </div>
 
                 </div>

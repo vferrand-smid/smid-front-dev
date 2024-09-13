@@ -21,7 +21,7 @@ export default function Navbar({locale}) {
     const router = useRouter();
 
     return (
-        <header className="sticky top-0 z-50 bg-white h-14 shadow flex justify-center max-lg:h-28 max-lg:flex max-lg:flex-col" >
+        <header className="sticky top-0 z-50 bg-white h-14 shadow flex justify-center" >
 
             <nav className="w-full flex">
 
@@ -115,14 +115,6 @@ export default function Navbar({locale}) {
                     )}
                 </div>
             </nav>
-            <div className="hidden max-lg:flex h-14 justify-center gap-5 p-1">
-    <a href="https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865" target="_blank" rel="noopener">
-        <img className="w-fit h-fit max-h-[90%]" src="https://www.smartphone-id.com/wp-content/uploads/2023/08/iOS-button-en-1-e1692887572561.png"/>
-    </a>
-    <a href="https://play.google.com/store/apps/details?id=com.smartphoneid&amp;hl=fr&amp;gl=FR" target="_blank" rel="noopener">
-        <img className="w-fit h-fit max-h-[90%]" src="https://www.smartphone-id.com/wp-content/uploads/2023/08/button-android-en-e1692887647417.png" />
-    </a>
-            </div>
 
             </header>
     );
