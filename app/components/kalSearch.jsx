@@ -208,7 +208,9 @@ const KalSearch = ({ page, locale }) => {
 								/>
 								{documents.find(d => d.id === selectedDocument)?.name}
 							</section>
-						):<section class="search-document">Choisissez le document</section>}
+						):
+							<section class="search-document"></section>
+						}
 					</section>
 					</div>
 
