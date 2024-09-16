@@ -504,6 +504,37 @@
     "etoiles" : "stars out of 5"
   },
 
+  "Bloc11": {
+    "titre": "Find your answers in the corresponding pages",
+    "liens": [
+      {
+        "link": "Driving licence",
+        "url": "https://www.smartphone-id.com/en_AU/driving-licence-photo-australia/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "passport",
+        "url": "https://www.smartphone-id.com/en_AU/digital-passport-photos-au/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Identification Card",
+        "url": "https://www.smartphone-id.com/en_AU/photo-identification-card-au/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Imicard",
+        "url": "https://www.smartphone-id.com/en_AU/immicard-in-australia/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/en_AU/australia-visa-photo/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
   "Footer": {
       "partie2-button": "Try now for free!",
       "Youtube-link": "https://www.youtube.com/@smartphoneid2023",

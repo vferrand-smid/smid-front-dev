@@ -514,6 +514,37 @@
     "etoiles" : "Sterne von 5"
   },
 
+  "Bloc11": {
+    "titre": "Finden Sie Ihre Antworten auf den entsprechenden Seiten",
+    "liens": [
+      {
+        "link": "Führerschein",
+        "url": "https://www.smartphone-id.com/de_DE/fuehrerschein-foto/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Reisepass",
+        "url": "https://www.smartphone-id.com/de_DE/passfoto-in-deutschland/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Personalausweis",
+        "url": "https://www.smartphone-id.com/de_DE/passfoto-personalausweis/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Aufenthaltsgenehmigung",
+        "url": "https://www.smartphone-id.com/de_DE/aufenthaltsgenehmigung/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visum",
+        "url": "https://www.smartphone-id.com/de_DE/visum-deutschland/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
   "Footer": {
     "partie2-button": "Jetzt kostenlos probieren! ",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
