@@ -34,7 +34,7 @@ const Bloc7Solution = ({ locale }) => {
                                     alt=""
                                 />
                             </div>
-                            <section className="text-center !items-baseline">
+                            <section className="text-center">
                                 <Image
                                     src={item?.img_check || 'default.jpg'}
                                     alt=""
