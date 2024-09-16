@@ -17,8 +17,9 @@ const Bloc6Documents = ({ locale }) => {
     const { titre_bloc6_1, titre_bloc6_span, titre_bloc6_2, documents, bloc_photo } = translations.Bloc6;
 
     return (
-        <div className={styles.kalDocument}>
-            <h2> {titre_bloc6_1}{" "} <span className={styles.highlight}>{titre_bloc6_span}</span> {titre_bloc6_2}
+        <div className='kal-document'>
+            <div>
+            <h2 className='max-md:!text-center'> {titre_bloc6_1}{" "} <span className={styles.highlight}>{titre_bloc6_span}</span> {titre_bloc6_2}
             </h2>
 
             <div className={styles.selectDocument}>
@@ -42,8 +43,8 @@ const Bloc6Documents = ({ locale }) => {
                     );
                 })}
             </div>
-
-            <div className={styles.kalDocument2}>
+            </div>
+            <div className='kal-document-2'>
                 {bloc_photo?.map((item, index) => {
                     if (!item.planche_photo || !item.impressionPhoto) {
                         return null;
@@ -51,7 +52,7 @@ const Bloc6Documents = ({ locale }) => {
 
                     return (
                         <React.Fragment key={index}>
-                            <div className={styles.planchePhoto}>
+                            <div >
                                 <Image
                                     src={item.planche_photo}
                                     alt=""
@@ -61,24 +62,23 @@ const Bloc6Documents = ({ locale }) => {
                                 {item.impressionPhoto &&
                                     <h3>{item.impressionPhoto}</h3>}
                                 {item.paragraphe && (
-                                    <div className={styles.paragraphe}>
+                                    <div >
                                         <p>{item.paragraphe}</p>
-                                        {/*<div className={styles.paragrapheBordure}></div>*/}
+                                        <div ></div>
                                     </div>
                                 )}
                             </div>
                             {item.partenaires?.length > 0 && (
-                                <section className={styles.partenaires}>
+                                <section>
                                     {item.partenaires.map((partenaire, partenaireIndex) => {
                                         const imgUrl = partenaire.img_partenaire;
                                         if (!imgUrl) {
                                             return null;
                                         }
                                         return (
-                                            <div className={styles.partenairesCard} key={partenaireIndex}>
-                                                <div className={styles.partenairesCardImage}>
+                                            <div  key={partenaireIndex}>
+                                                <div >
                                                     <Image
-                                                        className={styles.partenairesImage}
                                                         src={imgUrl}
                                                         alt=""
                                                         width={80}

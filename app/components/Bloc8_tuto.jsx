@@ -18,10 +18,9 @@ const Bloc8Tuto = ({ locale }) => {
     return (
         <div className="kal-tuto">
             <div>
-                <h3>{translations.Bloc8["titre_bloc8_1"]} <span className="highlight">{titre_bloc8_span}</span>{translations.Bloc8["titre_bloc8_2"]}</h3>
+                <h3 className='max-md:!text-center'>{translations.Bloc8["titre_bloc8_1"]} <span className="highlight">{titre_bloc8_span}</span>{translations.Bloc8["titre_bloc8_2"]}</h3>
                 <div className="kal-tuto-container">
-                    <div className="kal-tuto-iframe">
-                        <div className="iframe" dangerouslySetInnerHTML={{__html: video}}/>
+                    <div className="kal-tuto-iframe"  dangerouslySetInnerHTML={{__html: video}}>
                     </div>
 
                     <div className="kal-tuto-content">
@@ -37,13 +36,13 @@ const Bloc8Tuto = ({ locale }) => {
                                     />
                                     <p>
                                         <span className="number">0{item.chiffre}.</span> {item.texte}
-                                        <strong>{item.texte_span}</strong>
+                                        <strong className='!inline ml-1'>{item.texte_span}</strong>
                                     </p>
                                 </div>
                             ))}
                         </div>
-                        <a href={bouton_plus?.url} className="kal-tuto-button">{bouton_plus?.title}</a>
-                        <a className="tuto-link" href={lienBebe?.url}>
+                        <a href={bouton_plus?.url} className="kal-tuto-button hover:text-green-500 transition">{bouton_plus?.title}</a>
+                        <a className="tuto-link hover:text-green-500 transition" href={lienBebe?.url}>
                             <p style={{textAlign: 'center'}}>
                                 {lienBebe?.title}
                             </p>

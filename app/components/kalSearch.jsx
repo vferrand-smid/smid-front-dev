@@ -95,18 +95,17 @@ const KalSearch = ({ page, locale }) => {
 
 	return (
 
-		<div className="kal-search md:flex-row md:items-center md:justify-between p-4 md:max-sm:w-[400px] md:w-[750px] md:h-[115px] rounded-lg border-2 border-[#efefef] bg-white ">
+		<div className="kal-search">
 
-			<div className="md:max-sm:grid md:max-sm:grid-rows-3 md:max-sm:justify-items-start md:max-sm:gap-4 md:flex md:flex-row w-full">
 
 				{/* COUNTRY */}
 
-				<div className="kal-search-country md:max-sm:fex w-full sm:w-auto border-b-2 md:border-r-2 border-b-gray-100 md:border-r-gray-100 relative pr-5">
-					<div>
-						<h4 className="text-left md:mt-4 md:ml-3 text-black font-['Georama'] text-[.9375rem] font-semibold leading-[normal]">
+				<div>
+					<div className='kal-search-country'>
+						<div>
+						<h4 className='flex gap-1 items-baseline' >
 							{translations.kalSearch['titre_1']}
-							<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg" className="inline ml-2 mr-4"
-							>
+							<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path
 									fillRule="evenodd"
 									clipRule="evenodd"
@@ -118,11 +117,8 @@ const KalSearch = ({ page, locale }) => {
 								/>
 							</svg>
 						</h4>
-					</div>
-
-					{/* POP-UP COUNTRY */}
-
-					<section className="flex gap-4 items-center p-4 cursor-pointer"
+						</div>
+						<section className="flex gap-4 items-center p-4 cursor-pointer"
 							 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}
 					>
 						{selectedCountry && (
@@ -134,15 +130,14 @@ const KalSearch = ({ page, locale }) => {
 									alt="country flag"
 									className="w-10 h-10"
 								/>
-								<span
-									className="text-base">{countries.find(c => c.code === selectedCountry)?.name}</span>
+							{countries.find(c => c.code === selectedCountry)?.name}
 							</>
 						)}
 					</section>
 					{isCountryPopupVisible && (
 						<main
-							className="kal-search-country-popup absolute shadow-lg rounded-lg p-2 mt-2 mr-4 z-10 bg-white">
-							<div className="kal-search-country-search-container mb-4">
+							className="kal-search-country-popup" style={{display:'flex'}}>
+							<div className="kal-search-country-search-container">
 								<input
 									type="text"
 									placeholder="Rechercher un autre pays..."
@@ -151,7 +146,7 @@ const KalSearch = ({ page, locale }) => {
 									onChange={(e) => setSearchQuery(e.target.value)} // Met à jour l'état de la requête de recherche
 								/>
 							</div>
-							<div className="kal-search-country-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
+							<div className="kal-search-country-search-suggestion">
 								{filteredCountries.length > 0 ? (
 									filteredCountries.map(country => (
 										<div
@@ -169,13 +164,19 @@ const KalSearch = ({ page, locale }) => {
 							</div>
 						</main>
 					)}
+					</div>
+
+					{/* POP-UP COUNTRY */}
+
+					
+					
 				</div>
 
 				{/* DOCUMENT */}
 
-				<div className="kal-search-document relative pr-5">
-					<div>
-						<h4 className="text-left mt-4 text-black font-['Georama'] text-[.9375rem] font-semibold leading-[normal]">
+				<div>
+					<div className='kal-search-document'>
+						<h4 className='flex gap-1 items-baseline'  >
 							{translations.kalSearch['titre_2']} <span className="text-red-500">*</span>
 							<svg
 								width="13"
@@ -183,7 +184,6 @@ const KalSearch = ({ page, locale }) => {
 								viewBox="0 0 13 8"
 								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
-								className="inline ml-2"
 							>
 								<path
 									fillRule="evenodd"
@@ -196,30 +196,48 @@ const KalSearch = ({ page, locale }) => {
 								/>
 							</svg>
 						</h4>
-					</div>
-
-					<section className="flex gap-4 items-center p-4 cursor-pointer"
+						<section className="flex gap-4 items-center p-4 cursor-pointer"
 							 onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
-						{selectedDocument && (
-							<>
+						{selectedDocument ? (
+							<section class="search-document">
 								<Image
 									width={500}
 									height={500}
 									src={documents.find(d => d.id === selectedDocument)?.img}
 									alt="document icon"
-									className="w-10 h-10"
 								/>
-								<span
-									className="text-base">{documents.find(d => d.id === selectedDocument)?.name}</span>
-							</>
-						)}
+								{documents.find(d => d.id === selectedDocument)?.name}
+							</section>
+						):<section class="search-document">Choisissez le document</section>}
 					</section>
+					</div>
+
+					
 
 					{/* POP-UP DOCUMENT */}
 
-					{isDocumentPopupVisible && (
+					
+
+				<button	className={`button-photo message ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
+					onClick={() => {
+						const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
+						const userLanguage = navigator.language;
+						const languageCode = userLanguage ? userLanguage.split('-')[0] : 'en';
+
+						const url = selectedDocument && selectedCountry && currentCountry
+							? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${languageCode}`
+							: `https://smartphone-id-app.com/${platform}/${languageCode}`;
+
+						window.open(url, '_blank');
+					}}
+						   disabled={isButtonDisabled}
+				>
+					{translations.kalSearch['bouton']}
+				</button>
+
+				{isDocumentPopupVisible && (
 						<main
-							className="kal-search-document-popup absolute shadow-lg rounded-lg p-2 mt-2 mr-4 z-10 bg-white">
+							className="kal-search-document-popup flex">
 							<div
 								className="kal-search-document-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
 								{documents.map(doc => (
@@ -245,24 +263,8 @@ const KalSearch = ({ page, locale }) => {
 
 				{/* BOUTON */}
 
-				<button	className={`flex-shrink-0 h-[3.25rem] self-center rounded-[26px] bg-black text-white w-[148px] mx-auto ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
-					onClick={() => {
-						const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
-						const userLanguage = navigator.language;
-						const languageCode = userLanguage ? userLanguage.split('-')[0] : 'en';
+			
 
-						const url = selectedDocument && selectedCountry && currentCountry
-							? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${languageCode}`
-							: `https://smartphone-id-app.com/${platform}/${languageCode}`;
-
-						window.open(url, '_blank');
-					}}
-						   disabled={isButtonDisabled}
-				>
-					{translations.kalSearch['bouton']}
-				</button>
-
-			</div>
 
 		</div>
 	);

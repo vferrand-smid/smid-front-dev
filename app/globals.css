@@ -112,7 +112,7 @@ body {
     gap: 8px;
     padding: 32px 24px;
     box-sizing: border-box;
-    height: auto;
+    height: 100%;
     }
 
 .kal-testimonials-card > div > h4 {
@@ -557,7 +557,7 @@ footer {
 
 .menuLangue-button {
     @apply bg-white static rounded-md text-black items-center cursor-pointer
-    flex justify-start px-3 py-2 w-[380px];
+    flex justify-start px-3 py-2;
 }
 
 .menuLangue ul {
@@ -613,7 +613,7 @@ footer {
 }
 
 .SiteMapList {
-    @apply flex flex-col gap-[40px] w-[200px] m-auto h-full justify-start;
+    @apply flex flex-col gap-[20px] w-[200px] m-auto h-full justify-start;
 }
 
 .SiteMapList-a {
@@ -662,4 +662,1846 @@ footer {
 
 .mentions {
     @apply flex justify-between gap-[30px] max-w-[1140px] m-auto;
+}
+
+@media screen and (max-width: 700px) {
+    .kal-testimonials-partner, .kal-testimonials-media {
+        width: 100%;
+        grid-auto-columns: calc((100% / 3));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .kal-testimonials-partner, .kal-testimonials-media {
+        width: 100%;
+        grid-auto-columns: calc((100% / 4));
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .kal-testimonials-media, .kal-testimonials-partner {
+        grid-auto-columns: calc((100% / 3));
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .kal-testimonials-media, .kal-testimonials-partner {
+        grid-auto-columns: calc((100% / 4));
+    }
+}
+@media screen and (max-width: 800px) {
+    .kal-testimonials-partner-wrapper, .kal-testimonials-media-wrapper {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .kal-testimonials-partner-wrapper > :last-child, .kal-testimonials-media-wrapper > :last-child {
+        display: flex !important;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .kal-testimonials-partner-wrapper > nav, .kal-testimonials-media-wrapper > nav {
+        display: none;
+    }
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+overflow-x: hidden;
+}
+
+.kal-service-button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .kal-service button {
+    color: #fff;
+    text-align: center;
+    font-family: Georama;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 26px;
+    background: #000;
+    display: block;
+    margin: auto;
+    padding: 17px 50px;
+    margin-top: 50px;
+    border: none;
+  }
+  .kal-service-list {
+    /* height: 400px; */
+    width: 60%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .kal-service-list > section {
+    width: 300px;
+    max-width: 100%;
+  }
+  .kal-service-list > section > div > svg {
+    margin-top: 2px;
+  }
+  .kal-service-list > section > div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .kal-service-list h4 {
+    color: #000;
+    font-family: Georama;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .kal-service-list p {
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+  }
+  .kal-service {
+    background: #eafaf1;
+    padding: 60px 50px;
+    position: relative;
+  }
+  .kal-service > aside {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 550px;
+  }
+  .kal-service > aside > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-left: 4px solid #2fc977;
+  }
+  .kal-service > div {
+    max-width: 1140px;
+    margin: auto;
+  }
+
+  .kal-service > div > h2 {
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+  }
+  .kal-service > div > button {
+    color: #fff;
+    text-align: center;
+    font-family: Georama;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 26px;
+    background: #000;
+    display: block;
+    margin: auto;
+    padding: 10px 24px;
+  }
+  @media screen and (max-width: 1300px) {
+    .kal-service > aside {
+      width: 40%;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .kal-service > aside {
+      width: 35%;
+    }
+    .kal-service-list {
+      gap: 10px;
+      height: 350px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .kal-service {
+      padding: 0;
+    }
+    .kal-service > aside {
+      position: relative;
+      right: unset;
+      top: unset;
+      height: 600px;
+      width: 100%;
+      margin: -80px -50px O -50px;
+    }
+    .kal-service > aside > img {
+      border-left: none;
+      border-bottom: 4px solid #2fc977;
+    }
+    .kal-service > div {
+      padding: 30px 50px 50px 30px;
+    }
+    .kal-service-list {
+      width: 80%;
+      margin: auto;
+    }
+    .kal-service-button-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .kal-service button {
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .kal-service-list {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .kal-service-list {
+      height: auto;
+      width: fit-content;
+      flex-wrap: nowrap;
+      gap: 30px;
+    }
+    .kal-service button {
+      margin-top: 50px;
+    }
+  }
+  .highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(
+      45deg,
+      rgba(47, 201, 119, 0.4),
+      rgba(47, 201, 119, 0.4)
+    );
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  strong,
+  span {
+    margin: 0;
+  }
+
+  .select-document-button-container {
+    margin: 30px auto !important;
+  }
+  .kal-document-2 > :last-child > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .kal-document-2 > :last-child > div > div {
+    width: 80px;
+    height: 80px;
+  }
+  .kal-document-2 > :last-child > div > div > img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .kal-document-2 > :last-child > div > p {
+    color: #4c4c4c;
+    text-align: center;
+    font-family: Georama;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 169.231% */
+  }
+  .kal-document-2 > :last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 20px;
+    margin: auto;
+    align-self: center;
+    height: fit-content;
+  }
+  .kal-document-2 {
+    min-height: 100px;
+    border-radius: 10px;
+    background: #efefef;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .kal-document-2 > :first-child {
+    position: relative;
+    margin-left: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .kal-document-2 > :first-child > div > div {
+    position: absolute;
+    width: 4px;
+    height: 52px;
+    background: #2fc977;
+    left: -20px;
+    top: -10px;
+  }
+  .kal-document-2 > :first-child > div {
+    position: relative;
+  }
+  .kal-document-2 > :first-child > div > p {
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+  }
+  .kal-document-2 > :first-child > h3 {
+    color: #000;
+    font-family: Georama;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .kal-document {
+    background: white;
+    padding: 80px 50px;
+  }
+  .kal-document > div {
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .kal-document .select-document-button-container > p {
+    color: #000;
+    text-align: center;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .kal-document > div > h2 {
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+  }
+  .kal-document .select-document-button-container > button {
+    color: #fff;
+    text-align: center;
+    font-family: Georama;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 26px;
+    background: #000;
+    display: block;
+    margin: auto;
+    padding: 16px 32px;
+    margin: 10px auto;
+    border: none;
+    transition: all 0.5s ease-out;
+  }
+  .select-document {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .select-document > section {
+    width: 210px;
+    height: 240px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #efefef;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+  }
+  .select-document > section > div {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .select-document > section > div > img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    object-fit: contain;
+  }
+  .select-document > section > p {
+    color: #000;
+    text-align: center;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+  }
+  @media screen and (max-width: 900px) {
+    .kal-document-container {
+      flex-direction: column;
+      max-width: 600px;
+      margin: auto;
+    }
+    .kal-document-2 {
+      flex-direction: column;
+    }
+    .kal-document-2 > :first-child {
+      justify-content: center;
+      margin: auto;
+      text-align: center;
+    }
+    .kal-document-2 > :first-child > img {
+      margin: auto;
+    }
+    .kal-document-2 > :last-child {
+      justify-content: center;
+    }
+    .select-document-button-container.first {
+      display: block;
+    }
+    .select-document-button-container.second {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .kal-document {
+      padding: 80px 20px;
+    }
+    .select-document {
+      gap: 15px;
+    }
+    .select-document > section {
+      width: 180px;
+      height: 240px;
+      padding: 20px;
+    }
+    .select-document > section > div {
+      width: 120px;
+      height: 150px;
+      box-sizing: border-box;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+  }
+  .highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(
+      45deg,
+      rgba(47, 201, 119, 0.4),
+      rgba(47, 201, 119, 0.4)
+    );
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  strong,
+  span {
+    margin: 0;
+  }
+
+  
+  .kal-solution-container {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  .kal-solution-container > div {
+    flex: 1;
+    min-height: 100px;
+  }
+  .kal-solution-container > div > section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Georama;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px auto;
+    margin-top: 26px;
+  }
+  .kal-solution-container > div > aside {
+    color: #000;
+    text-align: center;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    max-width: 350px;
+    margin: auto;
+  }
+	.kal-solution-container > div > div {
+    aspect-ratio:16/9;
+    border-radius:20px;
+    overflow: hidden;
+    background-color: #efefef;
+    padding: 10px;
+  }
+  .kal-solution-container > div > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+  }
+  .kal-solution {
+    background: white;
+    padding: 80px 50px;
+    padding-top: 0;
+  }
+  .kal-solution > div {
+    max-width: 1140px;
+    margin: auto;
+  }
+  .kal-solution > div > h2 {
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+  }
+  .kal-solution > div > button {
+    color: #fff;
+    text-align: center;
+    font-family: Georama;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 26px;
+    background: #000;
+    display: block;
+    margin: auto;
+    padding: 16px 50px;
+    margin-top: 50px;
+    border: none;
+  }
+
+  @media screen and (max-width: 900px) {
+		.kal-solution-container{
+			flex-direction: column;
+			max-width: 600px;
+			margin:auto;
+		}
+  }
+  @media screen and (max-width: 500px) {
+    .kal-solution {
+      padding: 80px 20px;
+      padding-top: 0px;
+    }
+  }
+  .highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(
+      45deg,
+      rgba(47, 201, 119, 0.4),
+      rgba(47, 201, 119, 0.4)
+    );
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  strong,
+  span {
+    margin: 0;
+  }
+
+  .kal-tut-content-item > div strong {
+    display: block;
+  }
+  .kal-tut-content-item > div > svg {
+    flex-shrink: 0;
+    flex-grow: 0;
+    position: relative;
+    top: 2px;
+  }
+  .tut-link {
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    text-decoration-line: underline;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  .kal-tut-button {
+    display: block;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #4c4c4c;
+    padding: 10px 30px;
+    margin: 32px auto 16px auto;
+    color: #4c4c4c;
+    text-align: center;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: fit-content;
+  }
+  .kal-tut-content-item {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 20px;
+  }
+  .kal-tut-content-item > div {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    width: fit-content;
+  }
+  .kal-tut {
+    background: #eafaf1;
+    padding: 80px 50px;
+  }
+  .kal-tut > div {
+    max-width: 1140px;
+    margin: auto;
+  }
+  .highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(
+      45deg,
+      rgba(47, 201, 119, 0.4),
+      rgba(47, 201, 119, 0.4)
+    );
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .kal-tut-container {
+    display: flex;
+    gap: 40px;
+  }
+  .kal-tut-ifram {
+    min-height: 300px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .kal-tut-ifram > * {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+  }
+  .kal-tut-content {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 35px 40px;
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .kal-tut-content h4 {
+    color: #000;
+    font-family: Georama;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .number {
+    color: #000;
+    font-family: Georama;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .kal-tut h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+  }
+  @media screen and (max-width: 1100px) {
+    .kal-tut-container {
+      flex-direction: column;
+    }
+    .kal-tut-ifram {
+      min-height: auto;
+      aspect-ratio: 16/9;
+    }
+    .kal-tut-content-item {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 30px;
+    }
+    .kal-tut-content-item > div strong {
+      display: inline;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .kal-tut {
+      padding: 80px 20px;
+    }
+    .kal-tut-content {
+      padding: 35px 20px;
+      border-radius: 10px;
+    }
+    .kal-tut-ifram {
+      aspect-ratio: 16/11;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  strong,
+  span {
+    margin: 0;
+  }
+.kal-tuto-iframe > *{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.kal-accordion-item-active svg > :nth-child(2) {
+    display: none;
+  }
+  .kal-accordion-item-active svg {
+    color: #2fc977 !important;
+  }
+  .kal-accordion-render-mobile svg,
+  .kal-accordion-render svg {
+    color: #a6a6a6;
+    transition: all 0.2s;
+  }
+  .kal-accordion-select-active {
+    border: 2px solid #2fc977 !important;
+  }
+  .kal-accordion-select-active > svg {
+    color: #2fc977 !important;
+  }
+  .kal-accordion-render-hide {
+    display: none;
+  }
+  .kal-accordion-render-mobile > main,
+  .kal-accordion-render > div > main {
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+  .kal-accordion-render-mobile > aside > *,
+  .kal-accordion-render > div > aside > * {
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+  }
+  .kal-accordion-hide-desktop {
+    display: none;
+    overflow: hidden;
+  }
+  .kal-accordion-render-mobile,
+  .kal-accordion-render {
+    border-radius: 10px;
+    border: 3px solid #efefef;
+    background: #fff;
+    padding: 24px 30px;
+  }
+  .kal-accordion-render-mobile {
+    padding: 0 30px;
+    margin: 0;
+    border: 0;
+    max-height: 0;
+    transition: all 0.2s;
+  }
+  .kal-accordion-render-mobile-active {
+    border-radius: 10px;
+    border: 3px solid #efefef;
+    background: #fff;
+    padding: 24px 30px;
+    max-height: fit-content;
+  }
+
+  .accordion:after {
+    content: "\02795"; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .kal-accordion-item-active {
+    font-weight: 600 !important;
+  }
+  .kal-accordion-item-active-aside {
+    padding: 18px 0;
+    border-bottom: 2px solid #efefef;
+    margin-bottom: 20px;
+    max-height: fit-content !important;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .kal-accordion-render-mobile > aside,
+  .kal-accordion-render > div > aside {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+  }
+  .kal-accordion-select > section {
+    display: none;
+  }
+
+  /*   ==========================================================   */
+  .kal-accordion-select > div > svg {
+    color: #a6a6a6;
+  }
+  .kal-accordion-select > div {
+    border-radius: 10px;
+    border: 2px solid #efefef;
+    background: #fff;
+    color: #000;
+    font-family: Georama;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 24px 30px 24px 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .kal-accordion-select {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .kal-accordion {
+    background: var(--wpr-bg-7cc2ab03-7493-4aca-ba40-c9559ea03ff1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 50px;
+  }
+
+  .kal-accordion > div {
+    max-width: 1140px;
+    margin: auto;
+  }
+  .kal-accordion > div > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .kal-accordion > div > h3 {
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+  }
+  .kal-accordion > div > button {
+    color: #fff;
+    text-align: center;
+    font-family: Georama;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 26px;
+    background: #000;
+    display: block;
+    margin: auto;
+    padding: 10px 24px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .kal-accordion-render {
+      /* display: none; */
+    }
+    .kal-accordion-select > section {
+      display: block;
+    }
+    .kal-accordion > div > div {
+      grid-template-columns: 1fr;
+    }
+    .kal-accordion-hide-desktop {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .kal-accordion {
+      padding: 80px 20px;
+    }
+  }
+  .highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(
+      45deg,
+      rgba(47, 201, 119, 0.4),
+      rgba(47, 201, 119, 0.4)
+    );
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  strong,
+  span {
+    margin: 0;
+  }
+
+ 
+  .kal-photo > div > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .kal-photo > div > div > div > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+  .kal-photo > div > div > div > div > img {
+    display: block;
+    width: 50%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+  }
+  .kal-photo > div > div > div > div > div > svg {
+    width: 20px;
+    flex: none;
+    margin-top: 2px;
+  }
+  .kal-photo > div > div > div > div > div {
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    height: fit-content;
+  }
+  .kal-photo-carousel-wrapper {
+    width: 100%;
+    position: relative;
+  }
+  .selected {
+    background-color: rgba(47, 201, 119, 1) !important;
+  }
+  .kal-photo-carousel-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .kal-photo-carousel-content > div > div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: #000;
+    font-family: Georama;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: baseline;
+  }
+  .kal-photo-carousel-content > div > p {
+    width: 60%;
+    margin: auto;
+  }
+  .kal-photo-carousel-content > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+  }
+  .kal-photo-carousel-indicator > div > * {
+    height: 6px;
+    width: 50px;
+    background-color: rgba(217, 217, 217, 1);
+    transform: all 0.1s;
+  }
+  .kal-photo-carousel-indicator > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .kal-photo-carousel-indicator {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+  }
+  .kal-photo-carousel > div > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .kal-photo-carousel > div,
+  .kal-photo-carousel-content > div {
+    width: 100%;
+    height: 100%;
+  }
+  .kal-photo-carousel > div > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .kal-photo-carousel,
+  .kal-photo-carousel-content {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    position: relative;
+  }
+  .kal-photo-carousel.no-transition,
+  .kal-photo-carousel-content.no-transition {
+    scroll-behavior: auto;
+  }
+  .kal-photo-carousel::-webkit-scrollbar,
+  .kal-photo-carousel-content::-webkit-scrollbar {
+    display: none;
+  }
+  .no-transition {
+    scroll-behavior: auto;
+  }
+  .kal-photo > div > div > div {
+    flex: 2;
+    border-radius: 20px;
+    background: #efefef;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+  }
+  .kal-photo > div > div > section {
+    flex: 3;
+  }
+  .kal-photo > div > div {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 40px;
+  }
+  .kal-photo {
+    background: var(--wpr-bg-88c3d6d4-fb0e-4fad-94da-1828afebc4c3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 50px;
+  }
+
+  .kal-photo > div {
+    max-width: 1140px;
+    margin: auto;
+  }
+
+  .kal-photo > div > h2 {
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    margin-bottom: 30px;
+  }
+  .kal-photo > div > button {
+    color: #fff;
+    text-align: center;
+    font-family: Georama;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 26px;
+    background: #000;
+    display: block;
+    margin: auto;
+    padding: 17px 50px;
+    margin-top: 40px;
+    border: none;
+  }
+  .kal-photo-carousel-content-mobile{
+    display: none;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .kal-photo > div > div {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      gap: 80px;
+    }
+    .kal-photo > div > div > div {
+      max-width: 500px;
+      margin: auto;
+    }
+    .kal-photo-carousel>:nth-child(1)>img{
+      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-1.png) !important;
+      max-height: 400px;
+      object-fit: contain;
+    }
+    .kal-photo-carousel>:nth-child(2)>img{
+      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-2.png) !important;
+      max-height: 400px;
+      object-fit: contain;
+    }
+    .kal-photo-carousel>:nth-child(3)>img{
+      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-3.png) !important;
+      max-height: 400px;
+      object-fit: contain;
+    }
+    .kal-photo-carousel>:nth-child(4)>img{
+      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-4.png) !important;
+      max-height: 400px;
+      object-fit: contain;
+    }
+    .kal-photo-carousel-content-desktop{
+      display: none;
+    }
+    .kal-photo-carousel-content-mobile{
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .kal-photo > div > div {
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+    }
+    .kal-photo > div > div > div {
+      box-sizing: border-box;
+      gap: 40px;
+      padding: 30px 0;
+    }
+    .kal-photo {
+      padding: 80px 20px;
+    }
+    .kal-photo > div > div > div > div {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .kal-photo > div > div > div > div > img {
+      width: 90% !important;
+      margin: auto;
+    }
+    .kal-photo > div > div > div > div > div {
+      width: 70%;
+      margin: auto;
+    }
+    
+  }
+  .highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(
+      45deg,
+      rgba(47, 201, 119, 0.4),
+      rgba(47, 201, 119, 0.4)
+    );
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  strong,
+  span {
+    margin: 0;
+  }
+  
+
+
+  .kal-hero-stats {
+    background-color: white;
+    padding: 15px 10px;
+}
+.kal-hero-stats > div {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.kal-hero-stats > div > article {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0;
+}
+.kal-hero-stats > div > article > h4 {
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+}
+.kal-hero-stats > div > :first-child {
+    padding-left: 22px;
+}
+.kal-hero-stats > div > article > img {
+    width: 58px !important;
+    height: 58px !important;
+}
+.kal-hero-stats > div > article + article > img {
+    display: block;
+    border-left: 2px solid #efefef;
+    padding-left: 20px;
+
+    object-fit: contain;
+    box-sizing: content-box;
+}
+@media screen and (max-width: 1000px) {
+    .kal-hero-stats > div {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .kal-hero-stats > div > :first-child {
+        padding-left: 0px;
+    }
+    .kal-hero-stats > div > article + article > img {
+        display: block;
+        border-left: none;
+        padding-left: 0px;
+    }
+    .kal-hero-stats > div > article {
+        width: 300px;
+        margin: auto;
+        max-width: 300px;
+    }
+}
+
+/* ==========================================*/
+/* ==========================================*/
+/* ==========================================*/
+/* ==========================================*/
+/* ==========================================*/
+/* ==========================================*/
+/* first part */
+/* ==========================================*/
+/* ==========================================*/
+/* ==========================================*/
+/* ==========================================*/
+/* ==========================================*/
+
+.kal-hero > div > article {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 120%;
+    display: flex;
+    align-items: flex-end;
+    margin: -80px 0;
+}
+.kal-hero > div > article > img {
+    height: 100%;
+    box-sizing: content-box;
+}
+.kal-hero > div > main {
+    border-radius: 8px;
+    border: 2px solid #efefef;
+    background: #fff;
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 720px;
+}
+.kal-hero > div > aside {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.kal-hero > div > aside > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #efefef;
+    padding: 8px 16px;
+    color: #000;
+    font-family: Georama;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+.kal-hero > div > section > div {
+    display: flex;
+    gap: 10px;
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+.kal-hero > div > section > div > svg {
+    flex-shrink: 0;
+}
+.kal-hero > div > section > div > h4 {
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+}
+.kal-hero > div > section > p {
+    color: #000;
+    font-family: Georama;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 190.909% */
+}
+
+.kal-hero {
+    background: url('/images/Bloc1/background.png');
+    background-color: white;
+    padding: 80px 50px;
+    object-fit: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.kal-hero > div {
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    min-height: 500px;
+}
+
+.kal-hero > div > h1 {
+    color: #000;
+    font-family: Georama;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.kal-hero > div > button {
+    color: #fff;
+    text-align: center;
+    font-family: Georama;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 26px;
+    background: #000;
+    display: block;
+    margin: auto;
+    padding: 10px 24px;
+}
+
+@media screen and (max-width: 1220px) {
+    .kal-hero > div > article {
+        height: 110%;
+    }
+    .kal-search {
+        max-width: 680px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .kal-hero > div > article {
+        height: 100%;
+    }
+    .kal-search {
+        max-width: 650px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .kal-hero > div > article {
+        height: 90%;
+    }
+    .kal-search {
+        max-width: 590px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .kal-hero {
+        padding: 80px 20px;
+    }
+    .kal-hero > div > article {
+        position: initial;
+        bottom: unset;
+        right: unset;
+        margin: 10px;
+        width: 100%;
+        height: auto;
+        margin-bottom: -80px;
+        margin-top: 40px;
+    }
+    .kal-hero > div > article > img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    .kal-hero > div {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .kal-hero > div > aside {
+        flex-direction: column;
+    }
+    .kal-hero > div > aside > div {
+        width: fit-content;
+    }
+}
+
+.highlight {
+    background-size: 100% 10px !important;
+    background-position: left 28px;
+    background-image: linear-gradient(
+            45deg,
+            rgba(47, 201, 119, 0.4),
+            rgba(47, 201, 119, 0.4)
+    );
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+strong,
+span {
+    margin: 0;
+}
+
+
+.kal-search-selected {
+  border: 2px solid #2fc977 !important;
+}
+.kal-search-document-search-suggestion > div {
+  text-align: center;
+  line-height: 1;
+}
+.kal-search-document-search-suggestion > div img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.kal-search-document > section img,
+.kal-search-country > section > img {
+  width: 100%;
+  height: 100%;
+  max-width: 30px;
+  max-height: 30px;
+  object-fit: contain;
+}
+.kal-search {
+  border-radius: 8px;
+  border: 2px solid #efefef;
+  background: #fff;
+  width: 700px;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  box-sizing: border-box;
+  isolation: isolate;
+  margin-top: 40px;
+}
+.kal-search > div {
+  display: flex;
+  position: relative;
+}
+.kal-search > :first-child {
+  flex: 5;
+  width: 100%;
+}
+.kal-search > :last-child {
+  flex: 6;
+}
+.kal-search > :last-child > div {
+  flex: 1;
+}
+.kal-search-country h4,
+.kal-search-document h4 {
+  color: #000;
+  font-family: Georama;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.kal-search-country p,
+.kal-search-document p {
+  color: rgba(77, 77, 77, 1);
+  font-family: Georama;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+}
+.kal-search-country,
+.kal-search-document {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+.kal-search-country {
+  padding-right: 20px;
+  border-right: 2px solid #efefef;
+}
+.kal-search-country section,
+.kal-search-document section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  height: 60px;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+}
+.kal-search button{
+  color: #fff;
+  text-align: center;
+  font-family: Georama;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 26px;
+  background: #000;
+  height: fit-content;
+  padding: 16px 24px;
+  align-self: center;
+  cursor: pointer;
+}
+.disabled {
+opacity: 0.5; /* Opacité réduite pour griser le bouton */
+pointer-events: none; /* Désactivation des événements de clic */
+cursor: not-allowed; /* Curseur non autorisé lors du survol */
+}
+
+.kal-search-country-popup,
+.kal-search-document-popup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  background-color: white;
+  min-height: 400px;
+  width: 100%;
+}
+.kal-search-country-popup {
+  margin-left: -12px;
+  width: calc(100% + 10px);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 2px solid #efefef;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px;
+}
+.kal-search-document-popup {
+  margin-left: -12px;
+  width: calc(100% + 20px);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 2px solid #efefef;
+  border-top: none;
+  max-height: 400px;
+}
+.kal-search-country-search-container {
+  background-color: #efefef;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #efefef;
+  transition: all 0.2s;
+  justify-content: space-between;
+  border: none;
+}
+.kal-search-country-search-container:focus-within {
+  border: 2px solid #2fc977;
+}
+.kal-search-country-search-container > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  color: #4c4c4c;
+  max-width: 80%;
+  padding: 0;
+}
+.kal-search-country-search-container > input:focus {
+  color: #4c4c4c;
+  background-color: transparent;
+  border: none;
+}
+.kal-search-country-search-container > svg {
+  cursor: pointer;
+  color: #4c4c4c;
+}
+.kal-search-country-search-suggestion {
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  scrollbar-width: none;
+  line-height: 1;
+}
+.kal-search-country-search-suggestion img {
+  width: 100%;
+  height: 100%;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.kal-search-country-search-suggestion::-webkit-scrollbar {
+  display: none;
+}
+.kal-search-country-search-suggestion > div {
+  padding: 10px;
+  border: 2px solid #efefef;
+  transition: all 0.2s;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.kal-search-country-search-suggestion > div:hover {
+  border: 2px solid rgba(47, 201, 119, 0.5);
+}
+.kal-search-document-search-suggestion {
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  scrollbar-width: none;
+  width: 100%;
+  grid-auto-rows: 150px;
+}
+.kal-search-document-search-suggestion::-webkit-scrollbar {
+  display: none;
+}
+.kal-search-document-search-suggestion > div {
+  padding: 6px;
+  border: 2px solid #efefef;
+  transition: all 0.2s;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kal-search-document-search-suggestion > div:hover {
+  border: 2px solid rgba(47, 201, 119, 0.5);
+}
+
+@media screen and (max-width: 900px) {
+  .kal-search {
+      flex-direction: column;
+  }
+  .kal-search-country {
+      border-right: none;
+      padding-right: none;
+  }
+  .kal-search > :last-child {
+      flex-direction: column;
+  }
+  .kal-search-document-popup {
+      transform: translateY(85%);
+  }
+  .kal-search-document-popup,
+  .kal-search-country-popup {
+      z-index: 2;
+      width: calc(100% + 20px) !important;
+  }
+  .kal-search button {
+      margin-top: 30px;
+  }
+  .kal-search-country-search-suggestion > div {
+      padding: 10px;
+
+      font-size: 16px;
+  }
+
+.disabled {
+opacity: 0.5; /* Opacité réduite pour griser le bouton */
+pointer-events: none; /* Désactivation des événements de clic */
+cursor: not-allowed; /* Curseur non autorisé lors du survol */
+}
+}
+@media screen and (max-width: 700px) {
+  .kal-search {
+      width: 100%;
+  }
+  
+      .disabled {
+opacity: 0.5; /* Opacité réduite pour griser le bouton */
+pointer-events: none; /* Désactivation des événements de clic */
+cursor: not-allowed; /* Curseur non autorisé lors du survol */
+}
+}
+
+p,
+h4 {
+  margin: 0;
+}
+@media screen and (max-width: 1200px) {
+  .kal-hero > div > article > img {
+    width: 415px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .kal-hero > div > article > img {
+    width: 374px;
+    height: 450px;
+  }
 }
