@@ -634,4 +634,504 @@ Canada
 "icon": "/images/Bloc11/titre-de-sejour.svg"
 },
 {
-"visa"...
+"visa": "Visa",
+"Link5": "https://www.smartphone-id.com/en_CA/visa-photo-near-me-in-canada/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "Ontario Photo Card",
+"Link6": "https://www.smartphone-id.com/en_CA/ontario-photo-card/",
+"icon": "/images/Bloc11/carte-identite.svg"
+}
+]
+},
+
+Suisse deutch
+
+"Bloc11": {
+"titre": "Finden Sie Antworten auf den entsprechenden Seiten",
+"liens": [
+{
+"permis": "Führerschein",
+"Link1": "https://www.smartphone-id.com/de_CH/führerschein",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Schweizer Pass",
+"Link2": "https://www.smartphone-id.com/de_CH/schweizer-pass",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Personalausweis",
+"Link3": "https://www.smartphone-id.com/de_CH/personalausweis",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Aufenthaltsgenehmigung",
+"Link4": "https://www.smartphone-id.com/de_CH/aufenthaltsgenehmigung",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visa",
+"Link5": "https://www.smartphone-id.com/de_CH/visum",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": ""
+}
+]
+},
+
+
+German
+"Bloc11": {
+"titre": "Finden Sie Antworten auf den entsprechenden Seiten",
+"liens": [
+{
+"permis": "Führerschein",
+"Link1": "https://www.smartphone-id.com/de_DE/fuehrerschein-foto/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Reisepass",
+"Link2": "https://www.smartphone-id.com/de_DE/passfoto-in-deutschland/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Personalausweis",
+"Link3": "https://www.smartphone-id.com/de_DE/passfoto-personalausweis/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Aufenthaltsgenehmigung",
+"Link4": "https://www.smartphone-id.com/de_DE/aufenthaltsgenehmigung/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visum",
+"Link5": "https://www.smartphone-id.com/de_DE/visum-deutschland/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": ""
+}
+]
+},
+
+
+Belgium NL
+
+"Bloc11": {
+"titre": "Vind je antwoorden op de corresponderende pagina's",
+"liens": [
+{
+"permis": "Rijbewijs",
+"Link1": "https://www.smartphone-id.com/nl_BE/rijbewijs",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Paspoort",
+"Link2": "https://www.smartphone-id.com/nl_BE/paspoort",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Identiteitskaart",
+"Link3": "https://www.smartphone-id.com/nl_BE/identiteitskaart",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Permanente Verblijfsvergunning",
+"Link4": "https://www.smartphone-id.com/nl_BE/permanente-verblijfsvergunning",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visum",
+"Link5": "https://www.smartphone-id.com/nl_BE/visum",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": ""
+}
+]
+},
+
+Nederlands
+"Bloc11": {
+"titre": "Vind je antwoorden op de corresponderende pagina's",
+"liens": [
+{
+"permis": "Rijbewijs",
+"Link1": "https://www.smartphone-id.com/nl_NL/internationaal-rijbewijs/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Paspoort",
+"Link2": "https://www.smartphone-id.com/nl_NL/paspoort-aanvragen/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Identiteitskaart",
+"Link3": "https://www.smartphone-id.com/nl_NL/identiteitskaart/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Verblijfsvergunning",
+"Link4": "https://www.smartphone-id.com/nl_NL/verblijfsvergunning-aanvragen/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visum",
+"Link5": "https://www.smartphone-id.com/nl_NL/visum/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": ""
+}
+]
+},
+
+Mexico
+"Bloc11": {
+"titre": "Encuentra tus respuestas en las páginas correspondientes",
+"liens": [
+{
+"permis": "Licencia de Conducir",
+"Link1": "https://www.smartphone-id.com/es_MX/renovar-licencia-de-conducir/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Pasaporte",
+"Link2": "https://www.smartphone-id.com/es_MX/renovar-su-pasaporte-mexicano-en-mexico/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "DNI",
+"Link3": "https://www.smartphone-id.com/es_MX/dni/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "NIE",
+"Link4": "https://www.smartphone-id.com/es_MX/permiso-de-residencia-espanol/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visado",
+"Link5": "https://www.smartphone-id.com/es_MX/visa-de-residencia-permanente/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+
+Argentina
+
+"Bloc11": {
+"titre": "Encuentra tus respuestas en las páginas correspondientes",
+"liens": [
+{
+"permis": "Licencia de Conducir",
+"Link1": "https://www.smartphone-id.com/es_AR/permiso-de-conducir-internacional-2",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Pasaporte",
+"Link2": "https://www.smartphone-id.com/es_AR/pasaporte-argetino/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "DNI",
+"Link3": "https://www.smartphone-id.com/es_AR/dni-argentino/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "NIE",
+"Link4": "https://www.smartphone-id.com/es_AR/nie/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visado",
+"Link5": "https://www.smartphone-id.com/es_AR/visado-argentino",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+
+Colombia
+"Bloc11": {
+"titre": "Encuentra tus respuestas en las páginas correspondientes",
+"liens": [
+{
+"permis": "Licencia de Conducir",
+"Link1": "https://www.smartphone-id.com/es_CO/licencia-de-conduccion-documentos/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Pasaporte",
+"Link2": "https://www.smartphone-id.com/es_CO/tramitar-el-pasaporte/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "DNI",
+"Link3": "https://www.smartphone-id.com/es_CO/dni/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "NIE",
+"Link4": "https://www.smartphone-id.com/es_CO/nie/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visado",
+"Link5": "https://www.smartphone-id.com/es_CO/visado",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+
+
+Italy
+
+"Bloc11": {
+"titre": "Trova le tue risposte nelle pagine corrispondenti",
+"liens": [
+{
+"permis": "Patente di guida",
+"Link1": "https://www.smartphone-id.com/it_IT/patente-di-guida/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passaporto",
+"Link2": "https://www.smartphone-id.com/it_IT/passaporto/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Carta d’Identità Elettronica",
+"Link3": "https://www.smartphone-id.com/it_IT/carta-didentita-elettronica/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Permesso di soggiorno",
+"Link4": "https://www.smartphone-id.com/it_IT/permesso-di-soggiorno/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visto",
+"Link5": "https://www.smartphone-id.com/it_IT/visto/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+}
+
+
+China
+
+"Bloc11": {
+"titre": "在对应的页面中找到你的答案",
+"liens": [
+{
+"permis": "临时机动车驾驶证",
+"Link1": "https://www.smartphone-id.com/zh-hans/%E4%B8%B4%E6%97%B6%E6%9C%BA%E5%8A%A8%E8%BD%A6%E9%A9%BE%E9%A9%B6%E8%AE%B8%E5%8F%AF/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "护照",
+"Link2": "https://www.smartphone-id.com/zh-hans/%e6%8a%a4%e7%85%a7/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "身份证",
+"Link3": "https://www.smartphone-id.com/zh-hans/%e8%ba%ab%e4%bb%bd%e8%af%81/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "居留许可",
+"Link4": "https://www.smartphone-id.com/zh-hans/%e4%b8%ad%e5%9b%bd%e5%b1%85%e7%95%99%e8%ae%b8%e5%8f%af%e8%af%81/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "签证",
+"Link5": "https://www.smartphone-id.com/zh-hans/%e7%ad%be%e8%af%81/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+
+
+Sweden
+"Bloc11": {
+"titre": "Sök efter dina svar på motsvarande sidor",
+"liens": [
+{
+"permis": "Körkort",
+"Link1": "https://www.smartphone-id.com/sv_SE/korkort",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Pass",
+"Link2": "https://www.smartphone-id.com/sv_SE/pass",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Nationellt id-kort",
+"Link3": "https://www.smartphone-id.com/sv_SE/nationellt-id-kort",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Uppehållstillstånd",
+"Link4": "https://www.smartphone-id.com/sv_SE/uppehallstillstand",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visum",
+"Link5": "https://www.smartphone-id.com/sv_SE/visum",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+}
+
+
+Brazil
+"Bloc11": {
+"titre": "Encontre suas respostas nas páginas correspondentes",
+"liens": [
+{
+"permis": "Carteira de motorista",
+"Link1": "https://www.smartphone-id.com/pt_BR/carteira-de-motorista/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passaporte",
+"Link2": "https://www.smartphone-id.com/pt_BR/Passaporte",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Carteira de identidade",
+"Link3": "https://www.smartphone-id.com/pt_BR/carteira-de-identidade/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Cédula de Identidade de Estrangeiro",
+"Link4": "https://www.smartphone-id.com/pt_BR/cedula-de-identidade-de-estrangeiro/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visto",
+"Link5": "https://www.smartphone-id.com/pt_BR/visto-brazil/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+}
+
+
+Estonia
+
+"Bloc11": {
+"titre": "Leidke oma vastused vastavatelt lehtedelt",
+"liens": [
+{
+"permis": "Juhiluba",
+"Link1": "https://www.smartphone-id.com/et_EE/eesti-juhiluba/",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Eesti pass",
+"Link2": "https://www.smartphone-id.com/et_EE/eesti-vabariigi-passi/",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "ID kaart",
+"Link3": "https://www.smartphone-id.com/et_EE/eestis-id-kaardi-foto/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Elamisloakaart",
+"Link4": "https://www.smartphone-id.com/et_EE/eesti-elamisluba/",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Viisa",
+"Link5": "https://www.smartphone-id.com/et_EE/e-viisa/",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},
+
+Portugal
+"Bloc11": {
+"titre": "Encontre suas respostas nas páginas correspondentes",
+"liens": [
+{
+"permis": "Carta de condução",
+"Link1": "https://www.smartphone-id.com/pt_PT/renovar-carta-de-conducao-online",
+"icon": "/images/Bloc11/permis-conduire.svg"
+},
+{
+"passeport": "Passaporte",
+"Link2": "https://www.smartphone-id.com/pt_PT/passaporte",
+"icon": "/images/Bloc11/passeport.svg"
+},
+{
+"cni": "Bilhete de Identidade",
+"Link3": "https://www.smartphone-id.com/pt_PT/foto-bilhete-de-identidade/",
+"icon": "/images/Bloc11/carte-identite.svg"
+},
+{
+"séjour": "Cartão de Residencia Permanente",
+"Link4": "https://www.smartphone-id.com/pt_PT/cartao-de-residencia-permanente",
+"icon": "/images/Bloc11/titre-de-sejour.svg"
+},
+{
+"visa": "Visto",
+"Link5": "https://www.smartphone-id.com/pt_PT/visto",
+"icon": "/images/Bloc11/visa.svg"
+},
+{
+"vitale": "",
+"Link6": "",
+"icon": ""
+}
+]
+},

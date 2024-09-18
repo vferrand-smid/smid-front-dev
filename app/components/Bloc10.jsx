@@ -70,7 +70,7 @@ const Bloc10 = ({ page, locale  }) => {
                             onMouseEnter={() => handleMouseEnter(value)}
                             onMouseLeave={handleMouseLeave}
                             onClick={() => handleClick(value)}
-                            style={{ cursor: hasRated ? 'default' : 'pointer' }}
+                            style={{ cursor: 'pointer' }}
                         >
                             <StarIcon filled={value <= (hoverRating || rating)} />
                         </li>

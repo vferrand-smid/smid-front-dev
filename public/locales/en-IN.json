@@ -564,11 +564,6 @@
         "titre_accordeon": "How to find a good passport photo maker online?"
       },
       {
-        "texteAccordeon": "<p>If you apply with a paper application, an official passport photo for Australia should be</p>\n<ul>\n<li>35mm-40mm wide and 45mm-50mm high,</li>\n<li>your head must be a maximum of 36mm and a minimum of 32mm from chin to crown.</li>\n</ul>\n<p>If you apply for an official document online, the digital photo should match the printed photo in size and all other requirements.</p>\n",
-        "titre_accordeon": "What size is a passport photo in Australia?",
-        "fieldGroupName": "PhotoDidentite"
-      },
-      {
         "texteAccordeon": "<p>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</p>\n</aside>\n",
         "titre_accordeon": "Can you take a passport photo on your phone?",
         "fieldGroupName": "PhotoDidentite"
@@ -581,16 +576,6 @@
       {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Various places in Australia offer both hardcopy and digital passport photos.</p>\n<ul>\n<li>Smartphone iD,</li>\n<li>Kmart,</li>\n<li>Officeworks,</li>\n<li>Auspost,</li>\n</ul>\n</aside>\n",
         "titre_accordeon": "Where to get passport photos?",
-        "fieldGroupName": "PhotoDidentite"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Passport photos can vary in cost in Australia. You can expect to pay between $15-$20 AUD. Places like Auspost and Office works charge $19.95 and $16.95 respectively.<br />\nSmartphone iD offers checked Australian passport photos for half the price in comparison to competitors. Plus, it includes real human photo checks and government acceptance assurance.</p>\n</aside>\n",
-        "titre_accordeon": "How much are passport photos in Australia?",
-        "fieldGroupName": "PhotoDidentite"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">There are many places. You could use a photo studio or post office. Alternatively, you can easily use Smartphone iD, without appointments or travel, for cheap and quick passport photos.</p>\n</aside>\n",
-        "titre_accordeon": "Where to get passport photos in Sydney?",
         "fieldGroupName": "PhotoDidentite"
       },
       {
@@ -646,19 +631,40 @@
     "etoiles" : "stars out of 5"
   },
 
-  "Bloc11" : {
-    "passeport" : "Passport",
-    "Link1" : "https://www.smartphone-id.com/en_IN/passport",
-    "permis" : "Driving Licence",
-    "Link2" : "https://www.smartphone-id.com/en_IN/driving-licence",
-    "cni" : "Aadhaar Card",
-    "Link3" : "https://www.smartphone-id.com/en_IN/aadhaar-card",
-    "séjour" : "Abha card",
-    "Link4" : "https://www.smartphone-id.com/en_IN/abha-card",
-    "visa" : " visa",
-    "Link5" : "https://www.smartphone-id.com/en_IN/indian-visa",
-    "vitale" : "PAN Card",
-    "Link6" : "https://www.smartphone-id.com/en_IN/pan-card"
+  "Bloc11": {
+    "titre": "Find your answers on the relevant pages",
+    "liens": [
+      {
+        "link": "Driving Licence",
+        "url": "https://www.smartphone-id.com/en_IN/driving-licence",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Passport",
+        "url": "https://www.smartphone-id.com/en_IN/passport",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Aadhaar Card",
+        "url": "https://www.smartphone-id.com/en_IN/aadhaar-card",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "PAN Card",
+        "url": "https://www.smartphone-id.com/en_IN/pan-card",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/en_IN/indian-visa",
+        "icon": "/images/Bloc11/visa.svg"
+      },
+      {
+        "link": "Abha card",
+        "url": "https://www.smartphone-id.com/en_IN/abha-card",
+        "icon": "/images/Bloc11/carte-vitale.svg"
+      }
+    ]
   },
 
   "Footer": {

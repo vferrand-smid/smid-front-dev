@@ -19,7 +19,7 @@ import useTranslations from "@/utils/useTranslations";
 
 const flags = {
     'ar-SA': '/images/flags/ar-SA.png',
-    'ar-UAE': '/images/flags/ar-UAE.png',
+    'ar-AE': '/images/flags/ar-UAE.png',
     'de-CH': '/images/flags/de-CH.png',
     'de-DE': '/images/flags/de-DE.png',
     'en-AU': '/images/flags/en-AU.jpg',
@@ -55,7 +55,7 @@ const flags = {
 
 const localeToCountry = {
     'ar-SA': 'العربية',
-    'ar-UAE': 'العربية',
+    'ar-AE': 'العربية',
     'de-CH': 'switzerland',
     'de-DE': 'Deutchland',
     'en-AU': 'Australia',

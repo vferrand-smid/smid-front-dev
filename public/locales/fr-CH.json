@@ -25,6 +25,8 @@
   },
 
   "Bloc1" : {
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-didentite-en-ligne-pour-la-Suisse.png",
+    "background" : "/images/background.png",
     "titre_bloc1" : "Outil rapide et facile pour",
     "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez-le maintenant !",
     "repeteurCheckGreenBloc1": [

@@ -20,7 +20,7 @@ const Bloc7Solution = ({ locale }) => {
             <div>
                 <h2 className="max-md:!text-center">
                     {titre_bloc7_1}
-                    <span className="highlight">{titre_bloc7_span || 'Default Titre Bloc 7 Span'}</span>
+                    <span className="highlight">{titre_bloc7_span}</span>
                     {titre_bloc7_2}
                 </h2>
                 <div className="kal-solution-container">
@@ -30,21 +30,21 @@ const Bloc7Solution = ({ locale }) => {
                                 <Image
                                     width={500}
                                     height={500}
-                                    src={item?.img_principal || 'default.jpg'}
+                                    src={item?.img_principal}
                                     alt=""
                                 />
                             </div>
                             <section className="text-center !items-baseline">
                                 <Image
-                                    src={item?.img_check || 'default.jpg'}
+                                    src={item?.img_check}
                                     alt=""
                                     width={20}
                                     height={20}
                                 />
-                                <p>{item?.titre || 'Default Titre'}</p>
+                                <p>{item?.titre}</p>
                             </section>
                             <aside>
-                                <p>{item?.paragraphe || 'Default Paragraphe'}</p>
+                                <p>{item?.paragraphe}</p>
                             </aside>
                         </div>
                     ))}

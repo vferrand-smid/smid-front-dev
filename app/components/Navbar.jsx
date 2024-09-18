@@ -1,4 +1,4 @@
-/* eslint-disable */
+
 "use client";
 import React from "react";
 import Link from "next/link";
@@ -37,7 +37,7 @@ export default function Navbar({ locale }) {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_415_5709)">
+                  <g clipPath="url(#clip0_415_5709)">
                     <path
                       d="M138.282 0H124.562C121.956 0 119.844 2.09804 119.844 4.6861V18.3139C119.844 20.902 121.956 23 124.562 23H138.282C140.888 23 143 20.902 143 18.3139V4.6861C143 2.09804 140.888 0 138.282 0Z"
                       fill="black"
@@ -103,16 +103,24 @@ export default function Navbar({ locale }) {
 
           {/* Desktop Links */}
           <div className="flex max-lg:hidden space-x-6 items-center">
-            {translations.NavBar?.liens.map((item, index) => (
-              <Link
-                key={index}
-                href={item.url}
-                target="_blank"
-                className=" p-2 hover:text-green-500 transition"
-              >
-                {item.link}
-              </Link>
-            ))}
+            {translations.NavBar?.liens.map((item, index) => {
+              if (!item.url || !item.link) {
+                console.error(`Lien invalide à l'index ${index}:`, item);
+                return null;
+              }
+
+              return (
+                  <Link
+                      key={index}
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" p-2 hover:text-green-500 transition"
+                  >
+                    {item.link}
+                  </Link>
+              );
+            })}
           </div>
 
           {/* Mobile Menu Button */}
@@ -150,52 +158,23 @@ export default function Navbar({ locale }) {
           {isClick && (
             <div className="md:hidden flex justify-center bg-white shadow-lg">
               <div className="px-4 pt-2 pb-3 space-y-1 sm:px-6 text-center">
-                {translations.NavBar && (
-                  <>
-                    <Link
-                      className="lien-mobile p-2 block"
-                      href={translations.NavBar["url_1"]}
-                      target="_blank"
-                    >
-                      {translations.NavBar["link_1"]}
-                    </Link>
-                    <Link
-                      className="lien-mobile p-2 block"
-                      href={translations.NavBar["url_2"]}
-                      target="_blank"
-                    >
-                      {translations.NavBar["link_2"]}
-                    </Link>
-                    <Link
-                      className="lien-mobile p-2 block"
-                      href={translations.NavBar["url_3"]}
-                      target="_blank"
-                    >
-                      {translations.NavBar["link_3"]}
-                    </Link>
-                    <Link
-                      className="lien-mobile p-2 block"
-                      href={translations.NavBar["url_4"]}
-                      target="_blank"
-                    >
-                      {translations.NavBar["link_4"]}
-                    </Link>
-                    <Link
-                      className="lien-mobile p-2 block"
-                      href={translations.NavBar["url_5"]}
-                      target="_blank"
-                    >
-                      {translations.NavBar["link_5"]}
-                    </Link>
-                    <Link
-                      className="lien-mobile p-2 block"
-                      href={translations.NavBar["url_6"]}
-                      target="_blank"
-                    >
-                      {translations.NavBar["link_6"]}
-                    </Link>
-                  </>
-                )}
+                {translations.NavBar?.liens.map((item, index) => {
+                  if (!item.url || !item.link) {
+                    console.error(`Lien invalide à l'index ${index}:`, item);
+                    return null;
+                  }
+                  return (
+                      <Link
+                          key={index}
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="lien-mobile p-2 block"
+                      >
+                        {item.link}
+                      </Link>
+                  );
+                })}
               </div>
             </div>
           )}

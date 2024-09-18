@@ -7,6 +7,7 @@ const languageToLocaleMap = {
     fr: 'fr-FR',
     en: 'en-US',
     de: 'de-DE',
+    ar: 'ar-UAE',
     // Ajoute d'autres langues si nécessaire
 };
 

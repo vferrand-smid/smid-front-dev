@@ -11,7 +11,7 @@
       },
       {
         "link" : "رخصة القيادة",
-        "url" : "https://www.smartphone-id.com/ar_SA/رخصة-القيادة-صورة-الهوية,"
+        "url" : "https://www.smartphone-id.com/ar_SA/رخصة-القيادة-صورة-الهوية"
       },
       {
         "link" : "رخصة الاقامة",
@@ -85,22 +85,22 @@
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "تصحيح تلقائي مع إزالة الخلفية.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/التنسيق-التلقائي-لصورة-الهوية-السعودية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-AE/التنسيق التلقائي لصورة الهوية الإماراتية.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "بفضل فحصنا الاحترافي ، يتم ضمان مطابقة الصورة.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/فحص-صورة-الهوية-السعودية-من-طرف-خبراء.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-AE/التوقيع الرقمي لصور الهوية الاماراتية.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "أطلب توصيل الصور المطبوعة احترافيًا إلى المنزل ، وسيتم إرسالها في نفس اليوم عند الطلب.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/طباعة-وتسليم-صورة-الهوية-السعودية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-AE/فحص صورة الهوية الاماراتية من طرف خبراء.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/حفظ-صورة-الهوية-السعودية-بأمان.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-AE/طباعة وتسليم صورة الهوية الإماراتية.png"
       }
     ],
     "repeteur_etape": [
@@ -108,32 +108,32 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "امسح رمز QR لالتقاط صورة شخصية بهاتفك الذكي.",
         "titre_check": "الخطوة 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-السعودية-الخطوة-1-في-الكمبيوتر.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 1 في الكمبيوتر.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "تحقق من خصائص طلبك.",
         "titre_check": "الخطوة 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-الإماراتية-الخطوة-2-في-الكمبيوتر.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية الإماراتية الخطوة 2 في الكمبيوتر.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "اطلب لوحة صور مطبوعة من خلال خدمتنا إذا لزم الأمر.",
         "titre_check": "الخطوة 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-السعودية-الخطوة-3-في-الكمبيوتر.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 3 في الكمبيوتر.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "استلم صورتك الفردية ولوحة الصور القابلة للطباعة في بريدك الإلكتروني.",
         "titre_check": "الخطوة 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-السعودية-الخطوة-4-في-الكمبيوتر.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 4 في الكمبيوتر.png"
       }
     ],
     "repeteurCkeckBlackMobile": [
       {
         "checkBlack": "/images/General/check-black.png",
         "texteCheckBlack": "تصحيح تلقائي مع إزالة الخلفية.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/التنسيق-التلقائي-لصورة-الهوية-السعودية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/التنسيق التلقائي لصورة الهوية السعودية.png"
       },
       {
         "checkBlack": "/images/General/check-black.png",
@@ -148,7 +148,7 @@
       {
         "checkBlack": "/images/General/check-black.png",
         "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/حفظ-صورة-الهوية-السعودية-بأمان.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/طباعة وتسليم صورة الهوية السعودية.png"
       }
     ],
     "repeteurEtapeMobile": [
@@ -156,25 +156,25 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "التقط صورة الهوية بهاتفك الذكي.",
         "titre_check": "الخطوة 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-السعودية-الخطوة-1-في-الهاتف-الذكي.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 1 في الهاتف الذكي.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "اطلب لوحة صور مطبوعة من خلال خدمتنا إذا لزم الأمر.",
         "titre_check": "الخطوة 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-السعودية-الخطوة-2-في-الهاتف-الذكي.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 2 في الهاتف الذكي.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "تحقق من خصائص طلبك.",
         "titre_check": "الخطوة 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-السعودية-الخطوة-3-في-الهاتف-الذكي.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 3 في الهاتف الذكي.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "استلم صورتك الفردية ولوحة الصور القابلة للطباعة في بريدك الإلكتروني.",
         "titre_check": "الخطوة 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صور-الهوية-السعودية-الخطوة-4-في-الهاتف-الذكي.png"
+        "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 4 في الهاتف الذكي.png"
       }
     ]
   },
@@ -290,7 +290,7 @@
   "Bloc5": {
     "titre_bloc5_1": "لماذا يختار الناس خدمة",
     "titre_bloc5_span": "Smartphone iD؟",
-    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أصدقاء-شباب-يلتقطون-صورة-لجواز-السفر-السعودي-باستخدام-تطبيق-سمارتفون-اي-دي.jpg",
+    "imgService": "/images/Bloc5/ar-SA/أصدقاء شباب يلتقطون صورة لجواز السفر السعودي ي باستخدام تطبيق سمارتفون اي دي.jpg",
     "listeService": [
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
@@ -418,13 +418,13 @@
     "bloc": [
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "img_principal": null,
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/التوقيع-الرقمي-لصور-المستندات-السعودية.png",
         "paragraphe": "عند الحاجة، سيتم ربط توقيعك بصورتك لطلبات المستندات الرسمية عبر الإنترنت",
         "titre": "التوقيع الرقمي"
       },
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "img_principal": null,
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/قالب-مطبوع-حديثا-لصور-الهوية-السعودية.png",
         "paragraphe": "إن التقاط الصور في الوقت الفعلي يثبت حداثة الصورة، وهو أمر إلزامي بالنسبة للوثائق الرسمية.",
         "titre": "إثبات حداثة الصورة"
       }

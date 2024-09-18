@@ -29,7 +29,7 @@
   },
 
   "Bloc1": {
-    "girl": "/images/Bloc1/girl.png",
+    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passipilt-online-Eesti.png",
     "background": "/images/background.png",
     "titre_bloc1": "Kiire ja lihtne vahend",
     "titre_h4_bloc1": "Lihtsalt tehke foto, ja saage see valmiskujul kätte! Proovige kohe!",
@@ -454,8 +454,24 @@
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Asetage beebi voodil olevale valgele linale või asetage beebi söögitooli, mille seljatuge katab valge rätik. Võtke lapselt lutt eest, püüdke ta tähelepanu ja proovige teha pilt sel hetkel, kui lapse suu on suletud.</main></p><aside class=\"kal-accordion-item-active-aside\">Mõned valitsused lubavad suul veidi lahti olla, kuid keelt ega hambaid ei tohi näha olla.<br />Veenduge, et teie lapse pea ei oleks viltu ja ärge unustage, et te ei saa pildistamise ajal last ise toetada, kuna fotol ei tohi näha olla ühtegi teist kehaosa.<br />Samuti saate teha pildi meie veebisaidi Smartphone iD kaudu, kus aitame teil meie koolitatud ekspertide abiga teha vastuvõetava foto.</aside>",
-        "titre_accordeon": "Kuidas teha oma beebi dokumendifotot?"
+        "texteAccordeon": "<p>See sõltub dokumendi tüübist. Biomeetriliseks masinlugemiseks kasutatavatel ametlikel dokumentidel (elektroonilised passid, viisad, isikutunnistused) ei ole lubatud naeratada, kuna see raskendab skaneeringust biomeetriliste andmete lugemist. Tavalisemate isikut tõendavate dokumentide, nagu õpilaspilet või transpordikaart, dokumentidel on aga naeratamine lubatud. Kui te pole nõuetes kindel, võite kasutada Smartphone iD teenust, mis teeb teie valitud dokumendile vastava ja kontrollitud foto.</p>\n",
+        "titre_accordeon": "Kas dokumendifotol võib naeratada?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Jah, sa saate küll. Veenduge, et teie käsi hoiab telefoni sirgelt, et teie nägu ei tunduks telefoni eesmise kaamera tõttu moonutatud ja et teie käsi ei oleks pildil nähtav.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Saate seda teha ka läbi Smartphone iD veebilehe ja saada ka koolitatud ekspertidelt ülevaade, et olla kindel, et see on valitsuse nõuetega kooskõlas.<br />\nTagakaamerad on suurema eraldusvõimega ja teevad parema kvaliteediga pildi.</aside>\n",
+        "titre_accordeon": "Kas saate oma telefoniga ise dokumendifotot teha?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Asetage end akna ette või veenduge, et kunstlik valgus ei heidaks teie näole varju. Eemaldage näo eest juuksed, vaadake kaamerasse ja kasutage neutraalset näoilmet.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Veendumaks, et olete teinud hea foto, võite saada meie veebisaidil Smartphone iD koolitatud eksperthinnangu.</aside>\n",
+        "titre_accordeon": "Kuidas teha passipilti?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Asetage beebi voodil olevale valgele linale või asetage beebi söögitooli, mille seljatuge katab valge rätik. Võtke lapselt lutt eest, püüdke ta tähelepanu ja proovige teha pilt sel hetkel, kui lapse suu on suletud.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Mõned valitsused lubavad suul veidi lahti olla, kuid keelt ega hambaid ei tohi näha olla.<br />\nVeenduge, et teie lapse pea ei oleks viltu ja ärge unustage, et te ei saa pildistamise ajal last ise toetada, kuna fotol ei tohi näha olla ühtegi teist kehaosa.<br />\nSamuti saate teha pildi meie veebisaidi Smartphone iD kaudu, kus aitame teil meie koolitatud ekspertide abiga teha vastuvõetava foto.</aside>\n",
+        "titre_accordeon": "WKuidas teha oma beebi dokumendifotot?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">See sõltub dokumendi tüübist. Ametlikud dokumendid, mida kasutatakse biomeetrilise masinlugemiseks (elektroonilised passid, viisad, isikutunnistused), ei luba ääriseid, kuna see raskendab skaneeringust biomeetriliste andmete lugemist.<br />\nSeejärel tuleb äärised kummalegi poole tõmmata ja kinnitada märkamatute nööpnõeltega.<br />\nTavalisematel isikut tõendavatel dokumentidel, nagu õpilaspilet või transpordikaart, võib aga olla ka ääristega dokumendifoto.<br />\nKui te pole nõuetes kindel, võite kasutada Smartphone iD teenust, mis teeb teie valitud dokumendile vastava ja kontrollitud foto.</aside>\n",
+        "titre_accordeon": "Kas dokumendifotol võib olla ääristega?"
       },
       {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Eesti dokumendi digifoto peaks olema pikslimõõtmetega 1300 x 1600 ning faili suurus võib varieeruda vahemikus 1MB kuni 5MB.</main></p><aside class=\"kal-accordion-item-active-aside\">Teil ei ole lubatud esitada skannitud fotot ega arvuti/mobiili ekraanipilti.<br />Saate teha pildi meie veebisaidi Smartphone iD kaudu, kust saate koolitatud ekspertide poolt kinnituse soovitud suuruses fotole.<br />Koos fotoga saate 10&#215;15 prinditava malli, mis näitab teie foto tegemise kuupäeva, mis tõendab, et pilt on tehtud kohustusliku 6-kuu perioodi vältel.</aside>",
@@ -502,17 +518,72 @@
     "titre_bloc9_span": "Korduma"
   },
 
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "Kui kasulik see oli?",
+    "sousTitre" : "Märkme jätmiseks klõpsake tärnil.",
+    "personne" : "Keskmine hinnang:",
+    "etoiles" : "5-st tärnist"
+  },
+
+  "Bloc11": {
+    "titre": "Leidke oma vastused vastavatelt lehtedelt",
+    "liens": [
+      {
+        "link": "Juhiluba",
+        "url": "https://www.smartphone-id.com/et_EE/eesti-juhiluba/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Eesti pass",
+        "url": "https://www.smartphone-id.com/et_EE/eesti-vabariigi-passi/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "ID kaart",
+        "url": "https://www.smartphone-id.com/et_EE/eestis-id-kaardi-foto/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Elamisloakaart",
+        "url": "https://www.smartphone-id.com/et_EE/eesti-elamisluba/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Viisa",
+        "url": "https://www.smartphone-id.com/et_EE/e-viisa/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
   "Footer": {
-    "partie2-button": "Tee foto",
-    "partie2-p": "Avastage uusimad isikut tõendavate dokumentide ja viisade uudised.",
-    "SiteMapList-blog": "Blogi",
-    "SiteMapList-propos": "Meist",
-    "SiteMapList-faq": "KKK",
-    "SiteMapList-contact": "Kontakt",
-    "applis-h3": "Laadige alla rakendus",
-    "applis-p": "Jälgige oma tellimusi ja kasutage veelgi rohkem funktsioone Smartphone iD rakendusega.",
+    "partie2-button": "Proovige kohe!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-blog" : "Blog",
+    "blog-link" : "",
+    "SiteMapList-propos" : "Meie kohta",
+    "propos-link" : "https://www.smartphone-id.com/et_EE/meie-kohta/",
+    "SiteMapList-faq" : "KKK",
+    "faq-link" : "https://www.smartphone-id.com/et_EE/kkk/",
+    "SiteMapList-contact" : "Võtke meiega ühendust",
+    "contact-link" : "https://www.smartphone-id.com/et_EE/võtke-meiega-ühendust/",
+    "applis-h3": "laadige alla rakendus!",
+    "applis-p":  "Laadige alla Smartphone iD rakendus, et jälgida tellimusi ja nautida veelgi rohkem dokumendifoto funktsioone.",
+    "AppStore-link" : "https://apps.apple.com/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?gl=et&hl=et&id=com.smartphoneid",
+    "partie2-p": "Avastage uusim teave isikut tõendavate dokumentide ja viisade kohta.",
+    "partie2-p-link": "",
     "mentions-confidentialité": "Privaatsuspoliitika",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/et_EE/privaatsuspoliitika/",
     "mentions-cgu": "Kasutustingimused",
-    "mentions-légales": "Õiguslikud märkused"
+    "mentions-cgu-link": "https://www.smartphone-id.com/et_EE/Kasutustingimused/",
+    "mentions-légales": "Juriidiline teade",
+    "mentions-légales-link": "https://www.smartphone-id.com/et_EE/juriidiline-teade/",
+    "Cookies": "Küpsised",
+    "Cookies-link": "https://www.smartphone-id.com/et_EE/küpsised/"
   }
 }

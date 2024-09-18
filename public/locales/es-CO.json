@@ -498,6 +498,37 @@
     "etoiles" : "estrellas de 5"
   },
 
+  "Bloc11": {
+    "titre": "Encuentra tus respuestas en las páginas correspondientes",
+    "liens": [
+      {
+        "link": "Licencia de Conducir",
+        "url": "https://www.smartphone-id.com/es_CO/licencia-de-conduccion-documentos/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Pasaporte",
+        "url": "https://www.smartphone-id.com/es_CO/tramitar-el-pasaporte/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "DNI",
+        "url": "https://www.smartphone-id.com/es_CO/dni/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "NIE",
+        "url": "https://www.smartphone-id.com/es_CO/nie/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visado",
+        "url": "https://www.smartphone-id.com/es_CO/visado",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
   "Footer": {
     "partie2-button": "Pruébalo ya!",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",

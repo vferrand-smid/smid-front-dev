@@ -554,7 +554,7 @@
 
     ],
     "titre_bloc9": "to your questions",
-    "titre_bloc9_span": "Answers"
+    "titre_bloc9_span": "Answers "
   },
 
   "Bloc10" : {
@@ -563,6 +563,37 @@
     "sousTitre" : "Click on stars to leave a rate.",
     "personne" : "Average rating:",
     "etoiles" : "stars out of 5"
+  },
+
+  "Bloc11": {
+    "titre": "Find your answers on the corresponding pages",
+    "liens": [
+      {
+        "link": "Driving licence",
+        "url": "https://www.smartphone-id.com/en_GB/uk-full-driving-licence/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Passport",
+        "url": "https://www.smartphone-id.com/en_GB/renew-uk-passport-online/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Citizen Card",
+        "url": "https://www.smartphone-id.com/en_GB/citizen-card-photo-uk",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Residence permit",
+        "url": "https://www.smartphone-id.com/en_GB/uk-biometric-residency-permit/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/en_GB/obtain-uk-visa/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
   },
 
   "Footer": {
