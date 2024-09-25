@@ -346,7 +346,7 @@
       {
         "impressionPhoto": "¿Dónde imprimir fotos de pasaporte en Colombia?",
         "paragraphe": "Encarga fotos impresas profesionales con Smartphone iD o imprímelas en un centro cercano.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Plantilla-de-foto-impresa-para-pasaporte-colombiano.png",
+        "planche_photo": "/images/Bloc6/es-CO/imprimir fotos de pasaporte colombia.jpg",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
@@ -390,7 +390,7 @@
     "titre_bloc8_2" : null,
     "titre_bloc8_span": "exitosa?",
     "titre_encart": null,
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/zGQoL2qhfW0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",

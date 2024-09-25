@@ -2,30 +2,30 @@
   "NavBar": {
     "liens": [
       {
-        "link" : "Permis de conduire",
-        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+        "link" : "Photo d'identité en ligne",
+        "url" : "https://www.smartphone-id.com/fr_FR/photos-identite-en-ligne/"
       },
       {
-        "link" : "Passeport",
-        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+        "link" : "Photo d'identité de bébé",
+        "url" : "https://www.smartphone-id.com/fr_FR/photo-identite-bebe/"
       },
       {
-        "link" : "Carte National d'identité",
-        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+        "link" : "ePhoto ANTS",
+        "url" : "https://www.smartphone-id.com/fr_FR/ephoto-ants/"
       },
       {
-        "link" : "Titre de séjour",
-        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+        "link" : "ePhoto permis de conduire",
+        "url" : "https://www.smartphone-id.com/fr_FR/e-photo-permis-conduire/"
       },
       {
-        "link" : "Carte vitale",
-        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+        "link" : "ePhoto titre de séjour",
+        "url" : "https://www.smartphone-id.com/fr_FR/code-ephoto-titre-de-sejour/"
       }
     ]
   },
 
   "Bloc1" : {
-    "girl" : "/images/Bloc1/fr-FR/girl.png",
+    "girl" : "/images/Bloc1/fr-FR/photo_identite_en_ligne_france.png",
     "background" : "/images/background.png",
     "titre_bloc1" : "Obtenez Rapidement",
     "titre_h4_bloc1": "pour renouveler vos documents officiels français en ligne !",
@@ -402,13 +402,13 @@
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
+        "img_principal": "/images/Bloc7/fr-FR/signature_digitale_avec_photo_identite_france.png",
         "paragraphe": "Pour les documents français, nécessaire pour l’inscription sur le site de l’ANTS.",
         "titre": "Code ePhoto officiel"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
+        "img_principal": "/images/Bloc7/fr-FR/ephoto_france.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
       }
@@ -420,7 +420,7 @@
     "titre_bloc8_2" : "sa photo d'identité",
     "titre_bloc8_span": "réussir",
     "titre_encart": "Quelques conseils",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",

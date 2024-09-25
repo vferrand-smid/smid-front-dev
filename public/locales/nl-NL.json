@@ -3,19 +3,19 @@
     "liens": [
       {
         "link": "Paspoort",
-        "url": "https://www.smartphone-id.com/nl_NL/paspoort-foto-eisen/"
+        "url": "https://www.smartphone-id.com/nl/paspoort-foto-eisen/"
       },
       {
         "link": "Identiteitskaart",
-        "url": "https://www.smartphone-id.com/nl_NL/vereisten-pasfoto-identiteitskaart/"
+        "url": "https://www.smartphone-id.com/nl/vereisten-pasfoto-identiteitskaart/"
       },
       {
         "link": "Visum",
-        "url": "https://www.smartphone-id.com/nl_NL/pasfoto-visum/"
+        "url": "https://www.smartphone-id.com/nl/pasfoto-visum/"
       },
       {
         "link": "Verblijfsvergunning",
-        "url": "https://www.smartphone-id.com/nl_NL/pasfoto-verblijfsvergunning/"
+        "url": "https://www.smartphone-id.com/nl/pasfoto-verblijfsvergunning/"
       }
     ]
   },
@@ -511,27 +511,27 @@
     "liens": [
       {
         "link": "Rijbewijs",
-        "url": "https://www.smartphone-id.com/nl_NL/internationaal-rijbewijs/",
+        "url": "https://www.smartphone-id.com/nl/internationaal-rijbewijs/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Paspoort",
-        "url": "https://www.smartphone-id.com/nl_NL/vereisten-pasfoto-identiteitskaart/",
+        "url": "https://www.smartphone-id.com/nl/vereisten-pasfoto-identiteitskaart/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Identiteitskaart",
-        "url": "https://www.smartphone-id.com/nl_NL/identiteitskaart/ ",
+        "url": "https://www.smartphone-id.com/nl/identiteitskaart/ ",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Verblijfsvergunning",
-        "url": "https://www.smartphone-id.com/nl_NL/verblijfsvergunning-aanvragen/",
+        "url": "https://www.smartphone-id.com/nl/verblijfsvergunning-aanvragen/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Visum",
-        "url": "https://www.smartphone-id.com/nl_NL/visum/",
+        "url": "https://www.smartphone-id.com/nl/visum/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       }
     ]
@@ -546,11 +546,11 @@
     "SiteMapList-blog" : "Blog",
     "blog-link" : "",
     "SiteMapList-propos" : "Over ons",
-    "propos-link" : "https://www.smartphone-id.com/nl_NL/over-ons",
+    "propos-link" : "https://www.smartphone-id.com/nl/over-ons",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/nl_NL/faq",
+    "faq-link" : "https://www.smartphone-id.com/nl/faq",
     "SiteMapList-contact" : "Contact",
-    "contact-link" : "https://www.smartphone-id.com/nl_NL/contact",
+    "contact-link" : "https://www.smartphone-id.com/nl/contact",
     "applis-h3": "Download de app!",
     "applis-p":  "Download de Smartphone iD app om je bestellingen te volgen en van nog meer pasfoto-functies te genieten.",
     "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
@@ -558,13 +558,13 @@
     "partie2-p": "",
     "partie2-p-link": "Volg ons en ontdek de nieuwste informatie over visa en andere officiële documenten.",
     "mentions-confidentialité": "Privacybeleid",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/nl_NL/privacybeleid",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/nl/privacybeleid",
     "mentions-cgu": "Servicevoorwaarden",
-    "mentions-cgu-link": "https://www.smartphone-id.com/nl_NL/servicevoorwaarden",
+    "mentions-cgu-link": "https://www.smartphone-id.com/nl/servicevoorwaarden",
     "mentions-légales": "Wettelijke kennisgeving",
-    "mentions-légales-link": "https://www.smartphone-id.com/nl_NL/Wettelijke kennisgeving",
+    "mentions-légales-link": "https://www.smartphone-id.com/nl/Wettelijke kennisgeving",
     "Cookies": "Cookies",
-    "Cookies-link": "https://www.smartphone-id.com/nl_NL/cookies"
+    "Cookies-link": "https://www.smartphone-id.com/nl/cookies"
   }
 }
 

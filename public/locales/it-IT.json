@@ -580,19 +580,35 @@
     "etoiles" : "stelle su 5"
   },
 
-  "Bloc11" : {
-    "permis" : "Patente di guida",
-    "Link1" : "https://www.smartphone-id.com/it_IT/patente-di-guida/",
-    "passeport" : "passaporto",
-    "Link2" : " https://www.smartphone-id.com/it_IT/passaporto/ ",
-    "cni" : " Carta d’Identità Elettronica",
-    "Link3" : "https://www.smartphone-id.com/it_IT/carta-didentita-elettronica/",
-    "séjour" : "Permesso di soggiorno",
-    "Link4" : " https://www.smartphone-id.com/it_IT/permesso-di-soggiorno/ ",
-    "visa" : "visto",
-    "Link5" : "https://www.smartphone-id.com/it_IT/visto/",
-    "vitale" : "",
-    "Link6" : ""
+  "Bloc11": {
+    "titre": "Trovate le risposte nelle pagine corrispondenti",
+    "liens": [
+      {
+        "link": "Patente di guida",
+        "url": "https://www.smartphone-id.com/it/patente-di-guida/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "passaporto",
+        "url": "https://www.smartphone-id.com/it/passaporto/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Carta d’Identità Elettronica",
+        "url": "https://www.smartphone-id.com/it/carta-didentita-elettronica/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Permesso di soggiorno",
+        "url": "https://www.smartphone-id.com/it/permesso-di-soggiorno/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "visto",
+        "url": "https://www.smartphone-id.com/it/visto/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
   },
 
   "Footer": {

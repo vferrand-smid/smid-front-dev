@@ -3,28 +3,30 @@
     "liens": [
       {
         "link": "Paszport",
-        "url": "https://www.smartphone-id.com/pl_PL/zdjecie-paszportowe/"
+        "url": "https://www.smartphone-id.com/pl/zdjecie-paszportowe/"
       },
       {
         "link": "Zezwolenie na pobyt",
-        "url": "https://www.smartphone-id.com/pl_PL/ile-zdjec-do-zezwolenia-na-pobyt/"
+        "url": "https://www.smartphone-id.com/pl/ile-zdjec-do-zezwolenia-na-pobyt/"
       },
       {
         "link": "Dowód osobisty",
-        "url": "https://www.smartphone-id.com/pl_PL/ile-zdjec-do-dowodu/"
+        "url": "https://www.smartphone-id.com/pl/ile-zdjec-do-dowodu/"
       },
       {
         "link": "Prawo jazdy",
-        "url": "https://www.smartphone-id.com/pl_PL/ile-zdjec-do-prawa-jazdy/"
+        "url": "https://www.smartphone-id.com/pl/ile-zdjec-do-prawa-jazdy/"
       },
       {
         "link": "Wiza",
-        "url": "https://www.smartphone-id.com/pl_PL/wiza-polska-zdjęcie"
+        "url": "https://www.smartphone-id.com/pl/wiza-polska-zdjęcie/"
       }
     ]
   },
 
   "Bloc1" : {
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/zdjecie-paszportowe-online-Polska.png",
+    "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-28.png",
     "titre_bloc1" : "Szybkie i proste narzędzie do",
     "titre_h4_bloc1": "To proste-wystarczy, że zrobisz zdjęcie! Wypróbuj teraz!",
     "repeteurCheckGreenBloc1": [
@@ -273,7 +275,7 @@
       }
     ],
     "nos_partenaires": "Nasi partnerzy",
-    "nos_medias": null
+    "nos_medias": "Aanbevolen door"
   },
 
   "Bloc5": {
@@ -416,7 +418,7 @@
     "titre_bloc8_2" : "zdjęcie paszportowe?",
     "titre_bloc8_span": " udane ",
     "titre_encart": "Kilka sugestii",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/EU9Oxk0ZTBc?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
@@ -525,7 +527,7 @@
       }
     ],
     "titre_bloc9": "zadawane pytania",
-    "titre_bloc9_span": "Często"
+    "titre_bloc9_span": "Często "
   },
 
   "Bloc10" : {
@@ -541,27 +543,27 @@
     "liens": [
       {
         "link": "Paszport",
-        "url": "https://www.smartphone-id.com/pl_PL/polski-paszport/",
+        "url": "https://www.smartphone-id.com/pl/polski-paszport/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "Prawo jazdy",
-        "url": "https://www.smartphone-id.com/pl_PL/jak-aplikowac-o-prawo-jazdy/",
+        "url": "https://www.smartphone-id.com/pl/jak-aplikowac-o-prawo-jazdy/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "Zezwolenie na pobyt",
-        "url": "https://www.smartphone-id.com/pl_PL/zezwolenie-na-pobyt/",
+        "url": "https://www.smartphone-id.com/pl/zezwolenie-na-pobyt/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Wiza",
-        "url": "https://www.smartphone-id.com/pl_PL/wiza-polska",
+        "url": "https://www.smartphone-id.com/pl/wiza-polska",
         "icon": "/images/Bloc11/visa.svg"
       },
       {
         "link": "Dowód osobisty",
-        "url": "https://www.smartphone-id.com/pl_PL/pierwszy-dowod-osobisty/",
+        "url": "https://www.smartphone-id.com/pl/pierwszy-dowod-osobisty/",
         "icon": "/images/Bloc11/carte-identite.svg"
       }
     ]
@@ -576,11 +578,11 @@
     "SiteMapList-blog" : "Blog",
     "blog-link" : "",
     "SiteMapList-propos" : "O nas",
-    "propos-link" : "https://www.smartphone-id.com/pl_PL/o-nas",
+    "propos-link" : "https://www.smartphone-id.com/pl/o-nas",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/pl_PL/faq",
+    "faq-link" : "https://www.smartphone-id.com/pl/faq",
     "SiteMapList-contact" : "Kontakt",
-    "contact-link" : "https://www.smartphone-id.com/pl_PL/kontakt",
+    "contact-link" : "https://www.smartphone-id.com/pl/kontakt",
     "applis-h3": "Pobierz aplikację!",
     "applis-p":  "Pobierz aplikację Smartphone iD, by śledźic zamówienie i wykorzystać dodatkowe funkcje obróbki zdjęć paszportowych.",
     "AppStore-link" : "https://apps.apple.com/pl/app/photo-identit%C3%A9-officielle/id1527550865",
@@ -588,12 +590,12 @@
     "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
     "partie2-p-link": "",
     "mentions-confidentialité": "Polityka prywatności",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/pl_PL/polityka-prywatności",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/pl/polityka-prywatności",
     "mentions-cgu": "Warunki korzystania z usług",
-    "mentions-cgu-link": "https://www.smartphone-id.com/pl_PL/warunki-korzystania-z-usług",
+    "mentions-cgu-link": "https://www.smartphone-id.com/pl/warunki-korzystania-z-usług",
     "mentions-légales": "Informacje prawne",
-    "mentions-légales-link": "https://www.smartphone-id.com/pl_PL/informacje-prawne",
+    "mentions-légales-link": "https://www.smartphone-id.com/pl/informacje-prawne",
     "Cookies": "Cookies",
-    "Cookies-link": "https://www.smartphone-id.com/pl_PL/cookies"
+    "Cookies-link": "https://www.smartphone-id.com/pl/cookies"
   }
 }

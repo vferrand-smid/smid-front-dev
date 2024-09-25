@@ -24,6 +24,7 @@ import nextToGraphQLLocales from '../app/lib/locales';
 
 const PageList = () => {
     const router = useRouter();
+    //const { locale } = router;
     const searchParams = useSearchParams();
     const locale = searchParams.get('locale') || 'fr-FR'; // Default to 'fr-FR' if no locale is specified
 

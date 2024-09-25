@@ -346,7 +346,7 @@
       {
         "impressionPhoto": "¿Dónde imprimir fotos de pasaporte en Argentina?",
         "paragraphe": "Encarga fotos impresas profesionales con Smartphone iD o imprímelas en un centro cercano.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Plantilla-de-foto-impresa-para-pasaporte-argentino.png",
+        "planche_photo": "/images/Bloc6/es-AR/imprimir foto pasaporte argentina.png",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
@@ -374,7 +374,7 @@
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Plantilla-reciente-de-foto-impresa-para-pasaporte-argentino.png",
+        "img_principal": "/images/Bloc7/es-AR/Probar fecha y hora de la foto.png",
         "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
         "titre": "La prueba de que la foto es reciente"
       }
@@ -386,7 +386,7 @@
     "titre_bloc8_2" : null,
     "titre_bloc8_span": "exitosa?",
     "titre_encart": "Algunos consejos",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/zGQoL2qhfW0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",
@@ -499,7 +499,7 @@
       }
     ],
     "titre_bloc9": "a Tus Preguntas",
-    "titre_bloc9_span": "Respuestas"
+    "titre_bloc9_span": "Respuestas "
   },
 
   "Bloc10" : {
@@ -508,6 +508,37 @@
     "sousTitre" : "Haz clic en las estrellas para dejar tu valoración.",
     "personne" : "Valoración media :",
     "etoiles" : "estrellas de 5"
+  },
+
+  "Bloc11": {
+    "titre": "Encuentra tus respuestas en las páginas correspondientes",
+    "liens": [
+      {
+        "link": "Licencia de Conducir",
+        "url": "https://www.smartphone-id.com/es_AR/permiso-de-conducir-internacional-2",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Pasaporte",
+        "url": "https://www.smartphone-id.com/es_AR/pasaporte-argetino/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "DNI",
+        "url": "https://www.smartphone-id.com/es_AR/dni-argentino/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "NIE",
+        "url": "https://www.smartphone-id.com/es_AR/nie/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visado",
+        "url": "https://www.smartphone-id.com/es_AR/visado-argentino",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
   },
 
   "Footer": {

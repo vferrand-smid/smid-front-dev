@@ -41,8 +41,8 @@ const Bloc8Tuto = ({ locale }) => {
                                 </div>
                             ))}
                         </div>
-                        <a href={bouton_plus?.url} className="kal-tuto-button hover:text-green-500 transition">{bouton_plus?.title}</a>
-                        <a className="tuto-link hover:text-green-500 transition" href={lienBebe?.url}>
+                        <a href={bouton_plus?.url} target={"_blank"} className="kal-tuto-button hover:text-green-500 transition">{bouton_plus?.title}</a>
+                        <a className="tuto-link hover:text-green-500 transition" target={"_blank"} href={lienBebe?.url}>
                             <p style={{textAlign: 'center'}}>
                                 {lienBebe?.title}
                             </p>

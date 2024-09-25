@@ -27,16 +27,16 @@
   "Bloc1" : {
     "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-online-Canada.png",
     "background" : "/images/background.png",
-    "titre_bloc1" : "quality passport photos",
-    "titre_h4_bloc1": "and digital signatures.",
+    "titre_bloc1" : "Fast and easy tool for",
+    "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Your secure identity photo"
+        "texte_check_green": "Quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Expert verified"
+        "texte_check_green": "and digital signatures."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -46,11 +46,11 @@
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Government acceptance"
+        "texte_check_white": "Expert verification"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Free trial"
+        "texte_check_white": "Government acceptance"
       }
     ]
   },
@@ -416,7 +416,7 @@
     "titre_bloc8_2" : "passport photo",
     "titre_bloc8_span": "successful ",
     "titre_encart": "Some tips",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/158N_fC5ys4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",
@@ -461,34 +461,6 @@
       {
         "texte_accordeon": null,
         "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
@@ -507,6 +479,62 @@
       {
         "texteAccordeon": "<p>All London Drugs locations have an onsite photographer and lab for taking passport photos for a good price.</p>\n",
         "titre_accordeon": "Does London Drugs do passport photos?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">A Canadian passport photo must be 50 mm wide and 70 mm high, with the height of your face measuring between 31 mm and 36 mm.</aside>\n<p>&nbsp;</p>\n",
+        "titre_accordeon": "What is the Canadian passport photo size?"
+      },
+      {
+        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</aside>\n",
+        "titre_accordeon": "Can you take a passport photo on your phone?"
+      },
+      {
+        "texteAccordeon": "<p>To print passport photos with your PC, you must first download software that allows you to obtain 35mm x 45mm photos (or 50mm x 70mm for Canadian passport). Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted.</p>\n<p>If you don&#8217;t want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</p>\n",
+        "titre_accordeon": "How to print a passport size photo?"
+      },
+      {
+        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">Get your passport photo taken at several Canadian stores like Walmart, London Drugs,passport photographers, Staples, and Shopper’s Drug Mart. Alternatively, or can obtain your passport photo online through the &#8216;Smartphone iD app,&#8217; which offers an affordable and convenient option to take the photo from home.</aside>\n",
+        "titre_accordeon": "Where to get passport photos?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\"> To take a good passport photo at home you must do the following:</main></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Stand against the source of light to get even lighting on your face, and neck. It&#8217;s best to do it in daylight facing window.</li>\n<li>Make sure that your background is in light color and no shadow appears behind you.</li>\n<li>Look into the camera objective and not the phone screen. Eyes should be open.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>If you are not sure whether all guidelines have been respected, you can use the Smartphone iD tool. The photo will be automatically sized and approved by trained experts to ensure 100% compliance with official standards.</p>\n</aside>\n<p>&nbsp;</p>\n",
+        "titre_accordeon": "Where to get a digital passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Passport photo costs typically range from $10 to $20. Here are a few popular stores and their approximate cost ,</main></p>\n<ul>\n<li>Walmart ($12.97 CAD),</li>\n<li>Shoppers ($19.99 CAD)</li>\n<li>Staples ($21.99 CAD),</li>\n<li>Smartphone iD that includes also government acceptance guarantee ($10.22 CAD).</li>\n</ul>\n<p>&nbsp;</p>\n",
+        "titre_accordeon": "How much are passport photos in Canada?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow fringe because it makes it harder to read the biometrical data from the scan. Then fringe must be sided to either side and pinned down with unnoticeable bobby pins.</main>However, more casual identity documents like a student card, or transportation card can have a passport photo with a fringe.<br />\nIf you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n<p>&nbsp;</p>\n",
+        "titre_accordeon": "Can you have a fringe in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person.</main>If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n",
+        "titre_accordeon": "Can you smile in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</aside>\n",
+        "titre_accordeon": "Can you wear glasses in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\"> Yes, you can wear makeup in your passport photo. But note that make-up should be light.</main></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Don&#8217;t put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n<p>&nbsp;</p>\n",
+        "titre_accordeon": "Can you wear makeup in a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.</li>\n<li>Also, make sure your shirt doesn&#8217;t show too much skin, as shirtless passport photos are prohibited.</li>\n<li>Finally, uniforms of any kind are also prohibited on a biometric passport photo.</li>\n</ul>\n</aside>\n<p>&nbsp;</p>\n",
+        "titre_accordeon": "What to wear for a passport photo?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">In most cases, you will need to take a new photo when it comes to renewing your passport. The only exception is if your passport has been damaged, lost, or destroyed. For Canadian official documents, photos cannot be older than 6 months.</main></p>\n",
+        "titre_accordeon": "Do you need a new photo to renew your passport?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">If your passport photo is rejected, you will need to re-submit a new photo. Application processing can vary from a few weeks to months. Use Smartphone iD passport photo maker to take your photo and be sure it will be accepted the first time as an immediate AI check and an additional human expert check is applied.</aside>\n",
+        "titre_accordeon": "What happens if a passport photo is rejected?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><main class=\"kal-accordion-item-active\"> </main></main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Shoppers Drug Mart offers passport photos at a select number of their store locations. It is important to call ahead and ensure the store in your area offers the service.</aside>\n<p>&nbsp;</p>\n",
+        "titre_accordeon": "Does Shoppers do passport photos?"
       }
     ]
   },

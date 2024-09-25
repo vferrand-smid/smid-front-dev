@@ -2,30 +2,30 @@
   "NavBar": {
     "liens": [
       {
-        "link": "паспорт",
-        "url": "https://www.smartphone-id.com/ru_RU/фото-на-паспорт/"
+        "link": "Паспорт",
+        "url": "https://www.smartphone-id.com/ru/фото-на-паспорт/"
       },
       {
         "link": "Водительское удостоверение",
-        "url": "https://www.smartphone-id.com/ru_RU/фото-для-удостоверение-на-право-управ/"
+        "url": "https://www.smartphone-id.com/ru/фото-для-удостоверение-на-право-управ/"
       },
       {
         "link": "Вид на жительство",
-        "url": "https://www.smartphone-id.com/ru_RU/фото-на-вид-на-жительство/"
+        "url": "https://www.smartphone-id.com/ru/фото-на-вид-на-жительство/"
       },
       {
         "link": "Личное дело",
-        "url": "https://www.smartphone-id.com/ru_RU/фото-в-личное-дело/"
+        "url": "https://www.smartphone-id.com/ru/фото-в-личное-дело/"
       },
       {
-        "link": "виза",
-        "url": "https://www.smartphone-id.com/ru_RU/фото-на-визу/"
+        "link": "Виза",
+        "url": "https://www.smartphone-id.com/ru/фото-на-визу/"
       }
     ]
   },
 
   "Bloc1" : {
-    "girl" : "",
+    "girl" : "/images/Bloc1/ru-RU/Русский паспорт фото онлайн инструмент.png",
     "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-17.png",
     "titre_bloc1" : "Быстрый и простой инструмент для создания",
     "titre_h4_bloc1": "Просто сделайте фото и получите готовый результат!Попробуйте прямо сейчас!",
@@ -96,7 +96,7 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Благодаря проверке наших экспертов действительность фотографий гарантирована.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/распечатка-фотографий-на-паспорт-в-россию.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/экспертная-проверка-по-фото-на-паспорт.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
@@ -109,25 +109,25 @@
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Отсканируйте QR-код своим смартфоном и сделайте фотографию.",
         "titre_check": "Шаг 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фотография-на-паспорт-компьютерный-инструмент.png"
+        "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-1-в-компьютере.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Ознакомьтесь с особенностями вашего фото-запроса.",
         "titre_check": "Шаг 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/проверка-фотографий-на-паспорт-с-компьютером.png"
+        "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-2-в-компьютере.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "При необходимости добавьте доставку распечатанного шаблона на дом.",
         "titre_check": "Шаг 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/доставка-фото-на-паспорт-на-дом.png"
+        "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-3-в-компьютере.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Получите цифровую фотографию паспорта и готовый к печати шаблон на свою электронную почту.",
         "titre_check": "Шаг 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/сверить-фотографии-паспорта-с-помощью-компьютерного-инструмента.png"
+        "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-4-в-компьютере.png"
       }
     ],
     "repeteurCkeckBlackMobile": [
@@ -337,11 +337,7 @@
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фото-на-паспорт-для-паспорта.png"
       },
       {
-        "titre_doc": "Passeport",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
-      },
-      {
-        "titre_doc": "виза",
+        "titre_doc": "Виза",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фото-на-паспорт-для-визы-в-россию.png"
       },
       {
@@ -357,7 +353,7 @@
       {
         "impressionPhoto": "Где распечатать фото на российский паспорт?",
         "paragraphe": "Закажите профессионально распечатанные фотографии с помощью Smartphone iD или воспользуйтесь готовым к печати шаблоном, который вам отправят на электронную почту.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/создатель-шаблонов-фотографий-для-паспорта.png",
+        "planche_photo": "/images/Bloc6/ru-RU/RU_HP_planche_1.png",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone-iD",
@@ -381,7 +377,7 @@
           },
           {
             "nom_partenaire": "МФЦ с фотокабинкой",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/МФЦ-с-фотокабинкой.png.webpg"
+            "img_partenaire": "/images/Bloc6/ru-RU/МФЦ-с-фотокабинкой.png.png"
           }
         ]
       }
@@ -395,13 +391,13 @@
     "bloc": [
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/add-digital-signature-passport-photo-south-africa.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/добавить-цифровую-подпись-к-фотографии-в-паспорте.png",
         "paragraphe": "При необходимости ваша подпись будет связана с вашей фотографией для подачи заявок на официальные документы онлайн.",
         "titre": "Цифровая подпись"
       },
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/recent-passport-photo-south-africa.png",
+        "img_principal": "/images/Bloc7/ru-RU/RU_HP_planche_2.png",
         "paragraphe": "Снимки, сделанные в режиме реального времени, подтверждают актуальность фотографии, что обязательно для официальных документов.",
         "titre": "Подтверждение актуальности фото"
       }
@@ -441,30 +437,22 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/ru_RU/требования-к-фото-на-паспорт/",
+      "url": "https://www.smartphone-id.com/ru/требования-к-фото-на-паспорт/",
       "title": "смотреть больше"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/ru_RU/фото-ребенка-на-загранпаспорт/",
+      "url": "https://www.smartphone-id.com/ru/фото-ребенка-на-загранпаспорт/",
       "title": "Как сделать фотографию ребенка на паспорт?"
     }
   },
 
   "Bloc9": {
     "ID": "О фотографии для паспорта РФ",
-    "ePhoto": "ePhoto",
+    "ePhoto": "",
     "codeEphoto": [
       {
-        "texte_accordeon": "<p>Чтобы подать онлайн заявку на сайте ANTS, вам необходимо получить цифровой код ePhoto для паспорта или водительских прав.</p>\n<p>Загрузите приложение Smartphone iD, выберите нужный документ, сделайте фото и подпишите с помощью смартфона. После проверки фото нашей командой экспертов, вы получите свой код ePhoto на электронную почту в течение нескольких минут.</p>\n",
-        "titre_accordeon": "Как получить код ePhoto?"
-      },
-      {
-        "texte_accordeon": "<p>Код ePhoto отображается на вашем фотобланке, который можно найти:</p>\n<ul>\n<li>в приложении «Официальное фото паспорта» в меню «Отслеживание заказов»</li>\n<li>или в письме, полученном на вашу электронную почту. Код ePhoto также будет указан в этом письме.</li>\n</ul>\n",
-        "titre_accordeon": "Где найти код ePhoto?"
-      },
-      {
-        "texte_accordеon": "<p>Код ePhoto можно ввести двумя способами:</p>\n<ul>\n<li>Ручной ввод 22-значного кода (без пробелов, с учетом заглавных букв).</li>\n<li>Скопируйте и вставьте код ePhoto из письма, отправленного на вашу электронную почту.</li>\n</ul>\n",
-        "titre_accordеon": "Как ввести код ePhoto?"
+        "texte_accordeon": "",
+        "titre_accordeon": ""
       }
     ],
     "photo_didentite": [
@@ -542,7 +530,7 @@
       }
     ],
     "titre_bloc9": "задаваемые вопросы",
-    "titre_bloc9_span": "Часто"
+    "titre_bloc9_span": "Часто "
   },
 
   "Bloc10" : {
@@ -558,33 +546,23 @@
     "liens": [
       {
         "link": "Паспорт",
-        "url": "https://www.smartphone-id.com/ru_RU/паспорт/",
+        "url": "https://www.smartphone-id.com/ru/паспорт/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "Водительское удостоверение",
-        "url": "https://www.smartphone-id.com/ru_RU/водительское-удостоверение/",
+        "url": "https://www.smartphone-id.com/ru/водительское-удостоверение/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "Вид на жительство",
-        "url": "https://www.smartphone-id.com/ru_RU/вид-на-жительство/",
+        "url": "https://www.smartphone-id.com/ru/вид-на-жительство/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Профсоюзный билет",
-        "url": "https://www.smartphone-id.com/ru_RU/профсоюзный-билет/",
+        "url": "https://www.smartphone-id.com/ru/профсоюзный-билет/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
-      },
-      {
-        "link": "",
-        "url": "",
-        "icon": "/images/Bloc11/visa.svg"
-      },
-      {
-        "link": "",
-        "url": "",
-        "icon": "/images/Bloc11/carte-vitale.svg"
       }
     ]
   },
@@ -598,11 +576,11 @@
     "SiteMapList-blog" : "",
     "blog-link" : "",
     "SiteMapList-propos" : "О нас",
-    "propos-link" : "https://www.smartphone-id.com/ru_RU/o-нас",
+    "propos-link" : "https://www.smartphone-id.com/ru/o-нас",
     "SiteMapList-faq" : "Часто задаваемые вопросы",
-    "faq-link" : "https://www.smartphone-id.com/ru_RU/часто-задаваемые-вопросы",
+    "faq-link" : "https://www.smartphone-id.com/ru/часто-задаваемые-вопросы",
     "SiteMapList-contact" : "Свяжитесь с нами",
-    "contact-link" : "https://www.smartphone-id.com/ru_RU/свяжитесь-с-нами",
+    "contact-link" : "https://www.smartphone-id.com/ru/свяжитесь-с-нами",
     "applis-h3": "Загрузите приложение Smartphone iD",
     "applis-p":  "Следуйте своим заказам и найдите еще больше функций в приложении.",
     "AppStore-link" : "https://apps.apple.com/ru/app/официальное-фото-на-паспорт/id1527550865",
@@ -610,12 +588,12 @@
     "partie2-p": "Подпишитесь, чтобы узнать новую информацию об официальных документах!",
     "partie2-p-link": "",
     "mentions-confidentialité": "Политика конфиденциальности",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/ru_RU/политика-конфиденциальности",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/ru/политика-конфиденциальности",
     "mentions-cgu": "Условия использования",
-    "mentions-cgu-link": "https://www.smartphone-id.com/ru_RU/условия-использования",
+    "mentions-cgu-link": "https://www.smartphone-id.com/ru/условия-использования",
     "mentions-légales": "Юридическая информация",
-    "mentions-légales-link": "https://www.smartphone-id.com/ru_RU/юридическая-информация",
+    "mentions-légales-link": "https://www.smartphone-id.com/ru/юридическая-информация",
     "Cookies": "Печенье",
-    "Cookies-link": "https://www.smartphone-id.com/ru_RU/печенье"
+    "Cookies-link": "https://www.smartphone-id.com/ru/печенье"
   }
 }

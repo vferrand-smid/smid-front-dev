@@ -369,18 +369,6 @@
           {
             "nom_partenaire": "快照易",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/index_02.png.webp"
-          },
-          {
-            "nom_partenaire": "CVS",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CVS.png"
-          },
-          {
-            "nom_partenaire": "Target",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Target.png"
-          },
-          {
-            "nom_partenaire": "Walmart",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Walmart.png"
           }
         ]
       }
@@ -393,14 +381,14 @@
     "titre_bloc7_span": "解决方案",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/将签名链接到数字护照照片-1.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/将签名链接到数字护照照片-1.png",
         "paragraphe": "在需要时，您的签名将与您的照片关联起来，用于官方在线文件申请。",
         "titre": "数字签名"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/证明你的护照照片的日期-1.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/证明你的护照照片的日期-1.png",
         "paragraphe": "拍摄实时照片可证明照片是近期的，这是申请官方文件的必备条件。",
         "titre": "证明照片的近期性"
       }

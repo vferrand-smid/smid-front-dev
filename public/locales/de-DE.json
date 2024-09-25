@@ -27,7 +27,7 @@
   "Bloc1": {
     "girl": "/images/Bloc1/de-DE/girl.png",
     "background": "/images/background.png",
-    "titre_bloc1": "hochwertige Passfotos",
+    "titre_bloc1": "Hochwertige Passfotos",
     "titre_h4_bloc1": "und digitale Signaturen.",
     "repeteurCheckGreenBloc1": [
       {
@@ -443,7 +443,7 @@
     "titre_bloc8_2" : "Passfoto?",
     "titre_bloc8_span": "korrektes",
     "titre_encart": "Einige Vorschläge",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/szjDtvkU7O0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
   },
 
   "Bloc9": {
@@ -451,36 +451,36 @@
     "ePhoto": null,
     "codeEphoto": [
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>Vous devez fournir un code photo signature numérique (ou code ePhoto) pour une demande en ligne sur le site de l&#8217;ANTS ?</p>\n<p>C&#8217;est très simple, allez sur le site Smartphone-iD : Application Photo Identité et ephoto, choisissez le document dont vous avez besoin (Permis de conduire, Titre de séjour, DCEM, &#8230;). Ensuite faites votre photo et votre signature sur votre smartphone et c&#8217;est fini. Après validation de votre photo par notre équipe d&#8217;experts, vous recevrez votre code ePhoto dans votre boîte mails en quelques minutes.</p>\n",
+        "titre_accordeon": "Comment obtenir un code ePhoto ?"
       },
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>Le code ePhoto est écrit sur la planche photos qui est disponible :</p>\n<ul>\n<li>sur l&#8217;application « Photo identité officielle » de Smartphone iD, menu « Suivi de commandes »</li>\n<li>directement dans le mail que vous avez reçu. Sur ce mail, le code ePhoto est également indiqué.</li>\n</ul>\n",
+        "titre_accordeon": "Où trouver le code ePhoto ?"
       },
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>Vous avez 2 possibilités :</p>\n<ul>\n<li>Soit vous recopiez le code ePhoto de 22 caractères (lettres et chiffres) qui figure sur votre planche photos. Attention à bien écrire les lettres en majuscule et à ne pas mettre d&#8217;espace 🙂</li>\n<li>Soit vous faites un copier-coller du code ePhoto indiqué dans le mail que vous avez reçu.</li>\n</ul>\n",
+        "titre_accordeon": "Comment entrer le code ePhoto ?"
       },
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>Le code ePhoto est à usage unique. Une fois que vous l&#8217;avez saisi sur le site de l&#8217;ANTS, vous ne pourrez plus l&#8217;utiliser.</p>\n<p>L&#8217;ANTS sécurise vos données en empêchant la multiplication des utilisations de codes ePhoto.</p>\n",
+        "titre_accordeon": "Combien de fois peut-on utiliser le code ePhoto ?"
       },
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>Le code ePhoto est valable pendant 6 mois. Cela correspond au délai de validité de votre photo d&#8217;identité.</p>\n<p>Vous avez 6 mois pour l&#8217;utiliser, ensuite il ne fonctionnera plus.</p>\n",
+        "titre_accordeon": "Combien de temps est conservé le code ePhoto ?"
       },
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>Sur une planche photos, vous avez UN code ePhoto.</p>\n<p>Si vous avez besoin d&#8217;un autre code ePhoto, vous pouvez l&#8217;obtenir sans refaire vos photo et signature et ce pendant 6 mois. Pour cela, allez dans le menu « Suivi de commandes » de l&#8217;application « Photo identité officielle » de Smartphone iD, sélectionnez votre commande puis demandez un nouveau code ePhoto. Vous le recevrez en quelques minutes.</p>\n",
+        "titre_accordeon": "Sur une planche photos combien y-a-t-il de code ePhoto ?"
       },
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>Plusieurs raisons sont possibles :</p>\n<ul>\n<li>Vous avez fait une erreur lors de la saisie de votre code ePhoto. Les lettres doivent être en majuscule, il faut saisir les 22 caractères sans mettre d&#8217;espace, vous avez confondu les lettres O avec les chiffres 0.</li>\n<li>Vous avez déjà utilisé ce code ePhoto. Le code ePhoto étant à usage unique, demandez un nouveau code ePhoto directement dans l&#8217;application « Photo identité officielle » de Smartphone iD.</li>\n</ul>\n<p>Votre commande date de moins de 6 mois, c&#8217;est simple, pas besoin de refaire vos photo et signature. Allez dans le menu « Suivi de commandes », sélectionnez votre commande puis demandez un nouveau code ePhoto.</p>\n<p>Votre commande date de plus de 6 mois, dans ce cas, passez une nouvelle commande et recevez le code ePhoto en quelques minutes.</p>\n",
+        "titre_accordeon": "Pourquoi mon code ePhoto ne fonctionne-t-il pas ?"
       },
       {
-        "texte_accordeon": null,
-        "titre_accordeon": null
+        "texte_accordeon": "<p>C&#8217;est très simple, allez sur le site de l&#8217;ANTS <a href=\"https://permisdeconduire.ants.gouv.fr/\">Permis de conduire &#8211; Accueil (ants.gouv.fr)</a>, choisissez le motif de votre demande (demande d&#8217;inscription à l&#8217;examen du permis de conduire, demande de fabrication de votre permis de conduire, …) puis remplissez le formulaire affiché. Dans la case « code photo signature numérique », saisissez votre code ePhoto, et voilà !</p>\n",
+        "titre_accordeon": "Comment entrer le code ePhoto pour le permis ?"
       }
     ],
     "photo_didentite": [
@@ -499,6 +499,62 @@
       {
         "texteAccordeon": "<p>Ein Set Passfotos aus einem Fotoautomaten kosten meisten zwischen 8€ und 10€. Du findest diese Automaten in jeder größeren Stadt an unterschiedlichen öffentlichen Orten. Der Service ist schnell und günstig, jedoch sind die Fotos aus Automaten oft weniger ansehnlich und entsprechen nicht immer den Anforderungen an ein korrektes Passfoto. 10% der Passfotos aus einem Automaten werden nicht angenommen beim Amt. Du solltest das Foto dementsprechend vorher von einem Experten überprüfen lassen.</p>\n",
         "titre_accordeon": "Was kosten Passfoto am Automaten?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Das Passfoto für einen Personalausweis oder für ein anderes offizielles Dokument muss nach Gesetz „aktuell“ sein.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Ein konkreter Zeitraum wird hier nicht genannt. Jedoch sind der Reisepass, als auch der Ausweis per Gesetz ungültig, wenn die einwandfreie Identitätsfeststellung des Inhabers nicht möglich ist.<br />\nEin neues Passfoto ist dementsprechend immer die richtige Wahl.</aside>\n",
+        "titre_accordeon": "Wie alt darf ein Passfoto sein?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Ein biometrisches Passfoto muss scharf, kontrastreich und vor allem den vorgegebenen Maßen entsprechen. Dementsprechend sollte es mit einer hochauflösenden Kamera aufgenommen werden.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Dein Gesicht muss den Hauptteil des Bildes ausmachen und es sollten keine Schatten oder Reflexionen zu erkennen sein.<br />\nDer Hintergrund muss hell und einfarbig sein und einen Kontrast zu deinem Gesicht und den Haaren aufweisen.</aside>\n",
+        "titre_accordeon": "Wie muss ein biometrisches Passfoto aussehen?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Die Kosten für ein biometrisches Passfoto unterscheiden sich stark zwischen den einzelnen Anbietern.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Je nachdem ob du deinen Fotos in einem Fotoautomaten oder in einem Fotostudio machst, bezahlst du für ein Set Passfotos zwischen 8€ und 30€.<br />\nSmartphone iD hat den günstigsten und schnellsten Service.</aside>\n",
+        "titre_accordeon": "Was kostet ein Passfoto?"
+      },
+      {
+        "texteAccordeon": "<p>Um den Anforderungen an die Biometrietauglichkeit zu entsprechen, ist nach Gesetzt eine einheitliche Größe von 3,5 x 4,5 cm für Passfotos vorgeschrieben.<br />\nDas Bild muss ohne Rand aufgenommen werden und die Gesichtshöhe muss von der Kinnlinie bis zur Kopfoberkante ca. 70 bis 80 Prozent des Bildes betragen und darf nicht abgeschnitten werden.</p>\n",
+        "titre_accordeon": "Wie groß sollte ein Passfoto sein?"
+      },
+      {
+        "texteAccordeon": "<p>Für ein Passfoto eignen sich kräftige Farben, die sich deutlich vom Hintergrund abheben.<br />\nDa ein heller Hintergrund gefordert ist, sind dunklere Farben von Vorteil, um den Kontrast zu erhöhen.<br />\nAchte ebenfalls darauf, dass dein Oberteil nicht zu viel Haut zeigt, da Passfotos mit freiem Oberkörper verboten sind.<br />\nSchließlich, Uniformen jeglicher Art sind auf einem biometrischen Passfoto auch verboten</p>\n",
+        "titre_accordeon": "Welche Farbe sollte die Kleidung auf einem Passfoto haben?"
+      },
+      {
+        "texteAccordeon": "<p>Ein Passfoto ist dann biometrisch, wenn alle bestimmten Anforderungen erfüllt werden, die zu einer erleichterten Gesichtserkennung anhand des Bildes führen.<br />\nIn Deutschland sind neben den Maßen des Fotos, unter anderem eine frontale Aufnahme, eine festgelegte Position des Kopfes und ein heller strukturloser Hintergrund, die üblichen Anforderungen an ein biometrisches Passfoto.</p>\n",
+        "titre_accordeon": "Was ist ein biometrisches Passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Ein professionelles Passfoto lässt sich ganz einfach und schnell mit deinem Handy und der App Smartphone iD erstellen.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Innerhalb kürzester Zeit hast du ein neues biometrisches Passfoto von dir auf deinem Smartphone. Darüber hinaus kannst du Passfotos auch in Fotostudios, in Passfotoautomaten oder in einem dm-Drogeriemarkt machen.</aside>\n",
+        "titre_accordeon": "Wo kann man Passfotos machen?"
+      },
+      {
+        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">Ein 6er-Set biometrische Passfotos in einem dm-Drogeriemarkt kostet dich 7,95€. Hier wirst du von einem Mitarbeiter der Filiale fotografiert und bekommst die Passfotos direkt im Anschluss ausgedruckt zu mitnehmen.<br />\nWenn du ein Passfoto für ein Visum oder einen ausländischen Pass benötigst, solltest du vorher in der Filiale anrufen und fragen, ob das möglich ist.</aside>\n",
+        "titre_accordeon": "Was kosten Passfotos bei dm?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Die einfachste Möglichkeit zum Erstellen eines digitalen Passbildes ist die Nutzung einer Passfoto App wie Smartphone iD.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Mit Hilfe der integrierten Kamera deines Handys oder Tablets, lassen sich schnell und einfach Passfotos von dir erstellen, die du direkt im Anschluss als digitale Datei zugesandt bekommst.</aside>\n",
+        "titre_accordeon": "Wie erstelle ich ein digitales Passfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Für den Antrag eines Personalausweises beim Amt benötigst du ein biometrisches Passfoto.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Je nach Behörde wird dieses Bild entweder als ausgedrucktes Bild oder als digitale Datei gefordert.<br />\nSolltest du außerdem auch noch einen Reisepass oder anderen Ausweis beantragen, brauchst du für jeden Antrag ein eigenes Passbild.</aside>\n",
+        "titre_accordeon": "Wie viele Passfotos benötige ich für einen Personalausweis?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> In einem Fotostudio oder einem dm-Markt kannst du biometrische Passfotos von dir machen lassen. Zusätzlich findest du in jeder größeren Stadt auch Fotoautomaten, die diesen Dienst anbieten.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Eine günstige und einfache Variante ist das Nutzen eine Passfoto App wie Smartphone iD, da du hier nur dein Handy benötigst, um ein Passfoto zu erstellen.</aside>\n",
+        "titre_accordeon": "Wo kann ich Passfotos machen lassen?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Bei Rossmann oder anderen Drogeriemärkten findest du fast immer ein Fotodruckautomaten. Hier kannst du dein digitales Passfoto einfach ausdrucken. Achte hierbei auf die richtigen Maße für ein biometrisches Passfoto.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Bei Smartphone iD erhältst du deine Passfoto per Mail direkt in der richtigen Größe zum Ausdrucken oder kannst sie dir auch direkt ausgedruckt nach Hause schicken lassen.</aside>\n",
+        "titre_accordeon": "Wo kann ich Passfotos ausdrucken lassen?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Achte darauf, dass dein Gesicht ca. 70-80% des Bildes ausmachen und du keinen Schatten oder Reflexionen im Gesicht oder den Augen hast.<br />\nAußerdem sollte dein Gesicht und der Oberkörper sich deutlich von einem hellen und eintönigen Hintergrund abheben. Das Passfoto muss dabei klar, kontrastreich und scharf sein.<br />\nAuf dem Foto solltest du einen neutralen Gesichtsausdruck haben und deine Augen müssen offen sein. Wenn du dein Passfoto als Selfie machen möchtest, dann solltest du deinen Arm gestreckt haben, damit möglichst das ganzes Gesicht und der Oberkörper zu sehen sind.</p>\n</aside>\n",
+        "titre_accordeon": "Was sollte ich bei Passfotos beachten?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Für einen neuen Führerschein brauchst du nur ein aktuelles Passbild von dir.<br />\nJe nachdem, was dein zuständiges Amt fordert, kannst du das Passfoto entweder ausgedruckt oder digital zu deinem Antrag abgeben.<br />\nSolltest du mehrere Ausweise gleichzeitig beantragen, benötigst du für jeden Antrag ein einzelnes biometrisches Passfoto.</p>\n</aside>\n",
+        "titre_accordeon": "Wie viele Passfotos benötige ich für einen Führerschein?"
       }
     ],
     "titre_bloc9": "gestellte Fragen",

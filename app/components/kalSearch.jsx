@@ -13,39 +13,105 @@ const KalSearch = ({ page, locale }) => {
 	const [searchQuery, setSearchQuery] = useState('');
     const { translations, loading } = useTranslations(locale);
 
+	const languageCountryMap = {
+		'ar-SA': 'SA',
+		'ar-AE': 'AE',
+		'ar': 'AE',
+		'de-CH': 'CH',
+		'de-DE': 'DE',
+		'de': 'DE',
+		'en-AU': 'AU',
+		'en-CA': 'CA',
+		'en-GB': 'GB',
+		'en-IE': 'IE',
+		'en-IN': 'IN',
+		'en-NG': 'NG',
+		'en-NZ': 'NZ',
+		'en-SG': 'SG',
+		'en-US': 'US',
+		'en': 'US',
+		'en-ZA': 'ZA',
+		'es-AR': 'AR',
+		'es-CO': 'CO',
+		'es-ES': 'ES',
+		'es': 'ES',
+		'es-MX': 'MX',
+		'et-EE': 'EE',
+		'et': 'EE',
+		'fr-BE': 'BE',
+		'fr-CA': 'CA',
+		'fr-CH': 'CH',
+		'fr-FR': 'FR',
+		'fr': 'FR',
+		'it-IT': 'IT',
+		'it': 'IT',
+		'nl-BE': 'BE',
+		'nl-NL': 'NL',
+		'nl': 'NL',
+		'pl-PL': 'PL',
+		'pt-BR': 'BR',
+		'pt': 'BR',
+		'pt-PT': 'PT',
+		'ru-RU': 'RU',
+		'ru': 'RU',
+		'sv-SE': 'SE',
+		'sv': 'SE',
+		'zh': 'CN',
+		'zh-CN': 'CN'
+		// Ajoute ici d'autres langues et pays si nécessaire
+	};
+
+	// Récupération du pays utilisateur (IP)
 	useEffect(() => {
-		const fetchUserCountry = async () => {
+		const fetchUserLocation = async () => {
 			try {
-				const response = await fetch('https://ipapi.co/country/');
-				const countryCode = await response.text();
-				setCurrentCountry(countryCode);
+				const response = await fetch('https://ipapi.co/json/');
+				const data = await response.json();
+				console.log("Données IP:", data);
+				// Récupérer la langue et extraire les deux premières lettres
+				const languages = data.languages ? data.languages.split(',')[0] : 'en';
+				const languageCode = languages.substring(0, 2); // Prendre les deux premières lettres
+				console.log("Langue détectée:", languageCode);
+
+				// Utiliser le code de pays ou de langue selon le besoin
+				if (data.country_code === 'AR') {
+					setCurrentCountry('es-AR');
+					setSelectedCountry('AR');
+				} else {
+					setCurrentCountry(languageCode);
+					setSelectedCountry(data.country_code);
+				}
 			} catch (error) {
-				console.error('Error fetching user country:', error);
+				console.error('Erreur lors de la récupération des données via IP:', error);
 			}
 		};
-		fetchUserCountry();
+		fetchUserLocation();
 	}, []);
 
+	// Récupération des pays depuis l'API
 	useEffect(() => {
-        const fetchCountries = async () => {
-            try {
-                const response = await fetch('https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/country/customized');
-                if (response.ok) {
-                    const data = await response.json();
-                    const countries = data.Countries.map(country => ({
-                        name: country.country_name,
-                        flag: `https://purecatamphetamine.github.io/country-flag-icons/3x2/${country.country_code}.svg`,
-                        code: country.country_code,
-                    }));
-                    setCountries(countries);
-                }
-            } catch (error) {
-                console.error('Error fetching countries:', error);
-            }
-        };
-        fetchCountries();
-    }, []);
+		const fetchCountries = async () => {
+			try {
+				const response = await fetch('https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/country/customized');
+				if (response.ok) {
+					const data = await response.json();
+					const countries = data.Countries.map(country => ({
+						name: country.country_name,
+						flag: `https://purecatamphetamine.github.io/country-flag-icons/3x2/${country.country_code}.svg`,
+						code: country.country_code,
+					}));
+					setCountries(countries);
+				} else {
+					console.error('Erreur API: Réponse non OK', response.status);
+				}
+			} catch (error) {
+				console.error('Erreur lors de la récupération des pays:', error);
+			}
+		};
+		fetchCountries();
+	}, []);
 
+	// Récupération des documents selon le pays sélectionné
     useEffect(() => {
         const fetchDocuments = async () => {
             if (selectedCountry) {
@@ -69,7 +135,7 @@ const KalSearch = ({ page, locale }) => {
         };
 
         fetchDocuments();
-    }, [selectedCountry]);
+    }, [selectedCountry, currentCountry]);
 
     const handleCountrySelect = (country )=> {
         setSelectedCountry(country.code);
@@ -82,7 +148,8 @@ const KalSearch = ({ page, locale }) => {
         setIsDocumentPopupVisible(false);
     };
 
-	const isButtonDisabled = !selectedDocument || !currentCountry || !selectedCountry;  // Désactive le bouton si une sélection est manquante;
+	// Désactive le bouton si une sélection est manquante;
+	const isButtonDisabled = !selectedDocument || !currentCountry || !selectedCountry;
 
     if (loading) {
         return <div>Loading...</div>; // or any loading indicator you prefer
@@ -103,169 +170,179 @@ const KalSearch = ({ page, locale }) => {
 				<div>
 					<div className='kal-search-country'>
 						<div>
-						<h4 className='flex gap-1 items-baseline' >
-							{translations.kalSearch['titre_1']}
-							<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path
-									fillRule="evenodd"
-									clipRule="evenodd"
-									d="M12.6192 0.365305C12.1116 -0.121769 11.2884 -0.121769 10.7808 0.365305L6.5
+							<h4 className='flex gap-1 items-baseline'>
+								{translations.kalSearch['titre_1']}
+								<svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+									 xmlns="http://www.w3.org/2000/svg">
+									<path
+										fillRule="evenodd"
+										clipRule="evenodd"
+										d="M12.6192 0.365305C12.1116 -0.121769 11.2884 -0.121769 10.7808 0.365305L6.5
 									4.4723L2.21924 0.365304C1.71156 -0.121769 0.888443 -0.12177 0.380762 0.365304C-0.126921
 									0.852378 -0.126921 1.64208 0.380762 2.12915L5.80769 7.33579C6.19459 7.70699 6.8054
 									7.70699 7.19231 7.33579L12.6192 2.12916C13.1269 1.64208 13.1269 0.852379 12.6192 0.365305Z"
-									fill="#2FC977"
-								/>
-							</svg>
-						</h4>
+										fill="#2FC977"
+									/>
+								</svg>
+							</h4>
 						</div>
 						<section className="flex gap-4 items-center p-4 cursor-pointer"
-							 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}
-					>
-						{selectedCountry && (
-							<>
-								<Image
-									width={500}
-									height={500}
-									src={`https://purecatamphetamine.github.io/country-flag-icons/3x2/${selectedCountry}.svg`}
-									alt="country flag"
-									className="w-10 h-10"
-								/>
-							{countries.find(c => c.code === selectedCountry)?.name}
-							</>
+								 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}
+						>
+							{selectedCountry && (
+								<>
+									<Image
+										width={500}
+										height={500}
+										src={`https://purecatamphetamine.github.io/country-flag-icons/3x2/${selectedCountry}.svg`}
+										alt={`${selectedCountry} flag`}
+										className="w-10 h-10"
+									/>
+									<p>{countries.find(c => c.code.toUpperCase() === selectedCountry)?.name || "Sélectionner un pays"}</p>
+								</>
+							)}
+						</section>
+						{isCountryPopupVisible && (
+							<main
+								className="kal-search-country-popup" style={{display: 'flex'}}>
+								<div className="kal-search-country-search-container">
+									<input
+										type="text"
+										placeholder="Rechercher un autre pays..."
+										className="w-full p-2 border border-gray-300 rounded-md"
+										value={searchQuery}
+										onChange={(e) => setSearchQuery(e.target.value)} // Met à jour l'état de la requête de recherche
+									/>
+								</div>
+								<div className="kal-search-country-search-suggestion">
+									{filteredCountries.length > 0 ? (
+										filteredCountries.map(country => (
+											<div
+												key={country.code}
+												className={`flex items-center p-2 border ${selectedCountry === country.code ? 'border-green-500' : 'border-gray-300'}`}
+												onClick={() => handleCountrySelect(country)}
+											>
+												<img src={country.flag} alt={country.name} className="w-8 h-8"/>
+												<span className="ml-2">{country.name}</span>
+											</div>
+										))
+									) : (
+										<p className="col-span-2 text-center">Aucun pays trouvé</p>
+									)}
+								</div>
+							</main>
 						)}
-					</section>
-					{isCountryPopupVisible && (
-						<main
-							className="kal-search-country-popup" style={{display:'flex'}}>
-							<div className="kal-search-country-search-container">
-								<input
-									type="text"
-									placeholder="Rechercher un autre pays..."
-									className="w-full p-2 border border-gray-300 rounded-md"
-									value={searchQuery}
-									onChange={(e) => setSearchQuery(e.target.value)} // Met à jour l'état de la requête de recherche
-								/>
-							</div>
-							<div className="kal-search-country-search-suggestion">
-								{filteredCountries.length > 0 ? (
-									filteredCountries.map(country => (
-										<div
-											key={country.code}
-											className={`flex items-center p-2 border ${selectedCountry === country.code ? 'border-green-500' : 'border-gray-300'}`}
-											onClick={() => handleCountrySelect(country)}
-										>
-											<img src={country.flag} alt={country.name} className="w-8 h-8"/>
-											<span className="ml-2">{country.name}</span>
-										</div>
-									))
-								) : (
-									<p className="col-span-2 text-center">Aucun pays trouvé</p>
-								)}
-							</div>
-						</main>
-					)}
 					</div>
 
 					{/* POP-UP COUNTRY */}
 
-					
-					
+
 				</div>
 
-				{/* DOCUMENT */}
+			{/* DOCUMENT */}
 
-				<div>
-					<div className='kal-search-document'>
-						<h4 className='flex gap-1 items-baseline'  >
-							{translations.kalSearch['titre_2']} <span className="text-red-500">*</span>
-							<svg
-								width="13"
-								height="8"
-								viewBox="0 0 13 8"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									fillRule="evenodd"
-									clipRule="evenodd"
-									d="M12.6192 0.365305C12.1116 -0.121769 11.2884 -0.121769 10.7808 0.365305L6.5
+			<div>
+				<div className='kal-search-document'>
+					<h4 className='flex gap-1 items-baseline'>
+						{translations.kalSearch['titre_2']} <span className="text-red-500">*</span>
+						<svg
+							width="13"
+							height="8"
+							viewBox="0 0 13 8"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fillRule="evenodd"
+								clipRule="evenodd"
+								d="M12.6192 0.365305C12.1116 -0.121769 11.2884 -0.121769 10.7808 0.365305L6.5
 									4.4723L2.21924 0.365304C1.71156 -0.121769 0.888443 -0.12177 0.380762 0.365304C-0.126921
 									0.852378 -0.126921 1.64208 0.380762 2.12915L5.80769 7.33579C6.19459 7.70699 6.8054
 									7.70699 7.19231 7.33579L12.6192 2.12916C13.1269 1.64208 13.1269 0.852379 12.6192 0.365305Z"
-									fill="#2FC977"
-								/>
-							</svg>
-						</h4>
-						<section className="flex gap-4 items-center p-4 cursor-pointer"
+								fill="#2FC977"
+							/>
+						</svg>
+					</h4>
+					<section className="flex gap-4 items-center p-4 cursor-pointer"
 							 onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
 						{selectedDocument ? (
-							<section class="search-document">
-								<Image
-									width={500}
-									height={500}
-									src={documents.find(d => d.id === selectedDocument)?.img}
-									alt="document icon"
-								/>
-								{documents.find(d => d.id === selectedDocument)?.name}
-							</section>
-						):
+								<section class="search-document">
+									<Image
+										width={500}
+										height={500}
+										src={documents.find(d => d.id === selectedDocument)?.img}
+										alt="document icon"
+									/>
+									{documents.find(d => d.id === selectedDocument)?.name}
+								</section>
+							) :
 							<section class="search-document"></section>
 						}
 					</section>
-					</div>
+				</div>
 
-					
 
-					{/* POP-UP DOCUMENT */}
+				{/* POP-UP DOCUMENT */}
 
-					
 
-				<button	className={`button-photo message ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
-					onClick={() => {
+				<button
+					className={`button-photo message ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
+					onClick={async () => {
 						const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
-						const userLanguage = navigator.language;
-						const languageCode = userLanguage ? userLanguage.split('-')[0] : 'en';
 
-						const url = selectedDocument && selectedCountry && currentCountry
-							? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${languageCode}`
-							: `https://smartphone-id-app.com/${platform}/${languageCode}`;
+						// Récupérer le pays via l'IP au moment du clic
+						let countryCodeFromIP = currentCountry;  // Utiliser l'état actuel si déjà défini
+						if (!currentCountry) {
+							try {
+								const response = await fetch('https://ipapi.co/country/');
+								countryCodeFromIP = await response.text();
+								setCurrentCountry(countryCodeFromIP);  // Mettre à jour l'état si nécessaire
+								console.log("Pays récupéré via IP:", countryCodeFromIP);  // Debugging: vérifier le pays récupéré
+							} catch (error) {
+								console.error('Erreur lors de la récupération du pays via IP:', error);
+							}
+						}
 
+						// Construire l'URL en utilisant uniquement le pays détecté via l'IP
+						const url = selectedDocument && selectedCountry && countryCodeFromIP
+							? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${countryCodeFromIP.toLowerCase()}`
+							: `https://smartphone-id-app.com/${platform}/`;
+
+						console.log("URL générée:", url);  // Debugging: vérifier l'URL générée
 						window.open(url, '_blank');
 					}}
-						   disabled={isButtonDisabled}
+					disabled={isButtonDisabled}
 				>
 					{translations.kalSearch['bouton']}
 				</button>
 
 				{isDocumentPopupVisible && (
-						<main
-							className="kal-search-document-popup flex">
-							<div
-								className="kal-search-document-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
-								{documents.map(doc => (
-									<div
-										key={doc.id}
-										className={`flex flex-col items-center p-2 border ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
-										onClick={() => handleDocumentSelect(doc)}
-									>
-										<Image
-											width={500}
-											height={500}
-											src={doc.img}
-											alt={doc.name}
-											className="w-10 h-10 object-contain"
-										/>
-										<span className="ml-2">{doc.name}</span>
-									</div>
-								))}
-							</div>
-						</main>
-					)}
-				</div>
+					<main
+						className="kal-search-document-popup flex">
+						<div
+							className="kal-search-document-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
+							{documents.map(doc => (
+								<div
+									key={doc.id}
+									className={`flex flex-col items-center p-2 border ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
+									onClick={() => handleDocumentSelect(doc)}
+								>
+									<Image
+										width={500}
+										height={500}
+										src={doc.img}
+										alt={doc.name}
+										className="w-10 h-10 object-contain"
+									/>
+									<span className="ml-2">{doc.name}</span>
+								</div>
+							))}
+						</div>
+					</main>
+				)}
+			</div>
 
-				{/* BOUTON */}
-
-			
+			{/* BOUTON */}
 
 
 		</div>

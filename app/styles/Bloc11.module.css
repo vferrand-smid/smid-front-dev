@@ -21,5 +21,5 @@
 }
 
 .label {
-    @apply text-center text-gray-900 font-medium;
+    @apply text-center text-gray-900 font-medium hover:text-[#2FC977] hover:font-bold;
 }

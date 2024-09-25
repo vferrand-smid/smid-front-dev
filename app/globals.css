@@ -722,7 +722,6 @@ overflow-x: hidden;
   .kal-service button {
     color: #fff;
     text-align: center;
-    font-family: Georama;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -757,7 +756,6 @@ overflow-x: hidden;
   }
   .kal-service-list h4 {
     color: #000;
-    font-family: Georama;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -765,7 +763,6 @@ overflow-x: hidden;
   }
   .kal-service-list p {
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -797,7 +794,6 @@ overflow-x: hidden;
 
   .kal-service > div > h2 {
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -807,7 +803,6 @@ overflow-x: hidden;
   .kal-service > div > button {
     color: #fff;
     text-align: center;
-    font-family: Georama;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -924,7 +919,6 @@ overflow-x: hidden;
   .kal-document-2 > :last-child > div > p {
     color: #4c4c4c;
     text-align: center;
-    font-family: Georama;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -971,7 +965,6 @@ overflow-x: hidden;
   }
   .kal-document-2 > :first-child > div > p {
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -979,7 +972,6 @@ overflow-x: hidden;
   }
   .kal-document-2 > :first-child > h3 {
     color: #000;
-    font-family: Georama;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -997,7 +989,6 @@ overflow-x: hidden;
   .kal-document .select-document-button-container > p {
     color: #000;
     text-align: center;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1007,7 +998,6 @@ overflow-x: hidden;
   }
   .kal-document > div > h2 {
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -1017,7 +1007,6 @@ overflow-x: hidden;
   .kal-document .select-document-button-container > button {
     color: #fff;
     text-align: center;
-    font-family: Georama;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1025,7 +1014,6 @@ overflow-x: hidden;
     border-radius: 26px;
     background: #000;
     display: block;
-    margin: auto;
     padding: 16px 32px;
     margin: 10px auto;
     border: none;
@@ -1065,7 +1053,6 @@ overflow-x: hidden;
   .select-document > section > p {
     color: #000;
     text-align: center;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -1158,7 +1145,6 @@ overflow-x: hidden;
     justify-content: center;
     align-items: center;
     color: #000;
-    font-family: Georama;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -1169,7 +1155,6 @@ overflow-x: hidden;
   .kal-solution-container > div > aside {
     color: #000;
     text-align: center;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1201,7 +1186,6 @@ overflow-x: hidden;
   }
   .kal-solution > div > h2 {
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -1211,7 +1195,6 @@ overflow-x: hidden;
   .kal-solution > div > button {
     color: #fff;
     text-align: center;
-    font-family: Georama;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1273,7 +1256,6 @@ overflow-x: hidden;
   }
   .tut-link {
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1293,7 +1275,6 @@ overflow-x: hidden;
     margin: 32px auto 16px auto;
     color: #4c4c4c;
     text-align: center;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -1357,7 +1338,6 @@ overflow-x: hidden;
     box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15);
     padding: 35px 40px;
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1365,7 +1345,6 @@ overflow-x: hidden;
   }
   .kal-tut-content h4 {
     color: #000;
-    font-family: Georama;
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
@@ -1375,7 +1354,6 @@ overflow-x: hidden;
   }
   .number {
     color: #000;
-    font-family: Georama;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -1385,7 +1363,6 @@ overflow-x: hidden;
     margin-top: 0;
     margin-bottom: 30px;
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -1461,7 +1438,6 @@ overflow-x: hidden;
   .kal-accordion-render-mobile > main,
   .kal-accordion-render > div > main {
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1476,7 +1452,6 @@ overflow-x: hidden;
   .kal-accordion-render-mobile > aside > *,
   .kal-accordion-render > div > aside > * {
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1547,7 +1522,6 @@ overflow-x: hidden;
     border: 2px solid #efefef;
     background: #fff;
     color: #000;
-    font-family: Georama;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -1583,7 +1557,6 @@ overflow-x: hidden;
 
   .kal-accordion > div > h3 {
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -1593,7 +1566,6 @@ overflow-x: hidden;
   .kal-accordion > div > button {
     color: #fff;
     text-align: center;
-    font-family: Georama;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1677,7 +1649,6 @@ overflow-x: hidden;
     justify-content: baseline;
     gap: 10px;
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1701,7 +1672,6 @@ overflow-x: hidden;
     gap: 10px;
     justify-content: center;
     color: #000;
-    font-family: Georama;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -1721,7 +1691,6 @@ overflow-x: hidden;
     margin: auto;
     color: #000;
     text-align: center;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1811,18 +1780,12 @@ overflow-x: hidden;
   }
 
   .kal-photo > div > h2 {
-    color: #000;
-    font-family: Georama;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px; /* 156.25% */
-    margin-bottom: 30px;
+  @apply text-black text-3xl font-semibold leading-[40px] max-w-[1140px] mx-auto;
   }
+
   .kal-photo > div > button {
     color: #fff;
     text-align: center;
-    font-family: Georama;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1850,22 +1813,18 @@ overflow-x: hidden;
       margin: auto;
     }
     .kal-photo-carousel>:nth-child(1)>img{
-      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-1.png) !important;
       max-height: 400px;
       object-fit: contain;
     }
     .kal-photo-carousel>:nth-child(2)>img{
-      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-2.png) !important;
       max-height: 400px;
       object-fit: contain;
     }
     .kal-photo-carousel>:nth-child(3)>img{
-      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-3.png) !important;
       max-height: 400px;
       object-fit: contain;
     }
     .kal-photo-carousel>:nth-child(4)>img{
-      content: url(https://smartphone-id.com/wp-content/uploads/2023/08/step-4.png) !important;
       max-height: 400px;
       object-fit: contain;
     }
@@ -1951,7 +1910,6 @@ overflow-x: hidden;
 }
 .kal-hero-stats > div > article > h4 {
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2039,7 +1997,6 @@ overflow-x: hidden;
     background: #efefef;
     padding: 8px 16px;
     color: #000;
-    font-family: Georama;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2051,7 +2008,6 @@ overflow-x: hidden;
     display: flex;
     gap: 10px;
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -2064,7 +2020,6 @@ overflow-x: hidden;
 }
 .kal-hero > div > section > div > h4 {
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -2072,7 +2027,6 @@ overflow-x: hidden;
 }
 .kal-hero > div > section > p {
     color: #000;
-    font-family: Georama;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2097,7 +2051,6 @@ overflow-x: hidden;
 
 .kal-hero > div > h1 {
     color: #000;
-    font-family: Georama;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -2107,7 +2060,6 @@ overflow-x: hidden;
 .kal-hero > div > button {
     color: #fff;
     text-align: center;
-    font-family: Georama;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2253,7 +2205,6 @@ span {
 .kal-search-country h4,
 .kal-search-document h4 {
   color: #000;
-  font-family: Georama;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -2262,7 +2213,6 @@ span {
 .kal-search-country p,
 .kal-search-document p {
   color: rgba(77, 77, 77, 1);
-  font-family: Georama;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -2295,7 +2245,6 @@ span {
 .kal-search button{
   color: #fff;
   text-align: center;
-  font-family: Georama;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

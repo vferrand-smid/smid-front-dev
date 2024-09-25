@@ -83,50 +83,50 @@
     "titre_bloc3": "passport photo solution without leaving your home",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-remove-passport-photo-south-africa.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Automated sizing and background removal.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-remove-passport-photo-south-africa.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-checker-south-africa.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Because of our expert check, photo conformity guaranteed.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-checker-south-africa.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/print-deliver-passport-photos-south-africa.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Order home delivery of professionally printed photos, sent out the same day when ordered.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/print-deliver-passport-photos-south-africa.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/secure-passport-photo-south-africa.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "No personal information necessary, your photo is safely stored.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/secure-passport-photo-south-africa.png"
       }
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step1.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "/images/General/check-green.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step1.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step2.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Review features of your photo request.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "/images/General/check-green.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step2.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step3.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "/images/General/check-green.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step3.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step4.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "/images/General/check-green.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step4.png"
       }
     ],
     "repeteurCkeckBlackMobile": [
@@ -408,7 +408,7 @@
     "titre_bloc8_2" : "passport photo",
     "titre_bloc8_span": "successful",
     "titre_encart": "A few tips",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/watch?v=158N_fC5ys4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/158N_fC5ys4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",
@@ -538,6 +538,37 @@
     "sousTitre" : "Click on stars to leave a rate.",
     "personne" : "Average rating:",
     "etoiles" : "stars out of 5"
+  },
+
+  "Bloc11" : {
+    "titre": "Find your answers on the corresponding pages",
+    "liens": [
+      {
+        "link" : "Driving licence",
+        "url" : "https://www.smartphone-id.com/en_ZA/south-africa-driving-licence",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link" : "Passport",
+        "url" : "https://www.smartphone-id.com/en_ZA/south-africa-passport",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link" : "Identification Card",
+        "url" : "https://www.smartphone-id.com/en_ZA/south-africa-national-identity-card",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link" : "Residence permit",
+        "url" : "https://www.smartphone-id.com/en_ZA/south-africa-permanent-residence-permit",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link" : "Visa",
+        "url" : "https://www.smartphone-id.com/en_ZA/south-africa-visa",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
   },
 
   "Footer": {
