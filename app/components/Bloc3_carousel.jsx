@@ -65,7 +65,7 @@ const Carousel = ({ page, locale }) => {
                         {/* Carrousel Desktop */}
                         <article className="kal-photo-carousel max-sm:hidden">
                             {translations?.Bloc3?.repeteur_etape?.map((item, index) => (
-                                <div key={index} style={{ display: index === currentDesktop ? 'block' : 'none' }}>
+                                <div key={index} style={{ display: index === currentDesktop ? 'block' : 'none' }} className="transition-opacity ease-in-out duration-1000">
                                     <Image
                                         src={item.image_repeteur_etape}
                                         alt={item.titre_check || `Image step ${index + 1}`}
@@ -81,7 +81,7 @@ const Carousel = ({ page, locale }) => {
                         {/* Carrousel Mobile */}
                         <article className="kal-photo-carousel sm:hidden">
                             {translations?.Bloc3?.repeteurEtapeMobile?.map((item, index) => (
-                                <div key={index} style={{ display: index === currentMobile ? 'block' : 'none' }}>
+                                <div key={index} style={{ display: index === currentMobile ? 'block' : 'none' }} className="transition-opacity ease-in-out duration-1000">
                                     <Image
                                         src={item.image_repeteur_etape}
                                         alt={item.titre_check || `Image step ${index + 1}`}
@@ -134,7 +134,7 @@ const Carousel = ({ page, locale }) => {
                         </article>
 
                         {/* Contenu associé au carrousel */}
-                        <article className="kal-photo-carousel-content">
+                        <article className="kal-photo-carousel-content h-32 mb-5">
                             {translations?.Bloc3?.repeteur_etape?.map((item, index) => (
                                 <div key={index} style={{display: index === currentDesktop ? 'block' : 'none' }}>
                                     <div>

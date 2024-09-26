@@ -1686,7 +1686,7 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     flex-direction: column;
     margin: auto;
     color: #000;
@@ -1806,7 +1806,7 @@ overflow-x: hidden;
     .kal-photo > div > div {
       grid-template-columns: 1fr;
       grid-template-rows: auto;
-      gap: 80px;
+      gap: 10px;
     }
     .kal-photo > div > div > div {
       max-width: 500px;
@@ -1840,7 +1840,7 @@ overflow-x: hidden;
     .kal-photo > div > div {
       display: flex;
       flex-direction: column;
-      gap: 80px;
+      gap: 10px;
     }
     .kal-photo > div > div > div {
       box-sizing: border-box;

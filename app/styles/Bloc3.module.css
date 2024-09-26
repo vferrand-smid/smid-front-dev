@@ -31,6 +31,7 @@
     @apply relative;
 }
 
+
 .photoCarousel {
     @apply  md:flex md:overflow-hidden md:rounded-lg;
 }
