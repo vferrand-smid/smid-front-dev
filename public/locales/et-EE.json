@@ -2,28 +2,24 @@
   "NavBar": {
     "liens": [
       {
-        "link": "Juhiluba",
-        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
-      },
-      {
         "link": "Pass",
-        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+        "url": "https://www.smartphone-id.com/et/pass-foto/"
       },
       {
-        "link": "ID-kaart",
-        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+        "link": "Juhiluba",
+        "url": "https://www.smartphone-id.com/et/eesti-juhiluba-foto/"
       },
       {
         "link": "Elamisloakaart",
-        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+        "url": "https://www.smartphone-id.com/et/elamisloakaart-foto/"
       },
       {
         "link": "Viisa",
-        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+        "url": "https://www.smartphone-id.com/et/viisa-foto/"
       },
       {
-        "link": "Haigekassakaart",
-        "url": "https://www.smartphone-id.com/fotod-identiteedile/"
+        "link": "ID-kaart",
+        "url": "https://www.smartphone-id.com/et/eestis-id-kaardi-foto/"
       }
     ]
   },
@@ -36,11 +32,11 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Tulemus on koheselt tagatud"
+        "texte_check_green": "kvaliteetseteks dokumendifotodeks"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Kontrollitud ekspertide poolt"
+        "texte_check_green": "ja digitaalseks allkirjaks."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -527,31 +523,31 @@
   },
 
   "Bloc11": {
-    "titre": "Leidke oma vastused vastavatelt lehtedelt",
+    "titre": "Konkreetsete Eesti dokumendifotode kohta vastuste leidmiseks klõpsake vastaval alajaotisel",
     "liens": [
       {
         "link": "Juhiluba",
-        "url": "https://www.smartphone-id.com/et_EE/eesti-juhiluba/",
+        "url": "https://www.smartphone-id.com/et/eesti-juhiluba/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "Eesti pass",
-        "url": "https://www.smartphone-id.com/et_EE/eesti-vabariigi-passi/",
+        "url": "https://www.smartphone-id.com/et/eesti-vabariigi-passi/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "ID kaart",
-        "url": "https://www.smartphone-id.com/et_EE/eestis-id-kaardi-foto/",
+        "url": "https://www.smartphone-id.com/et/eestis-id-kaardi-foto/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Elamisloakaart",
-        "url": "https://www.smartphone-id.com/et_EE/eesti-elamisluba/",
+        "url": "https://www.smartphone-id.com/et/eesti-elamisluba/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Viisa",
-        "url": "https://www.smartphone-id.com/et_EE/e-viisa/",
+        "url": "https://www.smartphone-id.com/et/e-viisa/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
