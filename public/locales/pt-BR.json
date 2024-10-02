@@ -3,23 +3,23 @@
     "liens": [
       {
         "link" : "Passaporte",
-        "url" : "https://www.smartphone-id.com/pt_BR/foto-passaporte/"
+        "url" : "https://www.smartphone-id.com/pt-br/foto-passaporte/"
       },
       {
         "link" : "CNH",
-        "url" : "https://www.smartphone-id.com/pt_BR/foto-cnh/"
+        "url" : "https://www.smartphone-id.com/pt-br/foto-cnh/"
       },
       {
         "link" : "Carteira de identidade",
-        "url" : "https://www.smartphone-id.com/pt-BR/foto-carteira-de-identidade/"
+        "url" : "https://www.smartphone-id.com/pt-br/foto-carteira-de-identidade/"
       },
       {
         "link" : "Autorização de Residência",
-        "url" : "https://www.smartphone-id.com/pt_BR/foto-para-autorizacao-de-residencia/"
+        "url" : "https://www.smartphone-id.com/pt-br/foto-para-autorizacao-de-residencia/"
       },
       {
         "link" : "Visto",
-        "url" : "https://www.smartphone-id.com/pt_BR/foto-visto-brasileiro/"
+        "url" : "https://www.smartphone-id.com/pt-br/foto-visto-brasileiro/"
       }
     ]
   },
@@ -534,7 +534,7 @@
       },
       {
         "link": "Passaporte",
-        "url": "https://www.smartphone-id.com/pt_BR/Passaporte/",
+        "url": "https://www.smartphone-id.com/pt-br/Passaporte/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
@@ -544,12 +544,12 @@
       },
       {
         "link": "Cédula de Identidade de Estrangeiro",
-        "url": "https://www.smartphone-id.com/pt_BR/cedula-de-identidade-de-estrangeiro/",
+        "url": "https://www.smartphone-id.com/pt-br/cedula-de-identidade-de-estrangeiro/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Visto",
-        "url": "https://www.smartphone-id.com/pt_BR/visto-brazil/",
+        "url": "https://www.smartphone-id.com/pt-br/visto-brazil/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
