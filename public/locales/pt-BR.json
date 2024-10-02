@@ -11,7 +11,7 @@
       },
       {
         "link" : "Carteira de identidade",
-        "url" : "https://www.smartphone-id.com/pt_BR/foto-carteira-de-identidade/"
+        "url" : "https://www.smartphone-id.com/pt-BR/foto-carteira-de-identidade/"
       },
       {
         "link" : "Autorização de Residência",
@@ -100,7 +100,7 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Não é necessária nenhuma informação pessoal. A sua foto é armazenada com segurança.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-do-passaporte-brasil-armazenada-com-seguranca.png"
+        "imageCkeckBlack": "/images/Bloc3/pt-BR/Foto-do-passaporte-brasil-armazenada-com-seguranca.png"
       }
     ],
     "repeteur_etape": [
@@ -436,7 +436,7 @@
     ],
     "bouton_plus": {
       "url": "https://www.smartphone-id.com/pt-br/foto-passaporte/",
-      "title": "Consulte Mais informação"
+      "title": "Consulte mais informação"
     },
     "lienBebe": {
       "url": "https://www.smartphone-id.com/pt-br/foto-passaporte-bebe/",
@@ -455,60 +455,65 @@
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">A Foto do Passaporte de Portugal em formato impresso deve ter 35mm x 45mm com a cabeça centrada e com tamanho entre 32mm e 36mm.</span></p>\n",
-        "titre_accordeon": "Qual é o tamanho da foto do passaporte de Portugal?"
+        "texteAccordeon": "<p>O tamanho da foto para o passaporte brasileiro é de 35 mm x 45 mm (3.5 x 4.5 cm). A foto deve ser recente, colorida, com fundo branco e sem sombras, além de atender aos requisitos específicos de qualidade e pose. O comprimento do queixo à testa deve estar entre 31 e 36 mm.</p>\n",
+        "titre_accordeon": "Qual é o tamanho da foto do passaporte de brasil? "
       },
       {
-        "texteAccordeon": "<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">O custo das fotos de passaporte em Portugal geralmente varia de €5 a €15 para um conjunto de várias (geralmente 6-8) fotos impressas que atendam aos requisitos oficiais. É uma boa ideia verificar com estúdios de fotografia locais, cabines de fotos ou farmácias para preços específicos em sua área.</span></p>\n<p><span style=\"font-weight: 400;\">Com o Smartphone ID, você pode obter sua foto de passaporte de forma barata, rápida, verificada e aprovada.</span></p>\n",
-        "titre_accordeon": "Quanto custam as fotos de passaporte em Portugal?"
-      },
-      {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Sim! Você pode tirar sua própria foto para passaporte. Você pode tirar sua foto com a câmera traseira do seu telefone, mas certifique-se de seguir todas as orientações para que sua foto seja aceita (iluminação, sombra, cor de fundo). Você também pode usar o aplicativo de foto para passaporte Smartphone iD que faz tudo para você. Basta escolher seu país e documento, tirar uma foto e recebê-la posteriormente por e-mail? É tão fácil!</aside>\n",
+        "texteAccordeon": "<p>Sim! Você pode tirar sua própria foto para passaporte. Você pode tirar sua foto com a câmera traseira do seu telefone, mas certifique-se de seguir todas as orientações para que sua foto seja aceita (iluminação, sombra, cor de fundo).<br> Você também pode usar o aplicativo de foto para passaporte Smartphone iD que faz tudo para você. Basta escolher seu país e documento, tirar uma foto e recebê-la posteriormente por e-mail? É tão fácil!</p>\n",
         "titre_accordeon": "Você pode tirar sua própria foto para passaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Coloque o seu bebê sobre um lençol branco na cama ou coloque-o em uma cadeira alta para bebê com uma toalha branca cobrindo o encosto da cadeira.</li>\n<li>Tire a chupeta, chame a atenção do bebê e tente tirar uma foto com a boca fechada. Alguns governos permitem que a boca fique ligeiramente aberta, mas nenhuma língua ou dentes podem ser vistos.</li>\n<li>Certifique-se de que a cabeça do seu bebê não esteja inclinada e não se esqueça de que você não pode apoiá-lo sozinho enquanto tira a foto porque nenhuma outra parte do corpo pode ser vista na foto.</li>\n</ul>\n<p>Você também pode tirar uma foto através do nosso site www.smartphon-id.com, onde o ajudaremos a obter uma foto válida com a ajuda de nossos especialistas treinados.</p>\n</aside>\n",
+        "texteAccordeon": "<p><li>Coloque o seu bebê sobre um lençol branco na cama ou coloque-o em uma cadeira alta para bebê com uma toalha branca cobrindo o encosto da cadeira.</li> <li>Tire a chupeta, chame a atenção do bebê e tente tirar uma foto com a boca fechada. Alguns governos permitem que a boca fique ligeiramente aberta, mas nenhuma língua ou dentes podem ser vistos.</li><li>Certifique-se de que a cabeça do seu bebê não esteja inclinada e não se esqueça de que você não pode apoiá-lo sozinho enquanto tira a foto porque nenhuma outra parte do corpo pode ser vista na foto.</li> </ul> Você também pode tirar uma foto através do nosso site www.smartphon-id.com, onde o ajudaremos a obter uma foto válida com a ajuda de nossos especialistas treinados. </p>\n",
         "titre_accordeon": "Como tirar uma foto para passaporte do seu bebê?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Depende do tipo de documento. Os documentos oficiais utilizados para leitura biométrica por máquina (passaportes eletrônicos, vistos, carteiras de identidade) não permitem sorrir porque dificultam a leitura dos dados biométricos da digitalização. No entanto, documentos de identidade mais casuais, como carteira de estudante ou cartão de transporte, podem ter a foto do passaporte de uma pessoa sorridente. Se não tiver certeza sobre os requisitos, você pode usar o serviço Smartphone iD, que fornecerá uma foto conforme e verificada para o documento de sua escolha.</aside>\n",
+        "texteAccordeon": "<p>O custo de fotos de passaporte no Brasil pode variar dependendo da localização e do estabelecimento onde você faz o serviço. Em média, o valor pode variar entre R$ 15 e R$ 40 para um conjunto de 4 a 6 fotos de passaporte em estúdios fotográficos ou lojas especializadas.</p>\n<p>Com o Smartphone ID, você pode obter sua foto de passaporte de forma barata, rápida, verificada e aprovada.</p>/n",
+        "titre_accordeon": "Quanto custam as fotos de passaporte em brasil? "
+      },
+      {
+        "texteAccordeon": "<p>Tirar sua própria foto para passaporte em casa é simples, você deve fazer o seguinte:\n<ul>\n<li>Fique contra a fonte de luz para obter uma iluminação uniforme em seu rosto e pescoço. É melhor fazer isso em uma janela voltada para a luz do dia.</li>/n<li>Certifique-se de que o fundo seja de cor clara.</li>/n <li>Olhe para a objetiva da câmera e não para a tela do telefone. Os olhos devem estar abertos.</li> <li>No caso de selfie, certifique-se de que sua mão esteja totalmente esticada e na altura dos ombros.</li>/n</ul>/nSe não tiver certeza se todas as diretrizes foram respeitadas, você pode usar a ferramenta Smartphone iD. A foto será dimensionada automaticamente e aprovada por especialistas treinados para garantir 100% de conformidade com os padrões oficiais. </p>\n",
+        "titre_accordeon": "Como tirar foto para passaporte em casa?"
+      },
+      {
+        "texteAccordeon": "<p>Depende do tipo de documento. Os documentos oficiais utilizados para leitura biométrica por máquina (passaportes eletrônicos, vistos, carteiras de identidade) não permitem sorrir porque dificultam a leitura dos dados biométricos da digitalização.<br> No entanto, documentos de identidade mais casuais, como carteira de estudante ou cartão de transporte, podem ter a foto do passaporte de uma pessoa sorridente.<br> Se não tiver certeza sobre os requisitos, você pode usar o serviço Smartphone iD, que fornecerá uma foto conforme e verificada para o documento de sua escolha.</p>\n",
         "titre_accordeon": "Você pode sorrir em uma foto de passaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Cores fortes que se destacam claramente do fundo são adequadas para uma foto de passaporte. Como é necessário um fundo claro, cores mais escuras são benéficas para aumentar o contraste.</li>\n<li>Além disso, certifique-se de que sua camisa não mostre muita pele, pois fotos sem camisa para passaporte são proibidas.</li>\n<li>Finalmente, uniformes de qualquer tipo também são proibidos na foto biométrica do passaporte.</li>\n</ul>\n</aside>\n",
+        "texteAccordeon": "<p>\n<ul>\n<li>Cores fortes que se destacam claramente do fundo são adequadas para uma foto de passaporte. Como é necessário um fundo claro, cores mais escuras são benéficas para aumentar o contraste.</li>/n<li>Além disso, certifique-se de que sua camisa não mostre muita pele, pois fotos sem camisa para passaporte são proibidas.</li>/n<li>Finalmente, uniformes de qualquer tipo também são proibidos na foto biométrica do passaporte.</li>/n</ul>/n</p>\n",
         "titre_accordeon": "O que vestir para tirar uma foto para passaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Nem todos os governos permitem óculos porque é muito difícil acertar. São proibidas molduras grossas, assim como vidros fumê, nenhum reflexo pode aparecer e devem assentar corretamente. Portanto, os governos que não proíbem o uso de óculos sugerem tirá-los para a foto.</aside>\n",
+        "texteAccordeon": "<p>Nem todos os governos permitem óculos porque é muito difícil acertar. São proibidas molduras grossas, assim como vidros fumê, nenhum reflexo pode aparecer e devem assentar corretamente. Portanto, os governos que não proíbem o uso de óculos sugerem tirá-los para a foto.</p>\n",
         "titre_accordeon": "Você pode usar óculos em uma foto de passaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Sim, você pode usar maquiagem na foto do passaporte.</p>\n<ul>\n<li>Mas observe que a maquiagem deve ser leve. Não coloque muita sombra nas pálpebras.</li>\n<li>Muitas vezes o batom brilhante pode criar um reflexo, portanto, é melhor optar por um batom fosco, se quiser acentuar os lábios.</li>\n<li>Também é útil verificar se a sua pele não está oleosa antes de tirar uma foto, pois isso também pode criar um reflexo de luz.</li>\n<li>Por fim, lembre-se que a foto do passaporte deve ser a mais natural possível e deve se parecer com você em um dia normal.</li>\n</ul>\n</aside>\n",
+        "texteAccordeon": "<p>Sim, você pode usar maquiagem na foto do passaporte.\n<ul>\n<li>Mas observe que a maquiagem deve ser leve. Não coloque muita sombra nas pálpebras.</li>/n<li>Muitas vezes o batom brilhante pode criar um reflexo, portanto, é melhor optar por um batom fosco, se quiser acentuar os lábios.</li>/n<li>Também é útil verificar se a sua pele não está oleosa antes de tirar uma foto, pois isso também pode criar um reflexo de luz.</li>/n<li>Por fim, lembre-se que a foto do passaporte deve ser a mais natural possível e deve se parecer com você em um dia normal.</li>/n</ul>/n</p>\n",
         "titre_accordeon": "Você pode usar maquiagem em uma foto de passaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Para imprimir fotos de passaporte com seu PC, você deve primeiro baixar um software que permite obter fotos de 2&#8243; x 2&#8243;. Em seguida, você terá que conectar uma impressora compatível com papel fotográfico ao seu PC, pois somente fotos para passaporte impressas profissionalmente são aceitas. Se não quiser baixar nenhum software ou evitar o incômodo de procurar uma ferramenta fácil online, você pode optar pelo serviço de foto para passaporte oSmartphone iD, onde você só precisa escolher o tipo de documento necessário e todo o resto é feito para você.<br />\nVocê pode receber uma impressão profissional 10x15cm na sua porta ou usar o arquivo digital 10x15cm que enviamos por e-mail e utilizá-lo em uma gráfica próxima.</aside>\n",
+        "texteAccordeon": "<p>Para imprimir fotos de passaporte com seu PC, você deve primeiro baixar um software que permite obter fotos de 2”” x 2””.<br>Em seguida, você terá que conectar uma impressora compatível com papel fotográfico ao seu PC, pois somente fotos para passaporte impressas profissionalmente são aceitas.<br>Se não quiser baixar nenhum software ou evitar o incômodo de procurar uma ferramenta fácil online, você pode optar pelo serviço de foto para passaporte oSmartphone iD, onde você só precisa escolher o tipo de documento necessário e todo o resto é feito para você .<br>Você pode receber uma impressão profissional 10x15cm na sua porta ou usar o arquivo digital 10x15cm que enviamos por e-mail e utilizá-lo em uma gráfica próxima.</p>\n",
         "titre_accordeon": "Como imprimir uma foto tamanho passaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">É proibido enviar foto digitalizada para documento oficial de identificação. Se precisar enviar fotos digitais para passaporte, você pode usar nossa ferramenta automatizada e fácil on-line, que vem com uma verificação especializada treinada. Desta forma, você obtém uma foto digital perfeita para passaporte no formato necessário para o seu documento. Se você estiver digitalizando fotos de passaporte para criar várias impressões, também abordamos isso. Com sua única foto digital, você também receberá por e-mail um modelo de impressão 10&#215;15 pronto para imprimir que poderá usar quantas vezes quiser.</aside>\n",
+        "texteAccordeon": "<p>É proibido enviar foto digitalizada para documento oficial de identificação. Se precisar enviar fotos digitais para passaporte, você pode usar nossa ferramenta automatizada e fácil on-line, que vem com uma verificação especializada treinada.<br> Desta forma, você obtém uma foto digital perfeita para passaporte no formato necessário para o seu documento. Se você estiver digitalizando fotos de passaporte para criar várias impressões, também abordamos isso.<br> Com sua única foto digital, você também receberá por e-mail um modelo de impressão 10x15 pronto para imprimir que poderá usar quantas vezes quiser.</p>\n",
         "titre_accordeon": "Como digitalizar uma foto de passaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Para tirar uma foto de passaporte no seu iPhone, clique no botão “Tirar uma foto” no site do Smartphone iD, escolha o país e o tipo de documento desejado, tire sua foto no seu iPhone e pronto! Após a validação das fotos por nossa equipe de especialistas, você receberá suas fotos em seu email.</aside>\n",
+        "texteAccordeon": "<p>Para tirar uma foto de passaporte no seu iPhone, clique no botão “Tirar uma foto” no site do Smartphone iD, escolha o país e o tipo de documento desejado, tire sua foto no seu iPhone e pronto! Após a validação das fotos por nossa equipe de especialistas, você receberá suas fotos em seu email.</p>\n",
         "titre_accordeon": "Como tirar uma foto para passaporte com um iPhone?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Para tirar uma foto de passaporte no seu android, clique no botão “Tirar uma foto” no site do Smartphone iD, escolha o país e o tipo de documento desejado, tire sua foto no seu android e pronto! Após a validação das fotos por nossa equipe de especialistas, você receberá suas fotos em seu email.</aside>\n",
+        "texteAccordeon": "<p>Para tirar uma foto de passaporte no seu android, clique no botão “Tirar uma foto” no site do Smartphone iD, escolha o país e o tipo de documento desejado, tire sua foto no seu android e pronto! Após a validação das fotos por nossa equipe de especialistas, você receberá suas fotos em seu email.</p>\n",
         "titre_accordeon": "Como tirar uma foto para passaporte com um android?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Você deve procurar um criador de fotos para passaporte que seja rápido, confiável e, o mais importante, que forneça uma garantia de aceitação do governo, bem como uma garantia de devolução do dinheiro, como a ferramenta de foto para passaporte Smartphone iD.</aside>\n",
+        "texteAccordeon": "<p>Você deve procurar um criador de fotos para passaporte que seja rápido, confiável e, o mais importante, que forneça uma garantia de aceitação do governo, bem como uma garantia de devolução do dinheiro, como a ferramenta de foto para passaporte Smartphone iD.</p>\n",
         "titre_accordeon": "Como encontrar um bom criador de fotos para passaporte online?"
       }
+
     ],
     "titre_bloc9": "para suas perguntas",
-    "titre_bloc9_span": " Respostas"
+    "titre_bloc9_span": "Respostas "
   },
 
   "Bloc10" : {
@@ -520,11 +525,11 @@
   },
 
   "Bloc11": {
-    "titre": "Encontre suas respostas nas páginas correspondentes",
+    "titre": "Clique na subseção correspondente para encontrar respostas sobre fotos específicas de passaportes de documentos do Brasil!",
     "liens": [
       {
         "link": "Carteira de motorista",
-        "url": "https://www.smartphone-id.com/pt_BR/carteira-de-motorista/",
+        "url": "https://www.smartphone-id.com/pt-br/carteira-de-motorista/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
@@ -534,7 +539,7 @@
       },
       {
         "link": "Carteira de identidade",
-        "url": "https://www.smartphone-id.com/pt_BR/carteira-de-identidade/",
+        "url": "https://www.smartphone-id.com/pt-br/carteira-de-identidade/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
@@ -556,8 +561,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "Sobre nós",
     "propos-link" : "https://www.smartphone-id.com/pt/sobre-nos/",
     "SiteMapList-faq" : "Perguntas frequentes",
@@ -570,13 +573,13 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
     "partie2-p": "Siga-nos e conheça as últimas informações sobre vistos e outros documentos oficiais.",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Política de Privacidade",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/pt/política-de-privacidade/",
-    "mentions-cgu": "Termos de serviço",
-    "mentions-cgu-link": "https://www.smartphone-id.com/pt/termos-de-serviço/",
-    "mentions-légales": "Aviso legal",
-    "mentions-légales-link": "https://www.smartphone-id.com/pt/aviso-legal/",
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
-    "Cookies-link": "https://www.smartphone-id.com/pt/cookies/"
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }
