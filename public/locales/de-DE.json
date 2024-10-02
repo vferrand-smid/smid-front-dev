@@ -3,23 +3,23 @@
     "liens": [
       {
         "link" : "Pass",
-        "url" : "https://www.smartphone-id.com/de_DE/passfoto-in-deutschland/"
+        "url" : "https://www.smartphone-id.com/de/passfoto-in-deutschland/"
       },
       {
         "link" : "Personalausweis",
-        "url" : "https://www.smartphone-id.com/de_DE/passfoto-personalausweis/"
+        "url" : "https://www.smartphone-id.com/de/passfoto-personalausweis/"
       },
       {
         "link" : "Aufenthaltsgenehmigung",
-        "url" : "https://www.smartphone-id.com/de_DE/aufenthaltsgenehmigung-passfoto"
+        "url" : "https://www.smartphone-id.com/de/aufenthaltsgenehmigung-passfoto"
       },
       {
         "link" : "Visum",
-        "url" : "https://www.smartphone-id.com/de_DE/passfoto-visum"
+        "url" : "https://www.smartphone-id.com/de/passfoto-visum"
       },
       {
         "link" : "Führerschein",
-        "url" : "https://www.smartphone-id.com/de_DE/fuehrerschein-foto/"
+        "url" : "https://www.smartphone-id.com/de/fuehrerschein-foto/"
       }
     ]
   },
@@ -32,11 +32,11 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Ihr sicheres Passfoto"
+        "texte_check_green": "hochwertige Passfotos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Expertenüberprüfung"
+        "texte_check_green": "und digitale Signaturen."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -224,32 +224,32 @@
     ],
     "media": [
       {
-        "text": null,
-        "img": null
+        "text": "France Digitale",
+        "img": "/images/Bloc4/media/France-Digitale.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "E-Residency Marketplace",
+        "img": "/images/Bloc4/media/eresidency-marketplace-member.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "France Info",
+        "img": "/images/Bloc4/media/France-Info.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "Canal+",
+        "img": "/images/Bloc4/media/Canal.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "JEI",
+        "img": "/images/Bloc4/media/JEI.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "Le Progrès",
+        "img": "/images/Bloc4/media/Le-Progres.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "La French Tech",
+        "img": "/images/Bloc4/media/La-French-Tech.png"
       }
     ],
     "temoignages": [
@@ -284,8 +284,8 @@
         "titre": "Fotos beim ersten Mal akzeptiert"
       }
     ],
-    "nos_partenaires": "Vorgestellt von",
-    "nos_medias": null
+    "nos_partenaires": "Unsere Partner",
+    "nos_medias": "Vorgestellt von"
   },
 
   "Bloc5": {
@@ -451,36 +451,8 @@
     "ePhoto": null,
     "codeEphoto": [
       {
-        "texte_accordeon": "<p>Vous devez fournir un code photo signature numérique (ou code ePhoto) pour une demande en ligne sur le site de l&#8217;ANTS ?</p>\n<p>C&#8217;est très simple, allez sur le site Smartphone-iD : Application Photo Identité et ephoto, choisissez le document dont vous avez besoin (Permis de conduire, Titre de séjour, DCEM, &#8230;). Ensuite faites votre photo et votre signature sur votre smartphone et c&#8217;est fini. Après validation de votre photo par notre équipe d&#8217;experts, vous recevrez votre code ePhoto dans votre boîte mails en quelques minutes.</p>\n",
-        "titre_accordeon": "Comment obtenir un code ePhoto ?"
-      },
-      {
-        "texte_accordeon": "<p>Le code ePhoto est écrit sur la planche photos qui est disponible :</p>\n<ul>\n<li>sur l&#8217;application « Photo identité officielle » de Smartphone iD, menu « Suivi de commandes »</li>\n<li>directement dans le mail que vous avez reçu. Sur ce mail, le code ePhoto est également indiqué.</li>\n</ul>\n",
-        "titre_accordeon": "Où trouver le code ePhoto ?"
-      },
-      {
-        "texte_accordeon": "<p>Vous avez 2 possibilités :</p>\n<ul>\n<li>Soit vous recopiez le code ePhoto de 22 caractères (lettres et chiffres) qui figure sur votre planche photos. Attention à bien écrire les lettres en majuscule et à ne pas mettre d&#8217;espace 🙂</li>\n<li>Soit vous faites un copier-coller du code ePhoto indiqué dans le mail que vous avez reçu.</li>\n</ul>\n",
-        "titre_accordeon": "Comment entrer le code ePhoto ?"
-      },
-      {
-        "texte_accordeon": "<p>Le code ePhoto est à usage unique. Une fois que vous l&#8217;avez saisi sur le site de l&#8217;ANTS, vous ne pourrez plus l&#8217;utiliser.</p>\n<p>L&#8217;ANTS sécurise vos données en empêchant la multiplication des utilisations de codes ePhoto.</p>\n",
-        "titre_accordeon": "Combien de fois peut-on utiliser le code ePhoto ?"
-      },
-      {
-        "texte_accordeon": "<p>Le code ePhoto est valable pendant 6 mois. Cela correspond au délai de validité de votre photo d&#8217;identité.</p>\n<p>Vous avez 6 mois pour l&#8217;utiliser, ensuite il ne fonctionnera plus.</p>\n",
-        "titre_accordeon": "Combien de temps est conservé le code ePhoto ?"
-      },
-      {
-        "texte_accordeon": "<p>Sur une planche photos, vous avez UN code ePhoto.</p>\n<p>Si vous avez besoin d&#8217;un autre code ePhoto, vous pouvez l&#8217;obtenir sans refaire vos photo et signature et ce pendant 6 mois. Pour cela, allez dans le menu « Suivi de commandes » de l&#8217;application « Photo identité officielle » de Smartphone iD, sélectionnez votre commande puis demandez un nouveau code ePhoto. Vous le recevrez en quelques minutes.</p>\n",
-        "titre_accordeon": "Sur une planche photos combien y-a-t-il de code ePhoto ?"
-      },
-      {
-        "texte_accordeon": "<p>Plusieurs raisons sont possibles :</p>\n<ul>\n<li>Vous avez fait une erreur lors de la saisie de votre code ePhoto. Les lettres doivent être en majuscule, il faut saisir les 22 caractères sans mettre d&#8217;espace, vous avez confondu les lettres O avec les chiffres 0.</li>\n<li>Vous avez déjà utilisé ce code ePhoto. Le code ePhoto étant à usage unique, demandez un nouveau code ePhoto directement dans l&#8217;application « Photo identité officielle » de Smartphone iD.</li>\n</ul>\n<p>Votre commande date de moins de 6 mois, c&#8217;est simple, pas besoin de refaire vos photo et signature. Allez dans le menu « Suivi de commandes », sélectionnez votre commande puis demandez un nouveau code ePhoto.</p>\n<p>Votre commande date de plus de 6 mois, dans ce cas, passez une nouvelle commande et recevez le code ePhoto en quelques minutes.</p>\n",
-        "titre_accordeon": "Pourquoi mon code ePhoto ne fonctionne-t-il pas ?"
-      },
-      {
-        "texte_accordeon": "<p>C&#8217;est très simple, allez sur le site de l&#8217;ANTS <a href=\"https://permisdeconduire.ants.gouv.fr/\">Permis de conduire &#8211; Accueil (ants.gouv.fr)</a>, choisissez le motif de votre demande (demande d&#8217;inscription à l&#8217;examen du permis de conduire, demande de fabrication de votre permis de conduire, …) puis remplissez le formulaire affiché. Dans la case « code photo signature numérique », saisissez votre code ePhoto, et voilà !</p>\n",
-        "titre_accordeon": "Comment entrer le code ePhoto pour le permis ?"
+        "texte_accordeon": null,
+        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
@@ -571,31 +543,31 @@
   },
 
   "Bloc11": {
-    "titre": "Finden Sie Ihre Antworten auf den entsprechenden Seiten",
+    "titre": "Klicke auf den entsprechenden Link, um Informationen zu Passfotos für spezielle deutsche Dokumente zu erhalten!",
     "liens": [
       {
         "link": "Führerschein",
-        "url": "https://www.smartphone-id.com/de_DE/fuehrerschein-foto/",
+        "url": "https://www.smartphone-id.com/de/fuehrerschein-foto/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "Reisepass",
-        "url": "https://www.smartphone-id.com/de_DE/passfoto-in-deutschland/",
+        "url": "https://www.smartphone-id.com/de/passfoto-in-deutschland/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "Personalausweis",
-        "url": "https://www.smartphone-id.com/de_DE/passfoto-personalausweis/",
+        "url": "https://www.smartphone-id.com/de/passfoto-personalausweis/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Aufenthaltsgenehmigung",
-        "url": "https://www.smartphone-id.com/de_DE/aufenthaltsgenehmigung/",
+        "url": "https://www.smartphone-id.com/de/aufenthaltsgenehmigung/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Visum",
-        "url": "https://www.smartphone-id.com/de_DE/visum-deutschland/",
+        "url": "https://www.smartphone-id.com/de/visum-deutschland/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
@@ -608,8 +580,6 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "partie2-p": "Folgen Sie uns und erfahren Sie die neuesten Informationen zu Visa und anderen offiziellen Dokumenten.",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "https://www.smartphone-id.com/de_DE/faq/",
     "SiteMapList-propos" : "Über uns",
     "propos-link" : "https://www.smartphone-id.com/de_DE/uber-uns/",
     "SiteMapList-faq" : "Häufig gestellte Fragen",
@@ -620,13 +590,13 @@
     "applis-p":  "Laden Sie die Smartphone iD-App herunter, um Ihre Bestellungen zu verfolgen und noch mehr Funktionen zu genießen.",
     "AppStore-link" : "https://apps.apple.com/de/app/offizielles-passfoto/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=de&gl=de",
-    "mentions-confidentialité": "Datenschutzrichtlinie",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/de_DE/datenschutzrichtlinie",
-    "mentions-cgu": "Nutzungsbedingungen",
-    "mentions-cgu-link": "https://www.smartphone-id.com/de_DE/nutzungsbedingungen",
-    "mentions-légales": "Impressum",
-    "mentions-légales-link": "https://www.smartphone-id.com/de_DE/impressum",
-    "Cookies": "Kekse",
-    "Cookies-link": "https://www.smartphone-id.com/de_DE/Kekse"
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }
