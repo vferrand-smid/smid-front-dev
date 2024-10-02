@@ -32,7 +32,7 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Quality passport photos"
+        "texte_check_green": "quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
@@ -547,14 +547,48 @@
     "etoiles" : "stars out of 5"
   },
 
+  "Bloc11": {
+    "titre": "Click on the corresponding subsection to find answers about specific Canadian document passport photos!",
+    "liens": [
+      {
+        "link": "Driving licence",
+        "url": "https://www.smartphone-id.com/en_CA/renew-a-drivers-licence-ontario/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Passport",
+        "url": "https://www.smartphone-id.com/en_CA/canada-passport-photo-online/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Identification card",
+        "url": "https://www.smartphone-id.com/en_CA/id-card-photo-in-canada/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Permanent Resident Card",
+        "url": "https://www.smartphone-id.com/en_CA/pr-card-canada/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/en_CA/visa-photo-near-me-in-canada/",
+        "icon": "/images/Bloc11/visa.svg"
+      },
+      {
+        "link": "Ontario Photo Card",
+        "url": "https://www.smartphone-id.com/en_CA/ontario-photo-card/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      }
+    ]
+  },
+
   "Footer": {
     "partie2-button": "Try now for free!",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "About us",
     "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "FAQ",
