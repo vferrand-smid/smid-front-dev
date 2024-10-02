@@ -32,11 +32,11 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "texte_check_green": "Tu foto de identificación segura"
+        "texte_check_green": "fotos de pasaporte de calidad"
       },
       {
         "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "texte_check_green": "Tu firma con el código ePhoto"
+        "texte_check_green": "y firma digital."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -511,7 +511,7 @@
   },
 
   "Bloc11": {
-    "titre": "Encuentra tus respuestas en las páginas correspondientes",
+    "titre": "¡Haz clic en el apartado correspondiente para encontrar respuestas sobre las fotos específicas para el pasaporte Argentino!",
     "liens": [
       {
         "link": "Licencia de Conducir",
@@ -542,7 +542,7 @@
   },
 
   "Footer": {
-    "partie2-button": "Pruébalo ya!",
+    "partie2-button": "¡Pruébalo ya!",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
@@ -550,24 +550,24 @@
     "SiteMapList-blog" : "Blog",
     "blog-link" : null,
     "SiteMapList-propos" : "Sobre nosotros",
-    "propos-link" : "https://www.smartphone-id.com/es_ES/sobre-nosotros/",
+    "propos-link" : "https://www.smartphone-id.com/es/sobre-nosotros/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/es_ES/preguntas-frecuentes/",
+    "faq-link" : "https://www.smartphone-id.com/es/preguntas-frecuentes/",
     "SiteMapList-contact" : "Contacto",
-    "contact-link" : "https://www.smartphone-id.com/es_ES/contact/",
+    "contact-link" : "https://www.smartphone-id.com/es/contact/",
     "applis-h3": "Descarga la app!",
     "applis-p":  "Descarga la app Smartphone iD para hacer un seguimiento de los pedidos y disfrutar de más funciones de la foto para pasaporte.",
     "AppStore-link" : "https://apps.apple.com/es/app/foto-de-pasaporte-oficial/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=es&gl=es",
     "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
     "partie2-p-link": null,
-    "mentions-confidentialité": "Política de Privacidad",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/es_ES/politica-de-privacidad/",
-    "mentions-cgu": "Términos de Servicio",
-    "mentions-cgu-link": "https://www.smartphone-id.com/es_ES/terminos-de-servicio/",
-    "mentions-légales": "Aviso Legal",
-    "mentions-légales-link": "https://www.smartphone-id.com/es_ES/aviso-legal/",
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal Notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
-    "Cookies-link": "https://www.smartphone-id.com/es_ES/cookies/"
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }
