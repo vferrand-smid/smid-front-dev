@@ -573,8 +573,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "",
-    "blog-link" : "",
     "SiteMapList-propos" : "О нас",
     "propos-link" : "https://www.smartphone-id.com/ru/o-нас",
     "SiteMapList-faq" : "Часто задаваемые вопросы",
@@ -587,13 +585,13 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=ru&gl=ru",
     "partie2-p": "Подпишитесь, чтобы узнать новую информацию об официальных документах!",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Политика конфиденциальности",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/ru/политика-конфиденциальности",
-    "mentions-cgu": "Условия использования",
-    "mentions-cgu-link": "https://www.smartphone-id.com/ru/условия-использования",
-    "mentions-légales": "Юридическая информация",
-    "mentions-légales-link": "https://www.smartphone-id.com/ru/юридическая-информация",
-    "Cookies": "Печенье",
-    "Cookies-link": "https://www.smartphone-id.com/ru/печенье"
+    "mentions-confidentialité": "Privacy policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

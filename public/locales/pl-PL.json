@@ -575,8 +575,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "O nas",
     "propos-link" : "https://www.smartphone-id.com/pl/o-nas",
     "SiteMapList-faq" : "FAQ",
@@ -589,13 +587,13 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=pl&gl=pl",
     "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Polityka prywatności",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/pl/polityka-prywatności",
-    "mentions-cgu": "Warunki korzystania z usług",
-    "mentions-cgu-link": "https://www.smartphone-id.com/pl/warunki-korzystania-z-usług",
-    "mentions-légales": "Informacje prawne",
-    "mentions-légales-link": "https://www.smartphone-id.com/pl/informacje-prawne",
+    "mentions-confidentialité": "Privacy policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
-    "Cookies-link": "https://www.smartphone-id.com/pl/cookies"
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

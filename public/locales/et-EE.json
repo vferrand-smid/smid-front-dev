@@ -563,8 +563,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "Meie kohta",
     "propos-link" : "https://www.smartphone-id.com/et_EE/meie-kohta/",
     "SiteMapList-faq" : "KKK",
@@ -577,13 +575,13 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?gl=et&hl=et&id=com.smartphoneid",
     "partie2-p": "Avastage uusim teave isikut tõendavate dokumentide ja viisade kohta.",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privaatsuspoliitika",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/et_EE/privaatsuspoliitika/",
-    "mentions-cgu": "Kasutustingimused",
-    "mentions-cgu-link": "https://www.smartphone-id.com/et_EE/Kasutustingimused/",
-    "mentions-légales": "Juriidiline teade",
-    "mentions-légales-link": "https://www.smartphone-id.com/et_EE/juriidiline-teade/",
-    "Cookies": "Küpsised",
-    "Cookies-link": "https://www.smartphone-id.com/et_EE/küpsised/"
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

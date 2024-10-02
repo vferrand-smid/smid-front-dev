@@ -558,8 +558,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "关于我们",
     "propos-link" : "https://www.smartphone-id.com/zh_CN/关于我们",
     "SiteMapList-faq" : "经常问的问题",
@@ -572,13 +570,13 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
     "partie2-p": "关注我们，了解有关签证和其他官方文件的最新信息。",
     "partie2-p-link": "",
-    "mentions-confidentialité": "隐私政策",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/zh_CN/隐私政策",
-    "mentions-cgu": "使用条款",
-    "mentions-cgu-link": "https://www.smartphone-id.com/zh_CN/使用条款",
-    "mentions-légales": "法律声明",
-    "mentions-légales-link": "https://www.smartphone-id.com/zh_CN/法律声明",
-    "Cookies": "饼干",
-    "Cookies-link": "https://www.smartphone-id.com/zh_CN/饼干"
+    "mentions-confidentialité": "Privacy policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

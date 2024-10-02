@@ -594,8 +594,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "Om oss",
     "propos-link" : "https://www.smartphone-id.com/sv_SE/om-oss",
     "SiteMapList-faq" : "Vanliga frågor",
@@ -608,14 +606,14 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=sv&gl=sv",
     "partie2-p": "Upptäck den senaste informationen om identitetshandlingar och visum",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Integritetspolicy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/sv_SE/integritetspolicy",
-    "mentions-cgu": "Användarvillkor",
-    "mentions-cgu-link": "https://www.smartphone-id.com/sv_SE/användarvillkor",
-    "mentions-légales": "Rättsligt meddelande",
-    "mentions-légales-link": "https://www.smartphone-id.com/sv_SE/rättsligt-meddelande",
+    "mentions-confidentialité": "Privacy policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
-    "Cookies-link": "https://www.smartphone-id.com/sv_SE/cookies"
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }
 

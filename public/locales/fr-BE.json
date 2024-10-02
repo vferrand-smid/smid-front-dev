@@ -567,8 +567,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "À propos de nous",
     "propos-link" : "https://www.smartphone-id.com/fr_FR/a-propos-de-nous/",
     "SiteMapList-faq" : "FAQ",
@@ -582,12 +580,12 @@
     "partie2-p": "Découvrez les dernières informations sur les documents d'identité et les visas.",
     "partie2-p-link": "",
     "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/fr_FR/politique-confidentialite/",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d'utilisation",
-    "mentions-cgu-link": "https://www.smartphone-id.com/fr_FR/cgu/",
+    "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
     "mentions-légales": "Mentions légales",
-    "mentions-légales-link": "https://www.smartphone-id.com/fr_FR/mentions-legales/",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
     "cookies": "Cookies",
-    "cookies-link": "https://www.smartphone-id.com/fr_FR/cookies/"
+    "cookies-link": "https://www.smartphone-id.com/cookies/"
   }
 }
