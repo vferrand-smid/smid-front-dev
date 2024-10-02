@@ -36,11 +36,11 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Your secure passport photo"
+        "texte_check_green": "quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Your signature with the ePhoto code"
+        "texte_check_green": "and UK photo codes."
       }
     ],
     "repeteurCheckWhiteBloc1": [

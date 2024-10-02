@@ -32,31 +32,31 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Resultado inmediato garantizado"
+        "texte_check_green": "fotos de carnet de calidad"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Revisado por expertos"
+        "texte_check_green": "y firma digital."
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Resultado inmediato garantizado"
+        "texte_check_white": "Edición Rápida AI"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Revisado por expertos"
+        "texte_check_white": "Verificación avanzada"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Prueba gratuita"
+        "texte_check_white": "Aceptación de la Administración"
       }
     ]
   },
 
   "kalSearch": {
-    "titre_1": "Necesito una foto de identificación para",
+    "titre_1": "Necesito una foto de carnet para",
     "titre_2": "Para el documento",
     "bouton": "Tomar la foto"
   },
@@ -317,9 +317,9 @@
   },
 
   "Bloc6": {
-    "titre_bloc6_1": "Fotos",
-    "titre_bloc6_2": "para los documentos de identidad Colombiano",
-    "titre_bloc6_span": "conformes",
+    "titre_bloc6_1": "",
+    "titre_bloc6_2": "Fotos conformes",
+    "titre_bloc6_span": " para los documentos de identidad Españoles",
     "documents": [
       {
         "titre_doc": "Pasaporte",
@@ -393,25 +393,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/zGQoL2qhfW0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Quítate",
         "texte_span": "las gafas"
       },
       {
-        "check": "",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "La luz debe iluminar tu cara",
         "texte_span": "de manera uniforme"
       },
       {
-        "check": "",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "El pelo deberá quedar",
         "texte_span": "por detrás de los hombros"
       },
       {
-        "check": "",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "Boca cerrada,",
         "texte_span": "expresión neutra."
@@ -507,7 +507,7 @@
       }
     ],
     "titre_bloc9": "a Tus Preguntas",
-    "titre_bloc9_span": "Respuestas"
+    "titre_bloc9_span": "Respuestas "
   },
 
   "Bloc10" : {
@@ -519,26 +519,26 @@
   },
 
   "Bloc11": {
-    "titre": "Trouvez vos réponses dans les pages correspondantes",
+    "titre": "¡Haz clic en el apartado correspondiente para encontrar respuestas sobre las fotos específicas para los documentos de identidad Españoles!\n",
     "liens": [
       {
         "link": "Carnet de Conducir",
-        "url": "https://www.smartphone-id.com/es_ES/renovar-permiso-conducir-espanol-en-espana/",
+        "url": "https://www.smartphone-id.com/es/renovar-permiso-conducir-espanol-en-espana/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "Pasaporte",
-        "url": "https://www.smartphone-id.com/es_ES/renovar-su-pasaporte-en-espana/",
+        "url": "https://www.smartphone-id.com/es/renovar-su-pasaporte-en-espana/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "DNI",
-        "url": "https://www.smartphone-id.com/es_ES/renovar-su-dni-espanol-en-el-extrangero/",
+        "url": "https://www.smartphone-id.com/es/renovar-su-dni-espanol-en-el-extrangero/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "NIE",
-        "url": "https://www.smartphone-id.com/es_ES/permiso-de-residencia-espanol/",
+        "url": "https://www.smartphone-id.com/es/permiso-de-residencia-espanol/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
@@ -558,24 +558,24 @@
     "SiteMapList-blog" : "Blog",
     "blog-link" : "",
     "SiteMapList-propos" : "Sobre nosotros",
-    "propos-link" : "https://www.smartphone-id.com/es_ES/sobre-nosotros/",
+    "propos-link" : "https://www.smartphone-id.com/es/sobre-nosotros/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/es_ES/preguntas-frecuentes/",
+    "faq-link" : "https://www.smartphone-id.com/es/preguntas-frecuentes/",
     "SiteMapList-contact" : "Contacto",
-    "contact-link" : "https://www.smartphone-id.com/es_ES/contact/",
+    "contact-link" : "https://www.smartphone-id.com/es/contact/",
     "applis-h3": "Descarga la app!",
     "applis-p":  "Descarga la app Smartphone iD para hacer un seguimiento de los pedidos y disfrutar de más funciones de la foto para pasaporte.",
     "AppStore-link" : "https://apps.apple.com/es/app/foto-de-pasaporte-oficial/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=es&gl=es",
     "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Política de Privacidad",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/es_ES/politica-de-privacidad/",
-    "mentions-cgu": "Términos de Servicio",
-    "mentions-cgu-link": "https://www.smartphone-id.com/es_ES/terminos-de-servicio/",
-    "mentions-légales": "Aviso Legal",
-    "mentions-légales-link": "https://www.smartphone-id.com/es_ES/aviso-legal/",
-    "cookies": "Cookies",
-    "cookies-link": "https://www.smartphone-id.com/es_ES/cookies/"
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal Notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

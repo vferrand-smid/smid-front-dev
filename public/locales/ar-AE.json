@@ -3,23 +3,23 @@
     "liens": [
       {
         "link": "جواز السفر",
-        "url": "https://www.smartphone-id.com/ar_AE/%d8%b5%d9%88%d8%b1-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d9%84%d8%ac%d9%88%d8%a7%d8%b2-%d8%a7%d9%84%d8%b3%d9%81%d8%b1/"
+        "url": "https://www.smartphone-id.com/ar/صور-الهوية-لجواز-السفر/"
       },
       {
         "link": "بطاقة الهوية الوطنية",
-        "url": "https://www.smartphone-id.com/ar_AE/%d8%b5%d9%88%d8%b1%d8%a9-%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9/"
+        "url": "https://www.smartphone-id.com/ar/صورة-بطاقة-الهوية/"
       },
       {
         "link": "رخصة القيادة",
-        "url": "https://www.smartphone-id.com/ar_AE/صورة-رخصة-القيادة,"
+        "url": "https://www.smartphone-id.com/ar/صورة-رخصة-السياقة"
       },
       {
         "link": "بطاقة الاقامة",
-        "url": "https://www.smartphone-id.com/ar_AE/صورة-بطاقة-الاقامة"
+        "url":  "https://www.smartphone-id.com/ar/صورة-بطاقة-الإقامة"
       },
       {
         "link": "التأشيرة",
-        "url": "https://www.smartphone-id.com/ar_AE/صورة-التأشيرة"
+        "url": "https://www.smartphone-id.com/ar/صورة-التأشيرة"
       }
     ]
   },
@@ -290,7 +290,7 @@
   "Bloc5": {
     "titre_bloc5_1": "لماذا يختار الناس",
     "titre_bloc5_span": "خدمة Smartphone iD ؟",
-    "imgService": "/images/Bloc5/ar-AE/أصدقاء شباب يلتقطون صورة لجواز السفر الاماراتي باستخدام تطبيق سمارتفون اي دي.jpg",
+    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
@@ -436,12 +436,12 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/ar/%d8%b5%d9%88%d8%b1%d8%a9-%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9/",
+      "url":  "https://www.smartphone-id.com/ar/متطلبات-صور-الهوية-الشخصية-الإماراتي/",
       "title": "المزيد"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/ar/%d8%b5%d9%88%d8%b1-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%a7%d9%85%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a%d8%a9-%d9%84%d9%84%d8%b7%d9%81%d9%84/",
-      "title": "كيف تلتقط صورة الهوية للطفل ؟"
+      "url": "https://www.smartphone-id.com/ar/صور-الهوية-الاماراتية-للطفل/",
+      "title": "كيف تلتقط صورة جواز السفر لطفل رضيع؟"
     }
   },
 
@@ -535,27 +535,27 @@
     "liens": [
       {
         "link": "رخصة السياقة",
-        "url": "https://www.smartphone-id.com/ar_AE/%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D9%82%D8%A9",
+        "url": "https://www.smartphone-id.com/ar/صورة-رخصة-السياقة",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "جواز السفر",
-        "url": "https://www.smartphone-id.com/ar_AE/%D8%AC%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B3%D9%81%D8%B1",
+        "url": "https://www.smartphone-id.com/ar/صور-الهوية-لجواز-السفر",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "بطاقة الهوية",
-        "url": "https://www.smartphone-id.com/ar_AE/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9",
+        "url": "https://www.smartphone-id.com/ar/صورة-بطاقة-الهوية/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "بطاقة الإقامة",
-        "url": "https://www.smartphone-id.com/ar_AE/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%A7%D9%85%D8%A9",
+        "url": "https://www.smartphone-id.com/ar/https://www.smartphone-id.com/ar/صورة-بطاقة-الإقامة",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "التأشيرة",
-        "url": "https://www.smartphone-id.com/ar_AE/%D8%A7%D9%84%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9",
+        "url": "https://www.smartphone-id.com/ar/صورة-التأشيرة",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
@@ -570,11 +570,11 @@
     "SiteMapList-blog" : "Blog",
     "blog-link" : "",
     "SiteMapList-propos" : "معلومات عنا",
-    "propos-link" : "https://www.smartphone-id.com/ar_AE/معلومات-عنا/",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "الأسئلة الشائعة",
-    "faq-link" : "https://www.smartphone-id.com/ar_AE/الأسئلة-الشائعة/",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
     "SiteMapList-contact" : "تواصل معنا",
-    "contact-link" : "https://www.smartphone-id.com/ar_AE/تواصل-معنا/",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
     "applis-h3": "قم بتنزيل التطبيق!",
     "applis-p":  "قم بتنزيل تطبيق Smartphone iD لتتبع طلباتك والاستمتاع بالمزيد من ميزات صور جواز السفر.",
     "AppStore-link" : "https://apps.apple.com/app/photo-identit%C3%A9-officielle/id1527550865",
@@ -582,12 +582,12 @@
     "partie2-p": "تابعونا وتعرفوا على أحدث المعلومات المتعلقة بالتأشيرات والوثائق الرسمية الأخرى.",
     "partie2-p-link": "",
     "mentions-confidentialité": "سياسة الخصوصية",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/ar_AE/سياسة الخصوصية/",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/ar/سياسة الخصوصية/",
     "mentions-cgu": "شروط الخدمة",
-    "mentions-cgu-link": "https://www.smartphone-id.com/ar_AE/شروط-الخدمة/",
+    "mentions-cgu-link": "https://www.smartphone-id.com/ar/شروط-الخدمة/",
     "mentions-légales": "إشعار قانوني",
-    "mentions-légales-link": "https://www.smartphone-id.com/ar_AE/إشعار-قانوني/",
+    "mentions-légales-link": "https://www.smartphone-id.com/ar/إشعار-قانوني/",
     "Cookies": "ملفات تعريف الارتباط",
-    "Cookies-link": "https://www.smartphone-id.com/ar_AE/ملفات-تعريف-الارتباط/"
+    "Cookies-link": "https://www.smartphone-id.com/ar/ملفات-تعريف-الارتباط/"
   }
 }
