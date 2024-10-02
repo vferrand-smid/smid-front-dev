@@ -24,11 +24,11 @@
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Immediate result guaranteed"
+        "texte_check_green": "quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Checked by experts"
+        "texte_check_green": "and digital signatures."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -549,15 +549,15 @@
   },
 
   "Bloc11": {
-    "titre": "Find your answers in the corresponding pages",
+    "titre": "Click on the corresponding subsection to find answers about specific document passport photos in Australia!",
     "liens": [
       {
-        "link": "Driving licence",
+        "link": "Driver's Licence",
         "url": "https://www.smartphone-id.com/en_AU/driving-licence-photo-australia/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
-        "link": "passport",
+        "link": "Passport",
         "url": "https://www.smartphone-id.com/en_AU/digital-passport-photos-au/",
         "icon": "/images/Bloc11/passeport.svg"
       },
@@ -567,7 +567,7 @@
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
-        "link": "Imicard",
+        "link": "ImmiCard",
         "url": "https://www.smartphone-id.com/en_AU/immicard-in-australia/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
@@ -585,8 +585,6 @@
       "Facebook-link": "https://www.facebook.com/smartphone.id.international",
       "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
       "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-      "SiteMapList-blog" : "Blog",
-      "blog-link" : "",
       "SiteMapList-propos" : "About us",
       "propos-link" : "https://www.smartphone-id.com/en/about-us/",
       "SiteMapList-faq" : "FAQ",

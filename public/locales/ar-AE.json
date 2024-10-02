@@ -90,17 +90,17 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "بفضل فحصنا الاحترافي ، يتم ضمان مطابقة الصورة.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
-      },
-      {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
-        "texteCheckBlack": "أطلب توصيل الصور المطبوعة احترافيًا إلى المنزل ، وسيتم إرسالها في نفس اليوم عند الطلب.",
         "imageCkeckBlack": "/images/Bloc3/ar-AE/فحص صورة الهوية الاماراتية من طرف خبراء.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
-        "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
+        "texteCheckBlack": "أطلب توصيل الصور المطبوعة احترافيًا إلى المنزل ، وسيتم إرسالها في نفس اليوم عند الطلب.",
         "imageCkeckBlack": "/images/Bloc3/ar-AE/طباعة وتسليم صورة الهوية الإماراتية.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
+        "imageCkeckBlack": "/images/Bloc3/ar-AE/حفظ صورة الهوية الاماراتية بأمان.png"
       }
     ],
     "repeteur_etape": [
@@ -531,7 +531,7 @@
   },
 
   "Bloc11": {
-    "titre": "ابحث عن إجاباتك على الصفحات المقابلة",
+    "titre": "انقر على القسم الفرعي المقابل للعثور على إجابات حول صورالهوية الخاصة بوثائق الإمارات المتحدة!",
     "liens": [
       {
         "link": "رخصة السياقة",
@@ -567,8 +567,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "",
     "SiteMapList-propos" : "معلومات عنا",
     "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "الأسئلة الشائعة",
@@ -581,13 +579,13 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid",
     "partie2-p": "تابعونا وتعرفوا على أحدث المعلومات المتعلقة بالتأشيرات والوثائق الرسمية الأخرى.",
     "partie2-p-link": "",
-    "mentions-confidentialité": "سياسة الخصوصية",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/ar/سياسة الخصوصية/",
-    "mentions-cgu": "شروط الخدمة",
-    "mentions-cgu-link": "https://www.smartphone-id.com/ar/شروط-الخدمة/",
-    "mentions-légales": "إشعار قانوني",
-    "mentions-légales-link": "https://www.smartphone-id.com/ar/إشعار-قانوني/",
-    "Cookies": "ملفات تعريف الارتباط",
-    "Cookies-link": "https://www.smartphone-id.com/ar/ملفات-تعريف-الارتباط/"
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal Notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

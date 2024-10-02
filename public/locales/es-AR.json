@@ -346,7 +346,7 @@
       {
         "impressionPhoto": "¿Dónde imprimir fotos de pasaporte en Argentina?",
         "paragraphe": "Encarga fotos impresas profesionales con Smartphone iD o imprímelas en un centro cercano.",
-        "planche_photo": "/images/Bloc6/es-AR/imprimir foto pasaporte argentina.png",
+        "planche_photo": "/images/Bloc6/es-AR/Plantilla de foto impresa para pasaporte argentino.png",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
@@ -374,7 +374,7 @@
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Plantilla-reciente-de-foto-impresa-para-pasaporte-argentino.png",
+        "img_principal": "/images/Bloc7/es-AR/Plantilla reciente de foto impresa para pasaporte argentino.png",
         "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
         "titre": "La prueba de que la foto es reciente"
       }
@@ -547,8 +547,6 @@
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : null,
     "SiteMapList-propos" : "Sobre nosotros",
     "propos-link" : "https://www.smartphone-id.com/es/sobre-nosotros/",
     "SiteMapList-faq" : "FAQ",
