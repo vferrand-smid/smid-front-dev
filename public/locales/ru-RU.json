@@ -95,8 +95,8 @@
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
-        "texteCheckBlack": "Благодаря проверке наших экспертов действительность фотографий гарантирована.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/экспертная-проверка-по-фото-на-паспорт.png"
+        "texteCheckBlack": "Закажите доставку на дом профессионально напечатанных фотографий и они будут отправлены в тот же день.",
+        "imageCkeckBlack": "/images/Bloc3/ru-RU/печатный-паспорт-фото-русский-доставка.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
@@ -144,7 +144,7 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Благодаря проверке наших экспертов действительность фотографий гарантирована.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/распечатка-фотографий-на-паспорт-в-россию.png"
+        "imageCkeckBlack": "/images/Bloc3/ru-RU/печатный-паспорт-фото-русский-доставка.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
@@ -163,13 +163,13 @@
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "При необходимости добавьте доставку распечатанного шаблона на дом.",
         "titre_check": "Шаг 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/распечатать-фото-на-паспорт-с-доставкой.png"
+        "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-2-в-мобильном.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Ознакомьтесь с особенностями вашего фото-запроса.",
         "titre_check": "Шаг 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/проверка-фотографий-на-паспорт-на-смартфоне.png"
+        "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-3-в-мобильном.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
