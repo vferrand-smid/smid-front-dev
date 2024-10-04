@@ -11,15 +11,15 @@
       },
       {
         "link": "DNI",
-        "url": "https://www.smartphone-id.com/es_MX/foto-dni/"
+        "url": "https://www.smartphone-id.com/es_MX/foto-de-identificacion-online/"
       },
       {
         "link": "NIE",
-        "url": "https://www.smartphone-id.com/es_MX/foto-permiso-de-residencia-espanol/"
+        "url": "https://www.smartphone-id.com/es_MX/visa-de-residencia-permanente/"
       },
       {
         "link": "Visado",
-        "url": "https://www.smartphone-id.com/es_MX/foto-visa/"
+        "url": "https://www.smartphone-id.com/es_MX/visa-de-residencia-permanente/"
       }
     ]
   },
@@ -318,7 +318,7 @@
 
   "Bloc6": {
     "titre_bloc6_1": "Fotos",
-    "titre_bloc6_2": "para los documentos de identidad Colombiano",
+    "titre_bloc6_2": "para los documentos de identidad Mexicano",
     "titre_bloc6_span": "conformes",
     "documents": [
       {
@@ -418,7 +418,7 @@
       "title": "Más información"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/es_MX/foto-del-pasaporte-de-tu-bebe",
+      "url": "https://www.smartphone-id.com/es/foto-del-pasaporte-espanol-de-tu-bebe/",
       "title": "¿Cómo obtener la foto del pasaporte de tu bebé?"
     }
   },
@@ -427,34 +427,6 @@
     "ID": "Foto de pasaporte Mexicano",
     "ePhoto": "",
     "codeEphoto": [
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
       {
         "texte_accordeon": null,
         "titre_accordeon": null
@@ -483,7 +455,7 @@
       },
       {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Para los documentos oficiales mexicanos debe presentar una fotografía tamaño pasaporte de 35mm x 45mm, excepto para la Visa Mexicana, que debe ser de al menos 32mm x 26mm).<br />\nNo está permitido presentar una fotografía escaneada o una captura de pantalla de un ordenador/móvil.<br />\nPuede tomar una foto a través de nuestro sitio web www.smartphone-id.com donde obtendrá una foto aprobada por expertos capacitados en el tamaño solicitado, formato de archivo, color de fondo, etc.<br />\nCon la foto, recibirá una plantilla imprimible de 10&#215;15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</p>\n</aside>\n",
-        "titre_accordeon": "¿ué tamaño tiene una foto de pasaporte mexicano?"
+        "titre_accordeon": "¿Qué tamaño tiene una foto de pasaporte mexicano?"
       },
       {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Puede tomar fotos para pasaporte en las cabinas fotográficas ubicadas en los principales centros de las ciudades, en centros comerciales y oficinas de correos o en uno de los muchos laboratorios fotográficos como Kodak Express Digital Solutions en la ciudad que ofrecen este servicio.<br />\nPara obtener más información sobre quién ofrece el servicio de fotografía para pasaporte en México, puede preguntar a los residentes locales o echar un vistazo a los sitios web dedicados.<br />\nSi, por el contrario, prefiere tomar las fotos para pasaporte cómodamente en casa, puede optar por el servicio Smartphone iD, que le permite tomar la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento mexicano y hacerla revisar por expertos capacitados.</p>\n</aside>\n",
@@ -503,39 +475,39 @@
       },
       {
         "texteAccordeon": "<p>Sí que puedes. Asegúrate de que mantienes el brazo recto, de que tu cara no aparece distorsionada debido a la cámara frontal del teléfono y de que no se te ve el brazo.<br />\nTambién puedes hacerlo a través del sitio web Smartphone iD y añadir una revisión de un experto capacitado, para asegurarte de que se ajusta a los requisitos del gobierno.<br />\nLas cámaras de visión trasera tienen mayor resolución y ofrecen una mejor imagen.</p>\n",
-        "titre_accordeon": "¿ Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
+        "titre_accordeon": "¿Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
       },
       {
         "texteAccordeon": "<p>Colócate frente a una ventana o asegúrate de que la luz artificial no proyecta sombra sobre tu rostro.<br />\nQuítate el pelo de la cara, mira a la cámara y adopta una expresión facial neutra. Para asegurarte de que has hecho una buena foto, puedes combinar esto con la revisión de un experto en nuestro sitio web https://www.smartphone-id.com/es/.</p>\n",
-        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte?"
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Coloca a tu bebé sobre una sábana blanca en tu cama, o ponlo en una trona con una toalla blanca cubriendo el respaldo de la silla.<br />\nQuítale el chupete, capta la atención del bebé e intenta conseguir una foto con la boca cerrada.<br />\nAlgunos gobiernos permiten que la boca esté ligeramente abierta, pero sin que se vean la lengua ni los dientes.<br />\nAsegúrate de que la cabeza de tu bebé no está inclinada, y no olvides que no puedes sostenerlo tú solo mientras haces la foto porque no se ve ninguna otra parte del cuerpo en la foto.<br />\nTambién puedes hacer una foto a través de nuestra página web www.smartphon-id.com, donde te ayudaremos a conseguir una foto válida con la ayuda de nuestros expertos formados.</p>\n",
-        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte a tu bebé?"
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte a tu bebé?"
       },
       {
         "texteAccordeon": "<p>Está prohibido presentar una foto escaneada para un documento de identificación oficial.<br />\nSi necesita presentar una foto digital, puede utilizar nuestra sencilla herramienta automatizada en línea que viene con una comprobación experta capacitada.<br />\nDe esta forma obtendrá una foto digital de pasaporte perfecta en el formato necesario para su documento.<br />\nSi está escaneando fotos de pasaporte para crear impresiones múltiples, también lo tenemos cubierto.<br />\nCon su foto digital única, también recibirá por correo electrónico una plantilla de impresión de 10&#215;15 lista para imprimir que podrá utilizar un número ilimitado de veces.</p>\n",
-        "titre_accordeon": "¿ Cómo escanear una foto de pasaporte?"
+        "titre_accordeon": "¿Cómo escanear una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Para imprimir fotos de pasaporte con su PC, primero debe descargar un software que le permita obtener fotos de 35 x 45 mm.<br />\nA continuación, deberá conectar a su PC una impresora compatible con papel fotográfico, ya que sólo se aceptan fotos de pasaporte impresas por profesionales.<br />\nSi no desea descargar ningún software o ahorrarse la molestia de buscar una herramienta sencilla en Internet, puede optar por el servicio Smartphone iD, en el que sólo tendrá que elegir el tipo de documento necesario y todo lo demás se hará por usted.<br />\nPuede recibir una impresión profesional de 10&#215;15 cm en la puerta de su casa o utilizar el archivo digital de 10&#215;15 cm para encontrar un centro de impresión cercano.</p>\n",
-        "titre_accordeon": "¿ Cómo imprimir una foto tamaño carné?"
+        "titre_accordeon": "¿Cómo imprimir una foto tamaño carné?"
       },
       {
         "texteAccordeon": "<p>Existen varias opciones para obtener fotos de pasaporte en formato digital. Si necesita una foto de pasaporte de alta calidad, puede acudir a un fotógrafo profesional.<br />\nSi busca un método económico, puede utilizar aplicaciones y software como Smartphone iD, que le permiten crear fotos de pasaporte en formato digital directamente desde casa.<br />\nHoy en día, las cámaras de los smartphones pueden producir fotos de pasaporte satisfactorias.<br />\nNo obstante, lo mejor es que un experto compruebe que la foto tiene el formato correcto, porque las fotos de pasaporte no válidas son rechazadas por los gobiernos y ponen en pausa la solicitud del documento.</p>\n",
-        "titre_accordeon": "¿ Dónde conseguir fotos digitales para el pasaporte?"
+        "titre_accordeon": "¿Dónde conseguir fotos digitales para el pasaporte?"
       },
       {
         "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no admiten flecos porque dificultan la lectura de los datos biométricos del escáner.<br />\nEntonces, el flequillo debe ir a ambos lados y sujeto con horquillas imperceptibles.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte con flequillo.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
-        "titre_accordeon": "¿ Se puede tener un flequillo en una foto de pasaporte?"
+        "titre_accordeon": "¿Se puede tener un flequillo en una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no permiten sonreír porque dificulta la lectura de los datos biométricos del escáner.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte de una persona sonriente.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
-        "titre_accordeon": "¿ Puede sonreír en una foto de pasaporte?"
+        "titre_accordeon": "¿Puede sonreír en una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>No todos los gobiernos permiten las gafas porque es muy difícil acertar. Las monturas gruesas están prohibidas, así como los cristales tintados, no pueden aparecer reflejos y deben sentarse correctamente. Por eso, los gobiernos que no prohíben llevar gafas, aconsejan encarecidamente quitárselas para la foto.</p>\n",
-        "titre_accordeon": "¿ Se pueden llevar gafas en una foto de pasaporte?"
+        "titre_accordeon": "¿Se pueden llevar gafas en una foto de pasaporte?"
       }
     ],
     "titre_bloc9": "a Tus Preguntas ",
@@ -551,7 +523,7 @@
   },
 
   "Bloc11": {
-    "titre": "Encuentra tus respuestas en las páginas correspondientes",
+    "titre": "Haz clic en el apartado correspondiente para encontrar respuestas sobre las fotos específicas para el pasaporte Mexicano!",
     "liens": [
       {
         "link": "Licencia de Conducir",
@@ -565,7 +537,7 @@
       },
       {
         "link": "DNI",
-        "url": "https://www.smartphone-id.com/es_MX/dni/",
+        "url": "https://www.smartphone-id.com/es_MX/foto-de-identificacion-online/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
@@ -588,11 +560,11 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "Sobre nosotros",
-    "propos-link" : "https://www.smartphone-id.com/es_ES/sobre-nosotros/",
+    "propos-link" : "https://www.smartphone-id.com/es/sobre-nosotros/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/es_ES/preguntas-frecuentes/",
+    "faq-link" : "https://www.smartphone-id.com/es/preguntas-frecuentes/",
     "SiteMapList-contact" : "Contacto",
-    "contact-link" : "https://www.smartphone-id.com/es_ES/contact/",
+    "contact-link" : "https://www.smartphone-id.com/es/contact/",
     "applis-h3": "Descarga la app!",
     "applis-p":  "Descarga la app Smartphone iD para hacer un seguimiento de los pedidos y disfrutar de más funciones de la foto para pasaporte.",
     "AppStore-link" : "https://apps.apple.com/es/app/foto-de-pasaporte-oficial/id1527550865",

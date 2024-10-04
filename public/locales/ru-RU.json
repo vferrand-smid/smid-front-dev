@@ -28,7 +28,7 @@
     "girl" : "/images/Bloc1/ru-RU/Русский паспорт фото онлайн инструмент.png",
     "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-17.png",
     "titre_bloc1" : "Быстрый и простой инструмент для создания",
-    "titre_h4_bloc1": "Просто сделайте фото и получите готовый результат!Попробуйте прямо сейчас!",
+    "titre_h4_bloc1": "Просто сделайте фото и получите готовый результат! <br/>\nПопробуйте прямо сейчас!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
@@ -438,7 +438,7 @@
     ],
     "bouton_plus": {
       "url": "https://www.smartphone-id.com/ru/требования-к-фото-на-паспорт/",
-      "title": "смотреть больше"
+      "title": "Cмотреть больше"
     },
     "lienBebe": {
       "url": "https://www.smartphone-id.com/ru/фото-ребенка-на-загранпаспорт/",
@@ -557,12 +557,12 @@
       {
         "link": "Вид на жительство",
         "url": "https://www.smartphone-id.com/ru/вид-на-жительство/",
-        "icon": "/images/Bloc11/carte-identite.svg"
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Профсоюзный билет",
         "url": "https://www.smartphone-id.com/ru/профсоюзный-билет/",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
+        "icon": "/images/Bloc11/carte-identite.svg"
       }
     ]
   },
@@ -574,11 +574,11 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "О нас",
-    "propos-link" : "https://www.smartphone-id.com/ru/o-нас",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "Часто задаваемые вопросы",
-    "faq-link" : "https://www.smartphone-id.com/ru/часто-задаваемые-вопросы",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
     "SiteMapList-contact" : "Свяжитесь с нами",
-    "contact-link" : "https://www.smartphone-id.com/ru/свяжитесь-с-нами",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
     "applis-h3": "Загрузите приложение Smartphone iD",
     "applis-p":  "Следуйте своим заказам и найдите еще больше функций в приложении.",
     "AppStore-link" : "https://apps.apple.com/ru/app/официальное-фото-на-паспорт/id1527550865",

@@ -529,7 +529,7 @@
       }
     ],
     "titre_bloc9": "alle tue domande",
-    "titre_bloc9_span": "Risposte"
+    "titre_bloc9_span": "Risposte "
   },
 
   "Bloc10" : {
@@ -549,7 +549,7 @@
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
-        "link": "passaporto",
+        "link": "Passaporto",
         "url": "https://www.smartphone-id.com/it/passaporto/",
         "icon": "/images/Bloc11/passeport.svg"
       },

@@ -65,7 +65,7 @@ const Carousel = ({ page, locale }) => {
                         {/* Carrousel Desktop */}
                         <article className="kal-photo-carousel max-sm:hidden">
                             {translations?.Bloc3?.repeteur_etape?.map((item, index) => (
-                                <div key={index} style={{ display: index === currentDesktop ? 'block' : 'none' }} className="transition-opacity ease-in-out duration-1000">
+                                <div key={index} style={{ display: index === currentDesktop ? 'block' : 'none' }} className="transition-shadow ease-in-out	 duration-1000">
                                     <Image
                                         src={item.image_repeteur_etape}
                                         alt={item.titre_check || `Image step ${index + 1}`}

@@ -3,19 +3,19 @@
     "liens": [
       {
         "link": "护照",
-        "url": "https://www.smartphone-id.com/zh_CN/%e4%b8%ad%e5%9b%bd%e6%8a%a4%e7%85%a7%e7%85%a7%e7%89%87%e6%9c%89/"
+        "url": "https://www.smartphone-id.com/zh-hans/中国护照照片有/"
       },
       {
         "link": "身份证",
-        "url": "https://www.smartphone-id.com/zh_CN/身份证照片/"
+        "url": "https://www.smartphone-id.com/zh-hans/身份证照片/"
       },
       {
         "link": "中国居留许可证",
-        "url": "https://www.smartphone-id.com/zh_CN/居留证护照照片/"
+        "url": "https://www.smartphone-id.com/zh-hans/居留证护照照片/"
       },
       {
         "link": "中国签证",
-        "url": "https://www.smartphone-id.com/zh_CN/中国签证照片/"
+        "url": "https://www.smartphone-id.com/zh-hans/中国签证照片/"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
-        "titre_repeteur1": "首家在线电子照片+签名服务提供商"
+        "titre_repeteur1": "在 Apple 和 Google Play 商店获得 4.7 星好评"
       }
     ]
   },
@@ -400,7 +400,7 @@
     "titre_bloc8_2" : "拍摄护照照片？",
     "titre_bloc8_span": "成功",
     "titre_encart": "一些提示",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/2DXwfmNI4kQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
@@ -522,7 +522,7 @@
   },
 
   "Bloc11": {
-    "titre": "在相应页面找到答案",
+    "titre": "点击该部分查找特定中国身份证护照照片的答案！",
     "liens": [
       {
         "link": "临时机动车驾驶证",

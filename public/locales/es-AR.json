@@ -3,7 +3,7 @@
     "liens": [
       {
         "link": "Pasaporte",
-        "url": "https://www.smartphone-id.com/es_AR/pasaporte-argetino-foto/"
+        "url": "https://www.smartphone-id.com/es_AR/foto-pasaporte-argentino/"
       },
       {
         "link": "Carnet de Conducir",
@@ -19,7 +19,7 @@
       },
       {
         "link": "Visado",
-        "url": "https://www.smartphone-id.com/es_AR/visa-foto/"
+        "url": "https://www.smartphone-id.com/es_AR/foto-visa/"
       }
     ]
   },
@@ -442,7 +442,7 @@
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Para los documentos oficiales Argentinos, deberá presentar una fotografía tamaño pasaporte de 40mm x 40mm.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">No está permitido presentar una fotografía escaneada o una captura de pantalla de un ordenador/móvil.<br />\nPuede tomar una foto a través de nuestro sitio web www.smartphone-id.com, donde obtendrá una foto aprobada por expertos cualificados en el tamaño, formato de archivo, color de fondo, etc.<br />\nsolicitados. Con la foto, recibirá una plantilla imprimible de 10&#215;15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</aside>\n",
+        "texteAccordeon": "Para los documentos oficiales Argentinos, deberá presentar una fotografía tamaño pasaporte de 40mm x 40mm.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">No está permitido presentar una fotografía escaneada o una captura de pantalla de un ordenador/móvil.<br />\nPuede tomar una foto a través de nuestro sitio web www.smartphone-id.com, donde obtendrá una foto aprobada por expertos cualificados en el tamaño, formato de archivo, color de fondo, etc.<br />\nsolicitados. Con la foto, recibirá una plantilla imprimible de 10&#215;15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</aside>\n",
         "titre_accordeon": "¿Qué tamaño tiene una foto de pasaporte Argentino?"
       },
       {
@@ -458,7 +458,7 @@
         "titre_accordeon": "¿Cómo hacer una foto de pasaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Puede tomar fotos de pasaporte en las cabinas de fotos ubicadas en los principales centros de las ciudades, en los centros comerciales y oficinas de correos o en uno de los muchos laboratorios fotográficos como Kodak Express Digital Solutions en la ciudad que ofrecen este servicio.<br />\nPara obtener más información sobre quién ofrece el servicio de fotos para pasaporte en Argentina, puede preguntar a los residentes locales o echar un vistazo a los sitios web dedicados.<br />\nSi, por el contrario, prefiere tomar las fotos para pasaporte cómodamente en su casa, puede optar por el servicio Smartphone iD, que le permite tomar la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento argentino y hacerla revisar por expertos capacitados.</aside>\n",
+        "texteAccordeon": "Puede tomar fotos de pasaporte en las cabinas de fotos ubicadas en los principales centros de las ciudades, en los centros comerciales y oficinas de correos o en uno de los muchos laboratorios fotográficos como Kodak Express Digital Solutions en la ciudad que ofrecen este servicio.<br />\nPara obtener más información sobre quién ofrece el servicio de fotos para pasaporte en Argentina, puede preguntar a los residentes locales o echar un vistazo a los sitios web dedicados.<br />\nSi, por el contrario, prefiere tomar las fotos para pasaporte cómodamente en su casa, puede optar por el servicio Smartphone iD, que le permite tomar la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento argentino y hacerla revisar por expertos capacitados.</aside>\n",
         "titre_accordeon": "¿Dónde se puede hacer una foto de pasaporte en Argentina?"
       },
       {
@@ -494,7 +494,7 @@
         "titre_accordeon": "¿Se puede llevar maquillaje en una foto de pasaporte?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Los colores fuertes que destacan claramente del fondo son adecuados para una foto de pasaporte.<br />\nDado que se requiere un fondo claro, los colores más oscuros son beneficiosos para aumentar el contraste. Además, asegúrese de que su camisa no muestre demasiada piel, ya que las fotos de pasaporte sin camisa están prohibidas.<br />\nPor último, los uniformes de cualquier tipo también están prohibidos en una foto biométrica para pasaporte.</aside>\n",
+        "texteAccordeon": "Los colores fuertes que destacan claramente del fondo son adecuados para una foto de pasaporte.<br />\nDado que se requiere un fondo claro, los colores más oscuros son beneficiosos para aumentar el contraste. Además, asegúrese de que su camisa no muestre demasiada piel, ya que las fotos de pasaporte sin camisa están prohibidas.<br />\nPor último, los uniformes de cualquier tipo también están prohibidos en una foto biométrica para pasaporte.",
         "titre_accordeon": "¿Qué ponerse para la foto del pasaporte?"
       }
     ],
@@ -535,7 +535,7 @@
       },
       {
         "link": "Visado",
-        "url": "https://www.smartphone-id.com/es_AR/visado-argentino",
+        "url": "https://www.smartphone-id.com/es_AR/foto-visa/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]

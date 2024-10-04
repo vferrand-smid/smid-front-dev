@@ -40,9 +40,7 @@ const Bloc1 = ({ page, locale  }) => {
                                     <h4>{item.texte_check_green}</h4>
                                 </div>
                             ))}
-                            {page?.pageDAccueilBloc1?.titre_h4_bloc1 && (
-                                    <p className={styles.bloc1Partie1H4}>{page.pageDAccueilBloc1.titre_h4_bloc1}</p>
-                            )}
+                                    <p className={styles.bloc1Partie1H4}> {translations.Bloc1["titre_h4_bloc1"]}</p>
                         </section>
 
                         <aside >

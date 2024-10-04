@@ -440,7 +440,7 @@
   },
 
   "Bloc9": {
-    "ID": "Isikut tõendav foto",
+    "ID": "Eesti passi foto",
     "ePhoto": "",
     "codeEphoto": [
       {
@@ -560,12 +560,12 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "Meie kohta",
-    "propos-link" : "https://www.smartphone-id.com/et_EE/meie-kohta/",
+    "propos-link" : "https://www.smartphone-id.com/et/meist/",
     "SiteMapList-faq" : "KKK",
-    "faq-link" : "https://www.smartphone-id.com/et_EE/kkk/",
+    "faq-link" : "https://www.smartphone-id.com/et/faq/",
     "SiteMapList-contact" : "Võtke meiega ühendust",
-    "contact-link" : "https://www.smartphone-id.com/et_EE/võtke-meiega-ühendust/",
-    "applis-h3": "laadige alla rakendus!",
+    "contact-link" : "https://www.smartphone-id.com/et/vali-kontakt/",
+    "applis-h3": "Laadige alla rakendus!",
     "applis-p":  "Laadige alla Smartphone iD rakendus, et jälgida tellimusi ja nautida veelgi rohkem dokumendifoto funktsioone.",
     "AppStore-link" : "https://apps.apple.com/app/photo-identit%C3%A9-officielle/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?gl=et&hl=et&id=com.smartphoneid",

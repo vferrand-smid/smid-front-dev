@@ -375,18 +375,6 @@
           {
             "nom_partenaire": "Strefa-Xero",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Strefa-Xero.png"
-          },
-          {
-            "nom_partenaire": " CVS",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/CVS.png"
-          },
-          {
-            "nom_partenaire": "Target",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Target.png"
-          },
-          {
-            "nom_partenaire": "Walmart",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Walmart.png"
           }
         ]
       }
@@ -539,7 +527,7 @@
   },
 
   "Bloc11": {
-    "titre": "Znajdź odpowiedzi na odpowiednich stronach",
+    "titre": "Kliknij w odnośnik do właściwej sekcji, poświęconej polskim dokumentom, wymagającym zdjęcia paszportowego!",
     "liens": [
       {
         "link": "Paszport",
@@ -580,12 +568,12 @@
     "SiteMapList-faq" : "FAQ",
     "faq-link" : "https://www.smartphone-id.com/pl/faq",
     "SiteMapList-contact" : "Kontakt",
-    "contact-link" : "https://www.smartphone-id.com/pl/kontakt",
+    "contact-link" : "https://www.smartphone-id.com/pl/wybierz-kontakt/",
     "applis-h3": "Pobierz aplikację!",
     "applis-p":  "Pobierz aplikację Smartphone iD, by śledźic zamówienie i wykorzystać dodatkowe funkcje obróbki zdjęć paszportowych.",
     "AppStore-link" : "https://apps.apple.com/pl/app/photo-identit%C3%A9-officielle/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=pl&gl=pl",
-    "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
+    "partie2-p": "Zdobądź najświeższe informacje na temat dokumentów tożsamości i wiz.",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy policy",
     "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",

@@ -507,22 +507,22 @@
   },
 
   "Bloc11": {
-    "titre": "Vind je antwoorden op de corresponderende pagina's",
+    "titre": "Klik op de overeenkomstige sectie om antwoorden te vinden over specifieke pasfoto's voor Nederlandse identiteitsdocumenten!",
     "liens": [
       {
         "link": "Rijbewijs",
         "url": "https://www.smartphone-id.com/nl/internationaal-rijbewijs/",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
+        "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Paspoort",
         "url": "https://www.smartphone-id.com/nl/vereisten-pasfoto-identiteitskaart/",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
+        "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "Identiteitskaart",
         "url": "https://www.smartphone-id.com/nl/identiteitskaart/ ",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
+        "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Verblijfsvergunning",
@@ -532,7 +532,7 @@
       {
         "link": "Visum",
         "url": "https://www.smartphone-id.com/nl/visum/",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
+        "icon": "/images/Bloc11/visa.svg"
       }
     ]
   },
@@ -544,11 +544,11 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "Over ons",
-    "propos-link" : "https://www.smartphone-id.com/nl/over-ons",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/nl/faq",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
     "SiteMapList-contact" : "Contact",
-    "contact-link" : "https://www.smartphone-id.com/nl/contact",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
     "applis-h3": "Download de app!",
     "applis-p":  "Download de Smartphone iD app om je bestellingen te volgen en van nog meer pasfoto-functies te genieten.",
     "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
