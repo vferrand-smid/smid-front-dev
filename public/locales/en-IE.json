@@ -31,30 +31,30 @@
   "Bloc1": {
     "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Passport-photo-tool-Ireland.png",
     "background": "/images/background.png",
-    "titre_bloc1": "Quality passport photos",
-    "titre_h4_bloc1": "and digital signatures.",
+    "titre_bloc1": "Fast and easy tool for",
+    "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Immediate Result Guaranteed"
+        "texte_check_green": "quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Expert Verified"
+        "texte_check_green": "and digital signatures."
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Immediate Result Guaranteed"
+        "texte_check_white": "Immediate AI editing"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Expert Verified"
+        "texte_check_white": "Expert verification"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Free Trial"
+        "texte_check_white": "Government acceptance"
       }
     ]
   },
@@ -94,12 +94,12 @@
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expert-control-IE-passport-photo.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expert-control-IE-passport-photo.png"
+        "imageCkeckBlack": "/images/Bloc3/en-IE/Printing & delivery IE passport photo.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
@@ -291,8 +291,8 @@
         "titre": "Awesome"
       }
     ],
-    "nos_partenaires": "Featured by",
-    "nos_medias": "Featured in the Media"
+    "nos_partenaires": "Our partners",
+    "nos_medias": "Featured by"
   },
 
   "Bloc5": {
@@ -472,34 +472,6 @@
       {
         "texte_accordeon": null,
         "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
@@ -581,7 +553,7 @@
   },
 
   "Bloc11": {
-    "titre": "Find your answers in the corresponding pages",
+    "titre": "Click on the corresponding subsection to find answers about specific document passport photos in Ireland!",
     "liens": [
       {
         "link": "Driving licence",
@@ -594,14 +566,14 @@
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
-        "link": "public service card",
+        "link": "Public service card",
         "url": "https://www.smartphone-id.com/en_IE/public-service-card-renewal-ireland/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Passport card",
         "url": "https://www.smartphone-id.com/en_IE/passport-card-first-time/",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
+        "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Visa",

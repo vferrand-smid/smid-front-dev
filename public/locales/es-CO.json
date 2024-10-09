@@ -3,23 +3,19 @@
     "liens": [
       {
         "link": "Pasaporte",
-        "url": "https://www.smartphone-id.com/es_CO/foto-pasaporte/"
+        "url": "https://www.smartphone-id.com/es_CO/tramitar-el-pasaporte/"
       },
       {
-        "link": "Carnet de Conducir",
-        "url": "https://www.smartphone-id.com/es_AR/fotos-carne-de-conducir/"
+        "link": "Licencia de conducción",
+        "url": "https://www.smartphone-id.com/es_CO/licencia-de-conduccion-documentos/"
       },
       {
         "link": "DNI",
-        "url": "https://www.smartphone-id.com/es_CO/foto-dni/"
-      },
-      {
-        "link": "NIE",
-        "url": "https://www.smartphone-id.com/es_CO/fotos-nie/"
+        "url": "https://www.smartphone-id.com/es_CO/identificacion-de-dni-para-su-recien-nacido/"
       },
       {
         "link": "Visado",
-        "url": "https://www.smartphone-id.com/es_CO/foto-visa/"
+        "url": "https://www.smartphone-id.com/es_CO/visa-digital-nomada/"
       }
     ]
   },
@@ -422,7 +418,7 @@
       "title": "Más información"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/es_CO/foto-del-pasaporte-colombiano-de-tu-bebe",
+      "url": "https://www.smartphone-id.com/es/foto-del-pasaporte-espanol-de-tu-bebe",
       "title": "¿Cómo obtener la foto del pasaporte de tu bebé?"
     }
   },
@@ -434,60 +430,32 @@
       {
         "texte_accordeon": null,
         "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
       {
         "texteAccordeon": "<p>Sí que puedes. Asegúrate de que mantienes el brazo recto, de que tu cara no aparece distorsionada debido a la cámara frontal del teléfono y de que no se te ve el brazo.<br />\nTambién puedes hacerlo a través del sitio web Smartphone iD y añadir una revisión de un experto capacitado, para asegurarte de que se ajusta a los requisitos del gobierno.<br />\nLas cámaras de visión trasera tienen mayor resolución y ofrecen una mejor imagen.</p>\n",
-        "titre_accordeon": "¿ Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
+        "titre_accordeon": "¿Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
       },
       {
         "texteAccordeon": "<p>Colócate frente a una ventana o asegúrate de que la luz artificial no proyecta sombra sobre tu rostro.<br />\nQuítate el pelo de la cara, mira a la cámara y adopta una expresión facial neutra. Para asegurarte de que has hecho una buena foto, puedes combinar esto con la revisión de un experto en nuestro sitio web https://www.smartphone-id.com/es/.</p>\n",
-        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte?"
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Coloca a tu bebé sobre una sábana blanca en tu cama, o ponlo en una trona con una toalla blanca cubriendo el respaldo de la silla.<br />\nQuítale el chupete, capta la atención del bebé e intenta conseguir una foto con la boca cerrada.<br />\nAlgunos gobiernos permiten que la boca esté ligeramente abierta, pero sin que se vean la lengua ni los dientes.<br />\nAsegúrate de que la cabeza de tu bebé no está inclinada, y no olvides que no puedes sostenerlo tú solo mientras haces la foto porque no se ve ninguna otra parte del cuerpo en la foto.<br />\nTambién puedes hacer una foto a través de nuestra página web www.smartphon-id.com, donde te ayudaremos a conseguir una foto válida con la ayuda de nuestros expertos formados.</p>\n",
-        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte a tu bebé?"
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte a tu bebé?"
       },
       {
         "texteAccordeon": "<p>Está prohibido presentar una foto escaneada para un documento de identificación oficial.<br />\nSi necesita presentar una foto digital, puede utilizar nuestra sencilla herramienta automatizada en línea que viene con una comprobación experta capacitada.<br />\nDe esta forma obtendrá una foto digital de pasaporte perfecta en el formato necesario para su documento.<br />\nSi está escaneando fotos de pasaporte para crear impresiones múltiples, también lo tenemos cubierto.<br />\nCon su foto digital única, también recibirá por correo electrónico una plantilla de impresión de 10&#215;15 lista para imprimir que podrá utilizar un número ilimitado de veces.</p>\n",
-        "titre_accordeon": "¿ Cómo escanear una foto de pasaporte?"
+        "titre_accordeon": "¿Cómo escanear una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Para imprimir fotos de pasaporte con su PC, primero debe descargar un software que le permita obtener fotos de 35 x 45 mm.<br />\nA continuación, deberá conectar a su PC una impresora compatible con papel fotográfico, ya que sólo se aceptan fotos de pasaporte impresas por profesionales.<br />\nSi no desea descargar ningún software o ahorrarse la molestia de buscar una herramienta sencilla en Internet, puede optar por el servicio Smartphone iD, en el que sólo tendrá que elegir el tipo de documento necesario y todo lo demás se hará por usted.<br />\nPuede recibir una impresión profesional de 10&#215;15 cm en la puerta de su casa o utilizar el archivo digital de 10&#215;15 cm para encontrar un centro de impresión cercano.</p>\n",
-        "titre_accordeon": "¿ Cómo imprimir una foto tamaño carné?"
+        "titre_accordeon": "¿Cómo imprimir una foto tamaño carné?"
       }
     ],
     "titre_bloc9": "a Tus Preguntas",
-    "titre_bloc9_span": "Respuestas"
+    "titre_bloc9_span": "Respuestas "
   },
 
   "Bloc10" : {
@@ -499,10 +467,10 @@
   },
 
   "Bloc11": {
-    "titre": "Encuentra tus respuestas en las páginas correspondientes",
+    "titre": "Haz clic en el apartado correspondiente para encontrar respuestas sobre las fotos específicas para el pasaporte Colombiano!",
     "liens": [
       {
-        "link": "Licencia de Conducir",
+        "link": "Licencia de conducción",
         "url": "https://www.smartphone-id.com/es_CO/licencia-de-conduccion-documentos/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
@@ -513,17 +481,12 @@
       },
       {
         "link": "DNI",
-        "url": "https://www.smartphone-id.com/es_CO/dni/",
+        "url": "https://www.smartphone-id.com/es_CO/identificacion-de-dni-para-su-recien-nacido/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
-        "link": "NIE",
-        "url": "https://www.smartphone-id.com/es_CO/nie/",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
-      },
-      {
         "link": "Visado",
-        "url": "https://www.smartphone-id.com/es_CO/visado",
+        "url": "https://www.smartphone-id.com/es_CO/visa-digital-nomada/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]

@@ -3,23 +3,23 @@
     "liens": [
       {
         "link": "Pasaporte",
-        "url": "https://www.smartphone-id.com/es_ES/foto-pasaporte/"
+        "url": "https://www.smartphone-id.com/es/foto-pasaporte/"
       },
       {
         "link": "Carnet de Conducir",
-        "url": "https://www.smartphone-id.com/es_ES/fotos-carne-de-conducir/"
+        "url": "https://www.smartphone-id.com/es/fotos-carne-de-conducir/"
       },
       {
         "link": "DNI",
-        "url": "https://www.smartphone-id.com/es_ES/caracteristicas-fotos-dni/"
+        "url": "https://www.smartphone-id.com/es/caracteristicas-fotos-dni/"
       },
       {
         "link": "NIE",
-        "url": "https://www.smartphone-id.com/es_ES/foto-permiso-de-residencia/"
+        "url": "https://www.smartphone-id.com/es/foto-permiso-de-residencia/"
       },
       {
         "link": "Visado",
-        "url": "https://www.smartphone-id.com/es_ES/foto-visado"
+        "url": "https://www.smartphone-id.com/es/foto-visado"
       }
     ]
   },
@@ -439,71 +439,71 @@
     "photo_didentite": [
       {
         "texteAccordeon": "<p>Sí que puedes. Asegúrate de que mantienes el brazo recto, de que tu cara no aparece distorsionada debido a la cámara frontal del teléfono y de que no se te ve el brazo.<br />\nTambién puedes hacerlo a través del sitio web <a href=\"https://www.smartphone-id.com/es/\" target=\"_blank\" rel=\"noopener\">Smartphone iD</a> y añadir una revisión de un experto capacitado, para asegurarte de que se ajusta a los requisitos del gobierno.<br />\nLas cámaras de visión trasera tienen mayor resolución y ofrecen una mejor imagen.</p>\n",
-        "titre_accordeon": "¿ Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
+        "titre_accordeon": "¿Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
       },
       {
         "texteAccordeon": "<p>Colócate frente a una ventana o asegúrate de que la luz artificial no proyecta sombra sobre tu rostro.<br />\nQuítate el pelo de la cara, mira a la cámara y adopta una expresión facial neutra. Para asegurarte de que has hecho una buena foto, puedes combinar esto con la revisión de un experto en nuestro sitio web https://www.smartphone-id.com/es/.</p>\n",
-        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte?"
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Coloca a tu bebé sobre una sábana blanca en tu cama, o ponlo en una trona con una toalla blanca cubriendo el respaldo de la silla.<br />\nQuítale el chupete, capta la atención del bebé e intenta conseguir una foto con la boca cerrada.<br />\nAlgunos gobiernos permiten que la boca esté ligeramente abierta, pero sin que se vean la lengua ni los dientes.<br />\nAsegúrate de que la cabeza de tu bebé no está inclinada, y no olvides que no puedes sostenerlo tú solo mientras haces la foto porque no se ve ninguna otra parte del cuerpo en la foto.<br />\nTambién puedes hacer una foto a través de nuestra página web www.smartphon-id.com, donde te ayudaremos a conseguir una foto válida con la ayuda de nuestros expertos formados.</p>\n",
-        "titre_accordeon": "¿ Cómo hacer una foto de pasaporte a tu bebé?"
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte a tu bebé?"
       },
       {
         "texteAccordeon": "<p>Está prohibido presentar una foto escaneada para un documento de identificación oficial.<br />\nSi necesita presentar una foto digital, puede utilizar nuestra sencilla herramienta automatizada en línea que viene con una comprobación experta capacitada.<br />\nDe esta forma obtendrá una foto digital de pasaporte perfecta en el formato necesario para su documento.<br />\nSi está escaneando fotos de pasaporte para crear impresiones múltiples, también lo tenemos cubierto.<br />\nCon su foto digital única, también recibirá por correo electrónico una plantilla de impresión de 10&#215;15 lista para imprimir que podrá utilizar un número ilimitado de veces.</p>\n",
-        "titre_accordeon": "¿ Cómo escanear una foto de pasaporte?"
+        "titre_accordeon": "¿Cómo escanear una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Para imprimir fotos de pasaporte con su PC, primero debe descargar un software que le permita obtener fotos de 35 x 45 mm.<br />\nA continuación, deberá conectar a su PC una impresora compatible con papel fotográfico, ya que sólo se aceptan fotos de pasaporte impresas por profesionales.<br />\nSi no desea descargar ningún software o ahorrarse la molestia de buscar una herramienta sencilla en Internet, puede optar por el servicio Smartphone iD, en el que sólo tendrá que elegir el tipo de documento necesario y todo lo demás se hará por usted.<br />\nPuede recibir una impresión profesional de 10&#215;15 cm en la puerta de su casa o utilizar el archivo digital de 10&#215;15 cm para encontrar un centro de impresión cercano.</p>\n",
-        "titre_accordeon": "¿ Cómo imprimir una foto tamaño carné?"
+        "titre_accordeon": "¿Cómo imprimir una foto tamaño carné?"
       },
       {
         "texteAccordeon": "<p>Existen varias opciones para obtener fotos de pasaporte en formato digital. Si necesita una foto de pasaporte de alta calidad, puede acudir a un fotógrafo profesional.<br />\nSi busca un método económico, puede utilizar aplicaciones y software como Smartphone iD, que le permiten crear fotos de pasaporte en formato digital directamente desde casa.<br />\nHoy en día, las cámaras de los smartphones pueden producir fotos de pasaporte satisfactorias.<br />\nNo obstante, lo mejor es que un experto compruebe que la foto tiene el formato correcto, porque las fotos de pasaporte no válidas son rechazadas por los gobiernos y ponen en pausa la solicitud del documento.</p>\n",
-        "titre_accordeon": "¿ Dónde conseguir fotos digitales para el pasaporte?"
+        "titre_accordeon": "¿Dónde conseguir fotos digitales para el pasaporte?"
       },
       {
         "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no admiten flecos porque dificultan la lectura de los datos biométricos del escáner.<br />\nEntonces, el flequillo debe ir a ambos lados y sujeto con horquillas imperceptibles.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte con flequillo.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
-        "titre_accordeon": "¿ Se puede tener un flequillo en una foto de pasaporte?"
+        "titre_accordeon": "¿Se puede tener un flequillo en una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no permiten sonreír porque dificulta la lectura de los datos biométricos del escáner.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte de una persona sonriente.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
-        "titre_accordeon": "¿ Puede sonreír en una foto de pasaporte?"
+        "titre_accordeon": "¿Puede sonreír en una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>No todos los gobiernos permiten las gafas porque es muy difícil acertar. Las monturas gruesas están prohibidas, así como los cristales tintados, no pueden aparecer reflejos y deben sentarse correctamente. Por eso, los gobiernos que no prohíben llevar gafas, aconsejan encarecidamente quitárselas para la foto.</p>\n",
-        "titre_accordeon": "¿ Se pueden llevar gafas en una foto de pasaporte?"
+        "titre_accordeon": "¿Se pueden llevar gafas en una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Sí, puede llevar maquillaje en la foto del pasaporte. Pero ten en cuenta que el maquillaje debe ser ligero.<br />\nNo te pongas demasiada sombra de ojos en los párpados. A menudo, un pintalabios brillante puede crear un reflejo, por lo tanto, mejor opta por un pintalabios mate, si quieres acentuar tus labios.<br />\nTambién es útil comprobar que tu piel no es grasa antes de hacerte la foto, ya que también puede crear un ligero reflejo. Por último, recuerde que la foto del pasaporte debe ser lo más natural posible y debe parecerse a usted en un día normal.</p>\n",
-        "titre_accordeon": "¿ Se puede llevar maquillaje en una foto de pasaporte?"
+        "titre_accordeon": "¿Se puede llevar maquillaje en una foto de pasaporte?"
       },
       {
         "texteAccordeon": "<p>Los colores fuertes que destacan claramente del fondo son adecuados para una foto de pasaporte.<br />\nDado que se requiere un fondo claro, los colores más oscuros son beneficiosos para aumentar el contraste. Además, asegúrese de que su camisa no muestre demasiada piel, ya que las fotos de pasaporte sin camisa están prohibidas.<br />\nPor último, los uniformes de cualquier tipo también están prohibidos en una foto biométrica para pasaporte.</p>\n",
-        "titre_accordeon": "¿ Qué ponerse para la foto del pasaporte?"
+        "titre_accordeon": "¿Qué ponerse para la foto del pasaporte?"
       },
       {
         "texteAccordeon": "<p>Para los documentos oficiales españoles, deberá presentar una fotografía tamaño carné de 32mm x 26mm.<br />\nNo está permitido presentar una fotografía escaneada o una captura de pantalla de un ordenador/móvil.<br />\nPuede tomar una foto a través de nuestro sitio web www.smartphone-id.com, donde obtendrá una foto aprobada por expertos cualificados en el tamaño, formato de archivo, color de fondo, etc. solicitados.<br />\nCon la foto, recibirá una plantilla imprimible de 10&#215;15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</p>\n",
-        "titre_accordeon": "¿ Qué tamaño tiene una foto de pasaporte español?"
+        "titre_accordeon": "¿Qué tamaño tiene una foto de pasaporte español?"
       },
       {
         "texteAccordeon": "<p>El precio de las fotos de pasaporte depende de dónde vaya a hacérselas. En un fotomatón, una copia con 6 fotos cuesta entre 5 y 7 euros (el 10% de las fotos son rechazadas por los gobiernos). Un fotógrafo profesional, en cambio, pide entre 15 y 20 euros por 6 copias (tasa de rechazo del 2%).Sin embargo, suele ofrecer descuentos para niños y personas mayores. Si no puede utilizar estos dos métodos, puede hacer la foto de pasaporte con su teléfono móvil, utilizando el servicio Smartphone iD. A través de nuestra página web, puede tomar la foto, el formato correcto se creará automáticamente para el documento español que ha solicitado.Para lograr una tasa de aceptación del 100%, nuestros expertos formados también comprobarán su foto.</p>\n",
-        "titre_accordeon": "¿ Cuánto cuesta hacerse una foto de pasaporte en España?"
+        "titre_accordeon": "¿Cuánto cuesta hacerse una foto de pasaporte en España?"
       },
       {
         "texteAccordeon": "<p>Se puede utilizar una foto tamaño carné para todos los documentos oficiales españoles, incluido el DNI.Debe tener un formato de 32 x 26 mm. La única excepción es el visado español, que debe ser de 30 x 40 mm. Usted puede hacerse una foto a través de nuestro sitio web www.smartphone-id.com donde obtendrá una foto aprobada por expertos en el tamaño solicitado, formato de archivo, color de fondo, etc.Con la foto, recibirá una plantilla imprimible de 10 x 15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</p>\n",
-        "titre_accordeon": "¿ Se puede utilizar la foto del pasaporte para el documento de identidad en España?"
+        "titre_accordeon": "¿Se puede utilizar la foto del pasaporte para el documento de identidad en España?"
       },
       {
         "texteAccordeon": "<p>Puedes hacerte una foto tamaño carné en las tiendas de fotografía exprés Kodak, por ejemplo, en la Calle de Sta Engracia, 68, 28010 Madrid, España o en el foto-matón Tecnotron de Frutería, Calle de Sta Engracia, 29, 28010 Madrid, España. Si, por el contrario, prefiere hacerse las fotos del pasaporte cómodamente en casa, puede optar por el servicio Smartphone iD, que le permite hacer la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento español y hacerla revisar por expertos formados</p>\n",
-        "titre_accordeon": "¿ Donde puedo hacerme la foto del pasaporte cerca de la calle Diego de Leon en Madrid?"
+        "titre_accordeon": "¿Donde puedo hacerme la foto del pasaporte cerca de la calle Diego de Leon en Madrid?"
       },
       {
         "texteAccordeon": "<p>Sí, puedes utilizar un fotomatón para hacerte una foto de pasaporte. Un fotomatón como Tecnotron te hará seis fotos de 32 mm x 26 mm.Si, por el contrario, prefiere hacerse las fotos del pasaporte cómodamente en casa, puede optar por el servicio Smartphone iD, que le permite hacer la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento español y hacerla revisar por expertos formados</p>\n",
-        "titre_accordeon": "¿ Puedo hacerme las fotos para el pasaporte en un fotomatón?"
+        "titre_accordeon": "¿Puedo hacerme las fotos para el pasaporte en un fotomatón?"
       },
       {
         "texteAccordeon": "<p>La foto de pasaporte debe mostrar un parecido completo con usted. Si sueles llevar barba, no es necesario que te afeites antes de hacerte la foto para el pasaporte. Si, por el contrario, lleva una barba larga y tiene previsto afeitarse pronto, su aspecto será diferente. Entonces es mejor hacerse una foto de pasaporte después de afeitarse</p>\n",
-        "titre_accordeon": "¿ Está permitido hacerme la foto del pasaporte con barba?"
+        "titre_accordeon": "¿Está permitido hacerme la foto del pasaporte con barba?"
       }
     ],
     "titre_bloc9": "a Tus Preguntas",
@@ -543,7 +543,7 @@
       },
       {
         "link": "Visado",
-        "url": "https://www.smartphone-id.com/es_ES/visado-espana",
+        "url": "https://www.smartphone-id.com/es/foto-visado/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]

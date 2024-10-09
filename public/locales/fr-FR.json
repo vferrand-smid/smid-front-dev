@@ -389,6 +389,14 @@
           {
             "nom_partenaire": "Cewe",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+          },
+          {
+            "nom_partenaire": "Klaxo",
+            "img_partenaire": "/images/Bloc6/fr-FR/Klaxo.png"
+          },
+          {
+            "nom_partenaire": "ECF",
+            "img_partenaire": "/images/Bloc6/fr-FR/ecf.png"
           }
         ]
       }

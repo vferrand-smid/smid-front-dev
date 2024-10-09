@@ -365,13 +365,13 @@ const Bloc4Temoignages = ({ page, locale }) => {
                 </nav>
                 
                 <div style={{display:'none'}}>
-      <nav class="kal-testimonials-media-btn" id="left">
+      <nav className="kal-testimonials-media-btn" id="left">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M20.8 31.5L11.2 31.5C5.30019 31.5 0.5 26.6983 0.500001 20.8L0.500002 11.2C0.500002 5.30169 5.30019 0.499998 11.2 0.499998L20.8 0.499999C26.6998 0.5 31.5 5.3017 31.5 11.2L31.5 20.8C31.5 26.6983 26.6998 31.5 20.8 31.5Z" fill="white" stroke="black"></path>
           <path fillRule="evenodd" clipRule="evenodd" d="M18.6347 21.6192C19.1218 21.1116 19.1218 20.2884 18.6347 19.7808L14.5277 15.5L18.6347 11.2192C19.1218 10.7116 19.1218 9.88844 18.6347 9.38076C18.1476 8.87308 17.3579 8.87308 16.8708 9.38076L11.6642 14.8077C11.293 15.1946 11.293 15.8054 11.6642 16.1923L16.8708 21.6192C17.3579 22.1269 18.1476 22.1269 18.6347 21.6192Z" fill="black"></path>
         </svg>
       </nav>
-      <nav class="kal-testimonials-media-btn" id="right">
+      <nav className="kal-testimonials-media-btn" id="right">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M11.2 0.5H20.8C26.6998 0.5 31.5 5.3017 31.5 11.2V20.8C31.5 26.6983 26.6998 31.5 20.8 31.5H11.2C5.30019 31.5 0.5 26.6983 0.5 20.8V11.2C0.5 5.3017 5.30019 0.5 11.2 0.5Z" fill="white" stroke="black"></path>
           <path fillRule="evenodd" clipRule="evenodd" d="M13.3653 10.3808C12.8782 10.8884 12.8782 11.7116 13.3653 12.2192L17.4723 16.5L13.3653 20.7808C12.8782 21.2884 12.8782 22.1116 13.3653 22.6192C13.8524 23.1269 14.6421 23.1269 15.1292 22.6192L20.3358 17.1923C20.707 16.8054 20.707 16.1946 20.3358 15.8077L15.1292 10.3808C14.6421 9.87308 13.8524 9.87308 13.3653 10.3808Z" fill="black"></path>
@@ -445,13 +445,13 @@ const Bloc4Temoignages = ({ page, locale }) => {
                 </nav>
 
                 <div style={{display:'none'}}>
-      <nav class="kal-testimonials-partner-btn" id="left">
+      <nav className="kal-testimonials-partner-btn" id="left">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M20.8 31.5L11.2 31.5C5.30019 31.5 0.5 26.6983 0.500001 20.8L0.500002 11.2C0.500002 5.30169 5.30019 0.499998 11.2 0.499998L20.8 0.499999C26.6998 0.5 31.5 5.3017 31.5 11.2L31.5 20.8C31.5 26.6983 26.6998 31.5 20.8 31.5Z" fill="white" stroke="black"></path>
           <path fillRule="evenodd" clipRule="evenodd" d="M18.6347 21.6192C19.1218 21.1116 19.1218 20.2884 18.6347 19.7808L14.5277 15.5L18.6347 11.2192C19.1218 10.7116 19.1218 9.88844 18.6347 9.38076C18.1476 8.87308 17.3579 8.87308 16.8708 9.38076L11.6642 14.8077C11.293 15.1946 11.293 15.8054 11.6642 16.1923L16.8708 21.6192C17.3579 22.1269 18.1476 22.1269 18.6347 21.6192Z" fill="black"></path>
         </svg>
       </nav>
-      <nav class="kal-testimonials-partner-btn" id="right">
+      <nav className="kal-testimonials-partner-btn" id="right">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M11.2 0.5H20.8C26.6998 0.5 31.5 5.3017 31.5 11.2V20.8C31.5 26.6983 26.6998 31.5 20.8 31.5H11.2C5.30019 31.5 0.5 26.6983 0.5 20.8V11.2C0.5 5.3017 5.30019 0.5 11.2 0.5Z" fill="white" stroke="black"></path>
           <path fillRule="evenodd" clipRule="evenodd" d="M13.3653 10.3808C12.8782 10.8884 12.8782 11.7116 13.3653 12.2192L17.4723 16.5L13.3653 20.7808C12.8782 21.2884 12.8782 22.1116 13.3653 22.6192C13.8524 23.1269 14.6421 23.1269 15.1292 22.6192L20.3358 17.1923C20.707 16.8054 20.707 16.1946 20.3358 15.8077L15.1292 10.3808C14.6421 9.87308 13.8524 9.87308 13.3653 10.3808Z" fill="black"></path>

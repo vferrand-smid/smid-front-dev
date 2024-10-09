@@ -3,23 +3,23 @@
     "liens": [
       {
         "link" : "Passeport",
-        "url" : "https://www.smartphone-id.com/en_NZ/passport-photo-passport/"
+        "url" : "https://www.smartphone-id.com/en_NZ/apply-nz-passport/"
       },
       {
         "link" : "Visa",
-        "url" : "https://www.smartphone-id.com/en_NZ/nz-visa-photo/"
+        "url" : "https://www.smartphone-id.com/en_NZ/nz-visa/"
       },
       {
-        "link" : "Driver's Licence",
-        "url" : "https://www.smartphone-id.com/en_NZ/nz-drivers-licence-photo/"
+        "link" : "Driver Licence",
+        "url" : "https://www.smartphone-id.com/en_NZ/nz-drivers-licence/"
       },
       {
         "link" : "Certificate of Identity",
-        "url" : "https://www.smartphone-id.com/en_NZ/certificate-of-identity-photo/"
+        "url" : "https://www.smartphone-id.com/en_NZ/nz-certificate-of-identity/"
       },
       {
         "link" : "Kiwi Access Card",
-        "url" : "https://www.smartphone-id.com/en_NZ/kiwi-access-card-photo/"
+        "url" : "https://www.smartphone-id.com/en_NZ/kiwi-access-card/"
       }
     ]
   },
@@ -545,10 +545,10 @@
   },
 
   "Bloc11": {
-    "titre": "Find your answers on the corresponding pages",
+    "titre": "Click on the corresponding subsection to find answers about specific NZ document passport photos!",
     "liens": [
       {
-        "link": "Driving licence",
+        "link": "Driver licence",
         "url": "https://www.smartphone-id.com/en_NZ/nz-drivers-licence/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
@@ -560,12 +560,12 @@
       {
         "link": "Certificate of Identity",
         "url": "https://www.smartphone-id.com/en_NZ/nz-certificate-of-identity/",
-        "icon": "/images/Bloc11/carte-identite.svg"
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Kiwi access card",
         "url": "https://www.smartphone-id.com/en_NZ/kiwi-access-card/",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
+        "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Visa",
