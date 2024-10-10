@@ -1,5 +1,5 @@
 const nextToGraphQLLocales = {
-    //'ar-SA': 'AR_SA',
+    'ar-SA': 'AR_SA',
     'ar-AE': 'AR_AE',
     'ar': 'AR_AE',
     //'de-CH': 'DE_CH',

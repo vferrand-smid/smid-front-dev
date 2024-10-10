@@ -72,7 +72,7 @@ const KalSearch = ({ page, locale }) => {
 			return;
 		}
 
-		console.log("kalSearch.jsx - Tentative d'appel à l'API :", currentCountry, selectedCountry);
+		console.log("kalSearch.jsx - Tentative d'appel à l'API avec headers languages:", currentCountry, selectedCountry, effectiveLocale.split('-')[0]);
 		const fetchDocuments = async () => {
 			try {
 				const response = await fetch(
