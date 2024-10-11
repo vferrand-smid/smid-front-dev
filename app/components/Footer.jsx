@@ -14,6 +14,7 @@ import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import useTranslations from "@/utils/useTranslations";
+import useIsArabic from "../hooks/useIsArabic";
 // import { Suspense } from 'react';
 // import ErrorBoundary from "@/app/components/ErrorBoundary";
 
@@ -90,6 +91,7 @@ const localeToCountry = {
 
 
 export default function Footer() {
+  const isArabic = useIsArabic()
   const router = useRouter();
   const searchParams = useSearchParams();
   const currentLocale = searchParams.get("locale") || "fr-FR";
@@ -135,8 +137,8 @@ export default function Footer() {
   return (
     // <ErrorBoundary>
     // <React.Suspense fallback={<div>Loading...</div>}>
-    <div key={currentLocale} className="">
-      <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0">
+    <div key={currentLocale} className="" style={{textAlign:isArabic&&'right'}}>
+      <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0" >
         <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
           <div className="column"></div>
 
@@ -198,7 +200,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="partie2 max-lg:text-center">
+      <div className="partie2 max-lg:text-center" >
         <div className="partie2-div">
           <main className="partie2-main max-lg:grid-cols-2 max-md:flex max-md:flex-col max-md:gap-5">
             <div className="partie2-1 max-lg:items-center max-lg:text-center">

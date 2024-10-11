@@ -2,10 +2,12 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import useTranslations from '../../utils/useTranslations';
 import styles from '../styles/Bloc4.module.css';
+import useIsArabic from '../hooks/useIsArabic';
 
 const Bloc4Temoignages = ({ page, locale }) => {
     const { temoignages, media, partenaires } = page.pageDAccueilBloc4;
     const { translations, loading } = useTranslations(locale);
+    const isArabic = useIsArabic()
 
     useEffect(() => {
         const initializeCarousel = () => {
@@ -204,7 +206,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
     }
 
     return (
-        <div className={`${styles.kalTestimonials}`}>
+        <div className={`${styles.kalTestimonials} ${isArabic && 'kal-testimonials-arabic'}`} style={{textAlign:isArabic&&'right'}}>
             <h2 className='mb-10 max-md:!text-center'>
                 {translations.Bloc4.titre_bloc4_1}
                 <span className="highlight" >{translations.Bloc4.titre_bloc4_span}</span>
@@ -303,7 +305,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
 
 
             {translations.Bloc4.media?.some(mediaItem => mediaItem.img && mediaItem.text) && (
-                <div className="kal-testimonials-media-wrapper">
+                <div className="kal-testimonials-media-wrapper" style={{flexDirection:isArabic&& 'row-reverse'}}>
                     <h3 className='text-2xl max-md:!text-center'>{translations?.Bloc4?.nos_medias}</h3>
                     <nav className="kal-testimonials-media-btn" id="left">
                     <svg
