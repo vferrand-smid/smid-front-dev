@@ -175,8 +175,8 @@ const KalSearch = ({ page, locale }) => {
 		'ru': 'ru',
 		'sv-SE': 'sv',
 		'sv': 'sv',
-		'zh': 'zh',
-		'zh-CN': 'zh',
+		'zh': 'cn',
+		'zh-CN': 'cn',
 		// Ajoute d'autres locales ici si nécessaire
 	};
 
