@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import PageList from "../app/page";
+import PageList from "../app/[locale]/page";
 import nextToGraphQLLocales from "../app/lib/locales";
 
 jest.mock("../app/lib/pageQueries", () => ({
