@@ -1,9 +1,11 @@
 import React from "react";
 import useTranslations from '../../utils/useTranslations';
 import Image from "next/image";
+import useIsArabic from "../hooks/useIsArabic";
 
 const Bloc7Solution = ({ locale }) => {
     const { translations, loading } = useTranslations(locale);
+    const isArabic = useIsArabic()
 
     if (loading) {
         return <div>Loading...</div>;
@@ -16,7 +18,7 @@ const Bloc7Solution = ({ locale }) => {
     const { titre_bloc7_1, titre_bloc7_span, titre_bloc7_2, bloc } = translations.Bloc7;
 
     return (
-        <div className="kal-solution">
+        <div className="kal-solution" style={{direction:isArabic&&'rtl'}}>
             <div>
                 <h2 className="max-md:!text-center">
                     {titre_bloc7_1}

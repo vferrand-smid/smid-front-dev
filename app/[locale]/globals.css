@@ -691,7 +691,7 @@ footer {
 }
 @media screen and (max-width: 800px) {
     .kal-testimonials-partner-wrapper, .kal-testimonials-media-wrapper {
-        flex-direction: column;
+        flex-direction: column!important;
         padding: 0 20px;
     }
 }
@@ -1935,13 +1935,18 @@ overflow-x: hidden;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-    .kal-hero-stats > div > :first-child {
-        padding-left: 0px;
+    .kal-hero-stats > div > * {
+      padding-left: 10px!important;
+      padding-right: 10px!important;
+      padding:10px!important
     }
     .kal-hero-stats > div > article + article > img {
         display: block;
         border-left: none;
-        padding-left: 0px;
+        padding-left: 0px;        
+        border-right: none!important;
+        padding-right: 0px!important;
+        
     }
     .kal-hero-stats > div > article {
         width: 300px;
@@ -2114,6 +2119,7 @@ overflow-x: hidden;
         max-height: 100%;
         max-width: 100%;
         object-fit: contain;
+        margin: auto;
     }
     .kal-hero > div {
         max-width: 600px;
@@ -2396,8 +2402,10 @@ cursor: not-allowed; /* Curseur non autorisé lors du survol */
       flex-direction: column;
   }
   .kal-search-country {
-      border-right: none;
-      padding-right: none;
+      border-right:  none!important;
+      padding-right:  none!important;
+      border-left: none!important;
+      padding-left:  none!important;
   }
   .kal-search > :last-child {
       flex-direction: column;
@@ -2453,4 +2461,68 @@ h4 {
     width: 374px;
     height: 450px;
   }
+}
+
+.kal-hero-arabic{
+  direction: rtl;
+}
+.kal-hero-arabic > div > article{
+  left:0;
+  right: unset;
+}
+
+.kal-hero-arabic .kal-search .kal-search-country{
+  padding-left: 20px;
+  border-left: 2px solid #efefef;
+  padding-right: unset;
+  border-right: unset;
+}
+.kal-hero-arabic .kal-search {
+  max-width: 600px;
+}
+.kal-hero-stats-arabic{
+  direction: rtl;
+}
+.kal-hero-stats-arabic > div > :first-child {
+  padding-right: 22px;
+  padding-left: unset;
+}
+.kal-hero-stats-arabic > div > article + article > img {
+  border-right: 2px solid #efefef;
+  padding-right: 20px;
+  padding-left: unset;
+  border-left: unset;
+}
+
+.kal-testimonials-arabic .kal-testimonials-partner-wrapper,.kal-testimonials-arabic .kal-testimonials-media-wrapper {
+  flex-direction: row-reverse;
+}
+.kal-testimonials-arabic .kal-testimonials-media-wrapper > h3,.kal-testimonials-arabic .kal-testimonials-partner-wrapper > h3{
+  padding-right: 16px;
+  border-right: 4px solid rgba(47, 201, 119, 1);
+  padding-left: unset;
+  border-left:unset;
+  direction: rtl;
+}
+
+.kal-testimonials-arabic  .kal-testimonials-background{
+  top:23%
+}
+.kal-service-arabic{
+  direction: rtl;
+}
+.kal-service-arabic >aside{
+  right: unset;
+  left: 0;
+}
+.kal-service-arabic > aside > img{
+  border-right: 4px solid #2fc977;
+  border-left: unset;
+}
+.kal-document-arabic .kal-document-2 {
+  direction: rtl;
+}
+.kal-document-arabic .kal-document-2 > :first-child > div > div{
+  left: unset;
+  right: -20px;
 }

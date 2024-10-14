@@ -3,8 +3,11 @@
 import React, { useState } from 'react';
 import styles from '../styles/Bloc9Accordeon.module.css';
 import useTranslations from "@/utils/useTranslations";
+import useIsArabic from '../hooks/useIsArabic';
 
 const Bloc9Accordeon = ({ locale }) => {
+
+    const isArabic = useIsArabic()
 
     const [activeTab, setActiveTab] = useState(0);
     const [activeIndex, setActiveIndex] = useState(null);
@@ -89,7 +92,7 @@ const Bloc9Accordeon = ({ locale }) => {
     ].filter(tab => tab.content !== null && tab.content.length > 0);
 
     return (
-        <div className='kal-accordion'>
+        <div className='kal-accordion' style={{direction:isArabic&&'rtl'}}>
             <div>
                 <h3 className='max-md:!text-center'>
                     <span className={styles.highlight}>{translations.Bloc9.titre_bloc9_span}</span>
@@ -111,6 +114,7 @@ const Bloc9Accordeon = ({ locale }) => {
                                     viewBox="0 0 10 16"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
+                                    style={{rotate:isArabic&&'180deg'}}
                                 >
                                     <path
                                         fillRule="evenodd"

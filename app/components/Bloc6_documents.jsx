@@ -2,9 +2,11 @@ import React from 'react';
 import styles from '../styles/Bloc6Documents.module.css';
 import Image from "next/image";
 import useTranslations from "@/utils/useTranslations";
+import useIsArabic from '../hooks/useIsArabic';
 
 const Bloc6Documents = ({ locale }) => {
     const { translations, loading } = useTranslations(locale);
+    const isArabic = useIsArabic()
 
     if (loading) {
         return <div>Loading...</div>;
@@ -17,9 +19,9 @@ const Bloc6Documents = ({ locale }) => {
     const { titre_bloc6_1, titre_bloc6_span, titre_bloc6_2, documents, bloc_photo } = translations.Bloc6;
 
     return (
-        <div className='kal-document'>
+        <div className={`kal-document ${isArabic &&'kal-document-arabic'}`}>
             <div>
-            <h2 className='max-md:!text-center'> {titre_bloc6_1}{" "} <span className={styles.highlight}>{titre_bloc6_span}</span> {titre_bloc6_2}
+            <h2 className='max-md:!text-center' style={{direction:isArabic&&'rtl'}}> {titre_bloc6_1}{" "} <span className={styles.highlight}>{titre_bloc6_span}</span> {titre_bloc6_2}
             </h2>
 
             <div className={styles.selectDocument}>

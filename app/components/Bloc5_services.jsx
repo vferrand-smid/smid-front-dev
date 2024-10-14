@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "../styles/Bloc5Services.module.css";
 import useTranslations from "@/utils/useTranslations";
+import useIsArabic from "../hooks/useIsArabic";
 
 const Bloc5Services = ({ locale }) => {
     const { translations, loading } = useTranslations(locale);
+    const isArabic = useIsArabic()
 
     if (loading) {
         return <div>Loading...</div>;
@@ -16,7 +18,7 @@ const Bloc5Services = ({ locale }) => {
     const { imgService, listeService, titre_bloc5_1, titre_bloc5_span } = translations.Bloc5;
 
     return (
-        <div className="kal-service" >
+        <div className={`kal-service ${isArabic && 'kal-service-arabic'}`} >
             <aside >
                 <Image
                     src={imgService}
