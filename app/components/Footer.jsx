@@ -93,23 +93,13 @@ const localeToCountry = {
 
 
 export default function Footer() {
-<<<<<<< HEAD
-    const router = useRouter();
-    const pathname = usePathname();
-    const currentLocale = pathname.split('/')[1] || 'fr-FR'; // Récupère la locale depuis l'URL
-=======
   const isArabic = useIsArabic()
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const currentLocale = searchParams.get("locale") || "fr-FR";
+    const pathname = usePathname();
+    const currentLocale = pathname.split('/')[1] || 'fr-FR'; // Récupère la locale depuis l'URL
   const [isOpen, setIsOpen] = useState(false);
   const { translations, loading } = useTranslations(currentLocale);
   const dropdownRef = useRef(null);
->>>>>>> feat(arabic-design)
-
-    const [isOpen, setIsOpen] = useState(false);
-    const { translations, loading } = useTranslations(currentLocale);
-    const dropdownRef = useRef(null);
 
     const changeLanguage = (newLocale) => {
         // Extraire le chemin actuel sans la locale actuelle
@@ -164,16 +154,6 @@ export default function Footer() {
         return <div>Translations not found</div>;
     }
 
-
-<<<<<<< HEAD
-    return (
-        // <ErrorBoundary>
-        // <React.Suspense fallback={<div>Loading...</div>}>
-        <div key={currentLocale} className="">
-            <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0">
-                <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
-                    <div className="column"></div>
-=======
   return (
     // <ErrorBoundary>
     // <React.Suspense fallback={<div>Loading...</div>}>
@@ -181,7 +161,6 @@ export default function Footer() {
       <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0" >
         <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
           <div className="column"></div>
->>>>>>> feat(arabic-design)
 
                     <div className="footerLogo column">
                         <Link
@@ -439,213 +418,7 @@ export default function Footer() {
                 </section>
             </div>
         </div>
-<<<<<<< HEAD
         // </React.Suspense>
         // </ErrorBoundary>
     );
-=======
-      </div>
-
-      <div className="partie2 max-lg:text-center" >
-        <div className="partie2-div">
-          <main className="partie2-main max-lg:grid-cols-2 max-md:flex max-md:flex-col max-md:gap-5">
-            <div className="partie2-1 max-lg:items-center max-lg:text-center">
-              <button className="partie2-button">
-                {translations.Footer["partie2-button"]}
-              </button>
-              <div className="kal-footer-social">
-                <Link
-                  href={translations.Footer?.["Youtube-link"] || "#"}
-                  target="_blank"
-                >
-                  <Image src={Youtube} alt="YouTube" aria-hidden="true" />
-                </Link>
-                <Link
-                  href={translations.Footer?.["Facebook-link"] || "#"}
-                  target="_blank"
-                >
-                  <Image src={Facebook} alt="Facebook" aria-hidden="true" />
-                </Link>
-                <Link
-                  href={translations.Footer?.["Instagram-link"] || "#"}
-                  target="_blank"
-                >
-                  <Image src={Instagram} alt="Instagram" aria-hidden="true" />
-                </Link>
-                <Link
-                  href={translations.Footer?.["LinkedIn-link"] || "#"}
-                  target="_blank"
-                >
-                  <Image src={LinkedIn} alt="LinkedIn" aria-hidden="true" />
-                </Link>
-              </div>
-
-              <p className="partie2-p max-lg:text-center">
-                {translations.Footer["partie2-p"]}
-              </p>
-            </div>
-            <div className="SiteMapList">
-              <Link
-                className="SiteMapList-a"
-                href={translations.Footer?.["blog-link"] || "#"}
-                target="_blank"
-              >
-                {translations.Footer["SiteMapList-blog"]}
-              </Link>
-              <Link
-                className="SiteMapList-a"
-                href={translations.Footer?.["propos-link"] || "#"}
-                target="_blank"
-              >
-                {translations.Footer["SiteMapList-propos"]}
-              </Link>
-              <Link
-                className="SiteMapList-a"
-                href={translations.Footer?.["faq-link"] || "#"}
-                target="_blank"
-              >
-                {translations.Footer["SiteMapList-faq"]}
-              </Link>
-              <Link
-                className="SiteMapList-a"
-                href={translations.Footer?.["contact-link"] || "#"}
-                target="_blank"
-              >
-                {translations.Footer["SiteMapList-contact"]}
-              </Link>
-            </div>
-
-            <div className="applis max-lg:col-start-[-3] max-lg:col-end-[-1] max-lg:justify-center max-lg:items-center max-lg:mb-5">
-              <h3 className="applis-h3">{translations.Footer["applis-h3"]}</h3>
-              <p className="applis-p max-lg:!text-center">
-                {" "}
-                {translations.Footer["applis-p"]}
-              </p>
-              <div className="logoStore max-md:flex-col">
-                <div className="logoStore1 !gap-2">
-                  <Link
-                    href={translations.Footer["AppStore-link"] || "#"}
-                    target="_blank"
-                    aria-label="Page de téléchargement Apple Store"
-                  >
-                    <Image
-                      src={AppStore}
-                      alt=""
-                      width={150}
-                      height={150}
-                      aria-hidden="true"
-                    />
-                  </Link>
-                  <Link
-                    href={translations.Footer["PlayStore-link"] || "#"}
-                    target="_blank"
-                    aria-label="Page de téléchargement Google Store"
-                  >
-                    <Image
-                      src={PlayStore}
-                      alt=""
-                      width={150}
-                      height={150}
-                      aria-hidden="true"
-                    />
-                  </Link>
-                </div>
-                <div className="logoStore2 max-lg:hidden">
-                  <Link
-                    href={translations.Footer["AppStore-link"] || "#"}
-                    target="_blank"
-                    aria-label="Page de téléchargement Apple Store"
-                  >
-                    <Image
-                      className="logoStore2.img"
-                      src={QRcodeApple}
-                      alt=""
-                      width={110}
-                      height={110}
-                      aria-hidden="true"
-                    />
-                  </Link>
-                  <Link
-                    href={translations.Footer["PlayStore-link"] || "#"}
-                    target="_blank"
-                    aria-label="Page de téléchargement Google Store"
-                  >
-                    <Image
-                      className="logoStore2.img"
-                      src={QRcodeGoogle}
-                      alt=""
-                      width={110}
-                      height={110}
-                      aria-hidden="true"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </main>
-          <aside className="adresses max-md:flex-col max-md:gap-5 max-md:flex max-md:items-center max-md:text-center">
-            <div className="adresses-div">
-              <h3 className="adresses-h3">Smartphone iD FRANCE</h3>
-              <p className="adresses-p">
-                {" "}
-                38 rue Servan, <br /> 75011 Paris, France{" "}
-              </p>
-            </div>
-            <div className="adresses-div">
-              <h3 className="adresses-h3">Smartphone iD SPAIN</h3>
-              <p className="adresses-p">
-                {" "}
-                Calle radas 29 bj, <br /> 08004 Barcelona, Spain{" "}
-              </p>
-            </div>
-            <div className="adresses-div">
-              <h3 className="adresses-h3">Smartphone iD IRELAND</h3>
-            </div>
-            <div className="adresses-div">
-              <h3 className="adresses-h3">Smartphone iD AFRICA</h3>
-              <p className="adresses-p">
-                {" "}
-                SIPRES 2, Immeuble Soda Marieme, <br /> Senegal{" "}
-              </p>
-            </div>
-          </aside>
-        </div>
-        <aside className="aside"></aside>
-        <section className="mentions max-lg:flex-col max-lg:items-center">
-          <p>© 2023 Smartphone iD</p>
-          <Link
-            href={translations.Footer["mentions-confidentialité-link"] || "#"}
-            aria-label="Politique de confidentialité"
-            target="_blank"
-          >
-            {translations.Footer["mentions-confidentialité"]}
-          </Link>
-          <Link
-            href={translations.Footer["mentions-cgu-link"] || "#"}
-            aria-label="Conditions générales d'utilisation"
-            target="_blank m-0"
-          >
-            {translations.Footer["mentions-cgu"]}
-          </Link>
-          <Link
-            href={translations.Footer["mentions-légales-link"] || "#"}
-            aria-label="Mentions légales"
-            target="_blank"
-          >
-            {translations.Footer["mentions-légales"]}
-          </Link>
-          <Link
-            href={translations.Footer["cookies-link"] || "#"}
-            aria-label="Cookies"
-            target="_blank"
-          >
-            {translations.Footer["cookies"]}
-          </Link>
-        </section>
-      </div>
-    </div>
-    // </React.Suspense>
-    // </ErrorBoundary>
-  );
->>>>>>> feat(arabic-design)
 }
