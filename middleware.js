@@ -1,4 +1,3 @@
-
 import { NextResponse } from 'next/server';
 import Negotiator from 'negotiator';
 import nextToGraphQLLocales from './app/lib/locales';
@@ -56,18 +55,18 @@ function getLocale(request) {
     logs.push(`Default locale: ${defaultLocale}`);
     return { locale: getCanonicalLocale(defaultLocale), logs };
 }
+
 export default function middleware(request) {
     const { locale, logs } = getLocale(request);
     const url = new URL(request.url);
 
-   if (!url.searchParams.has('locale')) {
+    if (!url.searchParams.has('locale')) {
         url.searchParams.set('locale', locale);
         const response = NextResponse.redirect(url.toString());
         response.headers.set('X-Logs', logs.join(' | '));
         logs.forEach(log => console.log(log));
         return response;
     }
-
 
     if (url.pathname === '/404' || url.pathname === '/_not-found') {
         return NextResponse.rewrite(new URL('/loading', request.url));
@@ -78,7 +77,6 @@ export default function middleware(request) {
 
     const response = NextResponse.rewrite(url.toString());
     response.headers.set('X-Logs', logs.join(' | '));
-
 
     return response;
 }

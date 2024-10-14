@@ -568,6 +568,8 @@
     "applis-p":  "下载 Smartphone iD 应用程序，跟踪您的订单并享受更多护照照片功能。",
     "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "关注我们，了解有关签证和其他官方文件的最新信息。",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy policy",

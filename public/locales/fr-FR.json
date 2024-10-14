@@ -64,7 +64,7 @@
   "Bloc2" : {
     "repeteur1": [
       {
-        "img_repeteur1": "/images/Bloc2/secure_passpor_photo_tool.png",
+        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
         "titre_repeteur1": "Plus d’1 million de photos conformes livrées"
       },
       {
@@ -616,6 +616,8 @@
     "applis-p":  "Suivez vos commandes et profitez d’encore plus de fonctionnalités avec l’application Smartphone iD.",
     "AppStore-link" : "https://www.smartphone-id.com/",
     "PlayStore-link" : "https://www.smartphone-id.com/",
+    "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
+    "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
     "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
     "mentions-confidentialité": "Politique de confidentialité",
     "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",

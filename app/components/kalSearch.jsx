@@ -45,7 +45,13 @@ const KalSearch = ({ page, locale }) => {
 	useEffect(() => {
 		const fetchCountries = async () => {
 			try {
-				const response = await fetch('https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/country/customized');
+				const response = await fetch('https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/country/customized',
+					{
+						headers: {
+							'language': effectiveLocale.split('-')[0], // Envoi du code de langue (par exemple 'fr' ou 'en')
+						},
+					}
+					);
 				if (response.ok) {
 					const data = await response.json();
 					const countries = data.Countries.map(country => ({
@@ -54,11 +60,9 @@ const KalSearch = ({ page, locale }) => {
 						code: country.country_code,
 					}));
 					setCountries(countries);
-				} else {
-					console.error('Erreur API :', response.statusText);
 				}
 			} catch (error) {
-				console.error('Erreur lors de la récupération des pays:', error);
+				console.error('Error fetching countries:', error);
 			}
 		};
 		fetchCountries();

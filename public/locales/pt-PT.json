@@ -573,6 +573,8 @@
     "applis-p":  "Baixe o aplicativo Smartphone iD para rastrear seus pedidos e aproveitar ainda mais recursos de foto para passaporte.",
     "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Siga-nos e conheça as últimas informações sobre vistos e outros documentos oficiais.",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy policy",

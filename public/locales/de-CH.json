@@ -601,6 +601,8 @@
     "applis-p":  "Laden Sie die Smartphone iD-App herunter, um Ihre Bestellungen zu verfolgen und noch mehr Funktionen zu genießen.",
     "AppStore-link" : "https://apps.apple.com/de/app/offizielles-passfoto/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=de&gl=de",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "mentions-confidentialité": "Privacy Policy",
     "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",

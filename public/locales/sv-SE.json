@@ -604,6 +604,8 @@
     "applis-p":  " Ladda ner Smartphone iD-appen för att spåra dina beställningar och njuta av ännu fler funktioner för passfoton",
     "AppStore-link" : "https://apps.apple.com/se/app/officiellt-passfoto/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=sv&gl=sv",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Upptäck den senaste informationen om identitetshandlingar och visum",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy policy",

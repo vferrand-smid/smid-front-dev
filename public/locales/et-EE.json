@@ -402,7 +402,7 @@
     "titre_bloc8_2": "isikut tõendava dokumendi foto",
     "titre_bloc8_span": "edukat",
     "titre_encart": "Mõned näpunäited",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/y0qOpFWUZgg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",
@@ -569,6 +569,8 @@
     "applis-p":  "Laadige alla Smartphone iD rakendus, et jälgida tellimusi ja nautida veelgi rohkem dokumendifoto funktsioone.",
     "AppStore-link" : "https://apps.apple.com/app/photo-identit%C3%A9-officielle/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?gl=et&hl=et&id=com.smartphoneid",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Avastage uusim teave isikut tõendavate dokumentide ja viisade kohta.",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy Policy",

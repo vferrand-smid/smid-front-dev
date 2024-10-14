@@ -40,7 +40,15 @@ const Bloc1 = ({ page, locale  }) => {
                                     <h4>{item.texte_check_green}</h4>
                                 </div>
                             ))}
-                                    <p className={styles.bloc1Partie1H4}> {translations.Bloc1["titre_h4_bloc1"]}</p>
+                            {/* Ici, on remplace les séparateurs par des <br /> */}
+                            <p className={styles.bloc1Partie1H4}>
+                                {translations.Bloc1.titre_h4_bloc1.split('\\esc').map((part, index) => (
+                                    <React.Fragment key={index}>
+                                        {part}
+                                        {index < translations.Bloc1.titre_h4_bloc1.split('\\esc').length - 1 && <br />}
+                                    </React.Fragment>
+                                ))}
+                            </p>
                         </section>
 
                         <aside >

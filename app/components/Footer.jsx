@@ -281,7 +281,7 @@ export default function Footer() {
                     aria-label="Page de téléchargement Apple Store"
                   >
                     <Image
-                      src={AppStore}
+                      src={translations.Footer.AppStoreImg}
                       alt=""
                       width={150}
                       height={150}
@@ -294,7 +294,7 @@ export default function Footer() {
                     aria-label="Page de téléchargement Google Store"
                   >
                     <Image
-                      src={PlayStore}
+                      src={translations.Footer.PlayStoreImg}
                       alt=""
                       width={150}
                       height={150}

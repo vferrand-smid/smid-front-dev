@@ -28,7 +28,7 @@
     "girl" : "/images/Bloc1/ru-RU/Русский паспорт фото онлайн инструмент.png",
     "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-17.png",
     "titre_bloc1" : "Быстрый и простой инструмент для создания",
-    "titre_h4_bloc1": "Просто сделайте фото и получите готовый результат! <br/>\nПопробуйте прямо сейчас!",
+    "titre_h4_bloc1": "Просто сделайте фото и получите готовый результат!\\escПопробуйте прямо сейчас!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
@@ -583,6 +583,8 @@
     "applis-p":  "Следуйте своим заказам и найдите еще больше функций в приложении.",
     "AppStore-link" : "https://apps.apple.com/ru/app/официальное-фото-на-паспорт/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=ru&gl=ru",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Подпишитесь, чтобы узнать новую информацию об официальных документах!",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy policy",

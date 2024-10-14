@@ -603,6 +603,8 @@
     "applis-p":  "قم بتنزيل تطبيق Smartphone iD لتتبع طلباتك والاستمتاع بالمزيد من ميزات صور جواز السفر.",
     "AppStore-link" : "https://apps.apple.com/app/photo-identit%C3%A9-officielle/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "تابعونا وتعرفوا على أحدث المعلومات المتعلقة بالتأشيرات والوثائق الرسمية الأخرى.",
     "partie2-p-link": "",
     "mentions-confidentialité": "سياسة الخصوصية",

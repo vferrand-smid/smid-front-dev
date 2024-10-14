@@ -392,7 +392,7 @@
     "titre_bloc8_2" : "",
     "titre_bloc8_span": " successo?",
     "titre_encart": "Alcuni suggerimenti",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/ly0GHQfVYys?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "/images/General/check-green.png",
@@ -587,6 +587,8 @@
     "applis-p":  "Scaricate l'applicazione Smartphone iD per monitorare gli ordini e usufruire di ulteriori funzioni per le fototessere.",
     "AppStore-link" : "https://apps.apple.com/it/app/foto-passaporto-ufficiale/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?gl=it&hl=it&id=com.smartphoneid",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Scoprite le informazioni più recenti sui documenti d'identità e i visti.",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy policy",

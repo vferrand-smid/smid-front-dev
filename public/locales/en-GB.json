@@ -580,6 +580,8 @@
     "applis-p":  "Download Smartphone iD app to track your orders and enjoy even more passport photo features.",
     "AppStore-link" : "https://apps.apple.com/gb/app/official-passport-photo/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=gb&gl=gb",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Follow us and find out about the newest information regarding visas and other official documents.",
     "partie2-p-link": "",
     "mentions-confidentialité": "Privacy Policy",
