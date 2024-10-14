@@ -130,6 +130,76 @@ const KalSearch = ({ page, locale }) => {
 	// Désactive le bouton si une sélection est manquante
 	const isButtonDisabled = !selectedDocument || !currentCountry || !selectedCountry;
 
+	// Mappage des locales vers les langues correspondantes
+	const localeToLanguageMap = {
+		'ar-SA': 'ar',
+		'ar-AE': 'ar',
+		'ar': 'ar',
+		'de-CH': 'de',
+		'de-DE': 'de',
+		'de_DE': 'de',
+		'de': 'de',
+		'en-AU': 'en',
+		'en-CA': 'en',
+		'en-GB': 'en',
+		'en-IE': 'en',
+		'en-IN': 'en',
+		'en-NG': 'en',
+		'en-NZ': 'en',
+		'en-SG': 'en',
+		'en-US': 'en',
+		'en': 'en',
+		'en-ZA': 'en',
+		'es-AR': 'es',
+		'es-CO': 'es',
+		'es-ES': 'es',
+		'es': 'es',
+		'es-MX': 'es',
+		'et-EE': 'et',
+		'et': 'et',
+		'fr-BE': 'fr',
+		'fr-CA': 'fr',
+		'fr-CH': 'fr',
+		'fr-FR': 'fr',
+		'fr': 'fr',
+		'it-IT': 'it',
+		'it': 'it',
+		'nl-BE': 'nl',
+		'nl-NL': 'nl',
+		'nl': 'nl',
+		'pl-PL': 'pl',
+		'pt-BR': 'pt-BR',
+		'pt': 'pt-BR',
+		'pt-PT': 'pt-PT',
+		'ru-RU': 'ru',
+		'ru': 'ru',
+		'sv-SE': 'sv',
+		'sv': 'sv',
+		'zh': 'zh',
+		'zh-CN': 'zh',
+		// Ajoute d'autres locales ici si nécessaire
+	};
+
+// Logique pour générer l'URL
+	const handleGenerateUrl = () => {
+		const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
+
+		let language = localeToLanguageMap[effectiveLocale] || effectiveLocale.split('-')[0]; // Utilise le mappage si disponible, sinon utilise la partie langue
+		let countryCode = currentCountry?.toLowerCase(); // Code du pays en minuscule
+
+		// Utilisation du code pays pour les majuscules
+		if (selectedCountry) {
+			countryCode = selectedCountry.toLowerCase();
+		}
+
+		const url = selectedDocument && selectedCountry && currentCountry
+			? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${language}`
+			: `https://smartphone-id-app.com/${platform}/`;
+
+		console.log("URL générée:", url); // Debugging: vérifier l'URL générée
+		window.open(url, '_blank');
+	};
+
 	if (loading) {
 		return <div>Loading...</div>; // or any loading indicator you prefer
 	}
@@ -233,7 +303,8 @@ const KalSearch = ({ page, locale }) => {
 						</svg>
 					</h4>
 					{/* POP-UP DOCUMENT */}
-					<section className="flex gap-4 items-center p-4 cursor-pointer" onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
+					<section className="flex gap-4 items-center p-4 cursor-pointer"
+							 onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
 						{selectedDocument ? (
 							<section className="search-document">
 								<Image
@@ -253,6 +324,15 @@ const KalSearch = ({ page, locale }) => {
 				{/* BOUTON */}
 				<button
 					className={`button-photo message ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
+					onClick={handleGenerateUrl}
+					disabled={isButtonDisabled}
+				>
+					{translations.kalSearch['bouton']}
+				</button>
+
+
+				{/*<button
+					className={`button-photo message ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
 					onClick={async () => {
 						const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
 
@@ -266,11 +346,12 @@ const KalSearch = ({ page, locale }) => {
 					disabled={isButtonDisabled}
 				>
 					{translations.kalSearch['bouton']}
-				</button>
+				</button>*/}
 
 				{isDocumentPopupVisible && (
 					<main className="kal-search-document-popup flex">
-						<div className="kal-search-document-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
+						<div
+							className="kal-search-document-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
 							{documents.map(doc => (
 								<div
 									key={doc.id}
