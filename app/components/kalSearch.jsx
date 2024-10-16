@@ -17,28 +17,31 @@ const KalSearch = ({ page, locale }) => {
 	// Utilisation de usePathname pour récupérer la locale depuis l'URL
 	const pathname = usePathname();
 	const urlLocale = pathname.split('/')[1] || 'fr-FR'; // Valeur par défaut si la locale n'est pas présente
-
-	// Locale effective (URL ou prop)
 	const effectiveLocale = locale || urlLocale;
 
 	// Traductions selon la locale
 	const { translations, loading } = useTranslations(effectiveLocale);
 
+	// Récupération du pays de l'utilisateur via IP (côté client uniquement)
+	useEffect(() => {
+		const fetchUserCountry = async () => {
+			try {
+				const response = await fetch('https://ipapi.co/country/');
+				const countryCode = await response.text();
+				setCurrentCountry(countryCode);
+			} catch (error) {
+				console.error('Error fetching user country:', error);
+			}
+		};
+		fetchUserCountry();
+	}, []);
+
+
 	// Utilisation directe de la locale de l'URL pour récupérer les deux dernières lettres (code pays) pour selectedCountry
 	useEffect(() => {
 		if (effectiveLocale) {
 			const country = effectiveLocale.split('-')[1]?.toUpperCase(); // Extraire les deux dernières lettres
-			console.log("kalSearch.jsx - effective locale (selectedCountry):", country);
 			setSelectedCountry(country);
-		}
-	}, [effectiveLocale]);
-
-	// Définir currentCountry également à partir de la locale (logique similaire)
-	useEffect(() => {
-		if (effectiveLocale) {
-			const countryCode = effectiveLocale.split('-')[1]?.toUpperCase(); // Utilisation du code pays
-			console.log("kalSearch.jsx - effective locale (currentCountry):", countryCode);
-			setCurrentCountry(countryCode); // Utilisation du code pays pour currentCountry
 		}
 	}, [effectiveLocale]);
 
@@ -63,7 +66,7 @@ const KalSearch = ({ page, locale }) => {
 					setCountries(countries);
 				}
 			} catch (error) {
-				console.error('Error fetching countries:', error);
+				console.error('kalSearch.jsx - Error fetching countries:', error);
 			}
 		};
 		fetchCountries();
@@ -72,14 +75,12 @@ const KalSearch = ({ page, locale }) => {
 	// Récupération des documents selon le pays sélectionné
 	useEffect(() => {
 		if (!currentCountry || !selectedCountry) {
-			console.log('currentCountry ou selectedCountry non défini, impossible d\'appeler l\'API');
 			return;
 		}
-
 		const fetchDocuments = async () => {
 			try {
 				const response = await fetch(
-					`https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/price/from-country/${selectedCountry}/to/${selectedCountry}`,
+					`https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/price/from-country/${currentCountry}/to/${selectedCountry}`,
 					{
 						headers: {
 							'language': effectiveLocale.split('-')[0], // Envoi du code de langue (par exemple 'fr' ou 'en')
@@ -92,7 +93,6 @@ const KalSearch = ({ page, locale }) => {
 					console.log("kalSearch.jsx - Documents reçus depuis l'API :", data);
 
 					if (!data.result || !data.result.length) {
-						console.error("Aucun document trouvé dans les résultats de l'API.");
 						setDocuments([]);
 						return;
 					}
@@ -103,11 +103,9 @@ const KalSearch = ({ page, locale }) => {
 						img: doc.purpose.icon ? doc.purpose.icon.url : "",
 					}));
 					setDocuments(docs);
-				} else {
-					console.error('Erreur API :', response.statusText);
 				}
 			} catch (error) {
-				console.error('Erreur lors de la récupération des documents:', error);
+				console.error('kalSearch.jsx - Erreur lors de la récupération des documents:', error);
 			}
 		};
 
@@ -180,23 +178,23 @@ const KalSearch = ({ page, locale }) => {
 		// Ajoute d'autres locales ici si nécessaire
 	};
 
-// Logique pour générer l'URL
-	const handleGenerateUrl = () => {
-		const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
 
+// Logique pour générer l'URL uniquement lors du clic
+	const handleGenerateUrl = async () => {
+
+		const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
 		let language = localeToLanguageMap[effectiveLocale] || effectiveLocale.split('-')[0]; // Utilise le mappage si disponible, sinon utilise la partie langue
 		let countryCode = currentCountry?.toLowerCase(); // Code du pays en minuscule
 
-		// Utilisation du code pays pour les majuscules
+// Utilisation du code pays pour les majuscules
 		if (selectedCountry) {
 			countryCode = selectedCountry.toLowerCase();
 		}
 
 		const url = selectedDocument && selectedCountry && currentCountry
 			? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${language}`
-			: `https://smartphone-id-app.com/${platform}/`;
+			: `https://smartphone-id-app.com/${platform}/${language}`;
 
-		console.log("URL générée:", url); // Debugging: vérifier l'URL générée
 		window.open(url, '_blank');
 	};
 
@@ -323,11 +321,14 @@ const KalSearch = ({ page, locale }) => {
 
 				{/* BOUTON */}
 				<button
-					className={`button-photo message ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
-					onClick={handleGenerateUrl}
-					disabled={isButtonDisabled}
+					onClick={() => {
+						console.log('Clic sur le bouton générer');
+						handleGenerateUrl();
+					}}
+					disabled={!selectedDocument || !selectedCountry}
+					className={`button-photo ${selectedDocument && selectedCountry ? '' : 'disabled'}`}
 				>
-					{translations.kalSearch['bouton']}
+					{translations.kalSearch.bouton}
 				</button>
 
 
