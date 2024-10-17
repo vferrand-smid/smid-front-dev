@@ -374,7 +374,7 @@
       },
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Plantilla-reciente-de-foto-impresa-para-pasaporte-colombiano.png",
+        "img_principal": "/images/Bloc7/es-CO/Plantilla-reciente-de-foto-impresa-para-pasaporte-colombiano.png",
         "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
         "titre": "La prueba de que la foto es reciente"
       }
@@ -543,11 +543,11 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "Sobre nosotros",
-    "propos-link" : "https://www.smartphone-id.com/es_ES/sobre-nosotros/",
+    "propos-link" : "https://www.smartphone-id.com/es/sobre-nosotros/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/es_ES/preguntas-frecuentes/",
+    "faq-link" : "https://www.smartphone-id.com/es/preguntas-frecuentes/",
     "SiteMapList-contact" : "Contacto",
-    "contact-link" : "https://www.smartphone-id.com/es_ES/contact/",
+    "contact-link" : "https://www.smartphone-id.com/es/contact/",
     "applis-h3": "Descarga la app!",
     "applis-p":  "Descarga la app Smartphone iD para hacer un seguimiento de los pedidos y disfrutar de más funciones de la foto para pasaporte.",
     "AppStore-link" : "https://apps.apple.com/es/app/foto-de-pasaporte-oficial/id1527550865",
