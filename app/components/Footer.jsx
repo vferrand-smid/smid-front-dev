@@ -386,7 +386,7 @@ export default function Footer() {
                 </div>
                 <aside className="aside"></aside>
                 <section className="mentions max-lg:flex-col max-lg:items-center">
-                    <p>© 2023 Smartphone iD</p>
+                    <p>© 2024 Smartphone iD</p>
                     <Link
                         href={translations.Footer["mentions-confidentialité-link"] || "#"}
                         aria-label="Politique de confidentialité"
