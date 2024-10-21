@@ -1,5 +1,17 @@
+[build]
+publish = ".next" # Si tu as un dossier généré comme "out", sinon "build" ou "public"
+command = "npm run build"
+
+[[headers]]
+for = "/*"
+[headers.values]
+Host = "www.dev.smartphone-id.com"
+
 [[redirects]]
 from = "/*"
 to = "/"
 status = 200
 force = true
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
