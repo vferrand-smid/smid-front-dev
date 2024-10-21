@@ -8,7 +8,7 @@ for = "/*"
 Host = "www.dev.smartphone-id.com"
 
 [[redirects]]
-from = "/app/*"
-to = "/app/:splat"
+from = "/:locale/*"
+to = "/:locale/:splat"
 status = 200
 force = true
