@@ -1,0 +1,8 @@
+[build]
+publish = "build" # Le dossier à publier, par exemple, si tu utilises un build static avec React
+
+[[redirects]]
+from = "/*"
+to = "/"
+status = 200
+force = true
