@@ -9,6 +9,6 @@ Host = "www.dev.smartphone-id.com"
 
 [[redirects]]
 from = "/*"
-to = "/"
+to = "/[locale]"
 status = 200
 force = true
