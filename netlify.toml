@@ -1,6 +1,9 @@
 [build]
 command = "npm run build"
 
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
 [[redirects]]
 from = "/:locale/*"
 to = "/:locale/:splat"

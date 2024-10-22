@@ -16,6 +16,7 @@
     "@formatjs/intl-localematcher": "^0.5.4",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@netlify/plugin-nextjs": "^5.8.1",
     "autoprefixer": "10.4.14",
     "cookies-next": "^4.1.0",
     "eslint": "8.44.0",
