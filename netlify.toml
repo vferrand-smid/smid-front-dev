@@ -1,14 +1,8 @@
 [build]
-publish = ".next" # Si tu as un dossier généré comme "out", sinon "build" ou "public"
+publish = "out"
 command = "npm run build"
-
-[[headers]]
-for = "/*"
-[headers.values]
-Host = "www.dev.smartphone-id.com"
 
 [[redirects]]
 from = "/:locale/*"
 to = "/:locale/:splat"
 status = 200
-force = true
