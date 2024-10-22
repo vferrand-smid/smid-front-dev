@@ -1,12 +1,12 @@
 [build]
 command = "npm run build"
 
-[[headers]]
-for = "/*"
-[headers.values]
-Host = "www.dev.smartphone-id.com"
-
 [[redirects]]
 from = "/:locale/*"
 to = "/:locale/:splat"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/"
 status = 200
