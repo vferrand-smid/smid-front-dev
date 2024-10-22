@@ -1,5 +1,4 @@
 [build]
-publish = "out"
 command = "npm run build"
 
 [[plugins]]
@@ -8,4 +7,9 @@ package = "@netlify/plugin-nextjs"
 [[redirects]]
 from = "/:locale/*"
 to = "/:locale/:splat"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/"
 status = 200
