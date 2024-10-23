@@ -64,15 +64,15 @@
   "Bloc2": {
     "repeteur1": [
       {
-        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
         "titre_repeteur1": "Más de 1 millón de fotos conformes entregadas"
       },
       {
-        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
         "titre_repeteur1": "Proveedor n.º 1 de códigos ePhoto en línea en Francia"
       },
       {
-        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
         "titre_repeteur1": "Calificación media en Apple y Google Store"
       }
     ]
