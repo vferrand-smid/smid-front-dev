@@ -25,7 +25,7 @@
   },
 
   "Bloc1": {
-    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/herramienta-de-fotografia-de-pasaporte-para-Espana-en-linea.png",
+    "girl": "/images/Bloc1/es-ES/herramienta-de-fotografia-de-pasaporte-para-Espana-en-linea.png",
     "background": "/images/background.png",
     "titre_bloc1": "Herramienta rápida y sencilla para",
     "titre_h4_bloc1": "Basta con hacer una foto y recibirla lista! Pruébalo ya!",
@@ -85,22 +85,22 @@
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Eliminación automática del fondo.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eliminar-fondo-foto-carnet-espana.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/eliminar-fondo-foto-carnet-espana.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Gracias a la supervisión de nuestros expertos, la conformidad de la foto está garantizada.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/supervision_expertos_conformidad_foto_carnet.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/supervision_expertos_conformidad_foto_carnet.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Entrega a domicilio de fotos impresas profesionalmente. Se envían el mismo día en que se encargan.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/entrega-foto-carnet-impresa-espana.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/entrega-foto-carnet-impresa-espana.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "No es necesario proporcionar información personal, la foto se almacena de forma segura.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-segura-espana.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/foto-carnet-segura-espana.png"
       }
     ],
     "repeteur_etape": [
@@ -108,73 +108,73 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Escanea el código QR con tu smartphone y hazte una foto.",
         "titre_check": "Paso 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/herramienta-fotografia-carnet-en-linea.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/herramienta-fotografia-carnet-en-linea.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/verificacion-experto-fotografia-carnet-digital.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/verificacion-experto-fotografia-carnet-digital.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Si es necesario, añade la entrega de la plantilla impresa en tu domicilio.",
         "titre_check": "Paso 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/pedir-foto-carnet-impresa-en-linea.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/pedir-foto-carnet-impresa-en-linea.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-exitosa.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/foto-carnet-exitosa.png"
       }
     ],
     "repeteurCkeckBlackMobile": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Eliminación automática del fondo.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eliminar-fondo-foto-carnet-espana.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/eliminar-fondo-foto-carnet-espana.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Gracias a la supervisión de nuestros expertos, la conformidad de la foto está garantizada.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/supervision_expertos_conformidad_foto_carnet.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/supervision_expertos_conformidad_foto_carnet.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Entrega a domicilio de fotos impresas profesionalmente. Se envían el mismo día en que se encargan.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/entrega-foto-carnet-impresa-espana.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/entrega-foto-carnet-impresa-espana.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "No es necesario proporcionar información personal, la foto se almacena de forma segura.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-segura-espana.png"
+        "imageCkeckBlack": "/images/Bloc3/es-ES/foto-carnet-segura-espana.png"
       }
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Haz una foto con tu smartphone.",
         "titre_check": "Paso 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/herramienta-fotografia-carnet-en-linea-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/herramienta-fotografia-carnet-en-linea-smartphone.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/pedir-foto-carnet-impresa-en-linea-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/pedir-foto-carnet-impresa-en-linea-smartphone.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/verificacion-experto-fotografia-carnet-digital-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/verificacion-experto-fotografia-carnet-digital-smartphone.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-exitosa-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/es-ES/foto-carnet-exitosa-smartphone.png"
       }
     ]
   },
@@ -186,65 +186,65 @@
     "partenaires": [
       {
         "text": "Enpc Ediser",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+        "img": "/images/Bloc4/partenaires/Enpc-Ediser.png"
       },
       {
         "text": "Inri's Formations",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+        "img": "/images/Bloc4/partenaires/Inris-Formations.png"
       },
       {
         "text": "Zebra",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+        "img": "/images/Bloc4/partenaires/Zebra.png"
       },
       {
         "text": "Driveup",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+        "img": "/images/Bloc4/partenaires/Drivup.png"
       },
       {
         "text": "Codes Rousseau",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+        "img": "/images/Bloc4/partenaires/Codes-Rousseau.png"
       },
       {
         "text": "Ma Gestion Zen",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+        "img": "/images/Bloc4/partenaires/Ma-Gestion-Zen.png"
       },
       {
         "text": "Mobilians",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+        "img": "/images/Bloc4/partenaires/Mobilians.png"
       },
       {
         "text": "Planéte Permis",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+        "img": "/images/Bloc4/partenaires/Planete-Permis.png"
       }
     ],
     "media": [
       {
         "text": "Capital",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+        "img": "/images/Bloc4/media/Capital.png"
       },
       {
         "text": "Le Progres",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+        "img": "/images/Bloc4/media/Le-Progres.png"
       },
       {
         "text": "Canal+",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+        "img": "/images/Bloc4/media/Canal.png"
       },
       {
         "text": "E-residency Estonia",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+        "img": "/images/Bloc4/media/eresidency-marketplace-member.png"
       },
       {
         "text": "France Info",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+        "img": "/images/Bloc4/media/France-Info.png"
       },
       {
         "text": "App Advice",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/App-Advice.png"
+        "img": "/images/Bloc4/media/App-Advice.png"
       },
       {
         "text": "JEI",
-        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+        "img": "/images/Bloc4/media/JEI.png"
       }
     ],
     "temoignages": [
@@ -276,40 +276,40 @@
   "Bloc5": {
     "titre_bloc5_1": "¿Por qué la herramienta ",
     "titre_bloc5_span": "Smartphone iD para fotos de pasaporte?",
-    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-facil-con-smartphone.jpg",
+    "imgService": "/images/Bloc5/es-ES/foto-carnet-facil-con-smartphone.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Servicio 24/7",
         "texteService": ""
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Para todo tipo de documentos",
         "texteService": "El tamaño correcto en formato digital e impreso, la profundidad de la foto, el color del fondo, la iluminación..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% de conformidad",
         "texteService": "Consigue el 100% de conformidad para cualquier documento oficial en todo el mundo."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Consigue la mejor foto",
         "texteService": "Haz fotos ilimitadas y elige la mejor."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Atención al cliente real",
         "texteService": "Sin robots, sin información de contacto oculta, su experiencia positiva es importante para nosotros."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Práctico para muchos",
         "texteService": "Especialmente práctico para bebés, discapacitados, expatriados, personas en zonas rurales..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ecológico",
         "texteService": "No more paper to waste if you need to renew your document online."
       }
@@ -323,42 +323,42 @@
     "documents": [
       {
         "titre_doc": "Pasaporte",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-para-pasaporte-espagnol.png"
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-pasaporte-espagnol.png"
       },
       {
         "titre_doc": "Visado",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-para-Visado.png"
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-Visado.png"
       },
       {
         "titre_doc": "DNI",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-para-carnet-de-identidad.png"
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-carnet-de-identidad.png"
       },
       {
         "titre_doc": "Carnet de Conducir",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-para-Permiso-de-conduccion.png"
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-Permiso-de-conduccion.png"
       },
       {
         "titre_doc": "NIE",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/foto-carnet-para-permiso-de-residencia.png"
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-permiso-de-residencia.png"
       }
     ],
     "bloc_photo": [
       {
         "impressionPhoto": "¿Dónde imprimir fotos de pasaporte en España?",
         "paragraphe": "Encarga fotos impresas profesionales con Smartphone iD o imprímelas en un centro cercano.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimir-foto-tablero-espana.png",
+        "planche_photo": "/images/Bloc6/es-ES/imprimir-foto-tablero-espana.png",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id-logo.png"
+            "img_partenaire": "/images/General/smartphone-id-logo.png"
           },
           {
             "nom_partenaire": "Kodak-Express",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Kodak-Express.png"
+            "img_partenaire": "/images/Bloc6/es-ES/Kodak-Express.png"
           },
           {
             "nom_partenaire": "Tecnotron",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Tecnotron.png"
+            "img_partenaire": "/images/Bloc6/es-ES/Tecnotron.png"
           }
         ]
       }
@@ -372,13 +372,13 @@
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Foto-de-pasaporte-con-firma-digital-online.png",
+        "img_principal": "/images/Bloc7/es-ES/Foto-de-pasaporte-con-firma-digital-online.png",
         "paragraphe": "Tu firma se vinculará a la foto para las solicitudes de documentos oficiales online, cuando sea necesario.",
         "titre": "Firma digital"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/plantilla-de-foto-con-fecha-impresa.png",
+        "img_principal": "/images/Bloc7/es-ES/plantilla-de-foto-con-fecha-impresa.png",
         "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
         "titre": "La prueba de que la foto es reciente"
       }
