@@ -17,7 +17,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: process.env.WORDPRESS_IMAGE_HOST,
+                hostname: 'www.dev.smartphone-id.com',
                 port: '',
                 pathname: '/wp-content/uploads/**',
             },
