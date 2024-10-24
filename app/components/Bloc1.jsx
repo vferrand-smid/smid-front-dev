@@ -26,7 +26,7 @@ const Bloc1 = ({ page, locale  }) => {
     return (
         <div className={`kal-hero ${isArabic && 'kal-hero-arabic'}`}>
 
-                    <div >
+                    <div>
                         <h1>
                             {translations.Bloc1["titre_bloc1"]}
                         </h1>
@@ -70,7 +70,8 @@ const Bloc1 = ({ page, locale  }) => {
                             <KalSearch/>
 
                         <article >
-                            <Image
+
+                           <Image
                                 src={translations.Bloc1.girl}
                                 alt="Hero Girl"
                                 width={497}
