@@ -131,24 +131,24 @@
     ],
     "repeteurCkeckBlackMobile": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/fr-FR/outil-enlever-fond-photo-identite.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Suivant le document officiel, signez avec votre doigt.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/faire-signature-photo-identite.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+        "imageCkeckBlack": "/images/Bloc3/fr-FR/photo-identite-conforme-validee.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
-        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+        "imageCkeckBlack":  "/images/Bloc3/fr-FR/imprimer-photo-identite.png"
       }
     ],
     "repeteurEtapeMobile": [
@@ -156,7 +156,7 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-photo-identite-en-ligne-smartphone.png"
       },
       {
         "check_green": "/images/General/check-green.png",
