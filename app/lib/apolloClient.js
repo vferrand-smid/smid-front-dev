@@ -1,12 +1,32 @@
-import { ApolloClient, HttpLink, InMemoryCache } from "@apollo/client";
+import { ApolloClient, HttpLink, InMemoryCache, ApolloLink } from "@apollo/client";
+import { onError } from "@apollo/client/link/error";
 
+// Gestion des erreurs
+const errorLink = onError(({ graphQLErrors, networkError }) => {
+    if (graphQLErrors) {
+        graphQLErrors.forEach(({ message, locations, path }) =>
+            console.log(`[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`)
+        );
+    }
+
+    if (networkError) {
+        console.log(`[Network error]: ${networkError}`);
+    }
+});
+
+const httpLink = new HttpLink({
+    uri: process.env.WORDPRESS_API_URL,
+    fetchOptions: {
+        timeout: 30000,  // Timeout de 30 secondes
+    },
+});
+
+// Création du client Apollo avec gestion des erreurs
 export const client = new ApolloClient({
     cache: new InMemoryCache(),
-    link: new HttpLink({
-        uri: process.env.WORDPRESS_API_URL, // Assurez-vous que cette variable d'environnement est correctement définie
-    }),
+    link: ApolloLink.from([errorLink, httpLink]), // Combine ErrorLink et HttpLink
 });
-console.log("apolloClient.js l-21 => GraphQL API URL:", process.env.WORDPRESS_API_URL);
+
 export function getClient() {
     return client;
 }
