@@ -23,6 +23,12 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
+                hostname: 'dev.smartphone-id.com',
+                port: '',
+                pathname: '/wp-content/uploads/**',
+            },
+            {
+                protocol: 'https',
                 hostname: 'storage.googleapis.com',
                 pathname: '**',
             },
