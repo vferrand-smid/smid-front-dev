@@ -1,0 +1,605 @@
+{
+  "NavBar": {
+    "liens": [
+      {
+        "link" : "Permis de conduire",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Passeport",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Carte National d'identité",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Titre de séjour",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      },
+      {
+        "link" : "Carte vitale",
+        "url" : "https://www.smartphone-id.com/photos-identite-en-ligne/"
+      }
+    ]
+  },
+
+  "Bloc1" : {
+    "girl" : "/images/Bloc1/fr-FR/girl.png",
+    "background" : "/images/background.png",
+    "titre_bloc1" : "Obtenez Rapidement",
+    "titre_h4_bloc1": "pour renouveler vos documents officiels français en ligne !",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "Votre photo d’identité sécurisée"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "Votre signature avec la code ephoto"
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Résultat immédiat garanti"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Contrôlé par des experts"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Essai gratuit"
+      }
+    ]
+  },
+
+  "kalSearch" : {
+    "titre_1" : "J’ai besoin d’une photo d’identité pour",
+    "titre_2" : "Pour le document",
+    "bouton" : "Faire la photo"
+  },
+
+  "Bloc2" : {
+    "repeteur1": [
+      {
+        "img_repeteur1": "/images/Bloc2/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Plus d’1 million de photos conformes livrées"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
+        "titre_repeteur1": "1er fournisseur code ePhoto en ligne en France"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
+        "titre_repeteur1": "Note moyenne sur Apple et Google Store"
+      }
+    ]
+  },
+
+  "Bloc3" : {
+    "titre_bloc3_span": "La solution",
+    "titre_bloc3": "pour votre photo d’identité conforme, sans sortir de chez vous.",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
+        "imageCkeckBlack": "/images/Bloc3/fr-FR/outil-enlever-fond-photo-identite.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Suivant le document officiel, signez avec votre doigt.",
+        "imageCkeckBlack": "/images/Bloc3/faire-signature-photo-identite.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
+        "imageCkeckBlack": "/images/Bloc3/fr-FR/photo-identite-conforme-validee.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
+        "imageCkeckBlack": "/images/Bloc3/fr-FR/imprimer-photo-identite.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
+        "titre_check": "Etape 1",
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Vérifiez les caractéristiques de votre demande.",
+        "titre_check": "Etape 2",
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/outil-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
+        "titre_check": "Etape 3",
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/commender-impression-photo-identite-en-ligne.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
+        "titre_check": "Etape 4",
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-identite-reussi.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Suivant le document officiel, signez avec votre doigt.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
+        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
+        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
+        "titre_check": "Etape 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne-smartphone.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
+        "titre_check": "Etape 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-imprimer-photo-identite-digitale.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Vérifiez les caractéristiques de votre demande.",
+        "titre_check": "Etape 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-en-ligne-smartphone.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
+        "titre_check": "Etape 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-idenite-acceptee-comment.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Depuis 2017, ",
+    "titre_bloc4_2": "de photos d’identité conformes réalisées",
+    "titre_bloc4_span": "plus d’1 million ",
+    "partenaires": [
+      {
+        "text": "Zebra",
+        "img": "/images/Bloc4/partenaires/Zebra.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "/images/Bloc4/partenaires/Enpc-Ediser.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "/images/Bloc4/partenaires/Mobilians.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "/images/Bloc4/partenaires/Codes-Rousseau.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "/images/Bloc4/partenaires/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "CER",
+        "img": "/images/Bloc4/partenaires/Cer.png"
+      },
+      {
+        "text": "Planéte Permis",
+        "img": "/images/Bloc4/partenaires/Planete-Permis.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "/images/Bloc4/partenaires/Drivup.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "/images/Bloc4/partenaires/Inris-Formations.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "/images/Bloc4/media/France-Digitale.png"
+      },
+      {
+        "text": "E-Residency Marketplace",
+        "img": "/images/Bloc4/media/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "France Info",
+        "img": "/images/Bloc4/media/France-Info.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "/images/Bloc4/media/Canal.png"
+      },
+      {
+        "text": "JEI",
+        "img": "/images/Bloc4/media/JEI.png"
+      },
+      {
+        "text": "Le Progrès",
+        "img": "/images/Bloc4/media/Le-Progres.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "/images/Bloc4/media/La-French-Tech.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Chassany2603, 04/04/2022",
+        "texte": "J'avais besoin de photo d'identité en urgence et je n’avais pas le temps de me déplacer. J'ai pris une photo, réglé le montant pour avoir une photo d'identité (aux normes ) et dans l'heure je l'avais dans ma boîte mail. J'ai eu ma carte dans la foulée. Franchement je recommande.",
+        "titre": "Intuitif et rapide"
+      },
+      {
+        "nom": "ninie1208, 29/06/2021",
+        "texte": "Pratique pour les personnes qui comme moi ont peu de temps de libre après le travail. J'ai pris une photo le soir avec mon portable et quelques jours plus tard je l'avais dans ma boîte aux lettres. J'avais rendez-vous à la mairie la semaine d'après pour faire refaire ma carte d'identité, grosse charge mentale en moins.",
+        "titre": "Vraiment super"
+      },
+      {
+        "nom": "betiolina, 15/08/2022",
+        "texte": "Très bonne application. Si le résultat n'est pas probant. On peut recommencer autant de fois qu'il le faut la photo et cela sans payer de supplément.",
+        "titre": "Photo identité"
+      },
+      {
+        "nom": "Anaïs M, 21/02/2022",
+        "texte": "Après plusieurs mois à batailler avec l'Ants qui refusait mes photos prises en photomaton (2 fois) ou \"perdait\" les photos envoyées par courrier (3 fois), j'ai tenté le tout pour le tout, un peu désespérée. Et à ma grande surprise, les photos, loin d'avoir la qualité d'un photomaton ou photographe professionnel, ont été acceptées, et mon permis de conduire est en création. J'essaie, si possible, de ne pas tout faire depuis mon smartphone, mais force est de constater que c'est la seule option qui a marché.",
+        "titre": null
+      },
+      {
+        "nom": "cosmiccbyul, 04/07/2022",
+        "texte": "J'ai téléchargé cette application pour une ephoto titre de séjour puisque je n'étais pas en France et ne pouvais donc pas accéder à photomaton. À ma grande surprise, c'était ultra rapide : j'ai pris une photo en quelques minutes et j'ai reçu le code ephoto 30 minutes plus tard! De plus, cela ne coûte que 6 euros ? Je recommande vivement !!",
+        "titre": "Très rapide et efficace !"
+      },
+      {
+        "nom": "Starsissi, 02/12/2022",
+        "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus il y a des «< conseils » pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis ?",
+        "titre": "Très satisfaite"
+      }
+    ],
+    "nos_partenaires": "Nos partenaires",
+    "nos_medias": "Présents dans les médias"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "Pourquoi choisir ",
+    "titre_bloc5_span": "notre service ?",
+    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
+    "listeService": [
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Service 24h/24 et 7j/7",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Tous les documents",
+        "texteService": "Tous les types de documents sont disponibles."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Conformité à 100%",
+        "texteService": "Pour tous documents officiels, dans le monde entier."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Choisissez la meilleure photo",
+        "texteService": "Et faites des prises illimitées."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Un vrai service client",
+        "texteService": "Des humains et pas de robots."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Solution idéale",
+        "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Écologique",
+        "texteService": "Plus de papier, plus de déplacement."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "Le",
+    "titre_bloc6_2": "photo, pour tous vos documents officiels",
+    "titre_bloc6_span": "bon format",
+    "documents": [
+      {
+        "titre_doc": "Permis de conduire",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
+      },
+      {
+        "titre_doc": "Passeport",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+      },
+      {
+        "titre_doc": "Carte nationale d'identité",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
+      },
+      {
+        "titre_doc": "Titre de séjour",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
+      },
+      {
+        "titre_doc": "Carte vitale",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Impression photo",
+        "paragraphe": "Recevez un format imprimé dans 2 jours ou utilisez ce format pour imprimer vos photos dans nos enseignes partenaires.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "E. Leclerc",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
+          },
+          {
+            "nom_partenaire": "Auchan",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+          },
+          {
+            "nom_partenaire": "Intermarché",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
+          },
+          {
+            "nom_partenaire": "Carrefour",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
+          },
+          {
+            "nom_partenaire": "fnac",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
+          },
+          {
+            "nom_partenaire": "Cewe",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1" : "La solution",
+    "titre_bloc7_2" : "pour les demandes de documents officiels",
+    "titre_bloc7_span": "parfaite",
+    "bloc": [
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
+        "paragraphe": "Pour les documents français, nécessaire pour l’inscription sur le site de l’ANTS.",
+        "titre": "Code ePhoto officiel"
+      },
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
+        "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
+        "titre": "Photo de moins de 6 mois"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : "Comment",
+    "titre_bloc8_2" : "sa photo d'identité",
+    "titre_bloc8_span": "réussir",
+    "titre_encart": "Quelques conseils",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 1,
+        "texte": "Les lunettes",
+        "texte_span": "enlevées"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 2,
+        "texte": "Le visage",
+        "texte_span": "uniformément éclairé"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 3,
+        "texte": "Les cheveux",
+        "texte_span": "derrière les épaules"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 4,
+        "texte": "La bouche",
+        "texte_span": "fermée, pas de sourire"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/photo-identite-conforme/",
+      "title": "En savoir plus"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/photo-identite-bebe/",
+      "title": "Comment faire une photo d'identité de votre bébé ?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "Photo d'identité",
+    "ePhoto": "Code ePhoto",
+    "codeEphoto": [
+      {
+        "texte_accordeon": "<p>Vous devez fournir un <a href=\"https://www.smartphone-id.com/ephoto-ants/\">code ephoto signature numérique</a> (ou code ePhoto) pour une demande en ligne sur le site de l&#8217;ANTS ?</p>\n<p>C&#8217;est très simple, allez sur le site Smartphone-iD : Application Photo Identité et ephoto. Téléchargez l&#8217;application, choisissez le document dont vous avez besoin (Permis de conduire, Titre de séjour, DCEM, &#8230;). Ensuite faites votre photo et votre signature sur votre smartphone et c&#8217;est fini. Après validation de votre photo par notre équipe d&#8217;experts, vous recevrez votre code ePhoto dans votre boîte mails en quelques minutes.</p>\n",
+        "titre_accordeon": "Comment obtenir un code ePhoto ?"
+      },
+      {
+        "texte_accordeon": "<p>Le code ePhoto est écrit sur la planche photos qui est disponible :</p>\n<ul>\n<li>sur l&#8217;application « Photo identité officielle » de Smartphone iD, menu « Suivi de commandes »</li>\n<li>directement dans le mail que vous avez reçu. Sur ce mail, le code ePhoto est également indiqué.</li>\n</ul>\n",
+        "titre_accordeon": "Où trouver le code ePhoto ?"
+      },
+      {
+        "texte_accordeon": "<p>Vous avez 2 possibilités :</p>\n<ul>\n<li>Soit vous recopiez le code ePhoto de 22 caractères (lettres et chiffres) qui figure sur votre planche photos. Attention à bien écrire les lettres en majuscule et à ne pas mettre d&#8217;espace 🙂</li>\n<li>Soit vous faites un copier-coller du code ePhoto indiqué dans le mail que vous avez reçu.</li>\n</ul>\n",
+        "titre_accordeon": "Comment entrer le code ePhoto ?"
+      },
+      {
+        "texte_accordeon": "<p>Le code ePhoto est à usage unique. Une fois que vous l&#8217;avez saisi sur le site de l&#8217;ANTS, vous ne pourrez plus l&#8217;utiliser.</p>\n<p>L&#8217;ANTS sécurise vos données en empêchant la multiplication des utilisations de codes ePhoto.</p>\n",
+        "titre_accordeon": "Combien de fois peut-on utiliser le code ePhoto ?"
+      },
+      {
+        "texte_accordeon": "<p>Le code ePhoto est valable pendant 6 mois. Cela correspond au délai de validité de votre photo d&#8217;identité.</p>\n<p>Vous avez 6 mois pour l&#8217;utiliser, ensuite il ne fonctionnera plus.</p>\n",
+        "titre_accordeon": "Combien de temps est conservé le code ePhoto ?"
+      },
+      {
+        "texte_accordeon": "<p>Sur une planche photos, vous avez UN code ePhoto.</p>\n<p>Si vous avez besoin d&#8217;un autre code ePhoto, vous pouvez l&#8217;obtenir sans refaire vos photo et signature et ce pendant 6 mois. Pour cela, allez dans le menu « Suivi de commandes » de l&#8217;application « Photo identité officielle » de Smartphone iD, sélectionnez votre commande puis demandez un nouveau code ePhoto. Vous le recevrez en quelques minutes.</p>\n",
+        "titre_accordeon": "Sur une planche photos combien y-a-t-il de code ePhoto ?"
+      },
+      {
+        "texte_accordeon": "<p>Plusieurs raisons sont possibles :</p>\n<ul>\n<li>Vous avez fait une erreur lors de la saisie de votre code ePhoto. Les lettres doivent être en majuscule, il faut saisir les 22 caractères sans mettre d&#8217;espace, vous avez confondu les lettres O avec les chiffres 0.</li>\n<li>Vous avez déjà utilisé ce code ePhoto. Le code ePhoto étant à usage unique, demandez un nouveau code ePhoto directement dans l&#8217;application « Photo identité officielle » de Smartphone iD.</li>\n</ul>\n<p>Votre commande date de moins de 6 mois, c&#8217;est simple, pas besoin de refaire vos photo et signature. Allez dans le menu « Suivi de commandes », sélectionnez votre commande puis demandez un nouveau code ePhoto.</p>\n<p>Votre commande date de plus de 6 mois, dans ce cas, passez une nouvelle commande et recevez le code ePhoto en quelques minutes.</p>\n",
+        "titre_accordeon": "Pourquoi mon code ePhoto ne fonctionne-t-il pas ?"
+      },
+      {
+        "texte_accordeon": "<p>C&#8217;est très simple, allez sur le site de l&#8217;ANTS <a href=\"https://permisdeconduire.ants.gouv.fr/\">Permis de conduire &#8211; Accueil (ants.gouv.fr)</a>, choisissez le motif de votre demande (demande d&#8217;inscription à l&#8217;examen du permis de conduire, demande de fabrication de votre permis de conduire, …) puis remplissez le formulaire affiché. Dans la case « code photo signature numérique », saisissez votre code ePhoto, et voilà !</p>\n",
+        "titre_accordeon": "Comment entrer le code ePhoto pour le permis ?"
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>Les photos d&#8217;identité française doivent respecter la norme ISO/IEC 19794-5:2005.</p>\n<p>La taille de la photo d&#8217;identité doit être de 35&#215;45 mm.</p>\n<p>Liste des points principaux à respecter :</p>\n<ul>\n<li>Ne porter aucun accessoire sur les cheveux (couvre-chefs, attaches visibles).</li>\n<li>Adopter une expression neutre, bouche fermée. Pas de sourire.</li>\n<li>L&#8217;ensemble du visage doit être visible (yeux, sourcils, oreilles, cou).</li>\n<li>Pour les cheveux longs, les placer derrière les épaules.</li>\n<li>Ne pas porter de lunettes, sauf avec une attestation médicale spécifique.</li>\n</ul>\n<p>Simplifiez-vous la vie, Smartphone iD se charge de vérifier l&#8217;ensemble de ces points pour vous et vous garantit de présenter une photo d&#8217;identité valide. Plus de risque de voir sa demande rejetée par l&#8217;administration.</p>\n<p>Plus d&#8217;infos sur <a href=\"https://www.smartphone-id.com/photo-identite-conforme/\" target=\"_blank\" rel=\"noopener\">https://www.smartphone-id.com/photo-identite-conforme/</a></p>\n",
+        "titre_accordeon": "Quelles sont les normes pour les photos d’identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Le prix d&#8217;une photo d&#8217;identité varie du simple au quadruple, suivant le support que vous choisissez :</p>\n<ul>\n<li>Photo-cabines : entre 8 et 10€</li>\n<li>Photographes : entre 15 et 20€</li>\n<li>Smartphone iD : moins de 5€</li>\n</ul>\n<p>Smartphone iD applique le prix le plus bas du marché avec la garantie la plus haute. Pour moins de 5€, obtenez des photos d&#8217;identité certifiées conformes.</p>\n",
+        "titre_accordeon": "Combien coûte une photo d’identité en France ?"
+      },
+      {
+        "texteAccordeon": "<p>Une photo d&#8217;identité doit être faite auprès d&#8217;un professionnel agréé, sinon elle ne sera pas acceptée par l&#8217;administration.</p>\n<p>Plusieurs solutions s&#8217;offrent à vous :</p>\n<ul>\n<li>Rester chez vous et utiliser l&#8217;application Smartphone iD, fournisseur certifié de photos d&#8217;identité.</li>\n<li>Vous déplacer chez un photographe habilité ou dans une photo-cabine certifiée.</li>\n</ul>\n<p>Avec Smartphone iD, faire une photo d&#8217;identité devient un jeu d&#8217;enfant. Plus besoin de se déplacer, faites votre photo sur votre smartphone au moment que vous convient. Nous nous occupons de mettre votre photo aux normes et vous la recevez directement dans votre boîte mail.</p>\n",
+        "titre_accordeon": "Comment faire une photo d’identité ?"
+      },
+      {
+        "texteAccordeon": "<p>La photo doit être faite, soit :</p>\n<ul>\n<li>Sur une application mobile utilisant un système agréé par le ministère de l&#8217;intérieur.</li>\n<li>Par un professionnel habilité, type photographe.</li>\n<li>Dans une photo-cabine utilisant un système agréé par le ministère de l&#8217;intérieur.</li>\n</ul>\n<p>Suivant le support choisi, les services ne sont pas identiques et le prix peut varier du simple au quadruple.</p>\n<p>Smartphone iD est le seul à garantir que votre photo d&#8217;identité réponde aux normes exigées par l&#8217;administration et ce pour le prix le plus bas du marché.</p>\n",
+        "titre_accordeon": "Où faire des photos d’identité autour de moi ?"
+      },
+      {
+        "texteAccordeon": "<p>En utilisant Smartphone iD, vous recevez votre planche photos directement sur votre boîte mail.</p>\n<p>Vous avez besoin d&#8217;avoir une version imprimée de votre planche ? Vous avez 3 options :</p>\n<ul>\n<li>Demander l&#8217;impression et l&#8217;envoi de votre planche photos lors de votre commande avec Smartphone iD. Votre planche photos est imprimée par des spécialistes de l&#8217;impression photos et postée en moins de 24H.</li>\n<li>Vous avez déjà passé votre commande, pas de souci. Connectez-vous avec votre email sur l&#8217;application « Photo identité officielle » de Smartphone iD. Cliquez sur le menu « Suivi de commandes » et commandez l&#8217;impression et l&#8217;envoi de votre planche photos.</li>\n<li>Imprimez vous-même votre planche photos soit sur votre imprimante photo personnelle, soit sur une borne photo. Choix non préconisé pour 2 raisons :\n<ul>\n<li>Le format d&#8217;impression est différent pour chaque type d&#8217;imprimante et il peut être fastidieux de trouver celui qui convient pour obtenir les photos à la taille exigée de 35&#215;45 mm.</li>\n<li>L&#8217;administration exige une haute qualité d&#8217;impression ainsi qu&#8217;un papier photo de professionnel.</li>\n</ul>\n</li>\n</ul>\n",
+        "titre_accordeon": "Comment imprimer une photo en format identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Faire une photo d&#8217;identité où l&#8217;on se trouve beau dessus n&#8217;est pas toujours simple.</p>\n<p>Avec Smartphone iD, faites autant de photos que vous voulez, les prises de photos sont illimitées. Ainsi vous êtes assurés d&#8217;avoir LA photo d&#8217;identité que vous désirez.</p>\n<p>Chez un photographe, vous n&#8217;avez droit qu&#8217;à un essai.</p>\n<p>Dans les photo-cabines, vous faites 3 essais et ensuite vous devez choisir.</p>\n",
+        "titre_accordeon": "Comment faire une belle photo d’identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Restez dans la simplicité. La photo d&#8217;identité doit être la plus naturelle possible.</p>\n<p>Le mieux est de laisser vos cheveux détachés. S&#8217;ils sont longs, placez-les derrière les épaules pour que votre visage soit bien visible. Vous pouvez choisir de vous attachez les cheveux mais dans ce cas, aucune attache ne doit être visible et la coiffure ne doit pas être trop sophistiquée.</p>\n<p>Si vous avez une frange, attention à ce qu&#8217;elle ne recouvre pas vos sourcils, sinon vous risquez un refus de l&#8217;administration.</p>\n",
+        "titre_accordeon": "Comment se coiffer pour une photo d’identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Oui, vous pouvez être maquillé sur votre photo d&#8217;identité. Par contre, le maquillage doit être léger. Ne mettez pas de couleur trop prononcée sur vos yeux ou vos lèvres. La photo d&#8217;identité doit être la plus naturelle possible.</p>\n",
+        "titre_accordeon": "Peut-on se maquiller pour une photo d’identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Oui, vous pouvez porter des boucles d&#8217;oreilles sur votre photo d&#8217;identité, si elles sont discrètes. Les boucles d&#8217;oreilles trop voyantes ou trop volumineuses seront refusées par l&#8217;administration.</p>\n",
+        "titre_accordeon": "Peut-on mettre des boucles d’oreilles pour photo d’identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Non, nous vous déconseillons de porter vos lunettes sur votre photo d&#8217;identité. L&#8217;administration accepte très peu de photos avec lunettes car les critères demandés sont très stricts.</p>\n<p>Seules les personnes disposant d&#8217;une attestation médicale les obligeant à porter leurs lunettes sur leur photo d&#8217;identité sont autorisées. Et dans ce cas, elles doivent respecter les règles suivantes :</p>\n<ul>\n<li>ne pas avoir de monture épaisse.</li>\n<li>les yeux et les sourcils ne doivent pas être cachés par la monture.</li>\n<li>Il ne doit pas y avoir le moindre reflet sur les verres.</li>\n<li>Les verres teintés ou colorés sont interdits.</li>\n</ul>\n",
+        "titre_accordeon": "Peut-on garder ses lunettes pour une photo d’identité ?"
+      },
+      {
+        "texteAccordeon": "<p>Pour faire une photo d&#8217;identité sur iPhone, allez sur le site Smartphone-iD : Application Photo Identité et ephoto , et laissez-vous guider !</p>\n<p>Choisissez le document dont vous avez besoin, ensuite faites votre photo sur votre smartphone et c&#8217;est fini. Après validation de votre photo par notre équipe d&#8217;experts, vous recevrez vos photos dans votre boîte mails en quelques minutes.</p>\n",
+        "titre_accordeon": "Comment faire une photo d’identité avec un iPhone ?"
+      },
+      {
+        "texteAccordeon": "<p>Pour faire une photo d&#8217;identité sur Android, allez sur le site Smartphone-iD : Application Photo Identité et ephoto , et laissez-vous guider ! Choisissez le document dont vous avez besoin, ensuite faites votre photo sur votre smartphone et c&#8217;est fini. Après validation de votre photo par notre équipe d&#8217;experts, vous recevrez vos photos dans votre boîte mails en quelques minutes.</p>\n",
+        "titre_accordeon": "Comment faire une photo d’identité avec un Android ?"
+      }
+    ],
+    "titre_bloc9": "fréquemment posées",
+    "titre_bloc9_span": "Questions"
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "Merci d'avoir noté !",
+    "heading": "Cette information était-elle utile ?",
+    "sousTitre" : "Cliquez sur les étoiles pour donner votre note.",
+    "personne" : "personnes ont donné",
+    "etoiles" : "étoiles sur 5"
+  },
+
+  "Bloc11" : {
+    "permis" : "Permis de conduire",
+    "Link1" : "",
+    "passeport" : "Passeport",
+    "Link2" : "",
+    "cni" : "Carte Nationale d'identité",
+    "Link3" : "",
+    "séjour" : "Tire de Séjour",
+    "Link4" : "",
+    "visa" : "Visa",
+    "Link5" : "",
+    "vitale" : "Carte Vitale",
+    "Link6" : ""
+  },
+
+  "Footer": {
+    "partie2-button": "Faire la photo",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-propos" : "À propos de nous",
+    "propos-link" : "https://www.smartphone-id.com/a-propos-de-nous/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/faq/",
+    "SiteMapList-contact" : "Contact",
+    "contact-link" : "https://www.smartphone-id.com/contact/",
+    "applis-h3": "Téléchargez l’application",
+    "applis-p":  "Suivez vos commandes et profitez d’encore plus de fonctionnalités avec l’application Smartphone iD.",
+    "AppStore-link" : "https://www.smartphone-id.com/",
+    "PlayStore-link" : "https://www.smartphone-id.com/",
+    "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
+    "mentions-confidentialité": "Politique de confidentialité",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
+    "mentions-cgu": "Conditions générales d’utilisation",
+    "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
+    "mentions-légales": "Mentions légales",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/cookies/"
+  }
+}

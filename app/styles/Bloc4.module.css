@@ -1,0 +1,92 @@
+.kalTestimonials {
+    @apply  md:w-screen bg-white px-12 overflow-hidden isolate;
+}
+
+.kalTestimonials > h2 {
+    @apply text-black text-3xl font-semibold leading-[40px] max-w-[1140px] mx-auto;
+}
+
+.highlight {
+    background-size: 100% 10px !important;
+    background-position: left 25px;
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.kalTestimonials > div {
+    @apply mb-10;
+}
+
+.kalTestimonialsCarouselWrapper {
+    @apply relative flex items-center justify-center;
+}
+
+.kalTestimonialsCarouselBtn nav {
+    @apply z-30 relative;
+}
+
+.kalTestimonialsCarouselBtn {
+    @apply absolute top-1/2 transform -translate-y-1/2 left-4 z-10;
+}
+
+.kalTestimonialsCarousel {
+    @apply flex-1 max-w-[1140px] grid grid-flow-col auto-cols-[calc(100%/3)] overflow-x-auto rounded-lg scroll-smooth relative;
+}
+
+.kalTestimonialsCard {
+    @apply w-[250px] bg-white shadow-lg rounded-lg p-6;
+}
+
+.kalTestimonialsCard > div {
+    @apply  w-[450px] rounded-lg bg-white shadow-lg flex flex-col gap-2 p-8 box-border h-full;
+}
+
+.kalTestimonialsCard > div > h4 {
+    @apply text-black text-sm font-semibold leading-[26px] mt-2 min-h-[26px];
+}
+
+.kalTestimonialsCard > div > p {
+    @apply text-black text-sm font-normal leading-[26px];
+}
+
+.kalTestimonialsBackground {
+    @apply absolute h-[200px] bg-[#eafaf1] w-[100vw] left-0 top-[25%] object-cover bg-center bg-no-repeat;
+}
+
+.kalTestimonialsMediaWrapper {
+    @apply relative flex items-center justify-center max-w-[1140px] mx-auto gap-8;
+}
+
+.kalTestimonialsMediaWrapper > h3 {
+    @apply text-black text-xl font-semibold leading-normal pl-4 border-l-4 border-[#2fc977] h-[52px] flex items-center w-[180px];
+}
+
+.kalTestimonialsCarouselWrapper nav {
+    @apply z-30 relative;
+}
+
+.kalTestimonialsMedia, .kalTestimonialsPartner {
+    @apply flex-1 max-w-[1140px] grid grid-flow-col auto-cols-[calc(100%/5)] overflow-x-auto rounded-lg scroll-smooth relative;
+}
+
+.kalTestimonialsMedia > *, .kalTestimonialsPartner > * {
+    @apply flex flex-col h-[150px] justify-center items-center gap-2 text-[#4c4c4c] text-center text-xs font-normal leading-5 p-2;
+}
+
+.kalTestimonialsMedia img, .kalTestimonialsPartner img {
+    @apply object-contain w-[80%] aspect-square;
+}
+
+.kalTestimonialsPartnerWrapper {
+    @apply relative flex items-center justify-center max-w-[1140px] mx-auto gap-8;
+}
+
+.kalTestimonialsPartnerWrapper > h3 {
+    @apply text-black text-xl font-semibold leading-normal pl-4 border-l-4 border-[#2fc977] h-[52px] flex items-center w-[180px];
+}
+
+.kalTestimonialsPartnerWrapper nav {
+    @apply z-30 relative;
+}

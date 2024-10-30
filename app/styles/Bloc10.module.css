@@ -1,0 +1,39 @@
+.container {
+    @apply bg-[#EAFAF1] p-6 rounded-xl text-center w-[700px] h-[230px];
+    }
+
+.heading {
+    @apply font-bold text-lg text-gray-900;
+}
+
+.subtitle {
+    @apply mb-4 text-base text-gray-900;
+}
+
+.iconsContainer {
+    @apply mb-4 flex justify-center;
+}
+
+.iconsList {
+    @apply flex space-x-2 p-0 m-0 list-none;
+}
+
+.icon {
+    @apply text-3xl cursor-pointer transition-colors duration-300;
+}
+
+.highlighted {
+    @apply text-[#2FC977];
+}
+
+.defaultIcon {
+    @apply text-gray-400;
+}
+
+.resultsText {
+    @apply mt-2 text-sm text-gray-700;
+}
+
+.thankYouMsg {
+    @apply mb-2 text-sm text-gray-600;
+}

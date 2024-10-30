@@ -1,0 +1,100 @@
+/*
+!* KalSearch.module.css *!
+.kal-search {
+    @apply rounded-lg border-2 border-gray-300 bg-white gap-4 flex flex-col md:flex-row items-center p-2;
+}
+
+.kal-search-country,
+.kal-search-document {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.kal-search-country {
+    padding-right: 20px;
+    border-right: 2px solid #efefef;
+}
+
+.kal-search-country section, .kal-search-document section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+}
+
+.kal-search-country-popup,
+.kal-search-document-popup {
+    @apply absolute bg-white shadow-lg rounded-b-lg mt-1 p-4 z-10;
+}
+
+.kal-search-country-popup {
+    max-width: 300px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid #efefef;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kal-search-document-popup {
+    @apply max-h-96 overflow-y-auto;
+}
+
+.kal-search-country-search-container,
+.kal-search-document-search-suggestion {
+    @apply grid grid-cols-2 gap-4 p-4 overflow-y-auto;
+}
+
+.kal-search-country-search-container {
+    @apply bg-gray-200 rounded-lg p-4 flex items-center gap-2;
+}
+
+.kal-search-country-search-container input {
+    @apply bg-transparent border-none outline-none flex-1 text-lg;
+}
+
+.kal-search-country-search-suggestion div{
+    @apply p-4 border-2 rounded-lg overflow-y-auto grid grid-cols-2 gap-2 leading-tight;
+}
+
+.kal-search-document-search-suggestion div {
+    @apply p-4 border-2 rounded-lg flex items-center cursor-pointer;
+}
+
+.kal-search-country-search-suggestion div {
+    @apply flex-row gap-2;
+}
+
+.kal-search-document-search-suggestion div {
+    @apply flex-col gap-2 items-center;
+}
+
+.kal-search img {
+    @apply w-8 h-8 object-contain;
+}
+
+.kal-search-country-popup svg,
+.kal-search-country-search-container svg {
+    @apply cursor-pointer;
+}
+
+.kal-search h4 {
+    @apply text-black font-semibold text-sm text-left flex items-center gap-2 px-1;
+}
+
+.kal-search button {
+    @apply w-48 h-[52px] bg-black text-white text-center text-base font-semibold rounded-full cursor-pointer;
+}
+
+.disabled {
+    @apply opacity-50 pointer-events-none cursor-not-allowed;
+}*/

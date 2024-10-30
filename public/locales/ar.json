@@ -1,0 +1,534 @@
+{
+  "NavBar": {
+    "liens": [
+      {
+        "link": "جواز السفر",
+        "url": "https://www.smartphone-id.com/ar_AE/%d8%b5%d9%88%d8%b1-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d9%84%d8%ac%d9%88%d8%a7%d8%b2-%d8%a7%d9%84%d8%b3%d9%81%d8%b1/"
+      },
+      {
+        "link": "بطاقة الهوية الوطنية",
+        "url": "https://www.smartphone-id.com/ar_AE/%d8%b5%d9%88%d8%b1%d8%a9-%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9/"
+      },
+      {
+        "link": "رخصة القيادة",
+        "url": "https://www.smartphone-id.com/ar_AE/صورة-رخصة-القيادة,"
+      },
+      {
+        "link": "بطاقة الاقامة",
+        "url": "https://www.smartphone-id.com/ar_AE/صورة-بطاقة-الاقامة"
+      },
+      {
+        "link": "التأشيرة",
+        "url": "https://www.smartphone-id.com/ar_AE/صورة-التأشيرة"
+      }
+    ]
+  },
+
+  "Bloc1" : {
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/أداة-صورة-الهوية-للامارات-عبر-الانترنت.png",
+    "titre_bloc1" : "أداة سريعة وسهلة للحصول على",
+    "titre_h4_bloc1": "ما عليك سوى التقاط صورة واحصل عليها جاهزة! جربها الآن!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "صور الهوية عالية الجودة"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "والتواقيع الرقمية."
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "معاجة سريعة بالذكاء الاصطناعي"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "مدققة من طرف خبراء"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "القبول الحكومي"
+      }
+    ]
+  },
+
+  "kalSearch" : {
+    "titre_1" : "أحتاج إلى صورة لهذا البلد ",
+    "titre_2" : "وهذه الوثيقة",
+    "bouton" : "التقط صورة"
+  },
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "تم توصيل أكثر من مليون صورة هوية مطابقة"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "أول مزود للصور الرقمية والتواقيع عبر الإنترنت"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "نجوم في متجر أبل وجوجل بلاي"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "الحل الكامل",
+    "titre_bloc3": "لصور الهوية بدون مغادرة منزلك",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "تصحيح تلقائي مع إزالة الخلفية.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/التنسيق-التلقائي-لصورة-الهوية-الإماراتية.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "بفضل فحصنا الاحترافي ، يتم ضمان مطابقة الصورة.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/فحص-صورة-الهوية-الاماراتية-من-طرف-خبراء.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "أطلب توصيل الصور المطبوعة احترافيًا إلى المنزل ، وسيتم إرسالها في نفس اليوم عند الطلب.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/طباعة-وتسليم-صورة-الهوية-الإماراتية.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/حفظ-صورة-الهوية-الامارتية-بأمان.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "امسح رمز QR لالتقاط صورة شخصية بهاتفك الذكي.",
+        "titre_check": "الخطوة 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أداة-صور-الهوية-الإماراتية-الخطوة-1-في-الكمبيوتر.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "تحقق من خصائص طلبك.",
+        "titre_check": "الخطوة 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أداة-صور-الهوية-الإماراتية-الخطوة-2-في-الكمبيوتر.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "اطلب لوحة صور مطبوعة من خلال خدمتنا إذا لزم الأمر.",
+        "titre_check": "الخطوة 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أداة-صور-الهوية-الإماراتية-الخطوة-3-في-الكمبيوتر.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "استلم صورتك الفردية ولوحة الصور القابلة للطباعة في بريدك الإلكتروني.",
+        "titre_check": "الخطوة 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-reussi.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "تصحيح تلقائي مع إزالة الخلفية.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/التنسيق-التلقائي-لصورة-الهوية-الإماراتية.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "بفضل فحصنا الاحترافي ، يتم ضمان مطابقة الصورة.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/فحص-صورة-الهوية-الاماراتية-من-طرف-خبراء.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "أطلب توصيل الصور المطبوعة احترافيًا إلى المنزل ، وسيتم إرسالها في نفس اليوم عند الطلب.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/طباعة-وتسليم-صورة-الهوية-الإماراتية.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/حفظ-صورة-الهوية-الامارتية-بأمان.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "التقط صورة الهوية بهاتفك الذكي.",
+        "titre_check": "الخطوة 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أداة-صور-الهوية-الإماراتية-الخطوة-1-في-الهاتف-الذكي.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "اطلب لوحة صور مطبوعة من خلال خدمتنا إذا لزم الأمر.",
+        "titre_check": "الخطوة 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أداة-صور-الهوية-الإماراتية-الخطوة-2-في-الهاتف-الذكي.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "تحقق من خصائص طلبك.",
+        "titre_check": "الخطوة 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أداة-صور-الهوية-الإماراتية-الخطوة-3-في-الهاتف-الذكي.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "استلم صورتك الفردية ولوحة الصور القابلة للطباعة في بريدك الإلكتروني.",
+        "titre_check": "الخطوة 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أداة-صور-الهوية-الإماراتية-الخطوة-4-في-الهاتف-الذكي.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "أكثر من",
+    "titre_bloc4_2": "صورة هوية مطابقة تم إنشاؤها",
+    "titre_bloc4_span": "مليون",
+    "partenaires": [
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mobilians.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "CER",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer.png"
+      },
+      {
+        "text": "Planéte Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "E-Residency Marketplace",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Le Progrès",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "كنت مترددًا قليلاً في البداية بشأن استخدام هذا التطبيق لصورة رخصة القيادة الخاصة بي، ولكن بعد اتباع النصائح والإرشادات حول كيفية إنشاء صورة ناجحة، تم القيام بكل شيء في دقائق. يتحقق الموظفون من أن الصورة قابلة للاستخدام، ويمكنك إما أن ترسل إليك عبر البريد أو عبر البريد الإلكتروني. لم أضطر حتى لمغادرة من منزلي، وهو ميزة إضافية. أنصح به بالتأكيد!!",
+        "titre": "أنصح به بالتأكيد!!"
+      },
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "رائع! واجه والدي صعوبة في الوصول إلى مركبة تصوير رسمية للحصول على صورة جواز السفر الإلكترونية في فرنسا. قمنا بالحصول على صورته في المنزل باستخدام التطبيق. كانت الصورة قليلاً مظلمة، ولكنهم قاموا بتعديلها حتى أصبحت واضحة ودقيقة، تمامًا مثل صورة جواز السفر. تلقينا الصور الإلكترونية في غضون 24 ساعة وبعد عدة أيام تلقينا الصور الفعلية عبر البريد. لم أحتاج إليها، ولكن احتياطيًا. هذه هي المرة الأولى التي استخدم فيها تطبيقًا يقوم بما يقوله بالضبط دون مشاكل! عمل رائع، تطبيق Smart Photo!!!",
+        "titre": "فعال"
+      },
+      {
+        "nom": "Bernard Mitchell, 05/14/2023",
+        "texte": "أوصي بهذا التطبيق. كان أسهل بكثير من زيارة مركبة التصوير الفوتوغرافي، إلخ. شكرًا، عميل سعيد واحد",
+        "titre": "شكرًا، عميل آخر سعيد"
+      },
+      {
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "هذا رائع. تمكنت من التقاط صور ترخيص الإقامة الخاصة بي من الولايات المتحدة دون الحاجة للعودة إلى فرنسا للبحث عن فوتوماتون. كان علي تكرار التقاط الصورة، ولكن التعليمات كانت سهلة الاستيعاب. تجربة رائعة وتواصل رائع.",
+        "titre": "مفيد جدًا"
+      },
+      {
+        "nom": "Stephanie Moffatt, 11/06/2022",
+        "texte": "استغرق الأمر بضع محاولات للحصول على قبول الصورة، ولكنها تقدم نصائح حول ما يمكن فعله بشكل مختلف. استخدمنا هذا التطبيق أنا وزوجي للحصول على جوازات سفر جديدة، وتم قبول صورنا في المرة الأولى من قبل مكتب الجوازات. أرخص بكثير من استخدام كشك التصوير الفوتوغرافي.",
+        "titre": "تم قبول الصور في المرة الأولى"
+      },
+      {
+        "nom": "Pixie and Tess, 06/22/2022",
+        "texte": "عندما كنت أعيش في الولايات المتحدة وكنت بحاجة إلى الحصول على الصورة \"الرمزية\" المطلوبة لتجديد جواز سفري البريطاني، هذا التطبيق هو من أنقذني وكان سهل الاستخدام. في غضون ساعات قليلة فقط، تلقيت موافقة الصورة وال \"الرمز\" اللازم لموقع الحكومة. أوصي بهذا التطبيق بشدة !",
+        "titre": "رائع"
+      }
+    ],
+    "nos_partenaires": "شركاؤنا",
+    "nos_medias": "ظهرت من قبل"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "لماذا يختار الناس",
+    "titre_bloc5_span": "خدمة Smartphone iD ؟",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/أصدقاء-شباب-يلتقطون-صورة-لجواز-السفر-الإماراتي-باستخدام-تطبيق-سمارتفون-اي-دي.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "خدمة 24/7",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "لجميع أنواع الوثائق",
+        "texteService": "الحجم المناسب بالصيغة الرقمية والمطبوعة وعمق الصورة ولون الخلفية والإضاءة ..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "%100 مطابقة",
+        "texteService": "احصل على مطابقة 100% لأي وثيقة رسمية في جميع أنحاء العالم."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "أحصل على أفضل صورة",
+        "texteService": "التقط عددا غير محدود من الصور واختر أفضل صورة."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "خدمة عملاء حقيقية",
+        "texteService": "لا روبوتات، لا معلومات اتصال مخفية؛ تجربتك الإيجابية مهمة بالنسبة لنا."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "مفيد للكثيرين",
+        "texteService": "مفيد بشكل خاص للأطفال والأشخاص ذوي الإعاقة والمغتربين والأشخاص في المناطق الريفية..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "service24h24Et7j7": "صديق للبيئة",
+        "texteService": "صديق للبيئة، لا يوجد المزيد من الورق للإهدار إذا كنت بحاجة لتجديد وثيقتك عبر الإنترنت"
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "مطابقة ",
+    "titre_bloc6_2": " وثيقة إماراتية",
+    "titre_bloc6_span": "صور الهوية لكل",
+    "documents": [
+      {
+        "titre_doc": " جواز السفر الإماراتي",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/جوا-السفر-الاماراتي.png"
+      },
+      {
+        "titre_doc": "بطاقة الإقامة الإماراتية",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/بطاقة-الإقامة-الاماراتية.png"
+      },
+      {
+        "titre_doc": "بطاقة الهوية الإماراتية",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/بطاقة-الهوية-الاماراتية.png"
+      },
+      {
+        "titre_doc": "رخصة القيادة الإماراتية",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/رخصة-القيادة-الاماراتية.png"
+      },
+      {
+        "titre_doc": "التأشيرة الإماراتية",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/التأشيرة-الالكترونية-الاماراتية.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "أين يمكن طباعة صور الهوية الإماراتية؟",
+        "paragraphe": "أطلب صورًا مطبوعة احترافيًا باستخدام خدمة Smatphone iD أو قم بطباعتها في مرفق قريب",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/لوحة-مطبوعة-لصور-الهوية-الإماراتية.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "Mall of the Emirates",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Mall-of-the-Emirates.png"
+          },
+          {
+            "nom_partenaire": "Photo Express",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Photo-Express.png"
+          },
+          {
+            "nom_partenaire": "Desco",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Desco.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1" :"",
+    "titre_bloc7_2" : "عبر الإنترنت لطلبات الوثائق الرسمية",
+    "titre_bloc7_span": "الحل الخاص بك",
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/التوقيع-الرقمي-لصور-الهوية-الاماراتية.png",
+        "paragraphe": "عند الحاجة، سيتم ربط توقيعك بصورتك لطلبات المستندات الرسمية عبر الإنترنت",
+        "titre": "التوقيع الرقمي"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/لوحة-حديثة-لصور-الهوية-الاماراتية.png",
+        "paragraphe": "إن التقاط الصور في الوقت الفعلي يثبت حداثة الصورة، وهو أمر إلزامي بالنسبة للوثائق الرسمية.",
+        "titre": "إثبات حداثة الصورة"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : "كيفية التقاط صورة هوية",
+    "titre_bloc8_2" : "",
+    "titre_bloc8_span": "ناجحة",
+    "titre_encart": "",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/v6AvK60-gqk?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 1,
+        "texte": " إخلع ",
+        "texte_span": "نظارتك"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 2,
+        "texte": "دع الضوء يتساقط ",
+        "texte_span": "بالتساوي على وجهك"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 3,
+        "texte": "يجب أن يكون ",
+        "texte_span": "شعرك خلف كتفيك"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "chiffre": 4,
+        "texte": "الفم مغلق",
+        "texte_span": " تعابير الوجه محايدة"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/ar/%d8%b5%d9%88%d8%b1%d8%a9-%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9/",
+      "title": "المزيد"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/ar/%d8%b5%d9%88%d8%b1-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%a7%d9%85%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a%d8%a9-%d9%84%d9%84%d8%b7%d9%81%d9%84/",
+      "title": "كيف تلتقط صورة الهوية للطفل ؟"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "صور الهوية الشخصية الإماراتية",
+    "ePhoto": "",
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>يجب عليك البحث عن صانع صور الهوية عبر الإنترنت سريع وموثوق به، والأهم من ذلك أن يقدم ضمان قبولها من قبل الحكومة، بالإضافة إلى ضمان استرداد الأموال مثل أداة صور الهوية في Smartphone iD.</p>\n",
+        "titre_accordeon": "        كيفية العثور على صانع جيد لصور الهوية عبر الإنترنت؟"
+      },
+      {
+        "texteAccordeon": "<p>نعم، اكسبرس فوتو تقدم خدمة صور الهوية. يجب عليك دفع 40 درهم إماراتي لكل مجموعة 6 صور قياسية</p>\n",
+        "titre_accordeon": "       هل تقدم أكشاك التصوير اكسبرس فوتو (expressphoto) خدمة صور الهوية؟"
+      },
+      {
+        "texteAccordeon": "<p>نعم، يمكنك الحصول على صور الهوية من استوديوهات اكسبرس المنشرة بكثرة في أبو ظبي. ولكن يجب عليك حجز موعد ودفع 40-60 درهم اماراتيا مقابل الخدمة.</p>\n",
+        "titre_accordeon": "هل تقدم اكسبرس ستوديو (Express Studio) خدمة صور الهوية؟"
+      }
+    ],
+    "titre_bloc9": "على أسئلتك",
+    "titre_bloc9_span": "إجابات"
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "ما مدى فائدة هذا المنشور؟",
+    "sousTitre" : "أنقر على النجمة لتقييمه!",
+    "personne" : ":متوسط التقييم ",
+    "etoiles" : "نجوم من 5"
+  },
+
+  "Bloc11": {
+    "titre": "ابحث عن إجاباتك على الصفحات المقابلة",
+    "liens": [
+      {
+        "link": "رخصة السياقة",
+        "url": "https://www.smartphone-id.com/ar_AE/%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D9%82%D8%A9",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "جواز السفر",
+        "url": "https://www.smartphone-id.com/ar_AE/%D8%AC%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B3%D9%81%D8%B1",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "بطاقة الهوية",
+        "url": "https://www.smartphone-id.com/ar_AE/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "بطاقة الإقامة",
+        "url": "https://www.smartphone-id.com/ar_AE/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%A7%D9%85%D8%A9",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "التأشيرة",
+        "url": "https://www.smartphone-id.com/ar_AE/%D8%A7%D9%84%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
+  "Footer": {
+    "partie2-button": "جرب الآن مجانا!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-propos" : "معلومات عنا",
+    "propos-link" : "https://www.smartphone-id.com/ar_AE/معلومات-عنا/",
+    "SiteMapList-faq" : "الأسئلة الشائعة",
+    "faq-link" : "https://www.smartphone-id.com/ar_AE/الأسئلة-الشائعة/",
+    "SiteMapList-contact" : "تواصل معنا",
+    "contact-link" : "https://www.smartphone-id.com/ar_AE/تواصل-معنا/",
+    "applis-h3": "قم بتنزيل التطبيق!",
+    "applis-p":  "قم بتنزيل تطبيق Smartphone iD لتتبع طلباتك والاستمتاع بالمزيد من ميزات صور جواز السفر.",
+    "AppStore-link" : "https://apps.apple.com/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid",
+    "partie2-p": "تابعونا وتعرفوا على أحدث المعلومات المتعلقة بالتأشيرات والوثائق الرسمية الأخرى.",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "سياسة الخصوصية",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/ar_AE/سياسة الخصوصية/",
+    "mentions-cgu": "شروط الخدمة",
+    "mentions-cgu-link": "https://www.smartphone-id.com/ar_AE/شروط-الخدمة/",
+    "mentions-légales": "إشعار قانوني",
+    "mentions-légales-link": "https://www.smartphone-id.com/ar_AE/إشعار-قانوني/",
+    "Cookies": "ملفات تعريف الارتباط",
+    "Cookies-link": "https://www.smartphone-id.com/ar_AE/ملفات-تعريف-الارتباط/"
+  }
+}

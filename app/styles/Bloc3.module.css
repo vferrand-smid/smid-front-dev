@@ -1,0 +1,72 @@
+.container {
+    @apply  md:w-screen bg-cover bg-no-repeat;
+}
+
+.content{
+    @apply flex flex-col justify-center;
+}
+
+.title {
+    @apply text-left text-black text-3xl font-semibold mb-7 md:text-3xl ;
+}
+
+.highlight {
+    background-size: 100% 10px !important;
+    background-position: left 18px;
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.gridContaint {
+    @apply md:grid md:grid-cols-2 md:gap-8;
+}
+
+.carouselIndicatorMobile {
+    @apply flex justify-center items-center gap-5 mt-5;
+}
+
+.carouselWrapper {
+    @apply relative;
+}
+
+
+.photoCarousel {
+    @apply  md:flex md:overflow-hidden md:rounded-lg;
+}
+
+.carouselIndicator{
+    @apply flex justify-center items-center gap-5 mt-5;
+}
+
+.carouselBtn {
+    @apply  w-8 h-8 rounded-md flex items-center justify-center bg-white shadow-md;
+}
+
+.selected {
+    background-color: rgba(47, 201, 119, 1) !important;
+}
+
+.right {
+    @apply flex sm:flex-wrap bg-[#EFEFEF] rounded-lg w-3/4 p-5;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.benefit {
+    @apply flex flex-col sm:flex-row items-center sm:gap-3 sm:mb-6;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.benefitDetails{
+    @apply flex items-center mt-3 md:flex md:items-center md:gap-3;
+}
+
+.benefitText {
+    @apply text-base mb-3 ml-2;
+}
