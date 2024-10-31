@@ -5,6 +5,7 @@ import nextToGraphQLLocales from './app/lib/locales';
 const defaultLocale = 'fr-FR'; // Locale par défaut
 const languageToLocaleMap = {
     fr: 'fr-FR',
+    en_US: 'en-US',
     en: 'en-US',
     de: 'de-DE',
     ar: 'ar-UAE',

@@ -15,6 +15,7 @@ const nextToGraphQLLocales = {
     'en-NZ': 'EN_NZ',
     'en-SG': 'EN_SG',
     'en-US': 'EN_US',
+    'en_US': 'EN_US',
     'en': 'EN_US',
     'en-ZA': 'EN_ZA',
     'es-AR': 'ES_AR',
