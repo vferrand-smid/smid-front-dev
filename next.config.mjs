@@ -14,6 +14,7 @@ const nextConfig = {
         WORDPRESS_API_URL: process.env.WORDPRESS_API_URL,
     },
     images: {
+        unoptimized: true,
         remotePatterns: [
             {
                 protocol: 'https',
