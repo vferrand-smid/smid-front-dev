@@ -3,16 +3,16 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { GTM_ID } from '../lib/googleTagManager';
 import Script from "next/script";
 import useTranslations from "@/utils/useTranslations";
 import { getGeolocationData } from "@/services/ipapi";
 import { useEffect, useState } from "react";
+import { use } from 'react';
 
 
 
 export default function RootLayout({children, params}) {
-    const locale = params?.locale || 'fr-FR';
+    const locale = use(params)?.locale || 'fr-FR';
     const { translations } = useTranslations(locale);
     const [originCountry, setOriginCountry] = useState('');
     const title = translations?.metadata?.title || "Smartphone iD";

@@ -35,7 +35,9 @@ const Bloc9Accordeon = ({ locale }) => {
             }
             return (
                 <div key={index}>
-                    <main className={activeIndex===index &&"kal-accordion-item-active"} onClick={() => toggleAccordion(index)}>
+                    {/*<main className={activeIndex===index && "kal-accordion-item-active"} onClick={() => toggleAccordion(index)}>*/}
+                        <main className={activeIndex === index ? "kal-accordion-item-active" : undefined} onClick={() => toggleAccordion(index)}>
+
                         <p>{titre}</p>
                         <svg
                             width="16"
@@ -63,14 +65,20 @@ const Bloc9Accordeon = ({ locale }) => {
                             />
                         </svg>
                     </main>
-                    <aside className={activeIndex===index &&"kal-accordion-item-active-aside"} dangerouslySetInnerHTML={{ __html: texte }}>
-                    </aside>
-                </div>
-            );
-        }).filter(question => question !== null);
-    };
+                    {/*<aside className={activeIndex === index && "kal-accordion-item-active-aside"}*/}
+                    {/*       dangerouslySetInnerHTML={{__html: texte}}>*/}
+                        <aside className={activeIndex === index ? "kal-accordion-item-active-aside" : undefined}
+                               dangerouslySetInnerHTML={{__html: texte}}>
 
-    const { translations, loading } = useTranslations(locale);
+                        </aside>
+                </div>
+        );
+        }).filter(question => question !== null);
+        };
+
+        const {
+            translations, loading
+        } = useTranslations(locale);
 
     if (loading) {
         return <div>Loading...</div>;
@@ -102,11 +110,16 @@ const Bloc9Accordeon = ({ locale }) => {
                 <div className={styles.accordionContainer}>
                     <div className={styles.tabList}>
                         {tabs.map((tab, index) => (
-                            <div
+                          /*  <div
                                 key={index}
                                 className={`${styles.tab} ${activeTab === index ? styles.activeTab : ''}`}
                                 onClick={() => setActiveTab(index)}
-                            >
+                            >*/
+                                <div
+                                    key={index}
+                                    className={`${styles.tab} ${activeTab === index ? styles.activeTab : ''}`}
+                                    onClick={() => setActiveTab(index)}
+                                >
                                 <p>{tab.name}</p>
                                 <svg
                                     width="10"

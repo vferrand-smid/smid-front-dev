@@ -13,6 +13,8 @@ const KalSearch = ({ page, locale }) => {
 	const [isCountryPopupVisible, setIsCountryPopupVisible] = useState(false);
 	const [isDocumentPopupVisible, setIsDocumentPopupVisible] = useState(false);
 	const [searchQuery, setSearchQuery] = useState('');
+	const baseUrlAPI = process.env.NEXT_PUBLIC_API;
+	const baseUrlWEBAPP = process.env.NEXT_PUBLIC_WEBAPP;
 
 	// Utilisation de usePathname pour récupérer la locale depuis l'URL
 	const pathname = usePathname();
@@ -49,7 +51,7 @@ const KalSearch = ({ page, locale }) => {
 	useEffect(() => {
 		const fetchCountries = async () => {
 			try {
-				const response = await fetch('https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/country/customized',
+					const response = await fetch(`${baseUrlAPI}/country/customized`,
 					{
 						headers: {
 							'language': effectiveLocale.split('-')[0], // Envoi du code de langue (par exemple 'fr' ou 'en')
@@ -79,8 +81,8 @@ const KalSearch = ({ page, locale }) => {
 		}
 		const fetchDocuments = async () => {
 			try {
-				const response = await fetch(
-					`https://smartphoneid-api--master-2yx5ebbula-ew.a.run.app/price/from-country/${currentCountry}/to/${selectedCountry}`,
+					const response = await fetch(
+					`${baseUrlAPI}/price/from-country/${currentCountry}/to/${selectedCountry}`,
 					{
 						headers: {
 							'language': effectiveLocale.split('-')[0], // Envoi du code de langue (par exemple 'fr' ou 'en')
@@ -191,9 +193,10 @@ const KalSearch = ({ page, locale }) => {
 			countryCode = selectedCountry.toLowerCase();
 		}
 
+
 		const url = selectedDocument && selectedCountry && currentCountry
-			? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${language}`
-			: `https://smartphone-id-app.com/${platform}/${language}`;
+			? `${baseUrlWEBAPP}/${platform}/photo/${selectedDocument}/${selectedCountry}/${language}`
+			: `${baseUrlWEBAPP}/${platform}/${language}`;
 
 		window.open(url, '_blank');
 	};
@@ -330,24 +333,6 @@ const KalSearch = ({ page, locale }) => {
 				>
 					{translations.kalSearch.bouton}
 				</button>
-
-
-				{/*<button
-					className={`button-photo message ${selectedDocument ? '' : 'opacity-60 cursor-not-allowed'}`}
-					onClick={async () => {
-						const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
-
-						const url = selectedDocument && selectedCountry && currentCountry
-							? `https://smartphone-id-app.com/${platform}/photo/${selectedDocument}/${selectedCountry}/${currentCountry.toLowerCase()}`
-							: `https://smartphone-id-app.com/${platform}/`;
-
-						console.log("URL générée:", url);  // Debugging: vérifier l'URL générée
-						window.open(url, '_blank');
-					}}
-					disabled={isButtonDisabled}
-				>
-					{translations.kalSearch['bouton']}
-				</button>*/}
 
 				{isDocumentPopupVisible && (
 					<main className="kal-search-document-popup flex">
