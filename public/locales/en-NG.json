@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Nigeria passport photo - Smartphone ID",
+    "description": "Fast and easy tool for quality passport photos"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -25,7 +30,7 @@
   },
 
 "Bloc1" : {
-    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-nigeria.png",
+    "girl" : "images/Bloc1/en-NG/passport-photo-tool-nigeria.png",
     "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-25.png",
     "titre_bloc1" : "Fast and easy tool for",
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
@@ -288,7 +293,7 @@
   },
 
   "Bloc5": {
-    "titre_bloc5_1": "Why Smartphone iD",
+    "titre_bloc5_1": "Why the Smartphone iD",
     "titre_bloc5_span": "passport photo tool?",
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/easy-passport-photo-tool-online.jpg",
     "listeService": [
@@ -358,7 +363,7 @@
     ],
     "bloc_photo": [
       {
-        "impressionPhoto": "Where to print passport photo in Nigeria?",
+        "impressionPhoto": "Where to print passport photos in Nigeria?",
         "paragraphe": "Order professionally printed photos with Smartphone iD or use ready-to-print template sent to your email.",
         "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-template-nigeria.png",
         "partenaires": [
@@ -380,9 +385,9 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1" : "Your online ",
-    "titre_bloc7_2" : "for official document applications",
-    "titre_bloc7_span": "solution",
+    "titre_bloc7_1" : "Your ",
+    "titre_bloc7_2" : " for official document applications",
+    "titre_bloc7_span": "online solution",
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
@@ -432,11 +437,11 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/en_NG/passport-photo",
+      "url": "https://www.smartphone-id.com/sq/nigerian-passport-photos",
       "title": "See more"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/en_NG/baby-passport-photo",
+      "url": "https://www.smartphone-id.com/sq/passport-photo-baby-nigeria/",
       "title": "How to take a passport photo of a baby?"
     }
   },
@@ -521,38 +526,38 @@
   },
 
   "Bloc11": {
-    "titre": "Find your answers on the corresponding pages",
+    "titre": "Click on the corresponding subsection to find answers about specific Nigerian document passport photos!",
     "liens": [
       {
-        "link": "Driving Licence",
-        "url": "https://www.smartphone-id.com/en_NG/driving-licence",
+        "link": "Drivers Licence",
+        "url": "https://www.smartphone-id.com/sq/nigerian-driving-licence/",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "Passport",
-        "url": "https://www.smartphone-id.com/en_NG/passport",
+        "url": "https://www.smartphone-id.com/sq/aplication-international-passport-nigeria/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "Identity Card",
-        "url": "https://www.smartphone-id.com/en_NG/identity-card",
+        "url": "https://www.smartphone-id.com/sq/nigerian-identity-card",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
-        "link": "Residency Permit",
-        "url": "https://www.smartphone-id.com/en_NG/residency-permit",
+        "link": "Residence Permit",
+        "url": "https://www.smartphone-id.com/sq/nigerian-residency-permit/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
-        "link": "Nigeria visa",
-        "url": "https://www.smartphone-id.com/en_NG/nigeria-visa",
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/sq/nigerian-visa/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
   },
 
   "Footer": {
-    "partie2-button": "Try now for free!",
+    "partie2-button": "Take a photo",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",

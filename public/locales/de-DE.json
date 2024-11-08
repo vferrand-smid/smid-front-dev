@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Deutsches Passfoto online - Smartphone iD",
+    "description": "Schnelles und einfaches Tool für hochwertige Passfotos"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -27,8 +32,8 @@
   "Bloc1": {
     "girl": "/images/Bloc1/de-DE/girl.png",
     "background": "/images/background.png",
-    "titre_bloc1": "Hochwertige Passfotos",
-    "titre_h4_bloc1": "und digitale Signaturen.",
+    "titre_bloc1": "Schnelles und einfaches Tool für",
+    "titre_h4_bloc1": "Einfach ein Foto machen und das fertige Bild erhalten! Probiere es jetzt aus!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
@@ -56,8 +61,8 @@
   },
 
   "kalSearch": {
-    "titre_1": "Ich brauche ein Passfoto in",
-    "titre_2": "Und für welches Dokument",
+    "titre_1": "Ich brauche ein Passfoto für dieses Land",
+    "titre_2": "Und für dieses Dokument",
     "bouton": "Hol dir dein Foto"
   },
 
@@ -80,7 +85,7 @@
 
   "Bloc3": {
     "titre_bloc3_span": "Die komplette",
-    "titre_bloc3": "Passfotolösung, ohne das Haus zu verlassen.",
+    "titre_bloc3": " Passfotolösung - ganz einfach von zu Hause",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
@@ -473,15 +478,15 @@
         "titre_accordeon": "Was kosten Passfoto am Automaten?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Das Passfoto für einen Personalausweis oder für ein anderes offizielles Dokument muss nach Gesetz „aktuell“ sein.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Ein konkreter Zeitraum wird hier nicht genannt. Jedoch sind der Reisepass, als auch der Ausweis per Gesetz ungültig, wenn die einwandfreie Identitätsfeststellung des Inhabers nicht möglich ist.<br />\nEin neues Passfoto ist dementsprechend immer die richtige Wahl.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Das Passfoto für einen Personalausweis oder für ein anderes offizielles Dokument muss nach Gesetz „aktuell“ sein.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Ein konkreter Zeitraum wird hier nicht genannt. Jedoch sind der Reisepass, als auch der Ausweis per Gesetz ungültig, wenn die einwandfreie Identitätsfeststellung des Inhabers nicht möglich ist.<br />\nEin neues Passfoto ist dementsprechend immer die richtige Wahl.</aside>\n",
         "titre_accordeon": "Wie alt darf ein Passfoto sein?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Ein biometrisches Passfoto muss scharf, kontrastreich und vor allem den vorgegebenen Maßen entsprechen. Dementsprechend sollte es mit einer hochauflösenden Kamera aufgenommen werden.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Dein Gesicht muss den Hauptteil des Bildes ausmachen und es sollten keine Schatten oder Reflexionen zu erkennen sein.<br />\nDer Hintergrund muss hell und einfarbig sein und einen Kontrast zu deinem Gesicht und den Haaren aufweisen.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Ein biometrisches Passfoto muss scharf, kontrastreich und vor allem den vorgegebenen Maßen entsprechen. Dementsprechend sollte es mit einer hochauflösenden Kamera aufgenommen werden.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Dein Gesicht muss den Hauptteil des Bildes ausmachen und es sollten keine Schatten oder Reflexionen zu erkennen sein.<br />\nDer Hintergrund muss hell und einfarbig sein und einen Kontrast zu deinem Gesicht und den Haaren aufweisen.</aside>\n",
         "titre_accordeon": "Wie muss ein biometrisches Passfoto aussehen?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Die Kosten für ein biometrisches Passfoto unterscheiden sich stark zwischen den einzelnen Anbietern.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Je nachdem ob du deinen Fotos in einem Fotoautomaten oder in einem Fotostudio machst, bezahlst du für ein Set Passfotos zwischen 8€ und 30€.<br />\nSmartphone iD hat den günstigsten und schnellsten Service.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Die Kosten für ein biometrisches Passfoto unterscheiden sich stark zwischen den einzelnen Anbietern.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Je nachdem ob du deinen Fotos in einem Fotoautomaten oder in einem Fotostudio machst, bezahlst du für ein Set Passfotos zwischen 8€ und 30€.<br />\nSmartphone iD hat den günstigsten und schnellsten Service.</aside>\n",
         "titre_accordeon": "Was kostet ein Passfoto?"
       },
       {
@@ -497,7 +502,7 @@
         "titre_accordeon": "Was ist ein biometrisches Passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Ein professionelles Passfoto lässt sich ganz einfach und schnell mit deinem Handy und der App Smartphone iD erstellen.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Innerhalb kürzester Zeit hast du ein neues biometrisches Passfoto von dir auf deinem Smartphone. Darüber hinaus kannst du Passfotos auch in Fotostudios, in Passfotoautomaten oder in einem dm-Drogeriemarkt machen.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Ein professionelles Passfoto lässt sich ganz einfach und schnell mit deinem Handy und der App Smartphone iD erstellen.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Innerhalb kürzester Zeit hast du ein neues biometrisches Passfoto von dir auf deinem Smartphone. Darüber hinaus kannst du Passfotos auch in Fotostudios, in Passfotoautomaten oder in einem dm-Drogeriemarkt machen.</aside>\n",
         "titre_accordeon": "Wo kann man Passfotos machen?"
       },
       {
@@ -505,19 +510,19 @@
         "titre_accordeon": "Was kosten Passfotos bei dm?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Die einfachste Möglichkeit zum Erstellen eines digitalen Passbildes ist die Nutzung einer Passfoto App wie Smartphone iD.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Mit Hilfe der integrierten Kamera deines Handys oder Tablets, lassen sich schnell und einfach Passfotos von dir erstellen, die du direkt im Anschluss als digitale Datei zugesandt bekommst.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Die einfachste Möglichkeit zum Erstellen eines digitalen Passbildes ist die Nutzung einer Passfoto App wie Smartphone iD.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Mit Hilfe der integrierten Kamera deines Handys oder Tablets, lassen sich schnell und einfach Passfotos von dir erstellen, die du direkt im Anschluss als digitale Datei zugesandt bekommst.</aside>\n",
         "titre_accordeon": "Wie erstelle ich ein digitales Passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Für den Antrag eines Personalausweises beim Amt benötigst du ein biometrisches Passfoto.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Je nach Behörde wird dieses Bild entweder als ausgedrucktes Bild oder als digitale Datei gefordert.<br />\nSolltest du außerdem auch noch einen Reisepass oder anderen Ausweis beantragen, brauchst du für jeden Antrag ein eigenes Passbild.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Für den Antrag eines Personalausweises beim Amt benötigst du ein biometrisches Passfoto.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Je nach Behörde wird dieses Bild entweder als ausgedrucktes Bild oder als digitale Datei gefordert.<br />\nSolltest du außerdem auch noch einen Reisepass oder anderen Ausweis beantragen, brauchst du für jeden Antrag ein eigenes Passbild.</aside>\n",
         "titre_accordeon": "Wie viele Passfotos benötige ich für einen Personalausweis?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> In einem Fotostudio oder einem dm-Markt kannst du biometrische Passfotos von dir machen lassen. Zusätzlich findest du in jeder größeren Stadt auch Fotoautomaten, die diesen Dienst anbieten.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Eine günstige und einfache Variante ist das Nutzen eine Passfoto App wie Smartphone iD, da du hier nur dein Handy benötigst, um ein Passfoto zu erstellen.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> In einem Fotostudio oder einem dm-Markt kannst du biometrische Passfotos von dir machen lassen. Zusätzlich findest du in jeder größeren Stadt auch Fotoautomaten, die diesen Dienst anbieten.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Eine günstige und einfache Variante ist das Nutzen eine Passfoto App wie Smartphone iD, da du hier nur dein Handy benötigst, um ein Passfoto zu erstellen.</aside>\n",
         "titre_accordeon": "Wo kann ich Passfotos machen lassen?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Bei Rossmann oder anderen Drogeriemärkten findest du fast immer ein Fotodruckautomaten. Hier kannst du dein digitales Passfoto einfach ausdrucken. Achte hierbei auf die richtigen Maße für ein biometrisches Passfoto.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Bei Smartphone iD erhältst du deine Passfoto per Mail direkt in der richtigen Größe zum Ausdrucken oder kannst sie dir auch direkt ausgedruckt nach Hause schicken lassen.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Bei Rossmann oder anderen Drogeriemärkten findest du fast immer ein Fotodruckautomaten. Hier kannst du dein digitales Passfoto einfach ausdrucken. Achte hierbei auf die richtigen Maße für ein biometrisches Passfoto.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">Bei Smartphone iD erhältst du deine Passfoto per Mail direkt in der richtigen Größe zum Ausdrucken oder kannst sie dir auch direkt ausgedruckt nach Hause schicken lassen.</aside>\n",
         "titre_accordeon": "Wo kann ich Passfotos ausdrucken lassen?"
       },
       {
