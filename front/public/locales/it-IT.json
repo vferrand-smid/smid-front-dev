@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "title": "Foto d’identità Italiana online - Smartphone ID",
+    "description": "Strumento facile e veloce per fototessere di qualità."
+  },
+
+  "NavBar": {
+    "liens": [
+      {
+        "link" : "Passaporto",
+        "url" : "https://www.smartphone-id.com/it/foto-passaporto-regole/"
+      },
+      {
+        "link" : "Carta d'identità",
+        "url" : "https://www.smartphone-id.com/it/foto-della-carta-didentita/"
+      },
+      {
+        "link" : "Patente di guida",
+        "url" : "https://www.smartphone-id.com/it/foto-patente-di-guida/"
+      },
+      {
+        "link" : "Permesso di soggiorno",
+        "url" : "https://www.smartphone-id.com/it/foto-permesso-soggiorno-it/"
+      }
+    ]
+  },
+
+
+  "Bloc1" : {
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/strumento-per-fototessere-per-lItalia-online.png",
+    "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-2.png",
+    "titre_bloc1" : "Strumento facile e veloce per",
+    "titre_h4_bloc1": "Basta scattare una foto e riceverla pronta! Prova ora!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "fototessere per passaporto di qualità"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "e firma digitale."
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Elaborazione AI immediata"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Verifica da parte di esperti"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Accettazione dell’Amministrazione"
+      }
+    ]
+  },
+
+  "kalSearch" : {
+    "titre_1" : "Ho bisogno di una foto d'identità per",
+    "titre_2" : "Per il documento",
+    "bouton" : "Fai la foto"
+  },
+
+  "Bloc2" : {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Più di 1 milione di fototessere valide consegnate"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Il primo fornitore di ePhoto + firma online"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "Stelle in Apple e Google Play Store"
+      }
+    ]
+  },
+
+  "Bloc3" : {
+    "titre_bloc3_span": "La soluzione completa",
+    "titre_bloc3": "per la fototessera senza uscire di casa",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Raddrizzamento e rimozione dello sfondo automatizzati.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Rimozione-dello-sfondo-della-foto-del-passaporto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Grazie al nostro controllo esperto, la conformità delle foto è garantita.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/controllo-esperto-delle-foto-del-passaporto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Ordina la consegna di foto stampate professionalmente, inviate il giorno stesso dell'ordine.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ordinare-foto-tessera-stampate.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Non è necessario fornire informazioni personali, la foto viene memorizzata in modo sicuro.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/secure-passport-photo-south-africa.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Scannerizza il codice QR con il tuo smartphone e scatta una foto.",
+        "titre_check": "Passo 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-con-il-computer.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Controlla le caratteristiche della tua richiesta di foto.",
+        "titre_check": "Passo 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/strumento-per-fototessera-pre-approvato.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Se necessario, aggiungi la consegna del modello stampato a casa tua.",
+        "titre_check": "Passo 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/stampa-e-consegna-fototessera.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Ricevi la tua foto digitale per il passaporto e un modello pronto da stampare nella tua e-mail.",
+        "titre_check": "Passo 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-valida-online.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Raddrizzamento e rimozione dello sfondo automatizzati.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Rimozione-dello-sfondo-della-foto-del-passaporto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Grazie al nostro controllo esperto, la conformità delle foto è garantita.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/controllo-esperto-delle-foto-del-passaporto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Ordina la consegna di foto stampate professionalmente, inviate il giorno stesso dell'ordine.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ordinare-foto-tessera-stampate.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Non è necessario fornire informazioni personali, la foto viene memorizzata in modo sicuro.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/au-passport-photo-safely-stored.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Scatta una foto con il tuo smartphone.",
+        "titre_check": "Passo 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-con-smartphone.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Se necessario, aggiungi la consegna del modello stampato a casa tua.",
+        "titre_check": "Passo 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ordinare-a-casa-le-foto-stampate-del-passaporto.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Controlla le caratteristiche della tua richiesta di foto.",
+        "titre_check": "Passo 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/controllo-della-foto-del-passaporto-sullo-smartphone.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Ricevi la tua foto digitale per il passaporto e un modello pronto da stampare nella tua e-mail.",
+        "titre_check": "Passo 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-valida-con-smartphone.png"
+      }
+    ]
+},
+
+  "Bloc4": {
+    "titre_bloc4_1": "Oltre ",
+    "titre_bloc4_2": "conformi di foto conformi realizzate",
+    "titre_bloc4_span": "1 milione",
+    "partenaires": [
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "CER",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/CER.png"
+      },
+      {
+        "text": "ma gestion zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Mobilians.png"
+      },
+      {
+        "text": "Planète Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "France Digitale",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      },
+      {
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+      },
+      {
+        "text": "App Advice",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/App-Advice.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Tamsyn Hailes, 16/05/2023",
+        "texte": "All'inizio ero un po' dubbioso sull'utilizzo di questa app per la foto della mia patente di guida, ma dopo aver seguito i consigli e le linee guida su come creare una foto riuscita è stato tutto realizzato in pochi minuti, il personale verifica che la foto sia utilizzabile e si può scegliere se spedirla per posta o via e-mail. Non ho nemmeno dovuto lasciare la comodità di casa mia, il che è un ulteriore vantaggio. La consiglio vivamente!!",
+        "titre": "Da consigliare assolutamente!!"
+      },
+      {
+        "nom": "Nathalie Dickson, 07/01/2022",
+        "texte": "Incredibile! Mio padre aveva difficoltà a raggiungere una cabina fotografica ufficiale per la sua fototessera in Francia. Abbiamo fatto la foto a casa utilizzando l'app, era un po' scura ma l'hanno ritoccata in modo che fosse chiara e precisa, esattamente come una fototessera per passaporto. Abbiamo ricevuto le foto elettroniche entro 24 ore e pochi giorni dopo abbiamo ricevuto quelle cartacee per posta. Non ne avevo bisogno, ma non si sa mai. È la prima volta che uso un'app e fa esattamente quello che dice senza problemi! Ben fatto Smart photo!!!",
+        "titre": "Efficiente"
+      },
+      {
+        "nom": "Stephanie Moffatt, 06/11/2022",
+        "texte": "Ci sono voluti alcuni tentativi per ottenere la foto approvata, ma ci sono suggerimenti su cosa fare in maniera diversa. Sia io che mio marito abbiamo usato questa app per ottenere nuovi passaporti e le foto sono state accettate al primo tentativo dall'ufficio passaporti. Molto più economico che usare una cabina fotografica.",
+        "titre": "Foto accettate al primo tentativo"
+      },
+      {
+        "nom": "Doug Irwin, 20/05/2022",
+        "texte": "È fantastico, ho potuto scattare le foto del mio titre de séjour dagli Stati Uniti senza dover tornare in Francia per trovare una cabina fotografica. Ho dovuto rifare la foto, ma le istruzioni erano facili da seguire. Ottima esperienza e ottima comunicazione.",
+        "titre": "Molto utile"
+      },
+      {
+        "nom": "nikipie247, 16/04/2022",
+        "texte": "Davvero impressionato da questa app - la procedura è stata facile - approvata e allegata alla domanda online senza problemi - la raccomanderei di sicuro.",
+        "titre": "Nuovo passaporto"
+      }
+    ],
+    "nos_partenaires": "I nostri partner",
+    "nos_medias": "Presenti nei media"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "Perché scegliere lo strumento Smartphone iD",
+    "titre_bloc5_span": "per le foto del passaporto?",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
+    "listeService": [
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Servizio 24/7",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Per tutti i tipi di documenti",
+        "texteService": "Le misure corrette in formato digitale e stampato, la profondità della foto, il colore dello sfondo e l'illuminazione..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Conformità al 100%",
+        "texteService": "Conformità al 100% per qualsiasi documento ufficiale in tutto il mondo"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Ottieni la foto migliore",
+        "texteService": "Scatti illimitati e scelta della foto migliore."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Servizio clienti autentico",
+        "texteService": "Nessun robot, nessuna informazione di contatto nascosta: la vostra esperienza positiva è importante per noi."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Pratico per molti",
+        "texteService": "Particolarmente utile per i neonati, i disabili, gli espatriati, le persone nelle zone rurali..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Ecologico",
+        "texteService": "Ecologico, niente più carta da sprecare se dovete rinnovare il vostro documento online"
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "Fototessera compatibile",
+    "titre_bloc6_2": "documento Italiano",
+    "titre_bloc6_span": "con ogni",
+    "documents": [
+      {
+        "titre_doc": "Patente di guida",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Patente-di-guida.png"
+      },
+      {
+        "titre_doc": "Passaporto",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Passaporto.png"
+      },
+      {
+        "titre_doc": "Carta di identità",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carta-didentita.png"
+      },
+      {
+        "titre_doc": "Permesso di soggiorno",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Permesso-di-soggiorno.png"
+      },
+      {
+        "titre_doc": "Visto",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Visto.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Dove stampare le foto del passaporto in Italia?",
+        "paragraphe": "Ordinate foto stampate professionalmente con Smartphone iD o stampate presso una struttura vicina.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/it-passport-photo-template.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "Dedem",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Dedem.png"
+          },
+          {
+            "nom_partenaire": "Kodak Express",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Fotokodak.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1" :"",
+    "titre_bloc7_2" :" online per le richieste di documenti ufficiali",
+    "titre_bloc7_span": "La tua soluzione ",
+    "bloc": [
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/aggiungere-la-firma-digitale-alla-foto-del-passaporto.png",
+        "paragraphe": "La tua firma sarà collegata alla foto per le richieste di documenti ufficiali online, quando necessario.",
+        "titre": "Firma digitale"
+      },
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/mostrare-data-e-ora-della-fototessera.png",
+        "paragraphe": "Lo scatto di foto in tempo reale dimostra che la foto è recente, il che è obbligatorio per i documenti ufficiali.",
+        "titre": "La prova che la foto è recente"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : " Come fare una fototessera di",
+    "titre_bloc8_2" : "",
+    "titre_bloc8_span": " successo?",
+    "titre_encart": "Alcuni suggerimenti",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/ly0GHQfVYys?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 1,
+        "texte": "Senza",
+        "texte_span": "occhiali"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 2,
+        "texte": "Luce uniforme",
+        "texte_span": "sul viso"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 3,
+        "texte": "I capelli dovranno rimanere",
+        "texte_span": "dietro le spalle"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 4,
+        "texte": "Bocca chiusa,",
+        "texte_span": "espressione neutra"
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/it/foto-del-passaporto/",
+      "title": "Per saperne di più"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/it/foto-passaporto-bebe/",
+      "title": "Come fare una fototessera per bambini?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "Fototessere",
+    "ePhoto": "",
+    "codeEphoto": [
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>Per sapere se c’è una macchina per fototessere a Caiazzo, puoi dare uno sguardo nelle piazze, nei tabaccai, nei centri commerciali e negli uffici postali della città. In alternativa, puoi contattare i fotografi o gli studi fotografici della zona e chiedere se offrono il servizio di fototessere. Tuttavia, per ottenere una foto valida non è per forza necessario cercare in giro. Puoi ricevere un modello stampato professionalmente direttamente a casa tua tramite il sito Web Smartphone iD.</p>\n",
+        "titre_accordeon": "C’è una macchina per fototessere a Caiazzo?"
+      },
+      {
+        "texteAccordeon": "<p>Le dimensioni standard della fototessera sono 35 x 45 mm (con zona fronte-mento compresa fra 32 e 36 mm. Tuttavia, ci sono delle eccezioni, come le foto da inserire nella richiesta del visto per l’India e l’Arabia Saudita che devono essere rispettivamente di 50 x 50 mm e 51 x 51. In ogni caso, il 70-80% della fototessera deve essere occupato dalla base del mento alla fronte. Devi anche assicurarti che l’immagine sia nitida e non sfocata.</p>\n",
+        "titre_accordeon": "Che formato hanno le fototessere?"
+      },
+      {
+        "texteAccordeon": "<p>Quando fai la richiesta per la patente internazionale, devi presentare 1 fototessera in formato 35 x 45 mm e 1 fototessera uguale a quella che hai utilizzato per la tua patente italiana. Se invece hai intenzione di fare la patente all’estero, ti consigliamo di fare riferimento ai requisiti specifici previsti dal Paese di tuo interesse.</p>\n",
+        "titre_accordeon": "Che fototessere servono per la patente estera?"
+      },
+      {
+        "texteAccordeon": "<p>Le fototessere per il passaporto devono:</p>\n<ul>\n<li>Essere recenti</li>\n<li>Essere a colori con uno sfondo bianco uniforme</li>\n<li>Avere una larghezza di 35x40mm/35x45 mm</li>\n<li>Inquadrare in primo piano il viso e le spalle (il 70-80% della fototessera deve essere occupato dal viso)</li>\n<li>Essere a fuoco e nitide</li>\n<li>Essere di alta qualità</li>\n<li>Essere prive di macchie di inchiostro o pieghe</li>\n</ul>\n",
+        "titre_accordeon": "Che fototessere servono per il passaporto?"
+      },
+      {
+        "texteAccordeon": "<p>Per scattare le fototessere, si consiglia di indossare una maglia di colore chiaro e sobria. Sono invece da evitare le t-shirt con scritte e disegni troppo vistosi perché potrebbero distrarre l’attenzione. Un altro capo non indicato sono le maglie a collo alto perché potrebbero creare ombre sul viso e coprono il collo. Hai invece piena libertà su pantaloni e gonne da indossare perché non influenzeranno lo scatto.</p>\n",
+        "titre_accordeon": "Che maglie bisogna mettere quando si fanno le fototessere?"
+      },
+      {
+        "texteAccordeon": "<p>Per avere maggiori informazioni su chi offre il servizio di fototessere a Sant’Ambrogio di Valpolicella, puoi dare uno sguardo sui siti dei fornitori di cabine di fototessere o contattare uno dei laboratori fotografici della città. Altrimenti, puoi realizzarle comodamente da casa usufruendo del servizio Smartphone iD: il servizio include anche il controllo di esperti per ogni documento di ogni paese.</p>\n",
+        "titre_accordeon": "Chi fa le fototessere a Sant’Ambrogio di Valpolicella?"
+      },
+      {
+        "texteAccordeon": "<p>Ci sono diverse opzioni per ottenere le fototessere in formato digitale. Se necessiti di una fototessera di alta qualità, puoi recarti da un fotografo professionista. Se cerchi un metodo economico, puoi utilizzare app e software come Smartphone iD che permettono di creare fototessere in formato digitale direttamente a casa tua. In ogni caso, le fototessere dovrebbero essere salvate in formato JPEG o PNG.</p>\n",
+        "titre_accordeon": "Come si fa ad avere le fototessere in formato digitale?"
+      },
+      {
+        "texteAccordeon": "<p>I requisiti delle fototessere per i documenti dei bambini sono identici a quelli delle fototessere per i documenti degli adulti. Dunque, dovrai rispettare le dimensioni e le pose richieste dall’istituzione che rilascia il documento. Puoi scegliere di realizzare la foto da un fotografo professionista, in una cabina fotografica oppure a casa. Il metodo fai da te è il più indicato per i neonati e i bambini in età prescolare. Nel momento degli scatti, verifica sempre che il volto del bambino non sia coperto da ciuccio o da giocattoli e che abbia gli occhi aperti e la bocca chiusa. Se tuo figlio è impaziente, potresti chiedere aiuto a un altro famigliare.</p>\n",
+        "titre_accordeon": "Come fare le fototessere per i documenti dei bambini di 2 anni?"
+      },
+      {
+        "texteAccordeon": "<p>Per la carta d’identità elettronica serve una sola fototessera.<br />\nLa foto deve rispettare i requisiti precisati dal Ministero, dunque deve essere stata scattata di recente, nell’arco degli ultimi 6 mesi, deve essere a colori su sfondo bianco, con dimensioni 35&#215;45 mm e in formato cartaceo.<br />\nSe non sei sicuro che la tua foto soddisfi i requisiti, puoi utilizzare il servizio Smartphone iD che include il controllo di esperti per ogni documento di ogni paese.</p>\n",
+        "titre_accordeon": "Quante fototessere servono per la carta d’identità elettronica?"
+      },
+      {
+        "texteAccordeon": "<p>Con Smartphone iD è possibile fare le fototessere in qualsiasi luogo! Dopo che hai scattato la foto, il nostro software la formatta automaticamente nella dimensione necessaria per il documento da te richiesto e poi la fa controllare a esperti del settore.<br />\nIn pratica, Smartphone iD funziona come una cabina fotografica, con la differenza che non ti devi recare in un centro commerciale o in una piazza della città, ma devi semplicemente utilizzare il tuo smartphone.<br />\nInoltre, è un’alternativa meno costosa ai fotografi professionisti.</p>\n",
+        "titre_accordeon": "Dove si possono fare le fototessere?"
+      },
+      {
+        "texteAccordeon": "<p>Per assicurarti di uscire bene nelle fototessere, puoi seguire dei passaggi. Controlla che lo sfondo della foto sia uniforme, senza elementi distrattivi e che non ci siano ombre.<br />\nPoi, mettiti davanti alla fotocamera tenendo la schiena dritta e verifica di avere i capelli puliti e pettinati indietro per mostrare il viso.<br />\nPiega leggermente la testa verso il basso e guarda nell&#8217;obiettivo. Mantieni un’espressione facciale neutra, senza sorridere, e gli occhi aperti.<br />\nInfine, prima di far partire lo scatto, rilassa le spalle e i muscoli del viso.</p>\n",
+        "titre_accordeon": "Come si fa a venire bene nelle fototessere?"
+      },
+      {
+        "texteAccordeon": "<ul>\n<li>Per la patente servono tre fototessere in formato cm. 3,5 x 4,5. Queste foto devono rispettare delle dimensioni e dei requisiti specifici, ad esempio devono essere a colori, avere uno sfondo bianco uniforme, il viso deve essere centrato e le dimensioni devono essere di 35&#215;45 mm.<br />\nSe non sei sicuro che la tua foto soddisfi i requisiti, puoi utilizzare il servizio Smartphone iD che include il controllo di esperti per ogni documento di ogni paese.</li>\n</ul>\n",
+        "titre_accordeon": "Quante fototessere servono per la patente?"
+      },
+      {
+        "texteAccordeon": "<p>Per il passaporto, di norma è richiesta una solo fototessera. Questa foto deve rispettare specifiche dimensioni e requisiti, ad esempio deve essere a colori, avere uno sfondo bianco uniforme, il viso deve essere centrato e le dimensioni devono essere di 35&#215;45 mm.<br />\nSe non sei sicuro che la tua foto soddisfi i requisiti, puoi utilizzare il servizio Smartphone iD che include il controllo di esperti per ogni documento di ogni paese.</p>\n",
+        "titre_accordeon": "Quante fototessere servono per il passaporto?"
+      },
+      {
+        "texteAccordeon": "<ul>\n<li>Trova un luogo con uno sfondo chiaro e uniforme, assicurandoti che la luce sia ben distribuita.<br />\nChiedi a qualcuno di farti la foto o, nel caso in cui tu sia da solo, poggia il cellulare su un mobile e imposta un timer per la fotocamera del tuo cellulare in modalità “selfie”.<br />\nPosizionati a circa un metro di distanza e scatta la foto. Assicurati di centrare il viso.<br />\nPoi, verifica che la foto scattata rispetti i requisiti richiesti per le fototessere con il servizio Smartphone iD, che ritaglia e formatta automaticamente la tua foto nella dimensione richiesta dagli enti competenti e la sottopone a dei controlli con esperti.</li>\n</ul>\n",
+        "titre_accordeon": "Come si fanno le fototessere con il cellulare?"
+      },
+      {
+        "texteAccordeon": "<p>Il prezzo delle fototessere dipende da dove ti rechi per realizzarle. In una macchinetta, una stampa con 4 foto costa dai 5€ ai 7€. Un fotografo professionista invece chiede tra i 15€ ai 20€ per quattro copie.<br />\nTuttavia, spesso propone degli sconti per bambini e anziani. Se non riesci a utilizzare questi due metodi, puoi scattare la fototessera con il tuo cellulare, utilizzando il servizio di Smartphone iD.<br />\nDopo che hai scattato la foto, il nostro software la formatta automaticamente nella dimensione necessaria per il documento da te richiesto e poi la fa controllare a esperti del settore.</p>\n",
+        "titre_accordeon": "Quanto costano le fototessere?"
+      },
+      {
+        "texteAccordeon": "<p>Il metodo tradizionale per fare le fototessere in casa prevede prima di tutto scattare una foto in primo piano, con uno sfondo bianco alle spalle e con il viso scoperto.<br />\nVisto che il formato tessera prevede una dimensione standard di 35 x 45 mm con zona fronte-mento compresa fra 32 e 36 mm, devi assicurarti che la tua foto rispetti questi requisiti utilizzando un software specifico.<br />\nAvrai necessità anche di una stampante compatibile con la carta fotografica perché una stampa con la carta normale non verrebbe accettata.<br />\nSe vuoi saltare tutti questi passaggi, puoi semplicemente utilizzare Smartphone iD, che farà tutto al posto tuo.</p>\n",
+        "titre_accordeon": "Dove si possono stampare le fototessere?"
+      },
+      {
+        "texteAccordeon": "<p>Per stampare le fototessere dal pc, devi prima di tutto scaricare un software che permette di ottenere foto di 35 x 45 mm.<br />\nPoi, dovrai collegare al tuo pc una stampante compatibile con la carta fotografica perché una foto stampata con la carta normale non verrebbe accettata.<br />\nAltrimenti, puoi ottenere una foto di qualità direttamente attraverso il sito Web Smartphone iD, senza dover scaricare nessun software.</p>\n",
+        "titre_accordeon": "Come si possono stampare le fototessere dal pc?"
+      },
+      {
+        "texteAccordeon": "<p>A Cagliari puoi fare le fototessere nelle cabine fotografiche presenti nei principali snodi della città, nei tabaccai, nei centri commerciali e negli uffici postali o in uno dei tanti laboratori fotografici della città che offrono questo servizio.<br />\nPer avere maggiori informazioni su chi offre il servizio di fototessere a Cagliari, puoi chiedere ai residenti locali o dare uno sguardo ai siti web dedicati.<br />\nSe invece preferisci fare le fototessere comodamente a casa, puoi optare per il servizio di Smartphone iD, che ti permette di scattare la foto con il tuo cellulare, formattarla nella dimensione necessaria per qualsiasi documento italiano e farla controllare da esperti del settore.</p>\n",
+        "titre_accordeon": "Dove si possono fare le fototessere a Cagliari?"
+      },
+      {
+        "texteAccordeon": "<p>Quando si fa la richiesta per il rinnovo della patente, bisogna presentare due fototessere, i bollettini dei versamenti effettuati al Ministero dei Trasporti e per l’imposta di bollo, un documento di identità in corso di validità, la patente in scadenza, il codice fiscale ed eventuali certificazioni che indichino la presenza di patologie o l’obbligo di indossare occhiali da vista.</p>\n",
+        "titre_accordeon": "Quante fototessere servono per il rinnovo della patente?"
+      },
+      {
+        "texteAccordeon": "<p>Il costo di una fototessera da un fotografo professionista è tra i 15€ e i 20€ per 4 copie.<br />\nPossono esserci delle piccole variazioni di prezzo, a seconda del formato richiesto (cartaceo o digitale). Si tratta di un costo più alto rispetto alle macchinette, dove il prezzo di una stampa con 4 foto varia dai 5€ ai 7€.</p>\n",
+        "titre_accordeon": "Quanto costano 4 fototessere dal fotografo?"
+      },
+      {
+        "texteAccordeon": "<p>Per stampare le fototessere con il tuo pc, devi prima di tutto scaricare un software che permette di ottenere foto di 35 x 45 mm.<br />\nPoi, dovrai collegare al tuo pc una stampante compatibile con la carta fotografica perché quando una foto stampata con la carta normale non verrebbe accettata.<br />\nSe non vuoi scaricare nessun software, puoi optare per il servizio Smartphone iD.</p>\n",
+        "titre_accordeon": "Come si possono stampare le fototessere con il pc?"
+      },
+      {
+        "texteAccordeon": "<p>A Firenze puoi fare le fototessere nelle cabine fotografiche presenti nei principali snodi della città, nei tabaccai, nei centri commerciali e negli uffici postali o in uno dei tanti laboratori fotografici della città che offrono questo servizio.<br />\nPer avere maggiori informazioni su chi offre il servizio di fototessere a Firenze, puoi chiedere ai residenti locali o dare uno sguardo ai siti web dedicati.<br />\nSe invece preferisci fare le fototessere comodamente a casa, puoi optare per il servizio di Smartphone iD, che ti permette di scattare la foto con il tuo cellulare, formattarla automaticamente nella dimensione necessaria per il documento da te richiesto e poi farla controllare da esperti del settore.</p>\n",
+        "titre_accordeon": "Dove si possono fare fototessere a Firenze?"
+      }
+    ],
+    "titre_bloc9": "alle tue domande",
+    "titre_bloc9_span": "Risposte "
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "Hai trovato questo utile?",
+    "sousTitre" :"Clicca sulle stelle per lasciare una valutazione.",
+    "personne" : "Voto medio",
+    "etoiles" : "stelle su 5"
+  },
+
+  "Bloc11": {
+    "titre": "Cliccare sulla sezione appropriata per trovare le risposte su specifiche fototessere per documenti Italiani!",
+    "liens": [
+      {
+        "link": "Patente di guida",
+        "url": "https://www.smartphone-id.com/it/patente-di-guida/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Passaporto",
+        "url": "https://www.smartphone-id.com/it/passaporto/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Carta d'identità",
+        "url": "https://www.smartphone-id.com/it/foto-didentita-online/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Permesso di soggiorno",
+        "url": "https://www.smartphone-id.com/it/permesso-di-soggiorno/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/it/visto-electronico/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
+  "Footer": {
+    "partie2-button": "Ricevi la tua foto",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-propos" : "Chi siamo",
+    "propos-link" : "https://www.smartphone-id.com/it/chi-siamo/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
+    "SiteMapList-contact" : "Contatti",
+    "contact-link" : "https://www.smartphone-id.com/it/scegli-il-contatto/",
+    "applis-h3": "Scaricate l'app!",
+    "applis-p":  "Scaricate l'applicazione Smartphone iD per monitorare gli ordini e usufruire di ulteriori funzioni per le fototessere.",
+    "AppStore-link" : "https://apps.apple.com/it/app/foto-passaporto-ufficiale/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?gl=it&hl=it&id=com.smartphoneid",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
+    "partie2-p": "Scoprite le informazioni più recenti sui documenti d'identità e i visti.",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Privacy policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "title": "Pasfoto's - Smartphone ID",
+    "description": "Een snel en eenvoudig hulpmiddel voor pasfoto's van hoge kwaliteit"
+  },
+
+  "NavBar": {
+    "liens": [
+      {
+        "link": "Paspoort",
+        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-paspoort"
+      },
+      {
+        "link": "Identiteitskaart",
+        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-identiteitskaart"
+      },
+      {
+        "link": "Rijbewijs",
+        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-rijbewijs"
+      },
+      {
+        "link": "Visum",
+        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-visum/"
+      }
+    ]
+  },
+
+  "kalSearch": {
+    "titre_1": "Ik heb een foto nodig voor dit land",
+    "titre_2": "en dit document",
+    "bouton": "Maak een foto"
+  },
+
+  "Bloc1": {
+    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/pasfototool-voor-belgie-online.png",
+    "background": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-16.png",
+    "titre_bloc1": "Een snel en eenvoudig hulpmiddel voor",
+    "titre_h4_bloc1": "Neem simpelweg een foto en ontvang hem kant-en-klaar! Probeer het nu!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "pasfoto's van hoge kwaliteit"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "en digitale handtekeningen."
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Directe AI-bewerking"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Verificatie door experts"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Geaccepteerd door de overheid"
+      }
+    ]
+  },
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "titre_repeteur1": "Meer dan een miljoen geldige pasfoto's afgeleverd"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Eerste online aanbieder van ePhoto’s & handtekeningen"
+      },
+      {
+        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "titre_repeteur1": "Sterren in Apple en Google Play Store"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "De ideale ",
+    "titre_bloc3": "pasfoto-oplossing zonder je huis te verlaten",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Automatische dimensionering en achtergrondverwijdering.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/belgisch-pasfoto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Door onze deskundige controle is de geldigheid van de foto gegarandeerd.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Expert-controle-Belgische-pasfoto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Bestel thuisbezorging van deze professioneel afgedrukte foto's, die dezelfde dag worden verzonden als ze zijn besteld.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Afdrukken-levering-Belgische-pasfoto.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Je foto wordt veilig bewaard, zonder dat je persoonlijke gegevens hoeft te verstrekken.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-veilig-opgeslagen.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": " Scan de QR-code met je smartphone en maak een foto.",
+        "titre_check": "Stap 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-1-op-computer.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Beoordeel de eigenschappen van je fotovraag",
+        "titre_check": "Stap 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-2-op-computer.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Voeg indien nodig de levering van een afgedrukte sjabloon aan huis toe.",
+        "titre_check": "Stap 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-3-op-computer.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Ontvang je digitale pasfoto en een afdrukbare sjabloon in je e-mail.",
+        "titre_check": "Stap 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-4-op-computer.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Automatische dimensionering en achtergrondverwijdering.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/belgisch-pasfoto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Door onze deskundige controle is de geldigheid van de foto gegarandeerd.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Expert-controle-Belgische-pasfoto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Bestel thuisbezorging van deze professioneel afgedrukte foto's, die dezelfde dag worden verzonden als ze zijn besteld.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Afdrukken-levering-Belgische-pasfoto.png"
+      },
+      {
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "texteCheckBlack": "Je foto wordt veilig bewaard, zonder dat je persoonlijke gegevens hoeft te verstrekken.",
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-veilig-opgeslagen.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Maak een foto met je smartphone.",
+        "titre_check": "Stap 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-1-op-mobiel.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Voeg indien nodig de levering van een afgedrukte sjabloon aan huis toe.",
+        "titre_check": "Stap 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-2-op-mobiel.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Beoordeel de eigenschappen van je fotovraag.",
+        "titre_check": "Stap 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-3-op-mobiel.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Ontvang je digitale pasfoto en een afdrukbare sjabloon in je e-mail.",
+        "titre_check": "Stap 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Belgische-pasfoto-tool-stap-4-op-mobiel.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Meer ",
+    "titre_bloc4_2": "geldige pasfoto's gemaakt",
+    "titre_bloc4_span": "dan een miljoen ",
+    "partenaires": [
+      {
+        "text": "Enpc Ediser",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Enpc-Ediser.png"
+      },
+      {
+        "text": "Drivup",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Drivup.png"
+      },
+      {
+        "text": "Inris Formations",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Inris-Formations.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "Planete Permis",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Planete-Permis.png"
+      },
+      {
+        "text": "Zebra",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Zebra.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Codes-Rousseau-1.png"
+      },
+      {
+        "text": "Cer",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Cer-1.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "La French Tech",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/La-French-Tech.png"
+      },
+      {
+        "text": "France Info",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Info.png"
+      },
+      {
+        "text": "JEI",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/JEI.png"
+      },
+      {
+        "text": "Capital",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Capital.png"
+      },
+      {
+        "text": "Le-Progres",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Le-Progres.png"
+      },
+      {
+        "text": "France-Digitale.png",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/France-Digitale.png"
+      },
+      {
+        "text": "Canal",
+        "img": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Canal.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "Dit is geweldig. Ik kon mijn verblijfsvergunningfoto's uit de VS halen zonder terug te hoeven keren naar Frankrijk om een fotohokje te vinden. Ik moest mijn foto opnieuw maken, maar de instructies waren makkelijk te volgen. Geweldige ervaring en goede communicatie.",
+        "titre": "Zeer nuttig"
+      },
+      {
+        "nom": "Bernard Mitchell, 05/14/2023",
+        "texte": "Ik raad deze app aan. Het was veel gemakkelijker dan een fotohokje bezoeken enz. Bedankt, een tevreden klant",
+        "titre": "Hartelijk dank, een tevreden klant"
+      },
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Verbazingwekkend! Mijn vader had moeite om naar een officieel fotohokje te gaan voor zijn ePhoto in Frankrijk. We hebben zijn foto thuis laten maken met de app. Het was een beetje donker, maar ze hebben het gephotoshopt zodat het duidelijk en precies was, precies zoals een pasfoto. We ontvingen de ePhoto's binnen 24 uur en een paar dagen later kregen we de echte in de post. Ik had ze niet nodig, maar voor het geval dat. Dit is de eerste keer dat ik een app gebruik die precies doet wat het zegt, zonder problemen! Goed gedaan, Smart Photo!!!",
+        "titre": "Efficiënt"
+      },
+      {
+        "nom": "Joanne Flack Thornton, 01/13/2023",
+        "texte": "Ik had zelf moeite met het maken van fatsoenlijke foto's, dus ik heb deze app gedownload. Ik had me niet gerealiseerd dat het de eerste foto die ik maakte zou gebruiken, en ik vond zelf dat mijn foto niet goed was. Maar wat ik terugkreeg was super, want de achtergrond was wit, terwijl die van mij geel was, en er was een lichtschakelaar verwijderd. De foto werd geaccepteerd door het Britse online paspoortverlengsysteem en het paspoort is onderweg naar ons. De bijna €6 die ik heb betaald meer dan waard. Geweldige app!",
+        "titre": "Beter dan een fotohokje"
+      },
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Ik twijfelde eerst of ik deze app zou gebruiken voor mijn rijbewijsfoto, maar nadat ik de tips en richtlijnen voor het maken van een geslaagde foto had gevolgd, was alles binnen een paar minuten klaar. Het personeel controleert of de foto bruikbaar is en je kunt de foto laten posten of naar je e-mailen. Ik hoefde het comfort van mijn eigen huis niet eens te verlaten, wat een extra bonus is. Zeker een aanrader!",
+        "titre": "Zeker een aanrader!!!"
+      },
+      {
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "Echt onder de indruk van deze app - het proces was eenvoudig - goedgekeurd en toegevoegd aan de online applicatie zonder problemen - zou het zeker aanraden.",
+        "titre": "Nieuw paspoort"
+      }
+    ],
+    "nos_partenaires": "Onze partners",
+    "nos_medias": "Aanbevolen door"
+  },
+
+  "Bloc5": {
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Jonge-vrienden-die-Belgische-pasfoto-maken-met-de-Smartphone-iD-app.jpg",
+    "listeService": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "24/7 service",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "Voor alle documenttypes",
+        "texteService": "Het juiste formaat in digitaal en afgedrukt formaat, fotodiepte, achtergrondkleur..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "100% conformiteit",
+        "texteService": "Krijg 100% conformiteit voor elk officieel document wereldwijd."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "Maak de beste foto",
+        "texteService": "Maak een onbeperkt aantal foto’s en kies de beste."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "Echte klantenservice.",
+        "texteService": "Geen robots, geen verborgen contactgegevens; jouw positieve ervaring is belangrijk voor ons."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "Handig voor velen",
+        "texteService": "Vooral voor baby's, mensen met een handicap, expats, mensen in landelijke gebieden..."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "Ecologisch verantwoord",
+        "texteService": "Laat je documenten online verlengen en voorkom papierverspilling."
+      }
+    ],
+    "titre_bloc5_1": "Waarom de Smartphone iD ",
+    "titre_bloc5_span": "pasfoto tool?"
+  },
+
+  "Bloc6": {
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Waar kan ik een belgië pasfoto afdrukken?",
+        "paragraphe": "Bestel je professioneel afgedrukte pasfoto’s bij Smartphone iD of gebruik onze kant-en-klare sjabloon die naar je e-mail wordt gestuurd.",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone-iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          }
+        ],
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/afgedrukte-Belgische-pasfoto-sjabloon.png"
+      }
+    ],
+    "titre_bloc6_1": "Bijpassende ",
+    "titre_bloc6_2": "Belgisch document.",
+    "titre_bloc6_span": "pasfoto's  voor elk ",
+    "documents": [
+      {
+        "titre_doc": "Paspoort",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Paspoort.png"
+      },
+      {
+        "titre_doc": "Kids-ID",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Kids-ID.png"
+      },
+      {
+        "titre_doc": "Identiteitskaart",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Identiteitskaart.png"
+      },
+      {
+        "titre_doc": "Permanente verblijfsvergunning",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Permanente-verblijfsvergunning.png"
+      },
+      {
+        "titre_doc": "Visum",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Visum-1.png"
+      }
+    ],
+    "partenaires": [
+      {
+        "nom_partenaire": "aps",
+        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/aps-1.png"
+      },
+
+      {
+        "nom_partenaire": "grobet",
+        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/grobet-1.png"
+      },
+      {
+        "nom_partenaire": "Laboriver",
+        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Laboriver-1.png"
+      },
+      {
+        "nom_partenaire": "Les Annees Lumiere",
+        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Les-Annees-Lumiere-1.png"
+      },
+      {
+        "nom_partenaire": "Studio Francine",
+        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/StudioFrancine-2-1.png"
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "bloc": [
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Digitale-handtekening-Belgische-documentfoto.png",
+        "paragraphe": "Indien nodig wordt je handtekening gekoppeld aan je foto voor officiële online documentaanvragen.",
+        "titre": "Digitale handtekening"
+      },
+      {
+        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/afgedrukte-Belgische-pasfoto-sjabloon.png",
+        "paragraphe": "Voor officiële documenten is een recente foto verplicht. Met een realtime foto toon je direct aan dat je foto aan deze eis voldoet.",
+        "titre": "Bewijs van recente foto"
+      }
+    ],
+    "titre_bloc7_1" :"Jouw online",
+    "titre_bloc7_2" :" voor het aanvragen van officiële documenten ",
+    "titre_bloc7_span": "  oplossing"
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : "Hoe maak jeeen ",
+    "titre_bloc8_2" : "pasfoto?",
+    "titre_bloc8_span": "geldige",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "chiffre": 1,
+        "texte": " Doe je ",
+        "texte_span": "bril af."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "chiffre": 2,
+        "texte": "Zorg voor gelijkmatige belichting ",
+        "texte_span": "op je gezicht."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "chiffre": 3,
+        "texte": "Je haar moet achter je ",
+        "texte_span": "schouders zitten"
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "chiffre": 4,
+        "texte": "Houd je mond gesloten en vertoon een ",
+        "texte_span": "neutrale gezichtsuitdrukking."
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/nl_BE/pasfoto/",
+      "title": "Bekijk meer"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/nl_BE/pasfoto-baby/",
+      "title": "Hoe maak je een pasfoto van een baby?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "Pasfoto's in België",
+    "ePhoto": "",
+    "codeEphoto": [
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Een Belgische pasfoto in gedrukte vorm moet 35 mm x 45 mm zijn, met het hoofd gecentreerd en een grootte tussen 32 mm en 36 mm.</span></p>",
+        "titre_accordeon": "Wat is de grootte van de Belgische pasfoto?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">In België kunnen de kosten van pasfoto’s variëren afhankelijk van waar je naartoe gaat. Meestal betaal je ongeveer €10 tot €15 voor een set van vier foto's. Het is een goed idee om contact op te nemen met lokale fotografen, fotocabines of apotheken voor specifieke prijzen in jouw regio.</span></p>\n<p><span style=\"font-weight: 400;\">Bij Smartphone ID kun je goedkoop, snel, gecontroleerd en goedgekeurd je pasfoto krijgen.</span></p>",
+        "titre_accordeon": "Hoeveel kosten pasfoto's in België?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Ja! Je kunt zelf een pasfoto maken. Je kunt het doen met de camera aan de achterkant van je telefoon, maar zorg ervoor dat je alle richtlijnen volgt om ervoor te zorgen dat je foto wordt geaccepteerd (belichting, schaduw, achtergrondkleur). Je kunt ook de Smartphone iD-tool gebruiken die alles voor je doet. Kies eenvoudig je land en document, maak een foto en ontvang deze later per e-mail? Het is zo eenvoudig!</span></p>",
+        "titre_accordeon": "Kun je zelf een pasfoto maken?"
+      },
+      {
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Om een goede pasfoto thuis te maken, moet je het volgende doen:</span></p>\n<p><span style=\"font-weight: 400;\">Ga tegenover de lichtbron staan om gelijkmatige verlichting op je gezicht en nek te krijgen. Het is het beste om het bij daglicht voor het raam te doen.</span></p>\n<p><span style=\"font-weight: 400;\">Zorg ervoor dat je achtergrond een lichte kleur heeft en dat er geen schaduw achter je te zien is.</span></p>\n<p><span style=\"font-weight: 400;\">Kijk in de camera-objectief en niet naar het telefoonscherm. De ogen moeten open zijn.</span></p>\n<p><span style=\"font-weight: 400;\">In geval van een selfie, zorg ervoor dat je arm volledig is uitgestrekt en op het niveau van de schouders blijft.</span></p>\n<p><span style=\"font-weight: 400;\">Als je niet zeker weet of alle richtlijnen zijn nageleefd, kun je de Smartphone iD-tool gebruiken. De foto wordt automatisch geschaald en goedgekeurd door getrainde experts om ervoor te zorgen dat deze 100% voldoet aan de officiële normen.</span></p>",
+        "titre_accordeon": "Hoe maak je een pasfoto thuis?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Leg je baby op een wit laken op je bed, of zet hem in een kinderstoel met een witte handdoek die de achterkant van de stoel bedekt.</span></p>\n<p><span style=\"font-weight: 400;\">Haal de speen weg, trek de aandacht van de baby en probeer een foto te maken met de mond van de baby gesloten. Sommige overheden staan toe dat de mond iets open is, maar er mag geen tong of tanden te zien zijn.</span></p>\n<p><span style=\"font-weight: 400;\">Zorg ervoor dat het hoofd van je baby niet gekanteld is, en vergeet niet dat je de baby niet zelf mag ondersteunen terwijl je de foto maakt, omdat geen enkel ander lichaamsdeel te zien mag zijn op de foto.</span></p>\n<p><span style=\"font-weight: 400;\">In geval van een selfie, zorg ervoor dat je arm volledig is uitgestrekt en op het niveau van de schouders blijft.</span></p>\n<p><span style=\"font-weight: 400;\">Je kunt ook een foto maken via onze website www.smartphon-id.com waar we je zullen helpen om een geldige foto te krijgen met behulp van onze getrainde experts.</span></p>\n",
+        "titre_accordeon": "Hoe maak je een pasfoto van je baby?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Het hangt af van het soort document. Officiële documenten die worden gebruikt voor biometrische machinale lezingen (elektronische paspoorten, visa, identiteitskaarten) staan geen glimlach toe omdat het moeilijker wordt om de biometrische gegevens uit de scan te lezen. Meer informele identiteitsdocumenten zoals een studentenkaart of vervoersbewijs kunnen echter een pasfoto hebben van een lachende persoon. Als je niet zeker bent over de vereisten, kun je gebruik maken van de Smartphone iD-service die je een gecontroleerde foto geeft die voldoet aan de eisen voor het gekozen document.</span></p>\n",
+        "titre_accordeon": "Mag je glimlachen op een pasfoto?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Sterke kleuren die duidelijk afsteken van de achtergrond zijn geschikt voor een pasfoto. Omdat een lichte achtergrond vereist is, zijn donkere kleuren gunstig om het contrast te vergroten.</span></p>\n<p><span style=\"font-weight: 400;\">Zorg er ook voor dat je shirt niet te veel huid laat zien, omdat pasfoto&#8217;s zonder shirt verboden zijn.</span></p>\n<p><span style=\"font-weight: 400;\">Ten slotte zijn uniformen van welke aard dan ook ook verboden op een biometrische pasfoto.</span></p>\n",
+        "titre_accordeon": "Wat te dragen voor een pasfoto?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Niet alle overheden staan het dragen van een bril toe omdat het erg moeilijk is om het goed te krijgen. Dikke monturen zijn verboden, evenals getinte glazen, er mag geen reflectie verschijnen en ze moeten correct zitten. Daarom suggereren die overheden die het dragen van een bril niet verbieden, ten zeerste om de bril af te zetten voor de foto.</span></p>\n",
+        "titre_accordeon": "Mag je een bril dragen op een pasfoto?"
+      },
+      {
+        "texteAccordeon": "<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Ja, je mag make-up dragen op je pasfoto.</span></p>\n<p><span style=\"font-weight: 400;\">Maar let op dat de make-up licht moet zijn. Breng niet te veel oogschaduw aan op je oogleden.</span></p>\n<p><span style=\"font-weight: 400;\">Vaak kan glanzende lippenstift een reflectie veroorzaken, daarom is het beter om te kiezen voor een matte lippenstift als je je lippen wilt accentueren.</span></p>\n<p><span style=\"font-weight: 400;\">Het is ook handig om te controleren of je huid niet vettig is voordat je een foto maakt, omdat dit ook een lichtreflectie kan veroorzaken.</span></p>\n<p><span style=\"font-weight: 400;\">Tenslotte, onthoud dat de pasfoto zo natuurlijk mogelijk moet zijn en op een gewone dag op jou moet lijken.</span></p>\n",
+        "titre_accordeon": "Mag je make-up dragen op een pasfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Gebruik een fotobewerkingsprogramma om de foto op het juiste formaat (35mm x 45mm) in te stellen. Print de foto vervolgens op fotokwaliteit papier met een hoge resolutie. Je kunt ook de Smartphone iD app gebruiken om je pasfoto te maken. Nadat je foto door ons team gecontroleerd is, sturen wij deze in het officiële formaat van 35mm x 45mm per post naar je huis.</p>\n</aside>\n",
+        "titre_accordeon": "Hoe print je een pasfoto op het juiste formaat?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Voor het scannen van een pasfoto plaats je de foto zorgvuldig op de glasplaat van de scanner. Gebruik een hoge resolutie, bij voorkeur minimaal 600 DPI, om ervoor te zorgen dat de kwaliteit van de gescande foto voldoet aan de eisen. Sla de gescande foto op in het bestandsformaat JPEG.</p>\n</aside>\n",
+        "titre_accordeon": "Hoe scan je een pasfoto?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Een goede online pasfotomaker vind je door te zoeken naar apps die expliciet vermelden dat ze voldoen aan de officiële pasfoto-eisen. Het is daarnaast belangrijk om gebruikersbeoordelingen te lezen en na te gaan of de app garanties biedt op acceptatie van de foto&#8217;s door officiële instanties.<br />\nKies voor een app met positieve feedback en die transparantie biedt over de kwaliteit en acceptatie van de pasfoto’s.</p>\n</aside>\n",
+        "titre_accordeon": "Hoe vind je een goede online pasfotomaker?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Om een pasfoto te maken op je iPhone, klik je op de &#8220;Maak een foto&#8221; knop op de Smartphone ID website. Kies vervolgens het benodigde land en het documenttype, neem je foto op je iPhone, en dan ben je er al! Na de geldigheidscontrole van ons team van experts ontvang je je foto&#8217;s in je e-mail.</p>\n</aside>\n",
+        "titre_accordeon": "Hoe maak je een pasfoto met een iPhone?"
+      },
+      {
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">Om een pasfoto te maken op je Android, klik je op de &#8220;Maak een foto&#8221; knop op de Smartphone ID website. Kies vervolgens het benodigde land en het documenttype, neem je foto op je Android toestel, en dan ben je er al! Na de geldigheidscontrole van ons team van experts ontvang je je foto&#8217;s in je e-mail.</p>\n</aside>\n",
+        "titre_accordeon": "Hoe maak je een pasfoto met een Android?"
+      }
+    ],
+    "titre_bloc9": "uw vragen",
+    "titre_bloc9_span": "Antwoorden op "
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "Hoe nuttig was dit bericht?",
+    "sousTitre" : "Klik op een ster om deze te beoordelen!",
+    "personne" : "Gemiddelde waardering :",
+    "etoiles" : "sterren van de 5"
+  },
+
+  "Footer": {
+    "partie2-button": "Gratis onbeperkt proberen!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-propos" : "Over ons",
+    "propos-link" : "https://www.smartphone-id.com/nl_NL/over-ons",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/nl_NL/faq",
+    "SiteMapList-contact" : "Contact",
+    "contact-link" : "https://www.smartphone-id.com/nl_NL/contact",
+    "applis-h3": "Download de app!",
+    "applis-p":  "Download de Smartphone iD app om je bestellingen te volgen en van nog meer pasfoto-functies te genieten.",
+    "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
+    "partie2-p": "",
+    "partie2-p-link": "Volg ons en ontdek de nieuwste informatie over visa en andere officiële documenten.",
+    "mentions-confidentialité": "Privacy policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "title": "Foto de identidad Española online - Smartphone ID",
+    "description": "Herramienta rápida y sencilla para fotos de pasaporte de calidad."
+  },
+
+  "NavBar": {
+    "liens": [
+      {
+        "link": "Pasaporte",
+        "url": "https://www.smartphone-id.com/es/foto-pasaporte/"
+      },
+      {
+        "link": "Carnet de Conducir",
+        "url": "https://www.smartphone-id.com/es/fotos-carne-de-conducir/"
+      },
+      {
+        "link": "DNI",
+        "url": "https://www.smartphone-id.com/es/caracteristicas-fotos-dni/"
+      },
+      {
+        "link": "NIE",
+        "url": "https://www.smartphone-id.com/es/foto-permiso-de-residencia/"
+      },
+      {
+        "link": "Visado",
+        "url": "https://www.smartphone-id.com/es/foto-visado"
+      }
+    ]
+  },
+
+  "Bloc1": {
+    "girl": "/images/Bloc1/es-ES/herramienta-de-fotografia-de-pasaporte-para-Espana-en-linea.png",
+    "background": "/images/background.png",
+    "titre_bloc1": "Herramienta rápida y sencilla para",
+    "titre_h4_bloc1": "Basta con hacer una foto y recibirla lista! Pruébalo ya!",
+    "repeteurCheckGreenBloc1": [
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "fotos de carnet de calidad"
+      },
+      {
+        "mediaItemUrl": "/images/General/check-green.png",
+        "texte_check_green": "y firma digital."
+      }
+    ],
+    "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Edición Rápida AI"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Verificación avanzada"
+      },
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Aceptación de la Administración"
+      }
+    ]
+  },
+
+  "kalSearch": {
+    "titre_1": "Necesito una foto de carnet para",
+    "titre_2": "Para el documento",
+    "bouton": "Tomar la foto"
+  },
+
+  "Bloc2": {
+    "repeteur1": [
+      {
+        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
+        "titre_repeteur1": "Más de 1 millón de fotos conformes entregadas"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
+        "titre_repeteur1": "Proveedor n.º 1 de códigos ePhoto en línea en Francia"
+      },
+      {
+        "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
+        "titre_repeteur1": "Calificación media en Apple y Google Store"
+      }
+    ]
+  },
+
+  "Bloc3": {
+    "titre_bloc3_span": "La solución",
+    "titre_bloc3": "para la foto de pasaporte sin salir de casa.",
+    "repeteurCkeckBlack": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Eliminación automática del fondo.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/eliminar-fondo-foto-carnet-espana.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Gracias a la supervisión de nuestros expertos, la conformidad de la foto está garantizada.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/supervision_expertos_conformidad_foto_carnet.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Entrega a domicilio de fotos impresas profesionalmente. Se envían el mismo día en que se encargan.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/entrega-foto-carnet-impresa-espana.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "No es necesario proporcionar información personal, la foto se almacena de forma segura.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/foto-carnet-segura-espana.png"
+      }
+    ],
+    "repeteur_etape": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Escanea el código QR con tu smartphone y hazte una foto.",
+        "titre_check": "Paso 1",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/herramienta-fotografia-carnet-en-linea.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Revisa las características de tu solicitud de foto.",
+        "titre_check": "Paso 2",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/verificacion-experto-fotografia-carnet-digital.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Si es necesario, añade la entrega de la plantilla impresa en tu domicilio.",
+        "titre_check": "Paso 3",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/pedir-foto-carnet-impresa-en-linea.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
+        "titre_check": "Paso 4",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/foto-carnet-exitosa.png"
+      }
+    ],
+    "repeteurCkeckBlackMobile": [
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Eliminación automática del fondo.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/eliminar-fondo-foto-carnet-espana.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Gracias a la supervisión de nuestros expertos, la conformidad de la foto está garantizada.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/supervision_expertos_conformidad_foto_carnet.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Entrega a domicilio de fotos impresas profesionalmente. Se envían el mismo día en que se encargan.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/entrega-foto-carnet-impresa-espana.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "No es necesario proporcionar información personal, la foto se almacena de forma segura.",
+        "imageCkeckBlack": "/images/Bloc3/es-ES/foto-carnet-segura-espana.png"
+      }
+    ],
+    "repeteurEtapeMobile": [
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Haz una foto con tu smartphone.",
+        "titre_check": "Paso 1",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/herramienta-fotografia-carnet-en-linea-smartphone.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Revisa las características de tu solicitud de foto.",
+        "titre_check": "Paso 2",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/pedir-foto-carnet-impresa-en-linea-smartphone.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Revisa las características de tu solicitud de foto.",
+        "titre_check": "Paso 3",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/verificacion-experto-fotografia-carnet-digital-smartphone.png"
+      },
+      {
+        "check_green": "/images/General/check-green.png",
+        "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
+        "titre_check": "Paso 4",
+        "image_repeteur_etape": "/images/Bloc3/es-ES/foto-carnet-exitosa-smartphone.png"
+      }
+    ]
+  },
+
+  "Bloc4": {
+    "titre_bloc4_1": "Desde 2017, ",
+    "titre_bloc4_2": "de fotos de identificación conformes realizadas",
+    "titre_bloc4_span": "más de 1 millón",
+    "partenaires": [
+      {
+        "text": "Enpc Ediser",
+        "img": "/images/Bloc4/partenaires/Enpc-Ediser.png"
+      },
+      {
+        "text": "Inri's Formations",
+        "img": "/images/Bloc4/partenaires/Inris-Formations.png"
+      },
+      {
+        "text": "Zebra",
+        "img": "/images/Bloc4/partenaires/Zebra.png"
+      },
+      {
+        "text": "Driveup",
+        "img": "/images/Bloc4/partenaires/Drivup.png"
+      },
+      {
+        "text": "Codes Rousseau",
+        "img": "/images/Bloc4/partenaires/Codes-Rousseau.png"
+      },
+      {
+        "text": "Ma Gestion Zen",
+        "img": "/images/Bloc4/partenaires/Ma-Gestion-Zen.png"
+      },
+      {
+        "text": "Mobilians",
+        "img": "/images/Bloc4/partenaires/Mobilians.png"
+      },
+      {
+        "text": "Planéte Permis",
+        "img": "/images/Bloc4/partenaires/Planete-Permis.png"
+      }
+    ],
+    "media": [
+      {
+        "text": "Capital",
+        "img": "/images/Bloc4/media/Capital.png"
+      },
+      {
+        "text": "Le Progres",
+        "img": "/images/Bloc4/media/Le-Progres.png"
+      },
+      {
+        "text": "Canal+",
+        "img": "/images/Bloc4/media/Canal.png"
+      },
+      {
+        "text": "E-residency Estonia",
+        "img": "/images/Bloc4/media/eresidency-marketplace-member.png"
+      },
+      {
+        "text": "France Info",
+        "img": "/images/Bloc4/media/France-Info.png"
+      },
+      {
+        "text": "App Advice",
+        "img": "/images/Bloc4/media/App-Advice.png"
+      },
+      {
+        "text": "JEI",
+        "img": "/images/Bloc4/media/JEI.png"
+      }
+    ],
+    "temoignages": [
+      {
+        "nom": "Tamsyn Hailes, 05/16/2023",
+        "texte": "Al principio tenía mis dudas sobre si utilizar esta aplicación para hacerme la foto del carné de conducir, pero después de seguir los consejos y las directrices sobre cómo crear una foto bien conseguida, todo se hizo en cuestión de minutos, el personal verifica que la foto sea utilizable y puedes pedir que te la envíen por correo postal o por correo electrónico. Ni siquiera tuve que salir de casa, lo cual es una ventaja añadida. ¡Definitivamente la recomiendo!",
+        "titre": "Definitivamente la recomiendo!"
+      },
+      {
+        "nom": "Doug Irwin, 05/20/2022",
+        "texte": "Esto es genial, he podido hacer mis fotos de titre de séjour desde EE.UU. sin tener que volver a Francia para encontrar un fotomatón. Tuve que volver a hacer mi foto, pero las instrucciones eran fáciles de seguir. Gran experiencia y gran comunicación",
+        "titre": "Muy útil"
+      },
+      {
+        "nom": "nikipie247, 04/16/2022",
+        "texte": "Realmente impresionado con esta app - el proceso fue fácil - aprobado y añadido a la solicitud online sin problemas - sin duda lo recomendaría",
+        "titre": "Nuevo pasaporte"
+      },
+      {
+        "nom": "Nathalie Dickson, 01/07/2022",
+        "texte": "Increíble! A mi padre le costó mucho llegar a un fotomatón oficial para hacerse la foto en Francia. Le hicimos la foto en casa con la aplicación, era un poco oscura pero la retocaron para que quedara clara y precisa, exactamente igual que una foto de pasaporte. Recibimos las fotos electrónicas en 24 horas y unos días más tarde recibimos las fotos en papel por correo. No las necesitaba, pero por si acaso. Es la primera vez que utilizo una app y hace exactamente lo que dice sin ningún problema. ¡Bien hecho Smart photo!",
+        "titre": "Eficaz"
+      }
+    ],
+    "nos_partenaires": "Nuestros partners",
+    "nos_medias": "Destacado por"
+  },
+
+  "Bloc5": {
+    "titre_bloc5_1": "¿Por qué la herramienta ",
+    "titre_bloc5_span": "Smartphone iD para fotos de pasaporte?",
+    "imgService": "/images/Bloc5/es-ES/foto-carnet-facil-con-smartphone.jpg",
+    "listeService": [
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Servicio 24/7",
+        "texteService": ""
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Para todo tipo de documentos",
+        "texteService": "El tamaño correcto en formato digital e impreso, la profundidad de la foto, el color del fondo, la iluminación..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "100% de conformidad",
+        "texteService": "Consigue el 100% de conformidad para cualquier documento oficial en todo el mundo."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Consigue la mejor foto",
+        "texteService": "Haz fotos ilimitadas y elige la mejor."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Atención al cliente real",
+        "texteService": "Sin robots, sin información de contacto oculta, su experiencia positiva es importante para nosotros."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Práctico para muchos",
+        "texteService": "Especialmente práctico para bebés, discapacitados, expatriados, personas en zonas rurales..."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Ecológico",
+        "texteService": "No more paper to waste if you need to renew your document online."
+      }
+    ]
+  },
+
+  "Bloc6": {
+    "titre_bloc6_1": "",
+    "titre_bloc6_2": "Fotos conformes",
+    "titre_bloc6_span": " para los documentos de identidad Españoles",
+    "documents": [
+      {
+        "titre_doc": "Pasaporte",
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-pasaporte-espagnol.png"
+      },
+      {
+        "titre_doc": "Visado",
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-Visado.png"
+      },
+      {
+        "titre_doc": "DNI",
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-carnet-de-identidad.png"
+      },
+      {
+        "titre_doc": "Carnet de Conducir",
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-Permiso-de-conduccion.png"
+      },
+      {
+        "titre_doc": "NIE",
+        "img_doc": "/images/Bloc6/es-ES/foto-carnet-para-permiso-de-residencia.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "¿Dónde imprimir fotos de pasaporte en España?",
+        "paragraphe": "Encarga fotos impresas profesionales con Smartphone iD o imprímelas en un centro cercano.",
+        "planche_photo": "/images/Bloc6/es-ES/imprimir-foto-tablero-espana.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "/images/General/smartphone-id-logo.png"
+          },
+          {
+            "nom_partenaire": "Kodak-Express",
+            "img_partenaire": "/images/Bloc6/es-ES/Kodak-Express.png"
+          },
+          {
+            "nom_partenaire": "Tecnotron",
+            "img_partenaire": "/images/Bloc6/es-ES/Tecnotron.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Bloc7": {
+    "titre_bloc7_1" :"",
+    "titre_bloc7_2" : "online para solicitar documentos oficiale",
+    "titre_bloc7_span": "Tu solución",
+    "bloc": [
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "/images/Bloc7/es-ES/Foto-de-pasaporte-con-firma-digital-online.png",
+        "paragraphe": "Tu firma se vinculará a la foto para las solicitudes de documentos oficiales online, cuando sea necesario.",
+        "titre": "Firma digital"
+      },
+      {
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "/images/Bloc7/es-ES/plantilla-de-foto-con-fecha-impresa.png",
+        "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
+        "titre": "La prueba de que la foto es reciente"
+      }
+    ]
+  },
+
+  "Bloc8": {
+    "titre_bloc8_1" : "¿Cómo hacer una foto de pasaporte ",
+    "titre_bloc8_2" : "",
+    "titre_bloc8_span": "exitosa?",
+    "titre_encart": "Algunos consejos",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/zGQoL2qhfW0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "bloc_conseils": [
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 1,
+        "texte": "Quítate",
+        "texte_span": "las gafas"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 2,
+        "texte": "La luz debe iluminar tu cara",
+        "texte_span": "de manera uniforme"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 3,
+        "texte": "El pelo deberá quedar",
+        "texte_span": "por detrás de los hombros"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "chiffre": 4,
+        "texte": "Boca cerrada,",
+        "texte_span": "expresión neutra."
+      }
+    ],
+    "bouton_plus": {
+      "url": "https://www.smartphone-id.com/es/fotos-de-identificacion-2/",
+      "title": "Más información"
+    },
+    "lienBebe": {
+      "url": "https://www.smartphone-id.com/es/foto-del-pasaporte-espanol-de-tu-bebe",
+      "title": "¿Cómo obtener la foto carnet español de tu bebé?"
+    }
+  },
+
+  "Bloc9": {
+    "ID": "Foto de pasaporte de España",
+    "ePhoto": "",
+    "codeEphoto": [
+      {
+        "texte_accordeon": "",
+        "titre_accordeon": ""
+      }
+    ],
+    "photo_didentite": [
+      {
+        "texteAccordeon": "<p>Sí que puedes. Asegúrate de que mantienes el brazo recto, de que tu cara no aparece distorsionada debido a la cámara frontal del teléfono y de que no se te ve el brazo.<br />\nTambién puedes hacerlo a través del sitio web <a href=\"https://www.smartphone-id.com/es/\" target=\"_blank\" rel=\"noopener\">Smartphone iD</a> y añadir una revisión de un experto capacitado, para asegurarte de que se ajusta a los requisitos del gobierno.<br />\nLas cámaras de visión trasera tienen mayor resolución y ofrecen una mejor imagen.</p>\n",
+        "titre_accordeon": "¿Puede hacerse usted mismo una foto de pasaporte con su teléfono?"
+      },
+      {
+        "texteAccordeon": "<p>Colócate frente a una ventana o asegúrate de que la luz artificial no proyecta sombra sobre tu rostro.<br />\nQuítate el pelo de la cara, mira a la cámara y adopta una expresión facial neutra. Para asegurarte de que has hecho una buena foto, puedes combinar esto con la revisión de un experto en nuestro sitio web https://www.smartphone-id.com/es/.</p>\n",
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Coloca a tu bebé sobre una sábana blanca en tu cama, o ponlo en una trona con una toalla blanca cubriendo el respaldo de la silla.<br />\nQuítale el chupete, capta la atención del bebé e intenta conseguir una foto con la boca cerrada.<br />\nAlgunos gobiernos permiten que la boca esté ligeramente abierta, pero sin que se vean la lengua ni los dientes.<br />\nAsegúrate de que la cabeza de tu bebé no está inclinada, y no olvides que no puedes sostenerlo tú solo mientras haces la foto porque no se ve ninguna otra parte del cuerpo en la foto.<br />\nTambién puedes hacer una foto a través de nuestra página web www.smartphon-id.com, donde te ayudaremos a conseguir una foto válida con la ayuda de nuestros expertos formados.</p>\n",
+        "titre_accordeon": "¿Cómo hacer una foto de pasaporte a tu bebé?"
+      },
+      {
+        "texteAccordeon": "<p>Está prohibido presentar una foto escaneada para un documento de identificación oficial.<br />\nSi necesita presentar una foto digital, puede utilizar nuestra sencilla herramienta automatizada en línea que viene con una comprobación experta capacitada.<br />\nDe esta forma obtendrá una foto digital de pasaporte perfecta en el formato necesario para su documento.<br />\nSi está escaneando fotos de pasaporte para crear impresiones múltiples, también lo tenemos cubierto.<br />\nCon su foto digital única, también recibirá por correo electrónico una plantilla de impresión de 10&#215;15 lista para imprimir que podrá utilizar un número ilimitado de veces.</p>\n",
+        "titre_accordeon": "¿Cómo escanear una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Para imprimir fotos de pasaporte con su PC, primero debe descargar un software que le permita obtener fotos de 35 x 45 mm.<br />\nA continuación, deberá conectar a su PC una impresora compatible con papel fotográfico, ya que sólo se aceptan fotos de pasaporte impresas por profesionales.<br />\nSi no desea descargar ningún software o ahorrarse la molestia de buscar una herramienta sencilla en Internet, puede optar por el servicio Smartphone iD, en el que sólo tendrá que elegir el tipo de documento necesario y todo lo demás se hará por usted.<br />\nPuede recibir una impresión profesional de 10&#215;15 cm en la puerta de su casa o utilizar el archivo digital de 10&#215;15 cm para encontrar un centro de impresión cercano.</p>\n",
+        "titre_accordeon": "¿Cómo imprimir una foto tamaño carné?"
+      },
+      {
+        "texteAccordeon": "<p>Existen varias opciones para obtener fotos de pasaporte en formato digital. Si necesita una foto de pasaporte de alta calidad, puede acudir a un fotógrafo profesional.<br />\nSi busca un método económico, puede utilizar aplicaciones y software como Smartphone iD, que le permiten crear fotos de pasaporte en formato digital directamente desde casa.<br />\nHoy en día, las cámaras de los smartphones pueden producir fotos de pasaporte satisfactorias.<br />\nNo obstante, lo mejor es que un experto compruebe que la foto tiene el formato correcto, porque las fotos de pasaporte no válidas son rechazadas por los gobiernos y ponen en pausa la solicitud del documento.</p>\n",
+        "titre_accordeon": "¿Dónde conseguir fotos digitales para el pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no admiten flecos porque dificultan la lectura de los datos biométricos del escáner.<br />\nEntonces, el flequillo debe ir a ambos lados y sujeto con horquillas imperceptibles.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte con flequillo.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
+        "titre_accordeon": "¿Se puede tener un flequillo en una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Depende del tipo de documento. Los documentos oficiales que se utilizan para la lectura biométrica por máquina (pasaportes electrónicos, visados, documentos de identidad) no permiten sonreír porque dificulta la lectura de los datos biométricos del escáner.<br />\nSin embargo, los documentos de identidad más informales, como el carné de estudiante o la tarjeta de transporte, pueden llevar una foto de pasaporte de una persona sonriente.<br />\nSi no está seguro de los requisitos, puede utilizar el servicio Smartphone iD que le conseguirá una foto conforme y verificada para el documento que elija.</p>\n",
+        "titre_accordeon": "¿Puede sonreír en una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>No todos los gobiernos permiten las gafas porque es muy difícil acertar. Las monturas gruesas están prohibidas, así como los cristales tintados, no pueden aparecer reflejos y deben sentarse correctamente. Por eso, los gobiernos que no prohíben llevar gafas, aconsejan encarecidamente quitárselas para la foto.</p>\n",
+        "titre_accordeon": "¿Se pueden llevar gafas en una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Sí, puede llevar maquillaje en la foto del pasaporte. Pero ten en cuenta que el maquillaje debe ser ligero.<br />\nNo te pongas demasiada sombra de ojos en los párpados. A menudo, un pintalabios brillante puede crear un reflejo, por lo tanto, mejor opta por un pintalabios mate, si quieres acentuar tus labios.<br />\nTambién es útil comprobar que tu piel no es grasa antes de hacerte la foto, ya que también puede crear un ligero reflejo. Por último, recuerde que la foto del pasaporte debe ser lo más natural posible y debe parecerse a usted en un día normal.</p>\n",
+        "titre_accordeon": "¿Se puede llevar maquillaje en una foto de pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Los colores fuertes que destacan claramente del fondo son adecuados para una foto de pasaporte.<br />\nDado que se requiere un fondo claro, los colores más oscuros son beneficiosos para aumentar el contraste. Además, asegúrese de que su camisa no muestre demasiada piel, ya que las fotos de pasaporte sin camisa están prohibidas.<br />\nPor último, los uniformes de cualquier tipo también están prohibidos en una foto biométrica para pasaporte.</p>\n",
+        "titre_accordeon": "¿Qué ponerse para la foto del pasaporte?"
+      },
+      {
+        "texteAccordeon": "<p>Para los documentos oficiales españoles, deberá presentar una fotografía tamaño carné de 32mm x 26mm.<br />\nNo está permitido presentar una fotografía escaneada o una captura de pantalla de un ordenador/móvil.<br />\nPuede tomar una foto a través de nuestro sitio web www.smartphone-id.com, donde obtendrá una foto aprobada por expertos cualificados en el tamaño, formato de archivo, color de fondo, etc. solicitados.<br />\nCon la foto, recibirá una plantilla imprimible de 10&#215;15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</p>\n",
+        "titre_accordeon": "¿Qué tamaño tiene una foto de pasaporte español?"
+      },
+      {
+        "texteAccordeon": "<p>El precio de las fotos de pasaporte depende de dónde vaya a hacérselas. En un fotomatón, una copia con 6 fotos cuesta entre 5 y 7 euros (el 10% de las fotos son rechazadas por los gobiernos). Un fotógrafo profesional, en cambio, pide entre 15 y 20 euros por 6 copias (tasa de rechazo del 2%).Sin embargo, suele ofrecer descuentos para niños y personas mayores. Si no puede utilizar estos dos métodos, puede hacer la foto de pasaporte con su teléfono móvil, utilizando el servicio Smartphone iD. A través de nuestra página web, puede tomar la foto, el formato correcto se creará automáticamente para el documento español que ha solicitado.Para lograr una tasa de aceptación del 100%, nuestros expertos formados también comprobarán su foto.</p>\n",
+        "titre_accordeon": "¿Cuánto cuesta hacerse una foto de pasaporte en España?"
+      },
+      {
+        "texteAccordeon": "<p>Se puede utilizar una foto tamaño carné para todos los documentos oficiales españoles, incluido el DNI.Debe tener un formato de 32 x 26 mm. La única excepción es el visado español, que debe ser de 30 x 40 mm. Usted puede hacerse una foto a través de nuestro sitio web www.smartphone-id.com donde obtendrá una foto aprobada por expertos en el tamaño solicitado, formato de archivo, color de fondo, etc.Con la foto, recibirá una plantilla imprimible de 10 x 15 que muestra cuándo se tomó la foto, lo que demuestra la obligatoriedad de la antigüedad de la foto.</p>\n",
+        "titre_accordeon": "¿Se puede utilizar la foto del pasaporte para el documento de identidad en España?"
+      },
+      {
+        "texteAccordeon": "<p>Puedes hacerte una foto tamaño carné en las tiendas de fotografía exprés Kodak, por ejemplo, en la Calle de Sta Engracia, 68, 28010 Madrid, España o en el foto-matón Tecnotron de Frutería, Calle de Sta Engracia, 29, 28010 Madrid, España. Si, por el contrario, prefiere hacerse las fotos del pasaporte cómodamente en casa, puede optar por el servicio Smartphone iD, que le permite hacer la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento español y hacerla revisar por expertos formados</p>\n",
+        "titre_accordeon": "¿Donde puedo hacerme la foto del pasaporte cerca de la calle Diego de Leon en Madrid?"
+      },
+      {
+        "texteAccordeon": "<p>Sí, puedes utilizar un fotomatón para hacerte una foto de pasaporte. Un fotomatón como Tecnotron te hará seis fotos de 32 mm x 26 mm.Si, por el contrario, prefiere hacerse las fotos del pasaporte cómodamente en casa, puede optar por el servicio Smartphone iD, que le permite hacer la foto con su teléfono móvil, formatearla en el tamaño necesario para cualquier documento español y hacerla revisar por expertos formados</p>\n",
+        "titre_accordeon": "¿Puedo hacerme las fotos para el pasaporte en un fotomatón?"
+      },
+      {
+        "texteAccordeon": "<p>La foto de pasaporte debe mostrar un parecido completo con usted. Si sueles llevar barba, no es necesario que te afeites antes de hacerte la foto para el pasaporte. Si, por el contrario, lleva una barba larga y tiene previsto afeitarse pronto, su aspecto será diferente. Entonces es mejor hacerse una foto de pasaporte después de afeitarse</p>\n",
+        "titre_accordeon": "¿Está permitido hacerme la foto del pasaporte con barba?"
+      }
+    ],
+    "titre_bloc9": "a Tus Preguntas",
+    "titre_bloc9_span": "Respuestas "
+  },
+
+  "Bloc10" : {
+    "thankYouMsg": "",
+    "heading": "¿Encontraste esto útil?",
+    "sousTitre" : "Haz clic en las estrellas para dejar tu valoración.",
+    "personne" : "Valoración media :",
+    "etoiles" : "estrellas de 5"
+  },
+
+  "Bloc11": {
+    "titre": "¡Haz clic en el apartado correspondiente para encontrar respuestas sobre las fotos específicas para los documentos de identidad Españoles!\n",
+    "liens": [
+      {
+        "link": "Carnet de Conducir",
+        "url": "https://www.smartphone-id.com/es/renovar-permiso-conducir-espanol-en-espana/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Pasaporte",
+        "url": "https://www.smartphone-id.com/es/renovar-su-pasaporte-en-espana/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "DNI",
+        "url": "https://www.smartphone-id.com/es/renovar-su-dni-espanol-en-el-extrangero/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "NIE",
+        "url": "https://www.smartphone-id.com/es/permiso-de-residencia-espanol/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visado",
+        "url": "https://www.smartphone-id.com/es/foto-visado/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
+  "Footer": {
+    "partie2-button": "Pruébalo ya!",
+    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+    "SiteMapList-propos" : "Sobre nosotros",
+    "propos-link" : "https://www.smartphone-id.com/es/sobre-nosotros/",
+    "SiteMapList-faq" : "FAQ",
+    "faq-link" : "https://www.smartphone-id.com/es/preguntas-frecuentes/",
+    "SiteMapList-contact" : "Contacto",
+    "contact-link" : "https://www.smartphone-id.com/es/contact/",
+    "applis-h3": "Descarga la app!",
+    "applis-p":  "Descarga la app Smartphone iD para hacer un seguimiento de los pedidos y disfrutar de más funciones de la foto para pasaporte.",
+    "AppStore-link" : "https://apps.apple.com/es/app/foto-de-pasaporte-oficial/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=es&gl=es",
+    "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
+    "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
+    "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
+    "partie2-p-link": "",
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal Notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
+  }
+}
