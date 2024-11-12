@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Photo d'identité officielle en ligne - Smartphone ID",
+    "description": "Obtenez rapidement votre photo d’identité sécurisée"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -162,19 +167,19 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-imprimer-photo-identite-digitale.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-imprimer-photo-identite-digitale.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-en-ligne-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-identite-en-ligne-smartphone.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-idenite-acceptee-comment.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-idenite-acceptee-comment.png"
       }
     ]
   },
@@ -416,7 +421,7 @@
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "/images/Bloc7/fr-FR/ephoto_france.png",
+        "img_principal": "/images/Bloc7/fr-FR/preuve-date-et-heure-photo-identite-france.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
       }
@@ -614,8 +619,8 @@
     "contact-link" : "https://www.smartphone-id.com/contact/",
     "applis-h3": "Téléchargez l’application",
     "applis-p":  "Suivez vos commandes et profitez d’encore plus de fonctionnalités avec l’application Smartphone iD.",
-    "AppStore-link" : "https://www.smartphone-id.com/",
-    "PlayStore-link" : "https://www.smartphone-id.com/",
+    "AppStore-link" : "https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
     "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
     "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
     "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",

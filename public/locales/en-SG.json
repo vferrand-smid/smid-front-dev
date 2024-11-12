@@ -1,31 +1,36 @@
 {
+  "metadata": {
+    "title": "SG passport photo online - Smartphone iD",
+    "description": "Fast and easy tool for quality passport photos"
+  },
+
   "NavBar": {
     "liens": [
       {
         "link" : "Passport",
-        "url" : "https://www.smartphone-id.com/en_SG/passport-photos/"
+        "url" : "https://www.smartphone-id.com/mt/passport-singapore/"
       },
       {
-        "link" : "Residency Permit",
-        "url" : "https://www.smartphone-id.com/en_SG/singapore-resident-permit-passport-photo/"
+        "link" : "Driving License",
+        "url" : "https://www.smartphone-id.com/mt/singapore-driving-licence"
       },
       {
-        "link" : "Driving license",
-        "url" : "https://www.smartphone-id.com/en_SG/driving-license-passport-photo/"
+        "link" : "Identity Card",
+        "url" : "https://www.smartphone-id.com/mt/singapore-identity-card-ic"
+      },
+      {
+        "link" : "Permanent Residence Card",
+        "url" : "https://www.smartphone-id.com/mt/singapore-residency-permit/"
       },
       {
         "link" : "Visa",
-        "url" : "https://www.smartphone-id.com/en_SG/passport-photo-singapore-visa/"
-      },
-      {
-        "link" : "Student pass",
-        "url" : "https://www.smartphone-id.com/en_SG/passport-photo-student-pass-singapore/"
+        "url" : "https://www.smartphone-id.com/mt/singapore-visa/"
       }
     ]
   },
 
   "Bloc1" : {
-    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-for-Singapore-online.png",
+    "girl" : "/images/Bloc1/en-SG/passport-photo-tool-for-Singapore-online.png",
     "background" : "/images/background.png",
     "titre_bloc1" : "Fast and easy tool for",
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
@@ -64,8 +69,8 @@
   "Bloc2" : {
     "repeteur1": [
       {
-        "img_repeteur1": "/images/Bloc2/secure_passpor_photo_tool.png",
-        "titre_repeteur1": "More than a million valid passport photos delivered"
+        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
+        "titre_repeteur1": "More than a million compliant photos delivered"
       },
       {
         "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
@@ -79,8 +84,8 @@
   },
 
   "Bloc3" : {
-    "titre_bloc3_span": "The complete passport photo solution ",
-    "titre_bloc3": "without leaving your home",
+    "titre_bloc3_span": "The complete ",
+    "titre_bloc3": "passport photo solution without leaving your home",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
@@ -131,22 +136,22 @@
     ],
     "repeteurCkeckBlackMobile": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Automated sizing and background removal.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Automatic-formatting-singapore-passport-photo.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Expert-control-singapore-passport-photo.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Printing-delivery-singapore-passport-photo.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure-passport-photo-tool.png"
       }
@@ -156,33 +161,33 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Take a photo with your smartphone.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-1-in-mobile.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-2-in-mobile.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-3-in-mobile.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png"
+        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-4-in-mobile.png"
       }
     ]
   },
 
   "Bloc4": {
     "titre_bloc4_1": "More than ",
-    "titre_bloc4_2": "passport photos created",
-    "titre_bloc4_span": "a million valid ",
+    "titre_bloc4_2": " valid passport photos created",
+    "titre_bloc4_span": "a million",
     "partenaires": [
       {
         "text": "Zebra",
@@ -288,8 +293,8 @@
   },
 
   "Bloc5": {
-    "titre_bloc5_1": " passport photo tool? ",
-    "titre_bloc5_span": "Why the Smartphone iD",
+    "titre_bloc5_1": "Why the Smartphone iD",
+    "titre_bloc5_span": " passport photo tool?",
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Young-friends-taking-SG-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
@@ -358,7 +363,7 @@
     ],
     "bloc_photo": [
       {
-        "impressionPhoto": "Where to print a Singapore passport photo?",
+        "impressionPhoto": "Where to print passport photos in Singapore?",
         "paragraphe": "Order professionally printed photos with Smartphone iD or use the ready-to-print template sent to your email.",
         "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/singapore-printed-passport-photo-template.png",
         "partenaires": [
@@ -396,9 +401,9 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1" :"Your online ",
-    "titre_bloc7_2" : "for official document applications",
-    "titre_bloc7_span": "solution",
+    "titre_bloc7_1": "Your ",
+    "titre_bloc7_2": " for official document applications",
+    "titre_bloc7_span": "online solution",
     "bloc": [
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
@@ -416,8 +421,8 @@
   },
 
   "Bloc8": {
-    "titre_bloc8_1" : "How to take a ",
-    "titre_bloc8_2" : "passport photo",
+    "titre_bloc8_1": "How to take a ",
+    "titre_bloc8_2": " passport photo",
     "titre_bloc8_span": "successful",
     "titre_encart": "Quelques conseils",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/158N_fC5ys4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
@@ -448,11 +453,11 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/en_SG/passport-photos/",
+      "url": "https://www.smartphone-id.com/mt/singapore-passport-photos",
       "title": "See more"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/en_SG/baby-passport-photo/",
+      "url": "https://www.smartphone-id.com/mt/baby-passport-photos-in-singapore/",
       "title": "How to take a passport photo of a baby?"
     }
   },
@@ -543,43 +548,38 @@
   },
 
   "Bloc11": {
-    "titre": "Find your answers on the corresponding pages",
+    "titre": "Click on the corresponding subsection to find answers about specific Singapore document passport photos!",
     "liens": [
       {
-        "link": "Driving Licence",
-        "url": "https://www.smartphone-id.com/en_SG/driving-licence",
+        "link": "Driving License",
+        "url": "https://www.smartphone-id.com/mt/singapore-driving-licence",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "Passport",
-        "url": "https://www.smartphone-id.com/en_SG/passport",
+        "url": "https://www.smartphone-id.com/mt/passport-singapore/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "Identity Card",
-        "url": "https://www.smartphone-id.com/en_SG/identity-card",
+        "url": "https://www.smartphone-id.com/mt/singapore-identity-card-ic",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
-        "link": "Residency Permit",
-        "url": "https://www.smartphone-id.com/en_SG/residency-permit",
+        "link": "Permanent Residence Card",
+        "url": "https://www.smartphone-id.com/mt/singapore-residency-permit/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Visa",
-        "url": "https://www.smartphone-id.com/en_SG/singapore-visa",
+        "url": "https://www.smartphone-id.com/mt/singapore-visa/",
         "icon": "/images/Bloc11/visa.svg"
-      },
-      {
-        "link": "student pass singapore",
-        "url": "https://www.smartphone-id.com/en_SG/student-pass-singapore",
-        "icon": "/images/Bloc11/carte-vitale.svg"
       }
     ]
   },
 
   "Footer": {
-    "partie2-button": "Try now for free!",
+    "partie2-button": "Take a photo",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
@@ -597,7 +597,7 @@
     "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Follow us and find out about the newest information regarding visas and other official documents.",
-    "partie2-p-link": null,
+    "partie2-p-link": "",
     "mentions-confidentialité": "Privacy Policy",
     "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",
