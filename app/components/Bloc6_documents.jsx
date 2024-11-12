@@ -31,13 +31,14 @@ const Bloc6Documents = ({ locale }) => {
                     }
 
                     return (
-                        <section key={index} className={styles.selectDocumentItem}>
+                        <section key={index} className={`${styles.selectDocumentItem} flex flex-col items-center sm:w-[150px] w-full`}>
                             <div>
                                 <Image
-                                    width={500}
-                                    height={500}
+                                    width={150}  // Ajuste la largeur de l'image
+                                    height={150} // Ajuste la hauteur de l'image
                                     src={item.img_doc}
-                                    alt=""
+                                    alt={item.titre_doc}
+                                    objectFit="contain" // Empêche l'image de déborder
                                 />
                             </div>
                             <p>{item.titre_doc}</p>

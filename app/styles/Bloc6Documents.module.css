@@ -29,11 +29,18 @@
 }
 
 .selectDocument > section > div {
-    @apply w-[150px] h-[150px] mx-auto mb-[10px] box-border;
+    @apply sm:w-[150px] w-[100px] sm:h-[150px] h-[100px] mx-auto mb-[10px] box-border overflow-hidden flex items-center justify-center;
+}
+
+@media (max-width: 420px) {
+    .selectDocument > section > div {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .selectDocument > section > div > img {
-    @apply w-full h-full object-contain m-0 box-border;
+    @apply max-w-full max-h-full object-contain m-0 box-border;
 }
 
 .selectDocument > section > p {
