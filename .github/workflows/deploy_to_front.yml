@@ -40,4 +40,4 @@ jobs:
           cd temp-website_b2c
           git add front
           git commit -m "Automated update of front content"
-          git push website_b2c development
+          git push website_b2c HEAD:development
