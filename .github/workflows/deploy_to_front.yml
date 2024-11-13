@@ -13,6 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Debug - Show current directory
+        run: pwd
+
+      - name: Debug - List files
+        run: ls -la
+        
       - name: Set up Git
         run: |
           git config --global user.name "vferrand-smid"
@@ -35,9 +41,3 @@ jobs:
           git add front
           git commit -m "Automated update of front content"
           git push website_b2c development
-
-      - name: Debug - Show current directory
-        run: pwd
-
-      - name: Debug - List files
-        run: ls -la
