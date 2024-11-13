@@ -19,7 +19,7 @@ jobs:
 
       - name: Authenticate to GitHub
         env:
-          WEBSITE_B2C: ${{ secrets.WEBSITE_B2C }}
+          WEBSITE_B2C: ${{ secrets.Website_b2c }}
         run: |
           git remote add website_b2c https://x-access-token:${WEBSITE_B2C}@github.com/smartphone-id/website_b2c.git
 
