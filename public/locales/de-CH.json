@@ -1,30 +1,30 @@
 {
   "metadata": {
-    "title": "Deutsches Passfoto online - Smartphone ID",
+    "title": "Passbilder online für die Schweiz - Smartphone iD",
     "description": "Schnelles und einfaches Tool für hochwertige Passfotos"
   },
 
   "NavBar": {
     "liens": [
       {
-        "link" : "Pass",
-        "url" : "https://www.smartphone-id.com/de_CH/passfoto-fur-pass"
+        "link" : "Schweizer Pass",
+        "url" : "https://www.smartphone-id.com/qu/digitales-passfoto"
       },
       {
-        "link" : "Personalausweis",
-        "url" : "https://www.smartphone-id.com/de_CH/personalausweis-passfoto"
+        "link" : "Identitätskarte",
+        "url" : "https://www.smartphone-id.com/qu/identitaetskarte"
       },
       {
-        "link" : "Aufenthaltsgenehmigung",
-        "url" : "https://www.smartphone-id.com/de_CH/aufenthaltsgenehmigung-passfoto"
+        "link" : "Aufenthaltstitel",
+        "url" : "https://www.smartphone-id.com/qu/aufenthaltsgenehmigung-passfoto"
       },
       {
-        "link" : "Schweizer Visum",
-        "url" : "https://www.smartphone-id.com/de_CH/schweizer-visum-passfoto"
+        "link" : "Visum",
+        "url" : "https://www.smartphone-id.com/qu/schweizer-visum-passfoto"
       },
       {
         "link" : "Führerausweis",
-        "url" : "https://www.smartphone-id.com/de_CH/passfoto-führerausweis"
+        "url" : "https://www.smartphone-id.com/qu/passfoto-fuehrerausweis"
       }
     ]
   },
@@ -32,16 +32,16 @@
   "Bloc1": {
     "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passfotoverktyg-for-Schweiz-online.png",
     "background": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-7.pn",
-    "titre_bloc1": "Hochwertige Passfotos",
-    "titre_h4_bloc1": "und digitale Signaturen.",
+    "titre_bloc1": "Schnelles und einfaches Tool für",
+    "titre_h4_bloc1": "Einfach ein Foto machen und das fertige Bild erhalten! Probiere es jetzt aus!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Ihr sicheres Passfoto"
+        "texte_check_green": "hochwertige Passfotos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Expertenüberprüfung"
+        "texte_check_green": "und digitale Signaturen."
       }
     ],
     "repeteurCheckWhiteBloc1": [
@@ -61,8 +61,8 @@
   },
 
   "kalSearch": {
-    "titre_1": "Ich brauche ein Passfoto in",
-    "titre_2": "Und für welches Dokument",
+    "titre_1": "Ich brauche ein Passfoto für dieses Land",
+    "titre_2": "Und für dieses Dokument",
     "bouton": "Hol dir dein Foto"
   },
 
@@ -85,27 +85,27 @@
 
   "Bloc3": {
     "titre_bloc3_span": "Die komplette",
-    "titre_bloc3": "Passfotolösung, ohne das Haus zu verlassen.",
+    "titre_bloc3": " Passfotolösung - ganz einfach von zu Hause",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Automatisierte Begradigung und Hintergrundentfernung.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatisches-Formatieren-des-Passfotos.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/automatische_Formatierung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Unser Experten-Check garantiert die Fotokonformität.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expertenprufung-des-Passfotos.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Fachkundige_Prufung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Bestelle dein professionell gedrucktes Foto. Versand noch am gleichen Tag.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck-Zustellung-des-Passfotos.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck_Lieferung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Keine persönlichen Daten erforderlich. Ihr Foto ist sicher gespeichert.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Passfoto-sicher-gespeichert.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer_Passfoto_sicher_gespeichert.png"
       }
     ],
     "repeteur_etape": [
@@ -113,25 +113,25 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Scannen Sie den QR-Code, um ein Passfoto mit Ihrem Smartphone zu machen.",
         "titre_check": "Schritt 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-1-im-Computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool-Schritt-1-am-Computer.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
         "titre_check": "Schritt 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-2-im-Computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool-Schritt-2-am-Computer.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
         "titre_check": "Schritt 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-3-im-Computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-3-am-Computer.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
         "titre_check": "Schritt 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-4-im-Computer.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-4-am-Computer.png"
       }
     ],
 
@@ -139,22 +139,22 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Automatisierte Begradigung und Hintergrundentfernung",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Automatisches-Formatieren-des-Passfotos.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/automatische_Formatierung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Unser Experten-Check garantiert die Fotokonformität.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Expertenprufung-des-Passfotos.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Fachkundige_Prufung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Bestelle dein professionell gedruckte Fotos nach Hause. Versand noch am gleichen Tag ",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck-Zustellung-des-Passfotos.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck_Lieferung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Keine persönlichen Daten erforderlich. Dein Foto ist sicher gespeichert.",
-        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Passfoto-sicher-gespeichert.png"
+        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer_Passfoto_sicher_gespeichert.png"
       }
     ],
     "repeteurEtapeMobile": [
@@ -162,25 +162,25 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Machen Sie ein Passfoto mit Ihrem Smartphone.",
         "titre_check": "Schritt  1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-1-auf-dem-Handy.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-1-auf-dem-Handy.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
         "titre_check": "Schritt 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-2-auf-dem-Handy.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer Passfoto-Tool-Schritt-2-auf-dem-Handy.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
         "titre_check": "Schritt 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-3-auf-dem-Handy.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-3-auf-dem-Handy.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
         "titre_check": "Schritt 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-4-auf-dem-Handy.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer Passfoto-Tool-Schritt-4-auf-dem-Handy.png"
       }
     ]
 
@@ -188,7 +188,7 @@
 
   "Bloc4": {
     "titre_bloc4_1": "Seit 2017, ",
-    "titre_bloc4_2": "biometrische Passfotos erstellt",
+    "titre_bloc4_2": " biometrische Passfotos erstellt",
     "titre_bloc4_span": "mehr als eine Million",
     "partenaires": [
       {
@@ -230,32 +230,32 @@
     ],
     "media": [
       {
-        "text": null,
-        "img": null
+        "text": "France Digitale",
+        "img": "/images/Bloc4/media/France-Digitale.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "E-Residency Marketplace",
+        "img": "/images/Bloc4/media/eresidency-marketplace-member.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "France Info",
+        "img": "/images/Bloc4/media/France-Info.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "Canal+",
+        "img": "/images/Bloc4/media/Canal.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "JEI",
+        "img": "/images/Bloc4/media/JEI.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "Le Progrès",
+        "img": "/images/Bloc4/media/Le-Progres.png"
       },
       {
-        "text": null,
-        "img": null
+        "text": "La French Tech",
+        "img": "/images/Bloc4/media/La-French-Tech.png"
       }
     ],
     "temoignages": [
@@ -290,27 +290,17 @@
         "titre": "Fotos beim ersten Mal akzeptiert"
       }
     ],
-    "nos_partenaires": "Vorgestellt von",
-    "nos_medias": null
+    "nos_partenaires": "Unsere Partner",
+    "nos_medias": "Vorgestellt von"
   },
 
   "Bloc5": {
-    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Junge-Freunde-machen-ein-Foto-fur-den-deutschen-Pass-mit-der-Smartphone-iD-App.jpg",
+    "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Junge-Freunde-machen-Schweizer-Passfoto-mit-der-Smartphone-iD-App.jpg",
     "listeService": [
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "24/7 service",
-        "texteService": null
-      },
-      {
-        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Für jedes Dokument geeignet",
-        "texteService": "Die richtige Größe im digitalen und gedruckten Format, Bildtiefe, Hintergrundfarbe, Beleuchtung..."
-      },
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Konformität zu 100%",
-        "texteService": "Für alle offiziellen Dokumente, weltweit"
+        "texteService": "Die richtige Größe im digitalen und gedruckten Format (Bildtiefe, Hintergrundfarbe, Beleuchtung...)"
       },
       {
         "check": "/images/General/check-green.png",
@@ -322,27 +312,42 @@
         "service24h24Et7j7": "Erhalten Sie ein besseres Foto",
         "texteService": "Mach unbegrenzte Aufnahmen und wähle dein bestes Foto aus"
       },
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Echter Kundenservice",
-        "texteService": "Keine Automaten, keine versteckten Kontaktinformationen - Ihre positive Erfahrung ist uns wichtig."
-      },
+
       {
         "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ökologisch",
         "texteService": "Verschwende kein Papier mehr, wenn du dein Dokument erneuern musst."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Konformität zu 100%",
+        "texteService": "Für alle offiziellen Dokumente, weltweit"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "24/7 service",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Echter Kundenservice",
+        "texteService": "Keine Automaten, keine versteckten Kontaktinformationen - Ihre positive Erfahrung ist uns wichtig."
       }
     ],
-    "titre_bloc5_1": "Warum entscheiden sich Menschen für den Service von",
+    "titre_bloc5_1": "Warum entscheiden sich Menschen für den Service von ",
     "titre_bloc5_span": "Smartphone iD?"
   },
 
   "Bloc6": {
     "bloc_photo": [
       {
-        "impressionPhoto": "Wo kann man Passfotos in Deutschland ausdrucken?",
-        "paragraphe": "Bestell dir professionell gedruckte Fotos mit Smartphone iD oder druck dir dein Foto in einer Einrichtung in Ihrer Nähe aus.",
+        "impressionPhoto": "Wo kann man Passfotos in der Schweiz ausdrucken?",
+        "paragraphe": "Bestell dir professionell gedruckte Fotos mit Smartphone iD oder druck dir dein Foto in einer Einrichtung in der Nähe aus.",
         "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/smartphone-id.png"
+          },
           {
             "nom_partenaire": "Elite Fotostudio",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Elite-fotostudio-1.png"
@@ -380,32 +385,32 @@
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/select-fotostudio-1.png"
           }
         ],
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/deutsche-Passfoto-Vorlage-zum-Ausdrucken.png"
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-gedruckte-Passfoto-Vorlage.png"
       }
     ],
-    "titre_bloc6_1": "Zu jedem Dokument ein",
-    "titre_bloc6_2": "Passfoto",
-    "titre_bloc6_span": "passendes",
+    "titre_bloc6_1": "Zu ",
+    "titre_bloc6_2": " ein passendes Passfoto",
+    "titre_bloc6_span": "jedem Dokument",
     "documents": [
       {
-        "titre_doc": "Reisepass",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Reisepass.png"
+        "titre_doc": "Schweizer Pass",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passfoto-fur-Schweizer-pass.png"
       },
       {
-        "titre_doc": "Personalausweis.",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/germany-Personalausweis.png"
+        "titre_doc": "Identitätskarte",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passfoto-fur-identitatskarte-schweiz.png"
       },
       {
-        "titre_doc": "Führerschein",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Fuhrerschein.png"
+        "titre_doc": "Führerausweis",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passfoto-fur-fuhrerausweis-schweiz.png"
       },
       {
-        "titre_doc": "Aufenthaltsgenehmigung",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Aufenthaltsgenehmigung.png"
+        "titre_doc": "Aufenthaltstitel",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passfoto-fur-aufenthaltstitel-schweiz.png"
       },
       {
         "titre_doc": "Visum",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Germany-Visa.png"
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passfoto-fur-Visum.png"
       }
     ]
   },
@@ -414,7 +419,7 @@
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/aktuelle-deutsche-Passfoto-Vorlage-zum-Ausdrucken.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/aktuelle-Schweizer-gedruckte-Passfoto-Vorlage.png",
         "paragraphe": "Echtzeit-Fotoaufnahmen beweisen die Aktualität eines Fotos, die für offizielle Dokumente obligatorisch ist.",
         "titre": "Nachweis der Aktualität von Fotos"
       },
@@ -425,9 +430,9 @@
         "titre": "Digitale Unterschrift"
       }
     ],
-    "titre_bloc7_1": "Deine Online",
-    "titre_bloc7_2": "für amtliche Dokumente Anträge",
-    "titre_bloc7_span": "Lösung"
+    "titre_bloc7_1": "Deine ",
+    "titre_bloc7_2": " für amtliche Dokumente Anträge",
+    "titre_bloc7_span": "Online Lösung"
   },
 
   "Bloc8": {
@@ -458,22 +463,22 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/de/passfoto/",
+      "url": "https://www.smartphone-id.com/qu/biometrisches-passfoto",
       "title": "Erfahre mehr"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/de/biometrische-passbild-fuer-dein-baby/",
+      "url": "https://www.smartphone-id.com/qu/passfoto-baby",
       "title": "Wie machst du ein Passfoto von einem Baby?"
     },
-    "titre_bloc8_1" : "Wie machst du ein",
-    "titre_bloc8_2" : "Passfoto?",
+    "titre_bloc8_1" : "Wie machst du ein ",
+    "titre_bloc8_2" : " Passfoto?",
     "titre_bloc8_span": "korrektes",
     "titre_encart": "Einige Vorschläge",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/szjDtvkU7O0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
   },
 
   "Bloc9": {
-    "ID": "Passfoto für die switzerland's",
+    "ID": "Passfotos für die Schweiz",
     "ePhoto": null,
     "codeEphoto": [
       {
@@ -495,15 +500,15 @@
         "titre_accordeon": "Was kosten Passfoto am Automaten?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Das Passfoto für einen Personalausweis oder für ein anderes offizielles Dokument muss nach Gesetz „aktuell“ sein.<br />\nEin konkreter Zeitraum wird hier nicht genannt. Jedoch sind der Reisepass, als auch der Ausweis per Gesetz ungültig, wenn die einwandfreie Identitätsfeststellung des Inhabers nicht möglich ist.<br />\nEin neues Passfoto ist dementsprechend immer die richtige Wahl.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Das Passfoto für einen Personalausweis oder für ein anderes offizielles Dokument muss nach Gesetz „aktuell“ sein.<br />\nEin konkreter Zeitraum wird hier nicht genannt. Jedoch sind der Reisepass, als auch der Ausweis per Gesetz ungültig, wenn die einwandfreie Identitätsfeststellung des Inhabers nicht möglich ist.<br />\nEin neues Passfoto ist dementsprechend immer die richtige Wahl.</aside>\n",
         "titre_accordeon": "Wie alt darf ein Passfoto sein?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Ein biometrisches Passfoto muss scharf, kontrastreich und vor allem den vorgegebenen Maßen entsprechen. Dementsprechend sollte es mit einer hochauflösenden Kamera aufgenommen werden.<br />\nDein Gesicht muss den Hauptteil des Bildes ausmachen und es sollten keine Schatten oder Reflexionen zu erkennen sein.<br />\nDer Hintergrund muss hell und einfarbig sein und einen Kontrast zu deinem Gesicht und den Haaren aufweisen.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Ein biometrisches Passfoto muss scharf, kontrastreich und vor allem den vorgegebenen Maßen entsprechen. Dementsprechend sollte es mit einer hochauflösenden Kamera aufgenommen werden.<br />\nDein Gesicht muss den Hauptteil des Bildes ausmachen und es sollten keine Schatten oder Reflexionen zu erkennen sein.<br />\nDer Hintergrund muss hell und einfarbig sein und einen Kontrast zu deinem Gesicht und den Haaren aufweisen.</aside>\n",
         "titre_accordeon": "Wie muss ein biometrisches Passfoto aussehen?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Die Kosten für ein biometrisches Passfoto unterscheiden sich stark zwischen den einzelnen Anbietern.<br />\nJe nachdem ob du deinen Fotos in einem Fotoautomaten oder in einem Fotostudio machst, bezahlst du für ein Set Passfotos zwischen 8€ und 30€.<br />\nSmartphone iD hat den günstigsten und schnellsten Service.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Die Kosten für ein biometrisches Passfoto unterscheiden sich stark zwischen den einzelnen Anbietern.<br />\nJe nachdem ob du deinen Fotos in einem Fotoautomaten oder in einem Fotostudio machst, bezahlst du für ein Set Passfotos zwischen 8€ und 30€.<br />\nSmartphone iD hat den günstigsten und schnellsten Service.</aside>\n",
         "titre_accordeon": "Was kostet ein Passfoto der Schweiz?"
       },
       {
@@ -519,19 +524,19 @@
         "titre_accordeon": "Was ist ein biometrisches Passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Ein professionelles Passfoto lässt sich ganz einfach und schnell mit deinem Handy und der App Smartphone iD erstellen.<br />\nInnerhalb kürzester Zeit hast du ein neues biometrisches Passfoto von dir auf deinem Smartphone. Darüber hinaus kannst du Passfotos auch in Fotostudios, in Passfotoautomaten oder in einem dm-Drogeriemarkt machen.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Ein professionelles Passfoto lässt sich ganz einfach und schnell mit deinem Handy und der App Smartphone iD erstellen.<br />\nInnerhalb kürzester Zeit hast du ein neues biometrisches Passfoto von dir auf deinem Smartphone. Darüber hinaus kannst du Passfotos auch in Fotostudios, in Passfotoautomaten oder in einem dm-Drogeriemarkt machen.</aside>\n",
         "titre_accordeon": "Wo kann man Passfotos machen?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Die einfachste Möglichkeit zum Erstellen eines digitalen Passbildes ist die Nutzung einer Passfoto App wie Smartphone iD.<br />\nMit Hilfe der integrierten Kamera deines Handys oder Tablets, lassen sich schnell und einfach Passfotos von dir erstellen, die du direkt im Anschluss als digitale Datei zugesandt bekommst.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Die einfachste Möglichkeit zum Erstellen eines digitalen Passbildes ist die Nutzung einer Passfoto App wie Smartphone iD.<br />\nMit Hilfe der integrierten Kamera deines Handys oder Tablets, lassen sich schnell und einfach Passfotos von dir erstellen, die du direkt im Anschluss als digitale Datei zugesandt bekommst.</aside>\n",
         "titre_accordeon": "Wie erstelle ich ein digitales Passfoto?"
       },
       {
         "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">In einem Fotostudio kannst du biometrische Passfotos von dir machen lassen. Zusätzlich findest du in jeder größeren Stadt auch Fotoautomaten, die diesen Dienst anbieten.<br />\nEine günstige und einfache Variante ist das Nutzen eine Passfoto App wie Smartphone iD, da du hier nur dein Handy benötigst, um ein Passfoto zu erstellen.</main></p>\n",
-        "titre_accordeon": "Wo kann ich Passfotos machen lassen in der Schweiz ?"
+        "titre_accordeon": "Wo kann ich Passfotos machen lassen in der Schweiz ?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Achte darauf, dass dein Gesicht ca. 70-80% des Bildes ausmachen und du keinen Schatten oder Reflexionen im Gesicht oder den Augen hast.<br />\nAußerdem sollte dein Gesicht und der Oberkörper sich deutlich von einem hellen und eintönigen Hintergrund abheben. Das Passfoto muss dabei klar, kontrastreich und scharf sein.<br />\nAuf dem Foto solltest du einen neutralen Gesichtsausdruck haben und deine Augen müssen offen sein. Wenn du dein Passfoto als Selfie machen möchtest, dann solltest du deinen Arm gestreckt haben, damit möglichst das ganzes Gesicht und der Oberkörper zu sehen sind.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Achte darauf, dass dein Gesicht ca. 70-80% des Bildes ausmachen und du keinen Schatten oder Reflexionen im Gesicht oder den Augen hast.<br />\nAußerdem sollte dein Gesicht und der Oberkörper sich deutlich von einem hellen und eintönigen Hintergrund abheben. Das Passfoto muss dabei klar, kontrastreich und scharf sein.<br />\nAuf dem Foto solltest du einen neutralen Gesichtsausdruck haben und deine Augen müssen offen sein. Wenn du dein Passfoto als Selfie machen möchtest, dann solltest du deinen Arm gestreckt haben, damit möglichst das ganzes Gesicht und der Oberkörper zu sehen sind.</aside>\n",
         "titre_accordeon": "Was sollte ich bei Passfotos beachten?"
       },
       {
@@ -539,11 +544,11 @@
         "titre_accordeon": "Wie macht man ein Passfoto von einem Baby?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Wichtig ist, dass deine Haare auf deinem Passfoto nicht dein Gesicht oder deine Augen verdecken.<br />\nDarüber hinaus solltest du keine hohe oder breite Frisur tragen, die aus den Maßen des Passfotos herausragen. Es dürfen sich auch keine sichtbaren Accessoires in den Haaren befinden. Die Farbe der Haare spielt keine Rolle.</aside>\n",
+        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">Wichtig ist, dass deine Haare auf deinem Passfoto nicht dein Gesicht oder deine Augen verdecken.<br />\nDarüber hinaus solltest du keine hohe oder breite Frisur tragen, die aus den Maßen des Passfotos herausragen. Es dürfen sich auch keine sichtbaren Accessoires in den Haaren befinden. Die Farbe der Haare spielt keine Rolle.</aside>\n",
         "titre_accordeon": "Welche Frisur sollte ich auf einem Passfoto tragen?"
       }
     ],
-    "titre_bloc9": "gestellte Fragen",
+    "titre_bloc9": " gestellte Fragen",
     "titre_bloc9_span": "Häufig",
     "fieldGroupName": "PageDAccueilBloc9"
   },
@@ -557,51 +562,49 @@
   },
 
   "Bloc11": {
-    "titre": "Finden Sie Ihre Antworten auf den entsprechenden Seiten",
+    "titre": "Klicke auf den entsprechenden Link, um Informationen zu Passfotos für spezielle Schweizer Dokumente zu erhalten!",
     "liens": [
       {
-        "link": "Führerschein",
-        "url": "https://www.smartphone-id.com/de_CH/führerschein/",
+        "link": "Führerausweis",
+        "url": "https://www.smartphone-id.com/qu/passfoto-fuehrerausweis",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
-        "link": "Schweizer pass",
-        "url": "https://www.smartphone-id.com/de_CH/schweizer-pass/",
+        "link": "Schweizer Pass",
+        "url": "https://www.smartphone-id.com/qu/digitales-passfoto",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
-        "link": "Personalausweis",
-        "url": "https://www.smartphone-id.com/de_CH/personalausweis/",
+        "link": "Identitätskarte",
+        "url": "https://www.smartphone-id.com/qu/identitaetskarte",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
-        "link": "Aufenthaltsgenehmigung",
-        "url": "https://www.smartphone-id.com/de_CH/aufenthaltsgenehmigung/",
+        "link": "Aufenthaltstitel",
+        "url": "https://www.smartphone-id.com/qu/aufenthaltsgenehmigung-passfoto",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Visum",
-        "url": "https://www.smartphone-id.com/de_CH/visum/",
+        "url": "https://www.smartphone-id.com/qu/schweizer-visum-passfoto",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
   },
 
   "Footer": {
-    "partie2-button": "Jetzt kostenlos probieren! ",
+    "partie2-button": "Probiere es jetzt kostenlos aus! ",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "partie2-p": "Folgen Sie uns und erfahren Sie die neuesten Informationen zu Visa und anderen offiziellen Dokumenten.",
-    "SiteMapList-blog" : "Blog",
-    "blog-link" : "https://www.smartphone-id.com/de_DE/faq/",
     "SiteMapList-propos" : "Über uns",
-    "propos-link" : "https://www.smartphone-id.com/de_DE/uber-uns/",
+    "propos-link" : "https://www.smartphone-id.com/de/uber-uns/",
     "SiteMapList-faq" : "Häufig gestellte Fragen",
-    "faq-link" : "https://www.smartphone-id.com/de_DE/faq/",
+    "faq-link" : "https://www.smartphone-id.com/de/faq/",
     "SiteMapList-contact" : "Kontakt",
-    "contact-link" : "https://www.smartphone-id.com/de_DE/kontakt/",
+    "contact-link" : "https://www.smartphone-id.com/de/kontakt/",
     "applis-h3": "Laden Sie die App herunter!!",
     "applis-p":  "Laden Sie die Smartphone iD-App herunter, um Ihre Bestellungen zu verfolgen und noch mehr Funktionen zu genießen.",
     "AppStore-link" : "https://apps.apple.com/de/app/offizielles-passfoto/id1527550865",
@@ -613,7 +616,7 @@
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/legal-notice/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
