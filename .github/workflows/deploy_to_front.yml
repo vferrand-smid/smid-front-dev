@@ -38,7 +38,7 @@ jobs:
       - name: Pull latest changes
         run: |
           cd temp-website_b2c
-          git pull origin development
+          git pull --rebase origin development
 
       - name: Commit and push changes
         run: |
