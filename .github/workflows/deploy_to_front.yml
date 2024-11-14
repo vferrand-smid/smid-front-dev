@@ -35,6 +35,11 @@ jobs:
           mkdir -p temp-website_b2c/front
           rsync -av --exclude=".git" . temp-website_b2c/front
 
+      - name: Pull latest changes
+        run: |
+          cd temp-website_b2c
+          git pull origin development
+
       - name: Commit and push changes
         run: |
           cd temp-website_b2c
