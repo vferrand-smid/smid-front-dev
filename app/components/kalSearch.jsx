@@ -211,13 +211,13 @@ const KalSearch = ({ page, locale }) => {
 	);
 
 	return (
-		<div className="kal-search">
+		<div className="kal-search mr-28">
 			{/* COUNTRY */}
 			<div>
 				<div className="kal-search-country">
 					<div>
 						<h4 className="flex gap-1 items-baseline">
-							{translations.kalSearch.titre_1}
+							1. {translations.kalSearch.titre_1}
 							<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path
 									fillRule="evenodd"
@@ -284,7 +284,7 @@ const KalSearch = ({ page, locale }) => {
 			<div>
 				<div className="kal-search-document">
 					<h4 className="flex gap-1 items-baseline">
-						{translations.kalSearch['titre_2']} <span className="text-red-500">*</span>
+						2. {translations.kalSearch.titre_2} <span className="text-red-500">*</span>
 						<svg
 							width="13"
 							height="8"
@@ -331,7 +331,7 @@ const KalSearch = ({ page, locale }) => {
 					disabled={!selectedDocument || !selectedCountry}
 					className={`button-photo ${selectedDocument && selectedCountry ? '' : 'disabled'}`}
 				>
-					{translations.kalSearch.bouton}
+					3. {translations.kalSearch.bouton}
 				</button>
 
 				{isDocumentPopupVisible && (

@@ -90,22 +90,38 @@
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Automatisierte Begradigung und Hintergrundentfernung.",
+<<<<<<< HEAD
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/automatische_Formatierung_Schweizer_Passfoto.png"
+=======
+        "imageCkeckBlack": "/images/Bloc3/de-CH/automatische_Formatierung_Schweizer_Passfoto.png"
+>>>>>>> development
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Unser Experten-Check garantiert die Fotokonformität.",
+<<<<<<< HEAD
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Fachkundige_Prufung_Schweizer_Passfoto.png"
+=======
+        "imageCkeckBlack": "/images/Bloc3/de-CH/Fachkundige_Prufung_Schweizer_Passfoto.png"
+>>>>>>> development
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Bestelle dein professionell gedrucktes Foto. Versand noch am gleichen Tag.",
+<<<<<<< HEAD
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck_Lieferung_Schweizer_Passfoto.png"
+=======
+        "imageCkeckBlack": "/images/Bloc3/de-CH/Druck_Lieferung_Schweizer_Passfoto.png"
+>>>>>>> development
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Keine persönlichen Daten erforderlich. Ihr Foto ist sicher gespeichert.",
+<<<<<<< HEAD
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer_Passfoto_sicher_gespeichert.png"
+=======
+        "imageCkeckBlack": "/images/Bloc3/de-CH/Schweizer_Passfoto_sicher_gespeichert.png"
+>>>>>>> development
       }
     ],
     "repeteur_etape": [
@@ -113,25 +129,41 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Scannen Sie den QR-Code, um ein Passfoto mit Ihrem Smartphone zu machen.",
         "titre_check": "Schritt 1",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool-Schritt-1-am-Computer.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer-Passfoto-Tool-Schritt-1-am-Computer.png"
+>>>>>>> development
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
         "titre_check": "Schritt 2",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool-Schritt-2-am-Computer.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer-Passfoto-Tool-Schritt-2-am-Computer.png"
+>>>>>>> development
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
         "titre_check": "Schritt 3",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-3-am-Computer.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer-Passfoto-Tool Schritt-3-am-Computer.png"
+>>>>>>> development
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
         "titre_check": "Schritt 4",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-4-am-Computer.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer-Passfoto-Tool Schritt-4-am-Computer.png"
+>>>>>>> development
       }
     ],
 
@@ -162,25 +194,41 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Machen Sie ein Passfoto mit Ihrem Smartphone.",
         "titre_check": "Schritt  1",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-1-auf-dem-Handy.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer-Passfoto-Tool Schritt-1-auf-dem-Handy.png"
+>>>>>>> development
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
         "titre_check": "Schritt 2",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer Passfoto-Tool-Schritt-2-auf-dem-Handy.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer Passfoto-Tool-Schritt-2-auf-dem-Handy.png"
+>>>>>>> development
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
         "titre_check": "Schritt 3",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-Passfoto-Tool Schritt-3-auf-dem-Handy.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer-Passfoto-Tool Schritt-3-auf-dem-Handy.png"
+>>>>>>> development
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
         "titre_check": "Schritt 4",
+<<<<<<< HEAD
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer Passfoto-Tool-Schritt-4-auf-dem-Handy.png"
+=======
+        "image_repeteur_etape": "/images/Bloc3/de-CH/Schweizer Passfoto-Tool-Schritt-4-auf-dem-Handy.png"
+>>>>>>> development
       }
     ]
 
@@ -295,7 +343,11 @@
   },
 
   "Bloc5": {
+<<<<<<< HEAD
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Junge-Freunde-machen-Schweizer-Passfoto-mit-der-Smartphone-iD-App.jpg",
+=======
+    "imgService": "/images/Bloc5/de-CH/Junge-Freunde-machen-Schweizer-Passfoto-mit-der-Smartphone-iD-App.jpg",
+>>>>>>> development
     "listeService": [
       {
         "check": "/images/General/check-green.png",
@@ -346,7 +398,11 @@
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
+<<<<<<< HEAD
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/smartphone-id.png"
+=======
+            "img_partenaire": "/images/Bloc6/de-CH/smartphone-id.png"
+>>>>>>> development
           },
           {
             "nom_partenaire": "Elite Fotostudio",
@@ -385,7 +441,11 @@
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/select-fotostudio-1.png"
           }
         ],
+<<<<<<< HEAD
         "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer-gedruckte-Passfoto-Vorlage.png"
+=======
+        "planche_photo": "/images/Bloc6/de-CH/Schweizer-gedruckte-Passfoto-Vorlage.png"
+>>>>>>> development
       }
     ],
     "titre_bloc6_1": "Zu ",
@@ -394,6 +454,7 @@
     "documents": [
       {
         "titre_doc": "Schweizer Pass",
+<<<<<<< HEAD
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passfoto-fur-Schweizer-pass.png"
       },
       {
@@ -411,6 +472,25 @@
       {
         "titre_doc": "Visum",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passfoto-fur-Visum.png"
+=======
+        "img_doc": "/images/Bloc6/de-CH/passfoto-fur-Schweizer-pass.png"
+      },
+      {
+        "titre_doc": "Identitätskarte",
+        "img_doc": "/images/Bloc6/de-CH/passfoto-fur-identitatskarte-schweiz.png"
+      },
+      {
+        "titre_doc": "Führerausweis",
+        "img_doc": "/images/Bloc6/de-CH/passfoto-fur-fuhrerausweis-schweiz.png"
+      },
+      {
+        "titre_doc": "Aufenthaltstitel",
+        "img_doc": "/images/Bloc6/de-CH/passfoto-fur-aufenthaltstitel-schweiz.png"
+      },
+      {
+        "titre_doc": "Visum",
+        "img_doc": "/images/Bloc6/de-CH/passfoto-fur-Visum.png"
+>>>>>>> development
       }
     ]
   },
@@ -419,13 +499,17 @@
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
+<<<<<<< HEAD
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/aktuelle-Schweizer-gedruckte-Passfoto-Vorlage.png",
+=======
+        "img_principal": "/images/Bloc7/de-CH/aktuelle-Schweizer-gedruckte-Passfoto-Vorlage.png",
+>>>>>>> development
         "paragraphe": "Echtzeit-Fotoaufnahmen beweisen die Aktualität eines Fotos, die für offizielle Dokumente obligatorisch ist.",
         "titre": "Nachweis der Aktualität von Fotos"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/digitale-Unterschrift-deutsches-Passfoto.png",
+        "img_principal": "/images/Bloc7/de-CH/digitale-Unterschrift-deutsches-Passfoto.png",
         "paragraphe": "Deine Unterschrift wird bei Bedarf mit einem Foto für offizielle Dokumentenanträge online verknüpft.",
         "titre": "Digitale Unterschrift"
       }
