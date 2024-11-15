@@ -139,22 +139,22 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Automatisierte Begradigung und Hintergrundentfernung",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/automatische_Formatierung_Schweizer_Passfoto.png"
+        "imageCkeckBlack": "/images/Bloc3/de-CH/automatische_Formatierung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Unser Experten-Check garantiert die Fotokonformität.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Fachkundige_Prufung_Schweizer_Passfoto.png"
+        "imageCkeckBlack": "/images/Bloc3/de-CH/Fachkundige_Prufung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Bestelle dein professionell gedruckte Fotos nach Hause. Versand noch am gleichen Tag ",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Druck_Lieferung_Schweizer_Passfoto.png"
+        "imageCkeckBlack": "/images/Bloc3/de-CH/Druck_Lieferung_Schweizer_Passfoto.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Keine persönlichen Daten erforderlich. Dein Foto ist sicher gespeichert.",
-        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Schweizer_Passfoto_sicher_gespeichert.png"
+        "imageCkeckBlack":  "/images/Bloc3/de-CH/Schweizer_Passfoto_sicher_gespeichert.png"
       }
     ],
     "repeteurEtapeMobile": [
