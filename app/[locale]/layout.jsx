@@ -30,18 +30,18 @@ export default function RootLayout({children, params}) {
             if (data) {
                 console.log("layout.js - Geolocation data received:", data);
 
-                if (data.country_name) {
-                    setOriginCountry(data.country_name);
-                    console.log("layout.js - Origin country set to:", data.country_name);
+                if (data.country_code) {
+                    setOriginCountry(data.country_code);
+                    console.log("layout.js - Origin country set to:", data.country_code);
 
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
                         event: 'page_view',
-                        origin_country: data.country_name,
+                        origin_country: data.country_code,
                     });
                     console.log("layout.js - Data pushed to dataLayer:", {
                         event: 'page_view',
-                        origin_country: data.country_name,
+                        origin_country: data.country_code,
                     });
                 } else {
                     console.log("layout.js - Country code not found in data:", data);

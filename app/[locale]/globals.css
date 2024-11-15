@@ -1968,6 +1968,7 @@ overflow-x: hidden;
 /* ==========================================*/
 /* ==========================================*/
 
+
 .kal-hero > div > article {
     position: absolute;
     bottom: 0;
@@ -2049,7 +2050,7 @@ overflow-x: hidden;
 
 .kal-hero > div {
     max-width: 1140px;
-    margin: auto;
+    margin:auto;
     position: relative;
     min-height: 500px;
 }
