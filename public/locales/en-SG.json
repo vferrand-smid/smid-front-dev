@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "SG passport photo online - Smartphone iD",
+    "title": "Passport photos online for Singapore - Smartphone iD",
     "description": "Fast and easy tool for quality passport photos"
   },
 
@@ -30,7 +30,7 @@
   },
 
   "Bloc1" : {
-    "girl" : "/images/Bloc1/en-SG/passport-photo-tool-for-Singapore-online.png",
+    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-for-Singapore-online.png",
     "background" : "/images/background.png",
     "titre_bloc1" : "Fast and easy tool for",
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
@@ -69,7 +69,7 @@
   "Bloc2" : {
     "repeteur1": [
       {
-        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
+        "img_repeteur1": "/images/Bloc2/secure_passpor_photo_tool.png",
         "titre_repeteur1": "More than a million compliant photos delivered"
       },
       {
@@ -136,50 +136,50 @@
     ],
     "repeteurCkeckBlackMobile": [
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Automated sizing and background removal.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Automatic-formatting-singapore-passport-photo.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Because of our expert check, photo validity is guaranteed.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Expert-control-singapore-passport-photo.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "Order home delivery of these professionally printed photos, sent out the same day when ordered.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Printing-delivery-singapore-passport-photo.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "No personal information is necessary. Your photo is stored safely.",
         "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure-passport-photo-tool.png"
       }
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Take a photo with your smartphone.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-1-in-mobile.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/singapore-passport-photo-tool-step-1-in-mobile.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-2-in-mobile.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/singapore-passport-photo-tool-step-2-in-mobile.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-3-in-mobile.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/singapore-passport-photo-tool-step-3-in-mobile.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "/images/Bloc3/en-SG/singapore-passport-photo-tool-step-4-in-mobile.png"
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/singapore-passport-photo-tool-step-4-in-mobile.png"
       }
     ]
   },
@@ -536,7 +536,7 @@
       }
     ],
     "titre_bloc9": "to your questions",
-    "titre_bloc9_span": "Answers"
+    "titre_bloc9_span": "Answers "
   },
 
   "Bloc10" : {
