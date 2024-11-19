@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Photo d'identité officielle en ligne - Smartphone ID",
+    "title": "Photo d'identité officielle en ligne - Smartphone iD",
     "description": "Obtenez rapidement votre photo d’identité sécurisée"
   },
 
@@ -8,23 +8,23 @@
     "liens": [
       {
         "link" : "Passeport",
-        "url" : "https://www.smartphone-id.com/fr_CA/photo-passeport/"
+        "url" : "https://www.smartphone-id.com/ne/photo-passeport-canadien"
       },
       {
         "link" : "Permis de conduire",
-        "url" : "https://www.smartphone-id.com/fr_CA/photo-permis-de-conduire"
+        "url" : "https://www.smartphone-id.com/ne/photo-permis-de-conduire"
       },
       {
-        "link" : "Carte photo Ontario",
-        "url" : "https://www.smartphone-id.com/fr_CA/carte-photo"
+        "link" : "Carte - photo Ontario",
+        "url" : "https://www.smartphone-id.com/ne/carte-photo-lontario-canada/"
       },
       {
         "link" : "Carte de résident permanent",
-        "url" : "https://www.smartphone-id.com/fr_CA/photo-carte-resident-permanent"
+        "url" : "https://www.smartphone-id.com/ne/photo-carte-de-residence-permanent-canada"
       },
       {
         "link" : "Visa",
-        "url" : "https://www.smartphone-id.com/fr_CA/photo-visa"
+        "url" : "https://www.smartphone-id.com/ne/photo-visa-canada"
       }
     ]
   },
@@ -33,22 +33,22 @@
   "Bloc1": {
     "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-didentite-en-ligne-pour-Canada.png",
     "background": "/images/background.png",
-    "titre_bloc1": "Outil rapide et facile pour ",
-    "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez-le maintenant !",
+    "titre_bloc1": "Outil rapide et facile pour",
+    "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez maintenant !",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "les photos d'identité de qualité"
+        "texte_check_green": "photos d'identité de qualité"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "et les signatures numériques"
+        "texte_check_green": "signatures numériques."
       }
     ],
     "repeteurCheckWhiteBloc1": [
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Édition IA immédiate"
+        "texte_check_white": "Traitement instantané par IA"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
@@ -56,7 +56,7 @@
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Acceptation par le gouvernement"
+        "texte_check_white": "Validation du gouvernement"
       }
     ]
   },
@@ -70,15 +70,15 @@
   "Bloc2": {
     "repeteur1": [
       {
-        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
+        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
         "titre_repeteur1": "Plus d’1 million de photos conformes livrées"
       },
       {
-        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
-        "titre_repeteur1": "1er fournisseur code ePhoto en ligne au Canada"
+        "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
+        "titre_repeteur1": "1er fournisseur code ePhoto en ligne en France"
       },
       {
-        "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone_id_review.png",
+        "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
         "titre_repeteur1": "Note moyenne sur Apple et Google Store"
       }
     ]
@@ -86,27 +86,27 @@
 
   "Bloc3" : {
     "titre_bloc3_span": "La solution",
-    "titre_bloc3": "pour votre photo d’identité conforme, sans sortir de chez vous.",
+    "titre_bloc3": " pour votre photo d’identité conforme, sans sortir de chez vous",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
-        "imageCkeckBlack": "/images/Bloc3/fr-FR/outil-enlever-fond-photo-identite.png"
-      },
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Suivant le document officiel, signez avec votre doigt.",
-        "imageCkeckBlack": "/images/Bloc3/faire-signature-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/fr-CA/Formatage-automatique-Photo-identite-Canadien.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
-        "imageCkeckBlack": "/images/Bloc3/fr-FR/photo-identite-conforme-validee.png"
+        "imageCkeckBlack": "/images/Bloc3/fr-CA/Controle-expert-de-la-photo-identite-Canadien.png"
       },
       {
         "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
-        "imageCkeckBlack": "/images/Bloc3/fr-FR/imprimer-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/fr-CA/Impression-et-livraison-photo-identite-canadien.png"
+      },
+      {
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Aucune information personnelle nécessaire, votre photo est stockée en toute sécurité.",
+        "imageCkeckBlack": "/images/Bloc3/fr-CA/Photo-identite-canadien-stockee-toute-securite.png"
       }
     ],
     "repeteur_etape": [
@@ -114,52 +114,47 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
-        "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadiene-etape-1-ordinateur"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 2",
-        "image_repeteur_etape": "/images/Bloc3/fr-FR/outil-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-2-sur-ordinateur.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 3",
-        "image_repeteur_etape": "/images/Bloc3/fr-FR/commender-impression-photo-identite-en-ligne.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-3-sur-ordinateur.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
-        "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-identite-reussi.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-4-sur-ordinateur.png"
       }
     ],
     "repeteurCkeckBlackMobile": [
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-enlever-fond-photo-identite.png"
+        "imageCkeckBlack": "/images/Bloc3/fr-CA/Formatage-automatique-Photo-identite-Canadien.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
-        "texteCheckBlack": "Suivant le document officiel, signez avec votre doigt.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-signature-photo-identite.png"
-      },
-      {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-conforme-validee.png"
+        "imageCkeckBlack": "/images/Bloc3/fr-CA/Controle-expert-de-la-photo-identite-Canadien.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
+        "checkBlack": "/images/Bloc3/check-black.png",
         "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
-        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+        "imageCkeckBlack":  "/images/Bloc3/fr-CA/Impression-et-livraison-photo-identite-canadien.png"
       },
       {
-        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
-        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
-        "imageCkeckBlack":  "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite.png"
+        "checkBlack": "/images/Bloc3/check-black.png",
+        "texteCheckBlack": "Aucune information personnelle nécessaire, votre photo est stockée en toute sécurité.",
+        "imageCkeckBlack":  "/images/Bloc3/fr-CA/Photo-identite-canadien-stockee-toute-securite.png"
       }
     ],
     "repeteurEtapeMobile": [
@@ -167,33 +162,33 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-1-sur-mobile.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-imprimer-photo-identite-digitale.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-2-sur-mobile.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-en-ligne-smartphone.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-3-sur-mobile.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-idenite-acceptee-comment.png"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-4-sur-mobile.png"
       }
     ]
   },
 
   "Bloc4": {
     "titre_bloc4_1": "Depuis 2017, ",
-    "titre_bloc4_2": "de photos d’identité conformes réalisées",
-    "titre_bloc4_span": "plus d’1 million ",
+    "titre_bloc4_2": " de photos d’identité conformes réalisées",
+    "titre_bloc4_span": "plus d’1 million",
     "partenaires": [
       {
         "text": "Zebra",
@@ -265,7 +260,7 @@
     "temoignages": [
       {
         "nom": "Chassany2603, 04/04/2022",
-        "texte": "J'avais besoin de photo d'identité en urgence et je n’avais pas le temps de me déplacer. J'ai pris une photo, réglé le montant pour avoir une photo d'identité (aux normes ) et dans l'heure je l'avais dans ma boîte mail. J'ai eu ma carte dans la foulée. Franchement je recommande.",
+        "texte": "J'avais besoin de photo d'identité en urgence et je n’avais pas le temps de me déplacer. J'ai pris une photo, réglé le montant pour avoir une photo d'identité (aux normes) et dans l'heure je l'avais dans ma boîte mail. J'ai eu ma carte dans la foulée. Franchement je recommande.",
         "titre": "Intuitif et rapide"
       },
       {
@@ -290,7 +285,7 @@
       },
       {
         "nom": "Starsissi, 02/12/2022",
-        "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus il y a des «< conseils » pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis ?",
+        "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus il y a des « conseils » pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis ?",
         "titre": "Très satisfaite"
       }
     ],
@@ -303,11 +298,6 @@
     "titre_bloc5_span": "notre service ?",
     "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Service 24h/24 et 7j/7",
-        "texteService": null
-      },
       {
         "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Tous les documents",
@@ -328,49 +318,55 @@
         "service24h24Et7j7": "Un vrai service client",
         "texteService": "Des humains et pas de robots."
       },
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Solution idéale",
-        "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
-      },
+
       {
         "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Écologique",
         "texteService": "Plus de papier, plus de déplacement."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Service 24h/24 et 7j/7",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Solution idéale",
+        "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
       }
     ]
   },
 
   "Bloc6": {
-    "titre_bloc6_1": "Le",
-    "titre_bloc6_2": "photo, pour tous vos documents officiels",
+    "titre_bloc6_1": "Le ",
+    "titre_bloc6_2": " photo, pour tous vos documents officiels",
     "titre_bloc6_span": "bon format",
     "documents": [
       {
-        "titre_doc": "Passeport Canadien",
+        "titre_doc": "Passeport",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Passeport-canadien.png"
       },
       {
-        "titre_doc": "Carte d'identité Canadienne",
+        "titre_doc": "Carte d'identité",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Carte-didentite.png"
       },
       {
-        "titre_doc": "Permis de conduire Canadien",
+        "titre_doc": "Permis de conduire",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Permis-de-conduire.png"
       },
       {
-        "titre_doc": "Carte de résident permanent Canadien",
+        "titre_doc": "Carte de résident permanent",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Carte-de-resident-permanent.png"
       },
       {
-        "titre_doc": "Visa Canadien",
+        "titre_doc": "Visa",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Visa-Canadien.png"
       }
     ],
     "bloc_photo": [
       {
         "impressionPhoto": "Où imprimer une photo d'identité canadienne?",
-        "paragraphe": "Commandez des photos imprimées professionnellement avec Smartphone iD ou utilisez la planche prête à l'emploi envoyé à votre adresse e-mail.",
+        "paragraphe": "Commandez vos photos imprimées par Smartphone iD ou utilisez la planche de photos prête à l'emploi et envoyée à votre adresse email.",
         "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-de-photo-didentite-canadienne-imprimee.png",
         "partenaires": [
           {
@@ -411,19 +407,19 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1" : "La solution",
-    "titre_bloc7_2" : "pour les demandes de documents officiels",
+    "titre_bloc7_1" : "La solution ",
+    "titre_bloc7_2" : " pour les demandes de documents officiels",
     "titre_bloc7_span": "parfaite",
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Photo-et-signature-numerique-document-canadien.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Photo-et-signature-numerique-document-canada.png",
         "paragraphe": "Lorsque nécessaire, votre signature sera liée à votre photo pour les demandes de documents officiels en ligne",
         "titre": "Signature numérique"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-recente-de-photo-didentite-canadienne-imprimee.png",
+        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-recente-de-photo-identite-canadienne-imprimee.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
       }
@@ -431,8 +427,8 @@
   },
 
   "Bloc8": {
-    "titre_bloc8_1" : "Comment",
-    "titre_bloc8_2" : "sa photo d'identité",
+    "titre_bloc8_1" : "Comment ",
+    "titre_bloc8_2" : " sa photo d'identité",
     "titre_bloc8_span": "réussir",
     "titre_encart": "Quelques conseils",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
@@ -463,17 +459,17 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/en_CA/passport-photo/",
+      "url": "https://www.smartphone-id.com/ne/exigences-photo-didentite-canada",
       "title": "En savoir plus"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/en_CA/canadian-baby-passport-photo/",
+      "url": "https://www.smartphone-id.com/ne/photo-identite-bebe-canada",
       "title": "Comment faire une photo d'identité de votre bébé ?"
     }
   },
 
   "Bloc9": {
-    "ID": "Photos d'identité Canadienne",
+    "ID": "Photos d'identité pour le Canada",
     "ePhoto": "",
     "codeEphoto": [
       {
@@ -504,15 +500,15 @@
         "titre_accordeon": "Quelle est la taille de la photo d'identité  canadienne ?"
       },
       {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Oui ! Vous pouvez prendre votre propre photo  d&#8217;identité . Vous pouvez le faire avec l&#8217;appareil photo arrière de votre téléphone, mais assurez-vous de suivre toutes les directives pour que votre photo soit acceptée (éclairage, ombre, couleur de fond). Vous pouvez également utiliser l&#8217;outil Smartphone iD qui fait tout pour vous. Il vous suffit de choisir votre pays et votre document, de prendre une photo, et de la recevoir plus tard par e-mail. C&#8217;est aussi simple que ça !</span></p>\n",
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Oui ! Vous pouvez prendre votre propre photo  d&#8217;identité . Vous pouvez le faire avec l&#8217;appareil photo arrière de votre téléphone, mais assurez-vous de suivre toutes les directives pour que votre photo soit acceptée (éclairage, ombre, couleur de fond). Vous pouvez également utiliser l&#8217;outil Smartphone iD qui fait tout pour vous. Il vous suffit de choisir votre pays et votre document, de prendre une photo, et de la recevoir plus tard par e-mail. C&#8217;est aussi simple que ça !</span></p>\n",
         "titre_accordeon": "Peut-on prendre une photo d'identité  avec son téléphone ?"
       },
       {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Pour imprimer des photos d&#8217;identité  avec votre PC, vous devez d&#8217;abord télécharger un logiciel qui vous permet d&#8217;obtenir des photos de 35 mm x 45 mm (ou 50 mm x 70 mm pour un passeport canadien). Ensuite, vous devrez connecter une imprimante compatible avec du papier photo à votre PC car seules les photos d&#8217;identité imprimées professionnellement sont acceptées.</span></p>\n<p><span style=\"font-weight: 400;\">Si vous ne voulez pas télécharger de logiciel ou éviter les tracas de recherche d&#8217;un outil en ligne facile, vous pouvez opter pour le service Smartphone iD, où vous n&#8217;avez qu&#8217;à choisir le type de document nécessaire et tout le reste est fait pour vous. Vous pouvez recevoir une impression professionnelle de 10&#215;15 cm à votre domicile ou utiliser le fichier numérique de 10&#215;15 cm que nous envoyons par e-mail et l&#8217;utiliser dans une imprimerie à proximité.</span></p>\n",
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Pour imprimer des photos d&#8217;identité  avec votre PC, vous devez d&#8217;abord télécharger un logiciel qui vous permet d&#8217;obtenir des photos de 35 mm x 45 mm (ou 50 mm x 70 mm pour un passeport canadien). Ensuite, vous devrez connecter une imprimante compatible avec du papier photo à votre PC car seules les photos d&#8217;identité imprimées professionnellement sont acceptées.</span></p>\n<p><span style=\"font-weight: 400;\">Si vous ne voulez pas télécharger de logiciel ou éviter les tracas de recherche d&#8217;un outil en ligne facile, vous pouvez opter pour le service Smartphone iD, où vous n&#8217;avez qu&#8217;à choisir le type de document nécessaire et tout le reste est fait pour vous. Vous pouvez recevoir une impression professionnelle de 10&#215;15 cm à votre domicile ou utiliser le fichier numérique de 10&#215;15 cm que nous envoyons par e-mail et l&#8217;utiliser dans une imprimerie à proximité.</span></p>\n",
         "titre_accordeon": "Comment imprimer une photo d'identité  ?"
       },
       {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Faites prendre votre photo d&#8217;identité dans plusieurs magasins canadiens comme Walmart, London Drugs, des photographes de passeports, Staples et Shopper’s Drug Mart. Alternativement, vous pouvez obtenir votre photo  en ligne via l&#8217;application &#8216;Smartphone iD&#8217;, qui offre une option abordable et pratique pour prendre la photo de chez vous.</span></p>\n",
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Faites prendre votre photo d&#8217;identité dans plusieurs magasins canadiens comme Walmart, London Drugs, des photographes de passeports, Staples et Shopper’s Drug Mart. Alternativement, vous pouvez obtenir votre photo  en ligne via l&#8217;application &#8216;Smartphone iD&#8217;, qui offre une option abordable et pratique pour prendre la photo de chez vous.</span></p>\n",
         "titre_accordeon": "Où obtenir des photos d'identité   ?"
       },
       {
@@ -556,7 +552,7 @@
         "titre_accordeon": "Shoppers fait-il des photos d'identité?"
       }
     ],
-    "titre_bloc9": "fréquemment posées",
+    "titre_bloc9": " fréquemment posées",
     "titre_bloc9_span": "Questions"
   },
 
@@ -568,26 +564,58 @@
     "etoiles" : "étoiles sur 5"
   },
 
+  "Bloc11": {
+    "titre": "Cliquez sur la section correspondante pour trouver des réponses sur les photos d'identité de documents spécifiques pour le Canada !",
+    "liens": [
+      {
+        "link": "Passeport",
+        "url": "https://www.smartphone-id.com/ne/photo-passeport-canadien",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Permis de conduire",
+        "url": "https://www.smartphone-id.com/ne/photo-permis-de-conduire",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Carte d'identité",
+        "url": "https://www.smartphone-id.com/ne/carte-photo-lontario-canada/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Titre de séjour",
+        "url": "https://www.smartphone-id.com/ne/photo-carte-de-residence-permanent-canada",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/ne/photo-visa-canada",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
   "Footer": {
-    "partie2-button": "Faire la photo",
+    "partie2-button": "Essais illimités et gratuits !",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "À propos de nous",
-    "propos-link" : "https://www.smartphone-id.com/fr_FR/a-propos-de-nous/",
+    "propos-link" : "https://www.smartphone-id.com/a-propos-de-nous/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/fr_FR/faq/",
+    "faq-link" : "https://www.smartphone-id.com/faq/",
     "SiteMapList-contact" : "Contact",
-    "contact-link" : "https://www.smartphone-id.com/fr_FR/contact/",
+    "contact-link" : "https://www.smartphone-id.com/contact/",
     "applis-h3": "Téléchargez l'application",
     "applis-p":  "Suivez vos commandes et profitez d'encore plus de fonctionnalités avec l'application Smartphone iD.",
-    "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
-    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
-    "partie2-p": "Découvrez les dernières informations sur les documents d'identité et les visas.",
-    "partie2-p-link": "",
+    "AppStore-link" : "https://apps.apple.com/ca/app/official-passport-photo/id1527550865?platform=iphone",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=ca",
+    "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
+    "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
+    "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
     "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com//politique-confidentialite/",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d'utilisation",
     "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
     "mentions-légales": "Mentions légales",
@@ -595,4 +623,4 @@
     "cookies": "Cookies",
     "cookies-link": "https://www.smartphone-id.com/cookies/"
   }
-  }
+}
