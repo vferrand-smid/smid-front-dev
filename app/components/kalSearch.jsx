@@ -71,7 +71,7 @@ const KalSearch = ({ page, locale }) => {
 			}
 		};
 		fetchCountries();
-	}, []);
+	}, [baseUrlAPI, effectiveLocale]);
 
 	// Récupération des documents selon le pays sélectionné
 	useEffect(() => {
@@ -111,7 +111,7 @@ const KalSearch = ({ page, locale }) => {
 		};
 
 		fetchDocuments();
-	}, [currentCountry, selectedCountry, effectiveLocale, documentTranslations]);
+	}, [currentCountry, selectedCountry, effectiveLocale, documentTranslations, baseUrlAPI]);
 
 	// GTM
 	const triggerGTMEventOnPhotoButtonClick = () => {
