@@ -19,7 +19,7 @@ export default function RootLayout({children, params}) {
     const description = translations?.metadata?.description || "Smartphone iD";
 
     const GTM_ID = process.env.GTM_ID;
-    console.log('GTM_ID:', process.env.GTM_ID);
+    console.log('layout.jsx - GTM_ID:', process.env.GTM_ID);
     const GA_PROPERTY_ID = process.env.GA_PROPERTY_ID;
 
     // Récupérer le code pays basé sur l'IP
