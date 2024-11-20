@@ -30,7 +30,7 @@
   },
 
   "Bloc1" : {
-    "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-tool-for-Singapore-online.png",
+    "girl" : "/images/Bloc1/en-SG/passport-photo-tool-for-Singapore-online.png",
     "background" : "/images/background.png",
     "titre_bloc1" : "Fast and easy tool for",
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
@@ -467,8 +467,8 @@
     "ePhoto": "",
     "photo_didentite": [
       {
-        "texteAccordeon": "<p>For a Singapore passport, the photo size requirements are as follows:</p>/n<b>Printed Format:</b>/n<ul>\n<li>Size: 35mm x 45mm (width x height).</li>\n<li>The head size must be 32-36 mm which takes about 70-80% of the photo.</li>\n<b>Digital Format:</b>/n<li>Size: 400 x 514 pixels.</li>\n<li>File Size: Between 60KB and 120KB.</li>\n<li>Format: JPEG.</li>\n<li>Resolution: At least 600 DPI.</li>\n",
-        "titre_accordeon": "what is the size of Singapore Passport Photo"
+        "texteAccordeon": "<p>For a Singapore passport, the photo size requirements are as follows:</p><b>Printed Format:</b><ul>\n<li>Size: 35mm x 45mm (width x height).</li>\n<li>The head size must be 32-36 mm which takes about 70-80% of the photo.</li>\n<b>Digital Format:</b>/n<li>Size: 400 x 514 pixels.</li>\n<li>File Size: Between 60KB and 120KB.</li>\n<li>Format: JPEG.</li>\n<li>Resolution: At least 600 DPI.</li>\n",
+        "titre_accordeon": "What is the size of Singapore Passport Photo"
       },
       {
         "texteAccordeon": "<p>Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo, and receive it later in email. It’s that easy!</p>\n",
@@ -479,7 +479,7 @@
         "titre_accordeon": "How to print a passport size photo?"
       },
       {
-        "texteAccordeon": "<p>In Singapore, you can get passport photos at various locations:</p>/n<ul>\n<li>Photo Studios: Many professional photo studios offer passport photo services, ensuring that the photos meet the official requirements.<li>\n<li>Shopping Malls: There are photo booths and shops in many shopping malls that offer passport photo services.<li>\n<li>Supermarkets & Department Stores: Some larger supermarkets and department stores, like NTUC FairPrice and Mustafa Centre, have photo booths where you can take passport photos.<li>\n<li>Post Offices: Certain Singapore Post (SingPost) branches offer passport photo services.<li>\n<li>Community Centres: Some community centres in Singapore have photo booths or studios that offer passport photo services.<li>\n<li>Online Services: You can also use our online service  Smartphone iD, which allow you to take your photo at home and have it processed to meet Singapore's passport requirements.</li>\n</ul>\n",
+        "texteAccordeon": "<p>In Singapore, you can get passport photos at various locations:</p><ul>\n<li><strong>Photo Studios:</strong> Many professional photo studios offer passport photo services, ensuring that the photos meet the official requirements.<li>\n<li><strong>Shopping Malls:</strong> There are photo booths and shops in many shopping malls that offer passport photo services.<li>\n<li><strong>Supermarkets & Department Stores:</strong> Some larger supermarkets and department stores, like NTUC FairPrice and Mustafa Centre, have photo booths where you can take passport photos.<li>\n<li><strong>Post Offices:</strong> Certain Singapore Post (SingPost) branches offer passport photo services.<li>\n<li><strong>Community Centres:</strong> Some community centres in Singapore have photo booths or studios that offer passport photo services.<li>\n<li><strong>Online Services:</strong> You can also use our online service  Smartphone iD, which allow you to take your photo at home and have it processed to meet Singapore's passport requirements.</li>\n</ul>\n",
         "titre_accordeon": "Where to get passport photos in Singapore?"
       },
       {
@@ -495,7 +495,7 @@
         "titre_accordeon": "Can you have a fringe in a passport photo?"
       },
       {
-        "texteAccordeon": "<p>It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person./nIf you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n",
+        "texteAccordeon": "<p>It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person.If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</p>\n",
         "titre_accordeon": "Can you smile in a passport photo?"
       },
       {
@@ -503,11 +503,11 @@
         "titre_accordeon": "Can you wear glasses in a passport photo?"
       },
       {
-        "texteAccordeon": "<p>Yes, you can wear makeup in your passport photo. But note that make-up should be light.</p>/n<ul>\n<li>Don't put too much eyeshadow on your eyelids.</li>/n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>/n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>/n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n",
+        "texteAccordeon": "<p>Yes, you can wear makeup in your passport photo. But note that make-up should be light.</p><ul>\n<li>Don't put too much eyeshadow on your eyelids.</li><li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li><li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li><li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n",
         "titre_accordeon": "Can you wear makeup in a passport photo?"
       },
       {
-        "texteAccordeon": "<p>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.Also, make sure your shirt doesn't show too much skin, as shirtless passport photos are prohibited.Finally, uniforms of any kind are also prohibited on a biometric passport photo.</p>\n",
+        "texteAccordeon": "<p>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast. Also, make sure your shirt doesn't show too much skin, as shirtless passport photos are prohibited. Finally, uniforms of any kind are also prohibited on a biometric passport photo.</p>\n",
         "titre_accordeon": "What to wear for a passport photo?"
       },
       {
@@ -520,14 +520,14 @@
       },
       {
         "texteAccordeon": "It’s forbidden to submit a scanned photo for an official identification document. If you need to submit digital passport photos, you can use our easy automated tool online that comes with a trained expert check. This way you get a perfect digital passport photo in the needed format for your document. If you are scanning passport photos to create multiple prints, we have covered that too. With your digital single photo, you will also receive in email a ready-to-print 10x15 print template that you can use unlimited times.",
-        "titre_accordeon": "<p>How to scan a passport photo?</p>\n"
+        "titre_accordeon": "How to scan a passport photo?"
       },
       {
-        "texteAccordeon": "<p>To make a passport photo on your iPhone, click on the \",Take a photo n\" button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that's it! After the photo validation by our team of experts, you will receive your photos in your email.</p>\n",
+        "texteAccordeon": "<p>To make a passport photo on your iPhone, click on the \"Take a photo\" button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that's it! After the photo validation by our team of experts, you will receive your photos in your email.</p>\n",
         "titre_accordeon": "How to take a passport photo with an iPhone?"
       },
       {
-        "texteAccordeon": "<p>To make a passport photo on your android, click on the \"Take a photo n\", button on the Smartphone iD website, choose the needed country and document type, take your photo on your android and that's it! After the photo validation by our team of experts, you will receive your photos in your email.</p>\n",
+        "texteAccordeon": "<p>To make a passport photo on your android, click on the \"Take a photo\", button on the Smartphone iD website, choose the needed country and document type, take your photo on your android and that's it! After the photo validation by our team of experts, you will receive your photos in your email.</p>\n",
         "titre_accordeon": "How to take a passport photo with an android?"
       },
       {
