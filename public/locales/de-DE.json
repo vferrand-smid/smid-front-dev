@@ -187,7 +187,7 @@
 
   "Bloc4": {
     "titre_bloc4_1": "Seit 2017, ",
-    "titre_bloc4_2": "biometrische Passfotos erstellt",
+    "titre_bloc4_2": " biometrische Passfotos erstellt",
     "titre_bloc4_span": "mehr als eine Million",
     "partenaires": [
       {
@@ -298,18 +298,8 @@
     "listeService": [
       {
         "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "24/7 service",
-        "texteService": null
-      },
-      {
-        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Für jedes Dokument geeignet",
-        "texteService": "Die richtige Größe im digitalen und gedruckten Format, Bildtiefe, Hintergrundfarbe, Beleuchtung..."
-      },
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Konformität zu 100%",
-        "texteService": "Für alle offiziellen Dokumente, weltweit"
+        "texteService": "Die richtige Größe im digitalen und gedruckten Format (Bildtiefe, Hintergrundfarbe, Beleuchtung...)"
       },
       {
         "check": "/images/General/check-green.png",
@@ -321,18 +311,29 @@
         "service24h24Et7j7": "Erhalten Sie ein besseres Foto",
         "texteService": "Mach unbegrenzte Aufnahmen und wähle dein bestes Foto aus"
       },
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Echter Kundenservice",
-        "texteService": "Keine Automaten, keine versteckten Kontaktinformationen - Ihre positive Erfahrung ist uns wichtig."
-      },
+
       {
         "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ökologisch",
         "texteService": "Verschwende kein Papier mehr, wenn du dein Dokument erneuern musst."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Konformität zu 100%",
+        "texteService": "Für alle offiziellen Dokumente, weltweit"
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "24/7 service",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Echter Kundenservice",
+        "texteService": "Keine Automaten, keine versteckten Kontaktinformationen - Ihre positive Erfahrung ist uns wichtig."
       }
     ],
-    "titre_bloc5_1": "Warum entscheiden sich Menschen für den Service von",
+    "titre_bloc5_1": "Warum entscheiden sich Menschen für den Service von ",
     "titre_bloc5_span": "Smartphone iD?"
   },
 
@@ -340,7 +341,7 @@
     "bloc_photo": [
       {
         "impressionPhoto": "Wo kann man Passfotos in Deutschland ausdrucken?",
-        "paragraphe": "Bestell dir professionell gedruckte Fotos mit Smartphone iD oder druck dir dein Foto in einer Einrichtung in Ihrer Nähe aus.",
+        "paragraphe": "Bestell dir professionell gedruckte Fotos mit Smartphone iD oder druck dir dein Foto in einer Einrichtung in der Nähe aus.",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
@@ -362,16 +363,16 @@
         "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/deutsche-Passfoto-Vorlage-zum-Ausdrucken.png"
       }
     ],
-    "titre_bloc6_1": "Zu jedem Dokument ein",
-    "titre_bloc6_2": "Passfoto",
-    "titre_bloc6_span": "passendes",
+    "titre_bloc6_1": "Zu ",
+    "titre_bloc6_2": " ein passendes Passfoto",
+    "titre_bloc6_span": "jedem Dokument",
     "documents": [
       {
         "titre_doc": "Reisepass",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Reisepass.png"
       },
       {
-        "titre_doc": "Personalausweis.",
+        "titre_doc": "Personalausweis",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/germany-Personalausweis.png"
       },
       {
@@ -404,9 +405,9 @@
         "titre": "Digitale Unterschrift"
       }
     ],
-    "titre_bloc7_1": "Deine Online",
-    "titre_bloc7_2": "für amtliche Dokumente Anträge",
-    "titre_bloc7_span": "Lösung"
+    "titre_bloc7_1": "Deine ",
+    "titre_bloc7_2": " für amtliche Dokumente Anträge",
+    "titre_bloc7_span": "Online Lösung"
   },
 
   "Bloc8": {
@@ -444,15 +445,15 @@
       "url": "https://www.smartphone-id.com/de/biometrische-passbild-fuer-dein-baby/",
       "title": "Wie machst du ein Passfoto von einem Baby?"
     },
-    "titre_bloc8_1" : "Wie machst du ein",
-    "titre_bloc8_2" : "Passfoto?",
+    "titre_bloc8_1" : "Wie machst du ein ",
+    "titre_bloc8_2" : " Passfoto?",
     "titre_bloc8_span": "korrektes",
     "titre_encart": "Einige Vorschläge",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/szjDtvkU7O0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
   },
 
   "Bloc9": {
-    "ID": "Passfoto für Deutschland",
+    "ID": "Passfotos für Deutschland",
     "ePhoto": null,
     "codeEphoto": [
       {
@@ -534,8 +535,8 @@
         "titre_accordeon": "Wie viele Passfotos benötige ich für einen Führerschein?"
       }
     ],
-    "titre_bloc9": "gestellte Fragen",
-    "titre_bloc9_span": "Häufig ",
+    "titre_bloc9": " gestellte Fragen",
+    "titre_bloc9_span": "Häufig",
     "fieldGroupName": "PageDAccueilBloc9"
   },
 
@@ -579,18 +580,18 @@
   },
 
   "Footer": {
-    "partie2-button": "Jetzt kostenlos probieren! ",
+    "partie2-button": "Probiere es jetzt kostenlos aus! ",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "partie2-p": "Folgen Sie uns und erfahren Sie die neuesten Informationen zu Visa und anderen offiziellen Dokumenten.",
     "SiteMapList-propos" : "Über uns",
-    "propos-link" : "https://www.smartphone-id.com/de_DE/uber-uns/",
+    "propos-link" : "https://www.smartphone-id.com/de/uber-uns/",
     "SiteMapList-faq" : "Häufig gestellte Fragen",
-    "faq-link" : "https://www.smartphone-id.com/de_DE/faq/",
+    "faq-link" : "https://www.smartphone-id.com/de/faq/",
     "SiteMapList-contact" : "Kontakt",
-    "contact-link" : "https://www.smartphone-id.com/de_DE/kontakt/",
+    "contact-link" : "https://www.smartphone-id.com/de/kontakt/",
     "applis-h3": "Laden Sie die App herunter!!",
     "applis-p":  "Laden Sie die Smartphone iD-App herunter, um Ihre Bestellungen zu verfolgen und noch mehr Funktionen zu genießen.",
     "AppStore-link" : "https://apps.apple.com/de/app/offizielles-passfoto/id1527550865",
@@ -602,7 +603,7 @@
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/legal-notice/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
