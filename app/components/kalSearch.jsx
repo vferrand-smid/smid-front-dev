@@ -38,7 +38,6 @@ const KalSearch = ({ page, locale }) => {
 		fetchUserCountry();
 	}, []);
 
-
 	// Utilisation directe de la locale de l'URL pour récupérer les deux dernières lettres (code pays) pour selectedCountry
 	useEffect(() => {
 		if (effectiveLocale) {
@@ -114,6 +113,21 @@ const KalSearch = ({ page, locale }) => {
 		fetchDocuments();
 	}, [currentCountry, selectedCountry, effectiveLocale, documentTranslations]);
 
+	// GTM
+	const triggerGTMEventOnPhotoButtonClick = () => {
+		if (window && window.dataLayer) {
+			window.dataLayer = window.dataLayer || [];
+			window.dataLayer.push({
+				event: "chose_destination",
+				destination: selectedCountry, // Pays sélectionné
+			});
+			console.log("GTM Event Triggered on Button Click: ", {
+				event: "chose_destination",
+				destination: selectedCountry,
+			});
+		}
+	};
+
 	// Sélection d'un document
 	const handleDocumentSelect = (doc) => {
 		setSelectedDocument(doc.id);
@@ -183,6 +197,8 @@ const KalSearch = ({ page, locale }) => {
 
 // Logique pour générer l'URL uniquement lors du clic
 	const handleGenerateUrl = async () => {
+// Déclencher l'événement GTM
+		triggerGTMEventOnPhotoButtonClick();
 
 		const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
 		let language = localeToLanguageMap[effectiveLocale] || effectiveLocale.split('-')[0]; // Utilise le mappage si disponible, sinon utilise la partie langue
@@ -192,7 +208,6 @@ const KalSearch = ({ page, locale }) => {
 		if (selectedCountry) {
 			countryCode = selectedCountry.toLowerCase();
 		}
-
 
 		const url = selectedDocument && selectedCountry && currentCountry
 			? `${baseUrlWEBAPP}/${platform}/photo/${selectedDocument}/${selectedCountry}/${language}`

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Photo d'identité officielle en ligne - Smartphone ID",
+    "title": "Photo d'identité officielle en ligne - Smartphone iD",
     "description": "Obtenez rapidement votre photo d’identité sécurisée"
   },
 
@@ -8,23 +8,23 @@
     "liens": [
       {
         "link": "Passeport",
-        "url": "https://www.smartphone-id.com/fr_CH/photo-passeport/"
+        "url": "https://www.smartphone-id.com/pa/photo-passeport/"
       },
       {
         "link": "Permis de conduire",
-        "url": "https://www.smartphone-id.com/fr_CH/photo-permis-de-conduire"
+        "url": "https://www.smartphone-id.com/pa/photo-permis-de-conduire/"
       },
       {
-        "link": "Carte National d'identité",
-        "url": "https://www.smartphone-id.com/fr_CH/photo-carte-identite"
+        "link": "Carte d'identité",
+        "url": "https://www.smartphone-id.com/pa/photo-carte-identite/"
       },
       {
         "link": "Titre de séjour",
-        "url": "https://www.smartphone-id.com/fr_CH/photo-titre-sejour"
+        "url": "https://www.smartphone-id.com/pa/photo-titre-sejour/"
       },
       {
         "link": "Visa",
-        "url": "https://www.smartphone-id.com/fr_CH/photo-visa"
+        "url": "https://www.smartphone-id.com/pa/photo-visa/"
       }
     ]
   },
@@ -33,29 +33,29 @@
     "girl" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-didentite-en-ligne-pour-la-Suisse.png",
     "background" : "/images/background.png",
     "titre_bloc1" : "Outil rapide et facile pour",
-    "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez-le maintenant !",
+    "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez maintenant !",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "les photos d'identité de qualité"
+        "texte_check_green": "photos d'identité de qualité"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "et les signatures numériques"
+        "texte_check_green": "signatures numériques."
       }
     ],
     "repeteurCheckWhiteBloc1": [
+      {
+        "mediaItemUrl": "/images/Bloc1/check-white.png",
+        "texte_check_white": "Traitement instantané par IA"
+      },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
         "texte_check_white": "Vérification par des experts"
       },
       {
         "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Édition immédiate par IA"
-      },
-      {
-        "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Acceptation gouvernementale"
+        "texte_check_white": "Validation du gouvernement"
       }
     ]
   },
@@ -85,7 +85,7 @@
 
   "Bloc3": {
     "titre_bloc3_span": "La solution",
-    "titre_bloc3": "pour votre photo d’identité conforme, sans sortir de chez vous.",
+    "titre_bloc3": " pour votre photo d’identité conforme, sans sortir de chez vous",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
@@ -186,7 +186,7 @@
 
   "Bloc4": {
     "titre_bloc4_1": "Depuis 2017, ",
-    "titre_bloc4_2": "de photos d’identité conformes réalisées",
+    "titre_bloc4_2": " de photos d’identité conformes réalisées",
     "titre_bloc4_span": "plus d’1 million",
     "partenaires": [
       {
@@ -269,7 +269,7 @@
       },
       {
         "nom": "betiolina, 15/08/2022",
-        "texte": "Très bonne application. Si le résultat n'est pas probant, on peut recommencer autant de fois qu'il le faut la photo et cela sans payer de supplément.",
+        "texte": "Très bonne application. Si le résultat n'est pas probant. On peut recommencer autant de fois qu'il le faut la photo et cela sans payer de supplément.",
         "titre": "Photo identité"
       },
       {
@@ -279,12 +279,12 @@
       },
       {
         "nom": "cosmiccbyul, 04/07/2022",
-        "texte": "J'ai téléchargé cette application pour une ephoto titre de séjour puisque je n'étais pas en France et ne pouvais donc pas accéder à photomaton. À ma grande surprise, c'était ultra rapide : j'ai pris une photo en quelques minutes et j'ai reçu le code ephoto 30 minutes plus tard ! De plus, cela ne coûte que 6 euros ? Je recommande vivement !!",
+        "texte": "J'ai téléchargé cette application pour une ephoto titre de séjour puisque je n'étais pas en France et ne pouvais donc pas accéder à photomaton. À ma grande surprise, c'était ultra rapide : j'ai pris une photo en quelques minutes et j'ai reçu le code ephoto 30 minutes plus tard! De plus, cela ne coûte que 6 euros ? Je recommande vivement !!",
         "titre": "Très rapide et efficace !"
       },
       {
         "nom": "Starsissi, 02/12/2022",
-        "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus, il y a des conseils pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis !",
+        "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus il y a des « conseils » pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis ?",
         "titre": "Très satisfaite"
       }
     ],
@@ -297,11 +297,6 @@
     "titre_bloc5_span": "Smartphone iD ?",
     "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Service 24h/24 et 7j/7",
-        "texteService": null
-      },
       {
         "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Tous les documents",
@@ -322,22 +317,28 @@
         "service24h24Et7j7": "Un vrai service client",
         "texteService": "Des humains et pas de robots."
       },
-      {
-        "check": "/images/General/check-green.png",
-        "service24h24Et7j7": "Solution idéale",
-        "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux, etc."
-      },
+
       {
         "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Écologique",
         "texteService": "Plus de papier, plus de déplacement."
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Service 24h/24 et 7j/7",
+        "texteService": null
+      },
+      {
+        "check": "/images/General/check-green.png",
+        "service24h24Et7j7": "Solution idéale",
+        "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
       }
     ]
   },
 
   "Bloc6": {
-    "titre_bloc6_1": "Le",
-    "titre_bloc6_2": "photo, pour tous vos documents officiels",
+    "titre_bloc6_1": "Le ",
+    "titre_bloc6_2": " photo, pour tous vos documents officiels",
     "titre_bloc6_span": "bon format",
     "documents": [
       {
@@ -363,10 +364,14 @@
     ],
     "bloc_photo": [
       {
-        "impressionPhoto": "Impression photo",
-        "paragraphe": "Recevez un format imprimé dans 2 jours ou utilisez ce format pour imprimer vos photos dans nos enseignes partenaires.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "impressionPhoto": "Où imprimer une photo d'identité suisse ?",
+        "paragraphe": "Commandez vos photos imprimées par Smartphone iD ou utilisez la planche de photos prête à l'emploi et envoyée à votre adresse email.",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-de-photo-didentite-suisse-imprimee.png",
         "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id.png"
+          },
           {
             "nom_partenaire": "Elite Fotostudio",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/Elite-fotostudio-1.png"
@@ -409,8 +414,8 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1" : "La solution",
-    "titre_bloc7_2" : "pour les demandes de documents officiels",
+    "titre_bloc7_1" : "La solution ",
+    "titre_bloc7_2" : " pour les demandes de documents officiels",
     "titre_bloc7_span": "parfaite",
     "bloc": [
       {
@@ -421,7 +426,7 @@
       },
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-de-photo-didentite-suisse-imprimee-recente.png",
+        "img_principal": "/images/Bloc7/fr-CH/planche-de-photo-didentite-suisse-imprimee-recente.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
       }
@@ -429,8 +434,8 @@
   },
 
   "Bloc8": {
-    "titre_bloc8_1" : "Comment",
-    "titre_bloc8_2" : "sa photo d'identité",
+    "titre_bloc8_1" : "Comment ",
+    "titre_bloc8_2" : " sa photo d'identité",
     "titre_bloc8_span": "réussir",
     "titre_encart": "Quelques conseils",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
@@ -461,17 +466,17 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/fr_CH/photo-identite",
+      "url": "https://www.smartphone-id.com/pa/photo-identite/",
       "title": "En savoir plus"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/fr_CH/photo-identite-bebe/",
+      "url": "https://www.smartphone-id.com/pa/photo-identite-bebe/",
       "title": "Comment faire une photo d'identité de votre bébé ?"
     }
   },
 
   "Bloc9": {
-    "ID": "Photos d'identité Suisse",
+    "ID": "Photos d'identité pour la Suisse",
     "ePhoto": null,
     "codeEphoto": [
       {
@@ -513,7 +518,7 @@
         "titre_accordeon": "Comment faire une belle photo d’identité ?"
       }
     ],
-    "titre_bloc9": "fréquemment posées",
+    "titre_bloc9": " fréquemment posées",
     "titre_bloc9_span": "Questions"
   },
 
@@ -525,24 +530,56 @@
     "etoiles" : "étoiles sur 5"
   },
 
+  "Bloc11": {
+    "titre": "Cliquez sur la section correspondante pour trouver des réponses sur les photos d'identité de documents spécifiques pour la Suisse !",
+    "liens": [
+      {
+        "link": "Passeport",
+        "url": "https://www.smartphone-id.com/pa/photo-passeport/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Permis de conduire",
+        "url": "https://www.smartphone-id.com/pa/photo-permis-de-conduire/",
+        "icon": "/images/Bloc11/permis-conduire.svg"
+      },
+      {
+        "link": "Carte d'identité",
+        "url": "https://www.smartphone-id.com/pa/photo-carte-identite/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Titre de séjour",
+        "url": "https://www.smartphone-id.com/pa/photo-titre-sejour/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visa",
+        "url": "https://www.smartphone-id.com/pa/photo-visa/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
   "Footer": {
-    "partie2-button": "Faire la photo",
+    "partie2-button": "Essais illimités et gratuits !",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
     "Facebook-link": "https://www.facebook.com/smartphone.id.international",
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "À propos de nous",
-    "propos-link" : "https://www.smartphone-id.com/fr_FR/a-propos-de-nous/",
+    "propos-link" : "https://www.smartphone-id.com/a-propos-de-nous/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/fr_FR/faq/",
+    "faq-link" : "https://www.smartphone-id.com/faq/",
     "SiteMapList-contact" : "Contact",
-    "contact-link" : "https://www.smartphone-id.com/fr_FR/contact/",
+    "contact-link" : "https://www.smartphone-id.com/contact/",
     "applis-h3": "Téléchargez l'application",
     "applis-p":  "Suivez vos commandes et profitez d'encore plus de fonctionnalités avec l'application Smartphone iD.",
-    "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
-    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
-    "partie2-p": "Découvrez les dernières informations sur les documents d'identité et les visas.",
-    "partie2-p-link": "",
+    "AppStore-link" : "https://apps.apple.com/ca/app/official-passport-photo/id1527550865?platform=iphone",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=ca",
+    "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
+    "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
+    "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
     "mentions-confidentialité": "Politique de confidentialité",
     "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d'utilisation",

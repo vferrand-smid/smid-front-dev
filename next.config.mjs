@@ -12,6 +12,8 @@ console.log("next.config.mjs - Loading next.config.mjs");
 const nextConfig = {
     env: {
         WORDPRESS_API_URL: process.env.WORDPRESS_API_URL,
+        GTM_ID: process.env.GTM_ID,
+        GA_PROPERTY_ID: process.env.GA_PROPERTY_ID,
     },
     images: {
         unoptimized: true,

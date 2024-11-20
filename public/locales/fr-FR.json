@@ -421,7 +421,7 @@
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "/images/Bloc7/fr-FR/preuve-date-et-heure-photo-identite-france.png",
+        "img_principal": "/images/Bloc7/fr-FR/ephoto_france.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
       }

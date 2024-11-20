@@ -1,9 +1,8 @@
 {
   "metadata": {
-    "title": "ZA passport photo online - Smartphone iD",
+    "title": "Passport photos online for South Africa - Smartphone iD",
     "description": "Fast and easy tool for quality passport photos"
   },
-
 
   "NavBar": {
     "liens": [
@@ -71,7 +70,7 @@
     "repeteur1": [
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
-        "titre_repeteur1": "More than a million valid passport photos delivered"
+        "titre_repeteur1": "More than a million compliant photos delivered"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
@@ -139,51 +138,51 @@
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-remove-passport-photo-south-africa.png",
         "texteCheckBlack": "Automated sizing and background removal.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-checker-south-africa.png",
         "texteCheckBlack": "Because of our expert check, photo conformity guaranteed.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/print-deliver-passport-photos-south-africa.png",
         "texteCheckBlack": "Order home delivery of professionally printed photos, sent out the same day when ordered.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png"
       },
       {
         "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/au-passport-photo-safely-stored.png",
         "texteCheckBlack": "No personal information necessary, your photo is safely stored.",
-        "imageCkeckBlack": "/images/Bloc3/check-black.png"
+        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png"
       }
     ],
     "repeteurEtapeMobile": [
-    {
-      "check_green": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step1.png",
-      "texte_etape": "Take a photo with your smartphone.",
-      "titre_check": "Step 1",
-      "image_repeteur_etape": "/images/General/check-green.png"
-    },
-    {
-      "check_green": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step2.png",
-      "texte_etape": "If necessary, add printed template delivery to your home.",
-      "titre_check": "Step 2",
-      "image_repeteur_etape": "/images/General/check-green.png"
-    },
-    {
-      "check_green": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step3.png",
-      "texte_etape": "Review features of your photo request.",
-      "titre_check": "Step 3",
-      "image_repeteur_etape": "/images/General/check-green.png"
-    },
-    {
-      "check_green": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step4.png",
-      "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
-      "titre_check": "Step 4",
-      "image_repeteur_etape": "/images/General/check-green.png"
-    }
-  ]
-},
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Take a photo with your smartphone.",
+        "titre_check": "Step 1",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step1.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "If necessary, add printed template delivery to your home.",
+        "titre_check": "Step 2",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step2.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Review the features of your photo request.",
+        "titre_check": "Step 3",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step3.png"
+      },
+      {
+        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
+        "titre_check": "Step 4",
+        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step4-mobile.png"
+      }
+    ]
+  },
 
   "Bloc4": {
     "titre_bloc4_1": "More than",
@@ -294,7 +293,7 @@
   },
 
   "Bloc5": {
-    "titre_bloc5_1": "Why the Smartphone iD",
+    "titre_bloc5_1": "Why the Smartphone iD ",
     "titre_bloc5_span": "passport photo tool?",
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
@@ -458,11 +457,19 @@
       {
         "texte_accordeon": null,
         "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
+      },
+      {
+        "texte_accordeon": null,
+        "titre_accordeon": null
       }
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p>If you apply with a paper application, an official passport photo for the South Africa should be</p>\n<ul>\n<li>45 mm high and 35 mm wide,</li>\n<li>face size should be between 29mm and 34mm high (from the crown of your head to your chin).</li>\n</ul>\n<p><span style=\"font-weight: 400;\">Regarding face size</span><b>, the face must occupy 70-80% of the photo height</b><span style=\"font-weight: 400;\">, ensuring clear visibility of facial features. </span></p>\n<p><span style=\"font-weight: 400;\">Ensure the face is evenly lit, with no shadows or reflections, and that it is clearly distinguishable from the background.</span></p>\n<p><span style=\"font-weight: 400;\">For digital passport photos, the image resolution should be </span><b>600 dpi.</b></p>\n",
+        "texteAccordeon": "<p>If you apply with a paper application, an official passport photo for the South Africa should be</p>\n<ul>\n<li>45 mm high and 35 mm wide,</li>\n<li>face size should be between 29mm and 34mm high (from the crown of your head to your chin).</li>\n</ul>\n<p><span style=\"font-weight: 400;\">Regarding face size</span><b>, the face must occupy 70-80% of the photo height</b><span style=\"font-weight: 400;\">, ensuring clear visibility of facial features. </span></p>\n<p><span style=\"font-weight: 400;\">Ensure the face is evenly lit, with no shadows or reflections, and that it is clearly distinguishable from the background.</span></p>\n<p><span style=\"font-weight: 400;\">For digital passport photos, the image resolution should be </span><b>600 dpi.</b></p>\n",
         "titre_accordeon": "What size is the passport photo for South Africa? "
       },
       {
