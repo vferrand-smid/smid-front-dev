@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Pasfoto's - Smartphone ID",
+    "title": "Kwalitatieve pasfoto's voor België - Smartphone iD",
     "description": "Een snel en eenvoudig hulpmiddel voor pasfoto's van hoge kwaliteit"
   },
 
@@ -8,19 +8,23 @@
     "liens": [
       {
         "link": "Paspoort",
-        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-paspoort"
-      },
-      {
-        "link": "Identiteitskaart",
-        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-identiteitskaart"
+        "url": "https://www.smartphone-id.com/eo/paspoort/"
       },
       {
         "link": "Rijbewijs",
-        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-rijbewijs"
+        "url": "https://www.smartphone-id.com/eo/rijbewijs/"
+      },
+      {
+        "link": "Identiteitskaart",
+        "url": "https://www.smartphone-id.com/eo/voorlopige-id-kaart/"
+      },
+      {
+        "link": "Permanente verblijfsvergunning",
+        "url": "https://www.smartphone-id.com/eo/permanente-verblijfsvergunning-belgie/"
       },
       {
         "link": "Visum",
-        "url": "https://www.smartphone-id.com/nl_BE/pasfoto-voor-visum/"
+        "url": "https://www.smartphone-id.com/eo/visum-voor-belgie/"
       }
     ]
   },
@@ -80,8 +84,8 @@
   },
 
   "Bloc3": {
-    "titre_bloc3_span": "De ideale ",
-    "titre_bloc3": "pasfoto-oplossing zonder je huis te verlaten",
+    "titre_bloc3_span": "De ideale",
+    "titre_bloc3": " pasfoto-oplossing zonder je huis te verlaten",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
@@ -181,9 +185,9 @@
   },
 
   "Bloc4": {
-    "titre_bloc4_1": "Meer ",
-    "titre_bloc4_2": "geldige pasfoto's gemaakt",
-    "titre_bloc4_span": "dan een miljoen ",
+    "titre_bloc4_1": "Meer dan ",
+    "titre_bloc4_2": " geldige pasfoto's gemaakt",
+    "titre_bloc4_span": "een miljoen",
     "partenaires": [
       {
         "text": "Enpc Ediser",
@@ -289,11 +293,6 @@
     "listeService": [
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
-        "service24h24Et7j7": "24/7 service",
-        "texteService": null
-      },
-      {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "service24h24Et7j7": "Voor alle documenttypes",
         "texteService": "Het juiste formaat in digitaal en afgedrukt formaat, fotodiepte, achtergrondkleur..."
       },
@@ -309,11 +308,6 @@
       },
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
-        "service24h24Et7j7": "Echte klantenservice.",
-        "texteService": "Geen robots, geen verborgen contactgegevens; jouw positieve ervaring is belangrijk voor ons."
-      },
-      {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "service24h24Et7j7": "Handig voor velen",
         "texteService": "Vooral voor baby's, mensen met een handicap, expats, mensen in landelijke gebieden..."
       },
@@ -321,6 +315,16 @@
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "service24h24Et7j7": "Ecologisch verantwoord",
         "texteService": "Laat je documenten online verlengen en voorkom papierverspilling."
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "24/7 service",
+        "texteService": null
+      },
+      {
+        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
+        "service24h24Et7j7": "Echte klantenservice.",
+        "texteService": "Geen robots, geen verborgen contactgegevens; jouw positieve ervaring is belangrijk voor ons."
       }
     ],
     "titre_bloc5_1": "Waarom de Smartphone iD ",
@@ -334,28 +338,52 @@
         "paragraphe": "Bestel je professioneel afgedrukte pasfoto’s bij Smartphone iD of gebruik onze kant-en-klare sjabloon die naar je e-mail wordt gestuurd.",
         "partenaires": [
           {
-            "nom_partenaire": "Smartphone-iD",
+            "nom_partenaire": "Smartphone iD",
             "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "aps",
+            "img_partenaire": "/images/Bloc6/nl-BE/aps.png"
+          },
+          {
+            "nom_partenaire": "grobet",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/08/grobet.png"
+          },
+          {
+            "nom_partenaire": "Laboriver",
+            "img_partenaire": "/images/Bloc6/nl-BE/Laboriver.png"
+          },
+          {
+            "nom_partenaire": "Les Annees Lumiere",
+            "img_partenaire": "/images/Bloc6/nl-BE/Les-Annees-Lumieere.png"
+          },
+          {
+            "nom_partenaire": "Photo Maggioni",
+            "img_partenaire": "/images/Bloc6/nl-BE/photomaggioni.png"
+          },
+          {
+            "nom_partenaire": "Studio Francine",
+            "img_partenaire": "/images/Bloc6/nl-BE/StudioFrancine.png"
           }
         ],
         "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/afgedrukte-Belgische-pasfoto-sjabloon.png"
       }
     ],
-    "titre_bloc6_1": "Bijpassende ",
-    "titre_bloc6_2": "Belgisch document.",
-    "titre_bloc6_span": "pasfoto's  voor elk ",
+    "titre_bloc6_1": "Bijpassende pasfoto's voor ",
+    "titre_bloc6_2": " Belgisch document",
+    "titre_bloc6_span": "elk",
     "documents": [
       {
         "titre_doc": "Paspoort",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Paspoort.png"
       },
       {
-        "titre_doc": "Kids-ID",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Kids-ID.png"
-      },
-      {
         "titre_doc": "Identiteitskaart",
         "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Identiteitskaart.png"
+      },
+      {
+        "titre_doc": "Rijbewijs",
+        "img_doc": "/images/Bloc6/nl-BE/pasfoto-voor-rijbewijs-belgie.png"
       },
       {
         "titre_doc": "Permanente verblijfsvergunning",
@@ -401,21 +429,21 @@
       },
       {
         "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/afgedrukte-Belgische-pasfoto-sjabloon.png",
+        "img_principal": "/images/Bloc7/nl-BE/Recent-afgedrukt-Belgische-pasfoto-sjabloon.png",
         "paragraphe": "Voor officiële documenten is een recente foto verplicht. Met een realtime foto toon je direct aan dat je foto aan deze eis voldoet.",
         "titre": "Bewijs van recente foto"
       }
     ],
-    "titre_bloc7_1" :"Jouw online",
-    "titre_bloc7_2" :" voor het aanvragen van officiële documenten ",
-    "titre_bloc7_span": "  oplossing"
+    "titre_bloc7_1" :"Jouw ",
+    "titre_bloc7_2" :" voor het aanvragen van officiële documenten",
+    "titre_bloc7_span": "online oplossing"
   },
 
   "Bloc8": {
     "titre_bloc8_1" : "Hoe maak jeeen ",
     "titre_bloc8_2" : "pasfoto?",
     "titre_bloc8_span": "geldige",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/y2OWDDhjUO4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/rSUudyrOtRM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
@@ -433,7 +461,7 @@
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
         "chiffre": 3,
         "texte": "Je haar moet achter je ",
-        "texte_span": "schouders zitten"
+        "texte_span": "schouders zitten."
       },
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green-1.png",
@@ -443,11 +471,11 @@
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/nl_BE/pasfoto/",
+      "url": "https://www.smartphone-id.com/eo/pasfoto/",
       "title": "Bekijk meer"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/nl_BE/pasfoto-baby/",
+      "url": "https://www.smartphone-id.com/eo/pasfoto-baby/",
       "title": "Hoe maak je een pasfoto van een baby?"
     }
   },
@@ -456,18 +484,6 @@
     "ID": "Pasfoto's in België",
     "ePhoto": "",
     "codeEphoto": [
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      },
       {
         "texte_accordeon": null,
         "titre_accordeon": null
@@ -531,8 +547,8 @@
         "titre_accordeon": "Hoe maak je een pasfoto met een Android?"
       }
     ],
-    "titre_bloc9": "uw vragen",
-    "titre_bloc9_span": "Antwoorden op "
+    "titre_bloc9": " op je vragen",
+    "titre_bloc9_span": "Antwoorden"
   },
 
   "Bloc10" : {
@@ -543,6 +559,37 @@
     "etoiles" : "sterren van de 5"
   },
 
+  "Bloc11": {
+    "titre": "Klik op de overeenkomstige sectie om antwoorden te vinden over specifieke pasfoto's voor Belgische identiteitsdocumenten!",
+    "liens": [
+      {
+        "link": "Rijbewijs",
+        "url": "https://www.smartphone-id.com/eo/pasfoto-voor-rijbewijs/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Paspoort",
+        "url": "https://www.smartphone-id.com/eo/pasfoto-voor-paspoort/",
+        "icon": "/images/Bloc11/passeport.svg"
+      },
+      {
+        "link": "Identiteitskaart",
+        "url": "https://www.smartphone-id.com/eo/pasfoto-voor-identiteitskaart/",
+        "icon": "/images/Bloc11/carte-identite.svg"
+      },
+      {
+        "link": "Verblijfsvergunning",
+        "url": "https://www.smartphone-id.com/eo/pasfoto-permanente-verblijfsvergunning/",
+        "icon": "/images/Bloc11/titre-de-sejour.svg"
+      },
+      {
+        "link": "Visum",
+        "url": "https://www.smartphone-id.com/eo/pasfoto-voor-visum/",
+        "icon": "/images/Bloc11/visa.svg"
+      }
+    ]
+  },
+
   "Footer": {
     "partie2-button": "Gratis onbeperkt proberen!",
     "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
@@ -550,19 +597,19 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "Over ons",
-    "propos-link" : "https://www.smartphone-id.com/nl_NL/over-ons",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/nl_NL/faq",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
     "SiteMapList-contact" : "Contact",
-    "contact-link" : "https://www.smartphone-id.com/nl_NL/contact",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
     "applis-h3": "Download de app!",
     "applis-p":  "Download de Smartphone iD app om je bestellingen te volgen en van nog meer pasfoto-functies te genieten.",
-    "AppStore-link" : "https://apps.apple.com/fr/app/photo-identit%C3%A9-officielle/id1527550865",
-    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
+    "AppStore-link" : "https://apps.apple.com/nl/app/photo-identit%C3%A9-officielle/id1527550865",
+    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid",
     "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
-    "partie2-p": "",
-    "partie2-p-link": "Volg ons en ontdek de nieuwste informatie over visa en andere officiële documenten.",
+    "partie2-p": "Volg ons en ontdek de nieuwste informatie over visa en andere officiële documenten.",
+    "partie2-p-link": "",
     "mentions-confidentialité": "Privacy policy",
     "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of service",
