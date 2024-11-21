@@ -110,25 +110,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Digitalize o código QR com seu smartphone e tire sua foto.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-1-no-computador.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revise os recursos da sua solicitação de foto.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-2-no-computador.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Se necessário, adicione a entrega de modelos impressos em sua casa.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-3-no-computador.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receba sua foto digital para passaporte e um modelo pronto para imprimir em seu e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-4-no-computador.png"
@@ -158,25 +158,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Tire uma foto com seu smartphone.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-1-no-celular.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Se necessário, adicione a entrega de modelos impressos em sua casa.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-2-no-celular.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revise os recursos da sua solicitação de foto.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-3-no-celular.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receba sua foto digital para passaporte e um modelo pronto para imprimir em seu e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-4-no-celular.png"

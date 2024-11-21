@@ -373,11 +373,11 @@
           },
           {
             "nom_partenaire": "OshiPrint",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/oshiprint.png"
+            "img_partenaire": "/images/BLoc6/en-IN/oshiprint.png"
           },
           {
             "nom_partenaire": "Printo",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/printo.png"
+            "img_partenaire": "/images/BLoc6/en-IN/printo.png"
           }
         ]
       }

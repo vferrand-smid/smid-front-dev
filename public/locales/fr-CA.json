@@ -114,7 +114,7 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadiene-etape-1-ordinateur"
+        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadiene-etape-1-ordinateur.png"
       },
       {
         "check_green": "/images/General/check-green.png",
@@ -413,13 +413,13 @@
     "bloc": [
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Photo-et-signature-numerique-document-canada.png",
+        "img_principal": "/images/Bloc7/fr-CA/Photo-et-signature-numerique-document-canada.png",
         "paragraphe": "Lorsque nécessaire, votre signature sera liée à votre photo pour les demandes de documents officiels en ligne",
         "titre": "Signature numérique"
       },
       {
         "img_check": "/images/General/check-green.png",
-        "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-recente-de-photo-identite-canadienne-imprimee.png",
+        "img_principal": "/images/Bloc7/fr-CA/planche-recente-de-photo-identite-canadienne-imprimee.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
       }

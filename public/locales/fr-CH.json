@@ -110,25 +110,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-1-sur-ordinateur.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-2-sur-ordinateur.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-3-sur-ordinateur.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-4-sur-ordinateur.png"
@@ -158,25 +158,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-1-sur-mobile.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-2-sur-mobile.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-3-sur-mobile.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/outil-de-photo-didentite-suisse-etape-4-sur-mobile.png"
@@ -366,11 +366,11 @@
       {
         "impressionPhoto": "Où imprimer une photo d'identité suisse ?",
         "paragraphe": "Commandez vos photos imprimées par Smartphone iD ou utilisez la planche de photos prête à l'emploi et envoyée à votre adresse email.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-de-photo-didentite-suisse-imprimee.png",
+        "planche_photo": "/images/Bloc6/fr-CH/planche-de-photo-didentite-suisse-imprimee.png",
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id.png"
+            "img_partenaire": "/images/General/smartphone-id-logo.png"
           },
           {
             "nom_partenaire": "Elite Fotostudio",
@@ -419,14 +419,14 @@
     "titre_bloc7_span": "parfaite",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Photo-et-signature-numerique-document-suisse.png",
         "paragraphe": "Lorsque nécessaire, votre signature sera liée à votre photo pour les demandes de documents officiels en ligne",
         "titre": "Signature numérique"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
-        "img_principal": "/images/Bloc7/fr-CH/planche-de-photo-didentite-suisse-imprimee-recente.png",
+        "img_check": "/images/General/check-green.png",
+        "img_principal": "/images/Bloc7/fr-CH/planche-de-photo-didentite-suisse-imprimee.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
       }
@@ -441,25 +441,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Les lunettes",
         "texte_span": "enlevées"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "Le visage",
         "texte_span": "uniformément éclairé"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "Les cheveux",
         "texte_span": "derrière les épaules"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "La bouche",
         "texte_span": "fermée, pas de sourire"

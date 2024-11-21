@@ -155,25 +155,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Scatta una foto con il tuo smartphone.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-con-smartphone.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Se necessario, aggiungi la consegna del modello stampato a casa tua.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/ordinare-a-casa-le-foto-stampate-del-passaporto.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Controlla le caratteristiche della tua richiesta di foto.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/controllo-della-foto-del-passaporto-sullo-smartphone.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Ricevi la tua foto digitale per il passaporto e un modello pronto da stampare nella tua e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fototessera-valida-con-smartphone.png"

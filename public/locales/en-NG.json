@@ -158,25 +158,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Take a photo with your smartphone.",
         "titre_check": "Step 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-nigeria-smartphone.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-nigeria-order-print.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/expert-check-passport-photo-nigeria.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/receive-passport-photo-nigeria-smartphone-email.png"
