@@ -85,8 +85,8 @@
   },
 
   "Bloc3" : {
-    "titre_bloc3_span": "Den kompletta passfotolösningen",
-    "titre_bloc3": " utan att lämna ditt hem",
+    "titre_bloc3_span": "Den kompletta",
+    "titre_bloc3": " passfotolösningen utan att lämna ditt hem",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
@@ -463,19 +463,19 @@
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></p>\n<p class=\"first-token\" data-sourcepos=\"1:1-1:15\">Officiellt passfotoformat för Sverige är:</p>\n<ul data-sourcepos=\"3:1-4:30\">\n<li data-sourcepos=\"3:1-3:31\"><strong>45 millimeter (mm) i höjd</strong></li>\n<li data-sourcepos=\"4:1-4:30\"><strong>35 millimeter (mm) i bredd</strong></li>\n</ul>\n<p data-sourcepos=\"6:1-6:93\">Ansiktets storlek i fotot ska vara mellan 29 mm och 34 mm mätt från hjässan till hakan. Detta innebär att ansiktet ska uppta ungefär 70-80% av fotot vertikalt.</p>\n<p></main></p>\n",
+        "texteAccordeon": "<p>Officiellt passfotoformat för Sverige är:</p>\n<ul data-sourcepos=\"3:1-4:30\">\n<li data-sourcepos=\"3:1-3:31\"><strong>45 millimeter (mm) i höjd</strong></li>\n<li data-sourcepos=\"4:1-4:30\"><strong>35 millimeter (mm) i bredd</strong></li>\n</ul>\n<p data-sourcepos=\"6:1-6:93\">Ansiktets storlek i fotot ska vara mellan 29 mm och 34 mm mätt från hjässan till hakan. Detta innebär att ansiktet ska uppta ungefär 70-80% av fotot vertikalt.</p>\n<p></main></p>\n",
         "titre_accordeon": "Vilken är storleken på passfoto i Sverige?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Priset på passfoton i Sverige kan variera beroende på leverantör, men räkna med att betala runt 299 kronor. Smartphone-ID &#8211; <strong>Till hälften så dyrt som konkurrenterna!</strong></main></p>\n",
+        "texteAccordeon": "<p>Priset på passfoton i Sverige kan variera beroende på leverantör, men räkna med att betala runt 299 kronor. Smartphone-ID &#8211; <strong>Till hälften så dyrt som konkurrenterna!</strong></main></p>\n",
         "titre_accordeon": "Hur mycket kostar passfoton i Sverige?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></p>\n<p class=\"first-token\" data-sourcepos=\"1:1-1:54\">Du har två alternativ:</p>\n<ul data-sourcepos=\"3:1-4:128\">\n<li data-sourcepos=\"3:1-3:88\"><strong>Traditioellt:</strong> Besök en fotoautomat eller fotostudio som erbjuder passfototjänster.</li>\n<li data-sourcepos=\"4:1-4:128\"><strong>Med Smartphone iD-appen:</strong> Den här appen låter dig ta ditt eget passfoto med din smartphone och garanterar att det uppfyller alla krav.</li>\n</ul>\n<p data-sourcepos=\"6:1-6:94\">Att använda Smartphone iD är generellt sett billigare och smidigare än traditionella metoder.</p>\n<p></main></p>\n",
+        "texteAccordeon": "<p>Du har två alternativ:</p>\n<ul data-sourcepos=\"3:1-4:128\">\n<li data-sourcepos=\"3:1-3:88\"><strong>Traditioellt:</strong> Besök en fotoautomat eller fotostudio som erbjuder passfototjänster.</li>\n<li data-sourcepos=\"4:1-4:128\"><strong>Med Smartphone iD-appen:</strong> Den här appen låter dig ta ditt eget passfoto med din smartphone och garanterar att det uppfyller alla krav.</li>\n</ul>\n<p data-sourcepos=\"6:1-6:94\">Att använda Smartphone iD är generellt sett billigare och smidigare än traditionella metoder.</p>\n<p></main></p>\n",
         "titre_accordeon": "Var får man passfoto i Sverige?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Ja! Du kan ta ditt eget passfoto. Du kan ta ditt foto med bakkameran på din telefon, men se till att du följer alla riktlinjer för att få ditt foto godkänt (belysning, skugga, bakgrundsfärg).<br />\nDu kan också använda Smartphone iD passfotoappen som gör allt åt dig. Välj helt enkelt ditt land och dokument, ta ett foto och få det senare via e-post. Så enkelt är det!</main></p>\n",
+        "texteAccordeon": "<p>Ja! Du kan ta ditt eget passfoto. Du kan ta ditt foto med bakkameran på din telefon, men se till att du följer alla riktlinjer för att få ditt foto godkänt (belysning, skugga, bakgrundsfärg).<br />\nDu kan också använda Smartphone iD passfotoappen som gör allt åt dig. Välj helt enkelt ditt land och dokument, ta ett foto och få det senare via e-post. Så enkelt är det!</main></p>\n",
         "titre_accordeon": "Kan man ta sitt eget passfoto?"
       },
       {
@@ -483,39 +483,39 @@
         "titre_accordeon": "Hur tar man ett passfoto hemma?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p>&nbsp;</p>\n<p>Placera din bebis på ett vitt lakan på din säng, eller sätt den i en barnstol med en vit handduk som täcker stolen.<br />\nTa bort nappen, fånga bebisens uppmärksamhet och försök få ett foto med din bebis mun stängd. Vissa regeringar tillåter att munnen är lite öppen, men ingen tunga eller tänder får synas.<br />\nSe till att din bebis huvud inte är lutat, och glöm inte att du inte kan stödja bebisen själv medan du tar fotot eftersom inga andra kroppsdelar får synas på fotot.<br />\nVid selfie, se till att din arm är helt utsträckt och är på axelhöjd.<br />\nDu kan också ta ett foto via vår webbplats www.smartphon-id.com där vi hjälper dig att få ett giltigt foto med hjälp av våra utbildade experter.</p>\n<p></main></p>\n",
+        "texteAccordeon": "<p>Placera din bebis på ett vitt lakan på din säng, eller sätt den i en barnstol med en vit handduk som täcker stolen.<br />\nTa bort nappen, fånga bebisens uppmärksamhet och försök få ett foto med din bebis mun stängd. Vissa regeringar tillåter att munnen är lite öppen, men ingen tunga eller tänder får synas.<br />\nSe till att din bebis huvud inte är lutat, och glöm inte att du inte kan stödja bebisen själv medan du tar fotot eftersom inga andra kroppsdelar får synas på fotot.<br />\nVid selfie, se till att din arm är helt utsträckt och är på axelhöjd.<br />\nDu kan också ta ett foto via vår webbplats www.smartphon-id.com där vi hjälper dig att få ett giltigt foto med hjälp av våra utbildade experter.</p>\n<p></main></p>\n",
         "titre_accordeon": "Hur tar man ett passfoto av sin bebis?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Det beror på dokumenttypen. Officiella dokument som används för biometrisk maskinläsning (elektroniska pass, visum, identitetskort) tillåter inte leenden eftersom det gör det svårare att läsa biometriska data från skanningen. Däremot kan mer informella identitetsdokument som studentkort eller transportkort ha ett passfoto med en leende person. Om du är osäker på kraven kan du använda Smartphone iD-tjänsten som ger dig ett överensstämmande och kontrollerat foto för det dokument du väljer.</main></p>\n",
+        "texteAccordeon": "<p>Det beror på dokumenttypen. Officiella dokument som används för biometrisk maskinläsning (elektroniska pass, visum, identitetskort) tillåter inte leenden eftersom det gör det svårare att läsa biometriska data från skanningen. Däremot kan mer informella identitetsdokument som studentkort eller transportkort ha ett passfoto med en leende person. Om du är osäker på kraven kan du använda Smartphone iD-tjänsten som ger dig ett överensstämmande och kontrollerat foto för det dokument du väljer.</main></p>\n",
         "titre_accordeon": "Kan man le på ett passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Starka färger som står ut tydligt från bakgrunden är lämpliga för ett passfoto. Eftersom en ljus bakgrund krävs är mörkare färger fördelaktiga för att öka kontrasten.<br />\nSe också till att din skjorta inte visar för mycket hud, eftersom barbröstade passfoton är förbjudna.<br />\nSlutligen är uniformer av alla slag också förbjudna på ett biometriskt passfoto.</main></p>\n",
+        "texteAccordeon": "<p>Starka färger som står ut tydligt från bakgrunden är lämpliga för ett passfoto. Eftersom en ljus bakgrund krävs är mörkare färger fördelaktiga för att öka kontrasten.<br />\nSe också till att din skjorta inte visar för mycket hud, eftersom barbröstade passfoton är förbjudna.<br />\nSlutligen är uniformer av alla slag också förbjudna på ett biometriskt passfoto.</main></p>\n",
         "titre_accordeon": "Vad ska man ha på sig på ett passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Inte alla regeringar tillåter glasögon eftersom det är väldigt svårt att få det rätt. Tjocka bågar är förbjudna, likaså tonat glas, ingen reflektion får synas och de måste sitta korrekt. Därför rekommenderar de regeringar som inte förbjuder glasögon starkt att ta av dem för fotot.</main></p>\n",
+        "texteAccordeon": "<p>Inte alla regeringar tillåter glasögon eftersom det är väldigt svårt att få det rätt. Tjocka bågar är förbjudna, likaså tonat glas, ingen reflektion får synas och de måste sitta korrekt. Därför rekommenderar de regeringar som inte förbjuder glasögon starkt att ta av dem för fotot.</main></p>\n",
         "titre_accordeon": "Kan man ha glasögon på ett passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Ja, du kan ha smink på ditt passfoto.<br />\nMen notera att sminket bör vara lätt. Använd inte för mycket ögonskugga på dina ögonlock.<br />\nOfta kan glansigt läppstift skapa en reflektion, därför är det bättre att välja ett matt läppstift om du vill framhäva dina läppar.<br />\nDet är också bra att kontrollera att din hud inte är oljig innan du tar ett foto, eftersom det också kan skapa en ljusreflektion.<br />\nSlutligen, kom ihåg att passfotot måste vara så naturligt som möjligt och måste likna dig på en vanlig dag.</main></p>\n",
+        "texteAccordeon": "<p>Ja, du kan ha smink på ditt passfoto.<br />\nMen notera att sminket bör vara lätt. Använd inte för mycket ögonskugga på dina ögonlock.<br />\nOfta kan glansigt läppstift skapa en reflektion, därför är det bättre att välja ett matt läppstift om du vill framhäva dina läppar.<br />\nDet är också bra att kontrollera att din hud inte är oljig innan du tar ett foto, eftersom det också kan skapa en ljusreflektion.<br />\nSlutligen, kom ihåg att passfotot måste vara så naturligt som möjligt och måste likna dig på en vanlig dag.</main></p>\n",
         "titre_accordeon": "Kan man ha smink på ett passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">För att skriva ut passfoton med din dator måste du först ladda ner programvara som gör att du kan få foton i storleken 3,5 x 4,5 cm. Sedan måste du ansluta en skrivare som är kompatibel med fotopapper till din dator eftersom endast professionellt tryckta passfoton accepteras.<br />\nOm du inte vill ladda ner någon programvara eller slippa besväret med att leta efter ett enkelt verktyg online, kan du välja Smartphone iD-passfotoservicen, där du bara behöver välja den nödvändiga dokumenttypen och allt annat görs åt dig.<br />\nDu kan få en professionell 10x15cm-utskrift levererad till din dörr eller använda den 10x15cm digitala filen vi skickar till din e-post och använda den i en närliggande utskriftsanläggning.</main></p>\n",
+        "texteAccordeon": "<p>För att skriva ut passfoton med din dator måste du först ladda ner programvara som gör att du kan få foton i storleken 3,5 x 4,5 cm. Sedan måste du ansluta en skrivare som är kompatibel med fotopapper till din dator eftersom endast professionellt tryckta passfoton accepteras.<br />\nOm du inte vill ladda ner någon programvara eller slippa besväret med att leta efter ett enkelt verktyg online, kan du välja Smartphone iD-passfotoservicen, där du bara behöver välja den nödvändiga dokumenttypen och allt annat görs åt dig.<br />\nDu kan få en professionell 10x15cm-utskrift levererad till din dörr eller använda den 10x15cm digitala filen vi skickar till din e-post och använda den i en närliggande utskriftsanläggning.</main></p>\n",
         "titre_accordeon": "Hur skriver man ut ett passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Det är förbjudet att lämna in ett skannat foto för ett officiellt identifikationsdokument. Om du behöver lämna in digitala passfoton kan du använda vårt enkla automatiserade verktyg online som inkluderar en expertkontroll. På detta sätt får du ett perfekt digitalt passfoto i det behövda formatet för ditt dokument. Om du skannar passfoton för att skapa flera utskrifter har vi täckt det också. Med ditt digitala enskilda foto får du även en utskriftsklar 10&#215;15-mall skickad till din e-post som du kan använda obegränsat antal gånger.</main></p>\n",
+        "texteAccordeon": "<p>Det är förbjudet att lämna in ett skannat foto för ett officiellt identifikationsdokument. Om du behöver lämna in digitala passfoton kan du använda vårt enkla automatiserade verktyg online som inkluderar en expertkontroll. På detta sätt får du ett perfekt digitalt passfoto i det behövda formatet för ditt dokument. Om du skannar passfoton för att skapa flera utskrifter har vi täckt det också. Med ditt digitala enskilda foto får du även en utskriftsklar 10&#215;15-mall skickad till din e-post som du kan använda obegränsat antal gånger.</main></p>\n",
         "titre_accordeon": "Hur skannar man ett passfoto?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">För att göra ett passfoto på din iPhone, klicka på &#8220;Ta ett foto&#8221;-knappen på Smartphone iD-webbplatsen, välj det nödvändiga landet och dokumenttypen, ta ditt foto på din iPhone och det är allt! Efter fotovalidering av vårt expertteam får du dina foton i din e-post.</main></p>\n",
+        "texteAccordeon": "<p>För att göra ett passfoto på din iPhone, klicka på &#8220;Ta ett foto&#8221;-knappen på Smartphone iD-webbplatsen, välj det nödvändiga landet och dokumenttypen, ta ditt foto på din iPhone och det är allt! Efter fotovalidering av vårt expertteam får du dina foton i din e-post.</main></p>\n",
         "titre_accordeon": "Hur tar man ett passfoto med en iPhone?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"><br />\nFör att göra ett passfoto på din Android, klicka på &#8220;Ta ett foto&#8221;-knappen på Smartphone iD-webbplatsen, välj det nödvändiga landet och dokumenttypen, ta ditt foto på din Android och det är allt! Efter fotovalidering av vårt expertteam får du dina foton i din e-post.</main></p>\n",
+        "texteAccordeon": "<p>För att göra ett passfoto på din Android, klicka på &#8220;Ta ett foto&#8221;-knappen på Smartphone iD-webbplatsen, välj det nödvändiga landet och dokumenttypen, ta ditt foto på din Android och det är allt! Efter fotovalidering av vårt expertteam får du dina foton i din e-post.</main></p>\n",
         "titre_accordeon": "Hur tar man ett passfoto med en Android?"
       }
     ],
