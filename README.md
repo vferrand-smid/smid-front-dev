@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Pour commencer
 
-## Getting Started
-
-First, run the development server:
-
+Installer les dépendances nécessaires du fichier package.json:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Démarrer le serveur de dev:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+next dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Ouvrir [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
 
-## Learn More
+## GIT
 
-To learn more about Next.js, take a look at the following resources:
+### Ajouter les fichiers :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git add .
+ou 
+git add <nom du fichier>
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Enregistrer les modifications :
 
-## Deploy on Vercel
+```bash
+git commit -m "<message>"
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Pousser les modifications :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# nextjs13-headlesswp-starter
-# next14-headlesswp-example
+```bash
+git push
+```
+
+### Récupérer une mise à jour :
+
+#### S'assurer d'être sur sa propre branche :
+```bash
+git checkout <nom de notre branche>
+```
+
+#### S'assurer que la branche cible soit à jour :
+```bash
+git fetch origin
+git pull origin <nom de la branche cible>
+```
+
+#### Fusionner la branche cible dans votre branche :
+```bash
+git merge <nom de la branche cible>
+```
+
+##### S'il y a des conflits :
+Commencer par résoudre les conflits en éditants les fichiers
+
+Ensuite ajouter les fichiers corrigés :
+```bash
+git add .
+ou 
+git add <nom du fichier>
+```
+Puis commit :
+```bash
+git commit -m "<message>"
+```
+Et push :
+```bash
+git push
+```
