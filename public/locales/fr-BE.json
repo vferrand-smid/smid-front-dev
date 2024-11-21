@@ -536,22 +536,22 @@
     "liens": [
       {
         "link": "Passeport",
-        "url": "https://www.smartphone-id.com/qu/digitales-passfoto",
+        "url": "https://www.smartphone-id.com/eu/photo-passeport/",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
         "link": "Carte d'identité",
-        "url": "https://www.smartphone-id.com/qu/identitaetskarte",
+        "url": "https://www.smartphone-id.com/eu/photo-carte-identite/",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
         "link": "Titre de séjour",
-        "url": "https://www.smartphone-id.com/qu/aufenthaltsgenehmigung-passfoto",
+        "url": "https://www.smartphone-id.com/eu/photo-titre-sejour/",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "Visa",
-        "url": "https://www.smartphone-id.com/qu/schweizer-visum-passfoto",
+        "url": "https://www.smartphone-id.com/eu/photo-didentite-pour-visa/",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
