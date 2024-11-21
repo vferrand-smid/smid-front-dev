@@ -110,25 +110,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Skaneerige QR-kood, et teha isikut tõendava dokumendi foto oma nutitelefoniga.",
         "titre_check": "1. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-1.-samm-arvutis.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Kontrollige oma taotluse omadusi.",
         "titre_check": "2. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-2.-samm-arvutis.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Tellige vajadusel meie teenuse kaudu trükitud fotoleht.",
         "titre_check": "3. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-3.-samm-arvutis.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Saate oma individuaalse foto ja prinditava fotolehe oma e-postkasti.",
         "titre_check": "4. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-4.-samm-arvutis.png"
@@ -158,25 +158,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Tehke isikut tõendava dokumendi foto oma nutitelefoniga.",
         "titre_check": "1. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-1.-samm-mobiilis.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Tellige vajadusel meie teenuse kaudu trükitud fotoleht.",
         "titre_check": "2. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-2.-samm-mobiilis.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Kontrollige oma taotluse omadusi.",
         "titre_check": "3. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-3.-samm-mobiilis.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Saate oma individuaalse foto ja prinditava fotolehe oma e-postkasti.",
         "titre_check": "4. samm",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Eesti-passifoto-tooriista-4.-samm-mobiilis.png"
@@ -288,37 +288,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Noored-sobrad-teevad-Eesti-passifoto-nutitelefoni-ID-rakendusega.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "24/7 teenindus",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Kõikidele dokumenditüüpidele",
         "texteService": "Õige suurus digitaalses ja trükitud formaadis, foto sügavus, taustavärv, valgustus..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% kooskõla",
         "texteService": "100% kooskõla mis tahes ametliku dokumendiga kogu maailmas."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Hankige parim foto",
         "texteService": "Tehke piiramatu arv pilte ja valige parim foto."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Tõeline klienditeenindus",
         "texteService": "Ei mingeid roboteid ega varjatud kontaktteavet, teie positiivne kogemus on meie jaoks oluline."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Mugav paljude jaoks",
         "texteService": "Eriti mugav imikutele, invaliididele, välismaal ja maapiirkonnas elavatele inimestele..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ökoloogiline",
         "texteService": "Ökoloogiline, dokumendi foto uuendamine paberit raiskamata."
       }
@@ -388,13 +388,13 @@
     "titre_bloc7_span": "dokumentide",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/lisada-passifotole-digitaalallkiri.png",
         "paragraphe": "Vajadusel seotakse veebis teie allkiri ametliku dokumendi fotoga.",
         "titre": "Digitaalne allkiri"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/toendage-passifoto-kuupaeva-ja-kellaaega.png",
         "paragraphe": "Reaalajas pildistamine tõestab foto uudsust, mis on ametlike dokumentide jaoks kohustuslik.",
         "titre": "Tõesta foto kehtivust"

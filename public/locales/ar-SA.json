@@ -304,37 +304,37 @@
     "imgService": "/images/Bloc5/ar-SA/أصدقاء شباب يلتقطون صورة لجواز السفر السعودي ي باستخدام تطبيق سمارتفون اي دي.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "خدمة 24/7",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "لجميع أنواع الوثائق",
         "texteService": "الحجم المناسب بالصيغة الرقمية والمطبوعة وعمق الصورة ولون الخلفية والإضاءة ..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "%100 مطابقة",
         "texteService": "احصل على مطابقة 100% لأي وثيقة رسمية في جميع أنحاء العالم."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "أحصل على أفضل صورة",
         "texteService": "التقط عددا غير محدود من الصور واختر أفضل صورة."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "خدمة عملاء حقيقية",
         "texteService": "لا روبوتات، لا معلومات اتصال مخفية؛ تجربتك الإيجابية مهمة بالنسبة لنا."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "مفيد للكثيرين",
         "texteService": "مفيد بشكل خاص للأطفال والأشخاص ذوي الإعاقة والمغتربين والأشخاص في المناطق الريفية..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "صديق للبيئة",
         "texteService": "صديق للبيئة، لا يوجد المزيد من الورق للإهدار إذا كنت بحاجة لتجديد وثيقتك عبر الإنترنت"
       }
@@ -428,13 +428,13 @@
     "titre_bloc7_span": "الحل الخاص بك",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/التوقيع-الرقمي-لصور-المستندات-السعودية.png",
         "paragraphe": "عند الحاجة، سيتم ربط توقيعك بصورتك لطلبات المستندات الرسمية عبر الإنترنت",
         "titre": "التوقيع الرقمي"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/قالب-مطبوع-حديثا-لصور-الهوية-السعودية.png",
         "paragraphe": "إن التقاط الصور في الوقت الفعلي يثبت حداثة الصورة، وهو أمر إلزامي بالنسبة للوثائق الرسمية.",
         "titre": "إثبات حداثة الصورة"
@@ -450,25 +450,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/v6AvK60-gqk?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": " إخلع ",
         "texte_span": "نظارتك"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "دع الضوء يتساقط ",
         "texte_span": "بالتساوي على وجهك"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "يجب أن يكون ",
         "texte_span": "شعرك خلف كتفيك"
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "الفم مغلق",
         "texte_span": " تعابير الوجه محايدة"

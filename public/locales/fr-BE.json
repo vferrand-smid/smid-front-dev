@@ -153,25 +153,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-1-sur-mobile.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-2-sur-mobile.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-3-sur-mobile.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-d-identite-belgique-etape-4-sur-mobile.png"
