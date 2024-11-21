@@ -113,25 +113,25 @@
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step1.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-step1.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Review features of your photo request.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step2.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-step2.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step3.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-step3.png"
       },
       {
         "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-south-africa-online-step4.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-step4.png"
       }
     ],
     "repeteurCkeckBlackMobile": [
@@ -161,25 +161,25 @@
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Take a photo with your smartphone.",
         "titre_check": "Step 1",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step1.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step1.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 2",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step2.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step2.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 3",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step3.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step3.png"
       },
       {
         "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
-        "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport-photo-south-africa-online-smartphone-step4-mobile.png"
+        "image_repeteur_etape": "/images/Bloc3/en-ZA/passport-photo-south-africa-online-smartphone-step4-mobile.png"
       }
     ]
   },
