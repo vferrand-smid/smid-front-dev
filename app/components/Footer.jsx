@@ -80,7 +80,7 @@ const localeToCountry = {
     'pt-PT': 'Portugal',
     'ru-RU': 'Россия',
     'zh-CN': '中华人民共和国',
-    'sv-SE': 'Sveden',
+    'sv-SE': 'Sverige',
     'fr-CH': 'Suisse',
     'de-CH': 'Schweiz',
     'en-SG': 'Singapore',
