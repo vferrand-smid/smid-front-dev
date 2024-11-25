@@ -32,6 +32,7 @@ const LanguageRedirect = ({ defaultLocale }) => {
             'ru-RU',
             'ar-AE',
             'zh-CN',
+            'sv-SE',
             'de', 'es', 'en', 'fr', 'ru', 'ar'];
 
         /*const locales = ['en-ZA', 'de-DE', 'arg', 'es-AR', 'en-AU', 'fr-BE', 'nl-BE', 'pt-BR', 'en-CA', 'fr-CA',
