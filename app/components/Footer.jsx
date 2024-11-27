@@ -62,7 +62,7 @@ const localeToCountry = {
     'fr-BE': 'Belgique',
     'nl-BE': 'België',
     'pt-BR': 'Brasil',
-    'fr-CA': 'Canada',
+    'fr-CA': 'Canada-FR',
     'en-CA': 'Canada',
     'es-CO': 'Colombia',
     'de-DE': 'Deutschland',
