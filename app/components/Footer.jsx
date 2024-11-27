@@ -85,7 +85,7 @@ const localeToCountry = {
     'de-CH': 'Schweiz',
     'en-SG': 'Singapore',
     'en-ZA': 'South Africa',
-    'ar-SA': 'المملكةالعربيةالسعودية',
+    'ar-SA': 'المملكة العربية السعودية',
     'ar-AE': 'الإمارات العربية المتحدة',
     'en-GB': 'United Kingdom',
     'en-US': 'United States'
