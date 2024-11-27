@@ -336,7 +336,7 @@ const KalSearch = ({ page, locale }) => {
 							</section>
 						) : (
 							<section className="search-document">
-								<p className="text-sm mt-6">{translations.kalSearch.document || "Sélectionner un document" }</p>
+								<p className="text-sm mt-6">{translations.kalSearch.document || "select a document" }</p>
 							</section>
 						)}
 					</section>
