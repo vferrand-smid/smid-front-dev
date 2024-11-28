@@ -1,0 +1,16 @@
+name: Monitor Site Uptime
+
+on:
+  schedule:
+    # Planifiez l'exécution toutes les 5 minutes
+    - cron: "*/5 * * * *"
+  workflow_dispatch: # Permet un lancement manuel
+
+jobs:
+  monitor-site:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send a request to the Netlify function
+      run: |
+        curl -X GET https://dev-smartphone-id.netlify.app/.netlify/functions/monitor-site
