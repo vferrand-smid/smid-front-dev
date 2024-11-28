@@ -38,7 +38,6 @@ const KalSearch = ({ page, locale }) => {
 		fetchUserCountry();
 	}, []);
 
-
 	// Utilisation directe de la locale de l'URL pour récupérer les deux dernières lettres (code pays) pour selectedCountry
 	useEffect(() => {
 		if (effectiveLocale) {
@@ -72,7 +71,7 @@ const KalSearch = ({ page, locale }) => {
 			}
 		};
 		fetchCountries();
-	}, []);
+	}, [baseUrlAPI, effectiveLocale]);
 
 	// Récupération des documents selon le pays sélectionné
 	useEffect(() => {
@@ -112,7 +111,22 @@ const KalSearch = ({ page, locale }) => {
 		};
 
 		fetchDocuments();
-	}, [currentCountry, selectedCountry, effectiveLocale, documentTranslations]);
+	}, [currentCountry, selectedCountry, effectiveLocale, documentTranslations, baseUrlAPI]);
+
+	// GTM
+	const triggerGTMEventOnPhotoButtonClick = () => {
+		if (window && window.dataLayer) {
+			window.dataLayer = window.dataLayer || [];
+			window.dataLayer.push({
+				event: "chose_destination",
+				destination: selectedCountry, // Pays sélectionné
+			});
+			console.log("GTM Event Triggered on Button Click: ", {
+				event: "chose_destination",
+				destination: selectedCountry,
+			});
+		}
+	};
 
 	// Sélection d'un document
 	const handleDocumentSelect = (doc) => {
@@ -183,6 +197,8 @@ const KalSearch = ({ page, locale }) => {
 
 // Logique pour générer l'URL uniquement lors du clic
 	const handleGenerateUrl = async () => {
+// Déclencher l'événement GTM
+		triggerGTMEventOnPhotoButtonClick();
 
 		const platform = window.innerWidth > 700 ? 'desktop' : 'mobile';
 		let language = localeToLanguageMap[effectiveLocale] || effectiveLocale.split('-')[0]; // Utilise le mappage si disponible, sinon utilise la partie langue
@@ -192,7 +208,6 @@ const KalSearch = ({ page, locale }) => {
 		if (selectedCountry) {
 			countryCode = selectedCountry.toLowerCase();
 		}
-
 
 		const url = selectedDocument && selectedCountry && currentCountry
 			? `${baseUrlWEBAPP}/${platform}/photo/${selectedDocument}/${selectedCountry}/${language}`
@@ -211,14 +226,16 @@ const KalSearch = ({ page, locale }) => {
 	);
 
 	return (
-		<div className="kal-search">
+		<div className="kal-search mr-28">
 			{/* COUNTRY */}
 			<div>
 				<div className="kal-search-country">
 					<div>
 						<h4 className="flex gap-1 items-baseline">
-							{translations.kalSearch.titre_1}
-							<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+							1. {translations.kalSearch.titre_1}
+							<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+								 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}
+							>
 								<path
 									fillRule="evenodd"
 									clipRule="evenodd"
@@ -284,13 +301,14 @@ const KalSearch = ({ page, locale }) => {
 			<div>
 				<div className="kal-search-document">
 					<h4 className="flex gap-1 items-baseline">
-						{translations.kalSearch['titre_2']} <span className="text-red-500">*</span>
+						2. {translations.kalSearch.titre_2} <span className="text-red-500">*</span>
 						<svg
 							width="13"
 							height="8"
 							viewBox="0 0 13 8"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
+							onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}
 						>
 							<path
 								fillRule="evenodd"
@@ -317,7 +335,9 @@ const KalSearch = ({ page, locale }) => {
 								{documents.find(d => d.id === selectedDocument)?.name}
 							</section>
 						) : (
-							<section className="search-document"></section>
+							<section className="search-document">
+								<p className="text-sm mt-6">{translations.kalSearch.document || "select a document" }</p>
+							</section>
 						)}
 					</section>
 				</div>
@@ -331,7 +351,7 @@ const KalSearch = ({ page, locale }) => {
 					disabled={!selectedDocument || !selectedCountry}
 					className={`button-photo ${selectedDocument && selectedCountry ? '' : 'disabled'}`}
 				>
-					{translations.kalSearch.bouton}
+					3. {translations.kalSearch.bouton}
 				</button>
 
 				{isDocumentPopupVisible && (

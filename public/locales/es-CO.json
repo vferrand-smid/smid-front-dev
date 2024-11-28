@@ -106,25 +106,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Escanea el código QR con tu smartphone y hazte una foto.",
         "titre_check": "Paso 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-colombiano-paso-1-en-computadora.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-colombiano-paso-2-en-computadora.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Si es necesario, añade la entrega de la plantilla impresa en tu domicilio.",
         "titre_check": "Paso 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-colombiano-paso-4-en-computadora.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/VISUELS_SITEWEB_MOCKUP_STEPS_WEBAPP_CO_colombia_desktop_CO_desktop_3.png"
@@ -154,25 +154,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Haz una foto con tu smartphone.",
         "titre_check": "Paso 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-colombiano-paso-1-en-movil.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-colombiano-paso-2-en-movil.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-colombiano-paso-3-en-movil.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Herramienta-para-foto-de-pasaporte-colombiano-paso-4-en-movil.png"
@@ -280,37 +280,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Amigos-jovenes-tomando-foto-para-pasaporte-colombiano-con-la-aplicacion-Smartphone-iD.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Servicio 24/7",
         "texteService": null
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Para todo tipo de documentos",
         "texteService": "El tamaño correcto en formato digital e impreso, la profundidad de la foto, el color del fondo, la iluminación..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% de conformidad",
         "texteService": "Consigue el 100% de conformidad para cualquier documento oficial en todo el mundo."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Consigue la mejor foto",
         "texteService": "Haz fotos ilimitadas y elige la mejor."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Atención al cliente real",
         "texteService": "Sin robots, sin información de contacto oculta, su experiencia positiva es importante para nosotros."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Práctico para muchos",
         "texteService": "Especialmente práctico para bebés, discapacitados, expatriados, personas en zonas rurales..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ecológico",
         "texteService": "No more paper to waste if you need to renew your document online."
       }
@@ -372,13 +372,13 @@
     "titre_bloc7_span": "Tu solución",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-de-documento-de-firma-digital-Colombia.png",
         "paragraphe": "Tu firma se vinculará a la foto para las solicitudes de documentos oficiales online, cuando sea necesario.",
         "titre": "Firma digital"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "/images/Bloc7/es-CO/Plantilla-reciente-de-foto-impresa-para-pasaporte-colombiano.png",
         "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
         "titre": "La prueba de que la foto es reciente"

@@ -19,6 +19,7 @@ export default function RootLayout({children, params}) {
     const description = translations?.metadata?.description || "Smartphone iD";
 
     const GTM_ID = process.env.GTM_ID;
+    console.log('layout.jsx - GTM_ID:', process.env.GTM_ID);
     const GA_PROPERTY_ID = process.env.GA_PROPERTY_ID;
 
     // Récupérer le code pays basé sur l'IP
@@ -30,18 +31,18 @@ export default function RootLayout({children, params}) {
             if (data) {
                 console.log("layout.js - Geolocation data received:", data);
 
-                if (data.country_name) {
-                    setOriginCountry(data.country_name);
-                    console.log("layout.js - Origin country set to:", data.country_name);
+                if (data.country_code) {
+                    setOriginCountry(data.country_code);
+                    console.log("layout.js - Origin country set to:", data.country_code);
 
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
                         event: 'page_view',
-                        origin_country: data.country_name,
+                        origin_country: data.country_code,
                     });
                     console.log("layout.js - Data pushed to dataLayer:", {
                         event: 'page_view',
-                        origin_country: data.country_name,
+                        origin_country: data.country_code,
                     });
                 } else {
                     console.log("layout.js - Country code not found in data:", data);
@@ -61,13 +62,15 @@ export default function RootLayout({children, params}) {
         <head>
             <title>{title}</title>
             <meta name="description" content={description}/>
-            {/* Both scripts with afterInteractive strategy */}
-            <Script id="gtm-init" strategy="afterInteractive">
-                {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`}
+            {/* Google Tag Manager */}
+            <Script id="custom-script">
+                {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','${GTM_ID}');`}
             </Script>
-            <Script id="dataLayer-init" strategy="afterInteractive">
-                {`window.dataLayer = window.dataLayer || []; window.dataLayer.push({event: 'page_view', origin_country: '${originCountry}', ga_property_id: '${GA_PROPERTY_ID}'});`}
-            </Script>
+            {/* End Google Tag Manager */}
         </head>
 
         <body>

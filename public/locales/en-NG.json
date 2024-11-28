@@ -1,43 +1,43 @@
 {
   "metadata": {
-    "title": "Nigeria passport photo - Smartphone ID",
+    "title": "Passport photos for Nigeria - Smartphone iD",
     "description": "Fast and easy tool for quality passport photos"
   },
 
   "NavBar": {
     "liens": [
       {
-        "link": "Passport",
-        "url": "https://www.smartphone-id.com/en_NG/passport-photo-for-passport/"
+        "link" : "Passport",
+        "url" : "https://www.smartphone-id.com/sq/aplication-international-passport-nigeria/"
       },
       {
-        "link": "Resident permit",
-        "url": "https://www.smartphone-id.com/en_NG/nigeria-resident-permit-passport-photo/"
+        "link" : "Identity Card",
+        "url" : "https://www.smartphone-id.com/sq/nigerian-identity-card"
       },
       {
-        "link": "Driving Licence",
-        "url": "https://www.smartphone-id.com/en_NG/driving-licence-passport-photo/"
+        "link" : "Drivers Licence",
+        "url" : "https://www.smartphone-id.com/sq/nigerian-driving-licence/"
       },
       {
-        "link": "Visa",
-        "url": "https://www.smartphone-id.com/en_NG/passport-photo-Nigerian-visa/"
+        "link" : "Visa",
+        "url" : "https://www.smartphone-id.com/sq/nigerian-visa/"
       },
       {
-        "link": "Identity card",
-        "url": "https://www.smartphone-id.com/en_NG/passport-photo-identity-card/"
+        "link" : "Residence Permit",
+        "url" : "https://www.smartphone-id.com/sq/nigerian-residency-permit/"
       }
     ]
   },
 
-"Bloc1" : {
-    "girl" : "images/Bloc1/en-NG/passport-photo-tool-nigeria.png",
+  "Bloc1" : {
+    "girl" : "/images/Bloc1/en-NG/passport-photo-tool-online-nigeria.png",
     "background" : "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/background-25.png",
     "titre_bloc1" : "Fast and easy tool for",
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
         "mediaItemUrl": "/images/General/check-green.png",
-        "texte_check_green": "Quality passport photos"
+        "texte_check_green": "quality passport photos"
       },
       {
         "mediaItemUrl": "/images/General/check-green.png",
@@ -70,7 +70,7 @@
     "repeteur1": [
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/secure_passpor_photo_tool.png",
-        "titre_repeteur1": "More than a million valid passport photos delivered"
+        "titre_repeteur1": "More than a million compliant photos delivered"
       },
       {
         "img_repeteur1": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/passport_photo_digital_signature.png",
@@ -85,7 +85,7 @@
 
   "Bloc3" : {
     "titre_bloc3_span": "The complete",
-    "titre_bloc3": "passport photo solution without leaving your home",
+    "titre_bloc3": " passport photo solution without leaving your home",
     "repeteurCkeckBlack": [
       {
         "checkBlack": "/images/Bloc3/check-black.png",
@@ -158,35 +158,35 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Take a photo with your smartphone.",
         "titre_check": "Step 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-nigeria-smartphone.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/passport-photo-nigeria-order-print.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/expert-check-passport-photo-nigeria.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/receive-passport-photo-nigeria-smartphone-email.png"
       }
     ]
-},
+  },
 
   "Bloc4": {
-    "titre_bloc4_1": "More than",
-    "titre_bloc4_2": "valid passport photos created",
+    "titre_bloc4_1": "More than ",
+    "titre_bloc4_2": " valid passport photos created",
     "titre_bloc4_span": "a million",
     "partenaires": [
       {
@@ -293,7 +293,7 @@
   },
 
   "Bloc5": {
-    "titre_bloc5_1": "Why the Smartphone iD",
+    "titre_bloc5_1": "Why the Smartphone iD ",
     "titre_bloc5_span": "passport photo tool?",
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/easy-passport-photo-tool-online.jpg",
     "listeService": [
@@ -385,8 +385,8 @@
   },
 
   "Bloc7": {
-    "titre_bloc7_1" : "Your ",
-    "titre_bloc7_2" : " for official document applications",
+    "titre_bloc7_1": "Your ",
+    "titre_bloc7_2": " for official document applications",
     "titre_bloc7_span": "online solution",
     "bloc": [
       {
@@ -405,8 +405,8 @@
   },
 
   "Bloc8": {
-    "titre_bloc8_1" : "How to take a ",
-    "titre_bloc8_2" : "passport photo",
+    "titre_bloc8_1": "How to take a ",
+    "titre_bloc8_2": " passport photo",
     "titre_bloc8_span": "successful",
     "titre_encart": "Some tips",
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/158N_fC5ys4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
@@ -447,7 +447,7 @@
   },
 
   "Bloc9": {
-    "ID": "Nigerian Passport Photos",
+    "ID": "Passport Photos in Nigeria",
     "ePhoto": null,
     "codeEphoto": [
       {
@@ -457,63 +457,63 @@
     ],
     "photo_didentite": [
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">Printed passport photos should be : </main><main class=\"kal-accordion-item-active\"></p>\n<ul>\n<li>35 millimeters wide x 45 millimeters tall (35&#215;45 mm),</li>\n<li>head centered and sized between 32mm and 36mm.</li>\n</ul>\n<p></main><main>As for digital passport photos : </main><main class=\"kal-accordion-item-active\"></p>\n<ul>\n<li>600 pixels wide x 800 pixels tall (600&#215;800 px),</li>\n<li>Accepted file formats include: JPG, GIF, BMP, PNG,</li>\n<li>File size should ideally be less than 2MB,</li>\n<li>Resolution (DPI): 600 dpi.</li>\n</ul>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\"></aside>\n",
+        "texteAccordeon": "<p>Printed passport photos should be :</p>\n<ul>\n<li>35 millimeters wide x 45 millimeters tall (35&#215;45 mm),</li>\n<li>head centered and sized between 32mm and 36mm.</li>\n</ul>\n<p></main><main>As for digital passport photos : \n<ul>\n<li>600 pixels wide x 800 pixels tall (600&#215;800 px),</li>\n<li>Accepted file formats include: JPG, GIF, BMP, PNG,</li>\n<li>File size should ideally be less than 2MB,</li>\n<li>Resolution (DPI): 600 dpi.</li>\n</ul>",
         "titre_accordeon": "What is the passport photo size in Nigeria?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> There are many different places to get passport photos in Nigeria. Here are most popular options.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Smartphone iD,</li>\n<li>Kodak,</li>\n<li>Fotospeed,</li>\n<li>Professional photo studios</li>\n<li>&#8230;</li>\n</ul>\n<p>With Smartphone iD, taking a passport photo is very easy. No need to move, take your photo with your smartphone whenever it suits you. We will make sure that your photo meets the necessary requirements and you will receive it directly in your email/mailbox.</p>\n</aside>\n",
+        "texteAccordeon": "<p>There are many different places to get passport photos in Nigeria. Here are most popular options.</main></p>\n<ul>\n<li>Smartphone iD,</li>\n<li>Kodak,</li>\n<li>Fotospeed,</li>\n<li>Professional photo studios</li>\n<li>&#8230;</li>\n</ul>\n<p>With Smartphone iD, taking a passport photo is very easy. No need to move, take your photo with your smartphone whenever it suits you. We will make sure that your photo meets the necessary requirements and you will receive it directly in your email/mailbox.</p>\n</aside>\n",
         "titre_accordeon": "Where to get passport photos in Nigeria?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo and receive it later in email? It’s that easy!</main></p>\n",
+        "texteAccordeon": "<p>Yes! You can take your own passport photo. You can do it with the back camera of your phone, but make sure that you are following all the guidelines to have your photo accepted (lighting, shadow, background color). You can also use the Smartphone iD tool that does everything for you. Simply choose your country and document, take a photo and receive it later in email? It’s that easy!</main></p>\n",
         "titre_accordeon": "Can you take your own passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> To take a good passport photo at home you must do the following:</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Stand against the source of light to get even lighting on your face, and neck. It&#8217;s best to do it in daylight facing window.</li>\n<li>Make sure that your background is in light color and no shadow appears behind you.</li>\n<li>Look into the camera objective and not the phone screen. Eyes should be open.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>If you are not sure whether all guidelines have been respected, you can use the Smartphone iD tool. The photo will be automatically sized and approved by trained experts to ensure 100% compliance with official standards.</p>\n</aside>\n",
+        "texteAccordeon": "<p>To take a good passport photo at home you must do the following:</main></p>\n<ul>\n<li>Stand against the source of light to get even lighting on your face, and neck. It&#8217;s best to do it in daylight facing window.</li>\n<li>Make sure that your background is in light color and no shadow appears behind you.</li>\n<li>Look into the camera objective and not the phone screen. Eyes should be open.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>If you are not sure whether all guidelines have been respected, you can use the Smartphone iD tool. The photo will be automatically sized and approved by trained experts to ensure 100% compliance with official standards.</p>\n</aside>\n",
         "titre_accordeon": "How to take a passport photo at home?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Place your baby on a white sheet on your bed, or put it in a baby high chair with a white towel covering the back of the chair.</li>\n<li>Take away the pacifier, capture the baby’s attention, and try to get a photo with your baby’s mouth closed. Some governments allow the mouth to be slightly open, however, no tongue or teeth can be seen.</li>\n<li>Make sure your baby’s head is not tilted, and don’t forget that you cannot support the baby by yourself while taking the photo because no other body part can be seen in the photo.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>You can also take a photo through our website www.smartphon-id.com where we will help you to get a valid photo with the help of our trained experts.</p>\n</aside>\n",
+        "texteAccordeon": "<p>\n<ul>\n<li>Place your baby on a white sheet on your bed, or put it in a baby high chair with a white towel covering the back of the chair.</li>\n<li>Take away the pacifier, capture the baby’s attention, and try to get a photo with your baby’s mouth closed. Some governments allow the mouth to be slightly open, however, no tongue or teeth can be seen.</li>\n<li>Make sure your baby’s head is not tilted, and don’t forget that you cannot support the baby by yourself while taking the photo because no other body part can be seen in the photo.</li>\n<li>In case of selfie, make sure that your hand is stretched fully and stays on the level of shoulders.</li>\n</ul>\n<p>You can also take a photo through our website www.smartphon-id.com where we will help you to get a valid photo with the help of our trained experts.</p>\n</aside>\n",
         "titre_accordeon": "How to take a passport photo of your baby?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person. If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</main></p>\n",
+        "texteAccordeon": "<p>It depends on the document type. Official documents that are used for biometrical machine reading (electronic passports, visas, identity cards) don’t allow smiling because it makes it harder to read the biometrical data from the scan. However, more casual identity documents like a student card, or transportation card can have a passport photo of a smiling person. If you are not sure about the requirements, you can use Smartphone iD service that will get you a conform and checked photo for the document of your choice.</main></p>\n",
         "titre_accordeon": "Can you smile in a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"></main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.</li>\n<li>Also, make sure your shirt doesn&#8217;t show too much skin, as shirtless passport photos are prohibited.</li>\n<li>Finally, uniforms of any kind are also prohibited on a biometric passport photo.</li>\n</ul>\n</aside>\n",
+        "texteAccordeon": "<p>\n<ul>\n<li>Strong colors that stand out clearly from the background are suitable for a passport photo. Since a light background is required, darker colors are beneficial to increase contrast.</li>\n<li>Also, make sure your shirt doesn&#8217;t show too much skin, as shirtless passport photos are prohibited.</li>\n<li>Finally, uniforms of any kind are also prohibited on a biometric passport photo.</li>\n</ul>\n</aside>\n",
         "titre_accordeon": "What to wear for a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</main></p>\n",
+        "texteAccordeon": "<p>Not all governments allow glasses because it’s very hard to get it right. Thick frames are forbidden, as well as tinted glass, no reflection can appear, and they must sit correctly. Therefore, those governments who don’t forbid wearing glasses, highly suggest taking them off for the photo.</main></p>\n",
         "titre_accordeon": "Can you wear glasses in a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> Yes, you can wear makeup in your passport photo.</main></p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>But note that make-up should be light. Don&#8217;t put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n",
+        "texteAccordeon": "<p>Yes, you can wear makeup in your passport photo.</main></p>\n<ul>\n<li>But note that make-up should be light. Don&#8217;t put too much eyeshadow on your eyelids.</li>\n<li>Often glossy lipstick might create a reflection, therefore, better opt for a matte lipstick, if you want to accent your lips.</li>\n<li>It’s useful also to check that your skin is not oily before taking a photo, as it can create a light reflection, too.</li>\n<li>Finally, remember that the passport photo must be as natural as possible and must resemble you on a regular day.</li>\n</ul>\n</aside>\n",
         "titre_accordeon": "Can you wear makeup in a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> To print passport photos with your PC, you must first download software that allows you to obtain 35mm x 4mm photos. Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted. If you don&#8217;t want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</main></p>\n",
+        "texteAccordeon": "<p>To print passport photos with your PC, you must first download software that allows you to obtain 35mm x 4mm photos. Then, you will have to connect a printer compatible with photo paper to your PC because only professionally printed passport photos are accepted. If you don&#8217;t want to download any software or skip the trouble of searching for an easy tool online, you can opt for the Smartphone iD service, where you only need to choose the needed document type and everything else is done for you. You can receive a professional 10x15cm print to your doorstep or use the 10x15cm digital file we send to email and use it in a printing facility nearby.</main></p>\n",
         "titre_accordeon": "How to print a passport size photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> It’s forbidden to submit a scanned photo for an official identification document. If you need to submit a digital photo, you can use our easy automated tool online that comes with a trained expert check. This way you get a perfect digital passport photo in the needed format for your document. If you are scanning passport photos to create multiple prints, we have covered that too. With your digital single photo, you will also receive in email a ready-to-print 10&#215;15 print template that you can use unlimited times.</main></p>\n",
+        "texteAccordeon": "<p>It’s forbidden to submit a scanned photo for an official identification document. If you need to submit a digital photo, you can use our easy automated tool online that comes with a trained expert check. This way you get a perfect digital passport photo in the needed format for your document. If you are scanning passport photos to create multiple prints, we have covered that too. With your digital single photo, you will also receive in email a ready-to-print 10&#215;15 print template that you can use unlimited times.</main></p>\n",
         "titre_accordeon": "How to scan a passport photo?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> To make a passport photo on your iPhone, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</main></p>\n",
+        "texteAccordeon": "<p>To make a passport photo on your iPhone, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your iPhone and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</main></p>\n",
         "titre_accordeon": "How to take a passport photo with an iPhone?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> To make a passport photo on your android, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your android and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</main></p>\n",
+        "texteAccordeon": "<p>To make a passport photo on your android, click on the &#8220;Take a photo&#8221; button on the Smartphone iD website, choose the needed country and document type, take your photo on your android and that&#8217;s it! After the photo validation by our team of experts, you will receive your photos in your email.</main></p>\n",
         "titre_accordeon": "How to take a passport photo with an android?"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">You should look for a passport photo maker that is fast, reliable, and most importantly provides a government acceptance guarantee, as well as a money-back guarantee like Smartphone iD passport photo tool.</main></p>\n",
+        "texteAccordeon": "<p>You should look for a passport photo maker that is fast, reliable, and most importantly provides a government acceptance guarantee, as well as a money-back guarantee like Smartphone iD passport photo tool.</main></p>\n",
         "titre_accordeon": "How to find a good passport photo maker online?"
       }
     ],
-    "titre_bloc9": "to your questions",
+    "titre_bloc9": " to your questions",
     "titre_bloc9_span": "Answers"
   },
 

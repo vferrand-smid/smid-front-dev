@@ -1,30 +1,30 @@
 {
   "metadata": {
-    "title": "صورة الهوية عبر الانترنت  - Smartphone ID",
-    "description": ""
+    "title": "صورة الهوية السعودية عبر الانترنت  - Smartphone ID",
+    "description": "أداة سريعة وسهلة للحصول على صور الهوية الشخصية عالية الجودة"
   },
 
   "NavBar": {
     "liens": [
       {
-        "link" : "جواز السفر",
-        "url" : "https://www.smartphone-id.com/ar_SA/صورة-جواز-السفر-السعودي"
+        "link": "جواز السفر",
+        "url": "https://www.smartphone-id.com/ar_SA/صورة-جواز-السفر-السعودي"
       },
       {
-        "link" : "بطاقة الهوية الوطنية",
-        "url" : "https://www.smartphone-id.com/ar_SA/صورة-الهوية-لبطاقة-الهوية-الوطنية"
+        "link": "بطاقة الهوية الوطنية",
+        "url": "https://www.smartphone-id.com/ar_SA/صورة-الهوية-لبطاقة-الهوية-الوطنية"
       },
       {
-        "link" : "رخصة القيادة",
-        "url" : "https://www.smartphone-id.com/ar_SA/رخصة-القيادة-صورة-الهوية"
+        "link": "رخصة القيادة",
+        "url": "https://www.smartphone-id.com/ar_SA/رخصة-القيادة-صورة-الهوية"
       },
       {
-        "link" : "رخصة الاقامة",
-        "url" : "https://www.smartphone-id.com/ar_SA/صورة-الهوية-رخصة-الاقامة"
+        "link": "رخصةالاقامة",
+        "url":  "https://www.smartphone-id.com/ar_SA/صورة-الهوية-رخصة-الاقامة"
       },
       {
-        "link" : "التأشيرة السعودية",
-        "url" : "https://www.smartphone-id.com/ar_SA/مواصفات ومعايير صورة الهوية للتأشيرة السعودية"
+        "link": "التأشيرة",
+        "url": "https://www.smartphone-id.com/ar_SA/صورة-الهوية-التاشيرة-السعودية"
       }
     ]
   },
@@ -69,7 +69,7 @@
   "Bloc2" : {
     "repeteur1": [
       {
-        "img_repeteur1": "/images/Bloc2/secure_passpor_photo_tool.png",
+        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
         "titre_repeteur1": "تم توصيل أكثر من مليون صورة هوية مطابقة"
       },
       {
@@ -88,26 +88,27 @@
     "titre_bloc3": "لصور الهوية بدون مغادرة منزلك",
     "repeteurCkeckBlack": [
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "تصحيح تلقائي مع إزالة الخلفية.",
-        "imageCkeckBlack": "/images/Bloc3/ar-AE/التنسيق التلقائي لصورة الهوية الإماراتية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/التنسيق التلقائي لصورة الهوية السعودية.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "بفضل فحصنا الاحترافي ، يتم ضمان مطابقة الصورة.",
-        "imageCkeckBlack": "/images/Bloc3/ar-AE/التوقيع الرقمي لصور الهوية الاماراتية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/فحص صورة الهوية السعودية من طرف خبراء.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "أطلب توصيل الصور المطبوعة احترافيًا إلى المنزل ، وسيتم إرسالها في نفس اليوم عند الطلب.",
-        "imageCkeckBlack": "/images/Bloc3/ar-AE/فحص صورة الهوية الاماراتية من طرف خبراء.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/طباعة وتسليم صورة الهوية السعودية.png"
       },
       {
-        "checkBlack": "/images/Bloc3/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
-        "imageCkeckBlack": "/images/Bloc3/ar-AE/طباعة وتسليم صورة الهوية الإماراتية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/صور الهوية السعوديو محفوظة بامان.png"
       }
     ],
+
     "repeteur_etape": [
       {
         "check_green": "/images/General/check-green.png",
@@ -134,28 +135,32 @@
         "image_repeteur_etape": "/images/Bloc3/ar-SA/أداة صور الهوية السعودية الخطوة 4 في الكمبيوتر.png"
       }
     ],
+
     "repeteurCkeckBlackMobile": [
       {
-        "checkBlack": "/images/General/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "تصحيح تلقائي مع إزالة الخلفية.",
         "imageCkeckBlack": "/images/Bloc3/ar-SA/التنسيق التلقائي لصورة الهوية السعودية.png"
       },
       {
-        "checkBlack": "/images/General/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "بفضل فحصنا الاحترافي ، يتم ضمان مطابقة الصورة.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/فحص-صورة-الهوية-السعودية-من-طرف-خبراء.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/فحص صورة الهوية السعودية من طرف خبراء.png"
       },
       {
-        "checkBlack": "/images/General/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "أطلب توصيل الصور المطبوعة احترافيًا إلى المنزل ، وسيتم إرسالها في نفس اليوم عند الطلب.",
-        "imageCkeckBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/طباعة-وتسليم-صورة-الهوية-السعودية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/طباعة وتسليم صورة الهوية السعودية.png"
       },
       {
-        "checkBlack": "/images/General/check-black.png",
+        "checkBlack": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-black.png",
         "texteCheckBlack": "لا يلزم أي معلومات شخصية ، سيتم حفظ صورتك بأمان.",
-        "imageCkeckBlack": "/images/Bloc3/ar-SA/طباعة وتسليم صورة الهوية السعودية.png"
+        "imageCkeckBlack": "/images/Bloc3/ar-SA/صور الهوية السعوديو محفوظة بامان.png"
       }
+
     ],
+
+
     "repeteurEtapeMobile": [
       {
         "check_green": "/images/General/check-green.png",
@@ -358,7 +363,7 @@
       },
       {
         "titre_doc": "التأشيرة السعودية",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/تأشيرة-السعودية.png"
+        "img_doc": "/images/Bloc6/ar-SA/تأشيرة السعودية.png"
       }
     ],
     "bloc_photo": [
@@ -446,37 +451,38 @@
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "chiffre": 1,
-        "texte": "إخلع",
+        "texte": " إخلع ",
         "texte_span": "نظارتك"
       },
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "chiffre": 2,
-        "texte": "دع الضوء يتساقط",
+        "texte": "دع الضوء يتساقط ",
         "texte_span": "بالتساوي على وجهك"
       },
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "chiffre": 3,
-        "texte": "يجب أن يكون",
+        "texte": "يجب أن يكون ",
         "texte_span": "شعرك خلف كتفيك"
       },
       {
         "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
         "chiffre": 4,
         "texte": "الفم مغلق",
-        "texte_span": "تعابير الوجه محايدة"
+        "texte_span": " تعابير الوجه محايدة"
       }
     ],
     "bouton_plus": {
-      "url": "https://www.smartphone-id.com/ar/متطلبات-صور-الهوية-الشخصية-الإماراتي/",
+      "url":  "https://www.smartphone-id.com/ar_SA/معايير-صور-الهوية-السعودية",
       "title": "المزيد"
     },
     "lienBebe": {
-      "url": "https://www.smartphone-id.com/ar/صور-الهوية-الاماراتية-للطفل/",
-      "title": "كيف تلتقط صورة الهوية للطفل ؟"
+      "url": "https://www.smartphone-id.com/ar_SA/صورة-الهوية-الطفل-السعودي",
+      "title": "كيف تلتقط صورة جواز السفر لطفل رضيع؟"
     }
   },
+
 
   "Bloc9": {
     "ID": "صور الهوية الشخصية السعودية",
@@ -493,23 +499,23 @@
         "titre_accordeon": "        كيفية العثور على صانع جيد لصور الهوية عبر الإنترنت؟"
       },
       {
-      "texteAccordeon": "<p><span style=\"font-weight: 400;\">حجم صورة الهوية السعودية يجب أن يكون:</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">الأبعاد: 4 سم × 6 سم (40 ملم × 60 ملم</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">ارتفاع الرأس (حتى الجزء العلوي من الشعر): بين 28-32 ملم</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">المسافة من أعلى الصورة إلى الجزء العلوي من الشعر: بين 2-6 ملم</span></li>\n</ul>\n",
-      "titre_accordeon": "ما هو حجم صورة الهوية في السعودية؟"
+        "texteAccordeon": "<p><span style=\"font-weight: 400;\">حجم صورة الهوية السعودية يجب أن يكون:</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">الأبعاد: 4 سم × 6 سم (40 ملم × 60 ملم</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">ارتفاع الرأس (حتى الجزء العلوي من الشعر): بين 28-32 ملم</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">المسافة من أعلى الصورة إلى الجزء العلوي من الشعر: بين 2-6 ملم</span></li>\n</ul>\n",
+        "titre_accordeon": "ما هو حجم صورة الهوية في السعودية؟"
       },
       {
-        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\"><span style=\"font-weight: 400;\">فيما يلي بعض الأسعار  لالتقاط صورة هويتك السعودية:</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">مراكز الأحوال المدنية: مجاني</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">استوديوهات التصوير الفوتوغرافي: 10-20 ريال سعودي</span></li>\n</ul>\n<p><span style=\"font-weight: 400;\">تطبيقسمارتفون اي دي:اقل سعر عبر الانترنت بأفضل جودة </span></aside>\n",
-        "titre_accordeon": "كم تكلف صور الهوية في الإمارات المتحدة؟"
+        "texteAccordeon": "<p>فيما يلي بعض الأسعار  لالتقاط صورة هويتك السعودية:</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">مراكز الأحوال المدنية: مجاني</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">استوديوهات التصوير الفوتوغرافي: 30-50 ريال سعودي</span></li>\n</ul>\n<p><span style=\"font-weight: 400;\">تطبيق سمارتفون اي دي:اقل سعر عبر الانترنت بأفضل جودة </span></aside>\n",
+        "titre_accordeon": "كم تكلف صور الهوية في السعودية؟"
       },
       {
-        "texteAccordeon": "<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">في السعودية، يمكنك الحصول على صور الهوية في عدة أماكن، منها:</span></p>\n<p><b>استوديوهات التصوير الفوتوغرافي:</b><span style=\"font-weight: 400;\"> العديد من الاستوديوهات المتخصصة في التصوير تقدم خدمات تصوير الهوية. يمكنك العثور على هذه الاستوديوهات في المراكز التجارية والأسواق الكبرى.</span></p>\n<p><b>مراكز الأحوال المدنية:</b><span style=\"font-weight: 400;\"> بعض مراكز الأحوال المدنية توفر خدمة التصوير الفوري للهوية الوطنية.</span></p>\n<p><b>محلات الطباعة والتصوير:</b><span style=\"font-weight: 400;\"> العديد من المحلات التي تقدم خدمات الطباعة والتصوير توفر أيضًا خدمة تصوير الهوية.</span></p>\n<p><b>مراكز الخدمات الحكومية المتكاملة:</b><span style=\"font-weight: 400;\"> مثل مراكز &#8220;تسهيل&#8221; و&#8221;تم&#8221;، حيث يتم توفير خدمات متنوعة بما في ذلك تصوير الهوية</span></p>\n<p><span style=\"font-weight: 400;\">مع </span><b>Smartphone iD</b><span style=\"font-weight: 400;\">، أصبح التقاط صورة جواز السفر سهلاً للغاية. لا حاجة للتحرك، التقط صورتك بهاتفك الذكي وقتما يناسبك. سنضمن أن تلبي صورتك المتطلبات الضرورية وستتلقاها مباشرة في بريدك الإلكتروني/صندوق البريد</span></p>\n",
+        "texteAccordeon": "<p>:</span></p>\n<p><b>استوديوهات التصوير الفوتوغرافي:</b><span style=\"font-weight: 400;\"> العديد من الاستوديوهات المتخصصة في التصوير تقدم خدمات تصوير الهوية. يمكنك العثور على هذه الاستوديوهات في المراكز التجارية والأسواق الكبرى.</span></p>\n<p><b>مراكز الأحوال المدنية:</b><span style=\"font-weight: 400;\"> بعض مراكز الأحوال المدنية توفر خدمة التصوير الفوري للهوية الوطنية.</span></p>\n<p><b>محلات الطباعة والتصوير:</b><span style=\"font-weight: 400;\"> العديد من المحلات التي تقدم خدمات الطباعة والتصوير توفر أيضًا خدمة تصوير الهوية.</span></p>\n<p><b>مراكز الخدمات الحكومية المتكاملة:</b><span style=\"font-weight: 400;\"> مثل مراكز &#8220;تسهيل&#8221; و&#8221;تم&#8221;، حيث يتم توفير خدمات متنوعة بما في ذلك تصوير الهوية</span></p>\n<p><span style=\"font-weight: 400;\">مع </span><b>Smartphone iD</b><span style=\"font-weight: 400;\">، أصبح التقاط صورة جواز السفر سهلاً للغاية. لا حاجة للتحرك، التقط صورتك بهاتفك الذكي وقتما يناسبك. سنضمن أن تلبي صورتك المتطلبات الضرورية وستتلقاها مباشرة في بريدك الإلكتروني/صندوق البريد</span></p>\n",
         "titre_accordeon": "أين يمكنني الحصول على صور الهوية في السعودية؟"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">نعم! يمكنك التقاط صورة الهوية وجواز سفرك الخاصة بنفسك. يمكنك التقاط صورتك باستخدام الكاميرا الخلفية في هاتفك، ولكن تأكد من أنك تتبع جميع الإرشادات لقبول صورتك (الإضاءة، الظل، لون الخلفية).<br />\nيمكنك أيضًا استخدام تطبيق Smartphone iD الذي يقوم بكل شيء نيابة عنك. ببساطة اختر بلدك والمستند، والتقط الصورة واستلمها لاحقًا عبر البريد الإلكتروني. إنه بهذه السهولة.</aside>\n<p><main> </main>&nbsp;</p>\n",
+        "texteAccordeon": "<p>نعم! يمكنك التقاط صورة الهوية وجواز سفرك الخاصة بنفسك. يمكنك التقاط صورتك باستخدام الكاميرا الخلفية في هاتفك، ولكن تأكد من أنك تتبع جميع الإرشادات لقبول صورتك (الإضاءة، الظل، لون الخلفية).<br />\nيمكنك أيضًا استخدام تطبيق Smartphone iD الذي يقوم بكل شيء نيابة عنك. ببساطة اختر بلدك والمستند، والتقط الصورة واستلمها لاحقًا عبر البريد الإلكتروني. إنه بهذه السهولة.</aside>\n<p><main> </main>&nbsp;</p>\n",
         "titre_accordeon": "هل يمكنك التقاط صورة الهوية بنفسك؟"
       },
       {
-        "texteAccordeon": "<aside class=\"kal-accordion-item-active-aside\">من السهل التقاط صورة الهوية الخاصة بك في المنزل، عليك القيام بما يلي:</p>\n<ul>\n<li>قف مقابل مصدر الضوء للحصول على إضاءة متساوية على وجهك ورقبتك. من الأفضل القيام بذلك في ضوء النهار المواجه للنافذة.</li>\n<li>تأكد من أن خلفيتك بلون فاتح ولا يظهر أي ظل خلفك.</li>\n<li>انظر إلى عدسة الكاميرا وليس شاشة الهاتف. يجب أن تكون العيون مفتوحة.</li>\n<li>في حالة صورة السيلفي، تأكد من أن يدك ممدودة بالكامل وتبقى على مستوى الكتفين.</li>\n</ul>\n<p>إذا لم تكن متأكدًا من اتباع جميع الإرشادات، يمكنك استخدام أداة Smartphone iD. سيتم ضبط حجم الصورة تلقائيًا والموافقة عليها من قبل خبراء مدربين لضمان التوافق بنسبة 100% مع المعايير الرسمية.</p>\n</aside>\n<p><main> </main>&nbsp;</p>\n",
+        "texteAccordeon": "<p>من السهل التقاط صورة الهوية الخاصة بك في المنزل، عليك القيام بما يلي:</p>\n<ul>\n<li>قف مقابل مصدر الضوء للحصول على إضاءة متساوية على وجهك ورقبتك. من الأفضل القيام بذلك في ضوء النهار المواجه للنافذة.</li>\n<li>تأكد من أن خلفيتك بلون فاتح ولا يظهر أي ظل خلفك.</li>\n<li>انظر إلى عدسة الكاميرا وليس شاشة الهاتف. يجب أن تكون العيون مفتوحة.</li>\n<li>في حالة صورة السيلفي، تأكد من أن يدك ممدودة بالكامل وتبقى على مستوى الكتفين.</li>\n</ul>\n<p>إذا لم تكن متأكدًا من اتباع جميع الإرشادات، يمكنك استخدام أداة Smartphone iD. سيتم ضبط حجم الصورة تلقائيًا والموافقة عليها من قبل خبراء مدربين لضمان التوافق بنسبة 100% مع المعايير الرسمية.</p>\n</aside>\n<p><main> </main>&nbsp;</p>\n",
         "titre_accordeon": "كيف تأخذ صورة الهوية في المنزل؟"
       },
       {
@@ -517,11 +523,11 @@
         "titre_accordeon": "كيف تلتقط صورة الهوية لطفل رضيع؟"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">يعتمد ذلك على نوع المستند. لا تسمح المستندات الرسمية التي تُستخدم لقراءة الآلة البيومترية (جوازات السفر الإلكترونية والتأشيرات وبطاقات الهوية) بالابتسام لأنها تجعل من الصعب قراءة البيانات البيومترية من المسح. ومع ذلك ، يمكن أن تحتوي وثائق الهوية الغير رسمية مثل بطاقة الطالب أو بطاقة النقل على صورة هوية لشخص يبتسم. إذا لم تكن متأكدًا من المتطلبات ، يمكنك استخدام خدمة Smartphone iD التي ستمنحك صورة متوافقة وتم فحصها طبقا لمستند الذي تختاره.</aside>\n",
+        "texteAccordeon": "<p>يعتمد ذلك على نوع المستند. لا تسمح المستندات الرسمية التي تُستخدم لقراءة الآلة البيومترية (جوازات السفر الإلكترونية والتأشيرات وبطاقات الهوية) بالابتسام لأنها تجعل من الصعب قراءة البيانات البيومترية من المسح. ومع ذلك ، يمكن أن تحتوي وثائق الهوية الغير رسمية مثل بطاقة الطالب أو بطاقة النقل على صورة هوية لشخص يبتسم. إذا لم تكن متأكدًا من المتطلبات ، يمكنك استخدام خدمة Smartphone iD التي ستمنحك صورة متوافقة وتم فحصها طبقا لمستند الذي تختاره.</aside>\n",
         "titre_accordeon": "هل يمكنك الابتسام في صورة الهوية؟"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">\n<ul>\n<li>الألوان القوية التي تبرز بشكل واضح عن الخلفية مناسبة لصورة الهوية. نظرًا لأن الخلفية الفاتحة مطلوبة ، فإن الألوان الداكنة مفيدة لزيادة التباين.</li>\n<li>تأكد أيضًا من أن قميصك لا يُظهر الكثير من بشرة الجسم ، حيث يُمنع التقاط صور الهوية بدون قميص.</li>\n<li>أخيرًا ، يُمنع أيضًا ارتداء الزي الرسمي من أي نوع في صورة الهوية البيومترية.</li>\n</ul>\n</aside>\n<p><main> </main>&nbsp;</p>\n",
+        "texteAccordeon": "<p><ul>\n<li>الألوان القوية التي تبرز بشكل واضح عن الخلفية مناسبة لصورة الهوية. نظرًا لأن الخلفية الفاتحة مطلوبة ، فإن الألوان الداكنة مفيدة لزيادة التباين.</li>\n<li>تأكد أيضًا من أن قميصك لا يُظهر الكثير من بشرة الجسم ، حيث يُمنع التقاط صور الهوية بدون قميص.</li>\n<li>أخيرًا ، يُمنع أيضًا ارتداء الزي الرسمي من أي نوع في صورة الهوية البيومترية.</li>\n</ul>\n</aside>\n<p><main> </main>&nbsp;</p>\n",
         "titre_accordeon": "ماذا ترتدي لصورة الهوية؟"
       },
       {
@@ -529,7 +535,7 @@
         "titre_accordeon": "هل يمكنك ارتداء النظارات الشمسية في صورة الهوية؟"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\"> </main>&nbsp;</p>\n<aside class=\"kal-accordion-item-active-aside\">نعم ، يمكنك وضع المكياج في صورة جواز سفرك</p>\n<ul>\n<li>ولكن يجب أن يكون المكياج خفيفًا. لا تضع الكثير من ظلال العيون على جفونك</li>\n<li>غالبًا ما قد يسبب أحمر الشفاه اللامع انعكاسًا ، لذلك ، من الأفضل اختيار أحمر الشفاه غير اللامع ، إذا كنت تريد إبراز شفتيك.</li>\n<li>من المفيد أيضًا التأكد من أن بشرتك ليست دهنية قبل التقاط صورة ، لأنها قد تؤدي إلى انعكاس الضوء أيضًا.</li>\n<li>أخيرًا ، تذكر أن صورة الهوية يجب أن تكون طبيعية قدر الإمكان ويجب أن تشبهك في يوم عادي.</li>\n</ul>\n</aside>\n<p><main> </main>&nbsp;</p>\n",
+        "texteAccordeon": "<p>نعم ، يمكنك وضع المكياج في صورة جواز سفرك</p>\n<ul>\n<li>ولكن يجب أن يكون المكياج خفيفًا. لا تضع الكثير من ظلال العيون على جفونك</li>\n<li>غالبًا ما قد يسبب أحمر الشفاه اللامع انعكاسًا ، لذلك ، من الأفضل اختيار أحمر الشفاه غير اللامع ، إذا كنت تريد إبراز شفتيك.</li>\n<li>من المفيد أيضًا التأكد من أن بشرتك ليست دهنية قبل التقاط صورة ، لأنها قد تؤدي إلى انعكاس الضوء أيضًا.</li>\n<li>أخيرًا ، تذكر أن صورة الهوية يجب أن تكون طبيعية قدر الإمكان ويجب أن تشبهك في يوم عادي.</li>\n</ul>\n</aside>\n<p><main> </main>&nbsp;</p>\n",
         "titre_accordeon": "هل يمكنك وضع المكياج في صورة الهوية؟"
       },
       {
@@ -541,16 +547,16 @@
         "titre_accordeon": "كيف تفحص صورة الهوية؟"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">لأخذ صورة الهوية باستخدام iPhone الخاص بك، انقر على زر &#8220;التقاط صورة&#8221; على موقع Smartphone iD، اختر البلد المطلوب ونوع الوثيقة، ثم التقط صورتك باستخدام iPhone الخاص بك وهذا كل شيء! بعد التحقق من الصورة من قبل فريق الخبراء لدينا، ستتلقى صورك في بريدك الإلكتروني</p>\n</aside>\n",
+        "texteAccordeon": "<p><a>لأخذ صورة الهوية باستخدام iPhone الخاص بك، انقر على زر &#8220;التقاط صورة&#8221; على موقع Smartphone iD، اختر البلد المطلوب ونوع الوثيقة، ثم التقط صورتك باستخدام iPhone الخاص بك وهذا كل شيء! بعد التحقق من الصورة من قبل فريق الخبراء لدينا، ستتلقى صورك في بريدك الإلكتروني</p>\n</aside>\n",
         "titre_accordeon": "كيفية التقاط صورة الهوية باستخدام iPhone؟"
       },
       {
-        "texteAccordeon": "<p><main class=\"kal-accordion-item-active\">&nbsp;</p>\n<p></main></p>\n<aside class=\"kal-accordion-item-active-aside\">لأخذ صورة الهوية باستخدام جهاز Android الخاص بك، انقر على زر &#8220;التقاط صورة&#8221; على موقع Smartphone iD، اختر البلد المطلوب ونوع الوثيقة، ثم التقط صورتك باستخدام Android الخاص بك وهذا كل شيء! بعد التحقق من الصورة من قبل فريق الخبراء لدينا، ستتلقى صورك في بريدك الإلكتروني</p>\n</aside>\n",
+        "texteAccordeon": "<p>لأخذ صورة الهوية باستخدام جهاز Android الخاص بك، انقر على زر &#8220;التقاط صورة&#8221; على موقع Smartphone iD، اختر البلد المطلوب ونوع الوثيقة، ثم التقط صورتك باستخدام Android الخاص بك وهذا كل شيء! بعد التحقق من الصورة من قبل فريق الخبراء لدينا، ستتلقى صورك في بريدك الإلكتروني</p>\n</aside>\n",
         "titre_accordeon": "كيفية التقاط صورة الهوية باستخدام Android؟"
       }
     ],
-    "titre_bloc9": "على أسئلتك",
-    "titre_bloc9_span": "إجابات"
+    "titre_bloc9": "على أسئلتك ",
+    "titre_bloc9_span":  "إجابات "
   },
 
   "Bloc10" : {
@@ -562,35 +568,38 @@
   },
 
   "Bloc11": {
-    "titre": "ابحث عن إجاباتك على الصفحات المقابلة",
+    "titre": " انقر على القسم الفرعي المقابل للعثور على إجابات حول صورالهوية الخاصة بوثائق السعودية !",
+
     "liens": [
       {
-        "link": "رخصة السياقة",
-        "url": "https://www.smartphone-id.com/ar_SA/%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D9%82%D8%A9",
+
+        "link": "رخصة القيادة",
+        "url": "https://www.smartphone-id.com/ar_SA/رخصة-القيادة-صورة-الهوية",
         "icon": "/images/Bloc11/permis-conduire.svg"
       },
       {
         "link": "جواز السفر",
-        "url": "https://www.smartphone-id.com/ar_SA/%D8%AC%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B3%D9%81%D8%B1",
+        "url": "https://www.smartphone-id.com/ar_SA/صورة-جواز-السفر-السعودي",
         "icon": "/images/Bloc11/passeport.svg"
       },
       {
-        "link": "بطاقة الهوية الوطنية السعودية",
-        "url": "https://www.smartphone-id.com/ar_SA/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9",
+        "link": "بطاقة الهوية الوطنية",
+        "url": "https://www.smartphone-id.com/ar_SA/صورة-الهوية-لبطاقة-الهوية-الوطنية",
         "icon": "/images/Bloc11/carte-identite.svg"
       },
       {
-        "link": "رخصة الإقامة",
-        "url": "https://www.smartphone-id.com/ar_SA/%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%A7%D9%85%D8%A9",
+        "link": "رخصةالاقامة",
+        "url":  "https://www.smartphone-id.com/ar_SA/صورة-الهوية-رخصة-الاقامة",
         "icon": "/images/Bloc11/titre-de-sejour.svg"
       },
       {
         "link": "التأشيرة",
-        "url": "https://www.smartphone-id.com/ar_SA/%D8%A7%D9%84%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9",
+        "url": "https://www.smartphone-id.com/ar_SA/صورة-الهوية-التاشيرة-السعودية",
         "icon": "/images/Bloc11/visa.svg"
       }
     ]
   },
+
 
   "Footer": {
     "partie2-button": "جرب الآن مجانا!",
@@ -599,11 +608,11 @@
     "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
     "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
     "SiteMapList-propos" : "معلومات عنا",
-    "propos-link" : "https://www.smartphone-id.com/ar/معلومات-عنا/",
+    "propos-link" : "https://www.smartphone-id.com/en/about-us/",
     "SiteMapList-faq" : "الأسئلة الشائعة",
-    "faq-link" : "https://www.smartphone-id.com/ar/الأسئلة-الشائعة/",
+    "faq-link" : "https://www.smartphone-id.com/en/faq/",
     "SiteMapList-contact" : "تواصل معنا",
-    "contact-link" : "https://www.smartphone-id.com/ar/تواصل-معنا/",
+    "contact-link" : "https://www.smartphone-id.com/en/choose-contact/",
     "applis-h3": "قم بتنزيل التطبيق!",
     "applis-p":  "قم بتنزيل تطبيق Smartphone iD لتتبع طلباتك والاستمتاع بالمزيد من ميزات صور جواز السفر.",
     "AppStore-link" : "https://apps.apple.com/app/photo-identit%C3%A9-officielle/id1527550865",
@@ -612,13 +621,13 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "تابعونا وتعرفوا على أحدث المعلومات المتعلقة بالتأشيرات والوثائق الرسمية الأخرى.",
     "partie2-p-link": "",
-    "mentions-confidentialité": "سياسة الخصوصية",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/ar/سياسة الخصوصية/",
-    "mentions-cgu": "شروط الخدمة",
-    "mentions-cgu-link": "https://www.smartphone-id.com/ar/شروط-الخدمة/",
-    "mentions-légales": "إشعار قانوني",
-    "mentions-légales-link": "https://www.smartphone-id.com/ar/إشعار-قانوني/",
-    "Cookies": "ملفات تعريف الارتباط",
-    "Cookies-link": "https://www.smartphone-id.com/ar/ملفات-تعريف-الارتباط/"
+    "mentions-confidentialité": "Privacy Policy",
+    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-cgu": "Terms of Service",
+    "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-légales": "Legal Notice",
+    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "Cookies": "Cookies",
+    "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
 }

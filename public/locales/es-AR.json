@@ -36,11 +36,11 @@
     "titre_h4_bloc1": "¡Basta con hacer una foto y recibirla lista! ¡Pruébalo ya!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_green": "fotos de pasaporte de calidad"
       },
       {
-        "mediaItemUrl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.png",
         "texte_check_green": "y firma digital."
       }
     ],
@@ -110,25 +110,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Escanea el código QR con tu smartphone y hazte una foto.",
         "titre_check": "Paso 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-1-en-computadora.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-2-en-computadora.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Si es necesario, añade la entrega de la plantilla impresa en tu domicilio.",
         "titre_check": "Paso 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-3-en-computadora.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-4-en-computadora.png"
@@ -158,25 +158,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Haz una foto con tu smartphone.",
         "titre_check": "Paso 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-1-en-movil.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-2-en-movil.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-3-en-movil.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Herramienta-para-foto-de-pasaporte-argentino-paso-4-en-movil.png"

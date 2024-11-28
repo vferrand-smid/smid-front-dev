@@ -1968,6 +1968,7 @@ overflow-x: hidden;
 /* ==========================================*/
 /* ==========================================*/
 
+
 .kal-hero > div > article {
     position: absolute;
     bottom: 0;
@@ -2049,7 +2050,7 @@ overflow-x: hidden;
 
 .kal-hero > div {
     max-width: 1140px;
-    margin: auto;
+    margin:auto;
     position: relative;
     min-height: 500px;
 }
@@ -2448,19 +2449,6 @@ cursor: not-allowed; /* Curseur non autorisé lors du survol */
 p,
 h4 {
   margin: 0;
-}
-@media screen and (max-width: 1200px) {
-  .kal-hero > div > article > img {
-    width: 415px;
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .kal-hero > div > article > img {
-    width: 374px;
-    height: 450px;
-  }
 }
 
 .kal-hero-arabic{

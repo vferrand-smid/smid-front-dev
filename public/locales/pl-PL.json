@@ -110,25 +110,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Zeskanuj smartfonem kod QR oraz zrób zdjęcie.",
         "titre_check": "Krok 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/narzedzie-do-robienia-zdjec-paszportowych-na-komputerze.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Zweryfikuj szczegóły zamówienia.",
         "titre_check": "Krok 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/cyfrowe-zdjecia-paszportowe-na-komputerze.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Jeśli potrzebujesz, zamów wydrukowany szablon wraz z dostawą.",
         "titre_check": "Krok 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/zamow-wydrukowane-zdjecia-paszportowe-za-pomoca-programu.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Sprawdź pocztę e-mail – otrzymasz cyfrowe zdjęcie oraz gotowy do druku szablon.",
         "titre_check": "Krok 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/wazne-i-zgodne-zdjecia-paszportowe.png"
@@ -158,25 +158,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Zrób zdjęcie aparatem w Twoim smartfonie.",
         "titre_check": "Krok 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/zdjecie-paszportowe-ze-smartfonem.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Jeśli potrzebujesz, zamów wydrukowany szablon wraz z dostawą.",
         "titre_check": "Krok 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/wydrukowane-zdjecia-paszportowe.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Zweryfikuj szczegóły zamówienia.",
         "titre_check": "Krok 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/sprawdzone-i-wydrukowane-zdjecia-paszportowe.png"
       },
       {
-        "check_green": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check_green": "/images/General/check-green.png",
         "texte_etape": "Sprawdź pocztę e-mail – otrzymasz cyfrowe zdjęcie oraz gotowy do druku szablon.",
         "titre_check": "Krok 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/sprawdzone-zdjecia-paszportowe-za-pomoca-smartfona.png"
@@ -289,32 +289,32 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Specjaliści w dziale obsługi",
         "texteService": "Przejrzystość – brak obsługi przez roboty, widoczne dane kontaktowe. Twoje wrażenia są dla nas ważne."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Do wszystkich dokumentów",
         "texteService": "Właściwy rozmiar, ostrość, kolor tła i oświetlenie zdjęć cyfrowych i drukowanych ..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "100% zgodności",
         "texteService": "100% zgodności z wymaganiami dla każdego dokumentu z całego świata."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Wygodne dla bardzo wielu osób",
         "texteService": "Świetne rozwiązanie dla osób z małymi dziećmi, niepełnosprawnych oraz osób, mieszkających w obszarach wiejskich..."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Zrób najlepsze zdjęcie",
         "texteService": "Nieograniczona liczba prób - wybierz najlepsze zdjęcie."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "service24h24Et7j7": "Ekologia",
         "texteService": "Ekologia - jeśli odnawiasz dokument online nie musisz drukować zdjęcia."
       }
@@ -392,13 +392,13 @@
     "titre_bloc7_span": "rozwiązanie",
     "bloc": [
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/polacz-podpis-ze-zdjeciem-paszportowym.png",
         "paragraphe": "Twój podpis zostanie dołączony do zdjęcia jeśli wniosek o wydanie dokumentu tego wymaga.",
         "titre": "Cyfrowy podpis"
       },
       {
-        "img_check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "img_check": "/images/General/check-green.png",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/udowodnic-date-i-godzine-zdjecie-paszportowe.png",
         "paragraphe": "Wykonanie zdjęcia na poczekaniu potwierdza jego ważność dla dokumentów państwowych.",
         "titre": "Potwierdź datę wykonania zdjęcia"
@@ -414,25 +414,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/EU9Oxk0ZTBc?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 1,
         "texte": "Zdjęte",
         "texte_span": "okulary."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 2,
         "texte": "Światło równomiernie",
         "texte_span": "padające na twarz."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 3,
         "texte": "Schowaj włosy",
         "texte_span": "za ramionami."
       },
       {
-        "check": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/check-green.png",
+        "check": "/images/General/check-green.png",
         "chiffre": 4,
         "texte": "Usta zamknięte,",
         "texte_span": "neutralny wyraz twarzy."
