@@ -48,7 +48,7 @@ jobs:
 
     # Étape 3 : Envoyer un rapport quotidien à 7h
     - name: Envoyer le rapport quotidien (uniquement pour le cron à 7h)
-      if: ${{ github.event.schedule == '10 15 * * *' }}
+      if: true
       env:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
       run: |
