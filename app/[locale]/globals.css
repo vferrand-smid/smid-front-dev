@@ -2203,16 +2203,16 @@ span {
   flex: 5;
   width: 100%;
 }
-.kal-search > :last-child {
+/*.kal-search > :last-child {
   flex: 6;
-}
+}*/
 .kal-search > :last-child > div {
   flex: 1;
 }
 .kal-search-country h4,
 .kal-search-document h4 {
   color: #000;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -2252,7 +2252,7 @@ span {
 .kal-search button{
   color: #fff;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;

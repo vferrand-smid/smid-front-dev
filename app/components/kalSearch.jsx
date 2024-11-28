@@ -50,7 +50,7 @@ const KalSearch = ({ page, locale }) => {
 	useEffect(() => {
 		const fetchCountries = async () => {
 			try {
-					const response = await fetch(`${baseUrlAPI}/country/customized`,
+				const response = await fetch(`${baseUrlAPI}/country/customized`,
 					{
 						headers: {
 							'language': effectiveLocale.split('-')[0], // Envoi du code de langue (par exemple 'fr' ou 'en')
@@ -80,7 +80,7 @@ const KalSearch = ({ page, locale }) => {
 		}
 		const fetchDocuments = async () => {
 			try {
-					const response = await fetch(
+				const response = await fetch(
 					`${baseUrlAPI}/price/from-country/${currentCountry}/to/${selectedCountry}`,
 					{
 						headers: {
@@ -232,8 +232,9 @@ const KalSearch = ({ page, locale }) => {
 				<div className="kal-search-country">
 					<div>
 						<h4 className="flex gap-1 items-baseline">
-							1. {translations.kalSearch.titre_1}
-							<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+							1. {translations.kalSearch.titre_1} <span className="flex text-red-500">*</span>
+							<svg className="cursor-pointer" width="13" height="8" viewBox="0 0 13 8" fill="none"
+								 xmlns="http://www.w3.org/2000/svg"
 								 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}
 							>
 								<path
@@ -245,10 +246,8 @@ const KalSearch = ({ page, locale }) => {
 							</svg>
 						</h4>
 					</div>
-					<section
-						className="flex gap-4 items-center p-4 cursor-pointer"
-						onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}
-					>
+					<section className="flex gap-4 items-center p-4 cursor-pointer"
+							 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}>
 						{selectedCountry && (
 							<>
 								<Image
@@ -298,31 +297,34 @@ const KalSearch = ({ page, locale }) => {
 			</div>
 
 			{/* DOCUMENT */}
-			<div>
+			<div className="gap-3">
 				<div className="kal-search-document">
-					<h4 className="flex gap-1 items-baseline">
-						2. {translations.kalSearch.titre_2} <span className="text-red-500">*</span>
-						<svg
-							width="13"
-							height="8"
-							viewBox="0 0 13 8"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-							onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}
-						>
-							<path
-								fillRule="evenodd"
-								clipRule="evenodd"
-								d="M12.6192 0.365305C12.1116 -0.121769 11.2884 -0.121769 10.7808 0.365305L6.5
+					<div>
+						<h4 className="flex gap-1 items-baseline">
+							2. {translations.kalSearch.titre_2} <span className="text-red-500">*</span>
+							<svg
+								className="cursor-pointer"
+								width="13"
+								height="8"
+								viewBox="0 0 13 8"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}
+							>
+								<path
+									fillRule="evenodd"
+									clipRule="evenodd"
+									d="M12.6192 0.365305C12.1116 -0.121769 11.2884 -0.121769 10.7808 0.365305L6.5
                   4.4723L2.21924 0.365304C1.71156 -0.121769 0.888443 -0.12177 0.380762 0.365304C-0.126921
                   0.852378 -0.126921 1.64208 0.380762 2.12915L5.80769 7.33579C6.19459 7.70699 6.8054
                   7.70699 7.19231 7.33579L12.6192 2.12916C13.1269 1.64208 13.1269 0.852379 12.6192 0.365305Z"
-								fill="#2FC977"
-							/>
-						</svg>
-					</h4>
+									fill="#2FC977"
+								/>
+							</svg>
+						</h4>
+					</div>
 					{/* POP-UP DOCUMENT */}
-					<section className="flex gap-4 items-center p-4 cursor-pointer"
+					<section className="flex items-center p-4 cursor-pointer"
 							 onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
 						{selectedDocument ? (
 							<section className="search-document">
@@ -335,9 +337,9 @@ const KalSearch = ({ page, locale }) => {
 								{documents.find(d => d.id === selectedDocument)?.name}
 							</section>
 						) : (
-							<section className="search-document">
-								<p className="text-sm mt-6">{translations.kalSearch.document || "select a document" }</p>
-							</section>
+							<div>
+								<p className="text-sm">{translations.kalSearch.document || "select a document" }</p>
+							</div>
 						)}
 					</section>
 				</div>
