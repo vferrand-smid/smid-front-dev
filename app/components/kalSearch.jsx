@@ -231,9 +231,10 @@ const KalSearch = ({ page, locale }) => {
 			<div>
 				<div className="kal-search-country">
 					<div>
-						<h4 className="flex gap-3 items-baseline">
-							1. {translations.kalSearch.titre_1}
-							<svg className="cursor-pointer" width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+						<h4 className="flex gap-1 items-baseline">
+							1. {translations.kalSearch.titre_1} <span className="flex text-red-500">*</span>
+							<svg className="cursor-pointer" width="13" height="8" viewBox="0 0 13 8" fill="none"
+								 xmlns="http://www.w3.org/2000/svg"
 								 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}
 							>
 								<path
@@ -299,7 +300,7 @@ const KalSearch = ({ page, locale }) => {
 			<div className="gap-3">
 				<div className="kal-search-document">
 					<div>
-						<h4 className="flex gap-3 items-baseline">
+						<h4 className="flex gap-1 items-baseline">
 							2. {translations.kalSearch.titre_2} <span className="text-red-500">*</span>
 							<svg
 								className="cursor-pointer"
