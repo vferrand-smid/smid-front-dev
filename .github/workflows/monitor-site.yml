@@ -2,15 +2,78 @@ name: Monitor Site Uptime
 
 on:
   schedule:
-    # Planifiez l'exécution toutes les 5 minutes
+     # Exécution toutes les 5 minutes pour vérifier et alerter en cas de panne
     - cron: "*/5 * * * *"
+    # Exécution tous les jours à 7h du matin pour le rapport d'état de santé
+    - cron: "0 7 * * *"
   workflow_dispatch: # Permet un lancement manuel
 
 jobs:
-  monitor-site:
+  check-site:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Send a request to the Netlify function
+    # Étape 1 : Vérifier l'état du site
+    - name: Vérification de l’état du site
+      id: check-site
       run: |
-        curl -X GET https://dev-smartphone-id.netlify.app/.netlify/functions/monitor-site
+        response=$(curl -s -o /dev/null -w "%{http_code}" https://dev-smartphone-id.netlify.app/)
+        echo "response=$response" >> $GITHUB_ENV
+
+    # Étape 2 : Envoyer une alerte en cas de panne
+    - name: Envoyer une alerte (uniquement pour le cron toutes les 5 minutes)
+      if: ${{ github.event.schedule == '*/5 * * * *' && env.response != '200' }}
+      env:
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      run: |
+        curl --request POST \
+          --url https://api.sendgrid.com/v3/mail/send \
+          --header "Authorization: Bearer $SENDGRID_API_KEY" \
+          --header "Content-Type: application/json" \
+          --data '{
+            "personalizations": [
+              {
+                "to": [{ "email": "vferrand@smartphone-id.com" }],
+                "subject": "🚨 Alerte : Site en panne (Code ${{ env.response }})"
+              }
+            ],
+            "from": { "email": "vferrand@smartphone-id.com", "name": "Site Monitor" },
+            "content": [
+              {
+                "type": "text/plain",
+                "value": "Le site est inaccessible. HTTP Status: ${{ env.response }}"
+              }
+            ]
+          }'
+
+    # Étape 3 : Envoyer un rapport quotidien à 7h
+    - name: Envoyer le rapport quotidien (uniquement pour le cron à 7h)
+      if: ${{ github.event.schedule == '0 7 * * *' }}
+      env:
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      run: |
+        if [ "${{ env.response }}" -ne 200 ]; then
+          status="🔴 Le site a rencontré un problème ! (Code: ${{ env.response }})"
+        else
+          status="🟢 Le site est en ligne. (Code: ${{ env.response }})"
+        fi
+
+        curl --request POST \
+          --url https://api.sendgrid.com/v3/mail/send \
+          --header "Authorization: Bearer $SENDGRID_API_KEY" \
+          --header "Content-Type: application/json" \
+          --data '{
+            "personalizations": [
+              {
+                "to": [{ "email": "vferrand@smartphone-id.com" }],
+                "subject": "Rapport quotidien : '"$status"'"
+              }
+            ],
+            "from": { "email": "vferrand@smartphone-id.com", "name": "Site Monitor" },
+            "content": [
+              {
+                "type": "text/html",
+                "value": "<p><strong>Rapport quotidien :</strong> '"$status"'</p>"
+              }
+            ]
+          }'
