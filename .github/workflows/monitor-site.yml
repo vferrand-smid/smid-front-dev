@@ -5,7 +5,7 @@ on:
      # Exécution toutes les 5 minutes pour vérifier et alerter en cas de panne
     - cron: "*/5 * * * *"
     # Exécution tous les jours à 7h du matin pour le rapport d'état de santé
-    - cron: "5 15 * * *"
+    - cron: "10 15 * * *"
   workflow_dispatch: # Permet un lancement manuel
 
 jobs:
@@ -48,7 +48,7 @@ jobs:
 
     # Étape 3 : Envoyer un rapport quotidien à 7h
     - name: Envoyer le rapport quotidien (uniquement pour le cron à 7h)
-      if: ${{ github.event.schedule == '0 7 * * *' }}
+      if: ${{ github.event.schedule == '10 15 * * *' }}
       env:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
       run: |
