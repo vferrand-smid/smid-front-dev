@@ -17,7 +17,8 @@ jobs:
       - name: Vérification de l’état du site
         id: check-site
         run: |
-          response=$(curl -L -s -o /dev/null -w "%{http_code}" https://dev-smartphone-id.netlify.app/)
+          # response=$(curl -L -s -o /dev/null -w "%{http_code}" https://dev-smartphone-id.netlify.app/)
+          response=500 # Simule une panne
           echo "response=$response" >> $GITHUB_ENV
       
           if [ "$response" -eq 307 ]; then
