@@ -37,6 +37,10 @@ jobs:
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |
+          # Lire le contenu de status.txt
+          status_message=$(cat status.txt)
+          
+          # Envoyer l'e-mail via SendGrid
           curl --request POST \
             --url https://api.sendgrid.com/v3/mail/send \
             --header "Authorization: Bearer $SENDGRID_API_KEY" \
@@ -46,7 +50,7 @@ jobs:
                 {
                   "to": [
                     { "email": "vferrand@smartphone-id.com" },
-                    { "email": "marketing@smartphone-id.com" }
+                  # { "email": "marketing@smartphone-id.com" }
                   ],
                   "subject": "🚨 Alerte : Site en panne"
                 }
@@ -55,7 +59,7 @@ jobs:
               "content": [
                 {
                   "type": "text/plain",
-                  "value": "$(cat status.txt)"
+                  "value": "'"$status_message"'"
                 }
               ]
             }'
@@ -86,7 +90,7 @@ jobs:
                 {
                   "to": [
                     { "email": "vferrand@smartphone-id.com" },
-                    { "email": "marketing@smartphone-id.com" }
+                  # { "email": "marketing@smartphone-id.com" }
                   ],
                   "subject": "Rapport quotidien : '"$status"'"
                 }
