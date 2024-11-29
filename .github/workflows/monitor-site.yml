@@ -50,7 +50,6 @@ jobs:
                 {
                   "to": [
                     { "email": "vferrand@smartphone-id.com" }
-                  # { "email": "marketing@smartphone-id.com" }
                   ],
                   "subject": "🚨 Alerte : Site en panne"
                 }
@@ -90,7 +89,6 @@ jobs:
                 {
                   "to": [
                     { "email": "vferrand@smartphone-id.com" }
-                  # { "email": "marketing@smartphone-id.com" }
                   ],
                   "subject": "Rapport quotidien : '"$status"'"
                 }
