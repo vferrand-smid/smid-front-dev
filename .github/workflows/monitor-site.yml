@@ -19,19 +19,20 @@ jobs:
         run: |
           response=$(curl -L -s -o /dev/null -w "%{http_code}" https://dev-smartphone-id.netlify.app/)
           echo "response=$response" >> $GITHUB_ENV
-
+      
           if [ "$response" -eq 307 ]; then
-            echo "Le site redirige les requêtes (Code: 307)."
+            echo "Le site redirige les requêtes (Code: 307)." >> status.txt
           elif [ "$response" -ne 200 ]; then
-            echo "Le site a rencontré un problème (Code: $response)."
+            echo "Le site a rencontré un problème (Code: $response)." >> status.txt
+            echo "ERROR" > error_detected.txt
             exit 1
           else
-            echo "Le site est opérationnel (Code: $response)."
+            echo "Le site est opérationnel (Code: $response)." >> status.txt
           fi
 
       # Étape 2 : Envoyer une alerte en cas de panne
-      - name: Envoyer une alerte (uniquement pour le cron toutes les 5 minutes)
-        if: ${{ github.event.schedule == '*/5 * * * *' && env.response != '200' }}
+      - name: Envoyer une alerte en cas de panne
+        if: ${{ failure() }}
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |
@@ -46,14 +47,14 @@ jobs:
                     { "email": "vferrand@smartphone-id.com" },
                     { "email": "marketing@smartphone-id.com" }
                   ],
-                  "subject": "🚨 Alerte : Site en panne (Code ${{ env.response }})"
+                  "subject": "🚨 Alerte : Site en panne"
                 }
               ],
               "from": { "email": "vferrand@smartphone-id.com", "name": "Site Monitor" },
               "content": [
                 {
                   "type": "text/plain",
-                  "value": "Le site est inaccessible. HTTP Status: ${{ env.response }}"
+                  "value": "$(cat status.txt)"
                 }
               ]
             }'
