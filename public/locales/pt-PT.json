@@ -63,7 +63,8 @@
   "kalSearch" : {
     "titre_1" : "Preciso de uma foto para este país ",
     "titre_2" : "e este documento",
-    "bouton" : "Tirar uma foto"
+    "bouton" : "Tirar uma foto",
+    "document" : "Selecione o documento"
   },
 
   "Bloc2": {

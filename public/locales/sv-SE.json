@@ -63,7 +63,8 @@
   "kalSearch": {
     "titre_1": "Jag behöver ett foto för detta land",
     "titre_2": "och detta dokument",
-    "bouton": "Ta ett foto"
+    "bouton": "Ta ett foto",
+    "document" : "Välj ett dokument"
 
   },
 

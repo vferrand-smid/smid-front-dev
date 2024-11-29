@@ -63,7 +63,8 @@
   "kalSearch": {
     "titre_1": "Ich brauche ein Passfoto in",
     "titre_2": "Und für welches Dokument",
-    "bouton": "Hol dir dein Foto"
+    "bouton": "Hol dir dein Foto",
+    "document" : "Wähle ein Dokument"
   },
 
   "Bloc2": {

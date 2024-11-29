@@ -54,7 +54,8 @@
   "kalSearch": {
     "titre_1": "我需要为这个国家",
     "titre_2": "和这个文件拍照",
-    "bouton": "拍照"
+    "bouton": "拍照",
+    "document" : "请选择文件类型"
   },
 
   "Bloc2": {

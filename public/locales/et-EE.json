@@ -63,7 +63,8 @@
   "kalSearch": {
     "titre_1": "Vajan isikut tõendava dokumendi fotot",
     "titre_2": "Dokumendi jaoks",
-    "bouton": "Tee foto"
+    "bouton": "Tee foto",
+    "document" : "Valige dokumenditüüp"
   },
 
   "Bloc2": {

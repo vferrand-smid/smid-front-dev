@@ -63,7 +63,8 @@
   "kalSearch": {
     "titre_1": "Necesito una foto de carnet para",
     "titre_2": "Para el documento",
-    "bouton": "Tomar la foto"
+    "bouton": "Tomar la foto",
+    "document" : "Elige el documento"
   },
 
   "Bloc2": {
