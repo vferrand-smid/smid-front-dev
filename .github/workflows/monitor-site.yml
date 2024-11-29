@@ -17,8 +17,8 @@ jobs:
       - name: Vérification de l’état du site
         id: check-site
         run: |
-          # response=$(curl -L -s -o /dev/null -w "%{http_code}" https://dev-smartphone-id.netlify.app/)
-          response=500 # Simule une panne
+         response=$(curl -L -s -o /dev/null -w "%{http_code}" https://dev-smartphone-id.netlify.app/)
+          # response=500 # Simule une panne
           echo "response=$response" >> $GITHUB_ENV
       
           if [ "$response" -eq 307 ]; then
@@ -49,7 +49,8 @@ jobs:
               "personalizations": [
                 {
                   "to": [
-                    { "email": "vferrand@smartphone-id.com" }
+                    { "email": "vferrand@smartphone-id.com" },
+                    { "email": "marketing@smartphone-id.com" }
                   ],
                   "subject": "🚨 Alerte : Site en panne"
                 }
@@ -88,7 +89,8 @@ jobs:
               "personalizations": [
                 {
                   "to": [
-                    { "email": "vferrand@smartphone-id.com" }
+                    { "email": "vferrand@smartphone-id.com" },
+                    { "email": "marketing@smartphone-id.com" }
                   ],
                   "subject": "Rapport quotidien : '"$status"'"
                 }
