@@ -15,6 +15,7 @@
     "eslint": "^9.14.0",
     "eslint-config-next": "^15.0.2",
     "expect": "^29.7.0",
+    "fast-xml-parser": "^4.5.0",
     "graphql": "^16.8.1",
     "graphql-request": "^7.1.2",
     "http-proxy-middleware": "^3.0.3",
