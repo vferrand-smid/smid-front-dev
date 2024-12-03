@@ -9,79 +9,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
     const { translations, loading } = useTranslations(locale);
     const isArabic = useIsArabic();
 
-    // Helper function to initialize a carousel
-    const initializeCarousel = (selector, btnSelector) => {
-        const carousel = document.querySelector(selector);
-        if (!carousel) return;
-
-        const arrowBtns = document.querySelectorAll(btnSelector);
-        const firstCardWidth = () => {
-            const firstCard = carousel.querySelector('section');
-            return firstCard ? firstCard.offsetWidth : 0;
-        };
-
-        let timeoutId = setInterval(() => {
-            carousel.scrollLeft += firstCardWidth();
-        }, 2500);
-
-        arrowBtns.forEach((btn) => {
-            btn.addEventListener('click', () => {
-                carousel.scrollLeft += btn.id === 'left' ? -firstCardWidth() : firstCardWidth();
-                clearInterval(timeoutId);
-                timeoutId = setInterval(() => {
-                    carousel.scrollLeft += firstCardWidth();
-                }, 2500);
-            });
-        });
-
-        const infiniteScroll = () => {
-            if (carousel.scrollLeft === 0) {
-                carousel.classList.add('no-transition');
-                carousel.scrollLeft = carousel.scrollWidth - 2 * carousel.offsetWidth;
-                carousel.classList.remove('no-transition');
-            } else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
-                carousel.classList.add('no-transition');
-                carousel.scrollLeft = carousel.offsetWidth;
-                carousel.classList.remove('no-transition');
-            }
-            clearInterval(timeoutId);
-            timeoutId = setInterval(() => {
-                carousel.scrollLeft += firstCardWidth();
-            }, 2500);
-        };
-
-        carousel.addEventListener('scroll', infiniteScroll);
-
-        return () => {
-            clearInterval(timeoutId);
-            carousel.removeEventListener('scroll', infiniteScroll);
-        };
-    };
-
-    // Carousels initialization
     useEffect(() => {
-        if (temoignages.length > 0) {
-            return initializeCarousel('.kal-testimonials-carousel', '.kal-testimonials-carousel-btn');
-        }
-    }, [temoignages]);
-
-    useEffect(() => {
-        if (media.length > 0) {
-            return initializeCarousel('.kal-testimonials-media', '.kal-testimonials-media-btn');
-        }
-    }, [media]);
-
-    useEffect(() => {
-        if (partenaires.length > 0) {
-            return initializeCarousel('.kal-testimonials-partner', '.kal-testimonials-partner-btn');
-        }
-    }, [partenaires]);
-
-    if (!translations?.Bloc4 || loading) {
-        return <div>Loading...</div>;
-    }
-
-    /* useEffect(() => {
          const initializeCarousel = () => {
              const carousel = document.querySelector(".kal-testimonials-carousel");
              if (!carousel) return;
@@ -266,15 +194,14 @@ const Bloc4Temoignages = ({ page, locale }) => {
              Pcarousel.addEventListener("scroll", PinfiniteScroll);
          }
          setTimeout(initializeCarousel,2000)
-     },[partenaires]);*/
-
+     },[partenaires]);
 
     return (
         <div className={`${styles.kalTestimonials} ${isArabic && 'kal-testimonials-arabic'}`} style={{textAlign:isArabic&&'right'}}>
             <h2 className='mb-10 max-md:!text-center'>
-                {translations.Bloc4.titre_bloc4_1}
-                <span className="highlight" >{translations.Bloc4.titre_bloc4_span}</span>
-                {translations.Bloc4.titre_bloc4_2}
+                {translations?.Bloc4?.titre_bloc4_1}
+                <span className="highlight" >{translations?.Bloc4?.titre_bloc4_span}</span>
+                {translations.Bloc4?.titre_bloc4_2}
             </h2>
 
             <div className="kal-testimonials-carousel-wrapper">
@@ -302,7 +229,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                 </nav>
 
                 <div className="kal-testimonials-carousel">
-                    {translations.Bloc4.temoignages?.map((temoignage, index) => (
+                    {translations?.Bloc4?.temoignages?.map((temoignage, index) => (
                         <div key={index} className="kal-testimonials-card">
                             <div>
                                 <svg
@@ -368,7 +295,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
             <div className="kal-testimonials-background"></div>
 
 
-            {translations.Bloc4.media?.some(mediaItem => mediaItem.img && mediaItem.text) && (
+            {translations?.Bloc4?.media?.some(mediaItem => mediaItem.img && mediaItem.text) && (
                 <div className="kal-testimonials-media-wrapper" style={{flexDirection:isArabic&& 'row-reverse'}}>
                     <h3 className='text-2xl max-md:!text-center'>{translations?.Bloc4?.nos_medias}</h3>
                     <nav className="kal-testimonials-media-btn" id="left">
@@ -395,7 +322,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                         </svg>
                     </nav>
                     <div className="kal-testimonials-media">
-                        {translations.Bloc4.media.map((mediaItem, index) => (
+                        {translations?.Bloc4?.media.map((mediaItem, index) => (
                             mediaItem.img && mediaItem.text && ( // Affiche uniquement si les deux champs sont remplis
                                 <section key={index}>
                                     <Image
@@ -453,7 +380,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
             )}
 
             <div className="kal-testimonials-partner-wrapper">
-                <h3 className='text-2xl max-md:!text-center'> {translations.Bloc4.nos_partenaires}</h3>
+                <h3 className='text-2xl max-md:!text-center'> {translations?.Bloc4?.nos_partenaires}</h3>
                 <nav className="kal-testimonials-partner-btn" id="left">
                     <svg
                         width="32"
@@ -478,7 +405,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                     </svg>
                 </nav>
                 <div className="kal-testimonials-partner ">
-                    {translations.Bloc4.partenaires?.map((partenaire, index) => (
+                    {translations?.Bloc4?.partenaires?.map((partenaire, index) => (
 
                         <section key={index} className="flex justify-center items-center">
                             <Image
