@@ -2,12 +2,12 @@
 
 import React, { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import Loading from './loading';
+//import Loading from './loading';
 import getPages from '../lib/pageQueries';
 import Bloc1 from '../components/Bloc1';
 import Bloc2 from '../components/Bloc2';
 import Bloc3_carousel from '../components/Bloc3_carousel';
-import Temoignages from '../components/Bloc4_temoignages';
+import Bloc4Temoignages from '../components/Bloc4_temoignages';
 import Bloc5Services from '../components/Bloc5_services';
 import Bloc6Documents from '../components/Bloc6_documents';
 import Bloc7Solution from '../components/Bloc7_solution';
@@ -23,14 +23,14 @@ const PageList = () => {
     const locale = pathname.split('/')[1]; // Récupère la locale à partir du chemin de l'URL
 
     const [pages, setPages] = useState([]);
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(() => {
         if (!locale) return;
 
         const fetchPages = async () => {
-            setLoading(true);
+            //setLoading(true);
             setError(null);
 
             try {
@@ -49,15 +49,15 @@ const PageList = () => {
                 setError(err.message);
             }
 
-            setLoading(false);
+            //setLoading(false);
         };
 
         fetchPages();
     }, [locale]);
 
-    if (loading) {
+    /*if (loading) {
         return <Loading />;
-    }
+    }*/
 
     if (error) {
         return <div>{error}</div>;
@@ -77,7 +77,7 @@ const PageList = () => {
                         <Bloc3_carousel page={page} />
                     </section>
                     <section className="bloc4">
-                        <Temoignages page={page} />
+                        <Bloc4Temoignages page={page} />
                     </section>
                     <section className="bloc5s">
                         <Bloc5Services page={page} />

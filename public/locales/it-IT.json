@@ -60,7 +60,8 @@
   "kalSearch" : {
     "titre_1" : "Ho bisogno di una foto d'identità per",
     "titre_2" : "Per il documento",
-    "bouton" : "Fai la foto"
+    "bouton" : "Fai la foto",
+    "document" : "Scegli il documento"
   },
 
   "Bloc2" : {
