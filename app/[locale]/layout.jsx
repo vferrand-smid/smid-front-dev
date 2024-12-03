@@ -71,6 +71,9 @@ export default function RootLayout({children, params}) {
                     })(window,document,'script','dataLayer','${GTM_ID}');`}
             </Script>
             {/* End Google Tag Manager */}
+
+            <meta name="apple-itunes-app" content="app-id=1527550865, app-argument=https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865"/>
+
         </head>
 
         <body>
