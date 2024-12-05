@@ -3,9 +3,11 @@
 import { useEffect, useState } from 'react';
 import Image from "next/image";
 import Head from "next/head";
+import useTranslations from "@/utils/useTranslations";
 
-export default function SmartBanner() {
+export default function SmartBanner({ locale }) {
     const [platform, setPlatform] = useState(null);
+    const { translations } = useTranslations(locale);
 
     useEffect(() => {
         const userAgent = navigator.userAgent.toLowerCase();

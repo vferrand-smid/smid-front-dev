@@ -1,8 +1,6 @@
 'use client';
 
 import FooterLogo from "../../public/images/Footer/Logo.svg";
-import AppStore from "../../public/images/Footer/AppStore-vector.svg";
-import PlayStore from "../../public/images/Footer/Gstore-vector.svg";
 import QRcodeApple from "../../public/images/Footer/Layer_1.svg";
 import QRcodeGoogle from "../../public/images/Footer/Layer_1 (1).svg";
 import Youtube from "../../public/images/Footer/Icon_awesome-youtube.svg";
@@ -16,8 +14,6 @@ import { useRouter, usePathname } from "next/navigation";
 import useTranslations from "@/utils/useTranslations";
 
 import useIsArabic from "../hooks/useIsArabic";
-// import { Suspense } from 'react';
-// import ErrorBoundary from "@/app/components/ErrorBoundary";
 
 
 const flags = {

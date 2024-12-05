@@ -1,31 +1,22 @@
-
 "use client";
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../public/images/Header/logo-smartphone-id-sm.png";
-import Hamburger from "../../public/images/Header/hamburger.svg";
 import Croix from "../../public/images/Header/xmark-solid.svg";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import useTranslations from "@/utils/useTranslations";
-import QRcodeApple from "@/public/images/Footer/Layer_1.svg";
-import QRcodeGoogle from "@/public/images/Footer/Layer_1 (1).svg";
 
 export default function Navbar({ locale }) {
-  const { translations, loading } = useTranslations(locale);
-  console.log(translations);
+  const { translations } = useTranslations(locale);
+  console.log("Navbar.jsx - Translations:", translations);
   const [isClick, setisClick] = useState(false);
   const toggleNavbar = () => {
     setisClick(!isClick);
   };
-  const router = useRouter();
 
   return (
-      <header
-          className="sticky top-0 z-50 bg-[#ffffffe0] h-14 shadow flex justify-center"
-          style={{ backdropFilter: "blur(4px)" }}
-      >
+      <header className="sticky top-0 z-50 bg-[#ffffffe0] h-14 shadow flex justify-center" style={{ backdropFilter: "blur(4px)" }}>
         <nav className="w-full flex">
           <div className="container mx-4 w-full max-w-full px-4 lg:px-8 flex items-center justify-between">
             {/* Logo section */}
@@ -103,33 +94,32 @@ export default function Navbar({ locale }) {
               </div>
             </div>
 
-
             {/* Liens applis */}
-            <div className="logoStore max-md:flex-col">
-              <div className="logoStore1 !gap-2">
+            <div className="flex items-center">
+              <div className="flex flex-row">
                 <Link
-                    href={translations.Footer.AppStoreLink}
+                    href={translations?.Footer?.["AppStore-link"]  || "#"}
                     target="_blank"
                     aria-label="Page de téléchargement Apple Store"
                 >
                   <Image
-                      src={translations.Footer.AppStoreImg}
+                      src={translations?.Footer?.AppStoreImg  || "/images/Footer/AppStore-vector.svg"}
                       alt=""
-                      width={150}
-                      height={150}
+                      width={90}
+                      height={90}
                       aria-hidden="true"
                   />
                 </Link>
                 <Link
-                    href={translations.Footer["PlayStore-link"] || "#"}
+                    href={translations?.Footer?.["PlayStore-link"] || "#"}
                     target="_blank"
                     aria-label="Page de téléchargement Google Store"
                 >
                   <Image
-                      src={translations.Footer.PlayStoreImg}
+                      src={translations?.Footer?.PlayStoreImg  || "/images/Footer/Gstore-vector.svg"}
                       alt=""
-                      width={150}
-                      height={150}
+                      width={90}
+                      height={90}
                       aria-hidden="true"
                   />
                 </Link>
@@ -137,7 +127,7 @@ export default function Navbar({ locale }) {
             </div>
 
             {/* Desktop Links */}
-            <div className="flex max-lg:hidden space-x-6 items-center">
+            <div className="flex max-lg:hidden items-center">
               {translations.NavBar?.liens.map((item, index) => {
                 if (!item.url || !item.link) {
                   console.error(`Lien invalide à l'index ${index}:`, item);
@@ -150,7 +140,7 @@ export default function Navbar({ locale }) {
                         href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className=" p-2 hover:text-green-500 transition"
+                        className="text-sm lg:text-md p-2 hover:text-green-500 transition"
                     >
                       {item.link}
                     </Link>
