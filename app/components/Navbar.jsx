@@ -18,7 +18,7 @@ export default function Navbar({ locale }) {
   return (
       <header className="sticky top-0 z-50 bg-[#ffffffe0] h-14 shadow flex justify-center" style={{ backdropFilter: "blur(4px)" }}>
         <nav className="w-full flex">
-          <div className="container mx-4 w-full max-w-full px-4 lg:px-8 flex items-center justify-between">
+          <div className="container xl:mx-4 w-full max-w-full px-2 xl:px-8 flex items-center justify-between">
             {/* Logo section */}
             <div className="flex items-center ">
               <div className="navLogo w-[120px] h-[20px] md:w-[143px] md:h-[23px]">
@@ -94,40 +94,8 @@ export default function Navbar({ locale }) {
               </div>
             </div>
 
-            {/* Liens applis */}
-            <div className="flex items-center">
-              <div className="flex flex-row">
-                <Link
-                    href={translations?.Footer?.["AppStore-link"]  || "#"}
-                    target="_blank"
-                    aria-label="Page de téléchargement Apple Store"
-                >
-                  <Image
-                      src={translations?.Footer?.AppStoreImg  || "/images/Footer/AppStore-vector.svg"}
-                      alt=""
-                      width={90}
-                      height={90}
-                      aria-hidden="true"
-                  />
-                </Link>
-                <Link
-                    href={translations?.Footer?.["PlayStore-link"] || "#"}
-                    target="_blank"
-                    aria-label="Page de téléchargement Google Store"
-                >
-                  <Image
-                      src={translations?.Footer?.PlayStoreImg  || "/images/Footer/Gstore-vector.svg"}
-                      alt=""
-                      width={90}
-                      height={90}
-                      aria-hidden="true"
-                  />
-                </Link>
-              </div>
-            </div>
-
             {/* Desktop Links */}
-            <div className="flex max-lg:hidden items-center">
+            <div className="flex max-lg:hidden items-center lg:space-x-2">
               {translations.NavBar?.liens.map((item, index) => {
                 if (!item.url || !item.link) {
                   console.error(`Lien invalide à l'index ${index}:`, item);
@@ -140,12 +108,46 @@ export default function Navbar({ locale }) {
                         href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm lg:text-md p-2 hover:text-green-500 transition"
+                        className="text-xs xl:text-lg p-2 hover:text-green-500 transition"
                     >
                       {item.link}
                     </Link>
                 );
               })}
+            </div>
+
+            {/* Liens applis */}
+            <div className="flex items-center max-md:hidden">
+              <div className="flex flex-row space-x-2">
+                <Link
+                    href={translations?.Footer?.["AppStore-link"]  || "#"}
+                    target="_blank"
+                    aria-label="Page de téléchargement Apple Store"
+                >
+                  <Image
+                      src={translations?.Footer?.AppStoreImg  || "/images/Footer/AppStore-vector.svg"}
+                      alt=""
+                      width={120}
+                      height={120}
+                      aria-hidden="true"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                  />
+                </Link>
+                <Link
+                    href={translations?.Footer?.["PlayStore-link"] || "#"}
+                    target="_blank"
+                    aria-label="Page de téléchargement Google Store"
+                >
+                  <Image
+                      src={translations?.Footer?.PlayStoreImg  || "/images/Footer/Gstore-vector.svg"}
+                      alt=""
+                      width={120}
+                      height={120}
+                      aria-hidden="true"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                  />
+                </Link>
+              </div>
             </div>
 
             {/* Mobile Menu Button */}
@@ -203,7 +205,41 @@ export default function Navbar({ locale }) {
                       );
                     })}
                   </div>
+                  {/* Liens applis */}
+                  <div className="flex items-center">
+                    <div className="flex flex-row space-x-2">
+                      <Link
+                          href={translations?.Footer?.["AppStore-link"]  || "#"}
+                          target="_blank"
+                          aria-label="Page de téléchargement Apple Store"
+                      >
+                        <Image
+                            src={translations?.Footer?.AppStoreImg  || "/images/Footer/AppStore-vector.svg"}
+                            alt=""
+                            width={120}
+                            height={120}
+                            aria-hidden="true"
+                            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                        />
+                      </Link>
+                      <Link
+                          href={translations?.Footer?.["PlayStore-link"] || "#"}
+                          target="_blank"
+                          aria-label="Page de téléchargement Google Store"
+                      >
+                        <Image
+                            src={translations?.Footer?.PlayStoreImg  || "/images/Footer/Gstore-vector.svg"}
+                            alt=""
+                            width={120}
+                            height={120}
+                            aria-hidden="true"
+                            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                        />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
+
             )}
           </div>
         </nav>
