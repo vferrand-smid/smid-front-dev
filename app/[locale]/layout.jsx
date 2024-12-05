@@ -75,7 +75,7 @@ export default function RootLayout({children, params}) {
         </head>
 
         <body>
-        <SmartBanner />
+        <SmartBanner/>
         <main>
 
             <Navbar/>

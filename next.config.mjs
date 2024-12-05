@@ -1,10 +1,4 @@
-import dotenv from 'dotenv';
-
-if (process.env.NODE_ENV === 'production') {
-    dotenv.config({ path: '.env.production' });
-} else {
-    dotenv.config({ path: '.env.development' });
-}
+import withBundleAnalyzer from '@next/bundle-analyzer';
 
 console.log("next.config.mjs - Loading next.config.mjs");
 
@@ -16,12 +10,11 @@ const nextConfig = {
         GA_PROPERTY_ID: process.env.GA_PROPERTY_ID,
     },
     images: {
-        unoptimized: true,
+        unoptimized: true, // Remplacez par false si vous voulez utiliser l'optimisation Next.js
         remotePatterns: [
             {
                 protocol: 'https',
                 hostname: 'www.dev.smartphone-id.com',
-                port: '',
                 pathname: '/wp-content/uploads/**',
             },
             {
@@ -31,7 +24,6 @@ const nextConfig = {
             },
         ],
     },
-
     async redirects() {
         return [
             {
@@ -48,4 +40,7 @@ const nextConfig = {
     },
 };
 
-export default nextConfig;
+// Ajout de l'analyseur de bundle
+export default withBundleAnalyzer({
+    enabled: process.env.ANALYZE === 'true', // Active l'analyse si ANALYZE=true
+})(nextConfig);

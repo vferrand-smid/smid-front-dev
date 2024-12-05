@@ -93,13 +93,13 @@ const localeToCountry = {
 
 
 export default function Footer() {
-  const isArabic = useIsArabic()
-  const router = useRouter();
+    const isArabic = useIsArabic()
+    const router = useRouter();
     const pathname = usePathname();
     const currentLocale = pathname.split('/')[1] || 'fr-FR'; // Récupère la locale depuis l'URL
-  const [isOpen, setIsOpen] = useState(false);
-  const { translations, loading } = useTranslations(currentLocale);
-  const dropdownRef = useRef(null);
+    const [isOpen, setIsOpen] = useState(false);
+    const { translations, loading } = useTranslations(currentLocale);
+    const dropdownRef = useRef(null);
 
     const changeLanguage = (newLocale) => {
         // Extraire le chemin actuel sans la locale actuelle
@@ -154,13 +154,13 @@ export default function Footer() {
         return <div>Translations not found</div>;
     }
 
-  return (
-    // <ErrorBoundary>
-    // <React.Suspense fallback={<div>Loading...</div>}>
-    <div key={currentLocale} className="" style={{textAlign:isArabic&&'right'}}>
-      <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0" >
-        <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
-          <div className="column"></div>
+    return (
+        // <ErrorBoundary>
+        // <React.Suspense fallback={<div>Loading...</div>}>
+        <div key={currentLocale} className="" style={{textAlign:isArabic&&'right'}}>
+            <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0" >
+                <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
+                    <div className="column"></div>
 
                     <div className="footerLogo column">
                         <Link
