@@ -32,7 +32,8 @@
   "kalSearch": {
     "titre_1": "Ik heb een foto nodig voor dit land",
     "titre_2": "en dit document",
-    "bouton": "Maak een foto"
+    "bouton": "Maak een foto",
+    "document" : "Kies het document"
   },
 
   "Bloc1": {
