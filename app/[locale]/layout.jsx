@@ -81,7 +81,7 @@ export default function RootLayout({children, params}) {
 
         <body>
 
-        <main className={`${isBannerVisible ? 'pt-20' : ''}`}>
+        <main className={`${isBannerVisible ? 'pt-20 md:pt-0' : ''}`}>
             <SmartBanner onVisibilityChange={setIsBannerVisible} />
             <Navbar/>
 

@@ -35,7 +35,7 @@ export default function SmartBanner({ onVisibilityChange }) {
     if (!platform || !isVisible) return null;
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md p-4 flex items-center justify-between">
+        <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-white shadow-md p-4 flex items-center justify-between">
             <button
                 onClick={handleClose}
                 aria-label="Fermer la bannière"
