@@ -117,6 +117,7 @@ export default function Navbar({ locale }) {
             </div>
 
             {/* Liens applis */}
+            {!isClick && (
             <div className="flex items-center max-md:hidden">
               <div className="flex flex-row space-x-2">
                 <Link
@@ -149,7 +150,7 @@ export default function Navbar({ locale }) {
                 </Link>
               </div>
             </div>
-
+            )}
             {/* Mobile Menu Button */}
             <div className="mobile-menu hidden max-lg:flex items-center">
               <button
@@ -184,8 +185,7 @@ export default function Navbar({ locale }) {
 
             {/* Mobile Menu Links */}
             {isClick && (
-                <div
-                    className="absolute top-[56px] left-0 right-0 md:hidden flex justify-center bg-white shadow-lg w-auto max-w-full">
+                <div className="flex flex-col absolute top-[56px] left-0 right-0 lg:hidden justify-center bg-white shadow-lg w-auto max-w-full">
                   <div className="px-4 pb-3 space-y-1 sm:px-6 text-center">
                     {translations.NavBar?.liens.map((item, index) => {
                       if (!item.url || !item.link) {
@@ -206,8 +206,8 @@ export default function Navbar({ locale }) {
                     })}
                   </div>
                   {/* Liens applis */}
-                  <div className="flex items-center">
-                    <div className="flex flex-row space-x-2">
+                  <div className="self-center">
+                    <div className="">
                       <Link
                           href={translations?.Footer?.["AppStore-link"]  || "#"}
                           target="_blank"
@@ -219,7 +219,7 @@ export default function Navbar({ locale }) {
                             width={120}
                             height={120}
                             aria-hidden="true"
-                            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                            className="m-2"
                         />
                       </Link>
                       <Link
@@ -233,7 +233,7 @@ export default function Navbar({ locale }) {
                             width={120}
                             height={120}
                             aria-hidden="true"
-                            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                            className="m-2"
                         />
                       </Link>
                     </div>
