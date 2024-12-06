@@ -76,7 +76,7 @@ const Bloc1 = ({ page, locale  }) => {
                         alt="Hero Girl"
                         width={497}
                         height={600}
-                        priority
+                        priority={true}
                     />
                 </article>
             </div>

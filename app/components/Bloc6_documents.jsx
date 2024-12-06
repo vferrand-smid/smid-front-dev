@@ -38,7 +38,7 @@ const Bloc6Documents = ({ locale }) => {
                                     height={80} // Ajuste la hauteur de l'image
                                     src={item.img_doc}
                                     alt={item.titre_doc}
-                                    objectFit="contain" // Empêche l'image de déborder
+                                    style={{ objectFit: 'contain' }}
                                 />
                             </div>
                             <p>{item.titre_doc}</p>
@@ -61,7 +61,7 @@ const Bloc6Documents = ({ locale }) => {
                                     alt=""
                                     width={120}
                                     height={80}
-                                    objectFit="contain"
+                                    style={{ objectFit: 'contain' }}
                                 />
                                 {item.impressionPhoto &&
                                     <h3>{item.impressionPhoto}</h3>}
@@ -87,7 +87,7 @@ const Bloc6Documents = ({ locale }) => {
                                                         alt=""
                                                         width={80}
                                                         height={80}
-                                                        objectFit="contain"
+                                                        style={{ objectFit: 'contain' }}
                                                     />
                                                 </div>
                                                 {partenaire.nom_partenaire && <p>{partenaire.nom_partenaire}</p>}

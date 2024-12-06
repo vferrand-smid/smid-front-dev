@@ -413,7 +413,7 @@ const Bloc4Temoignages = ({ page, locale }) => {
                                 height={500}
                                 src={partenaire.img}
                                 alt={partenaire.text}
-                                className="object-contain"
+                                style={{ objectFit: 'object-contain' }}
                             />
                         </section>
 

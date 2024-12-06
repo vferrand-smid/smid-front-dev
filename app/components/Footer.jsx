@@ -200,7 +200,7 @@ export default function Footer() {
                                             onClick={() => changeLanguage(locale)}
                                         >
                                             <Image
-                                                style={{ width: 20, height: 15 }}
+                                                //style={{ width: 20, height: 15 }}
                                                 height={10}
                                                 width={20}
                                                 src={flagSrc}

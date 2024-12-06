@@ -25,7 +25,7 @@ const Bloc5Services = ({ locale }) => {
                     alt="Service"
                     width={500}
                     height={500}
-                    objectFit="cover"
+                    style={{ objectFit: 'cover' }}
                     priority
                     className={styles.serviceImage}
                 />
