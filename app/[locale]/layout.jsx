@@ -18,6 +18,7 @@ export default function RootLayout({children, params}) {
     const [originCountry, setOriginCountry] = useState('');
     const title = translations?.metadata?.title || "Smartphone iD";
     const description = translations?.metadata?.description || "Smartphone iD";
+    const [isBannerVisible, setIsBannerVisible] = useState(false); // Gère la visibilité de la bannière
 
     const GTM_ID = process.env.GTM_ID;
     console.log('layout.jsx - GTM_ID:', process.env.GTM_ID);
@@ -72,12 +73,16 @@ export default function RootLayout({children, params}) {
                     })(window,document,'script','dataLayer','${GTM_ID}');`}
             </Script>
             {/* End Google Tag Manager */}
+         {/*   <meta
+                name="apple-itunes-app"
+                content="app-id=1527550865, app-argument=https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865"
+            />*/}
         </head>
 
         <body>
-        <SmartBanner/>
-        <main>
 
+        <main className={`${isBannerVisible ? 'pt-20' : ''}`}>
+            <SmartBanner onVisibilityChange={setIsBannerVisible} />
             <Navbar/>
 
             {children}
