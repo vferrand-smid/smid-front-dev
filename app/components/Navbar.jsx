@@ -157,14 +157,14 @@ export default function Navbar({ locale }) {
                   aria-label="toggle button"
                   aria-expanded="false"
                   id="menu-btn"
-                  className="btn-menu cursor-pointer inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+                  className="btn-menu cursor-pointer inline-flex items-center justify-center p-4 rounded-md focus:outline-none"
                   onClick={toggleNavbar}
               >
                 {isClick ? (
                     <Image
                         src={Croix}
                         alt=""
-                        className="h-6 w-6 absolute top-4 right-4"
+                        className="h-6 w-6 absolute top-4 right-4 mr-4"
                         width={32}
                         height={32}
                         //layout="responsive"
