@@ -907,15 +907,6 @@ overflow-x: hidden;
     flex-direction: column;
     gap: 15px;
   }
-  .kal-document-2 > :last-child > div > div {
-    width: 80px;
-    height: 80px;
-  }
-  .kal-document-2 > :last-child > div > div > img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-  }
   .kal-document-2 > :last-child > div > p {
     color: #4c4c4c;
     text-align: center;
