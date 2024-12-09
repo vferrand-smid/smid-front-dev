@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef  } from 'react';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import useTranslations from '@/utils/useTranslations';
@@ -15,6 +15,8 @@ const KalSearch = ({ page, locale }) => {
 	const [searchQuery, setSearchQuery] = useState('');
 	const baseUrlAPI = process.env.NEXT_PUBLIC_API;
 	const baseUrlWEBAPP = process.env.NEXT_PUBLIC_WEBAPP;
+	const countryPopupRef = useRef(null);
+	const documentPopupRef = useRef(null);
 
 	// Utilisation de usePathname pour récupérer la locale depuis l'URL
 	const pathname = usePathname();
@@ -104,14 +106,44 @@ const KalSearch = ({ page, locale }) => {
 						img: doc.purpose.icon ? doc.purpose.icon.url : "",
 					}));
 					setDocuments(docs);
+				} else {
+					setDocuments([]); // Réinitialise la liste si l'API ne répond pas correctement
 				}
 			} catch (error) {
 				console.error('kalSearch.jsx - Erreur lors de la récupération des documents:', error);
+				setDocuments([]);
 			}
 		};
 
 		fetchDocuments();
 	}, [currentCountry, selectedCountry, effectiveLocale, documentTranslations, baseUrlAPI]);
+
+	// Gère la gestion de la fermeture des pop-ups lorsque l'utilisateur clique en dehors de celle-ci
+	// Gère la gestion de la fermeture des popups
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			// Vérifie si le clic est en dehors des popups
+			if (
+				countryPopupRef.current &&
+				!countryPopupRef.current.contains(event.target)
+			) {
+				setIsCountryPopupVisible(false);
+			}
+			if (
+				documentPopupRef.current &&
+				!documentPopupRef.current.contains(event.target)
+			) {
+				setIsDocumentPopupVisible(false);
+			}
+		};
+
+		document.addEventListener('mousedown', handleClickOutside);
+
+		return () => {
+			document.removeEventListener('mousedown', handleClickOutside);
+		};
+	}, []);
+
 
 	// GTM
 	const triggerGTMEventOnPhotoButtonClick = () => {
@@ -139,6 +171,7 @@ const KalSearch = ({ page, locale }) => {
 		setSelectedCountry(country.code); // Met à jour le pays sélectionné
 		setIsCountryPopupVisible(false);  // Ferme la popup après la sélection
 		setDocuments([]); // Réinitialise la liste des documents pour forcer un nouvel appel API
+		setSelectedDocument(null); // Réinitialise le document sélectionné
 	};
 
 	// Désactive le bouton si une sélection est manquante
@@ -262,7 +295,7 @@ const KalSearch = ({ page, locale }) => {
 					</section>
 					{/* POP-UP COUNTRY */}
 					{isCountryPopupVisible && (
-						<main className="kal-search-country-popup" style={{ display: 'flex' }}>
+						<main className="kal-search-country-popup" style={{ display: 'flex' }} ref={countryPopupRef}>
 							<div className="kal-search-country-search-container">
 								<input
 									type="text"
@@ -298,7 +331,17 @@ const KalSearch = ({ page, locale }) => {
 			{/* DOCUMENT */}
 			<div className="gap-3">
 				<div className="kal-search-document">
-					<div className="cursor-pointer" onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)} >
+					<div
+						className="cursor-pointer"
+						onClick={() => {
+							// Fermer la liste des pays si elle est ouverte
+							if (isCountryPopupVisible) {
+								setIsCountryPopupVisible(false);
+							}
+							// Ouvrir/fermer la liste des documents
+							setIsDocumentPopupVisible(!isDocumentPopupVisible);
+						}}
+					>
 						<h4 className="flex gap-1 items-baseline">
 							2. {translations.kalSearch.titre_2} <span className="text-red-500">*</span>
 							<svg
@@ -344,38 +387,48 @@ const KalSearch = ({ page, locale }) => {
 				</div>
 
 				{/* BOUTON */}
-				<button
-					onClick={() => {
+				<button onClick={() => {
 						console.log('Clic sur le bouton générer');
 						handleGenerateUrl();
-					}}
-					disabled={!selectedDocument || !selectedCountry}
-					className={`button-photo ${selectedDocument && selectedCountry ? '' : 'disabled'}`}
+					}} disabled={!selectedDocument || !selectedCountry} className={`button-photo ${selectedDocument && selectedCountry ? '' : 'disabled'}`}
 				>
 					3. {translations.kalSearch.bouton}
 				</button>
 
 				{isDocumentPopupVisible && (
-					<main className="kal-search-document-popup flex">
-						<div
-							className="kal-search-document-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
-							{documents.map(doc => (
-								<div
-									key={doc.id}
-									className={`flex flex-col items-center p-2 border ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
-									onClick={() => handleDocumentSelect(doc)}
-								>
-									<Image
-										width={500}
-										height={500}
-										src={doc.img}
-										alt={doc.name}
-										className="w-10 h-10 object-contain"
-									/>
-									<span className="ml-2">{doc.name}</span>
-								</div>
-							))}
-						</div>
+					<main className="kal-search-document-popup" style={{ display: 'flex' }} ref={documentPopupRef}
+						 /* onClick={() => {
+							  // Fermer la liste des pays si elle est ouverte
+							  if (isCountryPopupVisible) {
+								  setIsCountryPopupVisible(false);
+							  }
+							  // Ouvrir/fermer la liste des documents
+							  setIsDocumentPopupVisible(!isDocumentPopupVisible);
+						  }}*/>
+
+							<div
+								className="kal-search-document-search-suggestion overflow-y-auto grid grid-cols-2 gap-2 p-2">
+								{documents.length > 0 ? (
+									documents.map(doc => (
+									<div
+										key={doc.id}
+										className={`flex flex-col items-center p-2 border ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
+										onClick={() => handleDocumentSelect(doc)}
+									>
+										<Image
+											width={500}
+											height={500}
+											src={doc.img}
+											alt={doc.name}
+											className="w-10 h-10 object-contain"
+										/>
+										<span className="ml-2">{doc.name}</span>
+									</div>
+								))
+								) : (
+									<p className="text-center hidden">Aucun document disponible</p>
+								)}
+							</div>
 					</main>
 				)}
 			</div>
