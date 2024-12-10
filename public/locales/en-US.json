@@ -4,6 +4,11 @@
     "description": "Fast and easy tool for quality passport photos"
   },
 
+  "SmartBanner": {
+    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+    "download":"Télécharger"
+  },
+
   "NavBar": {
     "liens": [
       {

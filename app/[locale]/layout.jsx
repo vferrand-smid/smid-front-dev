@@ -21,21 +21,17 @@ export default function RootLayout({children, params}) {
     const [isBannerVisible, setIsBannerVisible] = useState(false); // Gère la visibilité de la bannière
 
     const GTM_ID = process.env.GTM_ID;
-    console.log('layout.jsx - GTM_ID:', process.env.GTM_ID);
     const GA_PROPERTY_ID = process.env.GA_PROPERTY_ID;
 
     // Récupérer le code pays basé sur l'IP
     useEffect(() => {
         const fetchOriginCountry = async () => {
-            console.log("layout.js - Fetching geolocation data...");
             const data = await getGeolocationData();
 
             if (data) {
-                console.log("layout.js - Geolocation data received:", data);
 
                 if (data.country_code) {
                     setOriginCountry(data.country_code);
-                    console.log("layout.js - Origin country set to:", data.country_code);
 
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
@@ -47,7 +43,6 @@ export default function RootLayout({children, params}) {
                         origin_country: data.country_code,
                     });
                 } else {
-                    console.log("layout.js - Country code not found in data:", data);
                 }
             } else {
                 console.error("layout.js - Failed to fetch geolocation data.");
@@ -73,10 +68,6 @@ export default function RootLayout({children, params}) {
                     })(window,document,'script','dataLayer','${GTM_ID}');`}
             </Script>
             {/* End Google Tag Manager */}
-         {/*   <meta
-                name="apple-itunes-app"
-                content="app-id=1527550865, app-argument=https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865"
-            />*/}
         </head>
 
         <body>

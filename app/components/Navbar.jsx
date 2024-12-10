@@ -9,7 +9,6 @@ import useTranslations from "@/utils/useTranslations";
 
 export default function Navbar({ locale }) {
   const { translations } = useTranslations(locale);
-  console.log("Navbar.jsx - Translations:", translations);
   const [isClick, setisClick] = useState(false);
   const toggleNavbar = () => {
     setisClick(!isClick);

@@ -4,6 +4,11 @@
     "description": "أداة سريعة وسهلة للحصول على صور الهوية الشخصية عالية الجودة"
   },
 
+  "SmartBanner": {
+    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+    "download": "Télécharger"
+  },
+
   "NavBar": {
     "liens": [
       {

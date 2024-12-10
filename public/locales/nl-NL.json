@@ -4,6 +4,11 @@
     "description": "Een snel en eenvoudig hulpmiddel voor pasfoto's van hoge kwaliteit"
   },
 
+  "SmartBanner": {
+    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+    "download":"Télécharger"
+  },
+
   "NavBar": {
     "liens": [
       {

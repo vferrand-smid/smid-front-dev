@@ -241,10 +241,6 @@ export default async function getPages(locale) {
         }
     }`;
 
-   console.log("pageQueries.js - WordPress API URL:", process.env.WORDPRESS_API_URL);
-    console.log("pageQueries.js - Locale utilisée pour la requête:", locale);
-    console.log("pageQueries.js - GraphQL Locale utilisée pour la requête:", languageCode);
-
     const response = await fetch(process.env.WORDPRESS_API_URL, {
         method: "POST",
         headers: {
@@ -264,7 +260,6 @@ export default async function getPages(locale) {
     }
 
     const jsonResponse = await response.json();
-    console.log("pageQueries.js - Réponse de l'API JSON:", jsonResponse);
 
     if (!jsonResponse || !jsonResponse.data || !jsonResponse.data.pages) {
         console.error("pageQueries.js - Réponse invalide de l'API", jsonResponse);
@@ -272,6 +267,5 @@ export default async function getPages(locale) {
     }
 
     const pages = jsonResponse.data.pages.edges.map(edge => edge.node).filter(page => page.slug !== 'sample-page' && page.uri);
-    console.log("pageQueries.js - Données chargées:", pages);
     return pages;
 }
