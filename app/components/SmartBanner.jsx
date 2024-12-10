@@ -63,8 +63,8 @@ export default function SmartBanner({ onVisibilityChange, locale }) {
             <Link
                 href={
                     platform === 'ios'
-                        ? 'https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865'
-                        : 'https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR'
+                        ? translations?.Footer?.["AppStore-link"] || "#"
+                        : translations?.Footer?.["PlayStore-link"] || "#"
                 }
                 className="bg-primary text-white px-4 py-2 rounded text-sm font-bold shadow"
             >
