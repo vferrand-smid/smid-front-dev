@@ -23,6 +23,7 @@
     "ipapi.co": "^0.3.0",
     "negotiator": "^1.0.0",
     "next": "^15.0.4",
+    "node-cache": "^5.1.2",
     "node-fetch": "^3.3.2",
     "npm": "^10.9.0",
     "postcss": "^8.4.47",
