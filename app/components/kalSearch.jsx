@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef  } from 'react';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import useTranslations from '@/utils/useTranslations';
+import {getGeolocationData} from "@/services/ipapi";
 
 const KalSearch = ({ page, locale }) => {
 	const [currentCountry, setCurrentCountry] = useState(null);
@@ -29,12 +30,12 @@ const KalSearch = ({ page, locale }) => {
 	// Récupération du pays de l'utilisateur via IP (côté client uniquement)
 	useEffect(() => {
 		const fetchUserCountry = async () => {
-			try {
-				const response = await fetch('https://ipapi.co/country/');
-				const countryCode = await response.text();
-				setCurrentCountry(countryCode);
-			} catch (error) {
-				console.error('Error fetching user country:', error);
+			const data = await getGeolocationData(); // Utilise la fonction centralisée
+			console.log('kalSearch.jsx - ', data);
+			if (data && data.country_code) {
+				setCurrentCountry(data.country_code); // Met à jour le code pays
+			} else {
+				console.error("Impossible de récupérer le code pays.");
 			}
 		};
 		fetchUserCountry();

@@ -53,6 +53,7 @@ export default function SmartBanner({ onVisibilityChange, locale }) {
                     width={48}
                     height={48}
                     className="mr-4"
+                    priority={true}
                 />
                 <div>
                     <strong className="text-sm">Smartphone iD</strong>
