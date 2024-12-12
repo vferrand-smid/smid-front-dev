@@ -174,6 +174,10 @@ const KalSearch = ({ page, locale }) => {
 
 	// Gestion du changement de pays via le pop-up
 	const handleCountryChange = (country) => {
+		if (selectedCountry === country.code) {
+			setIsCountryPopupVisible(false); // Fermer la popup même si le pays est le même
+			return; // Ne pas réinitialiser les documents
+		}
 		setSelectedCountry(country.code); // Met à jour le pays sélectionné
 		setIsCountryPopupVisible(false);  // Ferme la popup après la sélection
 		setDocuments([]); // Réinitialise la liste des documents pour forcer un nouvel appel API
