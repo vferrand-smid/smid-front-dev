@@ -1965,20 +1965,6 @@ span {
 /* ==========================================*/
 /* ==========================================*/
 
-
-.kal-hero > div > article {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 120%;
-    display: flex;
-    align-items: flex-end;
-    margin: -80px 0;
-}
-.kal-hero > div > article > img {
-    height: 100%;
-    box-sizing: content-box;
-}
 .kal-hero > div > main {
     border-radius: 8px;
     border: 2px solid #efefef;
@@ -2034,15 +2020,6 @@ span {
     font-style: normal;
     font-weight: 400;
     line-height: 42px; /* 190.909% */
-}
-
-.kal-hero {
-    background: url('/images/Bloc1/background.png');
-    background-color: white;
-    padding: 80px 50px;
-    object-fit: cover;
-    background-size: cover;
-    min-height: 500px;
 }
 
 .kal-hero > div {
@@ -2158,9 +2135,7 @@ span {
 }
 
 
-.kal-search-selected {
-    border: 2px solid #2fc977 !important;
-}
+
 
 
 

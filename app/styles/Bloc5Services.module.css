@@ -9,7 +9,7 @@
 }
 
 .serviceImage {
-    @apply content-center md:block md:max-sm:border-b-4 md:border-l-4 border-primary;
+    @apply content-center md:block border-b-4 md:border-l-4 border-primary;
 }
 
 .kalService > div {

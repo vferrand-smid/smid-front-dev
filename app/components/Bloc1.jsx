@@ -24,7 +24,7 @@ const Bloc1 = ({ page, locale  }) => {
     }
 
     return (
-        <div className={`kal-hero ${isArabic && 'kal-hero-arabic'}`}>
+        <div className={`kal-hero object-cover min-h-[500px] bg-white bg-cover bg-hero-pattern py-20 px-12 ${isArabic && 'kal-hero-arabic'}`}>
 
             <div>
                 <h1>
@@ -69,14 +69,14 @@ const Bloc1 = ({ page, locale  }) => {
 
                 <KalSearch/>
 
-                <article >
-
+                <article className="absolute bottom-0 right-0 h-[120%] flex items-end -mb-20 -mt-20">
                     <Image
                         src={translations.Bloc1.girl}
                         alt="Hero Girl"
                         width={497}
                         height={600}
                         priority={true}
+                        className="flex justify-center h-full w-full mt-4 shrink-0 box-content object-contain"
                     />
                 </article>
             </div>

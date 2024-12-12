@@ -265,10 +265,10 @@ const KalSearch = ({ page, locale }) => {
 	);
 
 	return (
-		<div className="kal-search rounded-lg border-2 border-gray-300 bg-white w-[700px] flex p-2.5 gap-2.5 box-border isolate mt-10 mr-28 lg:flex-col lg:w-full">
+		<div className="kal-search flex flex-col lg:flex-row w-full md:w-[700px] rounded-lg border-2  border-gray-300 bg-white p-2.5 gap-2.5 box-border isolate mt-10 mr-28">
 			{/* COUNTRY */}
 			<div className="flex relative flex-[5] w-full">
-				<div className="kal-search-country flex flex-col gap-2.5 w-full pr-5 border-r-2 border-[#efefef] lg:border-none lg:pr-0 lg:pl-0">
+				<div className="kal-search-country flex flex-col gap-2.5 w-full pr-5 lg:border-r-2 border-gray-300 lg:pr-0 lg:pl-0">
 					<div className="cursor-pointer" onClick={() => {
 						setIsCountryPopupVisible(!isCountryPopupVisible);
 						console.log("État de la popup :", !isCountryPopupVisible); // Log de test
@@ -304,7 +304,7 @@ const KalSearch = ({ page, locale }) => {
 					</section>
 					{/* POP-UP COUNTRY */}
 					{isCountryPopupVisible && (
-						<main className="kal-search-country-popup lg:translate-y-[85%] lg:z-2 lg:w-[calc(100%+20px)] absolute bottom-0 left-0 transform translate-y-full bg-white min-h-[400px] w-full -ml-3 rounded-b-lg border-2 border-gray-300 border-t-0 flex flex-col gap-2.5 max-h-[400px] " ref={countryPopupRef}>
+						<main className="kal-search-country-popup z-20 max-lg:z-2 max-lg:w-[calc(100%+24px)] lg:w-[calc(100%+12px)] flex flex-1 absolute bottom-0 left-0 transform translate-y-full bg-white min-h-[400px] w-full -ml-3 rounded-b-lg border-2 border-gray-300 border-t-0 flex-col gap-2.5 max-h-[400px]" ref={countryPopupRef}>
 							<div className="kal-search-country-search-container bg-gray-300 rounded-lg p-2.5 box-border m-2.5 flex items-center border-2 border-gray-300 transition-all duration-200 justify-between focus-within:border-green-500">
 								<input
 									type="text"
@@ -338,7 +338,7 @@ const KalSearch = ({ page, locale }) => {
 			</div>
 
 			{/* DOCUMENT */}
-			<div className="lg:flex-col gap-3 flex relative flex-[6]">
+			<div className="gap-3 flex flex-col md:flex-row relative flex-[6]">
 				<div className="kal-search-document flex flex-col gap-2.5 relative w-full flex-1">
 					<div className="cursor-pointer"
 						onClick={() => {
@@ -408,14 +408,14 @@ const KalSearch = ({ page, locale }) => {
 				</button>
 
 				{isDocumentPopupVisible && (
-				<main className="kal-search-document-popup lg:translate-y-[85%] lg:z-2 lg:w-[calc(100%+20px)] flex flex-1 absolute bottom-0 left-0 transform translate-y-full bg-white min-h-[400px] w-full -ml-3 rounded-b-lg border-2 border-gray-300 border-t-0 flex-col gap-2.5 max-h-[400px]" ref={documentPopupRef}>
+				<main className="kal-search-document-popup z-20 max-lg:translate-y-[85%] max-lg:z-2 max-lg:w-[calc(100%+24px)] lg:w-[calc(100%+24px)] flex flex-1 absolute bottom-0 left-0 transform translate-y-full bg-white min-h-[400px] w-full -ml-3 rounded-b-lg border-2 border-gray-300 border-t-0 flex-col gap-2.5 max-h-[400px]" ref={documentPopupRef}>
 
 						<div className="kal-search-document-search-suggestion no-scrollbar overflow-y-auto grid grid-cols-2 gap-2.5 p-2.5 w-full auto-rows-[150px] hover:border-green-500/50">
 							{documents.length > 0 ? (
 								documents.map(doc => (
 									<div
 										key={doc.id}
-										className={`p-2 border text-center leading-none border-gray-300 transition-all duration-200 cursor-pointer rounded-sm flex gap-4 items-center flex-col hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
+										className={`p-2 border text-center leading-none border-gray-300 md transition-all duration-200 cursor-pointer rounded-sm flex gap-4 items-center flex-col hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
 										onClick={() => handleDocumentSelect(doc)}
 									>
 										<Image
@@ -435,6 +435,7 @@ const KalSearch = ({ page, locale }) => {
 				</main>
 				)}
 			</div>
+
 		</div>
 	);
 };
