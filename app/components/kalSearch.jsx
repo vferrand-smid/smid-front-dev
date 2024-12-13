@@ -381,7 +381,7 @@ const KalSearch = ({ page, locale }) => {
 					<section className="flex gap-2.5 items-center w-full p-2.5 h-[60px] box-border cursor-pointer"
 							 onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
 						{selectedDocument ? (
-							<section>
+							<div className="flex items-center gap-2.5">
 								<Image
 									width={500}
 									height={500}
@@ -390,7 +390,7 @@ const KalSearch = ({ page, locale }) => {
 									className={`w-full h-full max-w-[30px] max-h-[30px] object-contain`}
 								/>
 								{documents.find(d => d.id === selectedDocument)?.name}
-							</section>
+							</div>
 						) : (
 							<div>
 								<p className="text-sm text-gray-700 md:text-base font-normal leading-[1.33]">{translations.kalSearch.document  || "Choose the document"}</p>
@@ -419,7 +419,7 @@ const KalSearch = ({ page, locale }) => {
 								documents.map(doc => (
 									<div
 										key={doc.id}
-										className={`p-2 border text-center leading-none border-gray-300 md transition-all duration-200 cursor-pointer rounded-sm flex gap-4 items-center flex-col hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
+										className={`flex-col p-2 border text-center leading-none border-gray-300 md transition-all duration-200 cursor-pointer rounded-sm flex gap-4 items-center hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
 										onClick={() => handleDocumentSelect(doc)}
 									>
 										<Image

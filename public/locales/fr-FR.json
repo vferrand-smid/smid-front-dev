@@ -36,7 +36,7 @@
 
   "Bloc1" : {
     "girl" : "/images/Bloc1/fr-FR/photo_identite_en_ligne_france.png",
-    "background" : "/images/background.png",
+    "background" : "/images/background.webp",
     "titre_bloc1" : "Obtenez Rapidement",
     "titre_h4_bloc1": "pour renouveler vos documents officiels français en ligne !",
     "repeteurCheckGreenBloc1": [

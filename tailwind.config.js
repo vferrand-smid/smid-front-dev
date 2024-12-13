@@ -22,7 +22,7 @@ module.exports = {
                 sans: ['Georama', 'sans-serif'],
             },
             backgroundImage: {
-                'hero-pattern': "url('/images/Bloc1/background.png')",
+                'hero-pattern': "url('/images/Bloc1/background.webp')",
             },
         },
 
