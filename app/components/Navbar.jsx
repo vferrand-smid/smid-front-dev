@@ -16,11 +16,11 @@ export default function Navbar({ locale }) {
 
   return (
       <header className="sticky top-0 z-40 bg-[#ffffffe0] h-14 shadow flex justify-center" style={{ backdropFilter: "blur(4px)" }}>
-        <nav className="w-full flex">
-          <div className="container xl:mx-4 w-full max-w-full px-2 xl:px-8 flex items-center justify-between">
+        <nav className="w-full flex m-3">
+          <div className="container xl:mx-0 w-full max-w-full flex items-center justify-between">
             {/* Logo section */}
-            <div className="flex items-center ">
-              <div className="navLogo w-[120px] h-[20px] md:w-[143px] md:h-[23px]">
+            <div className="flex items-center">
+              <div className="navLogo w-[120px] h-[20px] md:w-[143px] md:h-[23px] mx-2">
                 <Link href="/" aria-label="Page d'accueil du site">
                   <svg
                       width="143"
@@ -94,7 +94,7 @@ export default function Navbar({ locale }) {
             </div>
 
             {/* Desktop Links */}
-            <div className="flex max-lg:hidden items-center lg:space-x-2">
+            <div className="flex max-lg:hidden items-center mx-2 gap-x-6 xl:gap-x-10">
               {translations.NavBar?.liens.map((item, index) => {
                 if (!item.url || !item.link) {
                   console.error(`Lien invalide à l'index ${index}:`, item);
@@ -107,7 +107,7 @@ export default function Navbar({ locale }) {
                         href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs xl:text-lg p-2 hover:text-green-500 transition"
+                        className="text-xs lg:text-sm hover:text-green-500 transition"
                     >
                       {item.link}
                     </Link>
@@ -117,21 +117,21 @@ export default function Navbar({ locale }) {
 
             {/* Liens applis */}
             {!isClick && (
-            <div className="flex items-center max-md:hidden">
-              <div className="flex flex-row space-x-2">
+            <div className="flex max-md:hidden max-h-full">
+              <div className="flex flex-row items-center lg:mx-1 lg:gap-0.5">
                 <Link
                     href={translations?.Footer?.["AppStore-link"]  || "#"}
                     target="_blank"
                     aria-label="Page de téléchargement Apple Store"
                 >
                   <Image
-                      src={translations?.Footer?.AppStoreImg  || "/images/Footer/AppStore-vector.svg"}
+                      src={translations?.Footer?.AppStoreImg  || "/images/General/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg"}
                       alt=""
                       width={120}
                       height={120}
                       priority={true}
                       aria-hidden="true"
-                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                      className="m-2"
                   />
                 </Link>
                 <Link
@@ -140,13 +140,13 @@ export default function Navbar({ locale }) {
                     aria-label="Page de téléchargement Google Store"
                 >
                   <Image
-                      src={translations?.Footer?.PlayStoreImg  || "/images/Footer/Gstore-vector.svg"}
+                      src={translations?.Footer?.PlayStoreImg  || "/images/General/fr_badge_web_generic-3.png"}
                       alt=""
                       width={120}
                       height={120}
                       priority={true}
                       aria-hidden="true"
-                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                      className="m-2"
                   />
                 </Link>
               </div>

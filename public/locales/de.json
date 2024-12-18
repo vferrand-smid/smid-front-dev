@@ -576,12 +576,12 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=de&gl=de",
     "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
-    "mentions-confidentialité": "Datenschutzrichtlinie",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/de_DE/datenschutzrichtlinie",
+    "mentions-confidentialite": "Datenschutzrichtlinie",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/de_DE/datenschutzrichtlinie",
     "mentions-cgu": "Nutzungsbedingungen",
     "mentions-cgu-link": "https://www.smartphone-id.com/de_DE/nutzungsbedingungen",
-    "mentions-légales": "Impressum",
-    "mentions-légales-link": "https://www.smartphone-id.com/de_DE/impressum",
+    "mentions-legales": "Impressum",
+    "mentions-legales-link": "https://www.smartphone-id.com/de_DE/impressum",
     "Cookies": "Kekse",
     "Cookies-link": "https://www.smartphone-id.com/de_DE/Kekse"
   }

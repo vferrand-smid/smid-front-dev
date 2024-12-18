@@ -3,8 +3,6 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import useTranslations from '@/utils/useTranslations';
 import {getGeolocationData} from "@/services/ipapi";
-//import {styles} from "next/dist/client/components/react-dev-overlay/internal/components/Toast";
-import styles from "../[locale]/globals.css";
 
 const KalSearch = ({ page, locale }) => {
 	const [currentCountry, setCurrentCountry] = useState(null);
@@ -151,6 +149,7 @@ const KalSearch = ({ page, locale }) => {
 		};
 	}, []);
 
+
 	// GTM
 	const triggerGTMEventOnPhotoButtonClick = () => {
 		if (window && window.dataLayer) {
@@ -269,6 +268,7 @@ const KalSearch = ({ page, locale }) => {
 	);
 
 	return (
+
 		<div className="kal-search flex flex-col lg:flex-row w-full md:w-[700px] rounded-lg border-2  border-gray-300 bg-white p-2.5 gap-2.5 box-border isolate mt-10 mr-28">
 			{/* COUNTRY */}
 			<div className="flex relative flex-[5] w-full">
@@ -277,9 +277,9 @@ const KalSearch = ({ page, locale }) => {
 						setIsCountryPopupVisible(!isCountryPopupVisible);
 						console.log("État de la popup :", !isCountryPopupVisible); // Log de test
 					}} >
-						<h4 className="flex gap-1 items-baseline text-black text-sm font-semibold leading-normal">
+						<h4 className="flex gap-1 items-baseline text-black font-semibold leading-normal ">
 							1. {translations.kalSearch.titre_1} <span className="flex text-red-500">*</span>
-							<svg className="cursor-pointer" width="13" height="8" viewBox="0 0 13 8" fill="none"
+							<svg className="cursor-pointer m-2" width="13" height="8" viewBox="0 0 13 8" fill="none"
 								 xmlns="http://www.w3.org/2000/svg"
 							>
 								<path
@@ -291,7 +291,7 @@ const KalSearch = ({ page, locale }) => {
 							</svg>
 						</h4>
 					</div>
-					<section className="flex gap-2.5 items-center w-full p-2.5 h-[60px] box-border cursor-pointer"
+					<section className="flex gap-2.5 items-center w-full p-2.5 h-[60px] box-border cursor-pointer "
 							 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}>
 						{selectedCountry && (
 							<>
@@ -342,7 +342,7 @@ const KalSearch = ({ page, locale }) => {
 			</div>
 
 			{/* DOCUMENT */}
-			<div className="gap-3 flex flex-col md:flex-row relative flex-[6]">
+			<div className="gap-3 flex flex-col lg:flex-row relative flex-[6]">
 				<div className="kal-search-document flex flex-col gap-2.5 relative w-full flex-1">
 					<div className="cursor-pointer"
 						onClick={() => {
@@ -354,10 +354,10 @@ const KalSearch = ({ page, locale }) => {
 							setIsDocumentPopupVisible(!isDocumentPopupVisible);
 						}}
 					>
-						<h4 className="flex gap-1 items-baseline text-black text-sm font-semibold leading-normal">
+						<h4 className="flex gap-1 items-baseline text-black font-semibold leading-normal">
 							2. {translations.kalSearch.titre_2} <span className="text-red-500">*</span>
 							<svg
-								className="cursor-pointer"
+								className="cursor-pointer m-2"
 								width="13"
 								height="8"
 								viewBox="0 0 13 8"
@@ -378,7 +378,7 @@ const KalSearch = ({ page, locale }) => {
 						</h4>
 					</div>
 					{/* POP-UP DOCUMENT */}
-					<section className="flex gap-2.5 items-center w-full p-2.5 h-[60px] box-border cursor-pointer"
+					<section className="flex gap-2.5 w-full p-2.5 h-[60px] box-border cursor-pointer"
 							 onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
 						{selectedDocument ? (
 							<div className="flex items-center gap-2.5">
@@ -387,13 +387,13 @@ const KalSearch = ({ page, locale }) => {
 									height={500}
 									src={documents.find(d => d.id === selectedDocument)?.img}
 									alt="document icon"
-									className={`w-full h-full max-w-[30px] max-h-[30px] object-contain`}
+									className={`w-full h-[40px] max-w-[40px] object-contain`}
 								/>
 								{documents.find(d => d.id === selectedDocument)?.name}
 							</div>
 						) : (
 							<div>
-								<p className="text-sm text-gray-700 md:text-base font-normal leading-[1.33]">{translations.kalSearch.document  || "Choose the document"}</p>
+								<p className="text-base text-gray-700 font-normal leading-[1.33]">{translations.kalSearch.document  || "Choose the document"}</p>
 							</div>
 						)}
 					</section>
@@ -402,12 +402,11 @@ const KalSearch = ({ page, locale }) => {
 				{/* BOUTON */}
 				<button onClick={() => {
 					handleGenerateUrl();
-				}} disabled={!selectedDocument || !selectedCountry} className={`lg:mt-7.5 button-photo text-white text-center text-sm font-semibold rounded-full bg-black h-fit px-6 py-4 self-center cursor-pointer ${
-					selectedDocument && selectedCountry
+				}} disabled={!selectedDocument || !selectedCountry} className={`button-photo text-white text-center text-sm font-semibold rounded-full bg-black h-fit self-center cursor-pointer p-2				    
+				${selectedDocument && selectedCountry
 						? '' // Bouton actif : aucun style supplémentaire
 						: 'opacity-50 pointer-events-none cursor-not-allowed' // Bouton désactivé
-				}`}
-				>
+				}`}>
 					3. {translations.kalSearch.bouton}
 				</button>
 

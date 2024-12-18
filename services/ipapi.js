@@ -11,7 +11,7 @@ export const getGeolocationData = async () => {
     }
 
     try {
-        const response = await fetch('https://ipapi.co/json/');
+        const response = await fetch('https://get.geojs.io/v1/ip/geo.json');
         if (!response.ok) {
             throw new Error('Erreur lors de l\'appel à IPAPI');
         }
@@ -27,3 +27,4 @@ export const getGeolocationData = async () => {
         return null;
     }
 };
+

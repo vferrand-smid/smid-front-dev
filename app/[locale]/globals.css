@@ -6,10 +6,6 @@
 /* base styles */
 
 @layer components {
-    .button-photo {
-        @apply bg-black text-white text-center font-semibold text-lg rounded-full px-6 py-4 cursor-pointer;
-    }
-
     .disabled {
         @apply opacity-50 pointer-events-none cursor-not-allowed;
     }
