@@ -125,7 +125,7 @@ export default function Navbar({ locale }) {
                     aria-label="Page de téléchargement Apple Store"
                 >
                   <Image
-                      src={translations?.Footer?.AppStoreImg  || "/images/General/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg"}
+                      src={translations?.Footer?.AppStoreImg  || "/images/General/Download_on_the_App_Store_Badge_FR_blk_100517.webp"}
                       alt=""
                       width={120}
                       height={120}
@@ -140,7 +140,7 @@ export default function Navbar({ locale }) {
                     aria-label="Page de téléchargement Google Store"
                 >
                   <Image
-                      src={translations?.Footer?.PlayStoreImg  || "/images/General/fr_badge_web_generic-3.png"}
+                      src={translations?.Footer?.PlayStoreImg  || "/images/General/google-play-badge.webp"}
                       alt=""
                       width={120}
                       height={120}
