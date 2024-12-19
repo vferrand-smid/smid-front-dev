@@ -384,11 +384,11 @@ export default function Footer() {
                 <section className="mentions max-lg:flex-col max-lg:items-center">
                     <p>© 2024 Smartphone iD</p>
                     <Link
-                        href={translations.Footer["mentions-confidentialité-link"] || "#"}
+                        href={translations.Footer["mentions-confidentialite-link"] || "#"}
                         aria-label="Politique de confidentialité"
                         target="_blank"
                     >
-                        {translations.Footer["mentions-confidentialité"]}
+                        {translations.Footer["mentions-confidentialite"]}
                     </Link>
                     <Link
                         href={translations.Footer["mentions-cgu-link"] || "#"}
@@ -398,11 +398,11 @@ export default function Footer() {
                         {translations.Footer["mentions-cgu"]}
                     </Link>
                     <Link
-                        href={translations.Footer["mentions-légales-link"] || "#"}
+                        href={translations.Footer["mentions-legales-link"] || "#"}
                         aria-label="Mentions légales"
                         target="_blank"
                     >
-                        {translations.Footer["mentions-légales"]}
+                        {translations.Footer["mentions-legales"]}
                     </Link>
                     <Link
                         href={translations.Footer["cookies-link"] || "#"}

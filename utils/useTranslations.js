@@ -20,7 +20,6 @@ export default function useTranslations(defaultLocale = 'fr-FR') {
                     throw new Error(`Failed to load translations for ${locale}`);
                 }
                 const data = await response.json();
-                console.log(`useTranslations.js - Fetched translations for ${locale}:`, data);
                 setTranslations(data);
             } catch (error) {
                 console.error('useTranslations.js - Failed to load translations:', error);

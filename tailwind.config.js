@@ -7,6 +7,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+           /* screens: {
+                'max-w-900': { max: '900px' }, // Ajoute un breakpoint jusqu'à 900px
+            },*/
             zIndex: {
                 '12': '12',
             },
@@ -17,6 +20,9 @@ module.exports = {
 
             fontFamily: {
                 sans: ['Georama', 'sans-serif'],
+            },
+            backgroundImage: {
+                'hero-pattern': "url('/images/Bloc1/background.webp')",
             },
         },
 

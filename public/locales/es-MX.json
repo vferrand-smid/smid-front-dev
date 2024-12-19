@@ -4,6 +4,11 @@
     "description": "Herramienta rápida y sencilla para fotos de pasaporte de calidad."
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -579,12 +584,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privacy Policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy Policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-legales": "Legal notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

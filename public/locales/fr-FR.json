@@ -4,6 +4,11 @@
     "description": "Obtenez rapidement votre photo d’identité sécurisée"
   },
 
+  "SmartBanner": {
+    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+    "download": "Téléchargement"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -31,7 +36,7 @@
 
   "Bloc1" : {
     "girl" : "/images/Bloc1/fr-FR/photo_identite_en_ligne_france.png",
-    "background" : "/images/background.png",
+    "background" : "/images/background.webp",
     "titre_bloc1" : "Obtenez Rapidement",
     "titre_h4_bloc1": "pour renouveler vos documents officiels français en ligne !",
     "repeteurCheckGreenBloc1": [
@@ -622,15 +627,15 @@
     "applis-p":  "Suivez vos commandes et profitez d’encore plus de fonctionnalités avec l’application Smartphone iD.",
     "AppStore-link" : "https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
-    "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
-    "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
+    "AppStoreImg" : "/images/General/Download_on_the_App_Store_Badge_FR_blk_100517.webp",
+    "PlayStoreImg": "/images/General/google-play-badge.webp",
     "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
-    "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
+    "mentions-confidentialite": "Politique de confidentialité",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d’utilisation",
     "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
-    "mentions-légales": "Mentions légales",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Mentions légales",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/cookies/"
   }

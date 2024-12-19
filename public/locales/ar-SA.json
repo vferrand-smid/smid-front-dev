@@ -4,6 +4,11 @@
     "description": "أداة سريعة وسهلة للحصول على صور الهوية الشخصية عالية الجودة"
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -622,12 +627,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "تابعونا وتعرفوا على أحدث المعلومات المتعلقة بالتأشيرات والوثائق الرسمية الأخرى.",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privacy Policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy Policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal Notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-legales": "Legal Notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

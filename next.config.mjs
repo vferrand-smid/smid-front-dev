@@ -1,7 +1,5 @@
 import withBundleAnalyzer from '@next/bundle-analyzer';
 
-console.log("next.config.mjs - Loading next.config.mjs");
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {

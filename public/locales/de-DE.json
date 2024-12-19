@@ -4,6 +4,11 @@
     "description": "Schnelles und einfaches Tool für hochwertige Passfotos"
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -599,12 +604,12 @@
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=de&gl=de",
     "AppStoreImg" : "/images/Footer/AppStore_icon_EN.svg",
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
-    "mentions-confidentialité": "Privacy Policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy Policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/legal-notice/",
+    "mentions-legales": "Legal notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/en/legal-notice/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
