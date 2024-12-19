@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import Negotiator from 'negotiator';
 import nextToGraphQLLocales from './app/lib/locales';
 
+
 const defaultLocale = 'fr-FR'; // Locale par défaut
 const languageToLocaleMap = {
     fr: 'fr-FR',
@@ -23,13 +24,17 @@ function getLocale(request) {
     const negotiator = new Negotiator({ headers });
     const languages = negotiator.languages();
 
+   // console.log('Detected languages:', languages);
+
     for (const lang of languages) {
         const canonicalLang = getCanonicalLocale(lang);
+       // console.log('Canonical locale:', canonicalLang);
         if (nextToGraphQLLocales[canonicalLang]) {
+            //console.log('Locale found in nextToGraphQLLocales:', canonicalLang);
             return canonicalLang;
         }
     }
-
+    //console.warn('No valid locale found in request. Falling back to default locale.');
     return getCanonicalLocale(defaultLocale);
 }
 

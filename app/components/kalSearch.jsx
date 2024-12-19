@@ -393,7 +393,7 @@ const KalSearch = ({ page, locale }) => {
 							</div>
 						) : (
 							<div>
-								<p className="text-base text-gray-700 font-normal leading-[1.33]">{translations.kalSearch.document  || "Choose the document"}</p>
+								<p className="text-base text-gray-700 font-normal custom-1101 leading-[1.33]">{translations.kalSearch.document  || "Choose the document"}</p>
 							</div>
 						)}
 					</section>
