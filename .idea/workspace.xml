@@ -5,71 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1c89d08-63f5-48e5-8e1a-0c133b9a5958" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Bloc1/background.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Bloc1/fr-FR/girl.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Bloc1/fr-FR/photo_identite_en_ligne_france.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/General/Download_on_the_App_Store_Badge_FR_blk_100517.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/General/google-play-badge.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/middleware.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/middleware.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/404.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/[locale].js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/[locale].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Bloc1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Bloc1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/SmartBanner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/SmartBanner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/kalSearch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/kalSearch.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/apolloClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/apolloClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/pageQueries.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/pageQueries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/Bloc1.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/Bloc1.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/Bloc5Services.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/Bloc5Services.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/KalSearch.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Footer/AppStore-vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Footer/AppStore-vector.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/ar-AE.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ar-AE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/ar-SA.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ar-SA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/de-CH.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de-CH.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de-DE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-AU.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-AU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-GB.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-GB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-IE.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-IE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-IN.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-IN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-NG.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-NG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-NZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-NZ.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-SG.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-SG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en-ZA.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en-ZA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es-AR.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es-AR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es-CO.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es-CO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es-ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es-MX.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es-MX.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/et-EE.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/et-EE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr-BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr-BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr-CA.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr-CA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr-CH.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr-CH.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr-FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr-FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/it-IT.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/it-IT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/nl-BE.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/nl-BE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/nl-NL.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/nl-NL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/pl-PL.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/pl-PL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/pt-BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/pt-BR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/pt-PT.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/pt-PT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/ru-RU.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ru-RU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/sv-SE.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/sv-SE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/zh-CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/zh-CN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/ipapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/ipapi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/useTranslations.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/useTranslations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +67,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging production",
+    "git-widget-placeholder": "production",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
