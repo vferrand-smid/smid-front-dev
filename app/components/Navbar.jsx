@@ -17,7 +17,7 @@ export default function Navbar({ locale }) {
   return (
       <header className="sticky top-0 z-40 bg-[#ffffffe0] h-14 shadow flex justify-center" style={{ backdropFilter: "blur(4px)" }}>
         <nav className="w-full flex m-3">
-          <div className="container xl:mx-0 w-full max-w-full flex items-center justify-between">
+          <div className="container mr-5 w-full max-w-full flex items-center justify-between">
             {/* Logo section */}
             <div className="flex items-center">
               <div className="navLogo w-[120px] h-[20px] md:w-[143px] md:h-[23px] mx-2">

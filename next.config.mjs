@@ -1,5 +1,3 @@
-import withBundleAnalyzer from '@next/bundle-analyzer';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
@@ -22,6 +20,7 @@ const nextConfig = {
             },
         ],
     },
+    reactStrictMode: true, // Facultatif, mais recommandé
     async redirects() {
         return [
             {
@@ -39,6 +38,4 @@ const nextConfig = {
 };
 
 // Ajout de l'analyseur de bundle
-export default withBundleAnalyzer({
-    enabled: process.env.ANALYZE === 'true', // Active l'analyse si ANALYZE=true
-})(nextConfig);
+export default nextConfig;
