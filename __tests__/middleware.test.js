@@ -19,11 +19,9 @@ describe('Middleware', () => {
 
         // Afficher les journaux pour débogage
         consoleSpy.mock.calls.forEach((call, index) => {
-            console.log(`Console log ${index + 1}:`, call);
         });
 
         consoleErrorSpy.mock.calls.forEach((call, index) => {
-            console.log(`Console error ${index + 1}:`, call);
         });
 
         // Vérifications

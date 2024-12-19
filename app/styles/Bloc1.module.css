@@ -42,10 +42,6 @@
     @apply flex justify-center items-center w-full;
 }
 
-.girl {
-    @apply flex justify-center w-full mt-4 shrink-0 object-contain; /* Suppression de la position absolue */
-}
-
 
 @media (max-width: 768px) {
     .kalHero {

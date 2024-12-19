@@ -8,7 +8,6 @@ const NotFoundPage = () => {
     const pathname = usePathname();
     const locale = pathname.split('/')[1] || 'fr-FR'; // Extraire la locale depuis le chemin de l'URL ou utiliser 'fr-FR' par défaut
 
-    console.log("Rendering NotFoundPage with locale:", locale);
 
     return (
         <div>
@@ -19,7 +18,6 @@ const NotFoundPage = () => {
 };
 
 export default function Custom404() {
-    console.log("Rendering Custom404 with Suspense");
     return (
         <ErrorBoundary>
             <React.Suspense fallback={<div>Loading...</div>}>

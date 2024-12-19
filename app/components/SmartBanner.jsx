@@ -1,12 +1,15 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from "next/link";
+import useTranslations from "@/utils/useTranslations";
 
-export default function SmartBanner({ onVisibilityChange }) {
+export default function SmartBanner({ onVisibilityChange, locale }) {
     const [platform, setPlatform] = useState(null); // Détecte la plateforme (iOS ou Android)
     const [isVisible, setIsVisible] = useState(true); // Contrôle la visibilité de la bannière
+    const {translations, loading} = useTranslations(locale);
+
 
     useEffect(() => {
         // Détecte la plateforme de l'utilisateur
@@ -50,22 +53,23 @@ export default function SmartBanner({ onVisibilityChange }) {
                     width={48}
                     height={48}
                     className="mr-4"
+                    priority={true}
                 />
                 <div>
                     <strong className="text-sm">Smartphone iD</strong>
-                    <p className="text-xs">Obtenez rapidement votre photo d’identité sécurisée</p>
+                    <p className="text-xs">{translations?.SmartBanner?.phrase}</p>
                 </div>
             </div>
 
             <Link
                 href={
                     platform === 'ios'
-                        ? 'https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865'
-                        : 'https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR'
+                        ? translations?.Footer?.["AppStore-link"] || "#"
+                        : translations?.Footer?.["PlayStore-link"] || "#"
                 }
                 className="bg-primary text-white px-4 py-2 rounded text-sm font-bold shadow"
             >
-                Télécharger
+                {translations?.SmartBanner?.download}
             </Link>
         </div>
     );

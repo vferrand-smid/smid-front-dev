@@ -4,6 +4,11 @@
     "description": "Obtenez rapidement votre photo d’identité sécurisée"
   },
 
+  "SmartBanner": {
+    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+    "download":"Télécharger"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -577,12 +582,12 @@
     "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
     "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
     "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
-    "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
+    "mentions-confidentialite": "Politique de confidentialité",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d'utilisation",
     "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
-    "mentions-légales": "Mentions légales",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Mentions légales",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "cookies": "Cookies",
     "cookies-link": "https://www.smartphone-id.com/cookies/"
   }
