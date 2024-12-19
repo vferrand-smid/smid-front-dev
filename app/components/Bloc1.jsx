@@ -69,14 +69,14 @@ const Bloc1 = ({ page, locale  }) => {
 
                 <KalSearch/>
 
-                <article className="absolute bottom-0 right-0 h-[120%] flex items-end -mb-20 -mt-20">
+                <article className="absolute justify-center bottom-0 lg:right-[calc(-5%)] h-[600px] w-[497px] flex items-end -mb-20 -mt-20">
                     <Image
                         src={translations.Bloc1.girl}
                         alt="Hero Girl"
                         width={497}
                         height={600}
                         priority={true}
-                        className="flex justify-center h-full w-full mt-4 shrink-0 box-content object-contain"
+                        className="object-contain"
                     />
                 </article>
             </div>

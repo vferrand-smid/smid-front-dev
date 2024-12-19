@@ -15,6 +15,11 @@
     .no-scrollbar::-webkit-scrollbar {
         display: none;
     }
+    @media (min-width: 1101px) {
+        .custom-1101 {
+           @apply mt-7;
+        }
+    }
 }
 
 
@@ -2072,7 +2077,7 @@ span {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .kal-hero {
         padding: 80px 20px;
     }
@@ -2080,24 +2085,18 @@ span {
         position: initial;
         bottom: unset;
         right: unset;
-        margin: 10px;
         width: 100%;
         height: auto;
         margin-bottom: -80px;
         margin-top: 40px;
     }
-    .kal-hero > div > article > img {
-        max-height: 100%;
-        max-width: 100%;
-        object-fit: contain;
-        margin: auto;
-    }
+
     .kal-hero > div {
         max-width: 600px;
         margin: auto;
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
     .kal-hero > div > aside {
         flex-direction: column;
     }

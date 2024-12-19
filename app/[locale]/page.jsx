@@ -18,6 +18,9 @@ import Bloc11 from '../components/Bloc11';
 
 import nextToGraphQLLocales from '../lib/locales';
 
+console.log('React version:', React.version);
+console.log('ReactDOM version:', require('react-dom').version);
+
 const PageList = () => {
     const pathname = usePathname();
     const locale = pathname.split('/')[1]; // Récupère la locale à partir du chemin de l'URL
