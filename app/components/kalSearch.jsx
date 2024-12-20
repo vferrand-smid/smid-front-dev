@@ -277,7 +277,7 @@ const KalSearch = ({ page, locale }) => {
 						setIsCountryPopupVisible(!isCountryPopupVisible);
 						console.log("État de la popup :", !isCountryPopupVisible); // Log de test
 					}} >
-						<h4 className="flex gap-1 items-baseline text-black font-semibold leading-normal ">
+						<h4 className="flex flex-wrap gap-1 items-baseline text-black font-semibold leading-normal">
 							1. {translations.kalSearch.titre_1} <span className="flex text-red-500">*</span>
 							<svg className="cursor-pointer m-2" width="13" height="8" viewBox="0 0 13 8" fill="none"
 								 xmlns="http://www.w3.org/2000/svg"
