@@ -94,7 +94,7 @@ export default function Navbar({ locale }) {
             </div>
 
             {/* Desktop Links */}
-            <div className="flex max-lg:hidden items-center mx-2 gap-x-6 xl:gap-x-10">
+            <div className="flex max-xl:hidden items-center mx-2 gap-x-6 xl:gap-x-10">
               {translations.NavBar?.liens.map((item, index) => {
                 if (!item.url || !item.link) {
                   console.error(`Lien invalide à l'index ${index}:`, item);
@@ -153,7 +153,7 @@ export default function Navbar({ locale }) {
             </div>
             )}
             {/* Mobile Menu Button */}
-            <div className="mobile-menu hidden max-lg:flex items-center">
+            <div className="mobile-menu hidden max-xl:flex items-center">
               <button
                   aria-label="toggle button"
                   aria-expanded="false"
@@ -187,7 +187,7 @@ export default function Navbar({ locale }) {
 
             {/* Mobile Menu Links */}
             {isClick && (
-                <div className="flex flex-col absolute top-[56px] left-0 right-0 lg:hidden justify-center bg-white shadow-lg w-auto max-w-full">
+                <div className="flex flex-col absolute top-[56px] left-0 right-0 xl:hidden justify-center bg-white shadow-lg w-auto max-w-full">
                   <div className="px-4 pb-3 space-y-1 sm:px-6 text-center">
                     {translations.NavBar?.liens.map((item, index) => {
                       if (!item.url || !item.link) {
