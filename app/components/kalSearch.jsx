@@ -269,7 +269,7 @@ const KalSearch = ({ page, locale }) => {
 
 	return (
 
-		<div className="kal-search flex flex-col lg:flex-row w-full md:w-[700px] rounded-lg border-2  border-gray-300 bg-white p-2.5 gap-2.5 box-border isolate mt-10 mr-28">
+		<div className="kal-search flex flex-col lg:flex-row w-full md:w-[700px] rounded-lg border-2 border-gray-300 bg-white p-2.5 gap-2.5 box-border isolate mt-10 mr-28">
 			{/* COUNTRY */}
 			<div className="flex relative flex-[5] w-full">
 				<div className="kal-search-country flex flex-col gap-2.5 w-full pr-5 lg:border-r-2 border-gray-300 lg:pr-0 lg:pl-0">
@@ -291,7 +291,7 @@ const KalSearch = ({ page, locale }) => {
 							</svg>
 						</h4>
 					</div>
-					<section className="flex gap-2.5 items-center w-full p-2.5 h-[60px] box-border cursor-pointer "
+					<section className="flex gap-2.5 items-center w-full p-2.5 h-[60px] box-border cursor-pointer"
 							 onClick={() => setIsCountryPopupVisible(!isCountryPopupVisible)}>
 						{selectedCountry && (
 							<>
@@ -392,8 +392,8 @@ const KalSearch = ({ page, locale }) => {
 								{documents.find(d => d.id === selectedDocument)?.name}
 							</div>
 						) : (
-							<div>
-								<p className="text-base text-gray-700 font-normal custom-1101 leading-[1.33]">{translations.kalSearch.document  || "Choose the document"}</p>
+							<div className="flex items-center align-middle w-full">
+								<p className="text-base text-gray-700 font-normal leading-[1.33]">{translations.kalSearch.document  || "Choose the document"}</p>
 							</div>
 						)}
 					</section>
