@@ -428,7 +428,7 @@ const KalSearch = ({ page, locale }) => {
 											alt={doc.name}
 											className="object-contain w-[70px] h-[70px] flex-grow-0 flex-shrink-0"
 										/>
-										<span className="ml-2">{doc.name}</span>
+										<span className="ml-2 text-sm">{doc.name}</span>
 									</div>
 								))
 							) : (
