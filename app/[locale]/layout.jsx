@@ -57,6 +57,42 @@ export default function RootLayout({children, params}) {
         <html lang={locale}>
 
         <head>
+            <link rel="alternate" hrefLang="ar" href="https://www.smartphone-id.com/ar/"/>
+            <link rel="alternate" hrefLang="ar" href="https://www.smartphone-id.com/ar-AE/"/>
+            <link rel="alternate" hrefLang="ar" href="https://www.smartphone-id.com/ar-SA/"/>
+            <link rel="alternate" hrefLang="de" href="https://www.smartphone-id.com/de/"/>
+            <link rel="alternate" hrefLang="de" href="https://www.smartphone-id.com/de-CH/"/>
+            <link rel="alternate" hrefLang="de" href="https://www.smartphone-id.com/de-DE/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-AU/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-CA/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-GB/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-IE/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-IN/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-NG/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-NZ/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-SG/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-US/"/>
+            <link rel="alternate" hrefLang="en" href="https://www.smartphone-id.com/en-ZA/"/>
+            <link rel="alternate" hrefLang="es" href="https://www.smartphone-id.com/es-AR/"/>
+            <link rel="alternate" hrefLang="es" href="https://www.smartphone-id.com/es-CO/"/>
+            <link rel="alternate" hrefLang="es" href="https://www.smartphone-id.com/es-ES/"/>
+            <link rel="alternate" hrefLang="es" href="https://www.smartphone-id.com/es-MX/"/>
+            <link rel="alternate" hrefLang="et" href="https://www.smartphone-id.com/et-EE/"/>
+            <link rel="alternate" hrefLang="fr" href="https://www.smartphone-id.com/fr/"/>
+            <link rel="alternate" hrefLang="fr" href="https://www.smartphone-id.com/fr-BE/"/>
+            <link rel="alternate" hrefLang="fr" href="https://www.smartphone-id.com/fr-CA/"/>
+            <link rel="alternate" hrefLang="fr" href="https://www.smartphone-id.com/fr-CH/"/>
+            <link rel="alternate" hrefLang="fr" href="https://www.smartphone-id.com/fr-FR/"/>
+            <link rel="alternate" hrefLang="it" href="https://www.smartphone-id.com/it-IT/"/>
+            <link rel="alternate" hrefLang="nl" href="https://www.smartphone-id.com/nl-BE/"/>
+            <link rel="alternate" hrefLang="nl" href="https://www.smartphone-id.com/nl-NL/"/>
+            <link rel="alternate" hrefLang="pl" href="https://www.smartphone-id.com/pl-PL/"/>
+            <link rel="alternate" hrefLang="pt" href="https://www.smartphone-id.com/pt-BR/"/>
+            <link rel="alternate" hrefLang="pt" href="https://www.smartphone-id.com/pt-PT/"/>
+            <link rel="alternate" hrefLang="ru" href="https://www.smartphone-id.com/ru-RU/"/>
+            <link rel="alternate" hrefLang="sv" href="https://www.smartphone-id.com/sv-SE/"/>
+            <link rel="alternate" hrefLang="zh" href="https://www.smartphone-id.com/zh-CN/"/>
             <title>{title}</title>
             <meta name="description" content={description}/>
             <meta property="og:title" content={title}/>
@@ -73,7 +109,7 @@ export default function RootLayout({children, params}) {
             </Script>
             {/* End Google Tag Manager */}
             <Script id="custom-meta"
-                type="application/ld+json">
+                    type="application/ld+json">
                 {JSON.stringify({
                     "@context": "https://smartphone-id.com",
                     "@type": "WebPage",
