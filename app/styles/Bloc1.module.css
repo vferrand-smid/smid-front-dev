@@ -7,10 +7,6 @@
     @apply  flex flex-col justify-center text-center md:text-left;
 }
 
-.kalHeroContentH1 {
-    @apply md:mt-12 font-semibold uppercase text-black text-2xl md:text-3xl leading-normal;
-}
-
 .bloc1Partie1 {
     @apply text-base md:text-lg mb-6; /* Réduction de l'espace */
 }
@@ -21,10 +17,6 @@
 
 .repeteurCheckGreenBloc1Img {
     @apply w-6 h-6;
-}
-
-.bloc1Partie1H4 {
-    @apply text-lg md:text-2xl mb-2 md:mb-3 text-black;
 }
 
 .kalHeroAside {

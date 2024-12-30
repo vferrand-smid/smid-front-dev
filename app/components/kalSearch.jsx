@@ -269,7 +269,7 @@ const KalSearch = ({ page, locale }) => {
 
 	return (
 
-		<div className="kal-search flex flex-col lg:flex-row w-full md:w-[700px] rounded-lg border-2 border-gray-300 bg-white p-2.5 gap-2.5 box-border isolate mt-10 mr-28">
+		<div className="kal-search z-40 flex flex-col lg:flex-row w-full md:w-[700px] rounded-lg border-2 border-gray-300 bg-white p-2.5 gap-2.5 box-border isolate mt-10">
 			{/* COUNTRY */}
 			<div className="flex relative flex-[5] w-full">
 				<div className="kal-search-country flex flex-col gap-2.5 w-full pr-5 lg:border-r-2 border-gray-300 lg:pr-0 lg:pl-0">
@@ -378,7 +378,7 @@ const KalSearch = ({ page, locale }) => {
 						</h4>
 					</div>
 					{/* POP-UP DOCUMENT */}
-					<section className="flex gap-2.5 w-full p-2.5 h-[60px] box-border cursor-pointer"
+					<section className="flex gap-2.5 w-full p-2.5 h-[60px] box-border cursor-pointer mb-3"
 							 onClick={() => setIsDocumentPopupVisible(!isDocumentPopupVisible)}>
 						{selectedDocument ? (
 							<div className="flex items-center gap-2.5">
@@ -418,7 +418,7 @@ const KalSearch = ({ page, locale }) => {
 								documents.map(doc => (
 									<div
 										key={doc.id}
-										className={`flex-col p-2 border text-center leading-none border-gray-300 md transition-all duration-200 cursor-pointer rounded-sm flex gap-4 items-center hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
+										className={`flex-col pt-2 border text-center leading-none border-gray-300 md transition-all duration-200 cursor-pointer rounded-sm flex gap-4 items-center hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
 										onClick={() => handleDocumentSelect(doc)}
 									>
 										<Image
@@ -428,7 +428,7 @@ const KalSearch = ({ page, locale }) => {
 											alt={doc.name}
 											className="object-contain w-[70px] h-[70px] flex-grow-0 flex-shrink-0"
 										/>
-										<span className="ml-2 text-sm">{doc.name}</span>
+										<span className="ml-2 text-sm md:text-base">{doc.name}</span>
 									</div>
 								))
 							) : (

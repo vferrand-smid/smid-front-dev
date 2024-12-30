@@ -1994,50 +1994,10 @@ span {
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
 }
-.kal-hero > div > section > div {
-    display: flex;
-    gap: 10px;
-    color: #000;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px; /* 156.25% */
-    align-items: baseline;
-    margin-bottom: 10px;
-}
 .kal-hero > div > section > div > svg {
     flex-shrink: 0;
 }
-.kal-hero > div > section > div > h4 {
-    color: #000;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px; /* 156.25% */
-}
-.kal-hero > div > section > p {
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 42px; /* 190.909% */
-}
 
-.kal-hero > div {
-    max-width: 1140px;
-    margin:auto;
-    position: relative;
-    min-height: 500px;
-}
-
-.kal-hero > div > h1 {
-    color: #000;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 10px;
-}
 .kal-hero > div > button {
     color: #fff;
     text-align: center;
