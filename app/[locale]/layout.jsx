@@ -16,8 +16,8 @@ export default function RootLayout({children, params}) {
     const locale = use(params)?.locale || 'fr-FR';
     const { translations } = useTranslations(locale);
     const [originCountry, setOriginCountry] = useState('');
-    const title = translations?.metadata?.title || "Smartphone iD";
-    const description = translations?.metadata?.description || "Smartphone iD";
+    const title = translations?.metadata?.title;
+    const description = translations?.metadata?.description;
     const [isBannerVisible, setIsBannerVisible] = useState(false); // Gère la visibilité de la bannière
 
     const GTM_ID = process.env.GTM_ID;
@@ -59,6 +59,10 @@ export default function RootLayout({children, params}) {
         <head>
             <title>{title}</title>
             <meta name="description" content={description}/>
+            <meta property="og:title" content={title}/>
+            <meta property="og:description" content={description}/>
+            <meta property="og:url" content="https://www.smartphone-id.com/"/>
+            <meta property="og:type" content="website"/>
             {/* Google Tag Manager */}
             <Script id="custom-script">
                 {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -73,7 +77,7 @@ export default function RootLayout({children, params}) {
         <body>
 
         <main className={`${isBannerVisible ? 'pt-20 md:pt-0' : ''}`}>
-            <SmartBanner onVisibilityChange={setIsBannerVisible} />
+            <SmartBanner onVisibilityChange={setIsBannerVisible}/>
             <Navbar/>
 
             {children}
