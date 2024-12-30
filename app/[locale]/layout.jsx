@@ -72,14 +72,15 @@ export default function RootLayout({children, params}) {
                     })(window,document,'script','dataLayer','${GTM_ID}');`}
             </Script>
             {/* End Google Tag Manager */}
-            <Script type="application/ld+json">
-                {
+            <Script id="custom-meta"
+                type="application/ld+json">
+                {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "WebPage",
-                    "name": {title},
-                    "description": {description},
-                    "url": "https://www.smartphone-id.com/"
-                }
+                    name: title,
+                    description: description,
+                    url: "https://www.smartphone-id.com/"
+                })}
             </Script>
         </head>
 
