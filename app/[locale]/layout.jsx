@@ -75,7 +75,7 @@ export default function RootLayout({children, params}) {
             <Script id="custom-meta"
                 type="application/ld+json">
                 {JSON.stringify({
-                    "@context": "https://schema.org",
+                    "@context": "https://smartphone-id.com",
                     "@type": "WebPage",
                     name: title,
                     description: description,
