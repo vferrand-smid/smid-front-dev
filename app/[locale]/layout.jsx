@@ -13,10 +13,10 @@ import SmartBanner from "@/app/components/SmartBanner";
 
 export default function RootLayout({children, params}) {
     const locale = use(params)?.locale || 'fr-FR';
-    //const { translations } = useTranslations(locale);
+    const { translations } = useTranslations(locale);
     const [originCountry, setOriginCountry] = useState('');
-    /* const title = translations?.metadata?.title;
-     const description = translations?.metadata?.description;*/
+    const title = translations?.metadata?.title;
+    const description = translations?.metadata?.description;
     const [isBannerVisible, setIsBannerVisible] = useState(false); // Gère la visibilité de la bannière
 
     // Objets contenant les titres et descriptions par langue
@@ -166,7 +166,7 @@ export default function RootLayout({children, params}) {
     };
 
 // Récupération des métadonnées basées sur la locale, avec un fallback sur 'fr-FR'
-    const {title, description} = metadata[locale] || metadata['fr-FR'];
+    //const {title, description} = metadata[locale] || metadata['fr-FR'];
 
     const GTM_ID = process.env.GTM_ID;
     const GA_PROPERTY_ID = process.env.GA_PROPERTY_ID;
