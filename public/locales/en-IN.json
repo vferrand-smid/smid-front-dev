@@ -41,11 +41,11 @@
     "titre_h4_bloc1": "Simply take a photo and receive it ready! Try it now!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "quality passport photos"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "and digital signatures."
       }
     ],
@@ -116,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-1-in-computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Scan the QR code with your smartphone and take your photo.",
         "titre_check": "Step 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-2-in-computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-3-in-computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-4-in-computer.png"
@@ -164,25 +164,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Take a photo with your smartphone.",
         "titre_check": "Step 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-1-in-mobile.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "If necessary, add printed template delivery to your home.",
         "titre_check": "Step 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-2-in-mobile.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Review the features of your photo request.",
         "titre_check": "Step 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-3-in-mobile.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Receive your digital passport photo and a ready-to-print template in your email.",
         "titre_check": "Step 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Indian-passport-photo-tool-step-4-in-mobile.png"
@@ -304,37 +304,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Young-friends-taking-indian-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "24/7 Service",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "For all document types",
         "texteService": "The right size in digital and printed format, photo depth, background color, lighting ..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "100% compliance",
         "texteService": "Get 100% compliance for any official document worldwide."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Get the best photo",
         "texteService": "Do unlimited number of takes, and choose your best shot."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Real customer service",
         "texteService": "No robots, no hidden contact info, your positive experience is important to us."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Handy for many",
         "texteService": "Especially for babies, disabled people, expats, people in rural areas..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Ecological",
         "texteService": "No more paper to waste if you need to renew your document online."
       }
@@ -396,13 +396,13 @@
     "titre_bloc7_span": "online solution",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Digital-signature-indian-document-photo.png",
         "paragraphe": "Your signature will be linked to photo for official document applications online, when needed.",
         "titre": "Digital signature"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/recent-printed-indian-passport-photo-template.png",
         "paragraphe": "Real time photo taking proves the recency of photo which is obligatory for official documents.",
         "titre": "Prove photo recency"

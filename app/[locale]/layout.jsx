@@ -207,7 +207,7 @@ export default function RootLayout({children, params}) {
 
         <head>
             <title>{title}</title>
-            <meta name= "description" content={description}/>
+            <meta name= "description" content={description || "Obtenez rapidement votre photo d'identité sécurisée"}/>
             <meta property="og:title" content={title}/>
             <meta property="og:description" content={description}/>
             <meta property="og:url" content="https://www.smartphone-id.com/"/>
@@ -230,7 +230,6 @@ export default function RootLayout({children, params}) {
             <Navbar/>
 
             {children}
-
 
             <footer>
                 <Footer/>

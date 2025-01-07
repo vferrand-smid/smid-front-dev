@@ -41,11 +41,11 @@
     "titre_h4_bloc1": "Ta bara en bild och få den färdig! Prova nu!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "kvalitets passfoton"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "och digitala signaturer."
       }
     ],
@@ -117,25 +117,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Skanna QR-koden med din smartphone och ta ditt foto.",
         "titre_check": "Steg  1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-1-dator.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Granska egenskaperna för din fotobegäran.",
         "titre_check": "Steg 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-2-dator.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Om nödvändigt, lägg till hemleverans av den tryckta mallen.",
         "titre_check": "Steg 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-3-dator.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Ta emot ditt digitala passfoto och en utskriftsklar mall i din e-post.",
         "titre_check": "Steg 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-4-dator.png"
@@ -165,25 +165,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Ta ett foto med din smartphone.",
         "titre_check": "Steg 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-1-mobil.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Om nödvändigt, lägg till hemleverans av den tryckta mallen.",
         "titre_check": "Steg 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-2-mobil.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Granska egenskaperna för din fotobegäran.",
         "titre_check": "Steg 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-3-mobil.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Få ditt digitala passfoto och en färdig att skriva ut mall i din e-post.",
         "titre_check": "Steg 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Svenskt-passfotoverktyg-steg-4-mobil.png"
@@ -301,37 +301,37 @@
     "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "För alla dokumenttyper",
         "texteService": "Rätt storlek i digitalt och tryckt format, fotodjup, bakgrundsfärg, belysning..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "100 % konformitet",
         "texteService": "Få 100 % konformitet för alla officiella dokument världen över."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Få den bästa bilden",
         "texteService": "Ta ett obegränsat antal bilder och välj din bästa."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Riktig kundservice",
         "texteService": "Inga robotar, ingen dold kontaktinformation; din positiva upplevelse är viktig för oss."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Ekologiskt",
         "texteService": "Inget mer pappersslöseri om du behöver förnya ditt dokument online."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Service 24/7",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Praktisk för många",
         "texteService": "Särskilt för spädbarn, funktionshindrade, expatriater, människor i avlägsna områden..."
       }
@@ -402,13 +402,13 @@
     "titre_bloc7_span": "online-lösning",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Digital-signatur-for-svenskt-dokumentfoto.png",
         "paragraphe": "När det behövs kommer din signatur att länkas till ditt foto för officiella online-dokumentansökningar.",
         "titre": "Digital signatur"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Nyligen-tryckt-mall-for-svenskt-passfoto.png",
         "paragraphe": "Att ta foton i realtid bevisar ett fotots aktualitet, vilket är obligatoriskt för officiella dokument.",
         "titre": "Bevisa fotots aktualitet"
@@ -424,25 +424,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/-SW0wrthlc8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Ta av ",
         "texte_span": "dina glasögon"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "Låt ljuset falla jämnt ",
         "texte_span": "över ditt ansikte"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "Ditt hår ska vara bakom ",
         "texte_span": "dina axlar"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "Munnen stängd, ",
         "texte_span": "neutralt uttryck"

@@ -41,11 +41,11 @@
     "titre_h4_bloc1": "und digitale Signaturen.",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "Ihr sicheres Passfoto"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "Expertenüberprüfung"
       }
     ],
@@ -116,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Scannen Sie den QR-Code, um ein Passfoto mit Ihrem Smartphone zu machen.",
         "titre_check": "Schritt 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-1-im-Computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
         "titre_check": "Schritt 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-2-im-Computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
         "titre_check": "Schritt 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-3-im-Computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
         "titre_check": "Schritt 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-4-im-Computer.png"
@@ -165,25 +165,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Machen Sie ein Passfoto mit Ihrem Smartphone.",
         "titre_check": "Schritt  1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-1-auf-dem-Handy.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Bestellen Sie bei Bedarf einen gedruckten Fotobogen über unseren Service.",
         "titre_check": "Schritt 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-2-auf-dem-Handy.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Überprüfen Sie die Merkmale Ihrer Anfrage.",
         "titre_check": "Schritt 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-3-auf-dem-Handy.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Erhalten Sie Ihr individuelles Foto und Ihren druckbaren Fotobogen in Ihrem E-Mail-Posteingang.",
         "titre_check": "Schritt 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Deutsches-Passfoto-Tool-Schritt-4-auf-dem-Handy.png"
@@ -304,37 +304,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Junge-Freunde-machen-ein-Foto-fur-den-deutschen-Pass-mit-der-Smartphone-iD-App.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "24/7 service",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Für jedes Dokument geeignet",
         "texteService": "Die richtige Größe im digitalen und gedruckten Format, Bildtiefe, Hintergrundfarbe, Beleuchtung..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Konformität zu 100%",
         "texteService": "Für alle offiziellen Dokumente, weltweit"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Praktisch für alle",
         "texteService": "Besonders praktisch für Babys, Menschen mit Behinderungen, Expats, Menschen in ländlichen Gebieten..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Erhalten Sie ein besseres Foto",
         "texteService": "Mach unbegrenzte Aufnahmen und wähle dein bestes Foto aus"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Echter Kundenservice",
         "texteService": "Keine Automaten, keine versteckten Kontaktinformationen - Ihre positive Erfahrung ist uns wichtig."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Ökologisch",
         "texteService": "Verschwende kein Papier mehr, wenn du dein Dokument erneuern musst."
       }
@@ -399,13 +399,13 @@
   "Bloc7": {
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/aktuelle-deutsche-Passfoto-Vorlage-zum-Ausdrucken.png",
         "paragraphe": "Echtzeit-Fotoaufnahmen beweisen die Aktualität eines Fotos, die für offizielle Dokumente obligatorisch ist.",
         "titre": "Nachweis der Aktualität von Fotos"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/digitale-Unterschrift-deutsches-Passfoto.png",
         "paragraphe": "Deine Unterschrift wird bei Bedarf mit einem Foto für offizielle Dokumentenanträge online verknüpft.",
         "titre": "Digitale Unterschrift"
@@ -419,25 +419,25 @@
   "Bloc8": {
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Brille",
         "texte_span": "ab."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "Licht fällt gleichmäßig",
         "texte_span": "auf dein Gesicht."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "Die Haare sollten",
         "texte_span": " hinter den Schultern liegen."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "Geschlossener Mund,",
         "texte_span": " neutraler Ausdruck."
