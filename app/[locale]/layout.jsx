@@ -243,9 +243,9 @@ export default function RootLayout({children, params}) {
             <link rel="alternate" hrefLang="sv" href="https://www.smartphone-id.com/sv-SE/"/>
             <link rel="alternate" hrefLang="zh" href="https://www.smartphone-id.com/zh-CN/"/>
             <title>{title}</title>
-            <meta name="description" content={description}/>
+            <meta name="description" content={description || "Obtenez rapidement votre photo d'identité sécurisée"}/>
             <meta property="og:title" content={title}/>
-            <meta property="og:description" content={description}/>
+            <meta property="og:description" content={description || "Obtenez rapidement votre photo d'identité sécurisée"}/>
             <meta property="og:url" content="https://www.smartphone-id.com/"/>
             <meta property="og:type" content="website"/>
             {/* Google Tag Manager */}
