@@ -418,7 +418,7 @@ const KalSearch = ({ page, locale }) => {
 								documents.map(doc => (
 									<div
 										key={doc.id}
-										className={`flex-col pt-2 border text-center leading-none border-gray-300 md transition-all duration-200 cursor-pointer rounded-sm flex gap-4 items-center hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
+										className={`flex-col pt-2 border text-center leading-none border-gray-300 md transition-all duration-200 cursor-pointer rounded-sm flex gap-2.5 items-center hover:border-green-500/50 lg:p-2.5 lg:text-base ${selectedDocument === doc.id ? 'border-green-500' : 'border-gray-300'}`}
 										onClick={() => handleDocumentSelect(doc)}
 									>
 										<Image
