@@ -5,20 +5,168 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Script from "next/script";
 import useTranslations from "@/utils/useTranslations";
-import { getGeolocationData } from "@/services/ipapi";
-import { useEffect, useState } from "react";
-import { use } from 'react';
+import {getGeolocationData} from "@/services/ipapi";
+import {useEffect, useState} from "react";
+import {use} from 'react';
 import SmartBanner from "@/app/components/SmartBanner";
-
 
 
 export default function RootLayout({children, params}) {
     const locale = use(params)?.locale || 'fr-FR';
-    const { translations } = useTranslations(locale);
+    //const { translations } = useTranslations(locale);
     const [originCountry, setOriginCountry] = useState('');
-    const title = translations?.metadata?.title;
-    const description = translations?.metadata?.description;
+    // const title = translations?.metadata?.title;
+    // const description = translations?.metadata?.description;
     const [isBannerVisible, setIsBannerVisible] = useState(false); // Gère la visibilité de la bannière
+
+    // Objets contenant les titres et descriptions par langue
+    const metadata = {
+        'ar': {
+            title: "صورة الهوية عبر الانترنت  - Smartphone ID",
+            description: ""
+        },
+        'ar-AE': {
+            title: "صورة الهوية عبر الانترنت  - Smartphone ID",
+            description: ""
+        },
+        'ar-SA': {
+            title: "صورة الهوية السعودية عبر الانترنت  - Smartphone ID",
+            description: "أداة سريعة وسهلة للحصول على صور الهوية الشخصية عالية الجودة"
+        },
+        'de': {
+            title: "Deutsches Passfoto online - Smartphone ID",
+            description: "Schnelles und einfaches Tool für hochwertige Passfotos"
+        },
+        'de-CH': {
+            title: "Passbilder online für die Schweiz - Smartphone iD",
+            description: "Schnelles und einfaches Tool für hochwertige Passfotos"
+        },
+        'de-DE': {
+            title: "Deutsches Passfoto online - Smartphone iD",
+            description: "Schnelles und einfaches Tool für hochwertige Passfotos"
+        },
+        'en': {
+        },
+        'en-AU': {
+            title: "Australian passport photo - Smartphone ID",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-CA': {
+            title: "Canadian passport photo - Smartphone ID",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-GB': {
+            title: 'UK passport photo online - Smartphone ID',
+            description: 'Fast and easy tool for quality passport photos',
+        },
+        'en-IE': {
+            title: "Ireland passport photo - Smartphone ID",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-IN': {
+            title: "Passport photos online for India - Smartphone iD",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-NG': {
+            title: "Passport photos for Nigeria - Smartphone iD",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-NZ': {
+            title: "New Zealand passport photo - Smartphone ID",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-SG': {
+            title: "Passport photos online for Singapore - Smartphone iD",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-US': {
+            title: "US passport photo online - Smartphone ID",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'en-ZA': {
+            title: "Passport photos online for South Africa - Smartphone iD",
+            description: "Fast and easy tool for quality passport photos"
+        },
+        'es-AR': {
+            title: "Foto de identidad Argentina online - Smartphone ID",
+            description: "Herramienta rápida y sencilla para fotos de pasaporte de calidad."
+        },
+        'es-CO': {
+            title: "Foto de identidad Colombia online - Smartphone ID",
+            description: "Herramienta rápida y sencilla para fotos de pasaporte de calidad."
+        },
+        'es-ES': {
+            title: 'Foto de identidad Española online - Smartphone ID',
+            description: 'Herramienta rápida y sencilla para fotos de pasaporte de calidad.',
+        },
+        'es-MX': {
+            title: "Foto de identidad Mexicana online - Smartphone ID",
+            description: "Herramienta rápida y sencilla para fotos de pasaporte de calidad."
+        },
+        'et-EE': {
+            title: "Eesti passfoto võrgus - Smartphone ID",
+            description: "Kiire ja lihtne vahend kvaliteetseteks dokumendifotodeks"
+        },
+        'fr': {
+            title: "Photo d'identité officielle en ligne - Smartphone ID",
+            description: "Obtenez rapidement votre photo d’identité sécurisée"
+        },
+        'fr-BE': {
+            title: "Photo d'identité officielle en ligne - Smartphone iD",
+            description: "Obtenez rapidement votre photo d’identité sécurisée"
+        },
+        'fr-CA': {
+            title: "Photo d'identité officielle en ligne - Smartphone iD",
+            description: "Obtenez rapidement votre photo d’identité sécurisée"
+        },
+        'fr-CH': {
+            title: "Photo d'identité officielle en ligne - Smartphone iD",
+            description: "Obtenez rapidement votre photo d’identité sécurisée"
+        },
+        'fr-FR': {
+            title: 'Photo d’identité française en ligne - Smartphone ID',
+            description: 'Outil rapide et facile pour des photos d’identité de qualité.',
+        },
+        'it-IT': {
+            title: "Foto d’identità Italiana online - Smartphone ID",
+            description: "Strumento facile e veloce per fototessere di qualità."
+        },
+        'nl-BE': {
+            title: "Kwalitatieve pasfoto's voor België - Smartphone iD",
+            description: "Een snel en eenvoudig hulpmiddel voor pasfoto's van hoge kwaliteit"
+        },
+        'nl-NL': {
+            title: "Pasfoto's - Smartphone ID",
+            description: "Een snel en eenvoudig hulpmiddel voor pasfoto's van hoge kwaliteit"
+        },
+        'pl-PL': {
+            title: "Zdjęcie Paszportowe online - Smartphone ID",
+            description: "Szybkie i proste narzędzie do wysokiej jakości zdjęć paszportowych"
+        },
+        'pt-BR': {
+            title: "Foto para passaporte Bresileiro - Smartphone ID",
+            description: "Ferramenta rápida e fácil para obter fotos de qualidade para passaporte"
+        },
+        'pt-PT': {
+            title: "Foto para passaporte Portugal - Smartphone iD",
+            description: "Ferramenta rápida e fácil para fotos de passaporte de qualidade."
+        },
+        'ru-RU': {
+            title: "Фотографии на документы - Smartphone ID",
+            description: "Быстрый и простой инструмент для получения качественных фотографий на паспорт"
+        },
+        'sv-SE': {
+            title: "Skaffa svenska passbilder online - Smartphone iD",
+            description: "Snabbt och enkelt verktyg för kvalitets passfoton"
+        },
+        'zh-CN': {
+            title: "Smartphone ID",
+            description: "Fast and easy tool for quality passport photos"
+        },
+    };
+
+// Récupération des métadonnées basées sur la locale, avec un fallback sur 'fr-FR'
+    const {title, description} = metadata[locale] || metadata['fr-FR'];
 
     const GTM_ID = process.env.GTM_ID;
     const GA_PROPERTY_ID = process.env.GA_PROPERTY_ID;
@@ -51,6 +199,7 @@ export default function RootLayout({children, params}) {
 
         fetchOriginCountry();
     }, []);
+
 
     return (
 
@@ -108,16 +257,6 @@ export default function RootLayout({children, params}) {
                     })(window,document,'script','dataLayer','${GTM_ID}');`}
             </Script>
             {/* End Google Tag Manager */}
-            <Script id="custom-meta"
-                    type="application/ld+json">
-                {JSON.stringify({
-                    "@context": "https://smartphone-id.com",
-                    "@type": "WebPage",
-                    name: title,
-                    description: description,
-                    url: "https://www.smartphone-id.com/"
-                })}
-            </Script>
         </head>
 
         <body>
