@@ -260,17 +260,27 @@ export default function RootLayout({children, params}) {
             {/* End Google Tag Manager */}
 
             {/* Meta Pixel Code */}
-            <Script id="script-meta">
-                {`!function(f,b,e,v,n,t,s)
-                if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                    n.queue=[];t=b.createElement(e);t.async=!0;
-                    t.src=v;s=b.getElementsByTagName(e)[0];
-                    s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '1118162633030928');
-                fbq('track', 'PageView');`}
+            <Script
+                id="script-meta"
+                strategy="afterInteractive" // Assure-toi que le script s'exécute après que la page ait été rendue
+            >
+                {`
+          !function(f,b,e,v,n,t,s){
+            if(f.fbq) return; 
+            n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq) f._fbq=n; 
+            n.push=n;n.loaded=!0;n.version='2.0'; 
+            n.queue=[]; 
+            t=b.createElement(e); 
+            t.async=!0;
+            t.src=v;
+            s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)
+          }(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '1118162633030928');
+          fbq('track', 'PageView');
+        `}
             </Script>
 
 
