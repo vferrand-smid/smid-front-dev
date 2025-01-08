@@ -402,6 +402,12 @@ const KalSearch = ({ page, locale }) => {
 				{/* BOUTON */}
 				<button onClick={() => {
 					handleGenerateUrl();
+					if (window.fbq) {
+						window.fbq('track', 'PixelButtonClick', {
+							content_name: 'Clique Bouton Photo',
+							category: 'User Interaction',
+						});
+					}
 				}} disabled={!selectedDocument || !selectedCountry} className={`button-photo text-white text-center text-sm font-semibold rounded-full bg-black h-fit self-center cursor-pointer p-2				    
 				${selectedDocument && selectedCountry
 						? '' // Bouton actif : aucun style supplémentaire
