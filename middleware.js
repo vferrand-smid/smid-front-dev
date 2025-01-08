@@ -39,6 +39,10 @@ function getLocale(request) {
 }
 
 export default function middleware(request) {
+
+    const response = NextResponse.next();
+    response.headers.set('Cache-Control', 'max-age=3600');
+
     const url = new URL(request.url);
     const { pathname } = url;
     const segments = pathname.split('/');

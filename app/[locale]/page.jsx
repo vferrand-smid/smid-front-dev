@@ -15,6 +15,7 @@ import Bloc8Tuto from '../components/Bloc8_tuto';
 import Bloc9Accordeon from '../components/Bloc9_accordeon';
 import Bloc10 from '../components/Bloc10';
 import Bloc11 from '../components/Bloc11';
+import { Suspense } from 'react';
 
 import nextToGraphQLLocales from '../lib/locales';
 
@@ -67,6 +68,7 @@ const PageList = () => {
     }
 
     return (
+        <Suspense fallback={<div>Loading...</div>}>
         <div className="">
             {pages.map((page) => (
                 <div className="pageDaccueil" key={page.uri}>
@@ -103,6 +105,7 @@ const PageList = () => {
                 </div>
             ))}
         </div>
+        </Suspense>
     );
 };
 

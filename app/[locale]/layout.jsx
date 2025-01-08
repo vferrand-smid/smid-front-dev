@@ -9,6 +9,7 @@ import {getGeolocationData} from "@/services/ipapi";
 import {useEffect, useState} from "react";
 import {use} from 'react';
 import SmartBanner from "@/app/components/SmartBanner";
+import Image from "next/image";
 
 
 export default function RootLayout({children, params}) {
@@ -249,7 +250,7 @@ export default function RootLayout({children, params}) {
             <meta property="og:url" content="https://www.smartphone-id.com/"/>
             <meta property="og:type" content="website"/>
             {/* Google Tag Manager */}
-            <Script id="custom-script">
+            <Script id="custom-script" strategy="lazyOnload">
                 {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -257,6 +258,26 @@ export default function RootLayout({children, params}) {
                     })(window,document,'script','dataLayer','${GTM_ID}');`}
             </Script>
             {/* End Google Tag Manager */}
+
+            {/* Meta Pixel Code */}
+            <Script id="script-meta">
+                {`!function(f,b,e,v,n,t,s)
+                if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '1118162633030928');
+                fbq('track', 'PageView');`}
+            </Script>
+
+            <noscript>
+                <Image height="1" width="1" style="display:none"
+                           src="https://www.facebook.com/tr?id=1118162633030928&ev=PageView&noscript=1"
+             alt="meta"/></noscript>
+            {/* End Meta Pixel Code */}
         </head>
 
         <body>
