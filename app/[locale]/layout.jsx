@@ -282,7 +282,14 @@ export default function RootLayout({children, params}) {
           fbq('track', 'PageView');
         `}
             </Script>
-
+            <noscript>
+                <img
+                    height="1"
+                    width="1"
+                    style={{display: 'none'}}
+                    src="https://www.facebook.com/tr?id=1118162633030928&ev=PageView&noscript=1"
+                />
+            </noscript>
 
             {/* End Meta Pixel Code */}
 
@@ -305,11 +312,7 @@ export default function RootLayout({children, params}) {
             <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0"
                     style={{display: 'none', visibility: 'hidden'}}></iframe>
         </noscript>
-        <noscript>
-            <Image height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=1118162633030928&ev=PageView&noscript=1"
-                   alt="meta"/>
-        </noscript>
+
         </body>
         </html>
     );
