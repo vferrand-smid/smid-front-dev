@@ -8,10 +8,14 @@ import useTranslations from "@/utils/useTranslations";
 import { getGeolocationData } from "@/services/ipapi";
 import { useEffect, useState } from "react";
 import { use } from 'react';
+import { VisualEditing } from "next-sanity";
+import { draftMode } from "next/headers";
+import { DisableDraftMode } from "@/components/DisableDraftMode";
+import { SanityLive } from "@/sanity/live";
 
 
 
-export default function RootLayout({children, params}) {
+export default async function RootLayout({children, params}) {
     const locale = use(params)?.locale || 'fr-FR';
     const { translations } = useTranslations(locale);
     const [originCountry, setOriginCountry] = useState('');
@@ -80,7 +84,13 @@ export default function RootLayout({children, params}) {
             <Navbar/>
 
             {children}
-
+            <SanityLive />
+            {(await draftMode()).isEnabled && (
+          <>
+            <VisualEditing />
+            <DisableDraftMode />
+          </>
+        )}
 
             <footer>
                 <Footer/>
