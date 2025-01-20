@@ -45,27 +45,24 @@ export default function middleware(request) {
 
     const url = new URL(request.url);
     const { pathname } = url;
+
     const segments = pathname.split('/');
     const localeFromPath = segments[1]; // Extraire la locale de l'URL
-    const locale = getLocale(request);
 
-    // Si l'utilisateur accède à la racine, rediriger vers la locale par défaut
-    if (pathname === '/' || pathname === '') {
-        const newUrl = new URL(`/${locale}`, request.url);
-        return NextResponse.redirect(newUrl);
-    }
 
     // Vérification si le premier segment est une locale valide
     if (localeFromPath.match(/^[a-z]{2}-[A-Z]{2}$/)) {
         // Si la locale dans l'URL est correcte, continuer la requête
         return NextResponse.next();
-    } else {
-        // Si la locale n'est pas présente ou est incorrecte, ajouter ou remplacer la locale dans l'URL
-        segments[1] = locale; // Remplacer ou ajouter la locale
-        const newPathname = segments.join('/');
-        const newUrl = new URL(newPathname, request.url);
-        return NextResponse.redirect(newUrl); // Rediriger vers l'URL avec la locale corrigée
     }
+
+    const locale = getLocale(request);
+    segments[1] = locale; // Remplacer ou ajouter la locale
+    const newPathname = segments.join('/');
+    const newUrl = new URL(newPathname, request.url);
+    return NextResponse.redirect(newUrl); // Rediriger vers l'URL avec la locale corrigée
+
+
 }
 
 export const config = {
