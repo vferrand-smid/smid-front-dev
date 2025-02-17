@@ -22,88 +22,88 @@ console.log('React version:', React.version);
 console.log('ReactDOM version:', require('react-dom').version);
 
 const PageList = () => {
-    const pathname = usePathname();
-    const locale = pathname.split('/')[1]; // Récupère la locale à partir du chemin de l'URL
+  const pathname = usePathname();
+  const locale = pathname.split('/')[1]; // Récupère la locale à partir du chemin de l'URL
 
-    const [pages, setPages] = useState([]);
-    // const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+  const [pages, setPages] = useState([]);
+  // const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-    useEffect(() => {
-        if (!locale) return;
+  useEffect(() => {
+    if (!locale) return;
 
-        const fetchPages = async () => {
-            //setLoading(true);
-            setError(null);
+    const fetchPages = async () => {
+      //setLoading(true);
+      setError(null);
 
-            try {
-                const graphQLLocale = nextToGraphQLLocales[locale];
-                if (!graphQLLocale) {
-                    throw new Error(`Invalid locale: ${locale}`);
-                }
+      try {
+        const graphQLLocale = nextToGraphQLLocales[locale];
+        if (!graphQLLocale) {
+          throw new Error(`Invalid locale: ${locale}`);
+        }
 
-                const fetchedPages = await getPages(locale);
-                if (fetchedPages.length === 0) {
-                    throw new Error('No pages found for this locale');
-                }
+        const fetchedPages = await getPages(locale);
+        if (fetchedPages.length === 0) {
+          throw new Error('No pages found for this locale');
+        }
 
-                setPages(fetchedPages);
-            } catch (err) {
-                setError(err.message);
-            }
+        setPages(fetchedPages);
+      } catch (err) {
+        setError(err.message);
+      }
 
-            //setLoading(false);
-        };
+      //setLoading(false);
+    };
 
-        fetchPages();
-    }, [locale]);
+    fetchPages();
+  }, [locale]);
 
-    /*if (loading) {
-        return <Loading />;
-    }*/
+  /*if (loading) {
+      return <Loading />;
+  }*/
 
-    if (error) {
-        return <div>{error}</div>;
-    }
+  if (error) {
+    return <div>{error}</div>;
+  }
 
-    return (
-        <div className="">
-            {pages.map((page) => (
-                <div className="pageDaccueil" key={page.uri}>
-                    <section className="bloc1">
-                        <Bloc1 page={page} />
-                    </section>
-                    <section className="bloc2">
-                        <Bloc2 page={page} />
-                    </section>
-                    <section className="bloc3">
-                        <Bloc3_carousel page={page} />
-                    </section>
-                    <section className="bloc4">
-                        <Bloc4Temoignages page={page} />
-                    </section>
-                    <section className="bloc5s">
-                        <Bloc5Services page={page} />
-                    </section>
-                    <section className="bloc6">
-                        <Bloc6Documents page={page} />
-                    </section>
-                    <section className="bloc7">
-                        <Bloc7Solution page={page} />
-                    </section>
-                    <section className="bloc8">
-                        <Bloc8Tuto page={page} />
-                    </section>
-                    <section className="bloc9">
-                        <Bloc9Accordeon page={page} />
-                    </section>
-                    <section className="bloc11">
-                        <Bloc11 page={page} />
-                    </section>
-                </div>
-            ))}
+  return (
+    <div className="">
+      {pages.map((page) => (
+        <div className="pageDaccueil" key={page.uri}>
+          <section className="bloc1">
+            <Bloc1 page={page} />
+          </section>
+          <section className="bloc2">
+            <Bloc2 page={page} />
+          </section>
+          <section className="bloc3">
+            <Bloc3_carousel page={page} />
+          </section>
+          <section className="bloc4">
+            <Bloc4Temoignages page={page} />
+          </section>
+          <section className="bloc5s">
+            <Bloc5Services page={page} />
+          </section>
+          <section className="bloc6">
+            <Bloc6Documents page={page} />
+          </section>
+          <section className="bloc7">
+            <Bloc7Solution page={page} />
+          </section>
+          <section className="bloc8">
+            <Bloc8Tuto page={page} />
+          </section>
+          <section className="bloc9">
+            <Bloc9Accordeon page={page} />
+          </section>
+          <section className="bloc11">
+            <Bloc11 page={page} />
+          </section>
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
 export default PageList;
