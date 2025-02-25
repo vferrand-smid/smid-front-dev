@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d09e65f9-3b30-43b9-ba16-bf06663ad45d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/draft-mode/enable/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/DisableDraftMode.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/fetchers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/sanityClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/getTranslations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/useTranslations.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/useTranslations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Bloc1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Bloc1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
       <workItem from="1740048125836" duration="2457000" />
       <workItem from="1740124968903" duration="16345000" />
       <workItem from="1740382986887" duration="601000" />
-      <workItem from="1740485684823" duration="1839000" />
+      <workItem from="1740485684823" duration="6555000" />
     </task>
     <servers />
   </component>
