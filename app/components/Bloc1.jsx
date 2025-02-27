@@ -7,6 +7,7 @@ import useTranslations from "@/utils/useTranslations";
 import KalSearch from "@/app/components/kalSearch";
 import useIsArabic from '../hooks/useIsArabic';
 
+
 const Bloc1 = ({ page, locale  }) => {
     const { translations, loading } = useTranslations(locale);
     const isArabic = useIsArabic()
