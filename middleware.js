@@ -1,7 +1,7 @@
-import { NextResponse } from 'next/server';
 import Negotiator from 'negotiator';
+import { NextResponse } from 'next/server';
 import nextToGraphQLLocales from './app/lib/locales';
-
+import { getCanonicalLocale } from './utils/locale';
 
 const defaultLocale = 'fr-FR'; // Locale par défaut
 const languageToLocaleMap = {
@@ -12,23 +12,16 @@ const languageToLocaleMap = {
     // Ajoutez d'autres langues si nécessaire
 };
 
-function getCanonicalLocale(locale) {
-    if (locale.includes('_')) {
-        locale = locale.replace('_', '-');
-    }
-    return languageToLocaleMap[locale] || locale;
-}
-
 function getLocale(request) {
     const headers = Object.fromEntries(request.headers.entries());
     const negotiator = new Negotiator({ headers });
     const languages = negotiator.languages();
 
-   // console.log('Detected languages:', languages);
+    // console.log('Detected languages:', languages);
 
     for (const lang of languages) {
         const canonicalLang = getCanonicalLocale(lang);
-       // console.log('Canonical locale:', canonicalLang);
+        // console.log('Canonical locale:', canonicalLang);
         if (nextToGraphQLLocales[canonicalLang]) {
             //console.log('Locale found in nextToGraphQLLocales:', canonicalLang);
             return canonicalLang;
@@ -52,12 +45,12 @@ export default function middleware(request) {
     }
 
     // Vérification si le premier segment est une locale valide
-    if (localeFromPath.match(/^[a-z]{2}-[A-Z]{2}$/)) {
+    if (localeFromPath.match(/^[a-z]{2}-[a-z]{2}$/)) {
         // Si la locale dans l'URL est correcte, continuer la requête
         return NextResponse.next();
     } else {
         // Si la locale n'est pas présente ou est incorrecte, ajouter ou remplacer la locale dans l'URL
-        segments[1] = locale; // Remplacer ou ajouter la locale
+        segments[1] = locale.toLowerCase(); // Remplacer ou ajouter la locale
         const newPathname = segments.join('/');
         const newUrl = new URL(newPathname, request.url);
         return NextResponse.redirect(newUrl); // Rediriger vers l'URL avec la locale corrigée
