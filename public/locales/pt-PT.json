@@ -4,6 +4,11 @@
     "description": "Ferramenta rápida e fácil para fotos de passaporte de qualidade."
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -36,11 +41,11 @@
     "titre_h4_bloc1": "Basta tirar uma foto e recebê-la pronta! Experimente já!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "fotos de passaporte de qualidade"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "e assinaturas digitais."
       }
     ],
@@ -63,7 +68,8 @@
   "kalSearch" : {
     "titre_1" : "Preciso de uma foto para este país ",
     "titre_2" : "e este documento",
-    "bouton" : "Tirar uma foto"
+    "bouton" : "Tirar uma foto",
+    "document" : "Selecione o documento"
   },
 
   "Bloc2": {
@@ -110,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Efetue a leitura do QR com o smartphone e tire a foto.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-1-no-computador.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Reveja os recursos do seu pedido de foto.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-2-no-computador.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Se necessário, adicione a entrega de modelos impressos em sua casa.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-3-no-computador.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Receba a sua foto digital para passaporte e um modelo pronto para imprimir no seu e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-4-no-computador.png"
@@ -158,25 +164,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Tire uma foto com o smartphone.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-1-no-celular.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Se necessário, adicione a entrega de modelos impressos em sua casa.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-2-no-celular.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Reveja os recursos do seu pedido de foto.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-3-no-celular.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Receba a sua foto digital para passaporte e um modelo pronto para imprimir no seu e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-portugues-passo-4-no-celular.png"
@@ -292,38 +298,38 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Amigos-jovens-tirando-foto-para-o-passaporte-portugues-com-o-aplicativo-de-smartphone-iD.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Para todos os tipos de documentos",
         "texteService": "Tamanho certo em formato digital e impresso, profundidade da foto, cor de fundo, iluminação..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Atendimento ao cliente de verdade.",
         "texteService": "Sem robôs, sem informações de contacto ocultas; é importante para nós que tenha uma experiência positiva."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Conformidade total.",
         "texteService": "Obtenha total conformidade para qualquer documento oficial em todo o mundo."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Obtenha a melhor foto.",
         "texteService": "Tire um número ilimitado de fotos e escolha a melhor."
       },
 
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Útil para muitos.",
         "texteService": "Especialmente para bebés, pessoas com deficiência, expatriados, pessoas em zonas rurais..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Ecológico.",
         "texteService": "Não há mais desperdício de papel se precisar de renovar o seu documento online."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Serviço 24/7",
         "texteService": null
       }
@@ -366,7 +372,7 @@
         "partenaires": [
           {
             "nom_partenaire": "Smartphone-iD",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id-logo.png"
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-id-logo.webp"
           },
           {
             "nom_partenaire": "Kodak Express",
@@ -401,13 +407,13 @@
     "titre_bloc7_span": "A sua solução",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-digital-de-documento-portugues-com-assinatura-.png",
         "paragraphe": "Quando necessário, a sua assinatura será vinculada à sua foto para pedidos de documentos oficiais online.",
         "titre": "Assinatura digital"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/modelo-recente-de-foto-para-passaporte-portugues-impressa.png",
         "paragraphe": "Tirar fotos em tempo real comprova a atualidade da foto, obrigatória para documentos oficiais.",
         "titre": "Comprovar a atualidade da foto"
@@ -423,25 +429,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/bwR8UByE6wA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Retire",
         "texte_span": " os seus óculos"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "Deixe a luz embater",
         "texte_span": " uniformemente no seu rosto"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "O seu cabelo deve ficar",
         "texte_span": " atrás dos ombros"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "Boca fechada, ",
         "texte_span": "expressão neutra"
@@ -587,12 +593,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Siga-nos e conheça as últimas informações sobre vistos e outros documentos oficiais.",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privacy policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Legal notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

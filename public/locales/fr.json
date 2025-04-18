@@ -4,6 +4,11 @@
     "description": "Obtenez rapidement votre photo d’identité sécurisée"
   },
 
+  "SmartBanner": {
+    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+    "download":"Télécharger"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -36,11 +41,11 @@
     "titre_h4_bloc1": "pour renouveler vos documents officiels français en ligne !",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "Votre photo d’identité sécurisée"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "Votre signature avec la code ephoto"
       }
     ],
@@ -63,7 +68,8 @@
   "kalSearch" : {
     "titre_1" : "J’ai besoin d’une photo d’identité pour",
     "titre_2" : "Pour le document",
-    "bouton" : "Faire la photo"
+    "bouton" : "Faire la photo",
+    "document" : "Sélectionner un document"
   },
 
   "Bloc2" : {
@@ -110,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 2",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/outil-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 3",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/commender-impression-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-identite-reussi.png"
@@ -163,25 +169,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-photo-identite-en-ligne-smartphone.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/faire-imprimer-photo-identite-digitale.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-en-ligne-smartphone.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-idenite-acceptee-comment.png"
@@ -303,37 +309,37 @@
     "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Service 24h/24 et 7j/7",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Tous les documents",
         "texteService": "Tous les types de documents sont disponibles."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Conformité à 100%",
         "texteService": "Pour tous documents officiels, dans le monde entier."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Choisissez la meilleure photo",
         "texteService": "Et faites des prises illimitées."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Un vrai service client",
         "texteService": "Des humains et pas de robots."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Solution idéale",
         "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Écologique",
         "texteService": "Plus de papier, plus de déplacement."
       }
@@ -411,13 +417,13 @@
     "titre_bloc7_span": "parfaite",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/signature-photo-identite-france-ephoto.png",
         "paragraphe": "Pour les documents français, nécessaire pour l’inscription sur le site de l’ANTS.",
         "titre": "Code ePhoto officiel"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/date-sur-planche-photo-identite.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
@@ -433,25 +439,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Les lunettes",
         "texte_span": "enlevées"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "Le visage",
         "texte_span": "uniformément éclairé"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "Les cheveux",
         "texte_span": "derrière les épaules"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "La bouche",
         "texte_span": "fermée, pas de sourire"
@@ -598,12 +604,12 @@
     "AppStore-link" : "https://www.smartphone-id.com/",
     "PlayStore-link" : "https://www.smartphone-id.com/",
     "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
-    "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
+    "mentions-confidentialite": "Politique de confidentialité",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d’utilisation",
     "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
-    "mentions-légales": "Mentions légales",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Mentions légales",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/cookies/"
   }

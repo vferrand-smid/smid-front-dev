@@ -4,6 +4,11 @@
     "description": "Быстрый и простой инструмент для получения качественных фотографий на паспорт"
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -36,11 +41,11 @@
     "titre_h4_bloc1": "Просто сделайте фото и получите готовый результат!\\escПопробуйте прямо сейчас!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "качественных фотографии на паспорт"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "и цифровых подписей."
       }
     ],
@@ -63,8 +68,8 @@
   "kalSearch": {
     "titre_1": "Мне нужно фото для этой страны",
     "titre_2": "и этого документа",
-    "bouton": "Сделать фото"
-
+    "bouton": "Сделать фото",
+    "document" : "Выберите документ"
   },
 
   "Bloc2" : {
@@ -111,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Отсканируйте QR-код своим смартфоном и сделайте фотографию.",
         "titre_check": "Шаг 1",
         "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-1-в-компьютере.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Ознакомьтесь с особенностями вашего фото-запроса.",
         "titre_check": "Шаг 2",
         "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-2-в-компьютере.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "При необходимости добавьте доставку распечатанного шаблона на дом.",
         "titre_check": "Шаг 3",
         "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-3-в-компьютере.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Получите цифровую фотографию паспорта и готовый к печати шаблон на свою электронную почту.",
         "titre_check": "Шаг 4",
         "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-4-в-компьютере.png"
@@ -159,25 +164,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Сделайте фото с помощью смартфона.",
         "titre_check": "Шаг 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/фото-на-паспорт-со-смартфона.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "При необходимости добавьте доставку распечатанного шаблона на дом.",
         "titre_check": "Шаг 2",
         "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-2-в-мобильном.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Ознакомьтесь с особенностями вашего фото-запроса.",
         "titre_check": "Шаг 3",
         "image_repeteur_etape": "/images/Bloc3/ru-RU/RU-паспорт-фото-инструмент-шаг-3-в-мобильном.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Получите цифровую фотографию паспорта и готовый к печати шаблон на свою электронную почту.",
         "titre_check": "Шаг 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/проверенные-фотографии-на-паспорт-в-россии.png"
@@ -295,37 +300,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Круглосуточное обслуживание",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Для всех типов документов",
         "texteService": "Правильный размер в цифровом и печатном формате, глубина фото, цвет фона, освещение..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "100% соответствие",
         "texteService": "Получите 100% соответствие любого официального документа по всему миру."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Получите лучшее фото",
         "texteService": "Делайте неограниченное количество фотографий и выбирайте лучший снимок."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Настоящее обслуживание клиентов",
         "texteService": "Никаких роботов и скрытой контактной информации; нам важен ваш положительный опыт."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Удобно для многих",
         "texteService": "Специально для младенцев, людей с ограниченными возможностями, эмигрантов, жителей сельской местности..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Экологический",
         "texteService": "Больше не нужно тратить бумагу, если вам нужно продлить документ онлайн."
       }
@@ -395,13 +400,13 @@
     "titre_bloc7_span": "решение",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/добавить-цифровую-подпись-к-фотографии-в-паспорте.png",
         "paragraphe": "При необходимости ваша подпись будет связана с вашей фотографией для подачи заявок на официальные документы онлайн.",
         "titre": "Цифровая подпись"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "/images/Bloc7/ru-RU/RU_HP_planche_2.png",
         "paragraphe": "Снимки, сделанные в режиме реального времени, подтверждают актуальность фотографии, что обязательно для официальных документов.",
         "titre": "Подтверждение актуальности фото"
@@ -417,25 +422,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/dH7Lq7IWtZw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Снимите",
         "texte_span": "очки"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "Свет должен падать",
         "texte_span": "равномерно на лицо"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "Волосы должны быть",
         "texte_span": "за плечами"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "Закрытый рот,",
         "texte_span": "нейтральное выражение"
@@ -592,12 +597,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Подпишитесь, чтобы узнать новую информацию об официальных документах!",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privacy policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Legal notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

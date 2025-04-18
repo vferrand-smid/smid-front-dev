@@ -1,8 +1,6 @@
 'use client';
 
 import FooterLogo from "../../public/images/Footer/Logo.svg";
-import AppStore from "../../public/images/Footer/AppStore-vector.svg";
-import PlayStore from "../../public/images/Footer/Gstore-vector.svg";
 import QRcodeApple from "../../public/images/Footer/Layer_1.svg";
 import QRcodeGoogle from "../../public/images/Footer/Layer_1 (1).svg";
 import Youtube from "../../public/images/Footer/Icon_awesome-youtube.svg";
@@ -16,8 +14,6 @@ import { useRouter, usePathname } from "next/navigation";
 import useTranslations from "@/utils/useTranslations";
 
 import useIsArabic from "../hooks/useIsArabic";
-// import { Suspense } from 'react';
-// import ErrorBoundary from "@/app/components/ErrorBoundary";
 
 
 const flags = {
@@ -62,7 +58,7 @@ const localeToCountry = {
     'fr-BE': 'Belgique',
     'nl-BE': 'België',
     'pt-BR': 'Brasil',
-    'fr-CA': 'Canada',
+    'fr-CA': 'Canada-FR',
     'en-CA': 'Canada',
     'es-CO': 'Colombia',
     'de-DE': 'Deutschland',
@@ -80,12 +76,12 @@ const localeToCountry = {
     'pt-PT': 'Portugal',
     'ru-RU': 'Россия',
     'zh-CN': '中华人民共和国',
-    'sv-SE': 'Sveden',
+    'sv-SE': 'Sverige',
     'fr-CH': 'Suisse',
     'de-CH': 'Schweiz',
     'en-SG': 'Singapore',
     'en-ZA': 'South Africa',
-    'ar-SA': 'المملكةالعربيةالسعودية',
+    'ar-SA': 'المملكة العربية السعودية',
     'ar-AE': 'الإمارات العربية المتحدة',
     'en-GB': 'United Kingdom',
     'en-US': 'United States'
@@ -93,13 +89,13 @@ const localeToCountry = {
 
 
 export default function Footer() {
-  const isArabic = useIsArabic()
-  const router = useRouter();
+    const isArabic = useIsArabic()
+    const router = useRouter();
     const pathname = usePathname();
     const currentLocale = pathname.split('/')[1] || 'fr-FR'; // Récupère la locale depuis l'URL
-  const [isOpen, setIsOpen] = useState(false);
-  const { translations, loading } = useTranslations(currentLocale);
-  const dropdownRef = useRef(null);
+    const [isOpen, setIsOpen] = useState(false);
+    const { translations, loading } = useTranslations(currentLocale);
+    const dropdownRef = useRef(null);
 
     const changeLanguage = (newLocale) => {
         // Extraire le chemin actuel sans la locale actuelle
@@ -154,13 +150,13 @@ export default function Footer() {
         return <div>Translations not found</div>;
     }
 
-  return (
-    // <ErrorBoundary>
-    // <React.Suspense fallback={<div>Loading...</div>}>
-    <div key={currentLocale} className="" style={{textAlign:isArabic&&'right'}}>
-      <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0" >
-        <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
-          <div className="column"></div>
+    return (
+        // <ErrorBoundary>
+        // <React.Suspense fallback={<div>Loading...</div>}>
+        <div key={currentLocale} className="" style={{textAlign:isArabic&&'right'}}>
+            <div className="before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0" >
+                <div className="columns-3 grid grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5">
+                    <div className="column"></div>
 
                     <div className="footerLogo column">
                         <Link
@@ -204,7 +200,7 @@ export default function Footer() {
                                             onClick={() => changeLanguage(locale)}
                                         >
                                             <Image
-                                                style={{ width: 20, height: 15 }}
+                                                //style={{ width: 20, height: 15 }}
                                                 height={10}
                                                 width={20}
                                                 src={flagSrc}
@@ -388,11 +384,11 @@ export default function Footer() {
                 <section className="mentions max-lg:flex-col max-lg:items-center">
                     <p>© 2024 Smartphone iD</p>
                     <Link
-                        href={translations.Footer["mentions-confidentialité-link"] || "#"}
+                        href={translations.Footer["mentions-confidentialite-link"] || "#"}
                         aria-label="Politique de confidentialité"
                         target="_blank"
                     >
-                        {translations.Footer["mentions-confidentialité"]}
+                        {translations.Footer["mentions-confidentialite"]}
                     </Link>
                     <Link
                         href={translations.Footer["mentions-cgu-link"] || "#"}
@@ -402,11 +398,11 @@ export default function Footer() {
                         {translations.Footer["mentions-cgu"]}
                     </Link>
                     <Link
-                        href={translations.Footer["mentions-légales-link"] || "#"}
+                        href={translations.Footer["mentions-legales-link"] || "#"}
                         aria-label="Mentions légales"
                         target="_blank"
                     >
-                        {translations.Footer["mentions-légales"]}
+                        {translations.Footer["mentions-legales"]}
                     </Link>
                     <Link
                         href={translations.Footer["cookies-link"] || "#"}

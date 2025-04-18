@@ -4,6 +4,11 @@
     "description": "Ferramenta rápida e fácil para obter fotos de qualidade para passaporte"
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -36,11 +41,11 @@
     "titre_h4_bloc1": "Basta tirar uma foto e recebê-la pronta! Tente agora!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "fotos de passaporte de qualidade"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "e assinaturas digitais."
       }
     ],
@@ -63,7 +68,8 @@
   "kalSearch" : {
     "titre_1" : "Preciso de uma foto para este país ",
     "titre_2" : "e este documento",
-    "bouton" : "Tirar uma foto"
+    "bouton" : "Tirar uma foto",
+    "document" : "Selecione o documento desejado"
   },
 
   "Bloc2": {
@@ -110,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Digitalize o código QR com seu smartphone e tire sua foto.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-1-no-computador.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Revise os recursos da sua solicitação de foto.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-2-no-computador.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Se necessário, adicione a entrega de modelos impressos em sua casa.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-3-no-computador.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Receba sua foto digital para passaporte e um modelo pronto para imprimir em seu e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-4-no-computador.png"
@@ -158,25 +164,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Tire uma foto com seu smartphone.",
         "titre_check": "Passo 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-1-no-celular.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Se necessário, adicione a entrega de modelos impressos em sua casa.",
         "titre_check": "Passo 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-2-no-celular.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Revise os recursos da sua solicitação de foto.",
         "titre_check": "Passo 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-3-no-celular.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Receba sua foto digital para passaporte e um modelo pronto para imprimir em seu e-mail.",
         "titre_check": "Passo 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Ferramenta-para-fotos-de-passaporte-brasil-passo-4-no-celular.png"
@@ -298,36 +304,36 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Amigos-jovens-tirando-foto-para-o-passaporte-Brazilo-com-o-aplicativo-de-smartphone-iD.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Serviço 24/7",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Para todos os tipos",
         "texteService": "Tamanho certo em formato digital e impresso, profundidade da foto, cor de fundo..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Conformidade de 100%",
         "texteService": "Obtenha 100% de conformidade para qualquer documento oficial em todo o mundo. "
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Obtenha a melhor foto",
         "texteService": "Tire um número ilimitado de fotos e escolha a melhor."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "texteService": "Sem robôs, sem informações de contato ocultas; sua experiência positiva é importante para nós."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Útil para muitos",
         "texteService": "Especialmente para bebês, pessoas com deficiência, expatriados, pessoas em zonas rurais..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Ecológico",
         "texteService": "Não há mais desperdício de papel se você precisar renovar seu documento online."
       }
@@ -393,13 +399,13 @@
     "titre_bloc7_span": "A sua solução ",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Foto-digital-de-documento-brasil-com-assinatura.png",
         "paragraphe": "Quando necessário, sua assinatura será vinculada à sua foto para solicitações de documentos oficiais online.",
         "titre": "Assinatura digital"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/modelo-recente-de-foto-para-passaporte-brasil-impressa.png",
         "paragraphe": "Tirar fotos em tempo real comprova a atualidade da foto, obrigatória para documentos oficiais.",
         "titre": "Comprovar a atualidade da foto"
@@ -415,25 +421,25 @@
     "video": "<iframe title=\"Como tirar uma foto de passaporte em casa\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/eTXaHnhRVNo?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Retire ",
         "texte_span": "seus óculos"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "Deixe a luz cair ",
         "texte_span": "uniformemente em seu rosto"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": " Seu cabelo deve",
         "texte_span": " ficar atrás dos ombros"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "Boca fechada, ",
         "texte_span": "expressão neutra"
@@ -580,12 +586,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Siga-nos e conheça as últimas informações sobre vistos e outros documentos oficiais.",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privacy Policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy Policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-legales": "Legal notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

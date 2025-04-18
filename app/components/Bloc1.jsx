@@ -7,6 +7,7 @@ import useTranslations from "@/utils/useTranslations";
 import KalSearch from "@/app/components/kalSearch";
 import useIsArabic from '../hooks/useIsArabic';
 
+
 const Bloc1 = ({ page, locale  }) => {
     const { translations, loading } = useTranslations(locale);
     const isArabic = useIsArabic()
@@ -24,7 +25,7 @@ const Bloc1 = ({ page, locale  }) => {
     }
 
     return (
-        <div className={`kal-hero ${isArabic && 'kal-hero-arabic'}`}>
+        <div className={`kal-hero object-cover min-h-[500px] bg-white bg-cover bg-hero-pattern py-20 px-12 ${isArabic && 'kal-hero-arabic'}`}>
 
             <div>
                 <h1>
@@ -69,14 +70,14 @@ const Bloc1 = ({ page, locale  }) => {
 
                 <KalSearch/>
 
-                <article >
-
+                <article className="absolute justify-center bottom-0 lg:right-[calc(-5%)] h-[600px] w-[497px] flex items-end -mb-20 -mt-20">
                     <Image
                         src={translations.Bloc1.girl}
                         alt="Hero Girl"
                         width={497}
                         height={600}
-                        priority
+                        priority={true}
+                        className="object-contain"
                     />
                 </article>
             </div>

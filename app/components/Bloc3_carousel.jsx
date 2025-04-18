@@ -94,7 +94,7 @@ const Carousel = ({ page, locale }) => {
                                         alt={item.titre_check || `Image step ${index + 1}`}
                                         width={500}
                                         height={300}
-                                        loading="lazy"
+                                        loading='lazy'
                                         className="entered lazyloaded"
                                     />
                                 </div>

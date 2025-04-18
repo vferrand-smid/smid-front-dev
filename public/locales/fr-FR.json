@@ -4,6 +4,11 @@
     "description": "Obtenez rapidement votre photo d’identité sécurisée"
   },
 
+  "SmartBanner": {
+    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+    "download": "Téléchargement"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -31,16 +36,16 @@
 
   "Bloc1" : {
     "girl" : "/images/Bloc1/fr-FR/photo_identite_en_ligne_france.png",
-    "background" : "/images/background.png",
+    "background" : "/images/background.webp",
     "titre_bloc1" : "Obtenez Rapidement",
     "titre_h4_bloc1": "pour renouveler vos documents officiels français en ligne !",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "Votre photo d’identité sécurisée"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "Votre signature avec le code ePhoto"
       }
     ],
@@ -63,7 +68,8 @@
   "kalSearch" : {
     "titre_1" : "J’ai besoin d’une photo d’identité pour",
     "titre_2" : "Pour le document",
-    "bouton" : "Faire la photo"
+    "bouton" : "Faire la photo",
+    "document" : "Sélectionner un document"
   },
 
   "Bloc2" : {
@@ -110,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 2",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/outil-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 3",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/commender-impression-photo-identite-en-ligne.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-identite-reussi.png"
@@ -158,25 +164,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
         "titre_check": "Etape 1",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-photo-identite-en-ligne-smartphone.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
         "titre_check": "Etape 2",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/faire-imprimer-photo-identite-digitale.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Vérifiez les caractéristiques de votre demande.",
         "titre_check": "Etape 3",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-identite-en-ligne-smartphone.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
         "titre_check": "Etape 4",
         "image_repeteur_etape": "/images/Bloc3/fr-FR/photo-idenite-acceptee-comment.png"
@@ -266,34 +272,34 @@
     ],
     "temoignages": [
       {
-        "nom": "Chassany2603, 04/04/2022",
-        "texte": "J'avais besoin de photo d'identité en urgence et je n’avais pas le temps de me déplacer. J'ai pris une photo, réglé le montant pour avoir une photo d'identité (aux normes ) et dans l'heure je l'avais dans ma boîte mail. J'ai eu ma carte dans la foulée. Franchement je recommande.",
-        "titre": "Intuitif et rapide"
+        "nom": "LdvnMg le 17/05/2024",
+        "texte": "Cette appli est vraiment un gain de temps pour prendre ses photos d’identité ! Plus besoin de se déplacer pour aller faire des photos officielles. C’est ultra intuitif et facile à prendre en main. Je recommande !",
+        "titre": "Gain de temps"
       },
       {
-        "nom": "ninie1208, 29/06/2021",
-        "texte": "Pratique pour les personnes qui comme moi ont peu de temps de libre après le travail. J'ai pris une photo le soir avec mon portable et quelques jours plus tard je l'avais dans ma boîte aux lettres. J'avais rendez-vous à la mairie la semaine d'après pour faire refaire ma carte d'identité, grosse charge mentale en moins.",
-        "titre": "Vraiment super"
+        "nom": "Savinien Tallec le 01/12/2024",
+        "texte": "J'ai commandé une photo avec code e-photo pour une demande de renouvellement de permis de conduire en ligne, moins d'une heure d'attente et j'ai obtenu ma photo et mon code qui étaient parfaitement valides sur le site ANTS. J'étais légèrement sceptique mais en fait tout marche bien !",
+        "titre": "Code e-Photo valide"
       },
       {
-        "nom": "betiolina, 15/08/2022",
-        "texte": "Très bonne application. Si le résultat n'est pas probant. On peut recommencer autant de fois qu'il le faut la photo et cela sans payer de supplément.",
-        "titre": "Photo identité"
+        "nom": "Pierre le 02/10/2024",
+        "texte": "Un besoin urgent de photo d'identité, tous les magasins étaient fermés ! Je me renseigne et je tombe sur Smartphone iD ! En 3 jours, je reçois ma photo ! Ils ont sauvé mes vacances ! Je recommande +++",
+        "titre": "Photo d’identité rapide"
       },
       {
-        "nom": "Anaïs M, 21/02/2022",
-        "texte": "Après plusieurs mois à batailler avec l'Ants qui refusait mes photos prises en photomaton (2 fois) ou \"perdait\" les photos envoyées par courrier (3 fois), j'ai tenté le tout pour le tout, un peu désespérée. Et à ma grande surprise, les photos, loin d'avoir la qualité d'un photomaton ou photographe professionnel, ont été acceptées, et mon permis de conduire est en création. J'essaie, si possible, de ne pas tout faire depuis mon smartphone, mais force est de constater que c'est la seule option qui a marché.",
-        "titre": null
+        "nom": "Inyan le 27/09/2024",
+        "texte": "Tellement simple d'utilisation. Un tout petit prix pour une démarche, qui, lorsque l'on vit à l'étranger, est une torture. J'ai obtenu mes photos en 10 minutes maximum. Et le code fourni fonctionnait parfaitement. Je recommande mille fois",
+        "titre": "Simple d’utilisation"
       },
       {
-        "nom": "cosmiccbyul, 04/07/2022",
-        "texte": "J'ai téléchargé cette application pour une ephoto titre de séjour puisque je n'étais pas en France et ne pouvais donc pas accéder à photomaton. À ma grande surprise, c'était ultra rapide : j'ai pris une photo en quelques minutes et j'ai reçu le code ephoto 30 minutes plus tard! De plus, cela ne coûte que 6 euros ? Je recommande vivement !!",
-        "titre": "Très rapide et efficace !"
+        "nom": "Djouher le 16/11/2024",
+        "texte": "Très pratique ! Ils ont réglé le problème de photos numériques pour de bon. Fini la galère de chercher des photos cabines agréees ou des photographes spécialistes. J'en ai même fait pour mon bébé et à chaque fois c'est simple et rapide, merci pour ce service, je recommande vivement.",
+        "titre": "Pratique"
       },
       {
-        "nom": "Starsissi, 02/12/2022",
-        "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus il y a des «< conseils » pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis ?",
-        "titre": "Très satisfaite"
+        "nom": "Stef267 le 27/07/2024",
+        "texte": "J’habite assez loin d’une photo cabine ou d’un photographe pour faire des photos d’identité aux normes. Via l’application qui est simple d’utilisation, j’ai pris une photo directement chez moi, elle a été contrôlée et validée par l’équipe de Smartphone ID. Très rapidement, j’ai reçu par mail un exemplaire des photos d’identité et 2 jours plus tard celles imprimées aux normes. Merci pour cette appli que je recommande fortement.",
+        "titre": "Photo aux normes"
       }
     ],
     "nos_partenaires": "Nos partenaires",
@@ -306,37 +312,37 @@
     "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Service 24h/24 et 7j/7",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Tous les documents",
         "texteService": "Tous les types de documents sont disponibles."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Conformité à 100%",
         "texteService": "Pour tous documents officiels, dans le monde entier."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Choisissez la meilleure photo",
         "texteService": "Et faites des prises illimitées."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Un vrai service client",
         "texteService": "Des humains et pas de robots."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Solution idéale",
         "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Écologique",
         "texteService": "Plus de papier, plus de déplacement."
       }
@@ -414,13 +420,13 @@
     "titre_bloc7_span": "parfaite",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "/images/Bloc7/fr-FR/signature_digitale_avec_photo_identite_france.png",
         "paragraphe": "Pour les documents français, nécessaire pour l’inscription sur le site de l’ANTS.",
         "titre": "Code ePhoto officiel"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "/images/Bloc7/fr-FR/ephoto_france.png",
         "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
         "titre": "Photo de moins de 6 mois"
@@ -436,25 +442,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Les lunettes",
         "texte_span": "enlevées"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "Le visage",
         "texte_span": "uniformément éclairé"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "Les cheveux",
         "texte_span": "derrière les épaules"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "La bouche",
         "texte_span": "fermée, pas de sourire"
@@ -621,15 +627,15 @@
     "applis-p":  "Suivez vos commandes et profitez d’encore plus de fonctionnalités avec l’application Smartphone iD.",
     "AppStore-link" : "https://apps.apple.com/fr/app/smartphone-id-photo-identit%C3%A9/id1527550865",
     "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=FR",
-    "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
-    "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
+    "AppStoreImg" : "/images/General/Download_on_the_App_Store_Badge_FR_blk_100517.webp",
+    "PlayStoreImg": "/images/General/google-play-badge.webp",
     "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
-    "mentions-confidentialité": "Politique de confidentialité",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/politique-confidentialite/",
+    "mentions-confidentialite": "Politique de confidentialité",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/politique-confidentialite/",
     "mentions-cgu": "Conditions générales d’utilisation",
     "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
-    "mentions-légales": "Mentions légales",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Mentions légales",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/cookies/"
   }

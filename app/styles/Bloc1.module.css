@@ -1,5 +1,5 @@
 .kalHero {
-    @apply md:bg-cover bg-center bg-no-repeat md:w-screen flex flex-col md:flex-row items-center justify-center  p-0;
+    @apply md:bg-cover bg-center bg-no-repeat md:w-screen flex flex-col md:flex-row items-center justify-center p-0;
     background-image: url('/images/Bloc1/background.png');
 }
 
@@ -38,9 +38,8 @@
 .kalSearch {
     @apply mt-6 md:mb-6; /* Ajustement de la marge */
 }
-
-.girl {
-     @apply flex justify-end w-full h-auto ; /* Suppression de la position absolue */
+.girl-wrapper {
+    @apply flex justify-center items-center w-full;
 }
 
 
@@ -91,7 +90,9 @@
     }
 
     .girl {
-        @apply flex justify-center w-full mt-4 shrink-0;
+        @apply mx-auto; /* Centre horizontalement */
+        max-width: 90%; /* Limite la largeur de l'image à 90% de l'écran */
+        height: auto;
     }
 
 }

@@ -4,6 +4,11 @@
     "description": "Herramienta rápida y sencilla para fotos de pasaporte de calidad."
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -36,11 +41,11 @@
     "titre_h4_bloc1": "Basta con hacer una foto y recibirla lista! Pruébalo ya!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "fotos de carnet de calidad"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "y firma digital."
       }
     ],
@@ -63,7 +68,8 @@
   "kalSearch": {
     "titre_1": "Necesito una foto de carnet para",
     "titre_2": "Para el documento",
-    "bouton": "Tomar la foto"
+    "bouton": "Tomar la foto",
+    "document" : "Elige el documento"
   },
 
   "Bloc2": {
@@ -110,25 +116,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Escanea el código QR con tu smartphone y hazte una foto.",
         "titre_check": "Paso 1",
         "image_repeteur_etape": "/images/Bloc3/es-ES/herramienta-fotografia-carnet-en-linea.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
         "image_repeteur_etape": "/images/Bloc3/es-ES/verificacion-experto-fotografia-carnet-digital.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Si es necesario, añade la entrega de la plantilla impresa en tu domicilio.",
         "titre_check": "Paso 3",
         "image_repeteur_etape": "/images/Bloc3/es-ES/pedir-foto-carnet-impresa-en-linea.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
         "image_repeteur_etape": "/images/Bloc3/es-ES/foto-carnet-exitosa.png"
@@ -158,25 +164,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Haz una foto con tu smartphone.",
         "titre_check": "Paso 1",
         "image_repeteur_etape": "/images/Bloc3/es-ES/herramienta-fotografia-carnet-en-linea-smartphone.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 2",
         "image_repeteur_etape": "/images/Bloc3/es-ES/pedir-foto-carnet-impresa-en-linea-smartphone.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Revisa las características de tu solicitud de foto.",
         "titre_check": "Paso 3",
         "image_repeteur_etape": "/images/Bloc3/es-ES/verificacion-experto-fotografia-carnet-digital-smartphone.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Recibe tu foto de pasaporte digital y una plantilla lista para imprimir en tu correo electrónico.",
         "titre_check": "Paso 4",
         "image_repeteur_etape": "/images/Bloc3/es-ES/foto-carnet-exitosa-smartphone.png"
@@ -284,37 +290,37 @@
     "imgService": "/images/Bloc5/es-ES/foto-carnet-facil-con-smartphone.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Servicio 24/7",
         "texteService": ""
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Para todo tipo de documentos",
         "texteService": "El tamaño correcto en formato digital e impreso, la profundidad de la foto, el color del fondo, la iluminación..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "100% de conformidad",
         "texteService": "Consigue el 100% de conformidad para cualquier documento oficial en todo el mundo."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Consigue la mejor foto",
         "texteService": "Haz fotos ilimitadas y elige la mejor."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Atención al cliente real",
         "texteService": "Sin robots, sin información de contacto oculta, su experiencia positiva es importante para nosotros."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Práctico para muchos",
         "texteService": "Especialmente práctico para bebés, discapacitados, expatriados, personas en zonas rurales..."
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "Ecológico",
         "texteService": "No more paper to waste if you need to renew your document online."
       }
@@ -355,7 +361,7 @@
         "partenaires": [
           {
             "nom_partenaire": "Smartphone iD",
-            "img_partenaire": "/images/General/smartphone-id-logo.png"
+            "img_partenaire": "/images/General/smartphone-id-logo.webp"
           },
           {
             "nom_partenaire": "Kodak-Express",
@@ -376,13 +382,13 @@
     "titre_bloc7_span": "Tu solución",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "/images/Bloc7/es-ES/Foto-de-pasaporte-con-firma-digital-online.png",
         "paragraphe": "Tu firma se vinculará a la foto para las solicitudes de documentos oficiales online, cuando sea necesario.",
         "titre": "Firma digital"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "/images/Bloc7/es-ES/plantilla-de-foto-con-fecha-impresa.png",
         "paragraphe": "La toma de fotos en tiempo real demuestra que la foto es reciente, lo que es obligatorio para los documentos oficiales.",
         "titre": "La prueba de que la foto es reciente"
@@ -398,25 +404,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/zGQoL2qhfW0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "Quítate",
         "texte_span": "las gafas"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "La luz debe iluminar tu cara",
         "texte_span": "de manera uniforme"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "El pelo deberá quedar",
         "texte_span": "por detrás de los hombros"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "Boca cerrada,",
         "texte_span": "expresión neutra."
@@ -574,12 +580,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "Descubre la información más reciente sobre documentos de identidad y visados..",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privacy Policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy Policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of Service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal Notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/en/terms-of-service/",
+    "mentions-legales": "Legal Notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/en/terms-of-service/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

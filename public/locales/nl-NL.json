@@ -4,6 +4,11 @@
     "description": "Een snel en eenvoudig hulpmiddel voor pasfoto's van hoge kwaliteit"
   },
 
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -32,11 +37,11 @@
     "titre_h4_bloc1": "Neem simpelweg een foto en ontvang hem kant-en-klaar! Probeer het nu!",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "pasfoto's van hoge kwaliteit"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "en digitale handtekeningen."
       }
     ],
@@ -59,7 +64,8 @@
   "kalSearch": {
     "titre_1": "Ik heb een foto nodig voor dit land",
     "titre_2": "en dit document",
-    "bouton": "Maak een foto"
+    "bouton": "Maak een foto",
+    "document" : "Kies het document"
   },
 
   "Bloc2": {
@@ -106,25 +112,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Scan de QR-code met je smartphone en maak een foto.",
         "titre_check": "Stap 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-1-op-computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Beoordeel de eigenschappen van je fotovraag",
         "titre_check": "Stap 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-2-op-computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Voeg indien nodig de levering van een afgedrukte sjabloon aan huis toe.",
         "titre_check": "Stap 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-3-op-computer.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Ontvang je digitale pasfoto en een afdrukbare sjabloon in je e-mail.",
         "titre_check": "Stap 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-4-op-computer.png"
@@ -154,25 +160,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Maak een foto met je smartphone.",
         "titre_check": "Stap 1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-1-op-mobiel.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": " Voeg indien nodig de levering van een afgedrukte sjabloon aan huis toe.",
         "titre_check": "Stap 2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-2-op-mobiel.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Beoordeel de eigenschappen van je fotovraag.",
         "titre_check": "Stap 3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-3-op-mobiel.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "Ontvang je digitale pasfoto en een afdrukbare sjabloon in je e-mail.",
         "titre_check": "Stap 4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Nederlandse-pasfototool-stap-4-op-mobiel.png"
@@ -562,12 +568,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "",
     "partie2-p-link": "Volg ons en ontdek de nieuwste informatie over visa en andere officiële documenten.",
-    "mentions-confidentialité": "Privacy policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Legal notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }

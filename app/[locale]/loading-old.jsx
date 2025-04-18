@@ -1,4 +1,4 @@
-
+/*
 export default function Loading() {
   return (
     <main className="text-center">
@@ -6,4 +6,4 @@ export default function Loading() {
       <p>🔄</p>
     </main>
   );
-}
+}*/

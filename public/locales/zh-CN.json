@@ -1,4 +1,14 @@
 {
+  "metadata": {
+    "title": "Smartphone ID",
+    "description": "Fast and easy tool for quality passport photos"
+  },
+
+  "SmartBanner": {
+    "phrase": "Get your secure photo ID quickly",
+    "download":"Download"
+  },
+
   "NavBar": {
     "liens": [
       {
@@ -27,11 +37,11 @@
     "titre_h4_bloc1": "只需拍摄照片，即可收到图片！立即试用！",
     "repeteurCheckGreenBloc1": [
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "高质量护照照片"
       },
       {
-        "mediaItemUrl": "/images/General/check-green.png",
+        "mediaItemUrl": "/images/General/check-green.webp",
         "texte_check_green": "和数字签名。"
       }
     ],
@@ -54,7 +64,8 @@
   "kalSearch": {
     "titre_1": "我需要为这个国家",
     "titre_2": "和这个文件拍照",
-    "bouton": "拍照"
+    "bouton": "拍照",
+    "document" : "请选择文件类型"
   },
 
   "Bloc2": {
@@ -101,25 +112,25 @@
     ],
     "repeteur_etape": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "用智能手机扫描二维码并拍照。",
         "titre_check": "步骤1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/护照照片计算机工具.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "查看您照片要求的特征。",
         "titre_check": "步骤2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/护照照片快速检查.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "如有必要，添加打印模板送货上门。",
         "titre_check": "步骤3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/在家订购印刷照片.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "在电子邮件中收到您的数码护照照片和可直接打印的模板。",
         "titre_check": "步骤4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/有效护照照片在线.png"
@@ -149,25 +160,25 @@
     ],
     "repeteurEtapeMobile": [
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "使用智能手机拍照。",
         "titre_check": "步骤1",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/使用智能手机拍摄的护照照片.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "如有必要，添加打印模板送货上门。",
         "titre_check": "步骤2",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/使用智能手机订购打印的照片.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "查看照片要求的特征。",
         "titre_check": "步骤3",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/使用智能手机拍摄护照照片.png"
       },
       {
-        "check_green": "/images/General/check-green.png",
+        "check_green": "/images/General/check-green.webp",
         "texte_etape": "在电子邮件中收到您的数码护照照片和可直接打印的模板。",
         "titre_check": "步骤4",
         "image_repeteur_etape": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/有效且符合要求的护照照片.png"
@@ -285,37 +296,37 @@
     "imgService": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Young-friends-taking-au-passport-photo-with-Smartphone-iD-app.jpg",
     "listeService": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "全天候服务",
         "texteService": null
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "适用于所有证件类型。",
         "texteService": "数码照片和打印照片正确的尺寸、照片深度、背景颜色、光照......"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "100% 符合要求。",
         "texteService": "100% 符合全球任何官方文件的要求。"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "获得最佳照片。",
         "texteService": "无限量拍摄照片，并选择最佳照片。"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "真实的客户服务。",
         "texteService": "没有机器人，没有隐藏的联系信息；您的良好体验对我们非常重要。"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "适用于许多人。",
         "texteService": "尤其适合婴儿、残疾人、外籍人士和农村地区的人。"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "service24h24Et7j7": "环保。",
         "texteService": "如果您需要在线更新您的证件，无需再浪费纸张。"
       }
@@ -381,13 +392,13 @@
     "titre_bloc7_span": "解决方案",
     "bloc": [
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/将签名链接到数字护照照片-1.png",
         "paragraphe": "在需要时，您的签名将与您的照片关联起来，用于官方在线文件申请。",
         "titre": "数字签名"
       },
       {
-        "img_check": "/images/General/check-green.png",
+        "img_check": "/images/General/check-green.webp",
         "img_principal": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/证明你的护照照片的日期-1.png",
         "paragraphe": "拍摄实时照片可证明照片是近期的，这是申请官方文件的必备条件。",
         "titre": "证明照片的近期性"
@@ -403,25 +414,25 @@
     "video": "<iframe title=\"How to take a passport photo from home\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/2DXwfmNI4kQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "bloc_conseils": [
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 1,
         "texte": "摘下",
         "texte_span": "眼 镜"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 2,
         "texte": "让光线均",
         "texte_span": "匀地照在脸上"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 3,
         "texte": "J头发应放",
         "texte_span": "在肩膀后面"
       },
       {
-        "check": "/images/General/check-green.png",
+        "check": "/images/General/check-green.webp",
         "chiffre": 4,
         "texte": "嘴巴闭合",
         "texte_span": "表情中立"
@@ -572,12 +583,12 @@
     "PlayStoreImg": "/images/Footer/GStore_icon_EN.svg",
     "partie2-p": "关注我们，了解有关签证和其他官方文件的最新信息。",
     "partie2-p-link": "",
-    "mentions-confidentialité": "Privacy policy",
-    "mentions-confidentialité-link": "https://www.smartphone-id.com/en/privacy-policy/",
+    "mentions-confidentialite": "Privacy policy",
+    "mentions-confidentialite-link": "https://www.smartphone-id.com/en/privacy-policy/",
     "mentions-cgu": "Terms of service",
     "mentions-cgu-link": "https://www.smartphone-id.com/en/terms-of-service/",
-    "mentions-légales": "Legal notice",
-    "mentions-légales-link": "https://www.smartphone-id.com/mentions-legales/",
+    "mentions-legales": "Legal notice",
+    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
     "Cookies": "Cookies",
     "Cookies-link": "https://www.smartphone-id.com/en/cookies/"
   }
