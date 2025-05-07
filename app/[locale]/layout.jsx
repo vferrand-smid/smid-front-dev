@@ -18,6 +18,9 @@ export async function generateMetadata({ params }) {
     return {
         title: translations?.metadata?.title || 'Smartphone ID',
         description: translations?.metadata?.description || 'Obtenez rapidement votre photo d’identité sécurisée',
+        icons: {
+            icon: '/images/favicon.svg',
+        },
         openGraph: {
             title: translations?.metadata?.title,
             description: translations?.metadata?.description,

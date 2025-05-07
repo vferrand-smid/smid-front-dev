@@ -1,632 +1,635 @@
 {
-  "metadata": {
-    "title": "Photo d'identité officielle en ligne - Smartphone iD",
-    "description": "Obtenez rapidement votre photo d’identité sécurisée"
-  },
-
-  "SmartBanner": {
-    "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
-    "download":"Télécharger"
-  },
-
-  "NavBar": {
-    "liens": [
-      {
-        "link" : "Passeport",
-        "url" : "https://www.smartphone-id.com/ne/photo-passeport-canadien"
-      },
-      {
-        "link" : "Permis de conduire",
-        "url" : "https://www.smartphone-id.com/ne/photo-permis-de-conduire"
-      },
-      {
-        "link" : "Carte - photo Ontario",
-        "url" : "https://www.smartphone-id.com/ne/carte-photo-lontario-canada/"
-      },
-      {
-        "link" : "Carte de résident permanent",
-        "url" : "https://www.smartphone-id.com/ne/photo-carte-de-residence-permanent-canada"
-      },
-      {
-        "link" : "Visa",
-        "url" : "https://www.smartphone-id.com/ne/photo-visa-canada"
-      }
-    ]
-  },
-
-
-  "Bloc1": {
-    "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-didentite-en-ligne-pour-Canada.png",
-    "background": "/images/background.png",
-    "titre_bloc1": "Outil rapide et facile pour",
-    "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez maintenant !",
-    "repeteurCheckGreenBloc1": [
-      {
-        "mediaItemUrl": "/images/General/check-green.webp",
-        "texte_check_green": "photos d'identité de qualité"
-      },
-      {
-        "mediaItemUrl": "/images/General/check-green.webp",
-        "texte_check_green": "signatures numériques."
-      }
-    ],
-    "repeteurCheckWhiteBloc1": [
-      {
-        "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Traitement instantané par IA"
-      },
-      {
-        "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Vérification par des experts"
-      },
-      {
-        "mediaItemUrl": "/images/Bloc1/check-white.png",
-        "texte_check_white": "Validation du gouvernement"
-      }
-    ]
-  },
-
-  "kalSearch": {
-    "titre_1": "J’ai besoin d’une photo d’identité pour",
-    "titre_2": "Pour le document",
-    "bouton": "Faire la photo",
-    "document" : "Sélectionner un document"
-  },
-
-  "Bloc2": {
-    "repeteur1": [
-      {
-        "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
-        "titre_repeteur1": "Plus d’1 million de photos conformes livrées"
-      },
-      {
-        "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
-        "titre_repeteur1": "1er fournisseur code ePhoto en ligne en France"
-      },
-      {
-        "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
-        "titre_repeteur1": "Note moyenne sur Apple et Google Store"
-      }
-    ]
-  },
-
-  "Bloc3" : {
-    "titre_bloc3_span": "La solution",
-    "titre_bloc3": " pour votre photo d’identité conforme, sans sortir de chez vous",
-    "repeteurCkeckBlack": [
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
-        "imageCkeckBlack": "/images/Bloc3/fr-CA/Formatage-automatique-Photo-identite-Canadien.png"
-      },
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
-        "imageCkeckBlack": "/images/Bloc3/fr-CA/Controle-expert-de-la-photo-identite-Canadien.png"
-      },
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
-        "imageCkeckBlack": "/images/Bloc3/fr-CA/Impression-et-livraison-photo-identite-canadien.png"
-      },
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Aucune information personnelle nécessaire, votre photo est stockée en toute sécurité.",
-        "imageCkeckBlack": "/images/Bloc3/fr-CA/Photo-identite-canadien-stockee-toute-securite.png"
-      }
-    ],
-    "repeteur_etape": [
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
-        "titre_check": "Etape 1",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadiene-etape-1-ordinateur.png"
-      },
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Vérifiez les caractéristiques de votre demande.",
-        "titre_check": "Etape 2",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-2-sur-ordinateur.png"
-      },
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
-        "titre_check": "Etape 3",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-3-sur-ordinateur.png"
-      },
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
-        "titre_check": "Etape 4",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-4-sur-ordinateur.png"
-      }
-    ],
-    "repeteurCkeckBlackMobile": [
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
-        "imageCkeckBlack": "/images/Bloc3/fr-CA/Formatage-automatique-Photo-identite-Canadien.png"
-      },
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
-        "imageCkeckBlack": "/images/Bloc3/fr-CA/Controle-expert-de-la-photo-identite-Canadien.png"
-      },
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
-        "imageCkeckBlack":  "/images/Bloc3/fr-CA/Impression-et-livraison-photo-identite-canadien.png"
-      },
-      {
-        "checkBlack": "/images/Bloc3/check-black.png",
-        "texteCheckBlack": "Aucune information personnelle nécessaire, votre photo est stockée en toute sécurité.",
-        "imageCkeckBlack":  "/images/Bloc3/fr-CA/Photo-identite-canadien-stockee-toute-securite.png"
-      }
-    ],
-    "repeteurEtapeMobile": [
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
-        "titre_check": "Etape 1",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-1-sur-mobile.png"
-      },
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
-        "titre_check": "Etape 2",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-2-sur-mobile.png"
-      },
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Vérifiez les caractéristiques de votre demande.",
-        "titre_check": "Etape 3",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-3-sur-mobile.png"
-      },
-      {
-        "check_green": "/images/General/check-green.webp",
-        "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
-        "titre_check": "Etape 4",
-        "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-4-sur-mobile.png"
-      }
-    ]
-  },
-
-  "Bloc4": {
-    "titre_bloc4_1": "Depuis 2017, ",
-    "titre_bloc4_2": " de photos d’identité conformes réalisées",
-    "titre_bloc4_span": "plus d’1 million",
-    "partenaires": [
-      {
-        "text": "Zebra",
-        "img": "/images/Bloc4/partenaires/Zebra.png"
-      },
-      {
-        "text": "Enpc Ediser",
-        "img": "/images/Bloc4/partenaires/Enpc-Ediser.png"
-      },
-      {
-        "text": "Mobilians",
-        "img": "/images/Bloc4/partenaires/Mobilians.png"
-      },
-      {
-        "text": "Codes Rousseau",
-        "img": "/images/Bloc4/partenaires/Codes-Rousseau.png"
-      },
-      {
-        "text": "Ma Gestion Zen",
-        "img": "/images/Bloc4/partenaires/Ma-Gestion-Zen.png"
-      },
-      {
-        "text": "CER",
-        "img": "/images/Bloc4/partenaires/Cer.png"
-      },
-      {
-        "text": "Planéte Permis",
-        "img": "/images/Bloc4/partenaires/Planete-Permis.png"
-      },
-      {
-        "text": "Drivup",
-        "img": "/images/Bloc4/partenaires/Drivup.png"
-      },
-      {
-        "text": "Inri's Formations",
-        "img": "/images/Bloc4/partenaires/Inris-Formations.png"
-      }
-    ],
-    "media": [
-      {
-        "text": "France Digitale",
-        "img": "/images/Bloc4/media/France-Digitale.png"
-      },
-      {
-        "text": "E-Residency Marketplace",
-        "img": "/images/Bloc4/media/eresidency-marketplace-member.png"
-      },
-      {
-        "text": "France Info",
-        "img": "/images/Bloc4/media/France-Info.png"
-      },
-      {
-        "text": "Canal+",
-        "img": "/images/Bloc4/media/Canal.png"
-      },
-      {
-        "text": "JEI",
-        "img": "/images/Bloc4/media/JEI.png"
-      },
-      {
-        "text": "Le Progrès",
-        "img": "/images/Bloc4/media/Le-Progres.png"
-      },
-      {
-        "text": "La French Tech",
-        "img": "/images/Bloc4/media/La-French-Tech.png"
-      }
-    ],
-    "temoignages": [
-      {
-        "nom": "Chassany2603, 04/04/2022",
-        "texte": "J'avais besoin de photo d'identité en urgence et je n’avais pas le temps de me déplacer. J'ai pris une photo, réglé le montant pour avoir une photo d'identité (aux normes) et dans l'heure je l'avais dans ma boîte mail. J'ai eu ma carte dans la foulée. Franchement je recommande.",
-        "titre": "Intuitif et rapide"
-      },
-      {
-        "nom": "ninie1208, 29/06/2021",
-        "texte": "Pratique pour les personnes qui comme moi ont peu de temps de libre après le travail. J'ai pris une photo le soir avec mon portable et quelques jours plus tard je l'avais dans ma boîte aux lettres. J'avais rendez-vous à la mairie la semaine d'après pour faire refaire ma carte d'identité, grosse charge mentale en moins.",
-        "titre": "Vraiment super"
-      },
-      {
-        "nom": "betiolina, 15/08/2022",
-        "texte": "Très bonne application. Si le résultat n'est pas probant. On peut recommencer autant de fois qu'il le faut la photo et cela sans payer de supplément.",
-        "titre": "Photo identité"
-      },
-      {
-        "nom": "Anaïs M, 21/02/2022",
-        "texte": "Après plusieurs mois à batailler avec l'Ants qui refusait mes photos prises en photomaton (2 fois) ou \"perdait\" les photos envoyées par courrier (3 fois), j'ai tenté le tout pour le tout, un peu désespérée. Et à ma grande surprise, les photos, loin d'avoir la qualité d'un photomaton ou photographe professionnel, ont été acceptées, et mon permis de conduire est en création. J'essaie, si possible, de ne pas tout faire depuis mon smartphone, mais force est de constater que c'est la seule option qui a marché.",
-        "titre": null
-      },
-      {
-        "nom": "cosmiccbyul, 04/07/2022",
-        "texte": "J'ai téléchargé cette application pour une ephoto titre de séjour puisque je n'étais pas en France et ne pouvais donc pas accéder à photomaton. À ma grande surprise, c'était ultra rapide : j'ai pris une photo en quelques minutes et j'ai reçu le code ephoto 30 minutes plus tard! De plus, cela ne coûte que 6 euros ? Je recommande vivement !!",
-        "titre": "Très rapide et efficace !"
-      },
-      {
-        "nom": "Starsissi, 02/12/2022",
-        "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus il y a des « conseils » pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis ?",
-        "titre": "Très satisfaite"
-      }
-    ],
-    "nos_partenaires": "Nos partenaires",
-    "nos_medias": "Présents dans les médias"
-  },
-
-  "Bloc5": {
-    "titre_bloc5_1": "Pourquoi choisir ",
-    "titre_bloc5_span": "notre service ?",
-    "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
-    "listeService": [
-      {
-        "check": "/images/General/check-green.webp",
-        "service24h24Et7j7": "Tous les documents",
-        "texteService": "Tous les types de documents sont disponibles."
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "service24h24Et7j7": "Conformité à 100%",
-        "texteService": "Pour tous documents officiels, dans le monde entier."
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "service24h24Et7j7": "Choisissez la meilleure photo",
-        "texteService": "Et faites des prises illimitées."
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "service24h24Et7j7": "Un vrai service client",
-        "texteService": "Des humains et pas de robots."
-      },
-
-      {
-        "check": "/images/General/check-green.webp",
-        "service24h24Et7j7": "Écologique",
-        "texteService": "Plus de papier, plus de déplacement."
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "service24h24Et7j7": "Service 24h/24 et 7j/7",
-        "texteService": null
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "service24h24Et7j7": "Solution idéale",
-        "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
-      }
-    ]
-  },
-
-  "Bloc6": {
-    "titre_bloc6_1": "Le ",
-    "titre_bloc6_2": " photo, pour tous vos documents officiels",
-    "titre_bloc6_span": "bon format",
-    "documents": [
-      {
-        "titre_doc": "Passeport",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Passeport-canadien.png"
-      },
-      {
-        "titre_doc": "Carte d'identité",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Carte-didentite.png"
-      },
-      {
-        "titre_doc": "Permis de conduire",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Permis-de-conduire.png"
-      },
-      {
-        "titre_doc": "Carte de résident permanent",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Carte-de-resident-permanent.png"
-      },
-      {
-        "titre_doc": "Visa",
-        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Visa-Canadien.png"
-      }
-    ],
-    "bloc_photo": [
-      {
-        "impressionPhoto": "Où imprimer une photo d'identité canadienne?",
-        "paragraphe": "Commandez vos photos imprimées par Smartphone iD ou utilisez la planche de photos prête à l'emploi et envoyée à votre adresse email.",
-        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-de-photo-didentite-canadienne-imprimee.png",
-        "partenaires": [
-          {
-            "nom_partenaire": "Smartphone iD",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
-          },
-          {
-            "nom_partenaire": "Costco",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Costco-1.png"
-          },
-          {
-            "nom_partenaire": "Jean Coutu",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Jean-Coutu-1.png"
-          },
-          {
-            "nom_partenaire": "London Drugs",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/London-Drugs-1.png"
-          },
-          {
-            "nom_partenaire": "Shoppers Drug Mart",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Shoppers-Drug-Mart-1.png"
-          },
-          {
-            "nom_partenaire": "Staples",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Staples-2.png"
-          },
-          {
-            "nom_partenaire": "UPS",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/UPS-2.png"
-          },
-          {
-            "nom_partenaire": "Walmart",
-            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Walmart-2.png"
-          }
-        ]
-      }
-    ]
-  },
-
-  "Bloc7": {
-    "titre_bloc7_1" : "La solution ",
-    "titre_bloc7_2" : " pour les demandes de documents officiels",
-    "titre_bloc7_span": "parfaite",
-    "bloc": [
-      {
-        "img_check": "/images/General/check-green.webp",
-        "img_principal": "/images/Bloc7/fr-CA/Photo-et-signature-numerique-document-canada.png",
-        "paragraphe": "Lorsque nécessaire, votre signature sera liée à votre photo pour les demandes de documents officiels en ligne",
-        "titre": "Signature numérique"
-      },
-      {
-        "img_check": "/images/General/check-green.webp",
-        "img_principal": "/images/Bloc7/fr-CA/planche-recente-de-photo-identite-canadienne-imprimee.png",
-        "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
-        "titre": "Photo de moins de 6 mois"
-      }
-    ]
-  },
-
-  "Bloc8": {
-    "titre_bloc8_1" : "Comment ",
-    "titre_bloc8_2" : " sa photo d'identité",
-    "titre_bloc8_span": "réussir",
-    "titre_encart": "Quelques conseils",
-    "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-    "bloc_conseils": [
-      {
-        "check": "/images/General/check-green.webp",
-        "chiffre": 1,
-        "texte": "Les lunettes",
-        "texte_span": "enlevées"
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "chiffre": 2,
-        "texte": "Le visage",
-        "texte_span": "uniformément éclairé"
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "chiffre": 3,
-        "texte": "Les cheveux",
-        "texte_span": "derrière les épaules"
-      },
-      {
-        "check": "/images/General/check-green.webp",
-        "chiffre": 4,
-        "texte": "La bouche",
-        "texte_span": "fermée, pas de sourire"
-      }
-    ],
-    "bouton_plus": {
-      "url": "https://www.smartphone-id.com/ne/exigences-photo-didentite-canada",
-      "title": "En savoir plus"
+    "metadata": {
+        "title": "Photo d'identité officielle en ligne - Smartphone iD",
+        "description": "Obtenez rapidement votre photo d’identité sécurisée"
     },
-    "lienBebe": {
-      "url": "https://www.smartphone-id.com/ne/photo-identite-bebe-canada",
-      "title": "Comment faire une photo d'identité de votre bébé ?"
+
+    "SmartBanner": {
+        "phrase": "Obtenez rapidement votre photo d’identité sécurisée",
+        "download": "Télécharger"
+    },
+
+    "NavBar": {
+        "liens": [
+            {
+                "link": "Passeport",
+                "url": "https://www.smartphone-id.com/ne/photo-passeport-canadien"
+            },
+            {
+                "link": "Permis de conduire",
+                "url": "https://www.smartphone-id.com/ne/photo-permis-de-conduire"
+            },
+            {
+                "link": "Carte - photo Ontario",
+                "url": "https://www.smartphone-id.com/ne/carte-photo-lontario-canada/"
+            },
+            {
+                "link": "Carte de résident permanent",
+                "url": "https://www.smartphone-id.com/ne/photo-carte-de-residence-permanent-canada"
+            },
+            {
+                "link": "Visa",
+                "url": "https://www.smartphone-id.com/ne/photo-visa-canada"
+            },
+            {
+                "link": "Blog",
+                "url": "/${locale}/blog"
+            }
+        ]
+    },
+
+    "Bloc1": {
+        "girl": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/outil-de-photo-didentite-en-ligne-pour-Canada.png",
+        "background": "/images/background.png",
+        "titre_bloc1": "Outil rapide et facile pour",
+        "titre_h4_bloc1": "Prenez simplement une photo et recevez-la prête ! Essayez maintenant !",
+        "repeteurCheckGreenBloc1": [
+            {
+                "mediaItemUrl": "/images/General/check-green.webp",
+                "texte_check_green": "photos d'identité de qualité"
+            },
+            {
+                "mediaItemUrl": "/images/General/check-green.webp",
+                "texte_check_green": "signatures numériques."
+            }
+        ],
+        "repeteurCheckWhiteBloc1": [
+            {
+                "mediaItemUrl": "/images/Bloc1/check-white.png",
+                "texte_check_white": "Traitement instantané par IA"
+            },
+            {
+                "mediaItemUrl": "/images/Bloc1/check-white.png",
+                "texte_check_white": "Vérification par des experts"
+            },
+            {
+                "mediaItemUrl": "/images/Bloc1/check-white.png",
+                "texte_check_white": "Validation du gouvernement"
+            }
+        ]
+    },
+
+    "kalSearch": {
+        "titre_1": "J’ai besoin d’une photo d’identité pour",
+        "titre_2": "Pour le document",
+        "bouton": "Faire la photo",
+        "document": "Sélectionner un document"
+    },
+
+    "Bloc2": {
+        "repeteur1": [
+            {
+                "img_repeteur1": "/images/Bloc2/secure_passport_photo_tool.png",
+                "titre_repeteur1": "Plus d’1 million de photos conformes livrées"
+            },
+            {
+                "img_repeteur1": "/images/Bloc2/passport_photo_digital_signature.png",
+                "titre_repeteur1": "1er fournisseur code ePhoto en ligne en France"
+            },
+            {
+                "img_repeteur1": "/images/Bloc2/smartphone_id_review.png",
+                "titre_repeteur1": "Note moyenne sur Apple et Google Store"
+            }
+        ]
+    },
+
+    "Bloc3": {
+        "titre_bloc3_span": "La solution",
+        "titre_bloc3": " pour votre photo d’identité conforme, sans sortir de chez vous",
+        "repeteurCkeckBlack": [
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Formatage-automatique-Photo-identite-Canadien.png"
+            },
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Controle-expert-de-la-photo-identite-Canadien.png"
+            },
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Impression-et-livraison-photo-identite-canadien.png"
+            },
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Aucune information personnelle nécessaire, votre photo est stockée en toute sécurité.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Photo-identite-canadien-stockee-toute-securite.png"
+            }
+        ],
+        "repeteur_etape": [
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Scannez le code QR pour prendre une photo d'identité avec votre smartphone.",
+                "titre_check": "Etape 1",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadiene-etape-1-ordinateur.png"
+            },
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Vérifiez les caractéristiques de votre demande.",
+                "titre_check": "Etape 2",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-2-sur-ordinateur.png"
+            },
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
+                "titre_check": "Etape 3",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-3-sur-ordinateur.png"
+            },
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
+                "titre_check": "Etape 4",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-identite-canadienee-etape-4-sur-ordinateur.png"
+            }
+        ],
+        "repeteurCkeckBlackMobile": [
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Mise en forme automatique des photos d’identité.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Formatage-automatique-Photo-identite-Canadien.png"
+            },
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Contrôle d’experts, conformité garantie.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Controle-expert-de-la-photo-identite-Canadien.png"
+            },
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Vos photos imprimées et postées le jour même.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Impression-et-livraison-photo-identite-canadien.png"
+            },
+            {
+                "checkBlack": "/images/Bloc3/check-black.png",
+                "texteCheckBlack": "Aucune information personnelle nécessaire, votre photo est stockée en toute sécurité.",
+                "imageCkeckBlack": "/images/Bloc3/fr-CA/Photo-identite-canadien-stockee-toute-securite.png"
+            }
+        ],
+        "repeteurEtapeMobile": [
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Prenez une photo d'identité avec votre smartphone.",
+                "titre_check": "Etape 1",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-1-sur-mobile.png"
+            },
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Commandez une planche photo imprimée par notre service, si nécessaire.",
+                "titre_check": "Etape 2",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-2-sur-mobile.png"
+            },
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Vérifiez les caractéristiques de votre demande.",
+                "titre_check": "Etape 3",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-3-sur-mobile.png"
+            },
+            {
+                "check_green": "/images/General/check-green.webp",
+                "texte_etape": "Recevez votre photo individuelle et votre planche photo imprimable dans votre boîte de réception mail.",
+                "titre_check": "Etape 4",
+                "image_repeteur_etape": "/images/Bloc3/fr-CA/outil-de-photo-didentite-canadienne-etape-4-sur-mobile.png"
+            }
+        ]
+    },
+
+    "Bloc4": {
+        "titre_bloc4_1": "Depuis 2017, ",
+        "titre_bloc4_2": " de photos d’identité conformes réalisées",
+        "titre_bloc4_span": "plus d’1 million",
+        "partenaires": [
+            {
+                "text": "Zebra",
+                "img": "/images/Bloc4/partenaires/Zebra.png"
+            },
+            {
+                "text": "Enpc Ediser",
+                "img": "/images/Bloc4/partenaires/Enpc-Ediser.png"
+            },
+            {
+                "text": "Mobilians",
+                "img": "/images/Bloc4/partenaires/Mobilians.png"
+            },
+            {
+                "text": "Codes Rousseau",
+                "img": "/images/Bloc4/partenaires/Codes-Rousseau.png"
+            },
+            {
+                "text": "Ma Gestion Zen",
+                "img": "/images/Bloc4/partenaires/Ma-Gestion-Zen.png"
+            },
+            {
+                "text": "CER",
+                "img": "/images/Bloc4/partenaires/Cer.png"
+            },
+            {
+                "text": "Planéte Permis",
+                "img": "/images/Bloc4/partenaires/Planete-Permis.png"
+            },
+            {
+                "text": "Drivup",
+                "img": "/images/Bloc4/partenaires/Drivup.png"
+            },
+            {
+                "text": "Inri's Formations",
+                "img": "/images/Bloc4/partenaires/Inris-Formations.png"
+            }
+        ],
+        "media": [
+            {
+                "text": "France Digitale",
+                "img": "/images/Bloc4/media/France-Digitale.png"
+            },
+            {
+                "text": "E-Residency Marketplace",
+                "img": "/images/Bloc4/media/eresidency-marketplace-member.png"
+            },
+            {
+                "text": "France Info",
+                "img": "/images/Bloc4/media/France-Info.png"
+            },
+            {
+                "text": "Canal+",
+                "img": "/images/Bloc4/media/Canal.png"
+            },
+            {
+                "text": "JEI",
+                "img": "/images/Bloc4/media/JEI.png"
+            },
+            {
+                "text": "Le Progrès",
+                "img": "/images/Bloc4/media/Le-Progres.png"
+            },
+            {
+                "text": "La French Tech",
+                "img": "/images/Bloc4/media/La-French-Tech.png"
+            }
+        ],
+        "temoignages": [
+            {
+                "nom": "Chassany2603, 04/04/2022",
+                "texte": "J'avais besoin de photo d'identité en urgence et je n’avais pas le temps de me déplacer. J'ai pris une photo, réglé le montant pour avoir une photo d'identité (aux normes) et dans l'heure je l'avais dans ma boîte mail. J'ai eu ma carte dans la foulée. Franchement je recommande.",
+                "titre": "Intuitif et rapide"
+            },
+            {
+                "nom": "ninie1208, 29/06/2021",
+                "texte": "Pratique pour les personnes qui comme moi ont peu de temps de libre après le travail. J'ai pris une photo le soir avec mon portable et quelques jours plus tard je l'avais dans ma boîte aux lettres. J'avais rendez-vous à la mairie la semaine d'après pour faire refaire ma carte d'identité, grosse charge mentale en moins.",
+                "titre": "Vraiment super"
+            },
+            {
+                "nom": "betiolina, 15/08/2022",
+                "texte": "Très bonne application. Si le résultat n'est pas probant. On peut recommencer autant de fois qu'il le faut la photo et cela sans payer de supplément.",
+                "titre": "Photo identité"
+            },
+            {
+                "nom": "Anaïs M, 21/02/2022",
+                "texte": "Après plusieurs mois à batailler avec l'Ants qui refusait mes photos prises en photomaton (2 fois) ou \"perdait\" les photos envoyées par courrier (3 fois), j'ai tenté le tout pour le tout, un peu désespérée. Et à ma grande surprise, les photos, loin d'avoir la qualité d'un photomaton ou photographe professionnel, ont été acceptées, et mon permis de conduire est en création. J'essaie, si possible, de ne pas tout faire depuis mon smartphone, mais force est de constater que c'est la seule option qui a marché.",
+                "titre": null
+            },
+            {
+                "nom": "cosmiccbyul, 04/07/2022",
+                "texte": "J'ai téléchargé cette application pour une ephoto titre de séjour puisque je n'étais pas en France et ne pouvais donc pas accéder à photomaton. À ma grande surprise, c'était ultra rapide : j'ai pris une photo en quelques minutes et j'ai reçu le code ephoto 30 minutes plus tard! De plus, cela ne coûte que 6 euros ? Je recommande vivement !!",
+                "titre": "Très rapide et efficace !"
+            },
+            {
+                "nom": "Starsissi, 02/12/2022",
+                "texte": "J'ai eu besoin de photos d'identité numérique pour un permis de conduire. Grâce à cette application j'ai pu les faire de chez moi, sans devoir me déplacer et sans être limitée par le nombre d'essais. De plus il y a des « conseils » pour montrer ce qui est admis ou non, c'est très pratique. Mes photos ont été acceptées du premier coup par le gouvernement et je viens de recevoir mon nouveau permis ?",
+                "titre": "Très satisfaite"
+            }
+        ],
+        "nos_partenaires": "Nos partenaires",
+        "nos_medias": "Présents dans les médias"
+    },
+
+    "Bloc5": {
+        "titre_bloc5_1": "Pourquoi choisir ",
+        "titre_bloc5_span": "notre service ?",
+        "imgService": "/images/Bloc5/outil-de-photo-identite-facile-en-ligne.jpg",
+        "listeService": [
+            {
+                "check": "/images/General/check-green.webp",
+                "service24h24Et7j7": "Tous les documents",
+                "texteService": "Tous les types de documents sont disponibles."
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "service24h24Et7j7": "Conformité à 100%",
+                "texteService": "Pour tous documents officiels, dans le monde entier."
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "service24h24Et7j7": "Choisissez la meilleure photo",
+                "texteService": "Et faites des prises illimitées."
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "service24h24Et7j7": "Un vrai service client",
+                "texteService": "Des humains et pas de robots."
+            },
+
+            {
+                "check": "/images/General/check-green.webp",
+                "service24h24Et7j7": "Écologique",
+                "texteService": "Plus de papier, plus de déplacement."
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "service24h24Et7j7": "Service 24h/24 et 7j/7",
+                "texteService": null
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "service24h24Et7j7": "Solution idéale",
+                "texteService": "Pour les bébés, les personnes en situation de handicap, les expatriés, les personnes des territoires ruraux etc."
+            }
+        ]
+    },
+
+    "Bloc6": {
+        "titre_bloc6_1": "Le ",
+        "titre_bloc6_2": " photo, pour tous vos documents officiels",
+        "titre_bloc6_span": "bon format",
+        "documents": [
+            {
+                "titre_doc": "Passeport",
+                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Passeport-canadien.png"
+            },
+            {
+                "titre_doc": "Carte d'identité",
+                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Carte-didentite.png"
+            },
+            {
+                "titre_doc": "Permis de conduire",
+                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Permis-de-conduire.png"
+            },
+            {
+                "titre_doc": "Carte de résident permanent",
+                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Carte-de-resident-permanent.png"
+            },
+            {
+                "titre_doc": "Visa",
+                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Visa-Canadien.png"
+            }
+        ],
+        "bloc_photo": [
+            {
+                "impressionPhoto": "Où imprimer une photo d'identité canadienne?",
+                "paragraphe": "Commandez vos photos imprimées par Smartphone iD ou utilisez la planche de photos prête à l'emploi et envoyée à votre adresse email.",
+                "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/planche-de-photo-didentite-canadienne-imprimee.png",
+                "partenaires": [
+                    {
+                        "nom_partenaire": "Smartphone iD",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+                    },
+                    {
+                        "nom_partenaire": "Costco",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Costco-1.png"
+                    },
+                    {
+                        "nom_partenaire": "Jean Coutu",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Jean-Coutu-1.png"
+                    },
+                    {
+                        "nom_partenaire": "London Drugs",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/London-Drugs-1.png"
+                    },
+                    {
+                        "nom_partenaire": "Shoppers Drug Mart",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Shoppers-Drug-Mart-1.png"
+                    },
+                    {
+                        "nom_partenaire": "Staples",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Staples-2.png"
+                    },
+                    {
+                        "nom_partenaire": "UPS",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/UPS-2.png"
+                    },
+                    {
+                        "nom_partenaire": "Walmart",
+                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/Walmart-2.png"
+                    }
+                ]
+            }
+        ]
+    },
+
+    "Bloc7": {
+        "titre_bloc7_1": "La solution ",
+        "titre_bloc7_2": " pour les demandes de documents officiels",
+        "titre_bloc7_span": "parfaite",
+        "bloc": [
+            {
+                "img_check": "/images/General/check-green.webp",
+                "img_principal": "/images/Bloc7/fr-CA/Photo-et-signature-numerique-document-canada.png",
+                "paragraphe": "Lorsque nécessaire, votre signature sera liée à votre photo pour les demandes de documents officiels en ligne",
+                "titre": "Signature numérique"
+            },
+            {
+                "img_check": "/images/General/check-green.webp",
+                "img_principal": "/images/Bloc7/fr-CA/planche-recente-de-photo-identite-canadienne-imprimee.png",
+                "paragraphe": "Obligation d’une photo d’identité de moins de 6 mois. Le gouvernement peut voir la date de la photo prise.",
+                "titre": "Photo de moins de 6 mois"
+            }
+        ]
+    },
+
+    "Bloc8": {
+        "titre_bloc8_1": "Comment ",
+        "titre_bloc8_2": " sa photo d'identité",
+        "titre_bloc8_span": "réussir",
+        "titre_encart": "Quelques conseils",
+        "video": "<iframe title=\"How to take a passport photo from home\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/TIKwHRcA3b4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "bloc_conseils": [
+            {
+                "check": "/images/General/check-green.webp",
+                "chiffre": 1,
+                "texte": "Les lunettes",
+                "texte_span": "enlevées"
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "chiffre": 2,
+                "texte": "Le visage",
+                "texte_span": "uniformément éclairé"
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "chiffre": 3,
+                "texte": "Les cheveux",
+                "texte_span": "derrière les épaules"
+            },
+            {
+                "check": "/images/General/check-green.webp",
+                "chiffre": 4,
+                "texte": "La bouche",
+                "texte_span": "fermée, pas de sourire"
+            }
+        ],
+        "bouton_plus": {
+            "url": "https://www.smartphone-id.com/ne/exigences-photo-didentite-canada",
+            "title": "En savoir plus"
+        },
+        "lienBebe": {
+            "url": "https://www.smartphone-id.com/ne/photo-identite-bebe-canada",
+            "title": "Comment faire une photo d'identité de votre bébé ?"
+        }
+    },
+
+    "Bloc9": {
+        "ID": "Photos d'identité pour le Canada",
+        "ePhoto": "",
+        "codeEphoto": [
+            {
+                "texte_accordeon": null,
+                "titre_accordeon": null
+            }
+        ],
+        "photo_didentite": [
+            {
+                "texteAccordeon": "<p>Toutes les succursales de Walmart disposent d'un photographe sur place et d'un laboratoire de photographie pour prendre et imprimer des photos d'identité.</p>\n",
+                "titre_accordeon": "Est-ce que Walmart fait des photos d'identité ?"
+            },
+            {
+                "texteAccordeon": "<p>Staples propose des photos d'identité dans la plupart de leurs magasins. Staples est généralement une option plus coûteuse pour faire prendre votre photo.</p>\n",
+                "titre_accordeon": "Est-ce que Staples fait des photos d'identité ?"
+            },
+            {
+                "texteAccordeon": "<p>Costco a arrêté de prendre des photos d'identité en 2021. Ils continuent d'offrir des services d'impression de photos pour les membres du magasin.</p>\n",
+                "titre_accordeon": "Est-ce que Costco fait des photos d'identité ?"
+            },
+            {
+                "texteAccordeon": "<p>Toutes les succursales de London Drugs disposent d'un photographe sur place et d'un laboratoire pour prendre des photos d'identité à un bon prix.</p>\n",
+                "titre_accordeon": "Est-ce que London Drugs fait des photos d'identité ?"
+            },
+
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Une photo d&#8217;identité Canadienne doit mesurer 50 mm de large sur 70 mm de haut, avec la hauteur de votre visage mesurant entre 31 mm et 36 mm.</span></p>\n",
+                "titre_accordeon": "Quelle est la taille de la photo d'identité  canadienne ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Oui ! Vous pouvez prendre votre propre photo  d&#8217;identité . Vous pouvez le faire avec l&#8217;appareil photo arrière de votre téléphone, mais assurez-vous de suivre toutes les directives pour que votre photo soit acceptée (éclairage, ombre, couleur de fond). Vous pouvez également utiliser l&#8217;outil Smartphone iD qui fait tout pour vous. Il vous suffit de choisir votre pays et votre document, de prendre une photo, et de la recevoir plus tard par e-mail. C&#8217;est aussi simple que ça !</span></p>\n",
+                "titre_accordeon": "Peut-on prendre une photo d'identité  avec son téléphone ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Pour imprimer des photos d&#8217;identité  avec votre PC, vous devez d&#8217;abord télécharger un logiciel qui vous permet d&#8217;obtenir des photos de 35 mm x 45 mm (ou 50 mm x 70 mm pour un passeport canadien). Ensuite, vous devrez connecter une imprimante compatible avec du papier photo à votre PC car seules les photos d&#8217;identité imprimées professionnellement sont acceptées.</span></p>\n<p><span style=\"font-weight: 400;\">Si vous ne voulez pas télécharger de logiciel ou éviter les tracas de recherche d&#8217;un outil en ligne facile, vous pouvez opter pour le service Smartphone iD, où vous n&#8217;avez qu&#8217;à choisir le type de document nécessaire et tout le reste est fait pour vous. Vous pouvez recevoir une impression professionnelle de 10&#215;15 cm à votre domicile ou utiliser le fichier numérique de 10&#215;15 cm que nous envoyons par e-mail et l&#8217;utiliser dans une imprimerie à proximité.</span></p>\n",
+                "titre_accordeon": "Comment imprimer une photo d'identité  ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Faites prendre votre photo d&#8217;identité dans plusieurs magasins canadiens comme Walmart, London Drugs, des photographes de passeports, Staples et Shopper’s Drug Mart. Alternativement, vous pouvez obtenir votre photo  en ligne via l&#8217;application &#8216;Smartphone iD&#8217;, qui offre une option abordable et pratique pour prendre la photo de chez vous.</span></p>\n",
+                "titre_accordeon": "Où obtenir des photos d'identité   ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Smartphone iD fournit des photos d&#8217;identité numériques quelques minutes après la prise de la photo avec votre téléphone. Vous recevrez une copie dans votre e-mail et l&#8217;option de faire imprimer la photo et de l&#8217;envoyer chez vous.</span></p>\n",
+                "titre_accordeon": "Où obtenir une photo d'identité numérique  ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Les coûts de la photo de d&#8217;identité varient généralement de 10 à 20 dollars. Voici quelques magasins populaires et leur coût approximatif :</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">&#8211; Walmart (12,97 $ CAD),</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Shoppers (19,99 $ CAD),</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Staples (21,99 $ CAD),</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Smartphone iD qui inclut également une garantie d&#8217;acceptation gouvernementale (10,22 $ CAD).</span></p>\n",
+                "titre_accordeon": "Combien coûtent les photos d'identité  au Canada ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Cela dépend du type de document. Les documents officiels utilisés pour la lecture biométrique par machine (passeports électroniques, visas, cartes d&#8217;identité) n&#8217;autorisent pas la frange car elle rend plus difficile la lecture des données biométriques à partir du scan. La frange doit donc être déplacée sur un côté et fixée avec des épingles à cheveux discrètes.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Cependant, des documents d&#8217;identité plus informels comme une carte d&#8217;étudiant ou de transport peuvent comporter une photo de passeport avec une frange. Si vous n&#8217;êtes pas sûr des exigences, vous pouvez utiliser le service Smartphone iD qui vous fournira une photo conforme et vérifiée pour le document de votre choix.</span></p>\n",
+                "titre_accordeon": "Peut-on avoir une frange sur une photo d'identité ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Cela dépend du type de document. Les documents officiels utilisés pour la lecture biométrique par machine (passeports électroniques, visas, cartes d&#8217;identité) n&#8217;autorisent pas le sourire car il rend plus difficile la lecture des données biométriques à partir du scan. Cependant, des documents d&#8217;identité plus informels comme une carte d&#8217;étudiant ou de transport peuvent comporter une photo de passeport d&#8217;une personne souriante. Si vous n&#8217;êtes pas sûr des exigences, vous pouvez utiliser le service Smartphone iD qui vous fournira une photo conforme et vérifiée pour le document de votre choix.</span></p>\n",
+                "titre_accordeon": "Peut-on sourire sur une photo d'identité?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Tous les gouvernements n&#8217;autorisent pas le port de lunettes car c&#8217;est très difficile à obtenir correctement. Les montures épaisses sont interdites, tout comme les verres teintés, aucun reflet ne doit apparaître et ils doivent être correctement ajustés. Par conséquent, les gouvernements qui n&#8217;interdisent pas le port de lunettes recommandent fortement de les retirer pour la photo.</span></p>\n",
+                "titre_accordeon": "Peut-on porter des lunettes sur une photo d'identité ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Oui, vous pouvez vous maquiller sur votre photo </span><span style=\"font-weight: 400;\">d&#8217;identité</span><span style=\"font-weight: 400;\">. Mais notez que le maquillage doit être léger.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Ne mettez pas trop de fard à paupières sur vos paupières.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Un rouge à lèvres brillant peut créer un reflet, il est donc préférable d&#8217;opter pour un rouge à lèvres mat si vous voulez accentuer vos lèvres.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Il est également utile de vérifier que votre peau n&#8217;est pas grasse avant de prendre une photo, car cela peut créer un reflet lumineux.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Enfin, rappelez-vous que la photo de passeport doit être aussi naturelle que possible et doit vous ressembler un jour ordinaire.</span></p>\n",
+                "titre_accordeon": "Peut-on se maquiller sur une photo d'identité ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Des couleurs vives qui se détachent clairement du fond conviennent à une photo </span><span style=\"font-weight: 400;\">d&#8217;identité</span><span style=\"font-weight: 400;\">. Comme un fond clair est requis, les couleurs plus sombres sont bénéfiques pour augmenter le contraste. Assurez-vous également que votre chemise ne montre pas trop de peau, car les photos de passeport torse nu sont interdites. Enfin, les uniformes de tout type sont également interdits sur une photo de passeport biométrique.</span></p>\n",
+                "titre_accordeon": "Que porter pour une photo d'identité?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Dans la plupart des cas, vous devrez prendre une nouvelle photo lors du renouvellement de votre passeport. La seule exception est si votre passeport a été endommagé, perdu ou détruit. Pour les documents officiels canadiens, les photos ne peuvent pas dater de plus de 6 mois.</span></p>\n",
+                "titre_accordeon": "Faut-il une nouvelle photo pour renouveler son passeport ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Si votre photo </span><span style=\"font-weight: 400;\">d&#8217;identité</span><span style=\"font-weight: 400;\"> est rejetée, vous devrez soumettre une nouvelle photo. Le traitement de la demande peut varier de quelques semaines à quelques mois. Utilisez le fabricant de photos </span><span style=\"font-weight: 400;\">d&#8217;identité </span><span style=\"font-weight: 400;\">Smartphone iD pour prendre votre photo et assurez-vous qu&#8217;elle sera acceptée du premier coup car une vérification immédiate par intelligence artificielle et une vérification supplémentaire par un expert humain sont effectuées.</span></p>\n",
+                "titre_accordeon": "Que se passe-t-il si une photo d'identité est rejetée ?"
+            },
+            {
+                "texteAccordeon": "<p><span style=\"font-weight: 400;\">Shoppers Drug Mart propose des photos </span><span style=\"font-weight: 400;\">d&#8217;identité </span><span style=\"font-weight: 400;\">dans un certain nombre de ses magasins. Il est important de téléphoner à l&#8217;avance et de s&#8217;assurer que le magasin de votre région propose le service.</span></p>\n",
+                "titre_accordeon": "Shoppers fait-il des photos d'identité?"
+            }
+        ],
+        "titre_bloc9": " fréquemment posées",
+        "titre_bloc9_span": "Questions"
+    },
+
+    "Bloc10": {
+        "thankYouMsg": "Merci d'avoir noté !",
+        "heading": "Cette information était-elle utile ?",
+        "sousTitre": "Cliquez sur les étoiles pour donner votre note.",
+        "personne": "personnes ont donné",
+        "etoiles": "étoiles sur 5"
+    },
+
+    "Bloc11": {
+        "titre": "Cliquez sur la section correspondante pour trouver des réponses sur les photos d'identité de documents spécifiques pour le Canada !",
+        "liens": [
+            {
+                "link": "Passeport",
+                "url": "https://www.smartphone-id.com/ne/photo-passeport-canadien",
+                "icon": "/images/Bloc11/passeport.svg"
+            },
+            {
+                "link": "Permis de conduire",
+                "url": "https://www.smartphone-id.com/ne/photo-permis-de-conduire",
+                "icon": "/images/Bloc11/permis-conduire.svg"
+            },
+            {
+                "link": "Carte d'identité",
+                "url": "https://www.smartphone-id.com/ne/carte-photo-lontario-canada/",
+                "icon": "/images/Bloc11/carte-identite.svg"
+            },
+            {
+                "link": "Titre de séjour",
+                "url": "https://www.smartphone-id.com/ne/photo-carte-de-residence-permanent-canada",
+                "icon": "/images/Bloc11/titre-de-sejour.svg"
+            },
+            {
+                "link": "Visa",
+                "url": "https://www.smartphone-id.com/ne/photo-visa-canada",
+                "icon": "/images/Bloc11/visa.svg"
+            }
+        ]
+    },
+
+    "Footer": {
+        "partie2-button": "Essais illimités et gratuits !",
+        "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
+        "Facebook-link": "https://www.facebook.com/smartphone.id.international",
+        "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
+        "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
+        "SiteMapList-propos": "À propos de nous",
+        "propos-link": "https://www.smartphone-id.com/a-propos-de-nous/",
+        "SiteMapList-faq": "FAQ",
+        "faq-link": "https://www.smartphone-id.com/faq/",
+        "SiteMapList-contact": "Contact",
+        "contact-link": "https://www.smartphone-id.com/contact/",
+        "applis-h3": "Téléchargez l'application",
+        "applis-p": "Suivez vos commandes et profitez d'encore plus de fonctionnalités avec l'application Smartphone iD.",
+        "AppStore-link": "https://apps.apple.com/ca/app/official-passport-photo/id1527550865?platform=iphone",
+        "PlayStore-link": "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=ca",
+        "AppStoreImg": "/images/Footer/AppStore-vector.svg",
+        "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
+        "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
+        "mentions-confidentialite": "Politique de confidentialité",
+        "mentions-confidentialite-link": "https://www.smartphone-id.com/politique-confidentialite/",
+        "mentions-cgu": "Conditions générales d'utilisation",
+        "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
+        "mentions-legales": "Mentions légales",
+        "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
+        "cookies": "Cookies",
+        "cookies-link": "https://www.smartphone-id.com/cookies/"
     }
-  },
-
-  "Bloc9": {
-    "ID": "Photos d'identité pour le Canada",
-    "ePhoto": "",
-    "codeEphoto": [
-      {
-        "texte_accordeon": null,
-        "titre_accordeon": null
-      }
-    ],
-    "photo_didentite": [
-      {
-        "texteAccordeon": "<p>Toutes les succursales de Walmart disposent d'un photographe sur place et d'un laboratoire de photographie pour prendre et imprimer des photos d'identité.</p>\n",
-        "titre_accordeon": "Est-ce que Walmart fait des photos d'identité ?"
-      },
-      {
-        "texteAccordeon": "<p>Staples propose des photos d'identité dans la plupart de leurs magasins. Staples est généralement une option plus coûteuse pour faire prendre votre photo.</p>\n",
-        "titre_accordeon": "Est-ce que Staples fait des photos d'identité ?"
-      },
-      {
-        "texteAccordeon": "<p>Costco a arrêté de prendre des photos d'identité en 2021. Ils continuent d'offrir des services d'impression de photos pour les membres du magasin.</p>\n",
-        "titre_accordeon": "Est-ce que Costco fait des photos d'identité ?"
-      },
-      {
-        "texteAccordeon": "<p>Toutes les succursales de London Drugs disposent d'un photographe sur place et d'un laboratoire pour prendre des photos d'identité à un bon prix.</p>\n",
-        "titre_accordeon": "Est-ce que London Drugs fait des photos d'identité ?"
-      },
-
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Une photo d&#8217;identité Canadienne doit mesurer 50 mm de large sur 70 mm de haut, avec la hauteur de votre visage mesurant entre 31 mm et 36 mm.</span></p>\n",
-        "titre_accordeon": "Quelle est la taille de la photo d'identité  canadienne ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Oui ! Vous pouvez prendre votre propre photo  d&#8217;identité . Vous pouvez le faire avec l&#8217;appareil photo arrière de votre téléphone, mais assurez-vous de suivre toutes les directives pour que votre photo soit acceptée (éclairage, ombre, couleur de fond). Vous pouvez également utiliser l&#8217;outil Smartphone iD qui fait tout pour vous. Il vous suffit de choisir votre pays et votre document, de prendre une photo, et de la recevoir plus tard par e-mail. C&#8217;est aussi simple que ça !</span></p>\n",
-        "titre_accordeon": "Peut-on prendre une photo d'identité  avec son téléphone ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Pour imprimer des photos d&#8217;identité  avec votre PC, vous devez d&#8217;abord télécharger un logiciel qui vous permet d&#8217;obtenir des photos de 35 mm x 45 mm (ou 50 mm x 70 mm pour un passeport canadien). Ensuite, vous devrez connecter une imprimante compatible avec du papier photo à votre PC car seules les photos d&#8217;identité imprimées professionnellement sont acceptées.</span></p>\n<p><span style=\"font-weight: 400;\">Si vous ne voulez pas télécharger de logiciel ou éviter les tracas de recherche d&#8217;un outil en ligne facile, vous pouvez opter pour le service Smartphone iD, où vous n&#8217;avez qu&#8217;à choisir le type de document nécessaire et tout le reste est fait pour vous. Vous pouvez recevoir une impression professionnelle de 10&#215;15 cm à votre domicile ou utiliser le fichier numérique de 10&#215;15 cm que nous envoyons par e-mail et l&#8217;utiliser dans une imprimerie à proximité.</span></p>\n",
-        "titre_accordeon": "Comment imprimer une photo d'identité  ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Faites prendre votre photo d&#8217;identité dans plusieurs magasins canadiens comme Walmart, London Drugs, des photographes de passeports, Staples et Shopper’s Drug Mart. Alternativement, vous pouvez obtenir votre photo  en ligne via l&#8217;application &#8216;Smartphone iD&#8217;, qui offre une option abordable et pratique pour prendre la photo de chez vous.</span></p>\n",
-        "titre_accordeon": "Où obtenir des photos d'identité   ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Smartphone iD fournit des photos d&#8217;identité numériques quelques minutes après la prise de la photo avec votre téléphone. Vous recevrez une copie dans votre e-mail et l&#8217;option de faire imprimer la photo et de l&#8217;envoyer chez vous.</span></p>\n",
-        "titre_accordeon": "Où obtenir une photo d'identité numérique  ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Les coûts de la photo de d&#8217;identité varient généralement de 10 à 20 dollars. Voici quelques magasins populaires et leur coût approximatif :</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">&#8211; Walmart (12,97 $ CAD),</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Shoppers (19,99 $ CAD),</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Staples (21,99 $ CAD),</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Smartphone iD qui inclut également une garantie d&#8217;acceptation gouvernementale (10,22 $ CAD).</span></p>\n",
-        "titre_accordeon": "Combien coûtent les photos d'identité  au Canada ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Cela dépend du type de document. Les documents officiels utilisés pour la lecture biométrique par machine (passeports électroniques, visas, cartes d&#8217;identité) n&#8217;autorisent pas la frange car elle rend plus difficile la lecture des données biométriques à partir du scan. La frange doit donc être déplacée sur un côté et fixée avec des épingles à cheveux discrètes.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Cependant, des documents d&#8217;identité plus informels comme une carte d&#8217;étudiant ou de transport peuvent comporter une photo de passeport avec une frange. Si vous n&#8217;êtes pas sûr des exigences, vous pouvez utiliser le service Smartphone iD qui vous fournira une photo conforme et vérifiée pour le document de votre choix.</span></p>\n",
-        "titre_accordeon": "Peut-on avoir une frange sur une photo d'identité ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Cela dépend du type de document. Les documents officiels utilisés pour la lecture biométrique par machine (passeports électroniques, visas, cartes d&#8217;identité) n&#8217;autorisent pas le sourire car il rend plus difficile la lecture des données biométriques à partir du scan. Cependant, des documents d&#8217;identité plus informels comme une carte d&#8217;étudiant ou de transport peuvent comporter une photo de passeport d&#8217;une personne souriante. Si vous n&#8217;êtes pas sûr des exigences, vous pouvez utiliser le service Smartphone iD qui vous fournira une photo conforme et vérifiée pour le document de votre choix.</span></p>\n",
-        "titre_accordeon": "Peut-on sourire sur une photo d'identité?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Tous les gouvernements n&#8217;autorisent pas le port de lunettes car c&#8217;est très difficile à obtenir correctement. Les montures épaisses sont interdites, tout comme les verres teintés, aucun reflet ne doit apparaître et ils doivent être correctement ajustés. Par conséquent, les gouvernements qui n&#8217;interdisent pas le port de lunettes recommandent fortement de les retirer pour la photo.</span></p>\n",
-        "titre_accordeon": "Peut-on porter des lunettes sur une photo d'identité ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Oui, vous pouvez vous maquiller sur votre photo </span><span style=\"font-weight: 400;\">d&#8217;identité</span><span style=\"font-weight: 400;\">. Mais notez que le maquillage doit être léger.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Ne mettez pas trop de fard à paupières sur vos paupières.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Un rouge à lèvres brillant peut créer un reflet, il est donc préférable d&#8217;opter pour un rouge à lèvres mat si vous voulez accentuer vos lèvres.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Il est également utile de vérifier que votre peau n&#8217;est pas grasse avant de prendre une photo, car cela peut créer un reflet lumineux.</span></p>\n<p><span style=\"font-weight: 400;\">&#8211; Enfin, rappelez-vous que la photo de passeport doit être aussi naturelle que possible et doit vous ressembler un jour ordinaire.</span></p>\n",
-        "titre_accordeon": "Peut-on se maquiller sur une photo d'identité ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Des couleurs vives qui se détachent clairement du fond conviennent à une photo </span><span style=\"font-weight: 400;\">d&#8217;identité</span><span style=\"font-weight: 400;\">. Comme un fond clair est requis, les couleurs plus sombres sont bénéfiques pour augmenter le contraste. Assurez-vous également que votre chemise ne montre pas trop de peau, car les photos de passeport torse nu sont interdites. Enfin, les uniformes de tout type sont également interdits sur une photo de passeport biométrique.</span></p>\n",
-        "titre_accordeon": "Que porter pour une photo d'identité?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Dans la plupart des cas, vous devrez prendre une nouvelle photo lors du renouvellement de votre passeport. La seule exception est si votre passeport a été endommagé, perdu ou détruit. Pour les documents officiels canadiens, les photos ne peuvent pas dater de plus de 6 mois.</span></p>\n",
-        "titre_accordeon": "Faut-il une nouvelle photo pour renouveler son passeport ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Si votre photo </span><span style=\"font-weight: 400;\">d&#8217;identité</span><span style=\"font-weight: 400;\"> est rejetée, vous devrez soumettre une nouvelle photo. Le traitement de la demande peut varier de quelques semaines à quelques mois. Utilisez le fabricant de photos </span><span style=\"font-weight: 400;\">d&#8217;identité </span><span style=\"font-weight: 400;\">Smartphone iD pour prendre votre photo et assurez-vous qu&#8217;elle sera acceptée du premier coup car une vérification immédiate par intelligence artificielle et une vérification supplémentaire par un expert humain sont effectuées.</span></p>\n",
-        "titre_accordeon": "Que se passe-t-il si une photo d'identité est rejetée ?"
-      },
-      {
-        "texteAccordeon": "<p><span style=\"font-weight: 400;\">Shoppers Drug Mart propose des photos </span><span style=\"font-weight: 400;\">d&#8217;identité </span><span style=\"font-weight: 400;\">dans un certain nombre de ses magasins. Il est important de téléphoner à l&#8217;avance et de s&#8217;assurer que le magasin de votre région propose le service.</span></p>\n",
-        "titre_accordeon": "Shoppers fait-il des photos d'identité?"
-      }
-    ],
-    "titre_bloc9": " fréquemment posées",
-    "titre_bloc9_span": "Questions"
-  },
-
-  "Bloc10" : {
-    "thankYouMsg": "Merci d'avoir noté !",
-    "heading": "Cette information était-elle utile ?",
-    "sousTitre" : "Cliquez sur les étoiles pour donner votre note.",
-    "personne" : "personnes ont donné",
-    "etoiles" : "étoiles sur 5"
-  },
-
-  "Bloc11": {
-    "titre": "Cliquez sur la section correspondante pour trouver des réponses sur les photos d'identité de documents spécifiques pour le Canada !",
-    "liens": [
-      {
-        "link": "Passeport",
-        "url": "https://www.smartphone-id.com/ne/photo-passeport-canadien",
-        "icon": "/images/Bloc11/passeport.svg"
-      },
-      {
-        "link": "Permis de conduire",
-        "url": "https://www.smartphone-id.com/ne/photo-permis-de-conduire",
-        "icon": "/images/Bloc11/permis-conduire.svg"
-      },
-      {
-        "link": "Carte d'identité",
-        "url": "https://www.smartphone-id.com/ne/carte-photo-lontario-canada/",
-        "icon": "/images/Bloc11/carte-identite.svg"
-      },
-      {
-        "link": "Titre de séjour",
-        "url": "https://www.smartphone-id.com/ne/photo-carte-de-residence-permanent-canada",
-        "icon": "/images/Bloc11/titre-de-sejour.svg"
-      },
-      {
-        "link": "Visa",
-        "url": "https://www.smartphone-id.com/ne/photo-visa-canada",
-        "icon": "/images/Bloc11/visa.svg"
-      }
-    ]
-  },
-
-  "Footer": {
-    "partie2-button": "Essais illimités et gratuits !",
-    "Youtube-link": "https://www.youtube.com/@smartphoneid2023",
-    "Facebook-link": "https://www.facebook.com/smartphone.id.international",
-    "Instagram-link": "https://instagram.com/smartphone.id.international?igshid=MzRlODBiNWFlZA==",
-    "LinkedIn-link": "https://www.linkedin.com/company/smartphone-id/",
-    "SiteMapList-propos" : "À propos de nous",
-    "propos-link" : "https://www.smartphone-id.com/a-propos-de-nous/",
-    "SiteMapList-faq" : "FAQ",
-    "faq-link" : "https://www.smartphone-id.com/faq/",
-    "SiteMapList-contact" : "Contact",
-    "contact-link" : "https://www.smartphone-id.com/contact/",
-    "applis-h3": "Téléchargez l'application",
-    "applis-p":  "Suivez vos commandes et profitez d'encore plus de fonctionnalités avec l'application Smartphone iD.",
-    "AppStore-link" : "https://apps.apple.com/ca/app/official-passport-photo/id1527550865?platform=iphone",
-    "PlayStore-link" : "https://play.google.com/store/apps/details?id=com.smartphoneid&hl=fr&gl=ca",
-    "AppStoreImg" : "/images/Footer/AppStore-vector.svg",
-    "PlayStoreImg": "/images/Footer/Gstore-vector.svg",
-    "partie2-p": "Découvrez les dernières informations sur les documents d’identité et les visas.",
-    "mentions-confidentialite": "Politique de confidentialité",
-    "mentions-confidentialite-link": "https://www.smartphone-id.com/politique-confidentialite/",
-    "mentions-cgu": "Conditions générales d'utilisation",
-    "mentions-cgu-link": "https://www.smartphone-id.com/cgu/",
-    "mentions-legales": "Mentions légales",
-    "mentions-legales-link": "https://www.smartphone-id.com/mentions-legales/",
-    "cookies": "Cookies",
-    "cookies-link": "https://www.smartphone-id.com/cookies/"
-  }
 }

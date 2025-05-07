@@ -13,6 +13,8 @@
   "dependencies": {
     "@apollo/client": "^3.12.2",
     "@next/bundle-analyzer": "^15.0.3",
+    "@portabletext/react": "^3.2.1",
+    "@sanity/image-url": "^1.1.0",
     "eslint": "^9.14.0",
     "eslint-config-next": "^15.0.2",
     "expect": "^29.7.0",
@@ -24,6 +26,7 @@
     "ipapi.co": "^0.3.0",
     "negotiator": "^1.0.0",
     "next": "^15.1.2",
+    "next-sanity": "^9.10.6",
     "node-cache": "^5.1.2",
     "node-fetch": "^3.3.2",
     "npm": "^10.9.0",
