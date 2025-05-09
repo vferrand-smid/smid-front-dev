@@ -9,9 +9,13 @@ export default function useTranslations(defaultLocale = 'fr-FR') {
     const [translations, setTranslations] = useState({});
     const [loading, setLoading] = useState(true);
 
-    // Utilise usePathname pour extraire la locale du chemin
     const pathname = usePathname();
-    const locale = pathname.split("/")[1] || defaultLocale;
+    const rawLocale = pathname.split("/")[1] || defaultLocale;
+
+    // Normalize locale: fr-fr → fr-FR
+    const locale = rawLocale.includes('-') 
+        ? `${rawLocale.split('-')[0]}-${rawLocale.split('-')[1].toUpperCase()}`
+        : rawLocale;
 
     useEffect(() => {
         const loadTranslations = async () => {
@@ -35,3 +39,4 @@ export default function useTranslations(defaultLocale = 'fr-FR') {
 
     return { translations, loading };
 }
+
