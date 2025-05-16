@@ -13,7 +13,7 @@ export const MainWrapper = ({ children, translations, locale }) => {
             <SmartBanner onVisibilityChange={setIsBannerVisible} />
             <Navbar translations={translations.NavBar} locale={locale} />
             <main className={`${isBannerVisible ? 'pt-20 md:pt-0' : ''}`}>{children}</main>
-            <Footer translations={translations} locale={locale} />
+            <Footer translations={translations.Footer} locale={locale} />
         </>
     );
 };

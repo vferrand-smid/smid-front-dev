@@ -131,8 +131,6 @@ export default function Footer({ translations, isArabic }) {
     }, []);
 
     return (
-        // <ErrorBoundary>
-        // <React.Suspense fallback={<div>Loading...</div>}>
         <div key={currentLocale} className='' style={{ textAlign: isArabic && 'right' }}>
             <div className='before-footer-wrap !h-auto max-md:!py-8 max-md:!pb-0'>
                 <div className='grid columns-3 grid-cols-3 max-lg:flex-col max-lg:items-center max-lg:pb-5'>
@@ -191,9 +189,9 @@ export default function Footer({ translations, isArabic }) {
                 <div className='partie2-div'>
                     <main className='partie2-main max-lg:grid-cols-2 max-md:flex max-md:flex-col max-md:gap-5'>
                         <div className='partie2-1 max-lg:items-center max-lg:text-center'>
-                            <button className='partie2-button'>{translations['partie2-button'] || '...'}</button>
+                            <button className='partie2-button'>{translations?.['partie2-button']}</button>
                             <div className='kal-footer-social'>
-                                <Link href={translations['Youtube-link'] || '#'} target='_blank'>
+                                <Link href={translations?.['Youtube-link'] || '#'} target='_blank'>
                                     <Image src={Youtube} alt='YouTube' aria-hidden='true' />
                                 </Link>
                                 <Link href={translations['Facebook-link'] || '#'} target='_blank'>
@@ -207,7 +205,7 @@ export default function Footer({ translations, isArabic }) {
                                 </Link>
                             </div>
 
-                            <p className='partie2-p max-lg:text-center'>{translations['partie2-p']}</p>
+                            <p className='partie2-p text-white max-lg:text-center'>{translations['partie2-p']}</p>
                         </div>
                         <div className='SiteMapList text-white'>
                             <Link className='SiteMapList-a' href={translations['blog-link'] || '#'} target='_blank'>
