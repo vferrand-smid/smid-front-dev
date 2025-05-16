@@ -1,59 +1,42 @@
-import React from 'react';
-import useTranslations from '../../utils/useTranslations';
-import Image from "next/image";
-import useIsArabic from '../hooks/useIsArabic';
+import Image from 'next/image';
 
-const Bloc8Tuto = ({ locale }) => {
-    const { translations, loading } = useTranslations(locale);
-    const isArabic = useIsArabic()
-
-    if (loading) {
-        return <div>Loading...</div>;
-    }
-
-    if (!translations.Bloc8) {
-        return <div>Data not available</div>;
-    }
-
-    const { video, titre_bloc8_span, titre_encart, bloc_conseils, bouton_plus, lienBebe } = translations.Bloc8;
-
+export default function Bloc8Tuto({ translations, isArabic }) {
     return (
-        <div className="kal-tuto" style={{direction:isArabic&&'rtl'}}>
+        <div className='kal-tuto' style={{ direction: isArabic && 'rtl' }}>
             <div>
-                <h3 className='max-md:!text-center'>{translations.Bloc8["titre_bloc8_1"]} <span className="highlight">{titre_bloc8_span}</span>{translations.Bloc8["titre_bloc8_2"]}</h3>
-                <div className="kal-tuto-container">
-                    <div className="kal-tuto-iframe"  dangerouslySetInnerHTML={{__html: video}}>
-                    </div>
+                <h3 className='max-md:!text-center'>
+                    {translations['titre_bloc8_1']} <span className='highlight'>{translations['titre_bloc8_span']}</span>
+                    {translations['titre_bloc8_2']}
+                </h3>
+                <div className='kal-tuto-container'>
+                    <div className='kal-tuto-iframe' dangerouslySetInnerHTML={{ __html: translations['video'] }}></div>
 
-                    <div className="kal-tuto-content">
-                        <h4>{titre_encart}</h4>
-                        <div className="kal-tuto-content-item">
-                            {bloc_conseils?.map((item, index) => (
+                    <div className='kal-tuto-content'>
+                        <h4>{translations['titre_encart']}</h4>
+                        <div className='kal-tuto-content-item'>
+                            {translations['bloc_conseils']?.map((item, index) => (
                                 <div key={index}>
-                                    <Image
-                                        width={500}
-                                        height={500}
-                                        src={item.check}
-                                        alt=""
-                                    />
+                                    <Image width={500} height={500} src={item.check} alt='' />
                                     <p>
-                                        <span className="number">0{item.chiffre}.</span> {item.texte}
-                                        <strong className='!inline ml-1'>{item.texte_span}</strong>
+                                        <span className='number'>0{item.chiffre}.</span> {item.texte}
+                                        <strong className='ml-1 !inline'>{item.texte_span}</strong>
                                     </p>
                                 </div>
                             ))}
                         </div>
-                        <a href={bouton_plus?.url} target={"_blank"} className="kal-tuto-button hover:text-green-500 transition">{bouton_plus?.title}</a>
-                        <a className="tuto-link hover:text-green-500 transition" target={"_blank"} href={lienBebe?.url}>
-                            <p style={{textAlign: 'center'}}>
-                                {lienBebe?.title}
-                            </p>
+                        <a
+                            href={translations['bouton_plus']?.url}
+                            target={'_blank'}
+                            className='kal-tuto-button transition hover:text-green-500'
+                        >
+                            {translations['bouton_plus']?.title}
+                        </a>
+                        <a className='tuto-link transition hover:text-green-500' target={'_blank'} href={translations['lienBebe']?.url}>
+                            <p style={{ textAlign: 'center' }}>{translations['lienBebe']?.title}</p>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
-
-export default Bloc8Tuto;

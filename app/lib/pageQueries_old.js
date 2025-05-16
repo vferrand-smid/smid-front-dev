@@ -1,4 +1,3 @@
-import nextToGraphQLLocales from "@/app/lib/locales";
 export default async function getPages(locale) {
     if (!locale) {
         throw new Error("Locale n'est pas définie!");
@@ -242,9 +241,9 @@ export default async function getPages(locale) {
     }`;
 
     const response = await fetch(process.env.WORDPRESS_API_URL, {
-        method: "POST",
+        method: 'POST',
         headers: {
-            "Content-Type": "application/json",
+            'Content-Type': 'application/json',
         },
         body: JSON.stringify({
             query,
@@ -255,7 +254,7 @@ export default async function getPages(locale) {
     });
 
     if (!response.ok) {
-        console.error("pageQueries.js - API Error:", response.status, response.statusText);
+        console.error('pageQueries.js - API Error:', response.status, response.statusText);
         throw new Error(`Failed to fetch API: ${response.status} ${response.statusText}`);
     }
 
@@ -266,6 +265,6 @@ export default async function getPages(locale) {
         return [];
     }
 
-    const pages = jsonResponse.data.pages.edges.map(edge => edge.node).filter(page => page.slug !== 'sample-page' && page.uri);
+    const pages = jsonResponse.data.pages.edges.map((edge) => edge.node).filter((page) => page.slug !== 'sample-page' && page.uri);
     return pages;
 }

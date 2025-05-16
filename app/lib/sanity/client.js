@@ -14,6 +14,6 @@ export const previewClient = createClient({
     dataset,
     apiVersion,
     useCdn: false,
-    token: process.env.SANITY_API_READ_TOKEN, // à générer dans Sanity
+    token: process.env.SANITY_VIEWER_TOKEN, // à générer dans Sanity
     perspective: 'previewDrafts',
 });

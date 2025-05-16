@@ -1,9 +1,5 @@
-'use client';
-
-import { usePathname } from 'next/navigation';
-import React, { useEffect, useState } from 'react';
-//import Loading from './loading';
-import { getCanonicalLocale } from '../../utils/locale';
+import { getCanonicalLocale } from '@/utils/getCanonicalLocale';
+import { getTranslations } from '@/utils/getTranslations';
 import Bloc1 from '../components/Bloc1';
 import Bloc11 from '../components/Bloc11';
 import Bloc2 from '../components/Bloc2';
@@ -14,96 +10,48 @@ import Bloc6Documents from '../components/Bloc6_documents';
 import Bloc7Solution from '../components/Bloc7_solution';
 import Bloc8Tuto from '../components/Bloc8_tuto';
 import Bloc9Accordeon from '../components/Bloc9_accordeon';
-import nextToGraphQLLocales from '../lib/locales';
-import getPages from '../lib/pageQueries';
 
-console.log('React version:', React.version);
-console.log('ReactDOM version:', require('react-dom').version);
+export default async function HomePage({ params }) {
+    const canonical = await getCanonicalLocale(params.locale || 'fr-FR'); // ✅ ligne à ajouter
+    const translations = await getTranslations(canonical);
+    const isArabic = canonical.startsWith('ar');
 
-const PageList = () => {
-    const pathname = usePathname();
-    const rawLocale = pathname.split('/')[1];
-    const locale = getCanonicalLocale(rawLocale);
-
-    const [pages, setPages] = useState([]);
-    // const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-
-    useEffect(() => {
-        if (!locale) return;
-
-        const fetchPages = async () => {
-            //setLoading(true);
-            setError(null);
-
-            try {
-                const graphQLLocale = nextToGraphQLLocales[locale];
-                if (!graphQLLocale) {
-                    throw new Error(`Invalid locale: ${locale}`);
-                }
-
-                const fetchedPages = await getPages(locale);
-                if (fetchedPages.length === 0) {
-                    throw new Error('No pages found for this locale');
-                }
-
-                setPages(fetchedPages);
-            } catch (err) {
-                setError(err.message);
-            }
-
-            //setLoading(false);
-        };
-
-        fetchPages();
-    }, [locale]);
-
-    /*if (loading) {
-      return <Loading />;
-  }*/
-
-    if (error) {
-        return <div>{error}</div>;
-    }
+    console.log('🌍 Locale finale envoyée à getTranslations:', canonical);
 
     return (
         <div className=''>
-            {pages.map((page) => (
-                <div className='pageDaccueil' key={page.uri}>
-                    <section className='bloc1'>
-                        <Bloc1 page={page} />
-                    </section>
-                    <section className='bloc2'>
-                        <Bloc2 page={page} />
-                    </section>
-                    <section className='bloc3'>
-                        <Bloc3_carousel page={page} />
-                    </section>
-                    <section className='bloc4'>
-                        <Bloc4Temoignages page={page} />
-                    </section>
-                    <section className='bloc5s'>
-                        <Bloc5Services page={page} />
-                    </section>
-                    <section className='bloc6'>
-                        <Bloc6Documents page={page} />
-                    </section>
-                    <section className='bloc7'>
-                        <Bloc7Solution page={page} />
-                    </section>
-                    <section className='bloc8'>
-                        <Bloc8Tuto page={page} />
-                    </section>
-                    <section className='bloc9'>
-                        <Bloc9Accordeon page={page} />
-                    </section>
-                    <section className='bloc11'>
-                        <Bloc11 page={page} />
-                    </section>
-                </div>
-            ))}
+            <div className='pageDaccueil'>
+                <section className='bloc1'>
+                    <Bloc1 translations={translations.Bloc1} isArabic={isArabic} />
+                </section>
+                <section className='bloc2'>
+                    <Bloc2 translations={translations.Bloc2} isArabic={isArabic} />
+                </section>
+                <section className='bloc3'>
+                    <Bloc3_carousel translations={translations.Bloc3} isArabic={isArabic} />
+                </section>
+                <section className='bloc4'>
+                    <Bloc4Temoignages translations={translations.Bloc4} isArabic={isArabic} />
+                </section>
+                <section className='bloc5'>
+                    <Bloc5Services translations={translations.Bloc5} isArabic={isArabic} />
+                </section>
+                <section className='bloc6'>
+                    <Bloc6Documents translations={translations.Bloc6} isArabic={isArabic} />
+                </section>
+                <section className='bloc7'>
+                    <Bloc7Solution translations={translations.Bloc7} isArabic={isArabic} />
+                </section>
+                <section className='bloc8'>
+                    <Bloc8Tuto translations={translations.Bloc8} isArabic={isArabic} />
+                </section>
+                <section className='bloc9'>
+                    <Bloc9Accordeon translations={translations.Bloc9} isArabic={isArabic} />
+                </section>
+                <section className='bloc11'>
+                    <Bloc11 translations={translations.Bloc11} isArabic={isArabic} />
+                </section>
+            </div>
         </div>
     );
-};
-
-export default PageList;
+}

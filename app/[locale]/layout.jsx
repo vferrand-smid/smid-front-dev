@@ -1,23 +1,23 @@
-import { getTranslations } from '@/utils/getTranslations'; // ✅ Vérifie bien que ce fichier existe
+import { getTranslations } from '@/utils/getTranslations';
 import Script from 'next/script';
-import { getCanonicalLocale } from '../../utils/locale';
-import Footer from '../components/Footer';
+import { getCanonicalLocale } from '../../utils/getCanonicalLocale';
 import MainWrapper from '../components/MainWrapper';
+import { TranslationsProvider } from '../context/TranslationsContext';
 import './globals.css';
-
-async function getLocale(params) {
-    return params?.locale || 'fr-FR'; // ✅ Fallback sur "fr-FR" si `params.locale` n'est pas encore dispo
-}
+// async function getLocale(params) {
+//     return params?.locale; // ✅ Fallback sur "fr-FR" si `params.locale` n'est pas encore dispo
+// }
 
 export async function generateMetadata({ params }) {
-    const rawLocale = await getLocale({ params });
-    const locale = getCanonicalLocale(rawLocale); // ✅ on le normalise ici aussi
-    console.log('🌍 Locale finale envoyée à getTranslations:', locale);
-    const translations = await getTranslations(locale);
+    const locale = params?.locale || 'fr-FR';
+    const canonical = await getCanonicalLocale(locale);
+    console.log('🌍 Locale finale envoyée à getTranslations:', canonical);
+
+    const translations = await getTranslations(canonical);
 
     return {
-        title: translations?.metadata?.title || 'Smartphone ID',
-        description: translations?.metadata?.description || 'Obtenez rapidement votre photo d’identité sécurisée',
+        title: translations.metadata.title || 'Smartphone ID',
+        description: translations.metadata.description || 'Obtenez rapidement votre photo d’identité sécurisée',
         icons: {
             icon: '/images/favicon.svg',
         },
@@ -31,14 +31,18 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function RootLayout({ children, params }) {
-    const locale = getCanonicalLocale(await getLocale({ params }));
+    // const locale = getCanonicalLocale(await getLocale({ params }));
+    const locale = params?.locale || 'fr-FR';
+    const canonical = await getCanonicalLocale(locale);
+    const translations = await getTranslations(canonical);
 
     const GTM_ID = process.env.GTM_ID;
+    const isArabic = canonical.startsWith('ar');
 
     return (
-        <html lang={getCanonicalLocale(locale)}>
+        <html lang={canonical} dir={isArabic ? 'rtl' : 'ltr'}>
             <head>
-                <link rel='alternate' hrefLang='fr' href='https://www.smartphone-id.com/fr-fr/' />
+                <link rel='alternate' hrefLang='fr' href='https://www.smartphone-id.com' />
                 <link rel='alternate' hrefLang='en' href='https://www.smartphone-id.com/en-us/' />
 
                 <link rel='alternate' hrefLang='ar' href='https://www.smartphone-id.com/ar/' />
@@ -92,19 +96,19 @@ export default async function RootLayout({ children, params }) {
             </head>
 
             <body>
-                <MainWrapper>{children}</MainWrapper>
-
-                <footer>
-                    <Footer />
-                </footer>
-                <noscript>
-                    <iframe
-                        src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-                        height='0'
-                        width='0'
-                        style={{ display: 'none', visibility: 'hidden' }}
-                    ></iframe>
-                </noscript>
+                <TranslationsProvider value={translations}>
+                    <MainWrapper translations={translations} locale={locale}>
+                        {children}
+                    </MainWrapper>
+                    <noscript>
+                        <iframe
+                            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+                            height='0'
+                            width='0'
+                            style={{ display: 'none', visibility: 'hidden' }}
+                        ></iframe>
+                    </noscript>
+                </TranslationsProvider>
             </body>
         </html>
     );

@@ -1,60 +1,42 @@
+import { getCanonicalLocale } from '@/utils/getCanonicalLocale';
 import Negotiator from 'negotiator';
 import { NextResponse } from 'next/server';
-import nextToGraphQLLocales from './app/lib/locales';
-import { getCanonicalLocale } from './utils/locale';
 
-const defaultLocale = 'fr-FR'; // Locale par défaut
-const languageToLocaleMap = {
-    fr: 'fr-FR',
-    en: 'en-US',
-    de: 'de-DE',
-    ar: 'ar-UAE',
-    // Ajoutez d'autres langues si nécessaire
-};
-
-function getLocale(request) {
+export function getLocaleFromRequest(request) {
     const headers = Object.fromEntries(request.headers.entries());
     const negotiator = new Negotiator({ headers });
     const languages = negotiator.languages();
 
-    // console.log('Detected languages:', languages);
-
     for (const lang of languages) {
-        const canonicalLang = getCanonicalLocale(lang);
-        // console.log('Canonical locale:', canonicalLang);
-        if (nextToGraphQLLocales[canonicalLang]) {
-            //console.log('Locale found in nextToGraphQLLocales:', canonicalLang);
-            return canonicalLang;
-        }
+        const canonical = getCanonicalLocale(lang);
+        if (canonical) return canonical;
     }
-    //console.warn('No valid locale found in request. Falling back to default locale.');
-    return getCanonicalLocale(defaultLocale);
+
+    return 'fr-FR'; // fallback
 }
 
 export default function middleware(request) {
     const url = new URL(request.url);
-    const { pathname } = url;
+    const pathname = url.pathname;
     const segments = pathname.split('/');
-    const localeFromPath = segments[1]; // Extraire la locale de l'URL
-    const locale = getLocale(request);
+    const current = segments[1]; // ex: "fr-fr"
 
-    // Si l'utilisateur accède à la racine, rediriger vers la locale par défaut
+    // redirige la racine
     if (pathname === '/' || pathname === '') {
-        const newUrl = new URL(`/${locale}`, request.url);
-        return NextResponse.redirect(newUrl);
+        const locale = getLocaleFromRequest(request);
+        return NextResponse.redirect(new URL(`/${locale.toLowerCase()}`, request.url)); // SEO format
     }
 
-    // Vérification si le premier segment est une locale valide
-    if (localeFromPath.match(/^[a-z]{2}-[a-z]{2}$/)) {
-        // Si la locale dans l'URL est correcte, continuer la requête
+    // continue si la locale est déjà au bon format
+    if (/^[a-z]{2}-[a-z]{2}$/.test(current)) {
         return NextResponse.next();
-    } else {
-        // Si la locale n'est pas présente ou est incorrecte, ajouter ou remplacer la locale dans l'URL
-        segments[1] = locale.toLowerCase(); // Remplacer ou ajouter la locale
-        const newPathname = segments.join('/');
-        const newUrl = new URL(newPathname, request.url);
-        return NextResponse.redirect(newUrl); // Rediriger vers l'URL avec la locale corrigée
     }
+
+    // sinon redirige avec une locale canonique
+    const locale = getLocaleFromRequest(request);
+    segments[1] = locale.toLowerCase();
+    const newUrl = new URL(segments.join('/'), request.url);
+    return NextResponse.redirect(newUrl);
 }
 
 export const config = {

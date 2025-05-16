@@ -1,32 +1,31 @@
-import { render, screen, waitFor } from "@testing-library/react";
-import PageList from "../app/[locale]/page";
-import nextToGraphQLLocales from "../app/lib/locales";
+import { render, screen, waitFor } from '@testing-library/react';
+import PageList from '../app/[locale]/page';
 
-jest.mock("../app/lib/pageQueries", () => ({
+jest.mock('../app/lib/pageQueries', () => ({
     __esModule: true,
     default: jest.fn(),
 }));
 
-const mockGetPages = require("../app/lib/pageQueries").default;
+const mockGetPages = require('../app/lib/pageQueries_old').default;
 
-describe("PageList", () => {
-    const locale = "fr-FR";
+describe('PageList', () => {
+    const locale = 'fr-FR';
     const graphQLLocale = nextToGraphQLLocales[locale];
 
     beforeEach(() => {
         mockGetPages.mockReset();
     });
 
-    it("displays pages for a valid locale", async () => {
+    it('displays pages for a valid locale', async () => {
         const mockData = [
             {
-                slug: "page-daccueil-fr",
-                uri: "/page-daccueil-fr/",
+                slug: 'page-daccueil-fr',
+                uri: '/page-daccueil-fr/',
                 language: {
-                    code: "FR_FR",
-                    locale: "fr_FR",
+                    code: 'FR_FR',
+                    locale: 'fr_FR',
                 },
-                pageDAccueilBloc1: { background: { node: { mediaItemUrl: "url1" } } },
+                pageDAccueilBloc1: { background: { node: { mediaItemUrl: 'url1' } } },
                 pageDAccueilBloc2: {},
                 pageDAccueilBloc3: {},
                 pageDAccueilBloc4: {},
@@ -54,7 +53,7 @@ describe("PageList", () => {
         expect(pageContent).toBeInTheDocument();
     });
 
-    it("displays no pages available message", async () => {
+    it('displays no pages available message', async () => {
         mockGetPages.mockResolvedValueOnce([]);
 
         render(<PageList locale={locale} />);

@@ -20,13 +20,25 @@ export default async function BlogPostPage({ params }) {
     const client = isEnabled ? previewClient : sanityClient;
 
     const post = await client.fetch(
+        //     `*[
+        //     _type == "page" &&
+        //     slug.current == $slug &&
+        //     locale == $locale &&
+        //    (!defined(status) || status == "publish")
+        // ][0]`,
+
         `*[
         _type == "page" && 
         slug.current == $slug &&
-        locale == $locale && 
-        !trashed &&
-        status == "publish"
-    ][0]`,
+        locale == $locale &&
+         (!defined(status) || status == "publish") 
+      ] | order(date desc){
+        title,
+        slug,
+        content,
+        featuredMedia
+      }`,
+
         { slug, locale }
     );
 

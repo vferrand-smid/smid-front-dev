@@ -1,15 +1,14 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import { useTranslations } from '@/app/context/TranslationsContext';
 import Image from 'next/image';
-import Link from "next/link";
-import useTranslations from "@/utils/useTranslations";
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 export default function SmartBanner({ onVisibilityChange, locale }) {
     const [platform, setPlatform] = useState(null); // Détecte la plateforme (iOS ou Android)
     const [isVisible, setIsVisible] = useState(true); // Contrôle la visibilité de la bannière
-    const {translations, loading} = useTranslations(locale);
-
+    const translations = useTranslations();
 
     useEffect(() => {
         // Détecte la plateforme de l'utilisateur
@@ -38,36 +37,25 @@ export default function SmartBanner({ onVisibilityChange, locale }) {
     if (!platform || !isVisible) return null;
 
     return (
-        <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-white shadow-md p-4 flex items-center justify-between">
+        <div className='fixed left-0 right-0 top-0 z-50 flex items-center justify-between bg-white p-4 shadow-md md:hidden'>
             <button
                 onClick={handleClose}
-                aria-label="Fermer la bannière"
-                className="mr-2 bg-transparent text-gray-500 hover:text-black text-xl font-bold"
+                aria-label='Fermer la bannière'
+                className='mr-2 bg-transparent text-xl font-bold text-gray-500 hover:text-black'
             >
                 ✖
             </button>
-            <div className="flex items-center">
-                <Image
-                    src="/images/General/460x0w.webp"
-                    alt="Logo App"
-                    width={48}
-                    height={48}
-                    className="mr-4"
-                    priority={true}
-                />
+            <div className='flex items-center'>
+                <Image src='/images/General/460x0w.webp' alt='Logo App' width={48} height={48} className='mr-4' priority={true} />
                 <div>
-                    <strong className="text-sm">Smartphone iD</strong>
-                    <p className="text-xs">{translations?.SmartBanner?.phrase}</p>
+                    <strong className='text-sm'>Smartphone iD</strong>
+                    <p className='text-xs'>{translations?.SmartBanner?.phrase}</p>
                 </div>
             </div>
 
             <Link
-                href={
-                    platform === 'ios'
-                        ? translations?.Footer?.["AppStore-link"] || "#"
-                        : translations?.Footer?.["PlayStore-link"] || "#"
-                }
-                className="bg-primary text-white px-4 py-2 rounded text-sm font-bold shadow"
+                href={platform === 'ios' ? translations?.Footer?.['AppStore-link'] || '#' : translations?.Footer?.['PlayStore-link'] || '#'}
+                className='rounded bg-primary px-4 py-2 text-sm font-bold text-white shadow'
             >
                 {translations?.SmartBanner?.download}
             </Link>
