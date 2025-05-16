@@ -1,5 +1,6 @@
 // app/[locale]/blog/[slug]/page.jsx
 export const dynamic = 'force-dynamic';
+import { getCanonicalLocale } from '@/utils/getCanonicalLocale';
 import { PortableText } from '@portabletext/react';
 import { draftMode } from 'next/headers';
 import { notFound } from 'next/navigation';
@@ -12,37 +13,46 @@ export async function generateStaticParams() {
 }
 
 export default async function BlogPostPage({ params }) {
-    const { slug, locale } = params;
+    const rawLocale = params?.locale || 'fr-FR';
+    const locale = await getCanonicalLocale(rawLocale);
+
+    const { slug } = params;
     const { isEnabled } = await draftMode();
 
     console.log('🧩 slug actuel :', params.slug);
 
     const client = isEnabled ? previewClient : sanityClient;
 
+    console.log('🔍 Requête avec slug et locale:', { slug, locale });
+
     const post = await client.fetch(
-        //     `*[
-        //     _type == "page" &&
-        //     slug.current == $slug &&
-        //     locale == $locale &&
-        //    (!defined(status) || status == "publish")
-        // ][0]`,
-
         `*[
-        _type == "page" && 
-        slug.current == $slug &&
-        locale == $locale &&
-         (!defined(status) || status == "publish") 
-      ] | order(date desc){
-        title,
-        slug,
-        content,
-        featuredMedia
-      }`,
-
+              _type == "page" && 
+              slug.current == $slug &&
+              locale == $locale &&
+              (!defined(status) || status == "publish")
+            ][0] {
+              title,
+              slug,
+              content,
+              featuredMedia
+            }`,
         { slug, locale }
     );
 
-    if (!post) return notFound();
+    console.log('🧾 Post récupéré depuis Sanity:', post);
+    console.log('contenu', post.content);
+    console.log('titre', post.title);
+
+    if (!post) {
+        console.warn('⚠️ Aucun post trouvé pour :', { slug, locale });
+        return notFound();
+    }
+
+    if (!post.content) {
+        console.warn('⚠️ Article trouvé mais sans contenu :', post);
+        return <article className='p-10 text-center text-red-500'>Contenu vide pour cet article.</article>;
+    }
 
     return (
         <article className='mx-auto px-4 py-8'>
