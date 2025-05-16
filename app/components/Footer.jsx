@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
+import AppStoreImg from '../../public/images/Footer/AppStore_icon_EN.svg';
+import PlayStoreImg from '../../public/images/Footer/GStore_icon_EN.svg';
 import Facebook from '../../public/images/Footer/Icon_awesome-facebook-f.svg';
 import Instagram from '../../public/images/Footer/Icon_awesome-instagram.svg';
 import LinkedIn from '../../public/images/Footer/Icon_awesome-linkedin-in.svg';
@@ -232,14 +234,14 @@ export default function Footer({ translations, isArabic }) {
                                         target='_blank'
                                         aria-label='Page de téléchargement Apple Store'
                                     >
-                                        <Image src={translations['AppStoreImg']} alt='' width={150} height={150} aria-hidden='true' />
+                                        <Image src={AppStoreImg} alt='' width={150} height={150} aria-hidden='true' />
                                     </Link>
                                     <Link
                                         href={translations['PlayStore-link'] || '#'}
                                         target='_blank'
                                         aria-label='Page de téléchargement Google Store'
                                     >
-                                        <Image src={translations['PlayStoreImg']} alt='' width={150} height={150} aria-hidden='true' />
+                                        <Image src={PlayStoreImg} alt='' width={150} height={150} aria-hidden='true' />
                                     </Link>
                                 </div>
                                 <div className='logoStore2 max-lg:hidden'>

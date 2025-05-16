@@ -7,7 +7,7 @@
 
 @layer components {
     .disabled {
-        @apply opacity-50 pointer-events-none cursor-not-allowed;
+        @apply pointer-events-none cursor-not-allowed opacity-50;
     }
 }
 
@@ -17,11 +17,10 @@
     }
     @media (min-width: 1101px) {
         .custom-1101 {
-           @apply mt-7;
+            @apply mt-7;
         }
     }
 }
-
 
 body {
     @apply w-screen;
@@ -30,14 +29,14 @@ body {
 /* BLOC2 */
 
 .bloc2 {
-    @apply bg-white py-5 border-t border-b border-gray-300 flex justify-center items-center;
+    @apply flex items-center justify-center border-b border-t border-gray-300 bg-white py-5;
 }
 
 /* BLOC3 */
 
-.bloc3{
+.bloc3 {
     @apply w-screen;
-    background: url("https://www.smartphone-id.com/wp-content/uploads/2023/06/BG-1.png") no-repeat;
+    background: url('https://www.smartphone-id.com/wp-content/uploads/2023/06/BG-1.png') no-repeat;
     background-size: cover;
     padding: 80px 50px;
 }
@@ -47,7 +46,6 @@ body {
 .bloc4 {
     @apply relative m-0 p-0;
 }
-
 
 .kal-testimonials > h2 {
     color: #000;
@@ -70,7 +68,7 @@ body {
     justify-content: center;
 }
 
-.kal-testimonials-carousel-btn nav{
+.kal-testimonials-carousel-btn nav {
     z-index: 3;
     position: relative;
 }
@@ -106,7 +104,7 @@ body {
     }
 }
 
-.kal-testimonials-card{
+.kal-testimonials-card {
     padding: 20px;
 }
 
@@ -201,7 +199,8 @@ body {
     position: relative;
 }
 
-.kal-testimonials-media, .kal-testimonials-partner {
+.kal-testimonials-media,
+.kal-testimonials-partner {
     flex: 1;
     max-width: 1140px;
     display: grid;
@@ -217,7 +216,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .kal-testimonials-media, .kal-testimonials-partner {
+    .kal-testimonials-media,
+    .kal-testimonials-partner {
         flex: 1;
         display: grid;
         grid-auto-flow: column;
@@ -232,7 +232,8 @@ body {
     }
 }
 
-.kal-testimonials-media > *, .kal-testimonials-partner > * {
+.kal-testimonials-media > *,
+.kal-testimonials-partner > * {
     display: flex;
     flex-direction: column;
     height: 150px;
@@ -248,7 +249,8 @@ body {
     padding: 10px;
 }
 
-.kal-testimonials-media img, .kal-testimonials-partner img {
+.kal-testimonials-media img,
+.kal-testimonials-partner img {
     object-fit: contain;
     width: 80%;
     aspect-ratio: 1;
@@ -278,7 +280,7 @@ body {
     width: 180px;
 }
 
-.kal-testimonials-partner-wrapper nav{
+.kal-testimonials-partner-wrapper nav {
     z-index: 3;
     position: relative;
 }
@@ -342,8 +344,8 @@ body {
 }
 
 .kal-solution-container > div > div {
-    aspect-ratio:16/9;
-    border-radius:20px;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
     overflow: hidden;
     background-color: #efefef;
     padding: 10px;
@@ -532,18 +534,17 @@ a {
 /* BLOC10 */
 
 .bloc10 {
-    @apply m-10 flex justify-center w-full h-full;
+    @apply m-10 flex h-full w-full justify-center;
 }
 
 /* FOOTER */
 
-
 footer {
-    @apply w-full text-white bg-gris;
+    @apply w-full bg-gris text-white;
 }
 
 .before-footer-wrap {
-    @apply bg-gris py-12 h-[165px];
+    @apply h-[165px] bg-gris py-12;
 }
 
 .columns-3 {
@@ -555,39 +556,37 @@ footer {
 }
 
 .footerLogo {
-    @apply text-center flex items-center justify-between py-4;
+    @apply flex items-center justify-between py-4 text-center;
 }
 
 .menuLangue {
-    @apply flex w-[380px] h-8 self-center relative rounded-md;
+    @apply relative flex h-8 w-[380px] self-center rounded-md;
 }
 
 .menuLangue-button {
-    @apply bg-white static rounded-md text-black items-center cursor-pointer
-    flex justify-start px-3 py-2;
+    @apply static flex cursor-pointer items-center justify-start rounded-md bg-white px-3 py-2 text-black;
 }
 
 .menuLangue ul {
-    @apply bg-white absolute border border-gray-300 z-10 grid grid-cols-2 top-full;
+    @apply absolute top-full z-10 grid grid-cols-2 border border-gray-300 bg-white;
 }
 
 .menuLangue li {
-    @apply  text-black m-2;
+    @apply m-2 text-black;
 }
 
 .menuLangue > button > img {
-    @apply w-5 h-5 mr-4;
+    @apply mr-4 h-5 w-5;
 }
 
 .menuLangue > ul > li > img {
-    @apply w-5 h-5 mb-2;
+    @apply mb-2 h-5 w-5;
 }
-
 
 /* PARTIE2 - Kal-footer*/
 
 .partie2 {
-    @apply bg-gris px-[50px] py-[24px] overflow-hidden w-full;
+    @apply w-full overflow-hidden bg-gris px-[50px] py-[24px];
 }
 
 .partie2-div {
@@ -603,8 +602,7 @@ footer {
 }
 
 .partie2-button {
-    @apply font-semibold leading-normal rounded-[26px] text-[16px]
-    bg-primary text-white text-center px-[50px] py-[16px] w-fit border-none;
+    @apply w-fit rounded-[26px] border-none bg-primary px-[50px] py-[16px] text-center text-[16px] font-semibold leading-normal text-white;
 }
 
 .kal-footer-social {
@@ -612,19 +610,19 @@ footer {
 }
 
 .kal-footer-social > * {
-    @apply bg-white rounded-full w-12 h-12 flex justify-center items-center;
+    @apply flex h-12 w-12 items-center justify-center rounded-full bg-white;
 }
 
 .partie2-p {
-    @apply not-italic font-normal text-base text-white text-left leading-6;
+    @apply text-left text-base font-normal not-italic leading-6 text-white;
 }
 
 .SiteMapList {
-    @apply flex flex-col gap-[20px] w-[200px] m-auto h-full justify-start;
+    @apply m-auto flex h-full w-[200px] flex-col justify-start gap-[20px];
 }
 
 .SiteMapList-a {
-    @apply text-xl not-italic font-semibold leading-normal;
+    @apply text-xl font-semibold not-italic leading-normal;
 }
 
 .applis {
@@ -632,11 +630,11 @@ footer {
 }
 
 .applis-h3 {
-    @apply text-white text-xl not-italic font-semibold leading-normal;
+    @apply text-xl font-semibold not-italic leading-normal text-white;
 }
 
 .applis-p {
-    @apply max-w-[330px] not-italic font-normal text-base text-white text-left leading-6;
+    @apply max-w-[330px] text-left text-base font-normal not-italic leading-6 text-white;
 }
 
 .logoStore {
@@ -652,73 +650,82 @@ footer {
 }
 
 .adresses {
-    @apply mt-10 md:flex md:justify-between md:gap-[50px] md:flex-wrap;
+    @apply mt-10 md:flex md:flex-wrap md:justify-between md:gap-[50px];
 }
 
 .adresses-h3 {
-    @apply text-base not-italic font-semibold leading-6 mb-1.5;
+    @apply mb-1.5 text-base font-semibold not-italic leading-6;
 }
 
 .adresses-p {
-    @apply text-base not-italic font-normal leading-6;
+    @apply text-base font-normal not-italic leading-6;
 }
 
 .aside {
-    @apply my-4 mx-[-50px] mt-[40px] h-0.5 bg-white;
+    @apply mx-[-50px] my-4 mt-[40px] h-0.5 bg-white;
 }
 
 .mentions {
-    @apply flex justify-between gap-[30px] max-w-[1140px] m-auto;
+    @apply m-auto flex max-w-[1140px] justify-between gap-[30px];
 }
 
 @media screen and (max-width: 700px) {
-    .kal-testimonials-partner, .kal-testimonials-media {
+    .kal-testimonials-partner,
+    .kal-testimonials-media {
         width: 100%;
         grid-auto-columns: calc((100% / 3));
     }
 }
 
 @media screen and (max-width: 800px) {
-    .kal-testimonials-partner, .kal-testimonials-media {
+    .kal-testimonials-partner,
+    .kal-testimonials-media {
         width: 100%;
         grid-auto-columns: calc((100% / 4));
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .kal-testimonials-media, .kal-testimonials-partner {
+    .kal-testimonials-media,
+    .kal-testimonials-partner {
         grid-auto-columns: calc((100% / 3));
     }
 }
 
 @media screen and (max-width: 1100px) {
-    .kal-testimonials-media, .kal-testimonials-partner {
+    .kal-testimonials-media,
+    .kal-testimonials-partner {
         grid-auto-columns: calc((100% / 4));
     }
 }
 @media screen and (max-width: 800px) {
-    .kal-testimonials-partner-wrapper, .kal-testimonials-media-wrapper {
-        flex-direction: column!important;
+    .kal-testimonials-partner-wrapper,
+    .kal-testimonials-media-wrapper {
+        flex-direction: column !important;
         padding: 0 20px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .kal-testimonials-partner-wrapper > :last-child, .kal-testimonials-media-wrapper > :last-child {
+    .kal-testimonials-partner-wrapper > :last-child,
+    .kal-testimonials-media-wrapper > :last-child {
         display: flex !important;
         gap: 20px;
         justify-content: center;
     }
 }
 @media screen and (max-width: 800px) {
-    .kal-testimonials-partner-wrapper > nav, .kal-testimonials-media-wrapper > nav {
+    .kal-testimonials-partner-wrapper > nav,
+    .kal-testimonials-media-wrapper > nav {
         display: none;
     }
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -885,11 +892,7 @@ body{
 .highlight {
     background-size: 100% 10px !important;
     background-position: left 28px;
-    background-image: linear-gradient(
-            45deg,
-            rgba(47, 201, 119, 0.4),
-            rgba(47, 201, 119, 0.4)
-    );
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
     display: inline-block;
     padding: 0 5px;
@@ -1106,11 +1109,7 @@ span {
 .highlight {
     background-size: 100% 10px !important;
     background-position: left 28px;
-    background-image: linear-gradient(
-            45deg,
-            rgba(47, 201, 119, 0.4),
-            rgba(47, 201, 119, 0.4)
-    );
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
     display: inline-block;
     padding: 0 5px;
@@ -1126,7 +1125,6 @@ strong,
 span {
     margin: 0;
 }
-
 
 .kal-solution-container {
     display: flex;
@@ -1161,8 +1159,8 @@ span {
     margin: auto;
 }
 .kal-solution-container > div > div {
-    aspect-ratio:16/9;
-    border-radius:20px;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
     overflow: hidden;
     background-color: #efefef;
     padding: 10px;
@@ -1207,10 +1205,10 @@ span {
 }
 
 @media screen and (max-width: 900px) {
-    .kal-solution-container{
+    .kal-solution-container {
         flex-direction: column;
         max-width: 600px;
-        margin:auto;
+        margin: auto;
     }
 }
 @media screen and (max-width: 500px) {
@@ -1222,11 +1220,7 @@ span {
 .highlight {
     background-size: 100% 10px !important;
     background-position: left 28px;
-    background-image: linear-gradient(
-            45deg,
-            rgba(47, 201, 119, 0.4),
-            rgba(47, 201, 119, 0.4)
-    );
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
     display: inline-block;
     padding: 0 5px;
@@ -1303,11 +1297,7 @@ a {
 .highlight {
     background-size: 100% 10px !important;
     background-position: left 28px;
-    background-image: linear-gradient(
-            45deg,
-            rgba(47, 201, 119, 0.4),
-            rgba(47, 201, 119, 0.4)
-    );
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
     display: inline-block;
     padding: 0 5px;
@@ -1406,12 +1396,10 @@ strong,
 span {
     margin: 0;
 }
-.kal-tuto-iframe > *{
+.kal-tuto-iframe > * {
     width: 100%;
     height: 100%;
-
 }
-
 
 .kal-accordion-item-active svg > :nth-child(2) {
     display: none;
@@ -1482,7 +1470,7 @@ span {
 }
 
 .accordion:after {
-    content: "\02795"; /* Unicode character for "plus" sign (+) */
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
@@ -1598,11 +1586,7 @@ span {
 .highlight {
     background-size: 100% 10px !important;
     background-position: left 28px;
-    background-image: linear-gradient(
-            45deg,
-            rgba(47, 201, 119, 0.4),
-            rgba(47, 201, 119, 0.4)
-    );
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
     display: inline-block;
     padding: 0 5px;
@@ -1618,7 +1602,6 @@ strong,
 span {
     margin: 0;
 }
-
 
 .kal-photo > div > div > div {
     display: flex;
@@ -1778,7 +1761,7 @@ span {
 }
 
 .kal-photo > div > h2 {
-    @apply text-black text-3xl font-semibold leading-[40px] max-w-[1140px] mx-auto;
+    @apply mx-auto max-w-[1140px] text-3xl font-semibold leading-[40px] text-black;
 }
 
 .kal-photo > div > button {
@@ -1796,7 +1779,7 @@ span {
     margin-top: 40px;
     border: none;
 }
-.kal-photo-carousel-content-mobile{
+.kal-photo-carousel-content-mobile {
     display: none;
 }
 
@@ -1810,26 +1793,26 @@ span {
         max-width: 500px;
         margin: auto;
     }
-    .kal-photo-carousel>:nth-child(1)>img{
+    .kal-photo-carousel > :nth-child(1) > img {
         max-height: 400px;
         object-fit: contain;
     }
-    .kal-photo-carousel>:nth-child(2)>img{
+    .kal-photo-carousel > :nth-child(2) > img {
         max-height: 400px;
         object-fit: contain;
     }
-    .kal-photo-carousel>:nth-child(3)>img{
+    .kal-photo-carousel > :nth-child(3) > img {
         max-height: 400px;
         object-fit: contain;
     }
-    .kal-photo-carousel>:nth-child(4)>img{
+    .kal-photo-carousel > :nth-child(4) > img {
         max-height: 400px;
         object-fit: contain;
     }
-    .kal-photo-carousel-content-desktop{
+    .kal-photo-carousel-content-desktop {
         display: none;
     }
-    .kal-photo-carousel-content-mobile{
+    .kal-photo-carousel-content-mobile {
         display: block;
     }
 }
@@ -1860,16 +1843,11 @@ span {
         width: 70%;
         margin: auto;
     }
-
 }
 .highlight {
     background-size: 100% 10px !important;
     background-position: left 28px;
-    background-image: linear-gradient(
-            45deg,
-            rgba(47, 201, 119, 0.4),
-            rgba(47, 201, 119, 0.4)
-    );
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
     display: inline-block;
     padding: 0 5px;
@@ -1885,8 +1863,6 @@ strong,
 span {
     margin: 0;
 }
-
-
 
 .kal-hero-stats {
     background-color: white;
@@ -1934,17 +1910,16 @@ span {
         grid-template-rows: 1fr 1fr 1fr;
     }
     .kal-hero-stats > div > * {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-        padding:10px!important
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding: 10px !important;
     }
     .kal-hero-stats > div > article + article > img {
         display: block;
         border-left: none;
         padding-left: 0px;
-        border-right: none!important;
-        padding-right: 0px!important;
-
+        border-right: none !important;
+        padding-right: 0px !important;
     }
     .kal-hero-stats > div > article {
         width: 300px;
@@ -2025,7 +2000,7 @@ span {
 
 .kal-hero > div {
     max-width: 1140px;
-    margin:auto;
+    margin: auto;
     position: relative;
     min-height: 500px;
 }
@@ -2108,11 +2083,7 @@ span {
 .highlight {
     background-size: 100% 10px !important;
     background-position: left 28px;
-    background-image: linear-gradient(
-            45deg,
-            rgba(47, 201, 119, 0.4),
-            rgba(47, 201, 119, 0.4)
-    );
+    background-image: linear-gradient(45deg, rgba(47, 201, 119, 0.4), rgba(47, 201, 119, 0.4));
     background-repeat: no-repeat;
     display: inline-block;
     padding: 0 5px;
@@ -2129,13 +2100,7 @@ span {
     margin: 0;
 }
 
-
-
-
-
-
 @media screen and (max-width: 900px) {
-
     .disabled {
         opacity: 0.5; /* Opacité réduite pour griser le bouton */
         pointer-events: none; /* Désactivation des événements de clic */
@@ -2143,7 +2108,6 @@ span {
     }
 }
 @media screen and (max-width: 700px) {
-
     .disabled {
         opacity: 0.5; /* Opacité réduite pour griser le bouton */
         pointer-events: none; /* Désactivation des événements de clic */
@@ -2156,15 +2120,15 @@ h4 {
     margin: 0;
 }
 
-.kal-hero-arabic{
+.kal-hero-arabic {
     direction: rtl;
 }
-.kal-hero-arabic > div > article{
-    left:0;
+.kal-hero-arabic > div > article {
+    left: 0;
     right: unset;
 }
 
-.kal-hero-arabic .kal-search .kal-search-country{
+.kal-hero-arabic .kal-search .kal-search-country {
     padding-left: 20px;
     border-left: 2px solid #efefef;
     padding-right: unset;
@@ -2173,7 +2137,7 @@ h4 {
 .kal-hero-arabic .kal-search {
     max-width: 600px;
 }
-.kal-hero-stats-arabic{
+.kal-hero-stats-arabic {
     direction: rtl;
 }
 .kal-hero-stats-arabic > div > :first-child {
@@ -2187,35 +2151,37 @@ h4 {
     border-left: unset;
 }
 
-.kal-testimonials-arabic .kal-testimonials-partner-wrapper,.kal-testimonials-arabic .kal-testimonials-media-wrapper {
+.kal-testimonials-arabic .kal-testimonials-partner-wrapper,
+.kal-testimonials-arabic .kal-testimonials-media-wrapper {
     flex-direction: row-reverse;
 }
-.kal-testimonials-arabic .kal-testimonials-media-wrapper > h3,.kal-testimonials-arabic .kal-testimonials-partner-wrapper > h3{
+.kal-testimonials-arabic .kal-testimonials-media-wrapper > h3,
+.kal-testimonials-arabic .kal-testimonials-partner-wrapper > h3 {
     padding-right: 16px;
     border-right: 4px solid rgba(47, 201, 119, 1);
     padding-left: unset;
-    border-left:unset;
+    border-left: unset;
     direction: rtl;
 }
 
-.kal-testimonials-arabic  .kal-testimonials-background{
-    top:23%
+.kal-testimonials-arabic .kal-testimonials-background {
+    top: 23%;
 }
-.kal-service-arabic{
+.kal-service-arabic {
     direction: rtl;
 }
-.kal-service-arabic >aside{
+.kal-service-arabic > aside {
     right: unset;
     left: 0;
 }
-.kal-service-arabic > aside > img{
+.kal-service-arabic > aside > img {
     border-right: 4px solid #2fc977;
     border-left: unset;
 }
 .kal-document-arabic .kal-document-2 {
     direction: rtl;
 }
-.kal-document-arabic .kal-document-2 > :first-child > div > div{
+.kal-document-arabic .kal-document-2 > :first-child > div > div {
     left: unset;
     right: -20px;
 }
