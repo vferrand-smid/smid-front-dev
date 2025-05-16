@@ -61,7 +61,7 @@ export default function Carousel({ translations, isArabic }) {
                             {translations.repeteur_etape?.map((item, index) => (
                                 <div
                                     key={index}
-                                    className={`transition-shadow duration-1000 ease-in-out ${index === currentDesktop ? 'block' : 'hidden'}`}
+                                    className={`transition-shadow duration-1000 ease-in-out ${index === currentDesktop ? 'flex justify-center' : 'hidden'}`}
                                 >
                                     <Image
                                         src={item.image_repeteur_etape}
@@ -69,10 +69,11 @@ export default function Carousel({ translations, isArabic }) {
                                         width={500}
                                         height={300}
                                         loading='lazy'
-                                        className='entered lazyloaded flex self-center'
+                                        className='entered lazyloaded'
                                     />
                                 </div>
                             ))}
+
                             <div className='mt-4 flex items-center justify-between'>
                                 <ArrowButton direction='left' onClick={() => handleArrowClickDesktop('left')} />
                                 <ArrowButton direction='right' onClick={() => handleArrowClickDesktop('right')} />
