@@ -54,7 +54,7 @@ export default function ClientPortableText({ content }) {
                 marks: {
                     link: ({ children, value }) => {
                         const href = value?.href || '#';
-                        const isAnchor = href.startsWith('#');
+                        const isAnchor = value.href?.startsWith('#');
 
                         const handleClick = (e) => {
                             if (isAnchor) {
@@ -70,7 +70,7 @@ export default function ClientPortableText({ content }) {
                             <a
                                 href={href}
                                 onClick={handleClick}
-                                className='text-blue-600 underline'
+                                className={`text-blue-600 ${isAnchor ? 'no-underline' : 'underline'} hover:text-blue-800`}
                                 target={isAnchor ? undefined : '_blank'}
                                 rel={isAnchor ? undefined : 'noopener noreferrer'}
                             >
