@@ -349,68 +349,66 @@
         ]
     },
 
-    "Bloc6": {
-        "titre_bloc6_1": "Le",
-        "titre_bloc6_2": "photo, pour tous vos documents officiels",
-        "titre_bloc6_span": "bon format",
-        "documents": [
-            {
-                "titre_doc": "Permis de conduire",
-                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
-            },
-            {
-                "titre_doc": "Passeport",
-                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
-            },
-            {
-                "titre_doc": "Carte nationale d'identité",
-                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
-            },
-            {
-                "titre_doc": "Titre de séjour",
-                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
-            },
-            {
-                "titre_doc": "Carte vitale",
-                "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
-            }
-        ],
-        "bloc_photo": [
-            {
-                "impressionPhoto": "Impression photo",
-                "paragraphe": "Recevez vos photos imprimées sous 2 à 5 jours ouvrés ou utilisez le format reçu pour les imprimer vous-même dans des points de vente équipés de bornes photo",
-                "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
-                "partenaires": [
-                    {
-                        "nom_partenaire": "Smartphone iD",
-                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
-                    },
-                    {
-                        "nom_partenaire": "E. Leclerc",
-                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
-                    },
-                    {
-                        "nom_partenaire": "Auchan",
-                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
-                    },
-                    {
-                        "nom_partenaire": "Intermarché",
-                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
-                    },
-                    {
-                        "nom_partenaire": "Carrefour",
-                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
-                    },
-                    {
-                        "nom_partenaire": "fnac",
-                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
-                    },
-                    {
-                        "nom_partenaire": "Cewe",
-                        "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
-                    }
-                ]
-            }
+  "Bloc6": {
+    "titre_bloc6_1": "Le",
+    "titre_bloc6_2": "photo, pour tous vos documents officiels",
+    "titre_bloc6_span": "bon format",
+    "documents": [
+      {
+        "titre_doc": "Permis de conduire",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-permis-conduire.png"
+      },
+      {
+        "titre_doc": "Passeport",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-passeport.png"
+      },
+      {
+        "titre_doc": "Carte nationale d'identité",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-identite.png"
+      },
+      {
+        "titre_doc": "Titre de séjour",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-titre-sejour.png"
+      },
+      {
+        "titre_doc": "Carte vitale",
+        "img_doc": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/photo-identite-pour-carte-vitale.png"
+      }
+    ],
+    "bloc_photo": [
+      {
+        "impressionPhoto": "Impression photo",
+        "paragraphe": "Recevez vos photos imprimées sous 2 à 5 jours ouvrés ou utilisez le format reçu pour les imprimer vous-même dans des points de vente équipés de bornes photo",
+        "planche_photo": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/imprimer-photo-identite-en-ligne.png",
+        "partenaires": [
+          {
+            "nom_partenaire": "Smartphone iD",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/05/smartphone-iD.png"
+          },
+          {
+            "nom_partenaire": "E. Leclerc",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/E.Leclerc.png"
+          },
+          {
+            "nom_partenaire": "Auchan",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Auchan.png"
+          },
+          {
+            "nom_partenaire": "Intermarché",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Intermarche.png"
+          },
+          {
+            "nom_partenaire": "Carrefour",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Carrefour.png"
+          },
+          {
+            "nom_partenaire": "fnac",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/fnac.png"
+          },
+          {
+            "nom_partenaire": "Cewe",
+            "img_partenaire": "https://www.dev.smartphone-id.com/wp-content/uploads/2024/06/Cewe.png"
+          }
         ]
     },
 

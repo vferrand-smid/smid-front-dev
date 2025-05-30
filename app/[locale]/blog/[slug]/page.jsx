@@ -1,5 +1,5 @@
-// app/[locale]/blog/[slug]/page.jsx
 export const dynamic = 'force-dynamic';
+
 import ClientPortableText from '@/app/components/ClientPortableText';
 import { getCanonicalLocale } from '@/utils/getCanonicalLocale';
 import { draftMode } from 'next/headers';
@@ -7,51 +7,44 @@ import { notFound } from 'next/navigation';
 import { previewClient, sanityClient } from '../../../lib/sanity/client';
 
 export async function generateStaticParams() {
-    const pages = await sanityClient.fetch(`*[_type == "page" && !trashed]{ "slug": slug.current, locale }`);
-    return pages.map(({ slug, locale }) => ({ slug, locale }));
+  const pages = await sanityClient.fetch(`*[_type == "page" && !trashed]{ "slug": slug.current, locale }`);
+  return pages.map(({ slug, locale }) => ({ slug, locale }));
 }
 
 export default async function BlogPostPage({ params }) {
-    const rawLocale = params?.locale || 'fr-FR';
-    const locale = await getCanonicalLocale(rawLocale);
+  const rawLocale = params?.locale || 'fr-FR';
+  const locale = await getCanonicalLocale(rawLocale);
+  const { slug } = params;
+  const { isEnabled } = await draftMode();
 
-    const { slug } = params;
-    const { isEnabled } = await draftMode();
+  const client = isEnabled ? previewClient : sanityClient;
 
-    console.log('🧩 slug actuel :', params.slug);
+  const post = await client.fetch(
+    `*[
+        _type == "page" && 
+        slug.current == $slug &&
+        locale == $locale &&
+        (!defined(status) || status == "publish")
+      ][0] {
+        title,
+        slug,
+        content,
+        featuredMedia
+      }`,
+    { slug, locale }
+  );
 
-    const client = isEnabled ? previewClient : sanityClient;
+  if (!post) {
+    return notFound();
+  }
 
-    console.log('🔍 Requête avec slug et locale:', { slug, locale });
-
-    const post = await client.fetch(
-        `*[
-              _type == "page" && 
-              slug.current == $slug &&
-              locale == $locale &&
-              (!defined(status) || status == "publish")
-            ][0] {
-              title,
-              slug,
-              content,
-              featuredMedia
-            }`,
-        { slug, locale }
+  if (!post.content) {
+    return (
+      <article className="p-10 text-center text-red-500">
+        Contenu vide pour cet article.
+      </article>
     );
-
-    console.log('🧾 Post récupéré depuis Sanity:', post);
-    console.log('contenu', post.content);
-    console.log('titre', post.title);
-
-    if (!post) {
-        console.warn('⚠️ Aucun post trouvé pour :', { slug, locale });
-        return notFound();
-    }
-
-    if (!post.content) {
-        console.warn('⚠️ Article trouvé mais sans contenu :', post);
-        return <article className='p-10 text-center text-red-500'>Contenu vide pour cet article.</article>;
-    }
+  }
 
     return (
         <article className='mx-auto grid max-w-6xl grid-cols-1 gap-12 px-4 py-8 sm:px-6 md:px-10 lg:grid-cols-3 lg:px-8 xl:px-32'>
@@ -60,28 +53,38 @@ export default async function BlogPostPage({ params }) {
                 <ClientPortableText content={post.content} />
             </div>
 
-            <aside className='lg:col-span-1'>
-                <div className='sticky top-32 mx-auto w-full max-w-[320px] rounded-xl border p-4 shadow'>
-                    Widget à venir
-                    <ul>
-                        <li>
-                            <a href='#'>
-                                <span>Table des matières</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#'>
-                                <span>Table des matières</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#'>
-                                <span>Table des matières</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </aside>
+
+    {/* Bandeau à droite */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-20 rounded-2xl shadow-xl border border-gray-200 p-6 bg-white text-center">
+              <h2 className="text-green-600 text-lg font-semibold mb-2">
+                Téléchargez notre application gratuitement !
+              </h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Réalisez vos photos d'identité en ligne depuis votre smartphone
+                et recevez-les par email et/ou par courrier.
+              </p>
+              <img
+                src="/images/app-banner-fr.png"
+                alt="Application smartphone photo d'identité"
+                className="mx-auto mb-4 rounded-lg shadow-sm"
+              />
+              <div className="flex justify-center gap-2 mt-4">
+                <img
+                  src="/images/General/Download_on_the_App_Store_Badge_FR_blk_100517.webp"
+                  alt="Télécharger sur l'App Store"
+                  className="h-10"
+                />
+                <img
+                  src="/images/General/google-play-badge.webp"
+                  alt="Disponible sur Google Play"
+                  className="h-10"
+                />
+              </div>
+            </div>
+          </aside>
+
         </article>
     );
 }
+
