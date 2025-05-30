@@ -3,6 +3,9 @@ module.exports = {
     content: ['./pages/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
     theme: {
         extend: {
+            scrollMargin: {
+                30: '120px', // scroll-mt-30 → 120px
+            },
             /* screens: {
                 'max-w-900': { max: '900px' }, // Ajoute un breakpoint jusqu'à 900px
             },*/
@@ -12,6 +15,7 @@ module.exports = {
             colors: {
                 gris: '#1e1e1e',
                 primary: '#2FC977',
+                h1: '#444444',
             },
 
             fontFamily: {
