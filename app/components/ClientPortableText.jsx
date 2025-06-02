@@ -21,13 +21,13 @@ export default function ClientPortableText({ content }) {
                     },
                 },
                 block: {
-                    h1: ({ children }) => <h1 className='text-h1 my-6 text-3xl'>{children}</h1>,
+                    h1: ({ children }) => <h1 className='my-6 text-3xl text-h1'>{children}</h1>,
                     h2: ({ children, value }) => {
                         const isTOC = typeof children?.[0] === 'string' && children[0].toLowerCase().includes('table des matières');
                         const text = children?.[0] || '';
                         const slug = typeof text === 'string' ? text.toLowerCase().replace(/[^\w]+/g, '-') : '';
                         return (
-                            <h2 id={slug} className={`scroll-mt-30 text-h1 my-5 ${isTOC ? 'text-[17px] font-semibold' : 'text-[34px]'}`}>
+                            <h2 id={slug} className={`my-5 scroll-mt-30 text-h1 ${isTOC ? 'text-[17px] font-semibold' : 'text-[34px]'}`}>
                                 {children}
                             </h2>
                         );
@@ -36,7 +36,7 @@ export default function ClientPortableText({ content }) {
                         const text = children?.[0] || '';
                         const slug = typeof text === 'string' ? text.toLowerCase().replace(/[^\w]+/g, '-') : '';
                         return (
-                            <h3 id={slug} className='scroll-mt-30 text-h1 my-5 text-2xl'>
+                            <h3 id={slug} className='my-5 scroll-mt-30 text-2xl text-h1'>
                                 {children}
                             </h3>
                         );
@@ -48,8 +48,8 @@ export default function ClientPortableText({ content }) {
                     number: ({ children }) => <ol className='my-2 ml-6 list-decimal'>{children}</ol>,
                 },
                 listItem: {
-                    bullet: ({ children }) => <li className='mb-1'>{children}</li>,
-                    number: ({ children }) => <li className='mb-1'>{children}</li>,
+                    bullet: ({ children }) => <li className=''>{children}</li>,
+                    number: ({ children }) => <li className=''>{children}</li>,
                 },
                 marks: {
                     link: ({ children, value }) => {
